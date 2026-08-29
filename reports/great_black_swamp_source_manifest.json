@@ -1,0 +1,16 @@
+[
+  {
+    "source": "Ohio DNR Original Natural Vegetation of Ohio",
+    "url": "https://gis.ohiodnr.gov/geodata/Statewide/OriginalVegetationOhio.zip",
+    "local_path": "data/raw/ohiodnr/original_vegetation_ohio/OriginalVegetationOhio.zip",
+    "sha256": "B85529757FED6E5DB7E66EBFEF4A784735AA135575E19DE8F9995A67A940B0F8",
+    "retrieved_date": "2026-08-29"
+  },
+  {
+    "source": "H2Ohio History of the Great Black Swamp educational PDF",
+    "url": "https://dam.assets.ohio.gov/image/upload/h2.ohio.gov/STA/History_of_the_Great_Black_Swamp.pdf",
+    "local_path": "data/raw/h2ohio/History_of_the_Great_Black_Swamp.pdf",
+    "sha256": "CEABB55D8A53EF3B964BBC54E24732ECBA8B6251AF4EF1C34FAB58087DC4DF39",
+    "retrieved_date": "2026-08-29"
+  }
+]

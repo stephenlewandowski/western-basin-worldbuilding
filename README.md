@@ -18,6 +18,8 @@ Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 
 
 See [PROJECT_STATUS.md](PROJECT_STATUS.md) and the [Phase 1 handoff](reports/water_system_phase1_handoff.md).
 
+Phase 1 follow-up QA has produced a [Great Black Swamp source review](reports/great_black_swamp_geometry_source_review.md) and [human-review map](outputs/qa/great_black_swamp_geometry_review.png). Human decision: **C — HOLD**. The method is resolved, but the candidate remains outside the canonical GeoPackage and the direct-source gap remains open without blocking current development.
+
 ## Current Canon
 
 The current v0.1 working model has five macroregions:
@@ -59,6 +61,8 @@ metadata/               systems, sources, and scenario assumptions
 outputs/maps/systems/   validated PNG/SVG analytical map pairs
 outputs/figures/        network and independent R validation renders
 reports/                handoff, QA, sources, assumptions, import status
+outputs/qa/              review-only historical geometry and QA maps
+src/python/qa/           reproducible follow-up QA builders
 src/python/systems/     Python acquisition, construction, rendering, validation
 src/R/systems/          independent R validation and render scripts
 src/game/               retained interactive prototype and tests
@@ -98,6 +102,14 @@ The builder uses cached public-service responses under `data/raw/` when present.
 
 The historical image is an inset reference only. The builder does not digitize it.
 
+### Rebuild the Great Black Swamp review package
+
+This command reads the preserved official ODNR archive and cached USGS/Census context. It writes only under `outputs/qa/` and `reports/`; it does not update the canonical GeoPackage.
+
+```powershell
+.\.venv\Scripts\python.exe src\python\qa\build_great_black_swamp_review.py
+```
+
 ### Validate the retained application prototype
 
 ```powershell
@@ -124,6 +136,8 @@ Phase 2 must not proceed past review without addressing:
 
 The Great Black Swamp image is non-georeferenced. Full-basin upstream connectors encode WBD `tohuc` topology and are visibly/documentarily marked inferred; they are not physical river geometry.
 
+For item 2, source acquisition and candidate QA are complete, but the gate remains open: no directly documented official named-swamp vector was found, and the Gordon/ODNR review candidate is **HOLD / not canonical**.
+
 ## Worldbuilding, Research, and References
 
 The original ChatGPT Project exports are preserved as received. They may contain older exploratory terminology; [current canon status](docs/canon_status.md) governs wherever an imported document conflicts with the current five-region model.
@@ -137,6 +151,7 @@ The original ChatGPT Project exports are preserved as received. They may contain
 ### Research
 
 - [Indigenous Peoples' History](docs/research/Glasspunk_Indigenous_Peoples_History.md) — a separate, sourced research module; no historical GIS reconstruction has begun
+- [Great Black Swamp History](docs/research/Great_Black_Swamp_History.md) — imported contextual deep-history research; it does not supersede the geometry QA review or authorize the held candidate
 
 ### References
 
