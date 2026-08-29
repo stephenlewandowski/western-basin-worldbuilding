@@ -18,11 +18,13 @@ Validated inventory:
 - 14 system nodes
 - 15 dependency edges
 
-## PHASE 2 — NOT STARTED
+## PHASE 2 — IN PROGRESS / HUMAN REVIEW GATE
 
-**Geology / Minerals / Strategic Materials: PLANNED**
+**Phase 2A — Geology / Minerals / Strategic Materials 2026 Baseline: BUILT / QA PASSED / AWAITING HUMAN REVIEW**
 
-No detailed Phase 2 modeling has begun. The Woodville–Elmore–Luckey Materials Corridor is a possible future system/corridor concept, not a sixth macroregion.
+The repository now contains the first real-world Phase 2 baseline: Ohio DNR bedrock and carbonate occurrence, three verified industrial-mineral sites, Materion Elmore as nonlocal-feed advanced processing, Luckey as legacy remediation, Map 06, provenance, and Python/R QA. No detailed future scenario has begun. The Woodville–Elmore–Luckey Materials Corridor remains a possible future system/corridor concept, not a mapped polygon and not a sixth macroregion.
+
+Phase 2A stops for human review. Maps 07–10 and a Phase 2 release have not been created.
 
 ## Open Phase 1 QA gates
 
@@ -31,6 +33,8 @@ No detailed Phase 2 modeling has begun. The Woodville–Elmore–Luckey Material
 3. physical replacement for inferred upstream WBD routing connectors
 
 The non-georeferenced Great Black Swamp image remains reference-only. Fictional 2050 nodes retain null coordinates. Neither condition may be “completed” with guessed geometry.
+
+The gates are tracked in GitHub Issues #1–#3 under the **Phase 2 — Geology / Minerals / Strategic Materials** milestone.
 
 ## Canon state
 

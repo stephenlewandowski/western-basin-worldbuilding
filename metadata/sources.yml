@@ -25,3 +25,39 @@ sources:
   toledo_water:
     name: City of Toledo Water Treatment
     url: https://toledo.oh.gov/departments/public-works/water/water-treatment
+  odnr_bedrock_type:
+    name: Ohio Department of Natural Resources Bedrock Type
+    url: https://gis2.ohiodnr.gov/arcgis/rest/services/DNR_Services/SUBSURFACE/MapServer/5
+    dataset_date: 2006 compilation; source quadrangles largely 1989-1998
+    spatial_resolution: 1:500,000
+  odnr_mineral_industries_2021:
+    name: Ohio Department of Natural Resources 2021 Report on Ohio Mineral Industries
+    url: https://dam.assets.ohio.gov/image/upload/ohiodnr.gov/documents/geology/industrial-minerals-downloads/IM1_2021_Wright_2022.pdf
+  census_tigerweb_transportation:
+    name: U.S. Census Bureau TIGERweb Transportation
+    url: https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Transportation/MapServer
+  census_tigerweb_places:
+    name: U.S. Census Bureau TIGERweb Places
+    url: https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Places_CouSub_ConCity_SubMCD/MapServer
+  arcgis_world_geocoder:
+    name: ArcGIS World Geocoder
+    url: https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer
+    use: Reproducible geocoding of official facility addresses; precision retained per result
+  martin_marietta_woodville:
+    name: Martin Marietta Woodville Lime Facility
+    url: https://www.martinmarietta.com/locations/specialty-products/lime/lime
+  ohio_epa_area_aggregates:
+    name: Ohio EPA NPDES Permit 2IJ00028
+    url: https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/permits/doc/2IJ00028.pdf
+  graymont_genoa:
+    name: Graymont Genoa Facility
+    url: https://www.graymont.com/contact-us/
+  usgs_beryllium_2026:
+    name: USGS Mineral Commodity Summaries 2026 - Beryllium
+    url: https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-beryllium.pdf
+  materion_elmore:
+    name: Materion Elmore Advanced Materials Facility
+    url: https://www.materion.com/de/about-materion/news/beryllium-and-composites/materion-expands-capabilities-for-proprietary-albecast-composites
+  usace_luckey:
+    name: U.S. Army Corps of Engineers Luckey Site
+    url: https://www.lrd.usace.army.mil/Missions/Projects/Article/3613204/luckey-site/

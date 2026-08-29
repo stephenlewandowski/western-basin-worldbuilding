@@ -12,11 +12,11 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 1 — COMPLETE**  
 **Water System v0.1 — COMPLETE / VALIDATED**  
-**Phase 2 — NOT STARTED**
+**Phase 2A — BASELINE BUILT / QA PASSED / AWAITING HUMAN REVIEW**
 
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
-See [PROJECT_STATUS.md](PROJECT_STATUS.md) and the [Phase 1 handoff](reports/water_system_phase1_handoff.md).
+See [PROJECT_STATUS.md](PROJECT_STATUS.md), the [Phase 1 handoff](reports/water_system_phase1_handoff.md), and the [Phase 2A QA gate](reports/materials_system_qa.md).
 
 ## Current Canon
 
@@ -47,6 +47,16 @@ Verified geography and facilities, inferred system structure, historical referen
 - [05 — Water system 2050 scenario](outputs/maps/systems/05_water_system_2050_scenario.png)
 
 Each map is also available as SVG. The [system network diagram](outputs/figures/water_system_network.png) shows the baseline source-to-consumer dependency chain.
+
+## Phase 2A Materials Baseline
+
+Phase 2A adds the first real-world geology, industrial-mineral, strategic-processing, and legacy-remediation layers without changing Phase 1. It distinguishes local carbonate extraction/processing near Woodville and Genoa from nonlocal beryllium feed processed at Elmore, and classifies Luckey as federal legacy cleanup rather than active production.
+
+- [06 — Geology + strategic materials, 2026 baseline](outputs/maps/systems/06_geology_resources_2026.png)
+- [Materials source register](reports/materials_system_sources.md)
+- [Materials QA and human-review gate](reports/materials_system_qa.md)
+
+Map 06 is also available as SVG. No speculative corridor polygon, groundwater-flow direction, production/reserve quantity, future scenario, Map 07–10 product, or Phase 2 release is included.
 
 ## Repository Structure
 
@@ -98,6 +108,17 @@ The builder uses cached public-service responses under `data/raw/` when present.
 
 The historical image is an inset reference only. The builder does not digitize it.
 
+### Rebuild and validate Phase 2A
+
+```powershell
+.\.venv\Scripts\python.exe src\python\systems\build_materials_system.py
+Rscript src\R\systems\validate_materials_system.R .
+Rscript src\R\systems\render_materials_system.R .
+.\.venv\Scripts\python.exe src\python\systems\validate_materials_system.py
+```
+
+The Phase 2A builder appends/replaces only Phase 2 layers in the shared GeoPackage and checks that all Phase 1 layers remain present.
+
 ### Validate the retained application prototype
 
 ```powershell
@@ -116,7 +137,7 @@ Feature status distinguishes:
 
 ## Known QA Issues
 
-Phase 2 must not proceed past review without addressing:
+The open Phase 1 gates remain tracked while Phase 2A is held for review:
 
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry
@@ -132,7 +153,7 @@ The original ChatGPT Project exports are preserved as received. They may contain
 
 - [Original Glasspunk Toledo project outline](docs/worldbuilding/Glasspunk_Toledo_Project_Outline.md)
 - [Current regional and systems atlas](docs/worldbuilding/Glasspunk_Regional_and_Systems_Atlas_v0.1.md)
-- [Geology, strategic materials, and Codex prompts](docs/worldbuilding/Glasspunk_Geology_Strategic_Materials_Addendum_and_Codex_Prompts.md) — planning specification for Phase 2; no Phase 2 modeling has begun
+- [Geology, strategic materials, and Codex prompts](docs/worldbuilding/Glasspunk_Geology_Strategic_Materials_Addendum_and_Codex_Prompts.md) — governing specification for the Phase 2A baseline and later review-gated work
 
 ### Research
 
@@ -152,10 +173,10 @@ Three sketchbook sheets are preserved under [assets/concept_art](assets/concept_
 1. Human review of the Phase 1 repository and open QA gates
 2. Review the imported worldbuilding, research, and reference documents against the explicit canon hierarchy
 3. Reconcile intake and historical swamp geography
-4. Plan Phase 2 from the imported geology/minerals/strategic-materials specification
-5. Evaluate the Woodville–Elmore–Luckey Materials Corridor as a cross-regional system/corridor concept
+4. Human review of the Phase 2A Map 06 classifications, facility precision, and carbonate filter
+5. After approval, design the carbonate and beryllium network maps without assuming a corridor polygon
 
-Detailed Phase 2 modeling is intentionally not included in v0.1.
+Detailed Phase 2 future modeling remains outside the v0.1 water release and is not included in Phase 2A.
 
 ## Licensing / Attribution
 

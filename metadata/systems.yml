@@ -11,3 +11,16 @@ systems:
     reality_statuses: [real, historical, fictional]
     canon_statuses: [verified, inferred, scenario, experimental]
     scenario_years: [2026, 2035, 2050, 2075, 2100]
+  materials:
+    system_id: SYS-MATERIALS
+    priority: 2
+    status: phase_2a_human_review
+    baseline_year: 2026
+    question: What physical resources and strategic-processing capabilities exist in the Western Basin region in 2026?
+    spatial_store: data/processed/glasspunk_base.gpkg
+    publication_map: outputs/maps/systems/06_geology_resources_2026.png
+    layers: [geology_carbonate_units, industrial_mineral_sites, strategic_material_sites, legacy_remediation_sites]
+    supply_chain_roles: [geologic_occurrence, extraction, primary_processing, advanced_processing, fabrication, logistics, end_use, legacy_cleanup]
+    reality_statuses: [real, historical, fictional]
+    canon_statuses: [verified, inferred, scenario, experimental]
+    restrictions: [no speculative corridor polygon, no detailed future scenario in Phase 2A, no sixth macroregion]
