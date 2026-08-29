@@ -64,6 +64,10 @@ src/R/systems/          independent R validation and render scripts
 src/game/               retained interactive prototype and tests
 ```
 
+## Retained Interactive Prototype
+
+The Vite/TypeScript application is **Glasspunk: Blackout at Vesper Station**, a compact, accessible browser-game prototype set in the fictional world. It demonstrates one possible fiction/game use of the Western Basin setting and is separate from the systems-atlas pipelines; it is intentionally retained with its 22 tests.
+
 ## Reproducing Phase 1
 
 Commands below are repository-relative and reflect the current scripts.
@@ -120,11 +124,24 @@ Phase 2 must not proceed past review without addressing:
 
 The Great Black Swamp image is non-georeferenced. Full-basin upstream connectors encode WBD `tohuc` topology and are visibly/documentarily marked inferred; they are not physical river geometry.
 
-## Worldbuilding Documents
+## Worldbuilding, Research, and References
 
-The expected ChatGPT Project Markdown exports were unavailable during migration and were not reconstructed. Their status and intended destinations are recorded in [reports/chatgpt_project_import_status.md](reports/chatgpt_project_import_status.md).
+The original ChatGPT Project exports are preserved as received. They may contain older exploratory terminology; [current canon status](docs/canon_status.md) governs wherever an imported document conflicts with the current five-region model.
 
-Current working canon is documented independently so older exploratory concepts can be preserved without being silently rewritten.
+### Worldbuilding
+
+- [Original Glasspunk Toledo project outline](docs/worldbuilding/Glasspunk_Toledo_Project_Outline.md)
+- [Current regional and systems atlas](docs/worldbuilding/Glasspunk_Regional_and_Systems_Atlas_v0.1.md)
+- [Geology, strategic materials, and Codex prompts](docs/worldbuilding/Glasspunk_Geology_Strategic_Materials_Addendum_and_Codex_Prompts.md) — planning specification for Phase 2; no Phase 2 modeling has begun
+
+### Research
+
+- [Indigenous Peoples' History](docs/research/Glasspunk_Indigenous_Peoples_History.md) — a separate, sourced research module; no historical GIS reconstruction has begun
+
+### References
+
+- [Worldbuilding references](docs/references/Glasspunk_Worldbuilding_References.md) — access notes, reading order, and project-specific lessons
+- [ChatGPT Project import status](reports/chatgpt_project_import_status.md)
 
 ## Concept Art
 
@@ -133,10 +150,10 @@ Three sketchbook sheets are preserved under [assets/concept_art](assets/concept_
 ## Roadmap
 
 1. Human review of the Phase 1 repository and open QA gates
-2. Import the missing original ChatGPT Project Markdown exports
+2. Review the imported worldbuilding, research, and reference documents against the explicit canon hierarchy
 3. Reconcile intake and historical swamp geography
-4. Plan Phase 2: Geology / Minerals / Strategic Materials
-5. Evaluate the Woodville–Elmore–Luckey Materials Corridor as a system/corridor concept
+4. Plan Phase 2 from the imported geology/minerals/strategic-materials specification
+5. Evaluate the Woodville–Elmore–Luckey Materials Corridor as a cross-regional system/corridor concept
 
 Detailed Phase 2 modeling is intentionally not included in v0.1.
 
