@@ -1,0 +1,45 @@
+{
+  "geometry_id": "great_black_swamp_candidate_gordon1966",
+  "status": "HOLD_review_only_not_canonical",
+  "source_archive": "data/raw/ohiodnr/original_vegetation_ohio/OriginalVegetationOhio.zip",
+  "source_archive_sha256": "B85529757FED6E5DB7E66EBFEF4A784735AA135575E19DE8F9995A67A940B0F8",
+  "source_crs": "EPSG:3734",
+  "source_scale": "1:500,000",
+  "output_crs": "EPSG:4326",
+  "source_feature_count_total": 1632,
+  "source_invalid_feature_count_total": 2,
+  "selected_source_feature_count": 117,
+  "selected_invalid_feature_count_before_repair": 0,
+  "candidate_valid": true,
+  "candidate_empty": false,
+  "candidate_geometry_type": "MultiPolygon",
+  "candidate_component_count": 116,
+  "candidate_disconnected_fragment_count": 115,
+  "candidate_area_km2": 4672.66,
+  "largest_component_km2": 2759.07,
+  "counties_intersected": 18,
+  "watersheds_intersected": 8,
+  "selection_huc8s": [
+    "04100003",
+    "04100004",
+    "04100005",
+    "04100006",
+    "04100007",
+    "04100008",
+    "04100009",
+    "04100010"
+  ],
+  "selection_rule": "VEG_CDE=4 and representative point within named target HUC8 union",
+  "geometry_operations": [
+    "make_valid only where required",
+    "unary union / dissolve"
+  ],
+  "prohibited_operations_confirmed_absent": [
+    "image tracing",
+    "georeferencing",
+    "buffer",
+    "smoothing",
+    "hand edit"
+  ],
+  "retrieved_date": "2026-08-29"
+}

@@ -25,3 +25,27 @@ sources:
   toledo_water:
     name: City of Toledo Water Treatment
     url: https://toledo.oh.gov/departments/public-works/water/water-treatment
+  odnr_original_natural_vegetation_3135:
+    name: Ohio DNR Original Natural Vegetation of Ohio (dataset 3135)
+    url: https://gis.ohiodnr.gov/geodata/Statewide/OriginalVegetationOhio.zip
+    original_source: Robert B. Gordon, Natural Vegetation of Ohio at the Time of the Earliest Land Surveys, 1966
+    source_scale: "1:500,000"
+    digital_provenance: ODNR polygon digitization created for land-use analysis circa 2003
+    crs: EPSG:3734
+    update_frequency: none planned
+    use_limit: Data distributed as-is; user determines fitness; see preserved official metadata and disclaimer.
+  h2ohio_great_black_swamp_history:
+    name: H2Ohio / Ohio DNR — The History of the Great Black Swamp and Its Evolution Over Time
+    url: https://dam.assets.ohio.gov/image/upload/h2.ohio.gov/STA/History_of_the_Great_Black_Swamp.pdf
+    use: Official rendered comparison only; no public underlying vector or methodology located; do not trace.
+  census_tigerweb_context:
+    name: U.S. Census Bureau TIGERweb State/County and Places context
+    url: https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb
+  indiana_presettlement_land_cover_2016:
+    name: Indiana DNR / Indiana GIO Presettlement Land Cover IDNR 2016
+    url: https://gisdata.in.gov/server/rest/services/Hosted/Presettlement_Land_Cover_IDNR_2016/FeatureServer/0
+    use: Interstate compatibility review only; not merged.
+  michigan_vegetation_circa_1800:
+    name: Michigan Natural Features Inventory Vegetation circa 1800
+    url: https://mnfi.anr.msu.edu/resources/vegetation-circa-1800
+    use: Interstate compatibility review only; not merged.
