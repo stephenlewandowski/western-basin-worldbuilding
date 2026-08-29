@@ -1,0 +1,15 @@
+{
+  "system": "water",
+  "version": "0.1",
+  "built": "2026-08-29",
+  "layers": {
+    "huc8": 7,
+    "huc12": 252,
+    "flow": 864,
+    "connectors": 251,
+    "lake": 10,
+    "wetlands": 608
+  },
+  "nodes": 14,
+  "edges": 15
+}

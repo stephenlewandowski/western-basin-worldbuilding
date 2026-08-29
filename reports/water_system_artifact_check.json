@@ -1,0 +1,34 @@
+{
+  "status": "passed",
+  "map_pairs": 5,
+  "gpkg_layers": [
+    "water_current_wetlands_25ac",
+    "water_flowlines_order3",
+    "water_huc12_routing_inferred",
+    "water_lake_erie",
+    "water_subwatersheds_huc12",
+    "water_verified_facilities",
+    "water_watersheds_huc8"
+  ],
+  "nodes": 14,
+  "edges": 15,
+  "checked_files": [
+    "outputs\\maps\\systems\\01_water_baseline_2026.png",
+    "outputs\\maps\\systems\\01_water_baseline_2026.svg",
+    "outputs\\maps\\systems\\02_maumee_nutrient_network.png",
+    "outputs\\maps\\systems\\02_maumee_nutrient_network.svg",
+    "outputs\\maps\\systems\\03_black_swamp_drainage_system.png",
+    "outputs\\maps\\systems\\03_black_swamp_drainage_system.svg",
+    "outputs\\maps\\systems\\04_lake_erie_hab_intake_dependency.png",
+    "outputs\\maps\\systems\\04_lake_erie_hab_intake_dependency.svg",
+    "outputs\\maps\\systems\\05_water_system_2050_scenario.png",
+    "outputs\\maps\\systems\\05_water_system_2050_scenario.svg",
+    "outputs\\figures\\water_system_network.png",
+    "outputs\\figures\\water_system_network.svg",
+    "outputs\\figures\\water_system_R_validation.png",
+    "reports\\water_system_sources.md",
+    "reports\\water_system_assumptions.md",
+    "reports\\water_system_qa.md",
+    "reports\\water_system_phase1_handoff.md"
+  ]
+}

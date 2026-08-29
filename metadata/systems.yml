@@ -1,0 +1,13 @@
+version: "0.1"
+systems:
+  water:
+    system_id: SYS-WATER
+    priority: 1
+    baseline_year: 2026
+    question: How does material move from Northwest Ohio land into Lake Erie and back into Toledo's drinking-water system?
+    spatial_store: data/processed/glasspunk_base.gpkg
+    node_table: data/processed/networks/water_system_nodes.csv
+    edge_table: data/processed/networks/water_system_edges.csv
+    reality_statuses: [real, historical, fictional]
+    canon_statuses: [verified, inferred, scenario, experimental]
+    scenario_years: [2026, 2035, 2050, 2075, 2100]

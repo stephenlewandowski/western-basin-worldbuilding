@@ -1,0 +1,22 @@
+version: "0.1"
+assumptions:
+  - assumption_id: water-2050-wetland-cells
+    scenario_year: 2050
+    status: fictional
+    confidence: scenario
+    assumption: Restored wetland treatment cells exist as distributed interventions, with uneven performance and no assumed basin-wide success.
+  - assumption_id: water-2050-samplers
+    scenario_year: 2050
+    status: fictional
+    confidence: scenario
+    assumption: Autonomous sampling fleets add event-driven observations but remain vulnerable to gaps, maintenance failures, and spoofing.
+  - assumption_id: water-2050-intake-ops
+    scenario_year: 2050
+    status: fictional
+    confidence: scenario
+    assumption: Watershed retention and treatment decisions can be coordinated with intake conditions; authority, consent, and model reliability remain unresolved.
+  - assumption_id: water-2050-health-warning
+    scenario_year: 2050
+    status: fictional
+    confidence: scenario
+    assumption: Neighborhood warning systems connect utility water-quality status to public-health communications; individual exposure records are out of scope.

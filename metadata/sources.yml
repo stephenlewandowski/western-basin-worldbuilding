@@ -1,0 +1,27 @@
+version: "0.1"
+retrieval_policy: Public, authoritative, non-sensitive sources; raw responses cached under data/raw.
+sources:
+  usgs_wbd:
+    name: USGS Watershed Boundary Dataset
+    url: https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer
+  usgs_nhdplus_hr:
+    name: USGS NHDPlus High Resolution
+    url: https://hydro.nationalmap.gov/arcgis/rest/services/NHDPlus_HR/MapServer
+  usfws_nwi:
+    name: USFWS National Wetlands Inventory
+    url: https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer
+  epa_maumee_tmdl:
+    name: US EPA Maumee Watershed Nutrient TMDL
+    url: https://www.epa.gov/tmdl/epas-approval-ohios-maumee-watershed-nutrient-total-maximum-daily-load
+  epa_lake_erie:
+    name: US EPA Lake Erie Water Quality Data
+    url: https://www.epa.gov/glwqa/lake-erie-water-quality-data
+  noaa_hab:
+    name: NOAA NCCOS Lake Erie HAB Forecast
+    url: https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/lake-erie/
+  glos_intake:
+    name: GLOS / IOOS City of Toledo Water Intake Crib station
+    url: https://erddap.sensors.axds.co/erddap/tabledap/glos_crib.html
+  toledo_water:
+    name: City of Toledo Water Treatment
+    url: https://toledo.oh.gov/departments/public-works/water/water-treatment
