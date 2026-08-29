@@ -1,0 +1,155 @@
+:root {
+  color: #ffffff;
+  background: #000000;
+  font-family: "Courier New", monospace;
+  font-synthesis: none;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #000000;
+}
+
+button {
+  border: 2px solid #ffffff;
+  background: #000000;
+  color: #ffffff;
+  font: inherit;
+  padding: 0.45rem 0.5rem;
+  cursor: pointer;
+}
+
+button:hover, button:focus-visible, button.selected {
+  color: #000000;
+  background: #55ffff;
+  outline: none;
+}
+
+#app {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+}
+
+.game-shell {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  width: min(100%, 900px);
+}
+
+.screen-wrap {
+  flex: 1 1 auto;
+  min-width: 0;
+  border: 4px solid #ffffff;
+  background: #000000;
+  box-shadow: 8px 8px 0 #ff55ff;
+}
+
+canvas {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 8 / 5;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  background: #000000;
+}
+
+.hud {
+  width: 220px;
+  border: 2px solid #ffffff;
+  padding: 0.75rem;
+  background: #000000;
+  box-shadow: 6px 6px 0 #55ffff;
+}
+
+.hud-block { margin-bottom: 1rem; }
+
+.hud h2 {
+  color: #55ffff;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  margin: 0 0 0.5rem;
+}
+
+.item-list, .evidence-list {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.item-list button, .evidence-list button {
+  width: 100%;
+  font-size: 0.72rem;
+  text-align: left;
+}
+
+.evidence-list p, .item-list p {
+  color: #ffffff;
+  font-size: 0.72rem;
+  margin: 0;
+}
+
+.case-review {
+  border-top: 2px solid #ff55ff;
+  padding-top: 0.5rem;
+}
+
+.case-review h2 {
+  margin-bottom: 0.35rem;
+}
+
+.case-review p {
+  color: #ff55ff;
+  font-size: 0.65rem;
+  margin: 0.45rem 0 0.25rem;
+}
+
+.case-review > button {
+  margin-bottom: 0.3rem;
+}
+
+.case-review-actions {
+  display: grid;
+  gap: 0.3rem;
+  margin-top: 0.5rem;
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.35rem;
+}
+
+.controls button { font-size: 0.7rem; }
+
+.help {
+  color: #ffffff;
+  font-size: 0.68rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@media (max-width: 700px) {
+  #app { align-items: start; }
+  .game-shell { flex-direction: column; }
+  .hud { width: 100%; }
+  .controls { grid-template-columns: repeat(4, 1fr); }
+}
