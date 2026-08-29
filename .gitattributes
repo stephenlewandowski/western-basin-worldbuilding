@@ -1,0 +1,2 @@
+# Preserve the imported research note byte-for-byte, including authored Markdown hard breaks.
+docs/research/Great_Black_Swamp_History.md whitespace=-trailing-space

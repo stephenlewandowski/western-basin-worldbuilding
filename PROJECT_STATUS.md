@@ -32,7 +32,7 @@ No detailed Phase 2 modeling has begun. The Woodville–Elmore–Luckey Material
 
 The non-georeferenced Great Black Swamp image remains reference-only. Fictional 2050 nodes retain null coordinates. Neither condition may be “completed” with guessed geometry.
 
-Great Black Swamp source research is complete enough for human review: official ODNR dataset 3135 was preserved and audited, no documented direct official named-swamp vector was located, and a review-only Gordon (1966) class-4 candidate was generated under `outputs/qa/`. The candidate is **HOLD / not canonical** and the QA gate remains open pending an A/B/C/D decision. See [the geometry source review](reports/great_black_swamp_geometry_source_review.md).
+Great Black Swamp historical geometry: Phase 1 QA research is complete. Official ODNR dataset 3135 was preserved and audited; a Gordon (1966) class-4 candidate was produced and validated under `outputs/qa/`. Human decision: **C — HOLD**. The method is resolved, the geometry remains a noncanonical candidate, and the direct official extent source gap remains open. This item no longer blocks current Water System or Phase 2 development. See [the geometry source review](reports/great_black_swamp_geometry_source_review.md).
 
 ## Canon state
 

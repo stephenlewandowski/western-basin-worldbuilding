@@ -29,6 +29,8 @@ from shapely import make_valid
 from shapely.geometry import mapping
 from shapely.ops import unary_union
 
+matplotlib.rcParams["svg.hashsalt"] = "western-basin-phase1-gbs-qa"
+
 
 ROOT = Path(__file__).resolve().parents[3]
 RAW = ROOT / "data" / "raw"
@@ -255,8 +257,11 @@ def build_candidate(
                 "boundary_uncertainty": "high; vegetation boundaries at 1:500,000 are not a named-swamp survey",
                 "class_uncertainty": "medium; Elm-Ash class omits marsh, wet prairie, and bottomland types",
                 "interstate_compatibility": "not merged; Indiana and Michigan require class/scale/terms crosswalk",
-                "human_review_status": "HOLD — choose A/B/C/D before canonical adoption",
-                "canonical_status": "review_only_not_canonical",
+                "method_status": "resolved",
+                "geometry_status": "candidate",
+                "canonical_status": "hold",
+                "source_gap": "direct official Great Black Swamp geometry or documented derivation remains unresolved",
+                "human_review_status": "C — HOLD (recorded 2026-08-29)",
                 "notes": "Regional historical reference only; not for parcel, restoration-targeting, or fine-scale hydrology",
                 "selection_huc8s": ",".join(TARGET_HUC8S),
                 "source_feature_count": len(selected),
@@ -447,7 +452,7 @@ def render_map(
 
     fig.savefig(QA / "great_black_swamp_geometry_review.png", dpi=220, bbox_inches="tight")
     svg_path = QA / "great_black_swamp_geometry_review.svg"
-    fig.savefig(svg_path, bbox_inches="tight")
+    fig.savefig(svg_path, bbox_inches="tight", metadata={"Date": None})
     # Matplotlib writes insignificant line-end spaces in path data. Normalize
     # them so repository whitespace validation remains clean and deterministic.
     svg_text = svg_path.read_text(encoding="utf-8")
@@ -474,7 +479,7 @@ def write_qa(
     huc_table.to_csv(REPORTS / "great_black_swamp_candidate_watershed_intersections.csv", index=False)
     qa = {
         "geometry_id": "great_black_swamp_candidate_gordon1966",
-        "status": "HOLD_review_only_not_canonical",
+        "status": "method_resolved_geometry_candidate_canonical_hold",
         "source_archive": str(ODNR_ZIP.relative_to(ROOT)).replace("\\", "/"),
         "source_archive_sha256": sha256(ODNR_ZIP),
         "source_crs": str(source.crs),

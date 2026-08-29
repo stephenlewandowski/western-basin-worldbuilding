@@ -4,13 +4,22 @@ Phase 1 Water System v0.1 follow-up QA
 
 Review date: 2026-08-29
 
-Status: **HOLD — review candidate only; GitHub issue remains open**
+Status: **C — HOLD — method resolved; review candidate remains noncanonical; GitHub issue remains open**
 
 ## Executive Finding
 
 No publicly documented, directly authoritative vector named “Great Black Swamp” was located. The strongest reproducible Ohio evidence is the Ohio Department of Natural Resources (ODNR) distribution of *Original Natural Vegetation of Ohio*, dataset 3135, which digitizes Robert B. Gordon’s 1966 map. Its `VEG_CDE=4` class is “Elm-Ash Swamp Forests.” That class is defensible as a regional swamp-forest evidence layer, but it is not synonymous with the named Great Black Swamp, its conventional envelope, or its drainage area.
 
-One review-only MultiPolygon, `great_black_swamp_candidate_gordon1966`, was generated from unmodified class-4 source polygons using a named-basin selection rule. It was not added to `data/processed/glasspunk_base.gpkg`. Recommendation: **C — HOLD** while ODNR/H2Ohio is asked whether the vector behind its published “Extent of swamp” map can be released.
+One review-only MultiPolygon, `great_black_swamp_candidate_gordon1966`, was generated from unmodified class-4 source polygons using a named-basin selection rule. It was not added to `data/processed/glasspunk_base.gpkg`. Human decision: **C — HOLD** unless a more direct source becomes available or a later explicit review accepts the derived candidate with qualifications.
+
+Recorded status:
+
+- `method_status`: `resolved`
+- `geometry_status`: `candidate`
+- `canonical_status`: `hold`
+- `source_gap`: direct official Great Black Swamp geometry or documented derivation remains unresolved
+
+The source-method QA is complete and no longer blocks current Water System or Phase 2 development. This does **not** mean the candidate geometry has been accepted.
 
 ## Candidate Sources
 
@@ -35,6 +44,8 @@ Preserved archive: `data/raw/ohiodnr/original_vegetation_ohio/OriginalVegetation
 SHA-256: `B85529757FED6E5DB7E66EBFEF4A784735AA135575E19DE8F9995A67A940B0F8`
 
 The official archive contains the polygon shapefile, projection file, FGDC-style XML metadata, and the two-page ODNR metadata record titled `3135_Original Natural Vegetation of Ohio.pdf`. These original records are preserved alongside the download.
+
+The imported [Great Black Swamp deep-history research note](../docs/research/Great_Black_Swamp_History.md) provides contextual history only. It does not supersede this geometry review or authorize the candidate.
 
 ## Source Authority
 
@@ -157,6 +168,8 @@ The H2Ohio PDF is an official educational publication and is used only as a cite
 
 ### Contact fallback draft — do not send automatically
 
+This draft is retained as historical documentation only. The recorded human decision explicitly directs that no ODNR/H2Ohio contact action be taken.
+
 > Subject: Request for GIS source used in H2Ohio Great Black Swamp history map
 >
 > Hello ODNR GIS Services / H2Ohio team,
@@ -167,11 +180,15 @@ The H2Ohio PDF is an official educational publication and is used only as a cite
 
 ## Human Review Decision
 
-No decision has been recorded. Stop gate remains active:
+**Recorded human decision: C — HOLD (2026-08-29).**
+
+The ODNR/Gordon 1966 candidate is retained as a reproducible generalized historical-reference candidate but is not approved for inclusion in the canonical GeoPackage. The QA gate is methodologically resolved, but the direct Great Black Swamp source geometry remains unresolved.
+
+Decision framework:
 
 - A — ACCEPT: approve inclusion as a historical-reference layer.
 - B — ACCEPT WITH QUALIFICATION: include with derived/generalized labeling.
-- C — HOLD: wait for a better ODNR/H2Ohio vector. **Current recommendation.**
+- C — HOLD: wait for a better direct geometry or methodology. **Recorded decision.**
 - D — REJECT: candidate is insufficiently defensible.
 
-Until a human records A or B, do not add the candidate to the canonical Phase 1 GeoPackage and do not close the QA issue.
+The candidate must not be added to the canonical Phase 1 GeoPackage. Issue #2 remains open for a future direct source or a later explicit qualified-acceptance decision; it no longer blocks current development.

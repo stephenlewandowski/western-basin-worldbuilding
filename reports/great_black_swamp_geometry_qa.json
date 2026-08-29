@@ -1,6 +1,6 @@
 {
   "geometry_id": "great_black_swamp_candidate_gordon1966",
-  "status": "HOLD_review_only_not_canonical",
+  "status": "method_resolved_geometry_candidate_canonical_hold",
   "source_archive": "data/raw/ohiodnr/original_vegetation_ohio/OriginalVegetationOhio.zip",
   "source_archive_sha256": "B85529757FED6E5DB7E66EBFEF4A784735AA135575E19DE8F9995A67A940B0F8",
   "source_crs": "EPSG:3734",

@@ -18,7 +18,7 @@ Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 
 
 See [PROJECT_STATUS.md](PROJECT_STATUS.md) and the [Phase 1 handoff](reports/water_system_phase1_handoff.md).
 
-Phase 1 follow-up QA has produced a [Great Black Swamp source review](reports/great_black_swamp_geometry_source_review.md) and [human-review map](outputs/qa/great_black_swamp_geometry_review.png). The candidate remains outside the canonical GeoPackage until a human records an A/B/C/D decision.
+Phase 1 follow-up QA has produced a [Great Black Swamp source review](reports/great_black_swamp_geometry_source_review.md) and [human-review map](outputs/qa/great_black_swamp_geometry_review.png). Human decision: **C — HOLD**. The method is resolved, but the candidate remains outside the canonical GeoPackage and the direct-source gap remains open without blocking current development.
 
 ## Current Canon
 
@@ -151,6 +151,7 @@ The original ChatGPT Project exports are preserved as received. They may contain
 ### Research
 
 - [Indigenous Peoples' History](docs/research/Glasspunk_Indigenous_Peoples_History.md) — a separate, sourced research module; no historical GIS reconstruction has begun
+- [Great Black Swamp History](docs/research/Great_Black_Swamp_History.md) — imported contextual deep-history research; it does not supersede the geometry QA review or authorize the held candidate
 
 ### References
 

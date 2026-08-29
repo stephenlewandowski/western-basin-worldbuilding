@@ -9,8 +9,9 @@ Checked: 2026-08-29
 | Indigenous Peoples' History | Imported | `Glasspunk_Indigenous_Peoples_History.md` | `docs/research/Glasspunk_Indigenous_Peoples_History.md` | 2026-08-29 |
 | Geology / strategic materials addendum and Codex prompts | Imported | `Glasspunk_Geology_Strategic_Materials_Addendum_and_Codex_Prompts.md` | `docs/worldbuilding/Glasspunk_Geology_Strategic_Materials_Addendum_and_Codex_Prompts.md` | 2026-08-29 |
 | Worldbuilding references | Imported | `Glasspunk_Worldbuilding_References.md` | `docs/references/Glasspunk_Worldbuilding_References.md` | 2026-08-29 |
+| Great Black Swamp deep history | Imported | `Great_Black_Swamp_History.md` | `docs/research/Great_Black_Swamp_History.md` | 2026-08-29 |
 
-No expected Markdown files remain unavailable.
+No expected Markdown files remain unavailable. The Great Black Swamp history note is contextual research and does not supersede the geometry QA report.
 
 ## Historical migration note
 

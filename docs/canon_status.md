@@ -64,6 +64,14 @@ Important feature fields include:
 
 Speculative 2050 objects must remain distinguishable from verified 2026 infrastructure. In Phase 1, fictional 2050 nodes have null coordinates.
 
+## Great Black Swamp spatial status
+
+**Canonical:** no authoritative Great Black Swamp polygon is currently adopted.
+
+**Research / QA:** `great_black_swamp_candidate_gordon1966` is a 4,672.66 km² MultiPolygon derived reproducibly from the generalized 1:500,000 ODNR/Gordon 1966 vegetation source. Human decision: **C — HOLD**. Method status is resolved; geometry status is candidate; canonical status is hold.
+
+The supplied non-georeferenced image remains reference-only, non-authoritative, and prohibited as a geometry source.
+
 ## Phase status
 
 - **Phase 1 Water System v0.1:** complete and validated

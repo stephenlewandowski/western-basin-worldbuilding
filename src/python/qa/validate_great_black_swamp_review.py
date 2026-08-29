@@ -38,10 +38,18 @@ def main() -> None:
         "candidate identifier is incorrect",
     )
     require(
-        candidate.iloc[0]["canonical_status"] == "review_only_not_canonical",
+        candidate.iloc[0]["method_status"] == "resolved",
+        "source-method QA must be resolved",
+    )
+    require(
+        candidate.iloc[0]["geometry_status"] == "candidate",
+        "geometry must remain a candidate",
+    )
+    require(
+        candidate.iloc[0]["canonical_status"] == "hold",
         "candidate must remain non-canonical",
     )
-    require(str(candidate.iloc[0]["human_review_status"]).startswith("HOLD"), "human stop gate missing")
+    require(str(candidate.iloc[0]["human_review_status"]).startswith("C — HOLD"), "recorded human HOLD decision missing")
     require(4_600 < float(qa["candidate_area_km2"]) < 4_800, "candidate area outside recorded QA band")
     require(qa["candidate_component_count"] == 116, "component count changed")
     require(qa["candidate_valid"] is True, "QA record does not confirm validity")
