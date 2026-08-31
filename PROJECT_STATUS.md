@@ -42,6 +42,19 @@ advanced processing remain separate. The model asserts zero documented
 individual exposures, no direct Luckey–Elmore production flow, and no invented
 contamination polygon, groundwater plume, exposure radius, route, or Map 10.
 
+## PHASE 2D — COMPLETE
+
+**Alternative Materials Futures 2050/2075: COMPLETE / VALIDATED**
+
+Phase 2D adds 30 formal assumptions, 48 scenario-node states, 36 scenario
+relationships, Map 10 (2050), Map 10b (2075), and a qualitative comparison.
+All future objects are separate fictional deltas; the factual 2026 materials
+graph remains byte-identical at 30 nodes and 31 relationships.
+
+The Materials Corridor result is **B — EMERGES WEAKLY** in the circular and
+high-convergence futures. It remains a network interpretation, not a polygon,
+region, route, or jurisdiction.
+
 ## Open Phase 1 QA gates
 
 1. Toledo intake coordinate reconciliation

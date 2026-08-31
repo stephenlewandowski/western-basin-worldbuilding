@@ -21,7 +21,7 @@ systems:
     node_table: data/processed/networks/materials_system_nodes.csv
     edge_table: data/processed/networks/materials_system_edges.csv
     source_table: data/processed/networks/materials_system_sources.csv
-    maps: [06_geology_resources_2026, 07_carbonate_materials_system, 08_beryllium_strategic_supply_chain, 09_luckey_elmore_materials_exposure_history]
+    maps: [06_geology_resources_2026, 07_carbonate_materials_system, 08_beryllium_strategic_supply_chain, 09_luckey_elmore_materials_exposure_history, 10_materials_system_2050, 10b_materials_system_2075]
     history_event_table: data/processed/history/materials_exposure_events.csv
     history_substance_table: data/processed/history/materials_exposure_substances.csv
     exposure_pathway_table: data/processed/history/materials_exposure_pathways.csv
@@ -31,3 +31,9 @@ systems:
     relationship_bases: [observed, documented_supply_relationship, engineering_dependency, scientific_inference, supply_chain_inference, historical_documentation, regulatory_requirement]
     prohibited_in_phase_2b: [shipment_quantities, transport_routes, groundwater_flow, materials_corridor_geometry, future_scenarios]
     phase_2c_constraints: [luckey_legacy_not_current_production, elmore_processing_not_extraction, no_direct_luckey_elmore_flow, no_individual_exposure_finding, no_contamination_polygon, no_groundwater_plume, no_exposure_radius, no_map_10]
+    scenario_assumption_table: data/processed/scenarios/materials_scenario_assumptions.csv
+    scenario_node_table: data/processed/scenarios/materials_nodes_scenario.csv
+    scenario_edge_table: data/processed/scenarios/materials_edges_scenario.csv
+    scenario_horizons: [2050, 2075]
+    scenario_families: [continuity_resilience, circular_basin, high_convergence]
+    phase_2d_constraints: [baseline_2026_immutable, fictional_deltas_separate, no_probabilities, no_future_precise_coordinates, no_future_quantities, no_corridor_polygon, no_local_beryllium_extraction]

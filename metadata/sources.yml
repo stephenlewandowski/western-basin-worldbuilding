@@ -130,3 +130,11 @@ sources:
     publication_date: 2018-03-07
     retrieved_date: 2026-08-31
     use: Modern control and surveillance framework; not a facility-compliance or zero-risk finding.
+  materials_scenarios_registry:
+    name: Phase 2D materials scenarios source and assumption registries
+    source_path: data/processed/scenarios/materials_scenario_sources.csv
+    assumption_path: data/processed/scenarios/materials_scenario_assumptions.csv
+    retrieved_date: 2026-08-31
+    source_records: 8
+    assumption_records: 30
+    use: Authoritative trajectory bases for six explicitly fictional, non-probabilistic scenario states.

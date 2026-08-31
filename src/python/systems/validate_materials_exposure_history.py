@@ -124,7 +124,7 @@ def main() -> None:
 
     layers = set(pyogrio.list_layers(ROOT / "data" / "processed" / "glasspunk_base.gpkg")[:, 0])
     require(len(layers) == 16, "Phase 2C unexpectedly changed GeoPackage layer inventory")
-    prohibited_names = [p.as_posix() for p in ROOT.rglob("*") if p.is_file() and (p.name.startswith("10_") or "exposure_radius" in p.name.lower() or "groundwater_plume" in p.name.lower() or "materials_corridor" in p.name.lower())]
+    prohibited_names = [p.as_posix() for p in ROOT.rglob("*") if p.is_file() and ("exposure_radius" in p.name.lower() or "groundwater_plume" in p.name.lower() or ("materials_corridor" in p.name.lower() and p.suffix.lower() in {".gpkg", ".geojson", ".shp"}))]
     require(not prohibited_names, f"prohibited Phase 2C artifact found: {prohibited_names}")
 
     result = {
@@ -133,7 +133,7 @@ def main() -> None:
         "counts": {"events": len(events), "substances": len(substances), "pathways": len(pathways), "exposure_sources": len(exposure_sources), "nodes": len(nodes), "edges": len(edges), "material_sources": len(material_sources), "gpkg_layers": len(layers)},
         "exposure_findings": {"documented_individual_exposure_count": int((human == "true").sum()), "qualified_pathway_count": len(pathways)},
         "map_09": map_checks,
-        "constraints": {"luckey_legacy_only": True, "elmore_nonextractive": True, "no_direct_luckey_elmore_flow": True, "no_plume_or_radius": True, "no_map_10": True, "no_corridor_geometry": True},
+        "constraints": {"luckey_legacy_only": True, "elmore_nonextractive": True, "no_direct_luckey_elmore_flow": True, "no_plume_or_radius": True, "future_scenarios_separate": True, "no_corridor_geometry": True},
     }
     REPORT.write_text(json.dumps(result, indent=2), encoding="utf-8")
     print(json.dumps(result, indent=2))

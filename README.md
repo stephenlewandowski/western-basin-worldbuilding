@@ -18,6 +18,8 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 2C — COMPLETE / VALIDATED (MATERIALS / EXPOSURE HISTORY)**
 
+**Phase 2D — COMPLETE / VALIDATED (ALTERNATIVE MATERIALS FUTURES)**
+
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
 See [PROJECT_STATUS.md](PROJECT_STATUS.md) and the [Phase 1 handoff](reports/water_system_phase1_handoff.md).
@@ -69,6 +71,8 @@ Each map is also available as SVG. The [system network diagram](outputs/figures/
 - [07 — Carbonate materials system](outputs/maps/systems/07_carbonate_materials_system.png)
 - [08 — Beryllium strategic supply chain](outputs/maps/systems/08_beryllium_strategic_supply_chain.png)
 - [09 — Luckey–Elmore materials / exposure history](outputs/maps/systems/09_luckey_elmore_materials_exposure_history.png)
+- [10 — Materials system 2050](outputs/maps/systems/10_materials_system_2050.png)
+- [10b — Materials system 2075](outputs/maps/systems/10b_materials_system_2075.png)
 
 Map 07 connects generalized 1:500,000 carbonate occurrence to sourced extraction/processing roles and broad engineering functions. Map 08 anchors Materion Elmore as advanced processing—not extraction—within a schematic nonlocal-feed and strategic-use network. Solid and dashed relationships distinguish documented links from generalized inference; neither map asserts freight routes or quantities.
 
@@ -84,6 +88,9 @@ Rscript src\R\systems\validate_material_flows.R
 .\.venv\Scripts\python.exe src\python\systems\build_materials_exposure_history.py
 .\.venv\Scripts\python.exe src\python\systems\validate_materials_exposure_history.py
 Rscript src\R\systems\validate_materials_exposure_history.R
+.\.venv\Scripts\python.exe src\python\systems\build_materials_scenarios.py
+.\.venv\Scripts\python.exe src\python\systems\validate_materials_scenarios.py
+Rscript src\R\systems\validate_materials_scenarios.R
 ```
 
 ## Repository Structure
@@ -223,8 +230,8 @@ Three sketchbook sheets are preserved under [assets/concept_art](assets/concept_
 1. Human review of the Phase 1 repository and open QA gates
 2. Review the imported worldbuilding, research, and reference documents against the explicit canon hierarchy
 3. Reconcile intake and historical swamp geography
-4. Preserve Phase 2A–2C as the current materials and historical-exposure baseline
-5. Design Phase 2D / Map 10 only after its scenario assumptions and acceptance gate are explicitly approved
+4. Preserve Phase 2A–2C as the immutable factual materials and historical-exposure baseline
+5. Review Phase 2D's three alternative 2050/2075 futures before beginning another detailed system
 
 The speculative 2050 materials system, detailed energy/freight systems, and Materials Corridor geometry remain deferred.
 

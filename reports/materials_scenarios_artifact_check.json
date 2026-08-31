@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "counts": {
+    "assumptions": 30,
+    "scenario_nodes": 48,
+    "scenario_edges": 36,
+    "scenario_states": 6
+  },
+  "baseline": {
+    "nodes": 30,
+    "edges": 31,
+    "node_sha256": "931E94AB4F73011BC4E3FFD37B08A41FFE8634E271EF543B3972C12BDA765E9A",
+    "edge_sha256": "10D3875078F33CC255754FDA1FD9BC8D28770E7DC998D6A1713FA9F611EFC3C8",
+    "immutable": true
+  },
+  "corridor_result": "B \u2014 CORRIDOR EMERGES WEAKLY",
+  "maps": {
+    "10_materials_system_2050": [
+      3240,
+      1800
+    ],
+    "10b_materials_system_2075": [
+      3240,
+      1800
+    ]
+  },
+  "constraints": {
+    "no_future_coordinates": true,
+    "no_future_quantities": true,
+    "no_corridor_polygon": true,
+    "no_local_beryllium_extraction": true
+  }
+}

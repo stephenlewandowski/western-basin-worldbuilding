@@ -48,7 +48,7 @@
     "no_shipment_quantities": true,
     "no_future_scenarios": true,
     "phase_2b_core_preserved_after_phase_2c_extension": true,
-    "no_map_10": true,
+    "future_scenarios_separate_from_phase_2b_core": true,
     "no_materials_corridor_geometry": true
   }
 }

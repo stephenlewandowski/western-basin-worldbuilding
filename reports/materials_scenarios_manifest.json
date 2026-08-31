@@ -1,0 +1,37 @@
+{
+  "phase": "Phase 2D \u2014 alternative materials futures",
+  "counts": {
+    "assumptions": 30,
+    "scenario_nodes": 48,
+    "scenario_edges": 36,
+    "scenario_states": 6,
+    "sources": 8
+  },
+  "baseline": {
+    "node_count": 30,
+    "edge_count": 31,
+    "node_sha256": "931E94AB4F73011BC4E3FFD37B08A41FFE8634E271EF543B3972C12BDA765E9A",
+    "edge_sha256": "10D3875078F33CC255754FDA1FD9BC8D28770E7DC998D6A1713FA9F611EFC3C8"
+  },
+  "constraints": {
+    "factual_baseline_modified": false,
+    "future_precise_coordinates": false,
+    "future_quantities": false,
+    "corridor_polygon": false,
+    "local_beryllium_extraction": false,
+    "new_release": false
+  },
+  "artifacts": {
+    "data/processed/scenarios/materials_scenario_assumptions.csv": "B79233038BFE846A80EB033AF0223631926E32A63509DA04999A02E74AD444D1",
+    "data/processed/scenarios/materials_nodes_scenario.csv": "C7D4D2360AC1CBA84FAE0149D4A77A6ADFA9BE758A5588D284540E2A0000DEB5",
+    "data/processed/scenarios/materials_edges_scenario.csv": "33378C5897BDEA6457A7CFA691DB05536C6A564BDA128EB3AEBF4A5A7339C986",
+    "data/processed/scenarios/materials_corridor_evaluation.csv": "F8325A9778F3D5A0E118D5C1E93D7D134638B2D28C8D6DBE21C78856233308C3",
+    "data/processed/scenarios/materials_scenario_sources.csv": "B5AC7D226D5E23961917460AA67FE90F4AC4AE3E8750F91B0E62CF5002DF9925",
+    "outputs/maps/systems/10_materials_system_2050.png": "06268DAC1F05B4A2EA6EE832A2E9EB93EE933305610BFD19FF0CA4554C319EBF",
+    "outputs/maps/systems/10_materials_system_2050.svg": "D7F322D333729BDBEDCBF0F149DC0E5FF2C34B109C26C4B1609C491D2187C330",
+    "outputs/maps/systems/10b_materials_system_2075.png": "2A9707E8845051776445687ADB361CB002E4C2EB40A643B6F6E84A8C0F4D934C",
+    "outputs/maps/systems/10b_materials_system_2075.svg": "2CF6088C3CB6C662BC15F19995841918748A76F11693BB3F7CC6527D363B8C2E",
+    "outputs/figures/materials_scenarios_comparison.png": "6DCB42FB6B37C2B803886B1106D1A33A8206F08054228CEBE9C14F9532755FA7",
+    "outputs/figures/materials_scenarios_comparison.svg": "E9B5244DB79356B3004F83EFCA32C6BDE3D4D70BF6CB7D55478DF2CB8FFE4EFE"
+  }
+}

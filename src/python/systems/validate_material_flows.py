@@ -84,8 +84,8 @@ def main() -> None:
     expected_spatial = nodes[(nodes.latitude != "") & (nodes.longitude != "")]
     require(len(spatial) == len(expected_spatial), "materials_flow_nodes count mismatch")
     require(set(spatial.node_id) == set(expected_spatial.node_id), "materials_flow_nodes IDs mismatch")
-    prohibited = [p for p in ROOT.rglob("*") if p.is_file() and (p.name.startswith("10_") or "materials_corridor" in p.name.lower())]
-    require(not prohibited, f"prohibited future artifacts found: {prohibited}")
+    prohibited = [p for p in ROOT.rglob("*") if p.is_file() and "materials_corridor" in p.name.lower() and p.suffix.lower() in {".gpkg", ".geojson", ".shp"}]
+    require(not prohibited, f"prohibited corridor geometry found: {prohibited}")
 
     result = {
         "status": "pass",
@@ -101,7 +101,7 @@ def main() -> None:
             "no_shipment_quantities": True,
             "no_future_scenarios": True,
             "phase_2b_core_preserved_after_phase_2c_extension": True,
-            "no_map_10": True,
+            "future_scenarios_separate_from_phase_2b_core": True,
             "no_materials_corridor_geometry": True,
         },
     }

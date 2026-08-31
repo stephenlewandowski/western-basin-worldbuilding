@@ -42,5 +42,6 @@ The hash-verified 3DHP extraction and derived QA maps are the review evidence fo
 Maps 06–08 are the current 2026 baseline. Map 09 adds source-grounded history,
 remediation, and qualified exposure/control interfaces. Its source, assumptions,
 QA, manifest, and machine-validation reports use the
-`materials_exposure_history_*` prefix. Map 10 and speculative corridor/future
-products remain deliberately absent.
+`materials_exposure_history_*` prefix. Maps 10/10b add six explicitly fictional
+alternative future states, with `materials_scenario*` tables/reports. Scenario
+objects remain separate from the immutable factual graph.

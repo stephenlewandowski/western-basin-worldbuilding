@@ -1,0 +1,7 @@
+scenario_id,scenario_year,scenario_nodes,scenario_edges,network_components,named_anchor_roles,direct_interfacility_route_edges,hard_corridor_geometry,corridor_finding,method
+continuity_resilience,2050,8,6,3,4,0,False,C — NETWORK EXISTS BUT CORRIDOR IS MISLEADING,"Weak requires repeated multi-anchor, cross-system connectivity; no transport route or polygon is implied."
+continuity_resilience,2075,8,6,3,4,0,False,C — NETWORK EXISTS BUT CORRIDOR IS MISLEADING,"Weak requires repeated multi-anchor, cross-system connectivity; no transport route or polygon is implied."
+circular_basin,2050,8,6,2,4,0,False,B — CORRIDOR EMERGES WEAKLY,"Weak requires repeated multi-anchor, cross-system connectivity; no transport route or polygon is implied."
+circular_basin,2075,8,6,2,4,0,False,B — CORRIDOR EMERGES WEAKLY,"Weak requires repeated multi-anchor, cross-system connectivity; no transport route or polygon is implied."
+high_convergence,2050,8,6,2,3,0,False,B — CORRIDOR EMERGES WEAKLY,"Weak requires repeated multi-anchor, cross-system connectivity; no transport route or polygon is implied."
+high_convergence,2075,8,6,2,3,0,False,B — CORRIDOR EMERGES WEAKLY,"Weak requires repeated multi-anchor, cross-system connectivity; no transport route or polygon is implied."

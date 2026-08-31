@@ -27,7 +27,7 @@
     "elmore_nonextractive": true,
     "no_direct_luckey_elmore_flow": true,
     "no_plume_or_radius": true,
-    "no_map_10": true,
+    "future_scenarios_separate": true,
     "no_corridor_geometry": true
   }
 }

@@ -90,4 +90,9 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 2A Geology / Minerals / Strategic Materials:** complete and validated 2026 baseline
 - **Phase 2B Material Flows:** complete and validated 2026 baseline; Maps 07–08 only
 - **Phase 2C Strategic Materials, Exposure & Remediation History:** complete and validated; Map 09 only, with zero documented individual exposure findings
-- **Phase 2D / speculative 2050 materials work:** not started; Map 10 absent
+- **Phase 2D Alternative Materials Futures:** complete and validated as six explicitly fictional scenario states across 2050/2075; Maps 10/10b
+
+Phase 2D does not change factual canon. Its continuity/resilience, circular
+basin, and high-convergence families are exploratory alternatives without
+probabilities. The Materials Corridor emerges weakly only as a scenario network;
+no polygon, sixth region, or transport route is canonical.

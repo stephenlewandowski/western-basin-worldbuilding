@@ -2,6 +2,9 @@
 
 ## Unreleased
 
+- Added Phase 2D's 30-assumption ledger and separate 48-node/36-edge scenario-delta tables for three alternative 2050/2075 materials futures.
+- Added Map 10, a separate Map 10b for 2075 readability, and qualitative scenario-comparison figures.
+- Proved the 30-node/31-edge 2026 materials baseline byte-identical and created no future coordinates, quantities, routes, corridor polygon, release, or tag.
 - Added Phase 2C's 30-event Luckey–Elmore materials/remediation chronology, 9 substance records, 7 qualified pathways, and 13-source registry.
 - Added Map 09 as a full-resolution PNG/SVG pair and a five-node/five-edge Materials-to-Exposure interface extension.
 - Preserved Luckey historical-production/current-remediation and Elmore current-processing/non-extraction distinctions; asserted no individual exposure, health outcome, direct Luckey–Elmore flow, plume, radius, route, or future scenario.
