@@ -1,0 +1,38 @@
+{
+  "phase": "Phase 2C - strategic materials, exposure and remediation history",
+  "counts": {
+    "events": 30,
+    "substances": 9,
+    "pathways": 7,
+    "sources": 13,
+    "materials_nodes_total": 30,
+    "materials_edges_total": 31,
+    "materials_sources_total": 27,
+    "new_graph_nodes": 5,
+    "new_graph_edges": 5
+  },
+  "exposure_findings": {
+    "documented_individual_exposure_count": 0,
+    "potential_or_environmental_pathway_count": 7
+  },
+  "scientific_constraints": {
+    "luckey_current_production": false,
+    "elmore_local_extraction": false,
+    "direct_luckey_to_elmore_flow": false,
+    "contamination_polygon_created": false,
+    "groundwater_plume_created": false,
+    "exposure_radius_created": false,
+    "map_10_created": false
+  },
+  "files": {
+    "data/processed/history/materials_exposure_events.csv": "70D0FB02033D8DD69B0656B8779AD046FB114FC8ADD7D808338548C466186B3E",
+    "data/processed/history/materials_exposure_substances.csv": "86882C7FF76DB785E242B734677BF8E6D871C403FD4167C4E321B168116B38B4",
+    "data/processed/history/materials_exposure_pathways.csv": "320C82364504A969B6377EE372AEDA2E65406AD9C1B0966DCA3C287781F7A6B2",
+    "data/processed/history/materials_exposure_sources.csv": "FD5EDBEEDE1C99B753D35E080F70258E818A0EC56B143A873ACC854023F82B10",
+    "data/processed/networks/materials_system_nodes.csv": "931E94AB4F73011BC4E3FFD37B08A41FFE8634E271EF543B3972C12BDA765E9A",
+    "data/processed/networks/materials_system_edges.csv": "10D3875078F33CC255754FDA1FD9BC8D28770E7DC998D6A1713FA9F611EFC3C8",
+    "data/processed/networks/materials_system_sources.csv": "E17C7C734D3183D9CDEC6223446F7B2EBF853CC64CFC13C75633488B518A7C80",
+    "outputs/maps/systems/09_luckey_elmore_materials_exposure_history.png": "23AFCBFB0FE4625EE321BCF851D633A888BEF4981B3D5B866B21A5DDC944662C",
+    "outputs/maps/systems/09_luckey_elmore_materials_exposure_history.svg": "0FF46A750C5607E91378644490B5AB01505D283EEF012D3D90D910A4F7E29D4C"
+  }
+}

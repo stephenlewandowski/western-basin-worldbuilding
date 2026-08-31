@@ -26,7 +26,21 @@ Validated inventory:
 
 Phase 2A supplies generalized ODNR bedrock/carbonate context, three industrial-mineral sites, Materion Elmore advanced processing, Luckey remediation, and Map 06. Phase 2B adds a shared 25-node/26-edge carbonate and beryllium graph, a 14-record source registry, GeoPackage spatial nodes, and Maps 07–08.
 
-Elmore is advanced strategic-material processing with nonlocal feed, not a mine. Luckey is legacy/remediation, not current production. Broad functional and sector links are explicitly inferred; named CFS and Kairos relationships retain dates and source/status qualifications. No route, quantity, groundwater surface, Materials Corridor polygon, Map 09/10, or future scenario is included.
+Elmore is advanced strategic-material processing with nonlocal feed, not a mine. Luckey is legacy/remediation, not current production. Broad functional and sector links are explicitly inferred; named CFS and Kairos relationships retain dates and source/status qualifications. Phase 2B itself introduced no route, quantity, groundwater surface, Materials Corridor polygon, Map 09/10, or future scenario.
+
+## PHASE 2C — COMPLETE
+
+**Strategic Materials, Exposure & Remediation History: COMPLETE / VALIDATED**
+
+Phase 2C adds Map 09, 30 source-grounded historical/remediation events, 9
+substance records, 7 qualified pathway records, 13 dedicated sources, and a
+5-node/5-edge bridge from Materials to coarse Exposure / Environmental Health
+interfaces. The full shared graph is now 30 nodes and 31 edges.
+
+Luckey historical production, Luckey current remediation, and Elmore current
+advanced processing remain separate. The model asserts zero documented
+individual exposures, no direct Luckey–Elmore production flow, and no invented
+contamination polygon, groundwater plume, exposure radius, route, or Map 10.
 
 ## Open Phase 1 QA gates
 

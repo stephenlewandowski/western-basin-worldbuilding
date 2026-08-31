@@ -1,6 +1,6 @@
 # Glasspunk Systems Atlas
 
-The historical v0.1 release builds the Phase 1 Water System only. Current development also includes the validated Phase 2A–2B 2026 materials baseline. Existing TypeScript prototype files are untouched.
+The historical v0.1 release builds the Phase 1 Water System only. Current development also includes the validated Phase 2A–2C materials and historical-exposure baseline. Existing TypeScript prototype files are untouched.
 
 ```powershell
 .\.venv\Scripts\python.exe src\python\systems\build_water_system.py --historical-swamp-image "C:\Users\slewa\Downloads\Great Black Swamp.jpeg"
@@ -39,4 +39,8 @@ The hash-verified 3DHP extraction and derived QA maps are the review evidence fo
 - `materials_system_artifact_check.json` — Phase 2A machine-readable checks.
 - `materials_phase2b_manifest.json` and `materials_phase2b_artifact_check.json` — Phase 2B artifact hashes and validation.
 
-Maps 06–08 are the current 2026 baseline. Maps 09–10 and speculative corridor/future products are deliberately absent.
+Maps 06–08 are the current 2026 baseline. Map 09 adds source-grounded history,
+remediation, and qualified exposure/control interfaces. Its source, assumptions,
+QA, manifest, and machine-validation reports use the
+`materials_exposure_history_*` prefix. Map 10 and speculative corridor/future
+products remain deliberately absent.

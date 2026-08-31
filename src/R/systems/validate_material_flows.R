@@ -9,7 +9,7 @@ nodes <- read.csv(file.path(root, "data/processed/networks/materials_system_node
 edges <- read.csv(file.path(root, "data/processed/networks/materials_system_edges.csv"), stringsAsFactors = FALSE, na.strings = NULL)
 sources <- read.csv(file.path(root, "data/processed/networks/materials_system_sources.csv"), stringsAsFactors = FALSE, na.strings = NULL)
 
-stopifnot(nrow(nodes) == 25L, nrow(edges) == 26L, nrow(sources) == 14L)
+stopifnot(nrow(nodes) >= 25L, nrow(edges) >= 26L, nrow(sources) >= 14L)
 stopifnot(!anyDuplicated(nodes$node_id), !anyDuplicated(edges$edge_id), !anyDuplicated(sources$source_id))
 stopifnot(all(edges$from_id %in% nodes$node_id), all(edges$to_id %in% nodes$node_id))
 stopifnot(all(nodes$source_id %in% sources$source_id), all(edges$source_id %in% sources$source_id))
@@ -17,10 +17,13 @@ relationship_key <- paste(edges$from_id, edges$to_id, edges$material, edges$flow
 stopifnot(!anyDuplicated(relationship_key))
 stopifnot(all(nzchar(edges$relationship_basis)), all(nzchar(edges$reality_status)),
           all(nzchar(edges$canon_status)), all(nzchar(edges$confidence)), all(nzchar(edges$source_id)))
-stopifnot(identical(sort(unique(nodes$material_system)), c("beryllium", "carbonate", "shared")))
-stopifnot(all(nodes$reality_status == "real"), all(edges$reality_status == "real"))
+core_nodes <- nodes[!grepl("^EXP-", nodes$node_id), ]
+core_edges <- edges[!grepl("^EXP-", edges$edge_id), ]
+stopifnot(nrow(core_nodes) == 25L, nrow(core_edges) == 26L)
+stopifnot(identical(sort(unique(core_nodes$material_system)), c("beryllium", "carbonate", "shared")))
+stopifnot(all(core_nodes$reality_status == "real"), all(core_edges$reality_status == "real"))
 stopifnot(all(nodes$canon_status %in% c("verified", "inferred")), all(edges$canon_status %in% c("verified", "inferred")))
-stopifnot(all(nodes$scenario_year == 2026L))
+stopifnot(all(core_nodes$scenario_year == "2026"))
 
 elmore <- nodes[nodes$node_id == "BER-PROC-ELMORE", ]
 stopifnot(nrow(elmore) == 1L, elmore$supply_chain_role == "advanced_processing", elmore$local_resource == "false")

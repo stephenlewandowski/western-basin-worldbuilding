@@ -1,0 +1,33 @@
+{
+  "status": "pass",
+  "phase": "Phase 2C - strategic materials, exposure and remediation history",
+  "counts": {
+    "events": 30,
+    "substances": 9,
+    "pathways": 7,
+    "exposure_sources": 13,
+    "nodes": 30,
+    "edges": 31,
+    "material_sources": 27,
+    "gpkg_layers": 16
+  },
+  "exposure_findings": {
+    "documented_individual_exposure_count": 0,
+    "qualified_pathway_count": 7
+  },
+  "map_09": {
+    "png_pixels": [
+      2994,
+      1957
+    ],
+    "svg_parseable": true
+  },
+  "constraints": {
+    "luckey_legacy_only": true,
+    "elmore_nonextractive": true,
+    "no_direct_luckey_elmore_flow": true,
+    "no_plume_or_radius": true,
+    "no_map_10": true,
+    "no_corridor_geometry": true
+  }
+}

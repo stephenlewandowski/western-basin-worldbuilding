@@ -99,3 +99,34 @@ sources:
     retrieved_date: 2026-08-29
     source_type: company_statement
     use: Documented Elmore FLiBe collaboration; 2026 operating status not independently reverified.
+  materials_exposure_history_registry:
+    name: Phase 2C materials / exposure history source registry
+    path: data/processed/history/materials_exposure_sources.csv
+    retrieved_date: 2026-08-31
+    records: 13
+    provenance_fields: [source_id, title, agency_or_publisher, publication_date, URL_or_identifier, retrieval_date, source_type, historical_period, spatial_scale_if_applicable, terms, confidence, notes]
+    use: Complete machine-readable provenance for Luckey history, remediation, qualified exposure pathways, and modern control context.
+  usace_luckey_2026:
+    name: U.S. Army Corps of Engineers — Luckey Site
+    url: https://www.lrd.usace.army.mil/Missions/Projects/Article/3613204/luckey-site/
+    publication_date: 2026-07-16
+    retrieved_date: 2026-08-31
+    use: Governing Luckey chronology, contaminants, remedies, and qualified current/planned status.
+  usace_luckey_groundwater_2026:
+    name: USACE Fall 2025 Luckey groundwater monitoring data release
+    url: https://d34w7g4gy10iej.cloudfront.net/pubs/pdf_76367.pdf
+    publication_date: 2026-01
+    retrieved_date: 2026-08-31
+    use: Sampled-well results only; no project-derived plume, direction, or receptor inference.
+  niosh_beryllium_2011:
+    name: NIOSH — Preventing Sensitization and Chronic Beryllium Disease
+    url: https://www.cdc.gov/niosh/docs/2011-107/default.html
+    publication_date: 2011-02
+    retrieved_date: 2026-08-31
+    use: General occupational exposure mechanism and prevention context; no site-specific outcome attribution.
+  osha_beryllium_rule_2018:
+    name: OSHA — Occupational Exposure to Beryllium Final Rule
+    url: https://www.osha.gov/laws-regs/federalregister/2018-03-07
+    publication_date: 2018-03-07
+    retrieved_date: 2026-08-31
+    use: Modern control and surveillance framework; not a facility-compliance or zero-risk finding.

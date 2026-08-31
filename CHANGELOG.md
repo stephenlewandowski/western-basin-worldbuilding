@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Added Phase 2C's 30-event Luckey–Elmore materials/remediation chronology, 9 substance records, 7 qualified pathways, and 13-source registry.
+- Added Map 09 as a full-resolution PNG/SVG pair and a five-node/five-edge Materials-to-Exposure interface extension.
+- Preserved Luckey historical-production/current-remediation and Elmore current-processing/non-extraction distinctions; asserted no individual exposure, health outcome, direct Luckey–Elmore flow, plume, radius, route, or future scenario.
+- Added independent Python/R Phase 2C validation and updated Phase 2B regression validators for the additive historical extension.
+- Created no release, tag, Map 10, future Materials Corridor, or 2050 scenario.
 - Integrated the validated Phase 2A scientific additions onto current main without reverting newer Phase 1 QA state.
 - Added the 2026 shared materials graph (25 nodes, 26 qualified edges, 14 source records) and GeoPackage `materials_flow_nodes` layer.
 - Added Map 07 carbonate materials system and Map 08 beryllium strategic supply chain as PNG/SVG pairs.

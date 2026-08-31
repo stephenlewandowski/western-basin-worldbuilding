@@ -39,12 +39,17 @@ def main() -> None:
     require(not edges.duplicated(["from_id", "to_id", "material", "flow_type"]).any(), "unintended duplicate relationship")
     for field in ["relationship_basis", "reality_status", "canon_status", "confidence", "source_id"]:
         require(edges[field].astype(str).str.strip().ne("").all(), f"blank edge {field}")
-    require(set(nodes.material_system) == {"carbonate", "beryllium", "shared"}, "unexpected material system")
-    allowed_basis = {"observed", "documented_supply_relationship", "engineering_dependency", "scientific_inference", "supply_chain_inference"}
+    core_nodes = nodes[~nodes.node_id.str.startswith("EXP-")]
+    core_edges = edges[~edges.edge_id.str.startswith("EXP-")]
+    require(set(core_nodes.material_system) == {"carbonate", "beryllium", "shared"}, "Phase 2B material-system core changed")
+    require(set(nodes.material_system) <= {"carbonate", "beryllium", "shared", "exposure"}, "unexpected material system")
+    allowed_basis = {"observed", "documented_supply_relationship", "engineering_dependency", "scientific_inference", "supply_chain_inference", "historical_documentation", "regulatory_requirement"}
     require(set(edges.relationship_basis) <= allowed_basis, "unqualified relationship basis")
-    require(set(nodes.reality_status) == {"real"} and set(edges.reality_status) == {"real"}, "Phase 2B baseline contains non-real records")
+    require(set(core_nodes.reality_status) == {"real"} and set(core_edges.reality_status) == {"real"}, "Phase 2B core contains non-real records")
+    require(set(nodes.reality_status) <= {"real", "historical"} and set(edges.reality_status) <= {"real", "historical"}, "unsupported reality status")
     require(set(nodes.canon_status) <= {"verified", "inferred"} and set(edges.canon_status) <= {"verified", "inferred"}, "scenario/experimental canon status entered baseline")
-    require(set(nodes.scenario_year.astype(str)) == {"2026"}, "future scenario entered Phase 2B baseline")
+    require(set(core_nodes.scenario_year.astype(str)) == {"2026"}, "future scenario entered Phase 2B core")
+    require(set(nodes.scenario_year.astype(str)) <= {"2026", "historical"}, "future scenario entered current materials graph")
     require(not any(c.lower() in {"quantity", "tonnage", "volume", "capacity"} for c in edges.columns), "shipment quantity field prohibited")
 
     elmore = nodes[nodes.node_id == "BER-PROC-ELMORE"].iloc[0]
@@ -79,8 +84,8 @@ def main() -> None:
     expected_spatial = nodes[(nodes.latitude != "") & (nodes.longitude != "")]
     require(len(spatial) == len(expected_spatial), "materials_flow_nodes count mismatch")
     require(set(spatial.node_id) == set(expected_spatial.node_id), "materials_flow_nodes IDs mismatch")
-    prohibited = [p for p in ROOT.rglob("*") if p.is_file() and (p.name.startswith("09_") or p.name.startswith("10_") or "materials_corridor" in p.name.lower())]
-    require(not prohibited, f"prohibited Phase 2B artifacts found: {prohibited}")
+    prohibited = [p for p in ROOT.rglob("*") if p.is_file() and (p.name.startswith("10_") or "materials_corridor" in p.name.lower())]
+    require(not prohibited, f"prohibited future artifacts found: {prohibited}")
 
     result = {
         "status": "pass",
@@ -95,7 +100,8 @@ def main() -> None:
             "no_transport_routes": True,
             "no_shipment_quantities": True,
             "no_future_scenarios": True,
-            "no_maps_09_10": True,
+            "phase_2b_core_preserved_after_phase_2c_extension": True,
+            "no_map_10": True,
             "no_materials_corridor_geometry": True,
         },
     }

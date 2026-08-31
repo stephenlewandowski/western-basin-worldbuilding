@@ -2,16 +2,18 @@
   "status": "pass",
   "phase": "Phase 2B - 2026 materials-flow baseline",
   "counts": {
-    "nodes": 25,
-    "edges": 26,
-    "sources": 14,
+    "nodes": 30,
+    "edges": 31,
+    "sources": 27,
     "spatial_nodes": 6
   },
   "relationship_basis_counts": {
     "documented_supply_relationship": 4,
     "engineering_dependency": 9,
-    "observed": 6,
-    "scientific_inference": 2,
+    "historical_documentation": 1,
+    "observed": 8,
+    "regulatory_requirement": 1,
+    "scientific_inference": 3,
     "supply_chain_inference": 5
   },
   "map_checks": {
@@ -45,7 +47,8 @@
     "no_transport_routes": true,
     "no_shipment_quantities": true,
     "no_future_scenarios": true,
-    "no_maps_09_10": true,
+    "phase_2b_core_preserved_after_phase_2c_extension": true,
+    "no_map_10": true,
     "no_materials_corridor_geometry": true
   }
 }
