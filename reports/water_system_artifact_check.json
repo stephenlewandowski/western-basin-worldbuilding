@@ -2,6 +2,9 @@
   "status": "passed",
   "map_pairs": 5,
   "gpkg_layers": [
+    "hydrography_network_connectors",
+    "hydrography_physical",
+    "routing_inferred_unresolved",
     "water_current_wetlands_25ac",
     "water_flowlines_order3",
     "water_huc12_routing_inferred",

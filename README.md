@@ -20,6 +20,8 @@ See [PROJECT_STATUS.md](PROJECT_STATUS.md) and the [Phase 1 handoff](reports/wat
 
 Phase 1 follow-up QA has produced a [Great Black Swamp source review](reports/great_black_swamp_geometry_source_review.md) and [human-review map](outputs/qa/great_black_swamp_geometry_review.png). Human decision: **C — HOLD**. The method is resolved, but the candidate remains outside the canonical GeoPackage and the direct-source gap remains open without blocking current development.
 
+A separate [physical hydrography reconciliation](reports/physical_hydrography_reconciliation.md) evaluated all 251 inferred WBD routing edges against USGS 3DHP topology and full geometry. Human decision: **B — ACCEPT WITH QUALIFICATION**. Current development now separates 86,410 physical features, 16,347 official non-stream connector features, and 12 unresolved abstract routing edges; the historical v0.1 release remains unchanged.
+
 ## Current Canon
 
 The current v0.1 working model has five macroregions:
@@ -54,8 +56,8 @@ Each map is also available as SVG. The [system network diagram](outputs/figures/
 
 ```text
 assets/                 exploratory concept art and archived generated maps
-data/raw/               cached public-source responses used by Phase 1
-data/processed/         GeoPackage and network tables
+data/raw/               cached public-source responses; large reproducible extracts may be ignored
+data/processed/         GeoPackage (current development in Git LFS) and network tables
 docs/                   canon, worldbuilding, research, references, prompts
 metadata/               systems, sources, and scenario assumptions
 outputs/maps/systems/   validated PNG/SVG analytical map pairs
@@ -63,6 +65,7 @@ outputs/figures/        network and independent R validation renders
 reports/                handoff, QA, sources, assumptions, import status
 outputs/qa/              review-only historical geometry and QA maps
 src/python/qa/           reproducible follow-up QA builders
+src/R/qa/                independent follow-up QA validation/rendering
 src/python/systems/     Python acquisition, construction, rendering, validation
 src/R/systems/          independent R validation and render scripts
 src/game/               retained interactive prototype and tests
@@ -110,6 +113,24 @@ This command reads the preserved official ODNR archive and cached USGS/Census co
 .\.venv\Scripts\python.exe src\python\qa\build_great_black_swamp_review.py
 ```
 
+### Rebuild and validate the physical hydrography review package
+
+The large raw 3DHP snapshot is intentionally excluded from Git and Git LFS. If it is absent, the builder reconstructs `data/raw/usgs/3dhp_flowlines_maumee_buffer500m.geojson.gz` from the official FeatureServer using the exact HUC-12 project extent plus 500 m buffer and ordered 2,500-record pagination. The tracked manifest records the expected 102,757-feature snapshot and SHA-256 `365A043ACCED9DC70CBEAEC804408A8539E3C372E3B4F64B962C03DB047EBD60`; service changes can therefore be detected rather than silently accepted.
+
+The current-development `data/processed/glasspunk_base.gpkg` is retained through a path-specific Git LFS rule. Historical v0.1 commits and the `v0.1-water-system` tag are not migrated.
+
+```powershell
+.\.venv\Scripts\python.exe src\python\qa\build_physical_hydrography_review.py
+.\.venv\Scripts\python.exe src\python\qa\validate_physical_hydrography_review.py
+Rscript src\R\qa\validate_physical_hydrography.R .
+```
+
+After an explicit B decision, current-development integration is performed separately:
+
+```powershell
+.\.venv\Scripts\python.exe src\python\qa\integrate_physical_hydrography.py
+```
+
 ### Validate the retained application prototype
 
 ```powershell
@@ -126,17 +147,18 @@ Feature status distinguishes:
 - `reality_status`: real, historical, fictional
 - `canon_status`: verified, inferred, scenario, experimental
 
-## Known QA Issues
+## Known QA Issues and Dispositions
 
-Phase 2 must not proceed past review without addressing:
+Open or qualified Phase 1 items:
 
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry
-3. physical replacement for inferred upstream WBD routing connectors
 
 The Great Black Swamp image is non-georeferenced. Full-basin upstream connectors encode WBD `tohuc` topology and are visibly/documentarily marked inferred; they are not physical river geometry.
 
 For item 2, source acquisition and candidate QA are complete, but the gate remains open: no directly documented official named-swamp vector was found, and the Gordon/ODNR review candidate is **HOLD / not canonical**.
+
+Physical replacement for inferred upstream WBD routing connectors is resolved for current development under **B — ACCEPT WITH QUALIFICATION**. The 12 remaining project-derived links are explicitly abstract, non-hydrographic routing edges pending local outlet review.
 
 ## Worldbuilding, Research, and References
 

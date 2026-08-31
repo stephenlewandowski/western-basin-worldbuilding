@@ -1,0 +1,132 @@
+{
+  "review_status": "accepted_with_qualification",
+  "canonical_status": "accepted_current_development",
+  "human_decision": "B \u2014 ACCEPT WITH QUALIFICATION",
+  "recommendation": "B \u2014 ACCEPT WITH QUALIFICATION",
+  "source": "USGS 3DHP_all Flowline layer 50",
+  "service_refresh": "August 5, 2026",
+  "feature_count": 102757,
+  "feature_type_counts": {
+    "Channel Line": 45894,
+    "Drainageway": 34429,
+    "Waterbody Connector": 9738,
+    "Canal": 6087,
+    "Hydro Unenforced Connector": 3504,
+    "Surface Connector": 3060,
+    "Elevation Breaching Connector": 45
+  },
+  "physicality_counts": {
+    "physical_channel": 45894,
+    "drainageway": 34429,
+    "authoritative_network_connector": 16347,
+    "canal": 6087
+  },
+  "source_generation_counts": {
+    "migrated_nhd": 102525,
+    "edh_work_unit": 232
+  },
+  "reconciliation_status_counts": {
+    "REPLACED_PHYSICAL": 93,
+    "REPLACED_AUTHORITATIVE_CONNECTOR": 115,
+    "ALREADY_REDUNDANT": 31,
+    "UNRESOLVED": 12,
+    "INVALID_BASELINE_INFERENCE": 0
+  },
+  "huc_assignment": {
+    "assigned": 98695,
+    "outside_or_boundary": 4062,
+    "ambiguous_point_matches": 0
+  },
+  "checks": {
+    "storage_crs": "EPSG:4326",
+    "analysis_crs": "EPSG:26917",
+    "feature_count": 102757,
+    "unique_objectid_count": 102757,
+    "unique_id3dhp_count": 102757,
+    "duplicate_objectid_count": 0,
+    "duplicate_id3dhp_count": 0,
+    "duplicate_geometry_count": 0,
+    "invalid_geometry_count": 0,
+    "empty_geometry_count": 0,
+    "null_geometry_count": 0,
+    "has_z_count": 102757,
+    "bounds_epsg4326": [
+      -85.338361,
+      40.385779,
+      -83.347683,
+      42.055249
+    ],
+    "length_km_sum": 32933.088,
+    "projected_length_km_sum": 32955.52,
+    "length_relative_error_p95": 0.008918,
+    "linked_geometry_gap_m_p95": 0.0,
+    "linked_geometry_gap_m_max": 0.0,
+    "linked_geometry_gap_over_1m_count": 0,
+    "pathlength_downstream_reversal_count": 0,
+    "network_node_count": 102387,
+    "network_edge_count": 101730,
+    "weak_component_count": 657,
+    "outlet_count": 57,
+    "missing_downstream_reference_count": 600,
+    "duplicate_hydrosequence_count": 0,
+    "self_loop_count": 0,
+    "cross_huc_transition_count": 1045,
+    "cross_huc_pair_count": 431,
+    "same_feature_forward_crossing_count": 510,
+    "same_feature_reverse_pair_count": 72,
+    "same_feature_supplemental_crossing_count": 16,
+    "maumee_named_flowline_count": 300,
+    "maumee_named_flowlines_reaching_native_terminal": 300,
+    "maumee_trace_cycle_count": 0,
+    "maumee_to_terminal_continuity_pass": true,
+    "maumee_terminal_intersects_lake_erie": true,
+    "major_tributary_terminal_traces": {
+      "Maumee River": {
+        "named_flowline_count": 300,
+        "reaches_native_terminal_count": 300,
+        "cycle_count": 0,
+        "pass": true
+      },
+      "Saint Joseph River": {
+        "named_flowline_count": 323,
+        "reaches_native_terminal_count": 323,
+        "cycle_count": 0,
+        "pass": true
+      },
+      "Saint Marys River": {
+        "named_flowline_count": 385,
+        "reaches_native_terminal_count": 385,
+        "cycle_count": 0,
+        "pass": true
+      },
+      "Auglaize River": {
+        "named_flowline_count": 187,
+        "reaches_native_terminal_count": 187,
+        "cycle_count": 0,
+        "pass": true
+      },
+      "Tiffin River": {
+        "named_flowline_count": 84,
+        "reaches_native_terminal_count": 84,
+        "cycle_count": 0,
+        "pass": true
+      },
+      "Blanchard River": {
+        "named_flowline_count": 159,
+        "reaches_native_terminal_count": 159,
+        "cycle_count": 0,
+        "pass": true
+      }
+    }
+  },
+  "canonical_gpkg_sha256": "88D7D3D26C8FB746D4AE2502088C906893B8C438A3F255AE0783C24F9EACA8C8",
+  "canonical_modified": true,
+  "historical_v0_1_gpkg_sha256": "555D23D076638E69942C9BB5D6B1043D00A152A945788BDB7C988EE72C576882",
+  "current_development_gpkg_sha256": "88D7D3D26C8FB746D4AE2502088C906893B8C438A3F255AE0783C24F9EACA8C8",
+  "historical_release_modified": false,
+  "integrated_layers": {
+    "hydrography_physical": 86410,
+    "hydrography_network_connectors": 16347,
+    "routing_inferred_unresolved": 12
+  }
+}

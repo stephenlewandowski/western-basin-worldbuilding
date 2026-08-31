@@ -20,3 +20,13 @@ Raw public-service responses are cached under `data/raw`. Delete a specific cach
 - `great_black_swamp_source_manifest.json` — preserved-source hashes and retrieval records.
 
 The candidate remains under `outputs/qa/`; it is not part of the canonical Phase 1 GeoPackage.
+
+## Physical hydrography Phase 1 follow-up QA
+
+- `water_hydrography_source_review.md` — authoritative USGS 3DHP source, retrieval, provenance, and feature semantics.
+- `physical_hydrography_reconciliation.md` — executive finding, topology method, baseline comparison, limitations, and human gate.
+- `wbd_connector_reconciliation.csv` — one QA outcome for each of the 251 released inferred WBD connectors.
+- `physical_hydrography_baseline_comparison.csv` and `physical_hydrography_qa.json` — tabular and machine-readable validation summaries.
+- `hydrography_data_cleanup.md` — unpublished-commit backup record and raw/LFS storage decisions.
+
+The hash-verified 3DHP extraction and derived QA maps are the review evidence for **B — ACCEPT WITH QUALIFICATION**. The large raw snapshot is reproducibly retrievable and ignored by Git; its service metadata, retrieval method, feature/provenance counts, and SHA-256 remain tracked. The approved three-layer representation is integrated into the Git-LFS-managed current-development GeoPackage; the historical `v0.1-water-system` artifact and released Map 01–05 files remain unchanged.

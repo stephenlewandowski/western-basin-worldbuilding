@@ -1,0 +1,1421 @@
+{
+  "currentVersion": 11.3,
+  "cimVersion": "3.3.0",
+  "id": 50,
+  "name": "Flowline",
+  "type": "Feature Layer",
+  "parentLayer": null,
+  "defaultVisibility": true,
+  "minScale": 300000,
+  "maxScale": 0,
+  "canScaleSymbols": false,
+  "geometryType": "esriGeometryPolyline",
+  "description": "",
+  "copyrightText": "",
+  "editFieldsInfo": null,
+  "ownershipBasedAccessControlForFeatures": null,
+  "syncCanReturnChanges": false,
+  "relationships": [],
+  "isDataVersioned": false,
+  "isDataArchived": false,
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "isDataBranchVersioned": false,
+  "isDataReplicaTracked": false,
+  "isCoGoEnabled": false,
+  "supportsRollbackOnFailureParameter": true,
+  "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+  },
+  "supportsStatistics": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsAdvancedQueries": true,
+  "supportsValidateSQL": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsQuantizationEditMode": true,
+  "supportsCalculate": true,
+  "supportsASyncCalculate": true,
+  "supportsDatumTransformation": true,
+  "advancedQueryCapabilities": {
+    "supportsPagination": true,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDistance": true,
+    "supportsReturningQueryExtent": true,
+    "supportsStatistics": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsCurrentUserQueries": true,
+    "supportsQueryWithResultType": true,
+    "supportsReturningGeometryCentroid": false,
+    "supportsSqlExpression": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsLod": false,
+    "supportsQueryWithLodSR": false,
+    "supportsQueryAnalytic": false
+  },
+  "advancedEditingCapabilities": {
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsAsyncApplyEdits": true,
+    "supportsApplyEditsbyUploadID": true,
+    "supportedApplyEditsUploadIDFormats": "JSON"
+  },
+  "hasGeometryProperties": true,
+  "geometryProperties": {
+    "shapeLengthFieldName": "Shape__Length",
+    "units": "esriMeters"
+  },
+  "hasMetadata": true,
+  "extent": {
+    "xmin": -19824887.0683,
+    "ymin": -1615773.7974999994,
+    "xmax": 20007564.228499997,
+    "ymax": 11518862.833800001,
+    "spatialReference": {
+      "wkid": 102100,
+      "latestWkid": 3857,
+      "xyTolerance": 0.001,
+      "zTolerance": 0.001,
+      "mTolerance": 0.001,
+      "falseX": -20037700,
+      "falseY": -30241100,
+      "xyUnits": 10000,
+      "falseZ": -100000,
+      "zUnits": 10000,
+      "falseM": -100000,
+      "mUnits": 10000
+    }
+  },
+  "sourceSpatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.002,
+    "mTolerance": 0.002,
+    "falseX": -20037700,
+    "falseY": -30241100,
+    "xyUnits": 10000,
+    "falseZ": -100000,
+    "zUnits": 1000,
+    "falseM": -100000,
+    "mUnits": 1000
+  },
+  "drawingInfo": {
+    "renderer": {
+      "type": "uniqueValue",
+      "field1": "featuretype",
+      "uniqueValueGroups": [
+        {
+          "heading": "",
+          "classes": [
+            {
+              "label": "Canal",
+              "description": "Canal",
+              "symbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": [
+                  255,
+                  170,
+                  0,
+                  255
+                ],
+                "width": 1.5
+              },
+              "values": [
+                [
+                  "2"
+                ]
+              ]
+            },
+            {
+              "label": "Drainageway",
+              "description": "Drainageway",
+              "symbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": [
+                  115,
+                  76,
+                  0,
+                  255
+                ],
+                "width": 1.5
+              },
+              "values": [
+                [
+                  "3"
+                ]
+              ]
+            },
+            {
+              "label": "Elevation Breaching Connector",
+              "description": "Elevation Breaching Connector",
+              "symbol": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": [
+                  204,
+                  101,
+                  41,
+                  255
+                ],
+                "width": 0.8
+              },
+              "values": [
+                [
+                  "6"
+                ]
+              ]
+            },
+            {
+              "label": "Hydro Unenforced Connector",
+              "description": "Hydro Unenforced Connector",
+              "symbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": [
+                  152,
+                  230,
+                  0,
+                  255
+                ],
+                "width": 1.5
+              },
+              "values": [
+                [
+                  "7"
+                ]
+              ]
+            },
+            {
+              "label": "Channel Line",
+              "description": "Channel Line",
+              "symbol": {
+                "type": "esriSLS",
+                "style": "esriSLSSolid",
+                "color": [
+                  0,
+                  90,
+                  210,
+                  255
+                ],
+                "width": 1.5
+              },
+              "values": [
+                [
+                  "1"
+                ]
+              ]
+            },
+            {
+              "label": "Surface Connector",
+              "description": "Surface Connector",
+              "symbol": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": [
+                  30,
+                  30,
+                  30,
+                  255
+                ],
+                "width": 0.7
+              },
+              "values": [
+                [
+                  "4"
+                ]
+              ]
+            },
+            {
+              "label": "Waterbody Connector",
+              "description": "Waterbody Connector",
+              "symbol": {
+                "type": "esriSLS",
+                "style": "esriSLSDash",
+                "color": [
+                  0,
+                  90,
+                  210,
+                  255
+                ],
+                "width": 0.8
+              },
+              "values": [
+                [
+                  "5"
+                ]
+              ]
+            }
+          ]
+        }
+      ],
+      "uniqueValueInfos": [
+        {
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "color": [
+              255,
+              170,
+              0,
+              255
+            ],
+            "width": 1.5
+          },
+          "value": "2",
+          "label": "Canal"
+        },
+        {
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "color": [
+              115,
+              76,
+              0,
+              255
+            ],
+            "width": 1.5
+          },
+          "value": "3",
+          "label": "Drainageway"
+        },
+        {
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSDash",
+            "color": [
+              204,
+              101,
+              41,
+              255
+            ],
+            "width": 0.8
+          },
+          "value": "6",
+          "label": "Elevation Breaching Connector"
+        },
+        {
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "color": [
+              152,
+              230,
+              0,
+              255
+            ],
+            "width": 1.5
+          },
+          "value": "7",
+          "label": "Hydro Unenforced Connector"
+        },
+        {
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSSolid",
+            "color": [
+              0,
+              90,
+              210,
+              255
+            ],
+            "width": 1.5
+          },
+          "value": "1",
+          "label": "Channel Line"
+        },
+        {
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSDash",
+            "color": [
+              30,
+              30,
+              30,
+              255
+            ],
+            "width": 0.7
+          },
+          "value": "4",
+          "label": "Surface Connector"
+        },
+        {
+          "symbol": {
+            "type": "esriSLS",
+            "style": "esriSLSDash",
+            "color": [
+              0,
+              90,
+              210,
+              255
+            ],
+            "width": 0.8
+          },
+          "value": "5",
+          "label": "Waterbody Connector"
+        }
+      ],
+      "fieldDelimiter": ",",
+      "authoringInfo": {
+        "colorRamp": {
+          "type": "multipart",
+          "colorRamps": [
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                212,
+                252,
+                210,
+                255
+              ],
+              "toColor": [
+                212,
+                252,
+                210,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                188,
+                179,
+                252,
+                255
+              ],
+              "toColor": [
+                188,
+                179,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                182,
+                188,
+                255
+              ],
+              "toColor": [
+                252,
+                182,
+                188,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                179,
+                227,
+                252,
+                255
+              ],
+              "toColor": [
+                179,
+                227,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                227,
+                179,
+                255
+              ],
+              "toColor": [
+                252,
+                227,
+                179,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                182,
+                242,
+                255
+              ],
+              "toColor": [
+                252,
+                182,
+                242,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                232,
+                215,
+                252,
+                255
+              ],
+              "toColor": [
+                232,
+                215,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                184,
+                252,
+                240,
+                255
+              ],
+              "toColor": [
+                184,
+                252,
+                240,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                216,
+                207,
+                255
+              ],
+              "toColor": [
+                252,
+                216,
+                207,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                244,
+                252,
+                179,
+                255
+              ],
+              "toColor": [
+                244,
+                252,
+                179,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                197,
+                227,
+                255
+              ],
+              "toColor": [
+                252,
+                197,
+                227,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                215,
+                247,
+                252,
+                255
+              ],
+              "toColor": [
+                215,
+                247,
+                252,
+                255
+              ]
+            },
+            {
+              "type": "algorithmic",
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                184,
+                206,
+                252,
+                255
+              ],
+              "toColor": [
+                184,
+                206,
+                252,
+                255
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+  },
+  "hasM": true,
+  "hasZ": true,
+  "enableZDefaults": false,
+  "supportsVCSProjection": true,
+  "allowUpdateWithoutMValues": false,
+  "allowGeometryUpdates": true,
+  "allowTrueCurvesUpdates": true,
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": true,
+  "hasAttachments": false,
+  "supportsApplyEditsWithGlobalIds": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "objectIdField": "OBJECTID",
+  "globalIdField": "",
+  "displayField": "id3dhp",
+  "typeIdField": "featuretype",
+  "subtypeField": "",
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID",
+      "domain": null,
+      "editable": false,
+      "nullable": false,
+      "defaultValue": null,
+      "modelName": "OBJECTID"
+    },
+    {
+      "name": "id3dhp",
+      "type": "esriFieldTypeString",
+      "alias": "id3dhp",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 7,
+      "defaultValue": null,
+      "modelName": "id3dhp"
+    },
+    {
+      "name": "featuredate",
+      "type": "esriFieldTypeDate",
+      "alias": "featuredate",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 8,
+      "defaultValue": null,
+      "precision": 1,
+      "modelName": "featuredate"
+    },
+    {
+      "name": "mainstemid",
+      "type": "esriFieldTypeString",
+      "alias": "mainstemid",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 200,
+      "defaultValue": null,
+      "modelName": "mainstemid"
+    },
+    {
+      "name": "gnisid",
+      "type": "esriFieldTypeInteger",
+      "alias": "gnisid",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "gnisid"
+    },
+    {
+      "name": "gnisidlabel",
+      "type": "esriFieldTypeString",
+      "alias": "gnisidlabel",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 120,
+      "defaultValue": null,
+      "modelName": "gnisidlabel"
+    },
+    {
+      "name": "featuretype",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "featuretype",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "featuretype"
+    },
+    {
+      "name": "featuretypelabel",
+      "type": "esriFieldTypeString",
+      "alias": "featuretypelabel",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 50,
+      "defaultValue": null,
+      "modelName": "featuretypelabel"
+    },
+    {
+      "name": "lengthkm",
+      "type": "esriFieldTypeDouble",
+      "alias": "lengthkm",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "lengthkm"
+    },
+    {
+      "name": "waterbodyid3dhp",
+      "type": "esriFieldTypeString",
+      "alias": "waterbodyid3dhp",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 7,
+      "defaultValue": null,
+      "modelName": "waterbodyid3dhp"
+    },
+    {
+      "name": "flowdirection",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "flowdirection",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "flowdirection"
+    },
+    {
+      "name": "flowdirectionlabel",
+      "type": "esriFieldTypeString",
+      "alias": "flowdirectionlabel",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 200,
+      "defaultValue": null,
+      "modelName": "flowdirectionlabel"
+    },
+    {
+      "name": "onsurface",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "onsurface",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "onsurface"
+    },
+    {
+      "name": "onsurfacelabel",
+      "type": "esriFieldTypeString",
+      "alias": "onsurfacelabel",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 200,
+      "defaultValue": null,
+      "modelName": "onsurfacelabel"
+    },
+    {
+      "name": "catchmentid3dhp",
+      "type": "esriFieldTypeString",
+      "alias": "catchmentid3dhp",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 7,
+      "defaultValue": null,
+      "modelName": "catchmentid3dhp"
+    },
+    {
+      "name": "flowpathid3dhp",
+      "type": "esriFieldTypeString",
+      "alias": "flowpathid3dhp",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 7,
+      "defaultValue": null,
+      "modelName": "flowpathid3dhp"
+    },
+    {
+      "name": "streamlevel",
+      "type": "esriFieldTypeInteger",
+      "alias": "streamlevel",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "streamlevel"
+    },
+    {
+      "name": "startflag",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "startflag",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "startflag"
+    },
+    {
+      "name": "terminalflag",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "terminalflag",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "terminalflag"
+    },
+    {
+      "name": "streamorder",
+      "type": "esriFieldTypeInteger",
+      "alias": "streamorder",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "streamorder"
+    },
+    {
+      "name": "streamcalculator",
+      "type": "esriFieldTypeInteger",
+      "alias": "streamcalculator",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "streamcalculator"
+    },
+    {
+      "name": "hydrosequence",
+      "type": "esriFieldTypeDouble",
+      "alias": "hydrosequence",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "hydrosequence"
+    },
+    {
+      "name": "dnhydrosequence",
+      "type": "esriFieldTypeDouble",
+      "alias": "dnhydrosequence",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "dnhydrosequence"
+    },
+    {
+      "name": "uphydrosequence",
+      "type": "esriFieldTypeDouble",
+      "alias": "uphydrosequence",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "uphydrosequence"
+    },
+    {
+      "name": "dnlevelpath",
+      "type": "esriFieldTypeDouble",
+      "alias": "dnlevelpath",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "dnlevelpath"
+    },
+    {
+      "name": "uplevelpath",
+      "type": "esriFieldTypeDouble",
+      "alias": "uplevelpath",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "uplevelpath"
+    },
+    {
+      "name": "pathlength",
+      "type": "esriFieldTypeDouble",
+      "alias": "pathlength",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "pathlength"
+    },
+    {
+      "name": "arbolatesum",
+      "type": "esriFieldTypeDouble",
+      "alias": "arbolatesum",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "arbolatesum"
+    },
+    {
+      "name": "divergence",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "divergence",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "divergence"
+    },
+    {
+      "name": "divergencelabel",
+      "type": "esriFieldTypeString",
+      "alias": "divergencelabel",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 200,
+      "defaultValue": null,
+      "modelName": "divergencelabel"
+    },
+    {
+      "name": "rtrndivergence",
+      "type": "esriFieldTypeSmallInteger",
+      "alias": "rtrndivergence",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "rtrndivergence"
+    },
+    {
+      "name": "levelpath",
+      "type": "esriFieldTypeInteger",
+      "alias": "levelpath",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "levelpath"
+    },
+    {
+      "name": "terminalpath",
+      "type": "esriFieldTypeDouble",
+      "alias": "terminalpath",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "terminalpath"
+    },
+    {
+      "name": "workunitid",
+      "type": "esriFieldTypeString",
+      "alias": "workunitid",
+      "domain": null,
+      "editable": true,
+      "nullable": true,
+      "length": 100,
+      "defaultValue": null,
+      "modelName": "workunitid"
+    },
+    {
+      "name": "Shape__Length",
+      "type": "esriFieldTypeDouble",
+      "alias": "shape_Length",
+      "domain": null,
+      "editable": false,
+      "nullable": true,
+      "defaultValue": null,
+      "modelName": "shape_Length",
+      "required": true
+    }
+  ],
+  "geometryField": {
+    "name": "shape",
+    "type": "esriFieldTypeGeometry",
+    "alias": "shape",
+    "domain": null,
+    "editable": true,
+    "nullable": true,
+    "defaultValue": null,
+    "modelName": "shape"
+  },
+  "indexes": [
+    {
+      "name": "FDO_OBJECTID",
+      "fields": "OBJECTID",
+      "isAscending": true,
+      "isUnique": true,
+      "description": ""
+    },
+    {
+      "name": "I23waterbodyid3d",
+      "fields": "waterbodyid3dhp",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+    },
+    {
+      "name": "I23gnisidlabel",
+      "fields": "gnisidlabel",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+    },
+    {
+      "name": "I23featuretype",
+      "fields": "featuretype",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+    },
+    {
+      "name": "I23featuretypela",
+      "fields": "featuretypelabel",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+    },
+    {
+      "name": "I23gnisid",
+      "fields": "gnisid",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+    },
+    {
+      "name": "I23mainstemid",
+      "fields": "mainstemid",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+    },
+    {
+      "name": "I23id3dhp",
+      "fields": "id3dhp",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+    },
+    {
+      "name": "FDO_shape",
+      "fields": "shape",
+      "isAscending": true,
+      "isUnique": false,
+      "description": ""
+    }
+  ],
+  "datesInUnknownTimezone": false,
+  "dateFieldsTimeReference": {
+    "timeZone": "UTC",
+    "respectsDaylightSaving": false
+  },
+  "preferredTimeReference": null,
+  "types": [
+    {
+      "id": 2,
+      "name": "Canal",
+      "domains": {},
+      "templates": [
+        {
+          "name": "2",
+          "description": "",
+          "prototype": {
+            "attributes": {
+              "workunitid": null,
+              "terminalpath": null,
+              "id3dhp": null,
+              "featuredate": null,
+              "mainstemid": null,
+              "gnisid": null,
+              "gnisidlabel": null,
+              "featuretype": 2,
+              "featuretypelabel": null,
+              "lengthkm": null,
+              "waterbodyid3dhp": null,
+              "flowdirection": null,
+              "flowdirectionlabel": null,
+              "onsurface": null,
+              "onsurfacelabel": null,
+              "catchmentid3dhp": null,
+              "flowpathid3dhp": null,
+              "streamlevel": null,
+              "startflag": null,
+              "terminalflag": null,
+              "streamorder": null,
+              "streamcalculator": null,
+              "hydrosequence": null,
+              "dnhydrosequence": null,
+              "uphydrosequence": null,
+              "dnlevelpath": null,
+              "uplevelpath": null,
+              "pathlength": null,
+              "arbolatesum": null,
+              "divergence": null,
+              "divergencelabel": null,
+              "rtrndivergence": null,
+              "levelpath": null
+            }
+          },
+          "drawingTool": "esriFeatureEditToolLine"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Drainageway",
+      "domains": {},
+      "templates": [
+        {
+          "name": "3",
+          "description": "",
+          "prototype": {
+            "attributes": {
+              "workunitid": null,
+              "terminalpath": null,
+              "id3dhp": null,
+              "featuredate": null,
+              "mainstemid": null,
+              "gnisid": null,
+              "gnisidlabel": null,
+              "featuretype": 3,
+              "featuretypelabel": null,
+              "lengthkm": null,
+              "waterbodyid3dhp": null,
+              "flowdirection": null,
+              "flowdirectionlabel": null,
+              "onsurface": null,
+              "onsurfacelabel": null,
+              "catchmentid3dhp": null,
+              "flowpathid3dhp": null,
+              "streamlevel": null,
+              "startflag": null,
+              "terminalflag": null,
+              "streamorder": null,
+              "streamcalculator": null,
+              "hydrosequence": null,
+              "dnhydrosequence": null,
+              "uphydrosequence": null,
+              "dnlevelpath": null,
+              "uplevelpath": null,
+              "pathlength": null,
+              "arbolatesum": null,
+              "divergence": null,
+              "divergencelabel": null,
+              "rtrndivergence": null,
+              "levelpath": null
+            }
+          },
+          "drawingTool": "esriFeatureEditToolLine"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Elevation Breaching Connector",
+      "domains": {},
+      "templates": [
+        {
+          "name": "6",
+          "description": "",
+          "prototype": {
+            "attributes": {
+              "workunitid": null,
+              "terminalpath": null,
+              "id3dhp": null,
+              "featuredate": null,
+              "mainstemid": null,
+              "gnisid": null,
+              "gnisidlabel": null,
+              "featuretype": 6,
+              "featuretypelabel": null,
+              "lengthkm": null,
+              "waterbodyid3dhp": null,
+              "flowdirection": null,
+              "flowdirectionlabel": null,
+              "onsurface": null,
+              "onsurfacelabel": null,
+              "catchmentid3dhp": null,
+              "flowpathid3dhp": null,
+              "streamlevel": null,
+              "startflag": null,
+              "terminalflag": null,
+              "streamorder": null,
+              "streamcalculator": null,
+              "hydrosequence": null,
+              "dnhydrosequence": null,
+              "uphydrosequence": null,
+              "dnlevelpath": null,
+              "uplevelpath": null,
+              "pathlength": null,
+              "arbolatesum": null,
+              "divergence": null,
+              "divergencelabel": null,
+              "rtrndivergence": null,
+              "levelpath": null
+            }
+          },
+          "drawingTool": "esriFeatureEditToolLine"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Hydro Unenforced Connector",
+      "domains": {},
+      "templates": [
+        {
+          "name": "7",
+          "description": "",
+          "prototype": {
+            "attributes": {
+              "workunitid": null,
+              "terminalpath": null,
+              "id3dhp": null,
+              "featuredate": null,
+              "mainstemid": null,
+              "gnisid": null,
+              "gnisidlabel": null,
+              "featuretype": 7,
+              "featuretypelabel": null,
+              "lengthkm": null,
+              "waterbodyid3dhp": null,
+              "flowdirection": null,
+              "flowdirectionlabel": null,
+              "onsurface": null,
+              "onsurfacelabel": null,
+              "catchmentid3dhp": null,
+              "flowpathid3dhp": null,
+              "streamlevel": null,
+              "startflag": null,
+              "terminalflag": null,
+              "streamorder": null,
+              "streamcalculator": null,
+              "hydrosequence": null,
+              "dnhydrosequence": null,
+              "uphydrosequence": null,
+              "dnlevelpath": null,
+              "uplevelpath": null,
+              "pathlength": null,
+              "arbolatesum": null,
+              "divergence": null,
+              "divergencelabel": null,
+              "rtrndivergence": null,
+              "levelpath": null
+            }
+          },
+          "drawingTool": "esriFeatureEditToolLine"
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "Channel Line",
+      "domains": {},
+      "templates": [
+        {
+          "name": "1",
+          "description": "",
+          "prototype": {
+            "attributes": {
+              "workunitid": null,
+              "terminalpath": null,
+              "id3dhp": null,
+              "featuredate": null,
+              "mainstemid": null,
+              "gnisid": null,
+              "gnisidlabel": null,
+              "featuretype": 1,
+              "featuretypelabel": null,
+              "lengthkm": null,
+              "waterbodyid3dhp": null,
+              "flowdirection": null,
+              "flowdirectionlabel": null,
+              "onsurface": null,
+              "onsurfacelabel": null,
+              "catchmentid3dhp": null,
+              "flowpathid3dhp": null,
+              "streamlevel": null,
+              "startflag": null,
+              "terminalflag": null,
+              "streamorder": null,
+              "streamcalculator": null,
+              "hydrosequence": null,
+              "dnhydrosequence": null,
+              "uphydrosequence": null,
+              "dnlevelpath": null,
+              "uplevelpath": null,
+              "pathlength": null,
+              "arbolatesum": null,
+              "divergence": null,
+              "divergencelabel": null,
+              "rtrndivergence": null,
+              "levelpath": null
+            }
+          },
+          "drawingTool": "esriFeatureEditToolLine"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Surface Connector",
+      "domains": {},
+      "templates": [
+        {
+          "name": "4",
+          "description": "",
+          "prototype": {
+            "attributes": {
+              "workunitid": null,
+              "terminalpath": null,
+              "id3dhp": null,
+              "featuredate": null,
+              "mainstemid": null,
+              "gnisid": null,
+              "gnisidlabel": null,
+              "featuretype": 4,
+              "featuretypelabel": null,
+              "lengthkm": null,
+              "waterbodyid3dhp": null,
+              "flowdirection": null,
+              "flowdirectionlabel": null,
+              "onsurface": null,
+              "onsurfacelabel": null,
+              "catchmentid3dhp": null,
+              "flowpathid3dhp": null,
+              "streamlevel": null,
+              "startflag": null,
+              "terminalflag": null,
+              "streamorder": null,
+              "streamcalculator": null,
+              "hydrosequence": null,
+              "dnhydrosequence": null,
+              "uphydrosequence": null,
+              "dnlevelpath": null,
+              "uplevelpath": null,
+              "pathlength": null,
+              "arbolatesum": null,
+              "divergence": null,
+              "divergencelabel": null,
+              "rtrndivergence": null,
+              "levelpath": null
+            }
+          },
+          "drawingTool": "esriFeatureEditToolLine"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Waterbody Connector",
+      "domains": {},
+      "templates": [
+        {
+          "name": "5",
+          "description": "",
+          "prototype": {
+            "attributes": {
+              "workunitid": null,
+              "terminalpath": null,
+              "id3dhp": null,
+              "featuredate": null,
+              "mainstemid": null,
+              "gnisid": null,
+              "gnisidlabel": null,
+              "featuretype": 5,
+              "featuretypelabel": null,
+              "lengthkm": null,
+              "waterbodyid3dhp": null,
+              "flowdirection": null,
+              "flowdirectionlabel": null,
+              "onsurface": null,
+              "onsurfacelabel": null,
+              "catchmentid3dhp": null,
+              "flowpathid3dhp": null,
+              "streamlevel": null,
+              "startflag": null,
+              "terminalflag": null,
+              "streamorder": null,
+              "streamcalculator": null,
+              "hydrosequence": null,
+              "dnhydrosequence": null,
+              "uphydrosequence": null,
+              "dnlevelpath": null,
+              "uplevelpath": null,
+              "pathlength": null,
+              "arbolatesum": null,
+              "divergence": null,
+              "divergencelabel": null,
+              "rtrndivergence": null,
+              "levelpath": null
+            }
+          },
+          "drawingTool": "esriFeatureEditToolLine"
+        }
+      ]
+    }
+  ],
+  "templates": [],
+  "maxRecordCount": 2500,
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedExportFormats": "sqlite,filegdb,shapefile,csv,geojson",
+  "capabilities": "Query,Extract",
+  "useStandardizedQueries": true,
+  "bigIntegerRestrictedTo53Bits": true,
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+  ],
+  "standardMaxRecordCount": 8000,
+  "tileMaxRecordCount": 4000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "maxRecordCountFactor": 1
+}

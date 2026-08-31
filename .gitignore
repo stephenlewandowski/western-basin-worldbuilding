@@ -40,3 +40,6 @@ temp/
 
 # Local migration/import scratch
 imports/
+
+# Reproducible USGS 3DHP spatial extract; metadata and hash remain tracked.
+data/raw/usgs/3dhp_flowlines_maumee_buffer500m.geojson.gz

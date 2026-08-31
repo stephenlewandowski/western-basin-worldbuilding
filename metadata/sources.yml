@@ -7,6 +7,19 @@ sources:
   usgs_nhdplus_hr:
     name: USGS NHDPlus High Resolution
     url: https://hydro.nationalmap.gov/arcgis/rest/services/NHDPlus_HR/MapServer
+  usgs_3dhp_all:
+    name: USGS 3D Hydrography Program 3DHP_all
+    url: https://3dhp.nationalmap.gov/arcgis/rest/services/usgs_3dhp_all/FeatureServer
+    flowline_layer: https://3dhp.nationalmap.gov/arcgis/rest/services/usgs_3dhp_all/FeatureServer/50
+    service_refresh: August 5, 2026
+    retrieved_date: 2026-08-29
+    raw_snapshot: data/raw/usgs/3dhp_flowlines_maumee_buffer500m.geojson.gz
+    raw_snapshot_git_storage: ignored_reproducible_download
+    raw_snapshot_sha256: 365A043ACCED9DC70CBEAEC804408A8539E3C372E3B4F64B962C03DB047EBD60
+    retrieval: Paginated spatial extraction of the exact project HUC-12 extent plus a 500 m buffer; ordered 2500-record pages with de-duplication and exact post-filtering.
+    provenance: Feature-level workunitid identifies 102525 migrated NHD records and 232 EDH records from work unit 300290; USGS documents missing derivatives for that work unit in the July 2026 release.
+    provenance_documentation: https://www.usgs.gov/3d-hydrography-program/access-3dhp-data-products
+    use_limit: Open/non-proprietary official USGS hydrography; not for site-specific regulatory determinations.
   usfws_nwi:
     name: USFWS National Wetlands Inventory
     url: https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer

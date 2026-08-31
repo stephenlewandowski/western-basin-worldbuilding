@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Accepted USGS 3DHP hydrography under **B — ACCEPT WITH QUALIFICATION** as the preferred current-development routing architecture.
+- Added separate physical hydrography, official network-connector, and unresolved abstract-routing layers without changing the historical `v0.1-water-system` release.
+- Reconciled all 251 inferred WBD routes: 93 physical replacements, 115 official-connector replacements, 31 redundant, 12 unresolved, and 0 invalid.
+- Excluded the reproducibly downloadable raw 3DHP extract from version control and placed only the current-development GeoPackage under a path-specific Git LFS rule; historical v0.1 commits remain unchanged.
 - Imported the five original ChatGPT Project Markdown exports without rewriting their content.
 - Added navigation and clarified the current canon hierarchy, Indigenous-history handling, Phase 2 planning constraints, and the retained interactive prototype.
 - Phase 1 analytical artifacts and the `v0.1-water-system` release remain unchanged; Phase 2 remains unimplemented.

@@ -1,2 +1,5 @@
 # Preserve the imported research note byte-for-byte, including authored Markdown hard breaks.
 docs/research/Great_Black_Swamp_History.md -text whitespace=-trailing-space
+
+# Current-development derived artifact only; historical commits are not migrated.
+data/processed/glasspunk_base.gpkg filter=lfs diff=lfs merge=lfs -text

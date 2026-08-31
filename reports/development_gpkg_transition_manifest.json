@@ -1,0 +1,19 @@
+{
+  "integration_date": "2026-08-31",
+  "human_decision": "B \u2014 ACCEPT WITH QUALIFICATION",
+  "historical_release_tag": "v0.1-water-system",
+  "historical_release_commit": "1f8c716a6f55c45c458d3d2f91e014855688235b",
+  "historical_v0_1_gpkg_sha256": "555D23D076638E69942C9BB5D6B1043D00A152A945788BDB7C988EE72C576882",
+  "current_development_gpkg_sha256": "88D7D3D26C8FB746D4AE2502088C906893B8C438A3F255AE0783C24F9EACA8C8",
+  "legacy_layers_preserved": true,
+  "accepted_layers": {
+    "hydrography_physical": 86410,
+    "hydrography_network_connectors": 16347,
+    "routing_inferred_unresolved": 12
+  },
+  "current_routing_table": "data/processed/networks/huc12_routing_current.csv",
+  "released_maps_modified": false,
+  "development_geometry_dimensions": "2D",
+  "raw_snapshot_z_preserved": true,
+  "integrity_check": "ok"
+}

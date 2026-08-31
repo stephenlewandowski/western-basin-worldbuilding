@@ -1,6 +1,6 @@
 # Project Status
 
-Last reviewed: 2026-08-29
+Last reviewed: 2026-08-31
 
 ## PHASE 1 — COMPLETE
 
@@ -28,11 +28,12 @@ No detailed Phase 2 modeling has begun. The Woodville–Elmore–Luckey Material
 
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry
-3. physical replacement for inferred upstream WBD routing connectors
 
 The non-georeferenced Great Black Swamp image remains reference-only. Fictional 2050 nodes retain null coordinates. Neither condition may be “completed” with guessed geometry.
 
 Great Black Swamp historical geometry: Phase 1 QA research is complete. Official ODNR dataset 3135 was preserved and audited; a Gordon (1966) class-4 candidate was produced and validated under `outputs/qa/`. Human decision: **C — HOLD**. The method is resolved, the geometry remains a noncanonical candidate, and the direct official extent source gap remains open. This item no longer blocks current Water System or Phase 2 development. See [the geometry source review](reports/great_black_swamp_geometry_source_review.md).
+
+Physical hydrography replacement: Phase 1 QA and integration are complete. Human decision: **B — ACCEPT WITH QUALIFICATION**. Current development adopts separate USGS 3DHP physical and official-connector layers plus 12 explicitly abstract unresolved routing edges. The historical v0.1 release and Map 01–05 artifacts remain unchanged. See [the reconciliation report](reports/physical_hydrography_reconciliation.md).
 
 ## Canon state
 

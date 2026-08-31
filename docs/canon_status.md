@@ -72,7 +72,19 @@ Speculative 2050 objects must remain distinguishable from verified 2026 infrastr
 
 The supplied non-georeferenced image remains reference-only, non-authoritative, and prohibited as a geometry source.
 
+## Current-development hydrography status
+
+Human decision: **B — ACCEPT WITH QUALIFICATION**.
+
+The preferred post-v0.1 routing architecture uses three separate representations:
+
+- `hydrography_physical` — 3DHP Channel Line, Canal, and Drainageway features accepted as mapped physical hydrography;
+- `hydrography_network_connectors` — authoritative Surface, Waterbody, Elevation Breaching, and Hydro Unenforced connectors that are not ordinary streams; and
+- `routing_inferred_unresolved` — project-derived abstract routing relationships with `physical_geometry=false`.
+
+The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layers remain for v0.1 compatibility and are superseded for new routing analysis. This post-v0.1 improvement does not alter the release tag or released Map 01–05 artifacts.
+
 ## Phase status
 
-- **Phase 1 Water System v0.1:** complete and validated
+- **Phase 1 Water System v0.1:** complete and validated; qualified 3DHP post-release improvement integrated into current development
 - **Phase 2 Geology / Minerals / Strategic Materials:** not started

@@ -1,0 +1,14 @@
+metric,released_v0_1,qa_candidate,difference,interpretation
+physical flowline count,864,86410.0,85546,Full 3DHP study extent; not count-optimized to v0.1.
+total physical length km,927.359,30047.277,,3DHP includes lower-order full-basin hydrography.
+authoritative network connector count,0,16347.0,16347,Kept separate from mapped watercourses.
+project-inferred connector count,251,12.0,-239,Only UNRESOLVED project edges would remain after approval.
+HUC-12s with observed downstream routing,not evaluated,251.0,,Native cross-HUC transitions only.
+HUC-12s unresolved,not evaluated,1.0,,Includes terminal HUCs and extract/boundary limitations.
+directed network weak components,not evaluated,657.0,,Native hydrosequence network within buffered extract.
+network outlets,not evaluated,57.0,,Native terminal flags/downstream sequence 0; includes regional terminal networks.
+divergent flowlines,not evaluated,698.0,,Native divergence attribute (main and minor paths).
+replaced physical,0,93.0,,3DHP physical-class transition.
+replaced authoritative connector,0,115.0,,3DHP topology uses a connector class.
+already redundant,0,31.0,,Released physical topology already carried the transition.
+invalid baseline inference,0,0.0,,WBD identity/tohuc validation.
