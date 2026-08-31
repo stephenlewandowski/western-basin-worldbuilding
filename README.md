@@ -20,6 +20,8 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 2D — COMPLETE / VALIDATED (ALTERNATIVE MATERIALS FUTURES)**
 
+**Phase 3A — COMPLETE / VALIDATED (2026 ENERGY / GRID / COMPUTE BASELINE)**
+
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
 See [PROJECT_STATUS.md](PROJECT_STATUS.md) and the [Phase 1 handoff](reports/water_system_phase1_handoff.md).
@@ -34,6 +36,8 @@ Luckey-to-Elmore flow, or future scenario.
 Phase 1 follow-up QA has produced a [Great Black Swamp source review](reports/great_black_swamp_geometry_source_review.md) and [human-review map](outputs/qa/great_black_swamp_geometry_review.png). Human decision: **C — HOLD**. The method is resolved, but the candidate remains outside the canonical GeoPackage and the direct-source gap remains open without blocking current development.
 
 A separate [physical hydrography reconciliation](reports/physical_hydrography_reconciliation.md) evaluated all 251 inferred WBD routing edges against USGS 3DHP topology and full geometry. Human decision: **B — ACCEPT WITH QUALIFICATION**. Current development now separates 86,410 physical features, 16,347 official non-stream connector features, and 12 unresolved abstract routing edges; the historical v0.1 release remains unchanged.
+
+Phase 3A adds 18 factual/qualified nodes, 17 coarse dependency edges, and [Map 11](outputs/maps/systems/11_energy_grid_compute_baseline_2026.png). Public EIA/HIFLD transmission geometry is cartographic context only; no feeder, dispatch, congestion, transfer-capability, or power-flow claim is made. The sole compute node is a documented 5 MW Bowling Green project whose operation remains unverified.
 
 ## Current Canon
 
@@ -92,6 +96,20 @@ Rscript src\R\systems\validate_materials_exposure_history.R
 .\.venv\Scripts\python.exe src\python\systems\validate_materials_scenarios.py
 Rscript src\R\systems\validate_materials_scenarios.R
 ```
+
+## Phase 3A Energy / Grid / Compute Baseline
+
+- [11 — Western Basin energy / grid / compute baseline, 2026](outputs/maps/systems/11_energy_grid_compute_baseline_2026.png)
+
+Rebuild and validate from the cached official EIA subsets:
+
+```powershell
+.\.venv\Scripts\python.exe src\python\systems\build_energy_system.py
+.\.venv\Scripts\python.exe src\python\systems\validate_energy_system.py
+Rscript src\R\systems\validate_energy_system.R .
+```
+
+Use `--refresh` on the builder only when intentionally refreshing the official EIA source snapshots.
 
 ## Repository Structure
 

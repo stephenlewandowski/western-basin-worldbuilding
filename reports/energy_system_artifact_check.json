@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "counts": {
+    "generation": 9,
+    "grid": 2,
+    "storage": 2,
+    "major_load": 4,
+    "compute": 1,
+    "nodes": 18,
+    "edges": 17
+  },
+  "classification_gates": {
+    "compute_status_qualified": "passed",
+    "major_load_demand_not_invented": "passed",
+    "power_flow_claim_absent": "passed"
+  },
+  "maps_01_10b_unchanged": true,
+  "map11": {
+    "png_bytes": 602156,
+    "svg_bytes": 7113169
+  }
+}

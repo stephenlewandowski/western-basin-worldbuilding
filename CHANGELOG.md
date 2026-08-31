@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Added Phase 3A's factual 2026 energy/grid/compute baseline: 18 nodes, 17 qualified edges, and a 14-source registry.
+- Added Map 11 with nine generation assets, two storage assets, selected critical/industrial loads, one qualified planned compute project, and 43 public in-service transmission features at 230 kV or higher.
+- Added Python/R validation, immutable Maps 01–10b regression hashes, source/assumption/QA reports, and reproducible official EIA subset retrieval.
+- Created no power-flow, congestion, feeder, transfer-capability, future energy scenario, release, or tag.
+
 - Added Phase 2D's 30-assumption ledger and separate 48-node/36-edge scenario-delta tables for three alternative 2050/2075 materials futures.
 - Added Map 10, a separate Map 10b for 2075 readability, and qualitative scenario-comparison figures.
 - Proved the 30-node/31-edge 2026 materials baseline byte-identical and created no future coordinates, quantities, routes, corridor polygon, release, or tag.

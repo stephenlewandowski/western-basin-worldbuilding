@@ -138,3 +138,9 @@ sources:
     source_records: 8
     assumption_records: 30
     use: Authoritative trajectory bases for six explicitly fictional, non-probabilistic scenario states.
+  energy_system_registry:
+    name: Phase 3A energy / grid / compute source registry
+    path: data/processed/networks/energy_system_sources.csv
+    retrieved_date: 2026-08-31
+    records: 14
+    use: Factual 2026 generation, high-voltage grid context, storage, selected major loads, and qualified compute-project baseline; no power-flow model.

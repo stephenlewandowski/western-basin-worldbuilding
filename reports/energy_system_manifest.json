@@ -1,0 +1,45 @@
+{
+  "phase": "3A",
+  "scenario_year": 2026,
+  "generated": "2026-08-31",
+  "counts": {
+    "generation": 9,
+    "grid": 2,
+    "storage": 2,
+    "major_load": 4,
+    "compute": 1,
+    "nodes": 18,
+    "edges": 17,
+    "transmission_features": 43
+  },
+  "artifacts": {
+    "data\\processed\\networks\\energy_system_nodes.csv": {
+      "bytes": 5620,
+      "sha256": "96eac0aa0e71c9474f25601be5eae1ffed0a57dc547b8032610b9c1ed5847160"
+    },
+    "data\\processed\\networks\\energy_system_edges.csv": {
+      "bytes": 3898,
+      "sha256": "4fe8101aa623e12d73d5154230f5cf3d738682e381337ba4c2e8d0a5e5ca7107"
+    },
+    "data\\processed\\networks\\energy_system_sources.csv": {
+      "bytes": 4334,
+      "sha256": "b0d056ebb38b0c2820751c882ab74428d02092f0ffe9311e0fbc518433b7c0ee"
+    },
+    "outputs\\maps\\systems\\11_energy_grid_compute_baseline_2026.png": {
+      "bytes": 602156,
+      "sha256": "069a50ce2d469de1cc3370bbbbcc11ca1c4ea0315fea451222594ecb872173ef"
+    },
+    "outputs\\maps\\systems\\11_energy_grid_compute_baseline_2026.svg": {
+      "bytes": 7113169,
+      "sha256": "246028770058ac071796f10aee327e3bef7b4d7f1d9088494d8aa13a3b6a6481"
+    },
+    "data\\raw\\eia\\power_plants_western_basin.geojson": {
+      "bytes": 32517,
+      "sha256": "8bbfa232e99d49aa0717fc22519ada2ff46de726e4c3110170e64d1b80b7a697"
+    },
+    "data\\raw\\eia\\transmission_lines_western_basin_230kv.geojson": {
+      "bytes": 127948,
+      "sha256": "40c48c65b14952b620f7ce532d173fea21f418a338ca86b5a568f31a22ac7606"
+    }
+  }
+}

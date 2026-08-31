@@ -55,6 +55,18 @@ The Materials Corridor result is **B — EMERGES WEAKLY** in the circular and
 high-convergence futures. It remains a network interpretation, not a polygon,
 region, route, or jurisdiction.
 
+## PHASE 3A — COMPLETE
+
+**Energy / Grid / Compute Baseline, 2026: COMPLETE / VALIDATED**
+
+Phase 3A adds Map 11, 18 nodes, and 17 qualified edges: 9 generation assets,
+2 nonspatial regional grid interfaces, 2 storage assets, 4 selected major
+water/industrial loads, and 1 documented 5 MW compute project with unverified
+operating status. The map includes 43 public EIA/HIFLD in-service transmission
+features at 230 kV or higher as cartographic context. It is not a power-flow,
+congestion, transfer-capability, substation, or feeder model. No future energy
+scenario is included.
+
 ## Open Phase 1 QA gates
 
 1. Toledo intake coordinate reconciliation
