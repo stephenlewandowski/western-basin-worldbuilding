@@ -12,11 +12,15 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 1 — COMPLETE**  
 **Water System v0.1 — COMPLETE / VALIDATED**  
-**Phase 2 — NOT STARTED**
+**Phase 2A — COMPLETE / VALIDATED**
+
+**Phase 2B — COMPLETE / VALIDATED (2026 MATERIAL FLOWS)**
 
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
 See [PROJECT_STATUS.md](PROJECT_STATUS.md) and the [Phase 1 handoff](reports/water_system_phase1_handoff.md).
+
+Phase 2 adds a sourced 2026 geology/facility baseline and shared carbonate/beryllium material-flow architecture. It preserves the distinction between local carbonate extraction, Elmore advanced processing of nonlocal beryllium feed, and Luckey legacy remediation.
 
 Phase 1 follow-up QA has produced a [Great Black Swamp source review](reports/great_black_swamp_geometry_source_review.md) and [human-review map](outputs/qa/great_black_swamp_geometry_review.png). Human decision: **C — HOLD**. The method is resolved, but the candidate remains outside the canonical GeoPackage and the direct-source gap remains open without blocking current development.
 
@@ -51,6 +55,25 @@ Verified geography and facilities, inferred system structure, historical referen
 - [05 — Water system 2050 scenario](outputs/maps/systems/05_water_system_2050_scenario.png)
 
 Each map is also available as SVG. The [system network diagram](outputs/figures/water_system_network.png) shows the baseline source-to-consumer dependency chain.
+
+## Phase 2 Geology and Material Flows
+
+- [06 — Geology and resources 2026](outputs/maps/systems/06_geology_resources_2026.png)
+- [07 — Carbonate materials system](outputs/maps/systems/07_carbonate_materials_system.png)
+- [08 — Beryllium strategic supply chain](outputs/maps/systems/08_beryllium_strategic_supply_chain.png)
+
+Map 07 connects generalized 1:500,000 carbonate occurrence to sourced extraction/processing roles and broad engineering functions. Map 08 anchors Materion Elmore as advanced processing—not extraction—within a schematic nonlocal-feed and strategic-use network. Solid and dashed relationships distinguish documented links from generalized inference; neither map asserts freight routes or quantities.
+
+Rebuild and validate:
+
+```powershell
+.\.venv\Scripts\python.exe src\python\systems\build_materials_system.py
+.\.venv\Scripts\python.exe src\python\systems\build_material_flows.py
+.\.venv\Scripts\python.exe src\python\systems\validate_materials_system.py
+.\.venv\Scripts\python.exe src\python\systems\validate_material_flows.py
+Rscript src\R\systems\validate_materials_system.R .
+Rscript src\R\systems\validate_material_flows.R
+```
 
 ## Repository Structure
 
@@ -189,10 +212,10 @@ Three sketchbook sheets are preserved under [assets/concept_art](assets/concept_
 1. Human review of the Phase 1 repository and open QA gates
 2. Review the imported worldbuilding, research, and reference documents against the explicit canon hierarchy
 3. Reconcile intake and historical swamp geography
-4. Plan Phase 2 from the imported geology/minerals/strategic-materials specification
-5. Evaluate the Woodville–Elmore–Luckey Materials Corridor as a cross-regional system/corridor concept
+4. Preserve Phase 2A–2B as the current 2026 materials baseline
+5. Design Phase 2C historical exposure work without changing the held swamp geometry or inventing corridor geometry
 
-Detailed Phase 2 modeling is intentionally not included in v0.1.
+The speculative 2050 materials system, detailed energy/freight systems, and Materials Corridor geometry remain deferred.
 
 ## Licensing / Attribution
 

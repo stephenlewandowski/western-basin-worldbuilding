@@ -62,3 +62,40 @@ sources:
     name: Michigan Natural Features Inventory Vegetation circa 1800
     url: https://mnfi.anr.msu.edu/resources/vegetation-circa-1800
     use: Interstate compatibility review only; not merged.
+  odnr_bedrock_type:
+    name: Ohio DNR Bedrock Type
+    url: https://gis2.ohiodnr.gov/arcgis/rest/services/DNR_Services/SUBSURFACE/MapServer/5
+    retrieved_date: 2026-08-29
+    source_scale: "1:500,000"
+    use: Generalized regional occurrence only; not reserves, quarry boundaries, or parcel geology.
+  materials_phase2b_registry:
+    name: Phase 2B materials source registry
+    path: data/processed/networks/materials_system_sources.csv
+    retrieved_date: 2026-08-29
+    records: 14
+    provenance_fields: [source_id, title, agency_or_publisher, url_or_identifier, retrieved_date, publication_or_dataset_date, spatial_resolution_or_scale, license_or_terms, confidence, source_type, notes]
+    use: Complete machine-readable provenance for the 2026 carbonate and beryllium flow baseline.
+  epa_calcium_oxide_supply_chain:
+    name: US EPA Calcium Oxide Supply Chain Profile
+    url: https://www.epa.gov/system/files/documents/2023-03/Calcium%20Oxide%20Supply%20Chain%20Profile.pdf
+    retrieved_date: 2026-08-29
+    use: Generalized lime production and water, industrial, construction, and remediation functions; no local supplier contract inferred.
+  usgs_beryllium_2026:
+    name: USGS Mineral Commodity Summaries 2026 — Beryllium
+    url: https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-beryllium.pdf
+    retrieved_date: 2026-08-29
+    use: Nonlocal domestic/imported feed and Ohio conversion context.
+  materion_cfs_2025:
+    name: Materion supply agreement with Commonwealth Fusion Systems
+    url: https://www.materion.com/en/about-materion/news/performance-alloys/materion-supply-agreement-with-commonwealth-fusion
+    publication_date: 2025-10-31
+    retrieved_date: 2026-08-29
+    source_type: company_statement
+    use: Documented Elmore beryllium-fluoride relationship for CFS ARC FLiBe; no route or quantity modeled.
+  materion_kairos_2022:
+    name: Materion and Kairos Power strategic collaboration
+    url: https://investor.materion.com/news/news-details/2022/Materion-and-Kairos-Power-to-Advance-Clean-Energy/default.aspx
+    publication_date: 2022-07-27
+    retrieved_date: 2026-08-29
+    source_type: company_statement
+    use: Documented Elmore FLiBe collaboration; 2026 operating status not independently reverified.

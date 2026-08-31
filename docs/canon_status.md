@@ -51,7 +51,7 @@ The imported [geology and strategic-materials addendum](worldbuilding/Glasspunk_
 - Luckey is a historical, legacy, and remediation node; and
 - the Materials Corridor is interpretive and cross-regional.
 
-Detailed Phase 2 modeling has not begun.
+Phase 2A and Phase 2B now implement the real-world 2026 geology/facility and material-flow baseline. The Materials Corridor remains an unevaluated interpretive concept; no polygon, sixth macroregion, freight route, or future-scenario object has been created.
 
 ## Data and scenario separation
 
@@ -87,4 +87,6 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 ## Phase status
 
 - **Phase 1 Water System v0.1:** complete and validated; qualified 3DHP post-release improvement integrated into current development
-- **Phase 2 Geology / Minerals / Strategic Materials:** not started
+- **Phase 2A Geology / Minerals / Strategic Materials:** complete and validated 2026 baseline
+- **Phase 2B Material Flows:** complete and validated 2026 baseline; Maps 07–08 only
+- **Phase 2C and speculative 2050 materials work:** not started

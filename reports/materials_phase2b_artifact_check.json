@@ -1,0 +1,51 @@
+{
+  "status": "pass",
+  "phase": "Phase 2B - 2026 materials-flow baseline",
+  "counts": {
+    "nodes": 25,
+    "edges": 26,
+    "sources": 14,
+    "spatial_nodes": 6
+  },
+  "relationship_basis_counts": {
+    "documented_supply_relationship": 4,
+    "engineering_dependency": 9,
+    "observed": 6,
+    "scientific_inference": 2,
+    "supply_chain_inference": 5
+  },
+  "map_checks": {
+    "map_07": {
+      "png_pixels": [
+        2716,
+        1816
+      ],
+      "svg_parseable": true
+    },
+    "map_08": {
+      "png_pixels": [
+        2772,
+        1738
+      ],
+      "svg_parseable": true
+    }
+  },
+  "gpkg_required_layers": [
+    "geology_bedrock_units",
+    "geology_carbonate_units",
+    "hydrography_physical",
+    "industrial_mineral_sites",
+    "legacy_remediation_sites",
+    "materials_flow_nodes",
+    "strategic_material_sites"
+  ],
+  "constraints": {
+    "elmore_not_local_extraction": true,
+    "luckey_legacy_cleanup": true,
+    "no_transport_routes": true,
+    "no_shipment_quantities": true,
+    "no_future_scenarios": true,
+    "no_maps_09_10": true,
+    "no_materials_corridor_geometry": true
+  }
+}

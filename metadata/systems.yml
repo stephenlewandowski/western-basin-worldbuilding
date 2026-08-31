@@ -11,3 +11,18 @@ systems:
     reality_statuses: [real, historical, fictional]
     canon_statuses: [verified, inferred, scenario, experimental]
     scenario_years: [2026, 2035, 2050, 2075, 2100]
+  materials:
+    system_id: SYS-MATERIALS
+    priority: 2
+    baseline_year: 2026
+    question: How do geology, processing, infrastructure, water, industry, and strategic technology connect through material relationships?
+    spatial_store: data/processed/glasspunk_base.gpkg
+    spatial_layer: materials_flow_nodes
+    node_table: data/processed/networks/materials_system_nodes.csv
+    edge_table: data/processed/networks/materials_system_edges.csv
+    source_table: data/processed/networks/materials_system_sources.csv
+    maps: [06_geology_resources_2026, 07_carbonate_materials_system, 08_beryllium_strategic_supply_chain]
+    reality_statuses: [real]
+    canon_statuses: [verified, inferred]
+    relationship_bases: [observed, documented_supply_relationship, engineering_dependency, scientific_inference, supply_chain_inference]
+    prohibited_in_phase_2b: [shipment_quantities, transport_routes, groundwater_flow, materials_corridor_geometry, future_scenarios]

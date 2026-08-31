@@ -1,0 +1,36 @@
+{
+  "phase": "Phase 2B - 2026 materials-flow baseline",
+  "node_count": 25,
+  "edge_count": 26,
+  "source_count": 14,
+  "spatial_node_count": 6,
+  "relationship_basis_counts": {
+    "documented_supply_relationship": 4,
+    "engineering_dependency": 9,
+    "observed": 6,
+    "scientific_inference": 2,
+    "supply_chain_inference": 5
+  },
+  "material_system_counts": {
+    "beryllium": 11,
+    "carbonate": 12,
+    "shared": 2
+  },
+  "files": {
+    "data/processed/networks/materials_system_nodes.csv": "EDA4B7C9E5DD6240BD8BE80D2DD7B8821144F5A660BEBF42C40C766369956508",
+    "data/processed/networks/materials_system_edges.csv": "3DB953DB19D36D84D61FBD092F8CE3F6FB3BBE7DA398F19C34CC9FEB3B5DFF3E",
+    "data/processed/networks/materials_system_sources.csv": "6F091E6B90A27AE0AB4C07A86684D32CD7D6D1AAEC88960CE5D32A755C90AE7E",
+    "outputs/maps/systems/07_carbonate_materials_system.png": "D20CE609E0CE416D7D65A071ED4032B92DA3C4374CD8F1DD994C4B2D5B6A98E4",
+    "outputs/maps/systems/07_carbonate_materials_system.svg": "29ADA4FFEE0AC370ECF814A3C897B5987C6ADB67FE30227BAAD79C592163BC41",
+    "outputs/maps/systems/08_beryllium_strategic_supply_chain.png": "CE1AF11848B5E3A247EC5D60AD9B50747C4942FDC282105E7EF917A9EBF0EDCC",
+    "outputs/maps/systems/08_beryllium_strategic_supply_chain.svg": "3DA298FE97AA0A0D8AE4A9DB257D54ACC9F5E52A2CA20CA74E6341F69A75302C"
+  },
+  "scientific_constraints": {
+    "elmore_local_extraction": false,
+    "unresolved_edges_are_transport_routes": false,
+    "groundwater_flow_modeled": false,
+    "shipment_quantities_modeled": false,
+    "materials_corridor_geometry_created": false,
+    "maps_09_or_10_created": false
+  }
+}

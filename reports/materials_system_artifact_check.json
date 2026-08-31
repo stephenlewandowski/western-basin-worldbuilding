@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "phase1_layer_counts_preserved": {
+    "water_watersheds_huc8": 7,
+    "water_subwatersheds_huc12": 252,
+    "water_flowlines_order3": 864,
+    "water_huc12_routing_inferred": 251,
+    "water_lake_erie": 10,
+    "water_current_wetlands_25ac": 608,
+    "water_verified_facilities": 2
+  },
+  "materials_layer_counts": {
+    "geology_carbonate_units": 85,
+    "industrial_mineral_sites": 3,
+    "strategic_material_sites": 1,
+    "legacy_remediation_sites": 1
+  },
+  "classification_gates": {
+    "woodville_and_genoa_local_carbonate": "passed",
+    "elmore_advanced_processing_not_mine": "passed",
+    "luckey_legacy_cleanup_not_production": "passed",
+    "unsupported_quantities_absent": "passed",
+    "groundwater_flow_claim_absent": "passed"
+  },
+  "map_pair": [
+    "outputs\\maps\\systems\\06_geology_resources_2026.png",
+    "outputs\\maps\\systems\\06_geology_resources_2026.svg"
+  ]
+}

@@ -18,11 +18,15 @@ Validated inventory:
 - 14 system nodes
 - 15 dependency edges
 
-## PHASE 2 — NOT STARTED
+## PHASE 2A–2B — COMPLETE
 
-**Geology / Minerals / Strategic Materials: PLANNED**
+**Geology / Minerals / Strategic Materials 2026 baseline: COMPLETE / VALIDATED**
 
-No detailed Phase 2 modeling has begun. The Woodville–Elmore–Luckey Materials Corridor is a possible future system/corridor concept, not a sixth macroregion.
+**Material Flows 2026 baseline: COMPLETE / VALIDATED**
+
+Phase 2A supplies generalized ODNR bedrock/carbonate context, three industrial-mineral sites, Materion Elmore advanced processing, Luckey remediation, and Map 06. Phase 2B adds a shared 25-node/26-edge carbonate and beryllium graph, a 14-record source registry, GeoPackage spatial nodes, and Maps 07–08.
+
+Elmore is advanced strategic-material processing with nonlocal feed, not a mine. Luckey is legacy/remediation, not current production. Broad functional and sector links are explicitly inferred; named CFS and Kairos relationships retain dates and source/status qualifications. No route, quantity, groundwater surface, Materials Corridor polygon, Map 09/10, or future scenario is included.
 
 ## Open Phase 1 QA gates
 

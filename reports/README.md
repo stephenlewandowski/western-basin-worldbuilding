@@ -1,6 +1,6 @@
 # Glasspunk Systems Atlas
 
-Phase 1 builds the Water System v0.1 only. Existing TypeScript prototype files are untouched.
+The historical v0.1 release builds the Phase 1 Water System only. Current development also includes the validated Phase 2A–2B 2026 materials baseline. Existing TypeScript prototype files are untouched.
 
 ```powershell
 .\.venv\Scripts\python.exe src\python\systems\build_water_system.py --historical-swamp-image "C:\Users\slewa\Downloads\Great Black Swamp.jpeg"
@@ -30,3 +30,13 @@ The candidate remains under `outputs/qa/`; it is not part of the canonical Phase
 - `hydrography_data_cleanup.md` — unpublished-commit backup record and raw/LFS storage decisions.
 
 The hash-verified 3DHP extraction and derived QA maps are the review evidence for **B — ACCEPT WITH QUALIFICATION**. The large raw snapshot is reproducibly retrievable and ignored by Git; its service metadata, retrieval method, feature/provenance counts, and SHA-256 remain tracked. The approved three-layer representation is integrated into the Git-LFS-managed current-development GeoPackage; the historical `v0.1-water-system` artifact and released Map 01–05 files remain unchanged.
+
+## Phase 2 materials baseline
+
+- `materials_system_sources.md` — Phase 2A–2B source evidence and use limits.
+- `materials_system_assumptions.md` — relationship-basis semantics and deferred questions.
+- `materials_system_qa.md` — scientific, network, and cartographic QA findings.
+- `materials_system_artifact_check.json` — Phase 2A machine-readable checks.
+- `materials_phase2b_manifest.json` and `materials_phase2b_artifact_check.json` — Phase 2B artifact hashes and validation.
+
+Maps 06–08 are the current 2026 baseline. Maps 09–10 and speculative corridor/future products are deliberately absent.
