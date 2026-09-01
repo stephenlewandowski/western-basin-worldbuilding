@@ -30,6 +30,8 @@ Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 
 
 See [PROJECT_STATUS.md](PROJECT_STATUS.md) and the [Phase 1 handoff](reports/water_system_phase1_handoff.md).
 
+For current project state, [PROJECT_STATUS.md](PROJECT_STATUS.md) is authoritative. For current canon, [docs/canon_status.md](docs/canon_status.md) is authoritative. Older imported planning documents remain preserved for history and context and do not override those files.
+
 Phase 2 adds a sourced 2026 geology/facility baseline and shared carbonate/beryllium material-flow architecture. It preserves the distinction between local carbonate extraction, Elmore advanced processing of nonlocal beryllium feed, and Luckey legacy remediation.
 
 Phase 2C adds a 30-event source-grounded Luckey/Elmore chronology, qualified
@@ -299,13 +301,11 @@ Three sketchbook sheets are preserved under [assets/concept_art](assets/concept_
 
 ## Roadmap
 
-1. Human review of the Phase 1 repository and open QA gates
-2. Review the imported worldbuilding, research, and reference documents against the explicit canon hierarchy
-3. Reconcile intake and historical swamp geography
-4. Preserve Phase 2A–2C as the immutable factual materials and historical-exposure baseline
-5. Review Phase 2D's three alternative 2050/2075 futures before beginning another detailed system
-
-The speculative 2050 materials system, detailed energy/freight systems, and Materials Corridor geometry remain deferred.
+1. Maintain the accepted project packages while preserving Phase 3A and Phase 3B as accepted/validated/frozen factual 2026 baselines and Phase 3C as separate accepted/validated future-scenario work
+2. Resolve or explicitly scope the remaining Phase 1 QA gates: Toledo intake coordinates and authoritative Great Black Swamp geometry
+3. Continue local outlet review for the 12 unresolved abstract hydrography routing relationships
+4. Review imported worldbuilding, research, and reference documents against the explicit canon hierarchy
+5. Develop the Lower Maumee/Ottawa historical GIS layer when ready; keep further detailed system, freight, and Materials Corridor geometry work subject to separate source and method review
 
 ## Licensing / Attribution
 

@@ -4,7 +4,7 @@
 
 - Formally marked Phase 3C **ACCEPTED** as the validated 2050/2075 energy, grid, storage, critical-load, and compute futures package.
 - Formally accepted and froze Phase 3B Map 12, dependency tables, matrix, source registry, and principal reports as the validated 2026 cross-system baseline.
-- Completed Phase 3C on a separate branch with three qualitative 2050/2075 energy, grid, storage, critical-load, and compute futures; factual Phase 3A/3B artifacts remain immutable.
+- Completed Phase 3C on a separate branch and integrated the accepted result into `main`, with three qualitative 2050/2075 energy, grid, storage, critical-load, and compute futures; factual Phase 3A/3B artifacts remain immutable.
 
 - Formally accepted and froze Phase 3A Map 11 plus its 18-node/17-edge factual tables with a hash regression manifest.
 - Added Phase 3B’s separate qualitative cross-system dependency layer: 28 edges, five generalized dependency nodes, Map 12, and a 10 × 7 ordinal matrix.
