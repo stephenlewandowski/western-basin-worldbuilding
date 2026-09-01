@@ -10,6 +10,8 @@ Local main SHA at handoff creation: `8d70af30c41607963d5af6597522c43dd9f1270f`
 
 `origin/main` SHA at handoff creation: `8d70af30c41607963d5af6597522c43dd9f1270f`
 
+Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
+
 Working tree at handoff creation: clean
 
 Last verified: 2026-09-01
@@ -105,5 +107,5 @@ Do not begin Phase 4A during this workflow-setup task.
 
 Repository state overrides this narrative if they differ. Inspect first.
 
-Workflow setup commit SHA is reported with the final verification; it is not
+The final branch tip is verified with Git after this setup commit; it is not
 embedded self-referentially in this file.
