@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Formally accepted and froze Phase 3A Map 11 plus its 18-node/17-edge factual tables with a hash regression manifest.
+- Added Phase 3B’s separate qualitative cross-system dependency layer: 28 edges, five generalized dependency nodes, Map 12, and a 10 × 7 ordinal matrix.
+- Documented Energy → Water, Materials, Compute, fuel, cooling/water, weather, storage-support, communications, and Monroe transition dependencies without power-flow or outage-probability claims.
+- Added Phase 3B source, assumptions, findings, QA, Python/R validation, and regression documentation; created no future scenario, release, or tag.
+
 - Added Phase 3A's factual 2026 energy/grid/compute baseline: 18 nodes, 17 qualified edges, and a 14-source registry.
 - Added Map 11 with nine generation assets, two storage assets, selected critical/industrial loads, one qualified planned compute project, and 43 public in-service transmission features at 230 kV or higher.
 - Added Python/R validation, immutable Maps 01–10b regression hashes, source/assumption/QA reports, and reproducible official EIA subset retrieval.

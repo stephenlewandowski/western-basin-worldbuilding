@@ -1,0 +1,21 @@
+{
+  "accepted_phase": "3A",
+  "accepted_baseline": "Energy / Grid / Compute Baseline, 2026",
+  "map11_frozen": true,
+  "nodes": 18,
+  "edges": 17,
+  "files": {
+    "outputs/maps/systems/11_energy_grid_compute_baseline_2026.png": {
+      "sha256": "069a50ce2d469de1cc3370bbbbcc11ca1c4ea0315fea451222594ecb872173ef"
+    },
+    "outputs/maps/systems/11_energy_grid_compute_baseline_2026.svg": {
+      "sha256": "246028770058ac071796f10aee327e3bef7b4d7f1d9088494d8aa13a3b6a6481"
+    },
+    "data/processed/networks/energy_system_nodes.csv": {
+      "sha256": "96eac0aa0e71c9474f25601be5eae1ffed0a57dc547b8032610b9c1ed5847160"
+    },
+    "data/processed/networks/energy_system_edges.csv": {
+      "sha256": "4fe8101aa623e12d73d5154230f5cf3d738682e381337ba4c2e8d0a5e5ca7107"
+    }
+  }
+}

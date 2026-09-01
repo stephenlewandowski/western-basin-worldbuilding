@@ -20,7 +20,9 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 2D — COMPLETE / VALIDATED (ALTERNATIVE MATERIALS FUTURES)**
 
-**Phase 3A — COMPLETE / VALIDATED (2026 ENERGY / GRID / COMPUTE BASELINE)**
+**Phase 3A — ACCEPTED / FROZEN (2026 ENERGY / GRID / COMPUTE BASELINE)**
+
+**Phase 3B — COMPLETE / VALIDATED (CRITICAL ENERGY DEPENDENCIES)**
 
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
@@ -36,6 +38,13 @@ Luckey-to-Elmore flow, or future scenario.
 Phase 1 follow-up QA has produced a [Great Black Swamp source review](reports/great_black_swamp_geometry_source_review.md) and [human-review map](outputs/qa/great_black_swamp_geometry_review.png). Human decision: **C — HOLD**. The method is resolved, but the candidate remains outside the canonical GeoPackage and the direct-source gap remains open without blocking current development.
 
 A separate [physical hydrography reconciliation](reports/physical_hydrography_reconciliation.md) evaluated all 251 inferred WBD routing edges against USGS 3DHP topology and full geometry. Human decision: **B — ACCEPT WITH QUALIFICATION**. Current development now separates 86,410 physical features, 16,347 official non-stream connector features, and 12 unresolved abstract routing edges; the historical v0.1 release remains unchanged.
+
+Phase 3A Map 11 and its 18-node/17-edge tables are accepted, frozen, and
+regression-protected. Phase 3B adds [Map 12](outputs/maps/systems/12_critical_energy_dependencies_2026.png),
+28 qualitative dependency edges, five generalized dependency nodes, and a
+10 × 7 ordinal matrix. It models cross-system dependencies—not power flows—
+and does not claim congestion, outage probability, reserve margin, N-1
+performance, restoration time, or future generation.
 
 Phase 3A adds 18 factual/qualified nodes, 17 coarse dependency edges, and [Map 11](outputs/maps/systems/11_energy_grid_compute_baseline_2026.png). Public EIA/HIFLD transmission geometry is cartographic context only; no feeder, dispatch, congestion, transfer-capability, or power-flow claim is made. The sole compute node is a documented 5 MW Bowling Green project whose operation remains unverified.
 
@@ -110,6 +119,24 @@ Rscript src\R\systems\validate_energy_system.R .
 ```
 
 Use `--refresh` on the builder only when intentionally refreshing the official EIA source snapshots.
+
+## Phase 3B Critical Energy Dependencies & Reliability
+
+- [12 — Critical energy dependencies and reliability, 2026](outputs/maps/systems/12_critical_energy_dependencies_2026.png)
+- [Qualitative dependency matrix](outputs/figures/energy_dependency_matrix_2026.png)
+- [Cross-system findings](reports/energy_cross_system_findings.md)
+
+The separate dependency layer reuses Phase 3A asset IDs and adds five
+generalized external dependency nodes. It is qualitative/ordinal and does not
+perform power-flow, feeder, contingency, congestion, reserve-margin, or outage
+probability analysis.
+
+```powershell
+.\.venv\Scripts\python.exe src\python\systems\build_energy_dependencies.py
+.\.venv\Scripts\python.exe src\python\systems\validate_phase3a_freeze.py
+.\.venv\Scripts\python.exe src\python\systems\validate_energy_dependencies.py
+Rscript src\R\systems\validate_energy_dependencies.R .
+```
 
 ## Repository Structure
 

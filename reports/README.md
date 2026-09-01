@@ -47,3 +47,12 @@ QA, manifest, and machine-validation reports use the
 `materials_exposure_history_*` prefix. Maps 10/10b add six explicitly fictional
 alternative future states, with `materials_scenario*` tables/reports. Scenario
 objects remain separate from the immutable factual graph.
+
+## Phase 3 energy baseline and dependencies
+
+Phase 3A's accepted/frozen 2026 energy, grid, and compute baseline is recorded in
+the `energy_system_*` reports and protected by `phase3a_freeze_manifest.json`.
+Phase 3B adds the qualitative dependency registry, Map 12, the 10 × 7 ordinal
+matrix, and cross-system findings. See `energy_dependency_sources.md`,
+`energy_dependency_assumptions.md`, `energy_dependency_qa.md`,
+`energy_dependency_manifest.json`, and `energy_cross_system_findings.md`.

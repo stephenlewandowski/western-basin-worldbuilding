@@ -144,3 +144,9 @@ sources:
     retrieved_date: 2026-08-31
     records: 14
     use: Factual 2026 generation, high-voltage grid context, storage, selected major loads, and qualified compute-project baseline; no power-flow model.
+  energy_dependency_registry:
+    name: Phase 3B cross-system dependency source registry
+    path: data/processed/networks/energy_dependency_sources.csv
+    retrieved_date: 2026-09-01
+    records: 19
+    use: Qualitative energy-to-water/materials/compute and fuel/water/weather/storage dependency analysis; no power-flow or outage-probability model.

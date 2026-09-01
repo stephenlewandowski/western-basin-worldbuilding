@@ -1,0 +1,11 @@
+system,electricity,fuel,cooling/water,logistics,weather,grid,communications
+drinking water,high,none,low,moderate,moderate,high,moderate
+wastewater,high,none,low,moderate,moderate,high,moderate
+strategic materials,high,moderate,unknown,moderate,low,high,moderate
+carbonate processing,high,moderate,unknown,moderate,low,high,moderate
+compute,high,none,unknown,low,low,high,high
+nuclear generation,low,moderate,high,moderate,low,moderate,moderate
+gas generation,low,high,moderate,low,low,moderate,moderate
+coal generation,low,high,high,high,low,moderate,moderate
+renewables,low,none,low,low,high,moderate,moderate
+storage,low,none,none,moderate,low,high,moderate

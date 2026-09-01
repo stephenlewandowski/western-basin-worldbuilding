@@ -55,9 +55,9 @@ The Materials Corridor result is **B — EMERGES WEAKLY** in the circular and
 high-convergence futures. It remains a network interpretation, not a polygon,
 region, route, or jurisdiction.
 
-## PHASE 3A — COMPLETE
+## PHASE 3A — ACCEPTED / FROZEN
 
-**Energy / Grid / Compute Baseline, 2026: COMPLETE / VALIDATED**
+**Energy / Grid / Compute Baseline, 2026: ACCEPTED / VALIDATED**
 
 Phase 3A adds Map 11, 18 nodes, and 17 qualified edges: 9 generation assets,
 2 nonspatial regional grid interfaces, 2 storage assets, 4 selected major
@@ -66,6 +66,22 @@ operating status. The map includes 43 public EIA/HIFLD in-service transmission
 features at 230 kV or higher as cartographic context. It is not a power-flow,
 congestion, transfer-capability, substation, or feeder model. No future energy
 scenario is included.
+
+Map 11 and the Phase 3A node/edge tables are frozen and regression-protected by
+`reports/phase3a_freeze_manifest.json`. Phase 3A remains 18 nodes and 17 coarse
+relationships; Phase 3B uses these IDs without modifying the accepted baseline.
+
+## PHASE 3B — COMPLETE / VALIDATED
+
+**Critical Energy Dependencies & Reliability, 2026**
+
+Phase 3B adds 28 qualitative cross-system dependency edges and five generalized
+dependency nodes, a 10 × 7 ordinal dependency matrix, Map 12, and source,
+assumption, findings, and QA reports. The layer connects energy to water,
+materials, and planned/unverified compute; generalized fuel, cooling/water,
+weather, storage-support, and communications dependencies are represented.
+No power-flow, outage-probability, contingency, congestion, transfer-limit, or
+future-energy analysis is included.
 
 ## Open Phase 1 QA gates
 

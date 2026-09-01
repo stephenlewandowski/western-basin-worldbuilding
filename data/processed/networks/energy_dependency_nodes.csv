@@ -1,0 +1,6 @@
+node_id,name,node_system,reality_status,source_id,confidence,notes,canon_status
+DEP-NATURAL-GAS-SUPPLY,Regional/external natural-gas supply,fuel,external,SRC-EIA-NG-CONTRACTS-2018,high,Generalized supply-and-delivery dependency; no pipeline geometry.,qualified
+DEP-FUEL-LOGISTICS,External coal/petcoke fuel logistics,fuel,external,SRC-DTE-MONROE-2024,medium,Monroe feed dependency only; route and inventory unresolved.,qualified
+DEP-COOLING-WATER,Cooling and auxiliary water,water,regional,SRC-NRC-COOLING-GENERIC-2026,high,Generalized thermal cooling requirement; no intake or withdrawal quantity.,qualified
+DEP-WEATHER-RESOURCE,Weather-dependent renewable resource,weather,external,SRC-DOE-VRE-2026,high,Wind/solar availability varies with weather; no forecast.,qualified
+DEP-COMMUNICATIONS-NETWORK,Operational communications network,communications,regional,SRC-PJM-PLANNING-2026,low,Generalized coordination dependency; no topology or outage model.,qualified

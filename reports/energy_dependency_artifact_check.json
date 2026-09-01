@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "counts": {
+    "dependency_nodes": 5,
+    "dependency_edges": 28,
+    "matrix_rows": 10,
+    "matrix_columns": 7
+  },
+  "gates": {
+    "phase3a_frozen": true,
+    "all_endpoints_valid": true,
+    "qualitative_categories_valid": true,
+    "unsupported_numeric_loads_absent": true,
+    "monroe_transition_qualified": true,
+    "oppidan_planned_unverified": true,
+    "storage_duration_unknown": true,
+    "prohibited_power_flow_claims_absent": true
+  },
+  "artifacts": {
+    "map12_png_bytes": 609496,
+    "map12_svg_bytes": 7072691,
+    "matrix_png_bytes": 258773
+  }
+}
