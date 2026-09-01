@@ -89,12 +89,15 @@ registry, and principal reports are hash-protected by
 `reports/phase3b_freeze_manifest.json`. Phase 3C may use these artifacts but
 must not modify them.
 
-## PHASE 3C — IN PROGRESS
+## PHASE 3C — COMPLETE / VALIDATED
 
 **Energy / Grid / Compute Futures, 2050 and 2075**
 
 Phase 3C uses separate scenario assumptions and node/edge deltas. The factual
-2026 Phase 3A and accepted Phase 3B layers remain unchanged.
+2026 Phase 3A and accepted Phase 3B layers remain unchanged. The completed
+package contains 36 assumptions, 114 scenario node states, 114 scenario edge
+deltas, six A/B/C horizon states, Maps 13/13b, and a qualitative comparison.
+No precise future MW, route, facility, probability, or power-flow claim is made.
 
 ## Open Phase 1 QA gates
 
