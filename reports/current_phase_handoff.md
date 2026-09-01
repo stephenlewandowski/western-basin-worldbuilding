@@ -16,7 +16,7 @@ Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
 
 Working tree at handoff creation: clean before checkpoint update
 
-Last verified: 2026-09-01T22:21:44+09:00
+Last verified: 2026-09-01T22:47:52+09:00
 
 ## Current project state
 
@@ -28,25 +28,25 @@ Status: **ACCEPTED / VALIDATED**
 - Phase 3B: **ACCEPTED / FROZEN**
 - Phase 3C: **ACCEPTED / VALIDATED**
 
-Next approved analytical phase: **IN PROGRESS**
+Next approved analytical phase: **Phase 4B STARTING**
 
-Expected next phase: **Phase 4A — Data, Sensors & Decision Infrastructure
-Baseline, 2026**
+Expected next phase: **Phase 4B — Information Dependencies, Blind Spots &
+Governance, 2026**
 
-Primary expected product: **Map 14 — Western Basin Observation & Decision
-System, 2026**
+Primary expected product: **Map 15 — Information Dependencies & Governance,
+2026**
 
 ## Active development state
 
-Active phase: **Phase 4A — Data, Sensors & Decision Infrastructure Baseline, 2026**
+Active phase: **NONE — Phase 4A integrated; Phase 4B worktree not yet established**
 
-Active branch: **phase-4a-observation-decision-baseline**
+Active branch: **main**
 
-Active worktree: **C:\Projects\Public_GitHub\western-basin-worldbuilding-phase4a**
+Active worktree: **C:\Projects\Public_GitHub\western-basin-worldbuilding**
 
 Starting main SHA: **2a468cc7d3d7fec12801df9c51d7e8e9e8271e3a**
 
-Current branch SHA: **Phase 4A implementation commit; final amended SHA is verified with Git and is not embedded self-referentially**
+Current branch SHA: **Phase 4A integration commit; final handoff commit is verified with Git and is not embedded self-referentially**
 
 ## Completed
 
@@ -62,14 +62,17 @@ Current branch SHA: **Phase 4A implementation commit; final amended SHA is verif
 - Phase 4A Python and independent R validators passed
 - Phase 4A project-facing status, canon, changelog, report index, and workflow boundary updated
 - Prior Python and R regressions, Markdown links, application tests, Git/LFS checks, and full-resolution Map 14 inspection passed
-- Phase 4A implementation commit created locally; completion checkpoint is being amended into that commit
+- Phase 4A feature commit `66c962cae14e77753394e8c9a47abb9f81d34e2a` pushed and fast-forward integrated into `main`
+- Phase 4A status: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
 
 See `PROJECT_STATUS.md` for the detailed artifact and validation inventory.
 
 ## Remaining
 
-Phase 4A implementation, documentation, and validation are complete. The
-feature commit is ready for push and authorized fast-forward integration.
+Phase 4A implementation, documentation, validation, feature-branch push, and
+fast-forward integration are complete. Phase 4B is approved to begin without
+waiting for routine confirmation. Its isolated branch/worktree must be
+established before any Phase 4B edits.
 
 ## Validation already passed
 
@@ -97,34 +100,14 @@ feature commit is ready for push and authorized fast-forward integration.
 
 ## Uncommitted files
 
-`CHANGELOG.md`
-`PROJECT_STATUS.md`
-`README.md`
-`docs/agent_workflow.md`
-`docs/canon_status.md`
-`metadata/sources.yml`
-`data/processed/networks/observation_system_nodes.csv`
-`data/processed/networks/observation_system_edges.csv`
-`outputs/figures/observation_system_R_validation.png`
-`outputs/maps/systems/14_observation_decision_system_2026.png`
-`outputs/maps/systems/14_observation_decision_system_2026.svg`
-`reports/current_phase_handoff.md`
-`reports/observation_system_artifact_check.json`
-`reports/observation_system_assumptions.md`
-`reports/observation_system_manifest.json`
-`reports/observation_system_qa.md`
-`reports/observation_system_sources.md`
-`src/R/systems/validate_observation_system.R`
-`src/python/systems/build_observation_system.py`
-`src/python/systems/validate_energy_system.py`
-`src/python/systems/validate_observation_system.py`
+`reports/current_phase_handoff.md` (this post-integration checkpoint)
 
 ## Next exact action
 
-Amend the Phase 4A implementation commit with this completion checkpoint, then
-push `phase-4a-observation-decision-baseline`, review the remote branch, fast-
-forward integrate to `main`, and verify local `main` equals `origin/main`.
-Preserve prior artifacts and the unresolved Toledo intake-coordinate
+Create the isolated `phase-4b-information-dependencies` branch/worktree from
+the integrated `main` tip. Record Phase 4B's starting SHA and Map 14 hashes,
+then begin the dependency, blind-spot, authority, matrix, report, and Map 15
+slice. Preserve prior artifacts and the unresolved Toledo intake-coordinate
 discrepancy.
 
 ## Do not repeat
