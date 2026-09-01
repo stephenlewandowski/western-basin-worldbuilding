@@ -1,0 +1,61 @@
+{
+  "phase": "3C",
+  "generated": "2026-09-01",
+  "scenario_ids": [
+    "A2050",
+    "A2075",
+    "B2050",
+    "B2075",
+    "C2050",
+    "C2075"
+  ],
+  "counts": {
+    "assumptions": 36,
+    "scenario_node_states": 114,
+    "scenario_edge_deltas": 114,
+    "comparison_rows": 48,
+    "sources": 9
+  },
+  "artifacts": {
+    "data\\processed\\scenarios\\energy_scenario_assumptions.csv": {
+      "bytes": 17503,
+      "sha256": "e665e2d8fcb6952c5a8a0a8d530648fe939e61b67e7e434dee5b5899aebfc157"
+    },
+    "data\\processed\\scenarios\\energy_nodes_scenario.csv": {
+      "bytes": 37663,
+      "sha256": "36fd920bcfc41c738812dc58ba1e24fe3e910129d319f03341969bab1a7b9f6b"
+    },
+    "data\\processed\\scenarios\\energy_edges_scenario.csv": {
+      "bytes": 28604,
+      "sha256": "cd92ae2405a0f094bb0f0c1f902d3c847616ee7b123130f169b6de569c85cf5c"
+    },
+    "data\\processed\\scenarios\\energy_scenario_sources.csv": {
+      "bytes": 3105,
+      "sha256": "fb159df6d9977cfebd9ac84b46e5cc7cffef48d45cb5f52fdb38e4de1f26966e"
+    },
+    "outputs\\figures\\energy_scenarios_comparison.csv": {
+      "bytes": 5550,
+      "sha256": "33827011731dca264a0799838f9668b9db82da34a33bfc8e684a416637cb50f6"
+    },
+    "outputs\\figures\\energy_scenarios_comparison.png": {
+      "bytes": 225400,
+      "sha256": "743dd7ecdefa5ea61993928a25f10fbe3ef03cc167ff7c67a8701307afbdd6f1"
+    },
+    "outputs\\maps\\systems\\13_energy_grid_compute_futures_2050.png": {
+      "bytes": 488101,
+      "sha256": "968b37dfb28aa81124cd0c98fa2d7bbcce598405c37dc77087b21c40351564bd"
+    },
+    "outputs\\maps\\systems\\13_energy_grid_compute_futures_2050.svg": {
+      "bytes": 264564,
+      "sha256": "aad3028b16e6c21634e3571f945eec90ce98a154979251e721d78aec23d8048d"
+    },
+    "outputs\\maps\\systems\\13b_energy_grid_compute_futures_2075.png": {
+      "bytes": 493234,
+      "sha256": "96b4d754160482d51198cc19d991b8f9a485383ea1d614ebb8701a292be3edc9"
+    },
+    "outputs\\maps\\systems\\13b_energy_grid_compute_futures_2075.svg": {
+      "bytes": 266949,
+      "sha256": "7c7ee09de55f8c114cad95cb3b859b9c2fee6f9482d1448b4d0a48483e11a386"
+    }
+  }
+}

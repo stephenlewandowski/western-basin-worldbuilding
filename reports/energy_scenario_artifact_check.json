@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "counts": {
+    "assumptions": 36,
+    "scenario_node_states": 114,
+    "scenario_edge_deltas": 114,
+    "comparison_rows": 48
+  },
+  "scenario_ids": [
+    "A2050",
+    "A2075",
+    "B2050",
+    "B2075",
+    "C2050",
+    "C2075"
+  ],
+  "gates": {
+    "phase3a_18_17": true,
+    "phase3b_5_28": true,
+    "phase3a_freeze": true,
+    "phase3b_freeze": true,
+    "future_separated": true,
+    "no_future_mw": true,
+    "no_prohibited_claims": true,
+    "monroe_qualified": true,
+    "oppidan_unverified": true,
+    "maps_valid": true,
+    "comparison_valid": true
+  },
+  "artifacts": {
+    "map13_png": {
+      "bytes": 488101,
+      "sha256": "968b37dfb28aa81124cd0c98fa2d7bbcce598405c37dc77087b21c40351564bd"
+    },
+    "map13_svg": {
+      "bytes": 264564,
+      "sha256": "aad3028b16e6c21634e3571f945eec90ce98a154979251e721d78aec23d8048d"
+    },
+    "map13b_png": {
+      "bytes": 493234,
+      "sha256": "96b4d754160482d51198cc19d991b8f9a485383ea1d614ebb8701a292be3edc9"
+    },
+    "map13b_svg": {
+      "bytes": 266949,
+      "sha256": "7c7ee09de55f8c114cad95cb3b859b9c2fee6f9482d1448b4d0a48483e11a386"
+    },
+    "comparison_png": {
+      "bytes": 225400,
+      "sha256": "743dd7ecdefa5ea61993928a25f10fbe3ef03cc167ff7c67a8701307afbdd6f1"
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Project Status
 
-Last reviewed: 2026-08-31
+Last reviewed: 2026-09-01
 
 ## PHASE 1 — COMPLETE
 
@@ -71,7 +71,7 @@ Map 11 and the Phase 3A node/edge tables are frozen and regression-protected by
 `reports/phase3a_freeze_manifest.json`. Phase 3A remains 18 nodes and 17 coarse
 relationships; Phase 3B uses these IDs without modifying the accepted baseline.
 
-## PHASE 3B — COMPLETE / VALIDATED
+## PHASE 3B — ACCEPTED / FROZEN
 
 **Critical Energy Dependencies & Reliability, 2026**
 
@@ -82,6 +82,19 @@ materials, and planned/unverified compute; generalized fuel, cooling/water,
 weather, storage-support, and communications dependencies are represented.
 No power-flow, outage-probability, contingency, congestion, transfer-limit, or
 future-energy analysis is included.
+
+Phase 3B is formally **ACCEPTED / FROZEN** as the validated 2026 cross-system
+dependency baseline. Map 12, the dependency node/edge tables, matrix, source
+registry, and principal reports are hash-protected by
+`reports/phase3b_freeze_manifest.json`. Phase 3C may use these artifacts but
+must not modify them.
+
+## PHASE 3C — IN PROGRESS
+
+**Energy / Grid / Compute Futures, 2050 and 2075**
+
+Phase 3C uses separate scenario assumptions and node/edge deltas. The factual
+2026 Phase 3A and accepted Phase 3B layers remain unchanged.
 
 ## Open Phase 1 QA gates
 

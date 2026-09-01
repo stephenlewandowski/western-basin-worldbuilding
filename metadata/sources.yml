@@ -150,3 +150,9 @@ sources:
     retrieved_date: 2026-09-01
     records: 19
     use: Qualitative energy-to-water/materials/compute and fuel/water/weather/storage dependency analysis; no power-flow or outage-probability model.
+  energy_scenario_registry:
+    name: Phase 3C energy futures source registry
+    path: data/processed/scenarios/energy_scenario_sources.csv
+    retrieved_date: 2026-09-01
+    records: 9
+    use: Authoritative future-driver context for qualitative 2050/2075 scenarios; no deterministic forecast or future power-flow model.

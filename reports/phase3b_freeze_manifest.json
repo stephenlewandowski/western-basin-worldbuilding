@@ -1,0 +1,23 @@
+{
+  "accepted_phase": "3B",
+  "accepted_baseline": "Critical Energy Dependencies & Reliability, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "dependency_nodes": 5,
+  "dependency_edges": 28,
+  "matrix": "10x7 ordinal",
+  "files": {
+    "outputs/maps/systems/12_critical_energy_dependencies_2026.png": {"bytes": 609496, "sha256": "df8959b1c6d81dc1be22bfaa5d7a6a1fac749325ee227f3e81244513629c58f1"},
+    "outputs/maps/systems/12_critical_energy_dependencies_2026.svg": {"bytes": 7072691, "sha256": "ddd1f71de08dd29531e021b5a39118c408d2b7ee669248bba7c5d99e1a26c684"},
+    "data/processed/networks/energy_dependency_nodes.csv": {"bytes": 968, "sha256": "cb77b42c0712fa1841dc1ca0b2a6966564ee21d8b4e6792945b4a2d7b6058424"},
+    "data/processed/networks/energy_dependency_edges.csv": {"bytes": 6788, "sha256": "e6d3495caf954c993a6d0a77200983f9fc111491bf7e6029c879c8f600d2092d"},
+    "outputs/figures/energy_dependency_matrix_2026.csv": {"bytes": 672, "sha256": "c9013f4da70bfb69a75748c368f5b9661577f931647783058bf20cebd4ae15c5"},
+    "outputs/figures/energy_dependency_matrix_2026.png": {"bytes": 258773, "sha256": "ffd467cdf7d984a398633a540053b7bf51da8e0a4f69ae9e34e9abc394358f5d"},
+    "data/processed/networks/energy_dependency_sources.csv": {"bytes": 6070, "sha256": "6f456cd4cbb1d7f3818dc0a893bc724b9d467b1591a367257da07217df40f107"},
+    "reports/energy_dependency_sources.md": {"bytes": 1477, "sha256": "2e50afe008454e9d27c1f09e541209842e01e4bc31c35af137587d0375e5d5fe"},
+    "reports/energy_dependency_assumptions.md": {"bytes": 1732, "sha256": "9f58a723e47408a2798d0784de007b77846aa2354858043cdae16b80006ccd17"},
+    "reports/energy_dependency_qa.md": {"bytes": 1870, "sha256": "9e2929160e22fc60d669a9429f0ad19d15ab2cc7c45712bec24d73aa0aafba8a"},
+    "reports/energy_cross_system_findings.md": {"bytes": 4378, "sha256": "7a29f57ac446423435f0f7b7be8f4cac3b0a1f77732d89719e1cde8ac391e0af"},
+    "reports/energy_dependency_manifest.json": {"bytes": 1475, "sha256": "5dd4cfa33ce48239a4bbba17bc979f2c05de4a0fc06f7e2b0d7d63ec69a379a5"},
+    "reports/energy_dependency_artifact_check.json": {"bytes": 618, "sha256": "ed1e93c398298d0a8ec50d597c226ffc80366237dadc83313e44ab2ec0736884"}
+  }
+}

@@ -36,9 +36,9 @@ def main():
     assert png.stat().st_size>100_000 and svg.stat().st_size>50_000
     with Image.open(png) as im: im.verify()
     ET.parse(svg)
-    # Keep the Phase 3A regression set limited to Maps 01–10b; Phase 3B's
-    # newly added Map 12 is validated by validate_energy_dependencies.py.
-    map_hashes={p.name:digest(p) for p in sorted((ROOT/"outputs/maps/systems").glob("*.png")) if not p.name.startswith(("11_","12_"))}
+    # Keep the Phase 3A regression set limited to Maps 01–10b; Maps 11–13b
+    # are validated by their phase-specific validators.
+    map_hashes={p.name:digest(p) for p in sorted((ROOT/"outputs/maps/systems").glob("*.png")) if not p.name.startswith(("11_","12_","13_","13b_"))}
     baseline=json.loads((ROOT/"reports/phase3a_preflight_map_hashes.json").read_text(encoding="utf-8"))
     assert map_hashes==baseline, "Maps 01-10b changed"
     report={"status":"passed","counts":expected|{"nodes":len(nodes),"edges":len(edges)},

@@ -56,3 +56,12 @@ Phase 3B adds the qualitative dependency registry, Map 12, the 10 × 7 ordinal
 matrix, and cross-system findings. See `energy_dependency_sources.md`,
 `energy_dependency_assumptions.md`, `energy_dependency_qa.md`,
 `energy_dependency_manifest.json`, and `energy_cross_system_findings.md`.
+Phase 3B is accepted/frozen by `phase3b_freeze_manifest.json`; Phase 3C future
+scenarios remain separate under `data/processed/scenarios/` and the
+`energy_scenario_*` reports.
+
+Phase 3C uses `energy_scenario_assumptions.csv`, `energy_nodes_scenario.csv`,
+`energy_edges_scenario.csv`, and `energy_scenario_sources.csv` for separate
+2050/2075 deltas. Maps 13/13b and the qualitative comparison are accompanied by
+`energy_scenario_consistency.md`, `energy_system_future_worldbuilding.md`, and
+the machine-readable scenario manifest and artifact check.

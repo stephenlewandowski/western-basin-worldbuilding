@@ -22,7 +22,9 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 3A — ACCEPTED / FROZEN (2026 ENERGY / GRID / COMPUTE BASELINE)**
 
-**Phase 3B — COMPLETE / VALIDATED (CRITICAL ENERGY DEPENDENCIES)**
+**Phase 3B — ACCEPTED / FROZEN (CRITICAL ENERGY DEPENDENCIES)**
+
+**Phase 3C — IN PROGRESS (ENERGY / GRID / COMPUTE FUTURES)**
 
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
@@ -45,6 +47,10 @@ regression-protected. Phase 3B adds [Map 12](outputs/maps/systems/12_critical_en
 10 × 7 ordinal matrix. It models cross-system dependencies—not power flows—
 and does not claim congestion, outage probability, reserve margin, N-1
 performance, restoration time, or future generation.
+
+Phase 3B is accepted and frozen as the 2026 cross-system dependency baseline.
+Phase 3C uses separate 2050/2075 scenario assumptions and deltas; it does not
+overwrite Phase 3A or Phase 3B factual rows or artifacts.
 
 Phase 3A adds 18 factual/qualified nodes, 17 coarse dependency edges, and [Map 11](outputs/maps/systems/11_energy_grid_compute_baseline_2026.png). Public EIA/HIFLD transmission geometry is cartographic context only; no feeder, dispatch, congestion, transfer-capability, or power-flow claim is made. The sole compute node is a documented 5 MW Bowling Green project whose operation remains unverified.
 
@@ -136,6 +142,27 @@ probability analysis.
 .\.venv\Scripts\python.exe src\python\systems\validate_phase3a_freeze.py
 .\.venv\Scripts\python.exe src\python\systems\validate_energy_dependencies.py
 Rscript src\R\systems\validate_energy_dependencies.R .
+```
+
+## Phase 3C Energy / Grid / Compute Futures
+
+- [13 — Energy / grid / compute futures, 2050](outputs/maps/systems/13_energy_grid_compute_futures_2050.png)
+- [13b — Energy / grid / compute futures, 2075](outputs/maps/systems/13b_energy_grid_compute_futures_2075.png)
+- [Qualitative scenario comparison](outputs/figures/energy_scenarios_comparison.png)
+- [Scenario consistency report](reports/energy_scenario_consistency.md)
+- [Future worldbuilding report](reports/energy_system_future_worldbuilding.md)
+
+Phase 3C contains three non-probabilistic scenario families—Managed Transition,
+Distributed Resilience, and High-Load Convergence—with separate 2050/2075
+assumptions and node/edge deltas. The factual 2026 Phase 3A/3B layers remain
+unchanged; no precise future MW, route, facility, outage, or power-flow claim is
+made.
+
+```powershell
+.\.venv\Scripts\python.exe src\python\systems\build_energy_scenarios.py
+.\.venv\Scripts\python.exe src\python\systems\validate_phase3b_freeze.py
+.\.venv\Scripts\python.exe src\python\systems\validate_energy_scenarios.py
+Rscript src\R\systems\validate_energy_scenarios.R .
 ```
 
 ## Repository Structure
