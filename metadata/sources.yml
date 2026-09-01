@@ -156,3 +156,84 @@ sources:
     retrieved_date: 2026-09-01
     records: 9
     use: Authoritative future-driver context for qualitative 2050/2075 scenarios; no deterministic forecast or future power-flow model.
+  phase4a_glerl_hab:
+    name: NOAA Great Lakes Environmental Research Laboratory HABs and Hypoxia program
+    url: https://www.glerl.noaa.gov/res/HABs_and_Hypoxia/
+    retrieved_date: 2026-09-01
+    source_type: federal_scientific_program
+    use: Integrated Lake Erie HAB observation and research context using satellite imagery, remote sensing, buoys, and monitoring; data are described as informing forecast models and drinking-water managers.
+  phase4a_nccos_hab_forecast:
+    name: NOAA NCCOS Lake Erie HAB Forecast
+    url: https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/lake-erie/
+    retrieved_date: 2026-09-01
+    source_type: federal_forecast_product
+    use: Public seasonal HAB forecast using satellite imagery, forecasting/mixing models, and field samples; no Toledo-specific automated feed or threshold is inferred.
+  phase4a_glos_crib:
+    name: GLOS / IOOS City of Toledo Water Intake Crib ERDDAP dataset
+    url: https://erddap.sensors.axds.co/erddap/tabledap/glos_crib.html
+    retrieved_date: 2026-09-01
+    source_type: public_observing_system
+    use: Public time-series station and water-quality variables; the station coordinate is observation context only and does not resolve the project's disputed physical intake coordinate.
+  phase4a_toledo_water_quality:
+    name: City of Toledo Water Quality
+    url: https://toledo.oh.gov/residents/water/quality
+    retrieved_date: 2026-09-01
+    source_type: municipal_primary_source
+    use: City description of continuous monitoring, certified testing, harmful-algal-bloom treatment protection, and public water-quality reporting; no undisclosed operating threshold is modeled.
+  phase4a_usgs_nwis:
+    name: USGS National Water Information System / Water Data
+    url: https://waterdata.usgs.gov/
+    retrieved_date: 2026-09-01
+    source_type: federal_observing_system
+    use: Public station metadata and real-time water observations; no basin-wide sensor inventory or derived flood threshold is created.
+  phase4a_usgs_waterville:
+    name: USGS station 04193500 Maumee River at Waterville OH
+    url: https://waterdata.usgs.gov/monitoring-location/04193500/
+    retrieved_date: 2026-09-01
+    source_type: federal_station_record
+    station_id: 04193500
+    latitude: 41.5000526
+    longitude: -83.7127145
+    use: Representative Lower Maumee streamgage coordinate and station identity; not an exhaustive hydrology network.
+  phase4a_noaa_nwps:
+    name: NOAA National Water Prediction Service
+    url: https://water.noaa.gov/
+    retrieved_date: 2026-09-01
+    source_type: federal_forecast_service
+    use: Public water-prediction, flood-information, and forecast-service context; station-specific model ingestion is not asserted.
+  phase4a_nws_flood:
+    name: National Weather Service Flood Safety Tips and Resources
+    url: https://www.weather.gov/safety/flood
+    retrieved_date: 2026-09-01
+    source_type: federal_warning_service
+    use: Public flood warning and safety communication context; no county-specific emergency-management procedure is inferred.
+  phase4a_epa_echo:
+    name: EPA ECHO Data Downloads and public environmental data
+    url: https://echo.epa.gov/tools/data-downloads
+    retrieved_date: 2026-09-01
+    source_type: federal_environmental_data_product
+    use: Public facility, compliance, enforcement, and NPDES-related data interface; not treated as a raw sensor feed.
+  phase4a_epa_npdes:
+    name: U.S. EPA National Pollutant Discharge Elimination System
+    url: https://www.epa.gov/npdes
+    retrieved_date: 2026-09-01
+    source_type: federal_regulatory_program
+    use: Point-source discharge regulation and state-authorized permitting, administrative, and enforcement framework; no facility-specific decision is inferred.
+  phase4a_eia_electricity:
+    name: U.S. Energy Information Administration Electricity Data
+    url: https://www.eia.gov/electricity/data.php
+    retrieved_date: 2026-09-01
+    source_type: federal_statistical_source
+    use: Public generation, capacity, transmission, and electricity statistics; not real-time dispatch or control telemetry.
+  phase4a_pjm_dataminer:
+    name: PJM Data Miner 2
+    url: https://dataminer2.pjm.com/
+    retrieved_date: 2026-09-01
+    source_type: regional_operator_public_data
+    use: Public PJM operating-information interface; no SCADA, private telemetry, control-center detail, or cyber architecture modeled.
+  phase4a_pjm_operations:
+    name: PJM Markets and Operations
+    url: https://www.pjm.com/markets-and-operations
+    retrieved_date: 2026-09-01
+    source_type: regional_operator_primary_source
+    use: High-level regional transmission-organization operations context; no dispatch, outage, congestion, or automated-control claim is made.

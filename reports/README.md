@@ -65,3 +65,22 @@ Phase 3C uses `energy_scenario_assumptions.csv`, `energy_nodes_scenario.csv`,
 2050/2075 deltas. Maps 13/13b and the qualitative comparison are accompanied by
 `energy_scenario_consistency.md`, `energy_system_future_worldbuilding.md`, and
 the machine-readable scenario manifest and artifact check.
+
+## Phase 4A observation and decision baseline
+
+Phase 4A establishes four representative factual 2026 observation-to-decision
+chains and Map 14. The node and relationship tables are
+`../data/processed/networks/observation_system_nodes.csv` and
+`../data/processed/networks/observation_system_edges.csv`.
+
+- `observation_system_sources.md` — source evidence and chain boundaries.
+- `observation_system_assumptions.md` — schema semantics, coordinate policy, and exclusions.
+- `observation_system_qa.md` — structural, chain, boundary, and regression QA.
+- `observation_system_manifest.json` — Phase 4A artifact hashes and counts.
+- `observation_system_artifact_check.json` — machine-readable validation result.
+
+Map 14 is a hybrid geographic/schematic view. Only two public station
+coordinates are plotted; abstract networks, products, organizations, and
+responses remain schematic. The Toledo intake-coordinate discrepancy remains
+unresolved, and no cyber, SCADA, automated-control, AI-authority, or future
+scenario layer is included.

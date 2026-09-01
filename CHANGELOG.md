@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+- Completed and validated Phase 4A's factual 2026 observation and decision
+  infrastructure baseline: 25 nodes, 21 relationships, four representative
+  public-information chains, and Map 14.
+- Added source, assumptions, QA, Python/R validation, artifact-manifest, and
+  machine-check documentation for Phase 4A while preserving the unresolved
+  Toledo intake-coordinate discrepancy and excluding cyber, automated-control,
+  AI-authority, and future-scenario content.
+
 - Formally marked Phase 3C **ACCEPTED** as the validated 2050/2075 energy, grid, storage, critical-load, and compute futures package.
 - Formally accepted and froze Phase 3B Map 12, dependency tables, matrix, source registry, and principal reports as the validated 2026 cross-system baseline.
 - Completed Phase 3C on a separate branch and integrated the accepted result into `main`, with three qualitative 2050/2075 energy, grid, storage, critical-load, and compute futures; factual Phase 3A/3B artifacts remain immutable.

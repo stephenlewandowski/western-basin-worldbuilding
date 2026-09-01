@@ -38,8 +38,8 @@ def main():
     ET.parse(svg)
     # Keep the Phase 3A regression set limited to Maps 01–10b; Maps 11–13b
     # are validated by their phase-specific validators.
-    map_hashes={p.name:digest(p) for p in sorted((ROOT/"outputs/maps/systems").glob("*.png")) if not p.name.startswith(("11_","12_","13_","13b_"))}
     baseline=json.loads((ROOT/"reports/phase3a_preflight_map_hashes.json").read_text(encoding="utf-8"))
+    map_hashes={p.name:digest(p) for p in sorted((ROOT/"outputs/maps/systems").glob("*.png")) if p.name in baseline}
     assert map_hashes==baseline, "Maps 01-10b changed"
     report={"status":"passed","counts":expected|{"nodes":len(nodes),"edges":len(edges)},
             "classification_gates":{"compute_status_qualified":"passed","major_load_demand_not_invented":"passed","power_flow_claim_absent":"passed"},

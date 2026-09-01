@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "phase": "4A",
+  "nodes": 25,
+  "edges": 21,
+  "domains": [
+    "energy_information",
+    "environmental_regulatory",
+    "lake_erie_hab",
+    "maumee_hydrology"
+  ],
+  "geolocated_observation_nodes": 2,
+  "map14_png_dimensions": [
+    3264,
+    1991
+  ],
+  "map14_artifacts_valid": true,
+  "prior_maps_01_13b_unchanged": true,
+  "provenance_complete": true,
+  "automated_control_asserted": false,
+  "future_scenario_content": false,
+  "checked_prior_map_files": 30
+}

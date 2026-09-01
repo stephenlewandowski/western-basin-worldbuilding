@@ -119,7 +119,8 @@ history. `PROJECT_STATUS.md` remains authoritative for detailed status.
 
 ## Current boundary
 
-Phase 3C is accepted/validated. Phase 1 and Phase 3B factual baselines remain
-accepted/frozen. Phase 4A is the expected next analytical phase, but this
-workflow setup does not authorize beginning it. Future scenario content must
-remain separate from factual baseline content.
+Phase 1 and Phase 2A–2C are complete/validated factual baselines. Phase 3A and
+Phase 3B factual baselines remain accepted/validated/frozen. Phase 2D and Phase
+3C are accepted/validated future-scenario packages. Phase 4A is the approved
+Data, Sensors & Decision Infrastructure baseline, 2026. Future scenario
+content must remain separate from factual baseline content.

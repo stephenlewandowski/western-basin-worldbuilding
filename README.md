@@ -26,6 +26,8 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 3C — ACCEPTED / VALIDATED (ENERGY / GRID / COMPUTE FUTURES)**
 
+**Phase 4A — COMPLETE / VALIDATED (2026 OBSERVATION & DECISION INFRASTRUCTURE BASELINE)**
+
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
 See [PROJECT_STATUS.md](PROJECT_STATUS.md) and the [Phase 1 handoff](reports/water_system_phase1_handoff.md).
@@ -165,6 +167,30 @@ made.
 .\.venv\Scripts\python.exe src\python\systems\validate_phase3b_freeze.py
 .\.venv\Scripts\python.exe src\python\systems\validate_energy_scenarios.py
 Rscript src\R\systems\validate_energy_scenarios.R .
+```
+
+## Phase 4A Data, Sensors & Decision Infrastructure Baseline
+
+- [14 — Western Basin observation & decision system, 2026](outputs/maps/systems/14_observation_decision_system_2026.png)
+- [Observation-system nodes](data/processed/networks/observation_system_nodes.csv)
+- [Observation-system relationships](data/processed/networks/observation_system_edges.csv)
+- [Sources](reports/observation_system_sources.md)
+- [Assumptions](reports/observation_system_assumptions.md)
+- [QA](reports/observation_system_qa.md)
+
+Phase 4A contains 25 nodes and 21 relationships across four representative
+public-information chains: Lake Erie/HAB/drinking water, Lower Maumee
+hydrology/flood, environmental/regulatory reporting, and energy information.
+Only the GLOS Toledo crib station and USGS 04193500 at Waterville are plotted
+with source-backed coordinates. Abstract networks, products, forecasts,
+organizations, and responses remain schematic. The Toledo intake-coordinate
+discrepancy remains unresolved; no automated control, cyber architecture, or
+future scenario layer is included.
+
+```powershell
+.\.venv\Scripts\python.exe src\python\systems\build_observation_system.py
+.\.venv\Scripts\python.exe src\python\systems\validate_observation_system.py
+Rscript src\R\systems\validate_observation_system.R .
 ```
 
 ## Repository Structure

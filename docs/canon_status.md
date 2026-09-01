@@ -91,8 +91,16 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 2B Material Flows:** complete and validated 2026 baseline; Maps 07–08 only
 - **Phase 2C Strategic Materials, Exposure & Remediation History:** complete and validated; Map 09 only, with zero documented individual exposure findings
 - **Phase 2D Alternative Materials Futures:** complete and validated as six explicitly fictional scenario states across 2050/2075; Maps 10/10b
+- **Phase 4A Data, Sensors & Decision Infrastructure Baseline:** complete and validated as a factual 2026 observation-to-decision layer; Map 14
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without
 probabilities. The Materials Corridor emerges weakly only as a scenario network;
 no polygon, sixth region, or transport route is canonical.
+
+Phase 4A adds no macroregion, jurisdiction, fictional geography, future
+scenario, or change to the five-region canon. Its public observation stations,
+data products, forecasts, decision organizations, and operational responses
+are distinct analytical interfaces; non-geolocated objects remain schematic.
+The GLOS Toledo crib coordinate does not resolve the existing physical Toledo
+intake-coordinate discrepancy.

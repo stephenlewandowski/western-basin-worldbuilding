@@ -6,15 +6,17 @@ Repository: `C:\Projects\Public_GitHub\western-basin-worldbuilding`
 
 Canonical branch: `main`
 
-Local main SHA at handoff creation: `8d70af30c41607963d5af6597522c43dd9f1270f`
+Active Phase 4A worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase4a`
 
-`origin/main` SHA at handoff creation: `8d70af30c41607963d5af6597522c43dd9f1270f`
+Local main SHA at handoff creation: `2a468cc7d3d7fec12801df9c51d7e8e9e8271e3a`
+
+`origin/main` SHA at handoff creation: `2a468cc7d3d7fec12801df9c51d7e8e9e8271e3a`
 
 Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
 
-Working tree at handoff creation: clean
+Working tree at handoff creation: clean before checkpoint update
 
-Last verified: 2026-09-01
+Last verified: 2026-09-01T22:21:44+09:00
 
 ## Current project state
 
@@ -26,7 +28,7 @@ Status: **ACCEPTED / VALIDATED**
 - Phase 3B: **ACCEPTED / FROZEN**
 - Phase 3C: **ACCEPTED / VALIDATED**
 
-Next approved analytical phase: **NOT STARTED**
+Next approved analytical phase: **IN PROGRESS**
 
 Expected next phase: **Phase 4A — Data, Sensors & Decision Infrastructure
 Baseline, 2026**
@@ -36,15 +38,15 @@ System, 2026**
 
 ## Active development state
 
-Active phase: **NONE**
+Active phase: **Phase 4A — Data, Sensors & Decision Infrastructure Baseline, 2026**
 
-Active branch: **NONE**
+Active branch: **phase-4a-observation-decision-baseline**
 
-Active worktree: **NONE**
+Active worktree: **C:\Projects\Public_GitHub\western-basin-worldbuilding-phase4a**
 
-Starting main SHA: **N/A**
+Starting main SHA: **2a468cc7d3d7fec12801df9c51d7e8e9e8271e3a**
 
-Current branch SHA: **N/A**
+Current branch SHA: **Phase 4A implementation commit; final amended SHA is verified with Git and is not embedded self-referentially**
 
 ## Completed
 
@@ -53,20 +55,37 @@ Current branch SHA: **N/A**
 - Phase 3 Energy/Grid/Compute module
 - Phase 3C accepted
 - Durable agent workflow initialized
+- Phase 4A isolated branch/worktree established
+- Phase 4A source endpoints and two public station coordinates verified
+- Python 3.14 systems environment installed from `requirements-systems.txt`
+- Phase 4A observation tables and Map 14 built
+- Phase 4A Python and independent R validators passed
+- Phase 4A project-facing status, canon, changelog, report index, and workflow boundary updated
+- Prior Python and R regressions, Markdown links, application tests, Git/LFS checks, and full-resolution Map 14 inspection passed
+- Phase 4A implementation commit created locally; completion checkpoint is being amended into that commit
 
 See `PROJECT_STATUS.md` for the detailed artifact and validation inventory.
 
 ## Remaining
 
-Phase 4A has not started. The next execution agent should use the approved
-Phase 4A brief; this setup task does not begin that phase.
+Phase 4A implementation, documentation, and validation are complete. The
+feature commit is ready for push and authorized fast-forward integration.
 
 ## Validation already passed
 
 - Phase 3C validation passed at acceptance.
 - Prior regressions passed at acceptance.
 - Local `main` and `origin/main` were synchronized when this handoff was
-  created.
+  created at the Phase 4A starting SHA.
+- Phase 4A Python validation passed: 25 nodes, 21 edges, Map 14 valid, prior
+  Maps 01–13b unchanged by 30-file hash check.
+- Phase 4A R validation passed: 25 nodes, 21 edges, four chains.
+- Full Python regression suite passed for Phases 1–3C.
+- Full prior-system R validation suite passed for Phases 1–3C.
+- Markdown-link validation passed: 84 links.
+- Application tests passed: 22 tests; Vite/TypeScript build passed.
+- Git LFS status and `git lfs fsck` passed.
+- Map 14 full-resolution OCR/SVG inspection passed; no label clipping was found.
 
 ## Known holds / constraints
 
@@ -78,22 +97,35 @@ Phase 4A brief; this setup task does not begin that phase.
 
 ## Uncommitted files
 
-`NONE` at handoff creation.
+`CHANGELOG.md`
+`PROJECT_STATUS.md`
+`README.md`
+`docs/agent_workflow.md`
+`docs/canon_status.md`
+`metadata/sources.yml`
+`data/processed/networks/observation_system_nodes.csv`
+`data/processed/networks/observation_system_edges.csv`
+`outputs/figures/observation_system_R_validation.png`
+`outputs/maps/systems/14_observation_decision_system_2026.png`
+`outputs/maps/systems/14_observation_decision_system_2026.svg`
+`reports/current_phase_handoff.md`
+`reports/observation_system_artifact_check.json`
+`reports/observation_system_assumptions.md`
+`reports/observation_system_manifest.json`
+`reports/observation_system_qa.md`
+`reports/observation_system_sources.md`
+`src/R/systems/validate_observation_system.R`
+`src/python/systems/build_observation_system.py`
+`src/python/systems/validate_energy_system.py`
+`src/python/systems/validate_observation_system.py`
 
 ## Next exact action
 
-Read:
-
-- `PROJECT_STATUS.md`
-- `docs/canon_status.md`
-- `docs/agent_workflow.md`
-- `reports/current_phase_handoff.md`
-
-Then inspect Git state and, only under an approved brief, begin:
-
-**Phase 4A — Data, Sensors & Decision Infrastructure Baseline, 2026**
-
-Do not begin Phase 4A during this workflow-setup task.
+Amend the Phase 4A implementation commit with this completion checkpoint, then
+push `phase-4a-observation-decision-baseline`, review the remote branch, fast-
+forward integrate to `main`, and verify local `main` equals `origin/main`.
+Preserve prior artifacts and the unresolved Toledo intake-coordinate
+discrepancy.
 
 ## Do not repeat
 

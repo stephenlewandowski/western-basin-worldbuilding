@@ -1,0 +1,39 @@
+{
+  "phase": "4A",
+  "generated": "2026-09-01",
+  "status": "baseline",
+  "counts": {
+    "nodes": 25,
+    "edges": 21,
+    "domains": [
+      "energy_information",
+      "environmental_regulatory",
+      "lake_erie_hab",
+      "maumee_hydrology"
+    ],
+    "chain_ids": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  },
+  "artifacts": {
+    "data/processed/networks/observation_system_nodes.csv": {
+      "bytes": 9142,
+      "sha256": "14f749c43791982ffda01f3f5956e1e679dde7148d8425c0a62ad29f09676181"
+    },
+    "data/processed/networks/observation_system_edges.csv": {
+      "bytes": 4297,
+      "sha256": "f06be0e0484f43f05f55a800b5f5e46edf07a92666ed39eafc04d5951dcdc8c3"
+    },
+    "outputs/maps/systems/14_observation_decision_system_2026.png": {
+      "bytes": 608303,
+      "sha256": "a7eaf86c91f9d18d0828d3662947e5a29cae57483fc923a304417baeacd460bd"
+    },
+    "outputs/maps/systems/14_observation_decision_system_2026.svg": {
+      "bytes": 8642493,
+      "sha256": "17057dbc706e20cfef892eaa9566ca0059dee277ac72569eee6fff7d79bddb04"
+    }
+  }
+}

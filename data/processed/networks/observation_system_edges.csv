@@ -1,0 +1,22 @@
+edge_id,from_id,to_id,relationship_type,relationship_basis,source_id,confidence,notes
+OBS-A-001,OBS-PHY-LAKE-ERIE-WESTERN,OBS-SNS-GLOS-TOLEDO-CRIB,observes,observed,phase4a_glos_crib,medium,Public observation-station coordinate; not a canonical intake coordinate.
+OBS-A-002,OBS-PHY-LAKE-ERIE-WESTERN,OBS-NET-NOAA-GLERL-HAB,observes,documented,phase4a_glerl_hab,high,"Program uses satellite, remote sensing, buoy, and monitoring inputs; no exhaustive station inventory modeled."
+OBS-A-003,OBS-NET-NOAA-GLERL-HAB,OBS-MOD-NOAA-HAB-FORECAST,feeds,documented,phase4a_glerl_hab,high,GLERL states that collected data inform forecast models; exact internal data path is not reconstructed.
+OBS-A-004,OBS-SNS-GLOS-TOLEDO-CRIB,OBS-DAT-GLOS-ERDDAP-CRIB,publishes,documented,phase4a_glos_crib,high,ERDDAP exposes the public station time series and quality-controlled variables.
+OBS-A-005,OBS-MOD-NOAA-HAB-FORECAST,OBS-ORG-CITY-TOLEDO-WATER,supports_decision,qualified_documented,phase4a_nccos_hab_forecast,medium,Public sources identify drinking-water managers as forecast stakeholders; a Toledo-specific automated or direct feed is not established.
+OBS-A-006,OBS-ORG-CITY-TOLEDO-WATER,OBS-RSP-TOLEDO-WATER-OPERATIONS,operates,documented,phase4a_toledo_water_quality,high,"City documents continuous monitoring, certified testing, and treatment operations; thresholds and control logic are not modeled."
+OBS-B-001,OBS-PHY-MAUMEE-LOWER,OBS-SNS-USGS-04193500,observes,observed,phase4a_usgs_waterville,high,Representative USGS streamgage only; not an exhaustive basin observation inventory.
+OBS-B-002,OBS-SNS-USGS-04193500,OBS-DAT-USGS-NWIS-RT,publishes,documented,phase4a_usgs_nwis,high,NWIS publishes station observations and metadata.
+OBS-B-003,OBS-DAT-USGS-NWIS-RT,OBS-MOD-NOAA-NWPS,feeds,qualified_documented,phase4a_noaa_nwps,medium,The public-service chain is represented at product level; station-specific ingestion into a forecast run is not asserted.
+OBS-B-004,OBS-MOD-NOAA-NWPS,OBS-ORG-NWS,used_by,documented,phase4a_noaa_nwps,high,NWPS is a NOAA public water-prediction service associated with NWS forecast and warning operations.
+OBS-B-005,OBS-ORG-NWS,OBS-RSP-FLOOD-WARNING-RESPONSE,supports_decision,documented,phase4a_nws_flood,high,NWS public flood information and warnings inform public-safety response; local protocols are not modeled.
+OBS-C-001,OBS-PHY-REGULATED-FACILITY,OBS-NET-NPDES-MONITORING,observes,documented,phase4a_epa_npdes,high,NPDES regulates point-source discharges and requires program-level monitoring/reporting; no facility-specific observation is added.
+OBS-C-002,OBS-NET-NPDES-MONITORING,OBS-DAT-EPA-ECHO,reports_to,documented,phase4a_epa_echo,medium,ECHO provides public facility and compliance data; the table does not reconstruct each reporting pathway.
+OBS-C-003,OBS-DAT-EPA-ECHO,OBS-ORG-NPDES-PROGRAM,used_by,documented,phase4a_epa_npdes,high,Public regulatory data support program oversight; no named-facility decision is inferred.
+OBS-C-004,OBS-ORG-NPDES-PROGRAM,OBS-RSP-NPDES-COMPLIANCE,supports_decision,documented,phase4a_epa_npdes,medium,"Represents program-level compliance, permitting, or reporting response only."
+OBS-D-001,OBS-PHY-REGIONAL-GRID,OBS-NET-EIA-ELECTRICITY,observes,documented,phase4a_eia_electricity,high,"EIA provides public statistical information, not operational telemetry."
+OBS-D-002,OBS-NET-EIA-ELECTRICITY,OBS-DAT-EIA-ELECTRICITY,publishes,documented,phase4a_eia_electricity,high,Public electricity statistics are published as data products.
+OBS-D-003,OBS-PHY-REGIONAL-GRID,OBS-NET-PJM-OPERATING-DATA,observes,documented,phase4a_pjm_dataminer,medium,"PJM public operating information is represented as a high-level interface, not a SCADA network."
+OBS-D-004,OBS-NET-PJM-OPERATING-DATA,OBS-DAT-PJM-DATAMINER,publishes,documented,phase4a_pjm_dataminer,high,PJM Data Miner is the public data interface.
+OBS-D-005,OBS-DAT-PJM-DATAMINER,OBS-ORG-PJM,used_by,documented,phase4a_pjm_operations,medium,Public operator data support a high-level operational-information interface; internal workflows are not modeled.
+OBS-D-006,OBS-ORG-PJM,OBS-RSP-GRID-OPERATIONS,supports_decision,documented,phase4a_pjm_operations,medium,"Operational endpoint is generalized; no dispatch, outage, congestion, or automated-control claim is made."

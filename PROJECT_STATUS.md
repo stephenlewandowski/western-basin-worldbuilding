@@ -101,6 +101,33 @@ No precise future MW, route, facility, probability, or power-flow claim is made.
 
 Phase 3C is formally **ACCEPTED** as the validated alternative-futures package.
 
+## PHASE 4A — COMPLETE / VALIDATED
+
+**Data, Sensors & Decision Infrastructure Baseline, 2026**
+
+Phase 4A adds Map 14, a simple 25-node/21-relationship observation-to-decision
+baseline across four representative public-information chains: Lake Erie/HAB/
+drinking water, Lower Maumee hydrology/flood, environmental/regulatory
+reporting, and energy information. The package includes two source-backed
+geolocated public stations: the GLOS Toledo crib dataset coordinate and USGS
+04193500 at Waterville. Abstract networks, data products, forecasts, decision
+organizations, and responses remain schematic.
+
+The GLOS coordinate is not adopted as the sole physical Toledo intake
+coordinate. The existing Toledo intake-coordinate discrepancy remains
+unresolved. Phase 4A adds no exhaustive sensor inventory, automated-control
+relationship, SCADA/cyber architecture, sensitive telemetry, AI decision
+authority, or 2050/2075 scenario content. The accepted/frozen Phase 3A and
+Phase 3B factual 2026 baselines, and the accepted/validated Phase 3C future
+scenarios, remain separate and unchanged.
+
+Python and independent R validation passed. The Phase 4A artifact check is
+recorded in `reports/observation_system_artifact_check.json`; the source,
+assumption, and QA boundaries are recorded in
+`reports/observation_system_sources.md`,
+`reports/observation_system_assumptions.md`, and
+`reports/observation_system_qa.md`.
+
 ## Open Phase 1 QA gates
 
 1. Toledo intake coordinate reconciliation
