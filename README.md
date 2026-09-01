@@ -24,7 +24,7 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 3B — ACCEPTED / FROZEN (CRITICAL ENERGY DEPENDENCIES)**
 
-**Phase 3C — COMPLETE / VALIDATED (ENERGY / GRID / COMPUTE FUTURES)**
+**Phase 3C — ACCEPTED / VALIDATED (ENERGY / GRID / COMPUTE FUTURES)**
 
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
