@@ -9,6 +9,7 @@ import xml.etree.ElementTree as ET
 
 import pandas as pd
 from PIL import Image
+from freeze_hash import manifest_matches
 
 ROOT = Path(__file__).resolve().parents[3]
 SCENARIOS = {"A2050": 2050, "A2075": 2075, "B2050": 2050, "B2075": 2075, "C2050": 2050, "C2075": 2075}
@@ -26,7 +27,7 @@ def check_manifest(path: Path) -> None:
     for rel, meta in manifest["files"].items():
         file_path = ROOT / rel
         assert file_path.exists(), rel
-        assert digest(file_path) == meta["sha256"], rel
+        assert manifest_matches(ROOT, rel, meta["sha256"]), rel
 
 
 def main() -> None:

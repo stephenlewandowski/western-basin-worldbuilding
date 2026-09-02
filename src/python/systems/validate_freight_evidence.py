@@ -10,6 +10,7 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 import yaml
 from PIL import Image
+from freeze_hash import manifest_matches
 
 ROOT = Path(__file__).resolve().parents[3]
 ANALYSIS = ROOT / "data/processed/analysis"
@@ -42,7 +43,7 @@ def check_manifest(path: Path) -> None:
     for relative, metadata in entries.items():
         artifact = ROOT / relative
         assert artifact.exists(), relative
-        assert sha256(artifact) == metadata["sha256"], f"Frozen artifact changed: {relative}"
+        assert manifest_matches(ROOT, relative, metadata["sha256"]), f"Frozen artifact changed: {relative}"
 
 
 def main() -> None:
@@ -102,7 +103,7 @@ def main() -> None:
     assert len(prior_maps) == 38
     for relative, expected in prior_maps.items():
         artifact = ROOT / relative
-        assert artifact.exists() and sha256(artifact) == expected, f"Prior map changed: {relative}"
+        assert artifact.exists() and manifest_matches(ROOT, relative, expected), f"Prior map changed: {relative}"
 
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
     assert manifest["phase"] == "5B"
