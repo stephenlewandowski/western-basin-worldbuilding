@@ -1,0 +1,41 @@
+args <- commandArgs(trailingOnly = TRUE)
+root <- if (length(args)) normalizePath(args[1], mustWork = TRUE) else normalizePath(".", mustWork = TRUE)
+read_table <- function(path) read.csv(path, stringsAsFactors = FALSE, check.names = FALSE, na.strings = "")
+nodes <- read_table(file.path(root, "data", "processed", "networks", "freight_system_nodes.csv"))
+edges <- read_table(file.path(root, "data", "processed", "networks", "freight_system_edges.csv"))
+metadata <- readLines(file.path(root, "metadata", "sources.yml"), warn = FALSE)
+
+stopifnot(nrow(nodes) == 22, nrow(edges) == 26)
+stopifnot(!anyDuplicated(nodes$node_id), !anyDuplicated(edges$edge_id))
+stopifnot(all(nodes$node_type %in% c("port", "terminal", "rail_yard", "rail_interface", "highway_interface", "pipeline_interface", "industrial_site", "material_processor", "agricultural_node", "external_market")))
+stopifnot(all(nodes$mode %in% c("marine", "rail", "highway", "pipeline", "generalized", "multimodal")), all(edges$mode %in% c("marine", "rail", "highway", "pipeline", "generalized", "multimodal")))
+stopifnot(all(edges$from_id %in% c(nodes$node_id, "ENE-EIA-59764")), all(edges$to_id %in% c(nodes$node_id, "ENE-EIA-59764")))
+stopifnot(all(nchar(nodes$source_id) > 0), all(nchar(edges$source_id) > 0))
+for (source_id in unique(c(nodes$source_id, edges$source_id))) {
+  stopifnot(any(grepl(paste0("^  ", source_id, ":"), metadata)))
+}
+stopifnot(all(nodes$confidence %in% c("high", "medium", "medium_high", "low")), all(edges$confidence %in% c("high", "medium", "medium_high", "low")))
+stopifnot(all(edges$relationship_basis %in% c("documented_flow", "documented_corridor", "interchange", "engineering_logistics_dependency", "generalized_supply_chain", "inferred")))
+stopifnot(all(nodes$status != "scenario"), all(edges$status != "scenario"))
+coords <- nodes[!is.na(nodes$latitude) | !is.na(nodes$longitude), ]
+stopifnot(nrow(coords) == 6, all(!is.na(coords$latitude)), all(!is.na(coords$longitude)))
+stopifnot(all(as.numeric(coords$latitude) >= -90), all(as.numeric(coords$latitude) <= 90), all(as.numeric(coords$longitude) >= -180), all(as.numeric(coords$longitude) <= 180))
+stopifnot(nodes[nodes$node_id == "FRT-PORT-TOLEDO", "latitude"] == 41.653818167585, nodes[nodes$node_id == "FRT-PORT-TOLEDO", "longitude"] == -83.528499986757)
+stopifnot(any(edges$relationship_basis == "documented_corridor"), any(edges$relationship_basis == "documented_flow"), any(edges$relationship_basis == "generalized_supply_chain"))
+stopifnot(!any(grepl("2050|2075|scenario|fictional", paste(nodes$name, nodes$status, edges$status), ignore.case = TRUE)))
+stopifnot(file.exists(file.path(root, "data", "raw", "transportation", "ntad_class1_rail_network_western_basin.geojson")))
+stopifnot(file.exists(file.path(root, "reports", "phase5a_prior_map_hashes.json")))
+for (manifest in c("phase3a_freeze_manifest.json", "phase3b_freeze_manifest.json", "phase4b_information_freeze_manifest.json", "phase4c_information_freeze_manifest.json")) {
+  stopifnot(file.exists(file.path(root, "reports", manifest)))
+}
+map_files <- file.path(root, "outputs", "maps", "systems", c("17_freight_industry_material_flows_2026.png", "17_freight_industry_material_flows_2026.svg"))
+flow_files <- file.path(root, "outputs", "figures", c("freight_commodity_interfaces_2026.png", "freight_commodity_interfaces_2026.svg"))
+stopifnot(all(file.exists(c(map_files, flow_files))), all(file.info(c(map_files, flow_files))$size > 10000))
+
+validation_png <- file.path(root, "outputs", "figures", "freight_system_R_validation.png")
+png(validation_png, width = 1600, height = 900, res = 150, bg = "#f1eadc")
+par(mar = c(8, 5, 4, 2), bg = "#f1eadc", fg = "#263238")
+barplot(table(factor(nodes$node_type)), col = "#1c5b78", border = NA, las = 2, ylab = "Freight-node count", main = "Phase 5A freight system validation")
+mtext("Independent R check: 22 nodes, 26 edges; corridors and generalized functions are not shipment claims", side = 1, line = 5.8, cex = 0.8)
+dev.off()
+cat("R Phase 5A freight validation passed: 22 nodes, 26 edges, six geolocated nodes\n")

@@ -6,46 +6,49 @@ Repository: `C:\Projects\Public_GitHub\western-basin-worldbuilding`
 
 Canonical branch: `main`
 
-Active Phase 4C worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase4c`
+Active Phase 5A worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase5a`
 
-Local main SHA at handoff creation: `c7f2813ba8b544aadd96c1863664f1b9b652dafe`
+Local main SHA at handoff creation: `9a595388af6138d1b0230c512c260876fcc55248`
 
-`origin/main` SHA at handoff creation: `c7f2813ba8b544aadd96c1863664f1b9b652dafe`
+`origin/main` SHA at handoff creation: `9a595388af6138d1b0230c512c260876fcc55248`
 
 Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
 
 Working tree at handoff creation: clean before checkpoint update
 
-Last verified: 2026-09-02T11:17:30+09:00
+Last verified: 2026-09-02T12:41:19+09:00
 
 ## Current project state
 
-Latest accepted phase: **Phase 3C — Energy / Grid / Compute Futures**
+Latest accepted phase: **Phase 4C — Data, Sensors, Governance & Security Futures**
 
-Status: **ACCEPTED / VALIDATED**
+Status: **ACCEPTED / FROZEN**
 
 - Phase 3A: **ACCEPTED / FROZEN**
 - Phase 3B: **ACCEPTED / FROZEN**
 - Phase 3C: **ACCEPTED / VALIDATED**
+- Phase 4A: **ACCEPTED / FROZEN**
+- Phase 4B: **ACCEPTED / FROZEN**
+- Phase 4C: **ACCEPTED / FROZEN**
 
-Next approved analytical phase: **NOT APPROVED**
+Next approved analytical phase: **Phase 5A — IN PROGRESS**
 
-Expected next phase: **NONE — Phase 4C is the final phase authorized by this run**
+Expected next phase: **Phase 5A — Freight / Industry / Material Flows Baseline, 2026**
 
-Primary expected product: **Map 16 / 16b — INFORMATION / GOVERNANCE FUTURES,
-2050 / 2075 — COMPLETE**
+Primary expected product: **Map 17 — Western Basin Freight & Industrial Flow System,
+2026**
 
 ## Active development state
 
-Active phase: **NONE**
+Active phase: **Phase 5A — Freight / Industry / Material Flows Baseline, 2026**
 
-Active branch: **main**
+Active branch: **phase-5a-freight-industry-baseline**
 
-Active worktree: **C:\Projects\Public_GitHub\western-basin-worldbuilding**
+Active worktree: **C:\Projects\Public_GitHub\western-basin-worldbuilding-phase5a**
 
-Starting main SHA: **c7f2813ba8b544aadd96c1863664f1b9b652dafe**
+Starting main SHA: **9a595388af6138d1b0230c512c260876fcc55248**
 
-Current branch SHA: **Phase 4C integration handoff commit; final SHA is verified with Git and is not embedded self-referentially**
+Current branch SHA: **Phase 5A implementation commit; final amended SHA is verified with Git and is not embedded self-referentially**
 
 Phase 4A baseline hashes at Phase 4B start:
 
@@ -88,19 +91,25 @@ Phase 4A baseline hashes at Phase 4B start:
 - Phase 4C acceptance/freeze documentation, manifest, and Phase 4C project navigation updated
 - Phase 4C Python/R validation and all targeted/full regression checks passed
 - Phase 4C feature commit `0dd99a6338f7b61bfe0c55e69bb1936dc093db6e` pushed and fast-forward integrated into `main`
-- Phase 4C status: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+- Phase 4C status: **ACCEPTED / FROZEN** by explicit Sol decision
+- Phase 4C freeze protection is recorded in `reports/phase4c_information_freeze_manifest.json`
+- Phase 5A isolated branch/worktree established from integrated `main`
+- Phase 4C acceptance/freeze documentation and Phase 5A project navigation updated
+- Phase 5A freight tables, public NTAD rail cache, Map 17, and commodity-interface figure generated
+- Phase 5A source, assumptions, and QA reports generated
+- Phase 5A Python/R validation, Phase 4C freeze, prior regressions, Markdown links, application tests/build, and Git/LFS checks passed
+- Materials Corridor test completed: **B — WEAKLY SUPPORTED**
+- Phase 5A implementation commit created locally; completion checkpoint is being amended into that commit
 
 See `PROJECT_STATUS.md` for the detailed artifact and validation inventory.
 
 ## Remaining
 
-Phase 4A implementation, documentation, validation, feature-branch push, and
-fast-forward integration are complete. Phase 4B is accepted/frozen and its
-artifacts are the immutable factual information baseline. Phase 4C scenario
-tables, reports, maps, validation, feature-branch push, and fast-forward
-integration are complete. Phase 4C remains implemented/validated and awaits Sol
-acceptance. Phase 4C is the final phase authorized by this run; do not begin a
-new system or scenario phase.
+Phase 4A and Phase 4B are accepted/frozen factual 2026 baselines. Phase 4C is
+accepted/frozen qualitative future-scenario work. Phase 5A implementation,
+documentation, and validation are complete in the isolated worktree. The
+feature commit is ready for handoff amendment, push, and integration. Do not
+begin Phase 5B or future freight scenarios.
 
 ## Validation already passed
 
@@ -123,6 +132,15 @@ new system or scenario phase.
 - Phase 4B feature branch and `main` were synchronized with their remote refs after push.
 - Map 14 full-resolution OCR/SVG inspection passed; no label clipping was found.
 - Phase 4C feature branch and `main` were synchronized with their remote refs after push.
+- Phase 4C acceptance/freeze state is recorded before Phase 5A work.
+- Phase 5A Python validation passed: 22 nodes, 26 edges, Map 17 and flow figure valid, Maps 01–16b unchanged.
+- Phase 5A R validation passed: 22 nodes, 26 edges, six geolocated nodes.
+- Full Python regression suite passed for Phases 1–5A.
+- Phase 4C freeze validation passed from Phase 5A.
+- Markdown-link validation passed: 103 links.
+- Application tests passed: 22 tests; Vite/TypeScript build passed.
+- Git LFS status and `git lfs fsck` passed.
+- Map 17 and optional commodity-interface figure passed full-resolution OCR/SVG inspection.
 
 ## Known holds / constraints
 
@@ -134,13 +152,14 @@ new system or scenario phase.
 
 ## Uncommitted files
 
-`reports/current_phase_handoff.md` (this final integration checkpoint)
+`reports/current_phase_handoff.md` (post-commit completion checkpoint; included via amend)
 
 ## Next exact action
 
-Await Sol acceptance for Phase 4C. Do not begin Phase 4D or another system.
-Preserve all Phase 4A/4B artifacts, the Phase 4C scenario layer, and the
-unresolved Toledo intake-coordinate discrepancy.
+Amend this handoff completion checkpoint into the Phase 5A implementation
+commit, push the feature branch, review the remote branch, integrate normally
+into `main`, and verify local `main` equals `origin/main`. Preserve all Phase
+4A/4B/4C artifacts and the unresolved Toledo intake-coordinate discrepancy.
 
 ## Do not repeat
 

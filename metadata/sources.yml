@@ -261,3 +261,90 @@ sources:
     retrieved_date: 2026-09-02
     source_type: federal_resilience_guidance
     use: High-level future-driver context for availability, identity, authentication, and continuity; no attack path, vulnerability, or target detail is modeled.
+  phase5a_toledo_port:
+    name: Port of Toledo
+    url: https://www.toledoport.org/port-of-toledo
+    retrieved_date: 2026-09-02
+    source_type: port_authority_primary_source
+    use: Port terminals, seaway connection, on-dock Class I rail, dock/storage/cargo capabilities, I-75 and I-80/90 access, Ironville/HBI flow, and Michigan/Canada heavy-haul context; no complete terminal inventory or facility-specific routes inferred.
+  phase5a_toledo_port_map:
+    name: Toledo Harbor Map
+    url: https://www.toledoport.org/s/toledo-port-facilities-2020.pdf
+    retrieved_date: 2026-09-02
+    source_type: port_authority_map
+    use: Harbor and port-facility orientation only; no individual dock or customer relationship is modeled.
+  phase5a_port_geocode:
+    name: ArcGIS World Geocoder Port of Toledo address anchor
+    url: https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer
+    retrieved_date: 2026-09-02
+    source_type: public_geocoder
+    address: 1 Maritime Plaza, Toledo, OH 43604
+    latitude: 41.653818167585
+    longitude: -83.528499986757
+    use: Address-level approximate port anchor for cartography; not terminal geometry.
+  phase5a_great_lakes_seaway:
+    name: Great Lakes St. Lawrence Seaway System
+    url: https://greatlakes-seaway.com/en/the-seaway/
+    retrieved_date: 2026-09-02
+    source_type: seaway_authority_public_source
+    use: Great Lakes/St. Lawrence marine connection and seaway-system context; no vessel schedule or route simulation.
+  phase5a_ntad_rail:
+    name: USDOT BTS National Transportation Atlas Database North American Rail Network Lines
+    url: https://services.arcgis.com/xOi1kZaI0eWDREZv/arcgis/rest/services/NTAD_North_American_Rail_Network_Lines_Class_I_Railroads/FeatureServer
+    retrieved_date: 2026-09-02
+    source_type: federal_transportation_dataset
+    use: Public Class I freight rail corridor geometry and carrier fields clipped to the Western Basin; spurs, dispatch, schedules, hazardous routing, and security details excluded.
+  phase5a_norfolk_southern:
+    name: Norfolk Southern Ship by Rail
+    url: https://www.norfolksouthern.com/en/ship-by-rail
+    retrieved_date: 2026-09-02
+    source_type: railroad_public_source
+    use: General freight-rail service context; no customer-specific movement or schedule inferred.
+  phase5a_fhwa_faf:
+    name: Freight Analysis Framework
+    url: https://faf.ornl.gov/faf5/
+    retrieved_date: 2026-09-02
+    source_type: federal_freight_dataset
+    use: High-level freight-corridor and commodity context; no local shipment volumes, plant routes, or forecasts used.
+  phase5a_eia_petroleum:
+    name: EIA Petroleum and Other Liquids
+    url: https://www.eia.gov/petroleum/
+    retrieved_date: 2026-09-02
+    source_type: federal_energy_source
+    use: General petroleum/fuel logistics context only; no pipeline capacity, valve, station, or contract route modeled.
+  phase5a_mm_woodville:
+    name: Martin Marietta Woodville Lime Facility
+    url: https://www.martinmarietta.com/locations/specialty-products/lime/lime
+    retrieved_date: 2026-09-02
+    source_type: company_facility_source
+    use: Existing sourced Woodville lime-processing node; freight relationship remains generalized without route, quantity, or customer claim.
+  phase5a_area_woodville:
+    name: Area Aggregates Woodville NPDES facility
+    url: https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/35/permits/doc/2IJ00028.pdf
+    retrieved_date: 2026-09-02
+    source_type: state_permit
+    use: Existing sourced Woodville extraction node; freight relationship remains generalized without route, quantity, or customer claim.
+  phase5a_graymont_genoa:
+    name: Graymont Genoa facility and solutions
+    url: https://www.graymont.com/solutions/
+    retrieved_date: 2026-09-02
+    source_type: company_facility_source
+    use: Existing sourced Genoa lime-processing node; specific quarry/feed and freight route remain unresolved.
+  phase5a_materion_elmore:
+    name: Materion Elmore permit documentation
+    url: https://semspub.epa.gov/work/05/967810.pdf
+    retrieved_date: 2026-09-02
+    source_type: federal_facility_record
+    use: Existing sourced Elmore advanced-processing node; nonlocal feed and generalized logistics only.
+  phase5a_luckey_usace:
+    name: U.S. Army Corps of Engineers Luckey Site
+    url: https://www.lrd.usace.army.mil/Missions/Projects/Article/3613204/luckey-site/
+    retrieved_date: 2026-09-02
+    source_type: federal_remediation_source
+    use: Existing Luckey legacy/remediation node; remediation logistics are documented at program level without route geometry.
+  phase5a_luckey_logistics:
+    name: Luckey FUSRAP licensed off-site disposal logistics
+    url: https://www.lrd.usace.army.mil/News/News-Releases/Display/Article/3636698/10000-truckloads-safely-moved-from-the-luckey-fusrap-site/
+    retrieved_date: 2026-09-02
+    source_type: federal_remediation_logistics_source
+    use: Documented remediation-waste logistics context; no route, schedule, quantity, or hazardous-material route modeled.

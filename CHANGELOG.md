@@ -2,6 +2,15 @@
 
 ## Unreleased
 
+- Formally marked Phase 4C **ACCEPTED / FROZEN** by explicit Sol decision and
+  added `phase4c_information_freeze_manifest.json` for its scenario artifacts.
+- Implemented and validated approved Phase 5A as a separate factual 2026
+  freight, industry, and material-flow baseline: 22 nodes, 26 relationships,
+  Map 17, and a bounded public Class I rail extract; awaiting Sol acceptance.
+- Added port, rail, highway, fuel-interface, materials, commodity, and QA
+  documentation without shipment quantities, facility-specific routes,
+  hazardous-material routing, sensitive logistics topology, or future freight
+  scenarios.
 - Formally marked Phase 4A **ACCEPTED / FROZEN** as the factual 2026
   observation and decision infrastructure baseline; Map 14 and its tables are
   protected from later scenario modification.

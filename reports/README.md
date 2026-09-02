@@ -108,6 +108,24 @@ principal artifacts. Phase 4C is the separate scenario phase and is active.
 
 Phase 4C uses the frozen Phase 4A/4B factual baselines to model separate
 2050/2075 scenario deltas. It does not modify the Phase 4A/4B tables or maps.
-The implemented/validated package is awaiting Sol acceptance; future assumption,
-node-state, edge-state, comparison, and report artifacts are documented in the
-Phase 4C reports.
+The package is **ACCEPTED / FROZEN** under
+`phase4c_information_freeze_manifest.json`; future assumption, node-state,
+edge-state, comparison, and report artifacts are documented in the Phase 4C
+reports.
+
+## Phase 5A freight and industrial flow baseline
+
+Phase 5A establishes a bounded factual 2026 freight/material-flow layer. Its
+tables are `../data/processed/networks/freight_system_nodes.csv` and
+`../data/processed/networks/freight_system_edges.csv`.
+
+- `freight_system_sources.md` — port, rail, highway, fuel, and materials evidence.
+- `freight_system_assumptions.md` — corridor-versus-shipment and commodity boundaries.
+- `freight_system_qa.md` — structural, flow, Materials Corridor, and artifact QA.
+- `freight_system_manifest.json` — Phase 5A artifact hashes and counts.
+- `freight_system_artifact_check.json` — machine-readable validation result.
+
+Map 17 and the optional commodity-interface figure distinguish public transport
+corridors from generalized or documented flow relationships. Phase 5A remains
+**IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE**. Phase 5B and future
+freight scenarios are not begun.

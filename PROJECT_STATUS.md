@@ -161,7 +161,7 @@ the source, assumption, findings, and QA boundaries are recorded in
 `reports/information_governance_findings.md`, and
 `reports/information_dependency_qa.md`.
 
-## PHASE 4C — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE
+## PHASE 4C — ACCEPTED / FROZEN
 
 **Data, Sensors, Governance & Security Futures, 2050 / 2075**
 
@@ -174,8 +174,31 @@ comparison. Future objects remain separate scenario deltas with explicit
 assumptions, provenance, and human decision authority. No Phase 4C future
 object enters the factual baseline.
 
-Phase 4C is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE**. It is not
-scientifically accepted on behalf of Sol.
+Phase 4C is formally **ACCEPTED / FROZEN** by explicit Sol decision. Its
+scenario content and principal artifacts are protected by
+`reports/phase4c_information_freeze_manifest.json`.
+
+## PHASE 5A — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE
+
+**Freight / Industry / Material Flows Baseline, 2026**
+
+Phase 5A implements a modest factual baseline of documented freight corridors,
+major industrial/material nodes, agricultural/bulk functions, and generalized
+external-market interfaces. The package contains 22 freight nodes, 26 freight
+relationships, a bounded 1,221-feature public Class I rail extract, Map 17, and
+an optional commodity-interface figure.
+
+The model distinguishes documented corridors, documented flows, interchange,
+generalized supply-chain relationships, and engineering logistics dependencies.
+It does not infer shipment quantities, exact facility-to-facility routes,
+hazardous-material routing, pipeline capacity, sensitive logistics topology, or
+future freight scenarios.
+
+The Materials Corridor test is **B — WEAKLY SUPPORTED**. Woodville, Genoa,
+Elmore, Luckey, Toledo, and the regional freight structure support a network
+interpretation, but not a polygon, named route, sixth macroregion, or continuous
+commercial shipment chain. Phase 5A is **IMPLEMENTED / VALIDATED / AWAITING SOL
+ACCEPTANCE** and is not marked scientifically accepted on behalf of Sol.
 
 ## Open Phase 1 QA gates
 

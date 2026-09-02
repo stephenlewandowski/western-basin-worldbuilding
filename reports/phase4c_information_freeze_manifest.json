@@ -1,0 +1,35 @@
+{
+  "accepted_phase": "4C",
+  "accepted_baseline": "Data, Sensors, Governance & Security Futures, 2050 / 2075",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol",
+  "accepted_date": "2026-09-02",
+  "counts": {
+    "assumptions": 36,
+    "scenario_node_states": 72,
+    "scenario_edge_deltas": 48,
+    "blindspot_states": 36,
+    "authority_rows": 6,
+    "comparison_rows": 6,
+    "comparison_dimensions": 12
+  },
+  "files": {
+    "data/processed/scenarios/information_scenario_assumptions.csv": {"sha256": "e0af85c3acb27257cbc1b0be33b782856e9b34e74ec87c209dfe4b88e9335fae"},
+    "data/processed/scenarios/information_nodes_scenario.csv": {"sha256": "47171e56fb1dd1ae03a6abaa82d728404d56ab1d4801aca755236278f2af01ea"},
+    "data/processed/scenarios/information_edges_scenario.csv": {"sha256": "6dfeb73e727bf11a1f63bcf85118e4f4299dc1862ebe844baf0fe25c15646513"},
+    "data/processed/scenarios/information_blind_spots_scenario.csv": {"sha256": "f97abc7797a1b402cf77b55da3a63499f19a01fc368da9171ef708f6d04504c4"},
+    "data/processed/scenarios/information_authority_scenario.csv": {"sha256": "45b843379f878c0656168d6278bd53f4b774dd9bf2499ccaa3ef6f8d82e83707"},
+    "outputs/figures/information_scenarios_comparison.csv": {"sha256": "e253cd9abcc8f2f10bccb868429e36538649dfece0d4fc8115971d47af6a336f"},
+    "outputs/figures/information_scenarios_comparison.png": {"sha256": "70c55668bb41fbcc11ae1766db6683df9fd307262a7bdd75c143fc29453635ff"},
+    "outputs/figures/information_scenarios_comparison.svg": {"sha256": "40e71185d23d866100b5c8597ffbb61e83530f08cc08162d21ae77d25eeb9908"},
+    "outputs/maps/systems/16_information_governance_futures_2050.png": {"sha256": "d31c55a7c0a9a17551b3f0624570f2695d27ed73d81ac7c8b1508f388747d020"},
+    "outputs/maps/systems/16_information_governance_futures_2050.svg": {"sha256": "adaf9eb09e56307b3f6c82baa12225ee19641abcfcfb6b113459f2af547f535b"},
+    "outputs/maps/systems/16b_information_governance_futures_2075.png": {"sha256": "46a140bf9186a67f4ea2f3cff6ea17eac7ddb111e99fbd17dfb6f01f558c6b70"},
+    "outputs/maps/systems/16b_information_governance_futures_2075.svg": {"sha256": "5aff22ed401ea12450ef49bf49ffbdf2d04a2f1a43a120b2dd7e64f6b4582a29"},
+    "reports/information_scenario_consistency.md": {"sha256": "768dedd1aa9ed8453d1c94d23c7bfb0a54f3bcfe6df4ca8fc034d8527eeeb885"},
+    "reports/information_system_future_worldbuilding.md": {"sha256": "d9fab62dfd42ca1df0f48369e01a75f998442623a5e162940d3c8b77ad5d6d0f"},
+    "reports/information_scenario_qa.md": {"sha256": "9d548257c49ec12f686a548ba3edc9ab499cd41faadf1a5437cfcf4624d9edd5"},
+    "reports/information_scenario_manifest.json": {"sha256": "8093ed5ca455a0f950ba2c2091cac54fd218ca2088f09a8bc16071568cb182b8"},
+    "reports/information_scenario_artifact_check.json": {"sha256": "e288d9cbe88aaedc5dfef18671cfd584461f0f33f3e3def48c4fb4c06e3d8697"}
+  }
+}

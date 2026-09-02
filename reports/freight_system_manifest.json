@@ -1,0 +1,44 @@
+{
+  "phase": "5A",
+  "generated": "2026-09-02",
+  "status": "baseline",
+  "counts": {
+    "nodes": 22,
+    "edges": 26,
+    "marine_nodes": 3,
+    "rail_nodes": 4,
+    "highway_nodes": 4,
+    "industrial_material_nodes": 6
+  },
+  "materials_corridor_test": "B \u2014 WEAKLY SUPPORTED",
+  "artifacts": {
+    "data/processed/networks/freight_system_nodes.csv": {
+      "bytes": 8114,
+      "sha256": "cdcab7e7842b6e2d4deb05235972af2a1c5dbe3b1160e076494f0c652641604f"
+    },
+    "data/processed/networks/freight_system_edges.csv": {
+      "bytes": 7781,
+      "sha256": "c36beebe881bc7a6644ba6ad629e4f8cfea6f3ea946e1abe1ed50d3333f33bcc"
+    },
+    "data/raw/transportation/ntad_class1_rail_network_western_basin.geojson": {
+      "bytes": 1063446,
+      "sha256": "2c70014fce750bbe905dabdb860e350ca146fdf8acc2f72bf984cabaa88ceba1"
+    },
+    "outputs/maps/systems/17_freight_industry_material_flows_2026.png": {
+      "bytes": 786819,
+      "sha256": "3b71d8c47e6e4af83a0ae1937d0d80a149bf9152a42c83eb724578453722aecb"
+    },
+    "outputs/maps/systems/17_freight_industry_material_flows_2026.svg": {
+      "bytes": 9334587,
+      "sha256": "d3a3975c7b4bb2847e7373c827a49d3dd7ce135973c30f3d75518f558233d542"
+    },
+    "outputs/figures/freight_commodity_interfaces_2026.png": {
+      "bytes": 141611,
+      "sha256": "4ec9de79cd1c81408ddf3d6df0197da3222f96e3f629b873f531442bd8c1e80f"
+    },
+    "outputs/figures/freight_commodity_interfaces_2026.svg": {
+      "bytes": 11769,
+      "sha256": "35cc1f4c322759008069d5af0a02b50aded21e1b96311221fbd6255c8279217b"
+    }
+  }
+}

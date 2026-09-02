@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "phase": "5A",
+  "nodes": 22,
+  "edges": 26,
+  "rail_cache_features": 1221,
+  "geolocated_nodes": 6,
+  "materials_corridor_test": "B \u2014 WEAKLY SUPPORTED",
+  "map17_artifacts_valid": true,
+  "flow_figure_valid": true,
+  "phase4a_immutable": true,
+  "phase4b_immutable": true,
+  "phase4c_immutable": true,
+  "prior_maps_01_16b_unchanged": true,
+  "unsupported_quantities_absent": true,
+  "facility_specific_routes_absent": true,
+  "hazardous_route_model_absent": true,
+  "sensitive_logistics_detail_absent": true,
+  "future_freight_scenario": false,
+  "image_sizes": [
+    [
+      4365,
+      1991
+    ],
+    [
+      2260,
+      975
+    ]
+  ]
+}

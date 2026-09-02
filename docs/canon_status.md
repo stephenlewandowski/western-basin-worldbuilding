@@ -93,7 +93,8 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 2D Alternative Materials Futures:** complete and validated as six explicitly fictional scenario states across 2050/2075; Maps 10/10b
 - **Phase 4A Data, Sensors & Decision Infrastructure Baseline:** accepted and frozen as a factual 2026 observation-to-decision layer; Map 14
 - **Phase 4B Information Dependencies, Blind Spots & Governance:** accepted and frozen as a factual 2026 analytical layer; Map 15
-- **Phase 4C Data, Sensors, Governance & Security Futures:** implemented and validated as separate qualitative 2050/2075 scenario deltas awaiting Sol acceptance; Maps 16/16b
+- **Phase 4C Data, Sensors, Governance & Security Futures:** accepted and frozen as separate qualitative 2050/2075 scenario deltas; Maps 16/16b
+- **Phase 5A Freight / Industry / Material Flows Baseline:** implemented and validated as a factual 2026 logistics/material-flow layer awaiting Sol acceptance; Map 17
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without
@@ -115,3 +116,8 @@ communication routes, cyber architecture, AI authority, or future scenarios.
 Phase 4C does not change the five-region canon. Its 2050/2075 information,
 governance, trust, security, and automation objects are explicitly fictional
 scenario deltas and remain separate from factual 2026 records.
+
+Phase 5A changes no regional canon, macroregion, jurisdiction, or fictional
+geography. Its freight corridors and generalized material relationships do not
+create a Materials Corridor polygon, named route, sixth macroregion, or
+facility-specific shipment claim.

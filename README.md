@@ -30,7 +30,9 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 4B — ACCEPTED / FROZEN (2026 INFORMATION DEPENDENCIES & GOVERNANCE)**
 
-**Phase 4C — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE (DATA, SENSORS, GOVERNANCE & SECURITY FUTURES, 2050 / 2075)**
+**Phase 4C — ACCEPTED / FROZEN (DATA, SENSORS, GOVERNANCE & SECURITY FUTURES, 2050 / 2075)**
+
+**Phase 5A — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE (FREIGHT / INDUSTRY / MATERIAL FLOWS BASELINE, 2026)**
 
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
@@ -221,7 +223,27 @@ Phase 4C uses it as an immutable factual baseline.
 
 Phase 4C is a separate qualitative scenario layer for 2050 and 2075. It does
 not overwrite the factual Phase 4A/4B baselines and does not assign
-probabilities. It is implemented and validated and awaits Sol acceptance.
+probabilities. It is accepted and frozen; Phase 5A preserves it unchanged.
+
+## Phase 5A Freight / Industry / Material Flows Baseline
+
+Phase 5A is a modest factual 2026 baseline of major marine, rail, highway,
+fuel-interface, industrial, agricultural, and material-flow functions. It does
+not model shipment volumes, facility-specific routes, hazardous-material
+routing, or future freight scenarios.
+
+- [17 — Western Basin freight & industrial flow system, 2026](outputs/maps/systems/17_freight_industry_material_flows_2026.png)
+- [Freight nodes](data/processed/networks/freight_system_nodes.csv)
+- [Freight relationships](data/processed/networks/freight_system_edges.csv)
+- [Commodity interfaces](outputs/figures/freight_commodity_interfaces_2026.png)
+- [Sources](reports/freight_system_sources.md)
+- [Assumptions](reports/freight_system_assumptions.md)
+- [QA](reports/freight_system_qa.md)
+
+Phase 5A contains 22 nodes and 26 relationships. Its Materials Corridor test
+is **B — WEAKLY SUPPORTED**: network relationships exist, but the evidence does
+not justify a polygon, named route, sixth macroregion, or continuous shipment
+claim.
 
 ## Repository Structure
 
