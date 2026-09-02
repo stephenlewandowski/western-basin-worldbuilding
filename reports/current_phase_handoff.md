@@ -20,7 +20,7 @@ Last verified: 2026-09-02T18:30:00+09:00
 
 ## Current project state
 
-Latest accepted phase: **Phase 5A — Freight / Industry / Material Flows Baseline**
+Latest accepted phase: **Phase 5B — Freight Evidence & Interchange Validation**
 
 Status: **ACCEPTED / FROZEN**
 
@@ -33,16 +33,15 @@ Status: **ACCEPTED / FROZEN**
 - Phase 5A: **ACCEPTED / FROZEN**
 - Phase 5B: **ACCEPTED / FROZEN**
 
-Next approved analytical phase: **Phase 5C — IN PROGRESS**
+Next approved analytical phase: **NOT APPROVED**
 
-Expected next phase: **Phase 5C — Freight Dependencies & Critical Interfaces, 2026**
+Expected next phase: **NONE**
 
-Primary expected product: **Map 19 — Freight Dependencies & Critical Interfaces,
-2026**
+Primary expected product: **Phase 5C package integrated; awaiting Sol acceptance**
 
 ## Active development state
 
-Active phase: **Phase 5C — Freight Dependencies & Critical Interfaces, 2026**
+Active phase: **NONE**
 
 Active branch: **phase-5c-freight-dependencies**
 
@@ -50,7 +49,7 @@ Active worktree: **C:\Projects\Public_Github\western-basin-worldbuilding-phase5c
 
 Starting main SHA: **52e107fe48f377471783ef16dfac2decf3d436fa**
 
-Current branch SHA: **52e107fe48f377471783ef16dfac2decf3d436fa**
+Current branch SHA: **32a025e4b04c7c313c85088f82c998dcc8b68227**
 
 Phase 4A baseline hashes at Phase 4B start:
 
@@ -116,8 +115,7 @@ See `PROJECT_STATUS.md` for the detailed artifact and validation inventory.
 
 Phase 4A and Phase 4B are accepted/frozen factual 2026 baselines. Phase 4C is
 accepted/frozen qualitative future-scenario work. Phase 5A and Phase 5B are
-accepted/frozen factual 2026 freight baselines. Phase 5C is implemented and
-validated and awaits Sol acceptance. Do not begin future freight scenarios.
+accepted/frozen factual 2026 freight baselines. Phase 5C is implemented, validated, and integrated and awaits Sol acceptance. Do not begin Phase 5D or future freight scenarios.
 
 ## Validation already passed
 
@@ -186,17 +184,13 @@ validated and awaits Sol acceptance. Do not begin future freight scenarios.
 
 ## Uncommitted files
 
-Phase 5C analytical artifacts, validators, reports, and this handoff remain
-uncommitted pending final diff review. The Phase 3A portability repair is
-already committed separately.
+The Phase 5C package and final handoff are committed. The feature branch and
+integrated main are synchronized with their remotes.
 
 ## Next exact action
 
-Review and commit the Phase 5C analytical package as
-`phase5: map freight dependencies and critical interfaces`; push the feature
-branch, integrate normally into `main`, and verify both remote refs. Phase 5C
-remains awaiting Sol acceptance; do not begin Phase 5D or future freight
-scenarios.
+No next analytical phase is approved. Await Sol review/acceptance of Phase 5C;
+do not begin Phase 5D or future freight scenarios.
 
 ## Resumption checkpoint — Phase 5C completion
 
@@ -210,7 +204,22 @@ scenarios.
 - No quantities, schedules, exact unsupported routes, hazardous-material routes,
   sensitive logistics topology, disruption probabilities, or future freight
   scenarios were added.
-- No Phase 5C commit, push, integration, release, or tag has yet been made.
+- Maintenance commit: `6f5a1cbc1b869ae6c4761529aa798a35d77b0667`.
+- Phase 5C feature commit: `32a025e4b04c7c313c85088f82c998dcc8b68227`.
+- Phase 5C was pushed and fast-forward integrated into `main`; this final
+  handoff update is the only remaining delivery record.
+
+## Final integrated state
+
+- Active phase: **NONE**.
+- Latest implementation: **Phase 5C — IMPLEMENTED / VALIDATED / INTEGRATED /
+  AWAITING SOL ACCEPTANCE**.
+- Final integrated main SHA before this handoff-only update:
+  `32a025e4b04c7c313c85088f82c998dcc8b68227`.
+- Phase 5A and Phase 5B remain accepted/frozen and unchanged.
+- Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo
+  intake-coordinate discrepancy remains unresolved.
+- No Phase 5D, future freight scenario, release, or tag was created.
 
 ## Do not repeat
 
