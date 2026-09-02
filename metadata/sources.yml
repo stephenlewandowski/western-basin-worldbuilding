@@ -354,3 +354,21 @@ sources:
     retrieved_date: 2026-09-02
     source_type: port_authority_annual_report
     use: Evidence for 13 terminal operators, Facility #1 general-cargo warehouse, liquid-bulk transloading, and port modernization; no customer-specific shipment route or volume is inferred.
+  phase6a_usfws_ottawa_nwr:
+    name: U.S. Fish and Wildlife Service Ottawa National Wildlife Refuge
+    url: https://www.fws.gov/refuge/ottawa
+    retrieved_date: 2026-09-02
+    source_type: federal_protected_area_source
+    use: Public refuge, coastal marsh, wetland, and migratory-bird habitat context; no sensitive species locations are reproduced.
+  phase6a_glfc_lake_erie_committee:
+    name: Great Lakes Fishery Commission Lake Erie Committee
+    url: https://www.glfc.org/lake-erie-committee.php
+    retrieved_date: 2026-09-02
+    source_type: binational_fishery_science_source
+    use: Lake Erie fishery and fish-community management context; no stock assessment, abundance estimate, or precise spawning location is modeled.
+  phase6a_mrlc_land_cover:
+    name: Multi-Resolution Land Characteristics Consortium
+    url: https://www.mrlc.gov/
+    retrieved_date: 2026-09-02
+    source_type: federal_land_cover_data_portal
+    use: Contemporary land-cover classification source context; Phase 6A uses generalized classes and does not commit a large raster extract.

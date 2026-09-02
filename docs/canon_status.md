@@ -96,7 +96,8 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 4C Data, Sensors, Governance & Security Futures:** accepted and frozen as separate qualitative 2050/2075 scenario deltas; Maps 16/16b
 - **Phase 5A Freight / Industry / Material Flows Baseline:** accepted and frozen as a factual 2026 logistics/material-flow layer; Map 17
 - **Phase 5B Freight Evidence & Interchange Validation:** accepted and frozen as a factual 2026 evidence-strengthening layer; Map 18
-- **Phase 5C Freight Dependencies & Critical Interfaces:** implemented and validated as a factual 2026 qualitative dependency layer; awaiting Sol acceptance; Map 19
+- **Phase 5C Freight Dependencies & Critical Interfaces:** accepted and frozen as a factual 2026 qualitative dependency layer; Map 19
+- **Phase 6A Ecology & Biodiversity Baseline:** implemented and validated as a factual 2026 ecological-system layer; awaiting Sol acceptance; Map 20
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without
@@ -134,4 +135,12 @@ geography. Its dependency edges, register, modal-substitutability matrix, and
 Map 19 describe qualitative transportation interfaces over the frozen Phase 5A
 and Phase 5B records. They do not establish shipment routes, volumes,
 probabilities, vulnerability, or future freight scenarios. Phase 5C is
-implemented and validated and awaits Sol acceptance.
+accepted and frozen under `reports/phase5c_freight_dependency_freeze_manifest.json`.
+
+Phase 6A changes no regional canon, macroregion, jurisdiction, or fictional
+geography. Its ecological nodes, edges, indicators, and Map 20 are a factual
+2026 system skeleton over existing water, wetland, and hydrography layers. The
+Great Black Swamp candidate remains held and noncanonical; sensitive species
+locations, invented biodiversity values, exact movement routes, ecological-risk
+scores, and future ecological scenarios are excluded. Phase 6A awaits Sol
+acceptance.

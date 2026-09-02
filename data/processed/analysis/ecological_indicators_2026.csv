@@ -1,0 +1,4 @@
+indicator_id,ecological_system,taxonomic_group,indicator_type,metric,value,units,year_or_period,spatial_scope,source_id,confidence,notes
+ECOI-001,coastal_wetlands_marshes,wetland_inventory,inventory_feature_count,NWI generalized wetland features,608,features,2026 inventory,established Western Basin focus window,usfws_nwi,high,"Inventory count, not total wetland area or habitat quality."
+ECOI-002,maumee_tributary_floodplain,aquatic_hydrography,inventory_feature_count,physical Lower Maumee flowlines,864,features,2026 baseline,Lower Maumee stream-order focus,usgs_nhdplus_hr,high,Existing Phase 1 count; not a fish-passage or movement count.
+ECOI-003,western_basin_watershed,all,inventory_unit_count,contributing HUC-8 watersheds,7,watersheds,2026 baseline,Maumee basin,usgs_wbd,high,"Hydrologic units provide context, not biodiversity richness."

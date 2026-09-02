@@ -1,0 +1,27 @@
+args <- commandArgs(trailingOnly = TRUE)
+root <- if (length(args)) normalizePath(args[1], mustWork = TRUE) else normalizePath(".", mustWork = TRUE)
+read_table <- function(path) read.csv(path, stringsAsFactors = FALSE, check.names = FALSE, na.strings = "")
+nodes <- read_table(file.path(root, "data", "processed", "networks", "ecology_system_nodes.csv"))
+edges <- read_table(file.path(root, "data", "processed", "networks", "ecology_system_edges.csv"))
+indicators <- read_table(file.path(root, "data", "processed", "analysis", "ecological_indicators_2026.csv"))
+metadata <- readLines(file.path(root, "metadata", "sources.yml"), warn = FALSE)
+
+stopifnot(nrow(nodes) == 16, nrow(edges) == 20, nrow(indicators) == 3)
+stopifnot(!anyDuplicated(nodes$node_id), !anyDuplicated(edges$edge_id), !anyDuplicated(indicators$indicator_id))
+stopifnot(all(edges$from_id %in% nodes$node_id), all(edges$to_id %in% nodes$node_id))
+stopifnot(all(nodes$status == "real_2026"))
+stopifnot(all(nodes$confidence %in% c("high", "moderate", "low", "unknown")), all(edges$confidence %in% c("high", "moderate", "low", "unknown")))
+stopifnot(all(indicators$confidence %in% c("high", "moderate", "low", "unknown")))
+for (source_id in unique(c(nodes$source_id, edges$source_id, indicators$source_id))) {
+  stopifnot(any(grepl(paste0("^  ", source_id, ":"), metadata)))
+}
+swamp <- nodes[nodes$node_id == "ECO-009", ]
+stopifnot(nrow(swamp) == 1, is.na(swamp$latitude), is.na(swamp$longitude), grepl("noncanonical", swamp$notes, ignore.case = TRUE))
+substantive <- paste(nodes$name, nodes$ecological_component, nodes$habitat_class, nodes$taxonomic_relevance, nodes$notes, edges$relationship_type, edges$ecological_function, edges$notes, indicators$metric, indicators$notes, collapse = " ")
+stopifnot(!grepl("exact (flight|migration|animal) route|nest|roost|den|vulnerability score|risk score|population dynamics|2050|2075|scenario", substantive, ignore.case = TRUE))
+stopifnot(!grepl("(endangered|threatened).*(latitude|longitude|coordinate)", substantive, ignore.case = TRUE))
+stopifnot(file.exists(file.path(root, "outputs", "maps", "systems", "20_ecological_system_2026.png")))
+stopifnot(file.exists(file.path(root, "outputs", "maps", "systems", "20_ecological_system_2026.svg")))
+svg_text <- paste(readLines(file.path(root, "outputs", "maps", "systems", "20_ecological_system_2026.svg"), warn = FALSE), collapse = " ")
+stopifnot(grepl("MAP 20", svg_text, fixed = TRUE), grepl("Western Lake Erie", svg_text, fixed = TRUE), grepl("Great Black Swamp", svg_text, fixed = TRUE))
+cat("R Phase 6A ecology validation passed: 16 nodes, 20 edges, 3 indicators, Map 20 present\n")

@@ -132,7 +132,7 @@ the active evidence-strengthening phase; future freight scenarios are not begun.
 
 ## Phase 5C freight dependencies
 
-Phase 5C is implemented and validated and awaits Sol acceptance. Its reports
+Phase 5C is accepted and frozen. Its reports
 are `freight_dependency_sources.md`, `freight_dependency_assumptions.md`,
 `freight_dependency_findings.md`, `freight_dependency_qa.md`,
 `freight_dependency_manifest.json`, and `freight_dependency_artifact_check.json`.
@@ -140,3 +140,18 @@ The phase adds qualitative dependency and modal-substitutability analysis over
 the frozen Phase 5A/5B records and does not add routes, quantities, security
 targets, hazardous-material modeling, or future freight scenarios. The Phase
 3A newline portability maintenance note is `phase3a_freeze_portability.md`.
+The freeze manifest is `phase5c_freight_dependency_freeze_manifest.json`.
+
+## Phase 6A ecology and biodiversity
+
+Phase 6A is the active factual 2026 ecological baseline. Its source,
+assumption, QA, findings, manifest, and artifact-check reports will use the
+`ecology_system_*` and `ecological_*` prefixes. It will preserve the
+noncanonical Great Black Swamp hold and exclude sensitive species locations,
+invented biodiversity values, ecological-risk scoring, and future scenarios.
+
+The implemented package includes `ecology_system_sources.md`,
+`ecology_system_assumptions.md`, `ecology_system_findings.md`,
+`ecology_system_qa.md`, `ecology_system_manifest.json`, and
+`ecology_system_artifact_check.json`. Map 20 and the ecology tables are
+validated and await Sol acceptance.

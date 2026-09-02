@@ -115,7 +115,7 @@ def main() -> None:
     for relative, metadata in manifest["artifacts"].items():
         artifact = ROOT / relative
         assert artifact.exists() and artifact.stat().st_size > 0, relative
-        assert sha256(artifact) == metadata["sha256"], relative
+        assert manifest_matches(ROOT, relative, metadata["sha256"]), relative
 
     artifacts = [
         MAPS / "19_freight_dependencies_critical_interfaces_2026.png",

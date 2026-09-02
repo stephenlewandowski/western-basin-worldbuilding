@@ -1,0 +1,32 @@
+{
+  "phase": "6A",
+  "generated": "2026-09-02",
+  "status": "ecology_baseline",
+  "counts": {
+    "nodes": 16,
+    "edges": 20,
+    "indicators": 3
+  },
+  "artifacts": {
+    "data/processed/networks/ecology_system_nodes.csv": {
+      "bytes": 4968,
+      "sha256": "e4e9212aaccb21636ac74731438bd0a70623da9d9371c8b02e230da34b643407"
+    },
+    "data/processed/networks/ecology_system_edges.csv": {
+      "bytes": 3907,
+      "sha256": "87c0c43c94f647f09828b15fefb6e076433fa225d60c555a81d00e5368bd694c"
+    },
+    "data/processed/analysis/ecological_indicators_2026.csv": {
+      "bytes": 854,
+      "sha256": "a9bc4669b23943660defe3582b163cae494ab3b92a12f99dc8ed74f6afaa36ea"
+    },
+    "outputs/maps/systems/20_ecological_system_2026.png": {
+      "bytes": 1183153,
+      "sha256": "ea041f5e251091538c3326648222fd17ecc35243543cd8a6b3ebce0679060a88"
+    },
+    "outputs/maps/systems/20_ecological_system_2026.svg": {
+      "bytes": 17828635,
+      "sha256": "242eea52cd89405b9dc649c4c2f3c4892f9e4e6ff90d015f574b7f100a521a03"
+    }
+  }
+}

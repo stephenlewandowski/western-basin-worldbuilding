@@ -6,21 +6,21 @@ Repository: `C:\Projects\Public_GitHub\western-basin-worldbuilding`
 
 Canonical branch: `main`
 
-Active Phase 5C worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase5c`
+Active Phase 6A worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase6a`
 
-Local main SHA at handoff creation: `52e107fe48f377471783ef16dfac2decf3d436fa`
+Local main SHA at handoff creation: `3bac3673d7c62d83e3108cd38329c16d073212a2`
 
-`origin/main` SHA at handoff creation: `52e107fe48f377471783ef16dfac2decf3d436fa`
+`origin/main` SHA at handoff creation: `3bac3673d7c62d83e3108cd38329c16d073212a2`
 
 Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
 
 Working tree at handoff creation: clean before checkpoint update
 
-Last verified: 2026-09-02T18:30:00+09:00
+Last verified: 2026-09-02T19:20:00+09:00
 
 ## Current project state
 
-Latest accepted phase: **Phase 5B — Freight Evidence & Interchange Validation**
+Latest accepted phase: **Phase 5C — Freight Dependencies & Critical Interfaces**
 
 Status: **ACCEPTED / FROZEN**
 
@@ -33,23 +33,23 @@ Status: **ACCEPTED / FROZEN**
 - Phase 5A: **ACCEPTED / FROZEN**
 - Phase 5B: **ACCEPTED / FROZEN**
 
-Next approved analytical phase: **NOT APPROVED**
+Next approved analytical phase: **Phase 6A — IN PROGRESS**
 
-Expected next phase: **NONE**
+Expected next phase: **Phase 6A — Ecology & Biodiversity Baseline, 2026**
 
-Primary expected product: **Phase 5C package integrated; awaiting Sol acceptance**
+Primary expected product: **Map 20 — Western Basin Ecological System, 2026**
 
 ## Active development state
 
-Active phase: **NONE**
+Active phase: **Phase 6A — Ecology & Biodiversity Baseline, 2026**
 
-Active branch: **phase-5c-freight-dependencies**
+Active branch: **phase-6a-ecology-biodiversity-baseline**
 
-Active worktree: **C:\Projects\Public_Github\western-basin-worldbuilding-phase5c**
+Active worktree: **C:\Projects\Public_Github\western-basin-worldbuilding-phase6a**
 
 Starting main SHA: **52e107fe48f377471783ef16dfac2decf3d436fa**
 
-Current branch SHA: **32a025e4b04c7c313c85088f82c998dcc8b68227**
+Current branch SHA: **3bac3673d7c62d83e3108cd38329c16d073212a2**
 
 Phase 4A baseline hashes at Phase 4B start:
 
@@ -115,7 +115,8 @@ See `PROJECT_STATUS.md` for the detailed artifact and validation inventory.
 
 Phase 4A and Phase 4B are accepted/frozen factual 2026 baselines. Phase 4C is
 accepted/frozen qualitative future-scenario work. Phase 5A and Phase 5B are
-accepted/frozen factual 2026 freight baselines. Phase 5C is implemented, validated, and integrated and awaits Sol acceptance. Do not begin Phase 5D or future freight scenarios.
+accepted/frozen factual 2026 freight baselines. Phase 5C is accepted/frozen. Phase 6A is implemented and validated and awaits
+Sol acceptance. Do not begin Phase 6B or future ecological scenarios.
 
 ## Validation already passed
 
@@ -173,6 +174,15 @@ accepted/frozen factual 2026 freight baselines. Phase 5C is implemented, validat
 - Markdown local-link validation passed: 103 links, zero missing targets.
 - Application validation passed after `npm ci`: 22 tests; TypeScript/Vite build
   passed.
+- Phase 5C formal acceptance and freeze manifest recorded under
+  `reports/phase5c_freight_dependency_freeze_manifest.json`.
+- Phase 6A ecology package generated: 16 nodes, 20 edges, three inventory
+  indicators, Map 20 PNG/SVG, and source/assumption/findings/QA reports.
+- Phase 6A Python and independent R validation passed. Map 20 full-resolution
+  OCR/SVG inspection passed; no sensitive species locations or exact movement
+  routes are exposed.
+- All prior Python/R validators, Phase 5C freeze validation, Markdown links,
+  application tests/build, and Git/LFS checks passed.
 
 ## Known holds / constraints
 
@@ -184,13 +194,15 @@ accepted/frozen factual 2026 freight baselines. Phase 5C is implemented, validat
 
 ## Uncommitted files
 
-The Phase 5C package and final handoff are committed. The feature branch and
-integrated main are synchronized with their remotes.
+Phase 6A package and checkpoint are uncommitted pending final diff review. The
+accepted Phase 5C package is protected by its freeze manifest.
 
 ## Next exact action
 
-No next analytical phase is approved. Await Sol review/acceptance of Phase 5C;
-do not begin Phase 5D or future freight scenarios.
+Review and commit the Phase 6A package as
+`phase6: establish ecology and biodiversity baseline`; then push the feature
+branch, integrate normally into `main`, and verify both remote refs. Phase 6A
+awaits Sol acceptance; do not begin Phase 6B or future ecological scenarios.
 
 ## Resumption checkpoint — Phase 5C completion
 
@@ -209,17 +221,16 @@ do not begin Phase 5D or future freight scenarios.
 - Phase 5C was pushed and fast-forward integrated into `main`; this final
   handoff update is the only remaining delivery record.
 
-## Final integrated state
+## Phase 6A checkpoint
 
-- Active phase: **NONE**.
-- Latest implementation: **Phase 5C — IMPLEMENTED / VALIDATED / INTEGRATED /
-  AWAITING SOL ACCEPTANCE**.
-- Final integrated main SHA before this handoff-only update:
-  `32a025e4b04c7c313c85088f82c998dcc8b68227`.
-- Phase 5A and Phase 5B remain accepted/frozen and unchanged.
-- Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo
-  intake-coordinate discrepancy remains unresolved.
-- No Phase 5D, future freight scenario, release, or tag was created.
+- Active phase: **Phase 6A — Ecology & Biodiversity Baseline, 2026**.
+- Branch: `phase-6a-ecology-biodiversity-baseline`.
+- Worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase6a`.
+- Starting main SHA: `3bac3673d7c62d83e3108cd38329c16d073212a2`.
+- Phase 5C is accepted/frozen under
+  `reports/phase5c_freight_dependency_freeze_manifest.json`.
+- Phase 6A artifacts and documentation are generated and validated but remain
+  uncommitted. No Phase 6B or future ecological scenario has begun.
 
 ## Do not repeat
 

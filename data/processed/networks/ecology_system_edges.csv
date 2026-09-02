@@ -1,0 +1,21 @@
+edge_id,from_id,to_id,relationship_type,ecological_function,relationship_basis,source_id,confidence,notes
+ECE-001,ECO-003,ECO-002,hydrologically_connected,river-to-bay exchange,documented_hydrography,usgs_nhdplus_hr,high,Mapped water structure; ecological exchange is generalized.
+ECE-002,ECO-002,ECO-001,hydrologically_connected,bay-to-lake connection,documented_hydrography,usgs_nhdplus_hr,high,"Receiving-water connection, not an animal travel route."
+ECE-003,ECO-004,ECO-003,habitat_connected,tributary-river habitat structure,documented_hydrography,usgs_3dhp_all,moderate,Physical network supports a broad ecological interface.
+ECE-004,ECO-003,ECO-011,riparian_connection,river-riparian edge function,scientific_inference,usgs_3dhp_all,moderate,Generalized riparian relationship; no parcel habitat claim.
+ECE-005,ECO-004,ECO-008,wetland_interface,tributary-wetland hydrologic interface,scientific_inference,usfws_nwi,moderate,"NWI and hydrography overlap supports an interface, not performance."
+ECE-006,ECO-005,ECO-006,habitat_connected,coastal wetland complex,documented_protected_area,phase6a_usfws_ottawa_nwr,moderate,Generalized refuge-to-coastal-wetland relationship.
+ECE-007,ECO-005,ECO-007,restoration_link,coastal wetland restoration context,documented_public_context,phase6a_usfws_ottawa_nwr,low,Restoration context is broad and not a project-boundary assertion.
+ECE-008,ECO-009,ECO-008,wetland_interface,drainage-altered agricultural matrix and wetland remnants,historical_context_plus_inventory,h2ohio_great_black_swamp_history,moderate,Modern legacy context; no historical boundary is mapped.
+ECE-009,ECO-009,ECO-010,terrestrial_interface,agricultural-terrestrial habitat mosaic,generalized_land_cover,phase6a_mrlc_land_cover,moderate,Broad land-cover relationship; no habitat-quality score.
+ECE-010,ECO-010,ECO-011,habitat_connected,terrestrial-riparian interface,scientific_inference,usgs_3dhp_all,moderate,Generalized interface without inferred movement path.
+ECE-011,ECO-012,ECO-010,fragmented_by,developed-edge fragmentation context,generalized_land_cover,phase6a_mrlc_land_cover,low,Broad pressure context only; no causal or vulnerability claim.
+ECE-012,ECO-013,ECO-005,migration_link,coastal stopover function,documented_ecological_function,phase6a_usfws_ottawa_nwr,moderate,"Functional link, not an exact route or occurrence map."
+ECE-013,ECO-013,ECO-006,migration_link,protected coastal stopover context,documented_protected_area,phase6a_usfws_ottawa_nwr,moderate,Generalized public refuge function.
+ECE-014,ECO-014,ECO-001,migration_link,fish lake habitat function,documented_fishery_context,phase6a_glfc_lake_erie_committee,moderate,"No stock size, route, or passage probability."
+ECE-015,ECO-014,ECO-003,spawning_connection,fish lake-tributary connection,documented_fishery_context,phase6a_glfc_lake_erie_committee,low,Broad ecological function; species-specific spawning sites are not exposed.
+ECE-016,ECO-015,ECO-010,habitat_connected,pollinator habitat mosaic,generalized_land_cover,phase6a_mrlc_land_cover,low,No insect inventory or movement corridor is asserted.
+ECE-017,ECO-016,ECO-002,ecological_condition_interface,HAB condition at bay interface,documented_monitoring_science,noaa_hab,high,Condition relationship only; no impact or vulnerability calculation.
+ECE-018,ECO-016,ECO-001,ecological_condition_interface,HAB condition in western lake,documented_monitoring_science,noaa_hab,high,No current bloom footprint or numerical stock measure.
+ECE-019,ECO-003,ECO-016,nutrient_condition_interface,tributary nutrient-to-lake ecological condition context,documented_water_quality_context,epa_lake_erie,moderate,No unsupported causal load or effect size.
+ECE-020,ECO-008,ECO-013,migration_link,wetland network and migratory function,documented_ecological_function,phase6a_usfws_ottawa_nwr,moderate,Generalized habitat function; no sensitive locations.

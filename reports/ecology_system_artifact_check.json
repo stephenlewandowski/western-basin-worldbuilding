@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "phase": "6A",
+  "nodes": 16,
+  "edges": 20,
+  "indicators": 3,
+  "map20_valid": true,
+  "phase5c_frozen": true,
+  "prior_maps_01_19_unchanged": true,
+  "great_black_swamp_hold_preserved": true,
+  "sensitive_locations_absent": true,
+  "invented_biodiversity_values_absent": true,
+  "exact_migration_routes_absent": true,
+  "ecological_risk_scoring_absent": true,
+  "future_ecology_absent": true,
+  "image_size": [
+    5092,
+    1892
+  ]
+}

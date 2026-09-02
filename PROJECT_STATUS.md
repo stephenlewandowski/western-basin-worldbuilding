@@ -1,6 +1,6 @@
 # Project Status
 
-Last reviewed: 2026-09-01
+Last reviewed: 2026-09-02
 
 ## PHASE 1 — COMPLETE
 
@@ -216,7 +216,7 @@ coherent geographic corridor, route, polygon, jurisdiction, or sixth macroregion
 Phase 5B is formally **ACCEPTED / FROZEN** under
 `reports/phase5b_freight_evidence_freeze_manifest.json`.
 
-## PHASE 5C — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE
+## PHASE 5C — ACCEPTED / FROZEN
 
 **Freight Dependencies & Critical Interfaces, 2026**
 
@@ -226,8 +226,21 @@ modal alternatives, external-market orientation, and unknown redundancy without
 creating a security-target model or future freight scenario. The package
 contains 20 dependency edges, 12 dependency-register rows, two 6-row × 7-
 dimension qualitative matrices, Map 19, source/assumption/findings/QA reports,
-and independent Python/R validation. Phase 5C is **IMPLEMENTED / VALIDATED /
-AWAITING SOL ACCEPTANCE**; Sol acceptance has not been recorded.
+and independent Python/R validation. Phase 5C is formally **ACCEPTED / FROZEN**
+by explicit Sol decision under `reports/phase5c_freight_dependency_freeze_manifest.json`.
+
+## PHASE 6A — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE
+
+**Ecology & Biodiversity Baseline, 2026**
+
+Phase 6A establishes a modest factual ecological-system skeleton for western
+Lake Erie, the Maumee/tributary/floodplain system, coastal wetlands, the modern
+Black Swamp legacy/agricultural matrix, terrestrial habitat, and migratory or
+mobile-species functions. The package contains 16 ecology nodes, 20 ecology
+edges, three directly supported inventory indicators, Map 20, and independent
+Python/R validation. It does not canonicalize the held Great Black Swamp
+candidate, expose sensitive species locations, or create future ecological
+scenarios. Phase 6A is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE**.
 
 ## Open Phase 1 QA gates
 

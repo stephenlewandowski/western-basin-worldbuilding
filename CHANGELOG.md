@@ -2,6 +2,11 @@
 
 ## Unreleased
 
+- Formally marked Phase 5C **ACCEPTED / FROZEN** by explicit Sol decision and
+  added `phase5c_freight_dependency_freeze_manifest.json`.
+- Implemented and validated Phase 6A as a separate factual 2026 Ecology &
+  Biodiversity Baseline: 16 nodes, 20 edges, three inventory indicators, Map
+  20, and bounded source/assumption/findings/QA reports; awaiting Sol acceptance.
 - Implemented and validated Phase 5C as a separate factual 2026 freight-
   dependency layer: 20 dependency edges, 12 register rows, qualitative modal-
   substitutability/dependency matrices, Map 19, and bounded source/assumption/

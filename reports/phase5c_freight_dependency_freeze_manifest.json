@@ -1,0 +1,22 @@
+{
+  "accepted_phase": "5C",
+  "accepted_baseline": "Freight Dependencies & Critical Interfaces, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit decision",
+  "accepted_date": "2026-09-02",
+  "feature_commit": "32a025e4b04c7c313c85088f82c998dcc8b68227",
+  "artifacts": {
+    "data/processed/networks/freight_dependency_edges.csv": {"sha256": "de0c78a6c34982330c3200f46895759b54693aa1cdf425aeb44af2c0c5b632fd"},
+    "data/processed/analysis/freight_dependency_register.csv": {"sha256": "31464782e13ccf36de1e335ed47ea229630747b56eaa5aff16e4189261417391"},
+    "data/processed/analysis/modal_substitutability_matrix.csv": {"sha256": "858379dd39afd10ad52e5fc966d8f808708234a3f088f2fd4456cd27ba767c3d"},
+    "outputs/figures/freight_dependency_matrix_2026.csv": {"sha256": "858379dd39afd10ad52e5fc966d8f808708234a3f088f2fd4456cd27ba767c3d"},
+    "outputs/figures/freight_dependency_matrix_2026.png": {"sha256": "7e879b13fcfe831e6f34d8346f7dc38692c7a3e407184674138520d7cbb0f1b7"},
+    "outputs/figures/freight_dependency_matrix_2026.svg": {"sha256": "1fce5870037ec3b7a12b40b5380bc8ec318b9c04d923d26a877363e9dd915af0"},
+    "outputs/maps/systems/19_freight_dependencies_critical_interfaces_2026.png": {"sha256": "34d8689f4d7cb8b6b19bc2ae3f0005d9d1a76c2f365f1c762f83f1145d164f00"},
+    "outputs/maps/systems/19_freight_dependencies_critical_interfaces_2026.svg": {"sha256": "03982f9800dbbecef46b28ffd536b085c6fb08e430a6480ba5e5918b7048fb80"},
+    "reports/freight_dependency_sources.md": {"sha256": "d54ccbd97c21b7b5f2114911b67543e787451cbc793cf1b77fab07848223317e"},
+    "reports/freight_dependency_assumptions.md": {"sha256": "70f479b7764f58979f819b17341ade8058c72132a80a77b3ee68d72184f46fbc"},
+    "reports/freight_dependency_qa.md": {"sha256": "d35d406b20c01ff18101b9b989c1278cbe684c77daba793529e199983da0f103"},
+    "reports/freight_dependency_findings.md": {"sha256": "4d76889e932e474827c06ea98340e7184248f149cbd07c40bb5a1c79994d65c5"}
+  }
+}

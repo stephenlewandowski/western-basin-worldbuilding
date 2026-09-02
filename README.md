@@ -36,7 +36,7 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 5B — ACCEPTED / FROZEN (FREIGHT EVIDENCE & INTERCHANGE VALIDATION, 2026)**
 
-**Phase 5C — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE (FREIGHT DEPENDENCIES & CRITICAL INTERFACES, 2026)**
+**Phase 5C — ACCEPTED / FROZEN (FREIGHT DEPENDENCIES & CRITICAL INTERFACES, 2026)**
 
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
@@ -264,14 +264,15 @@ The automatic acceptance gate passed. Phase 5B is **ACCEPTED / FROZEN** under
 
 ## Phase 5C Freight Dependencies & Critical Interfaces
 
-Phase 5C is implemented and validated as a separate factual 2026 qualitative
+Phase 5C is accepted and frozen as a separate factual 2026 qualitative
 dependency layer. It contains 20 dependency edges, a 12-row dependency
 register, six-row modal-substitutability and dependency matrices, and Map 19.
 It distinguishes documented freight relationships, corridor access,
 generalized logistics dependency, and unknown redundancy. It does not create
 shipment quantities, exact routes, hazardous-material routing, sensitive
 logistics topology, security targets, or future freight scenarios. Sol
-acceptance remains pending.
+acceptance was explicitly recorded by Sol under
+`reports/phase5c_freight_dependency_freeze_manifest.json`.
 
 - [19 — Freight dependencies & critical interfaces, 2026](outputs/maps/systems/19_freight_dependencies_critical_interfaces_2026.png)
 - [Freight dependency edges](data/processed/networks/freight_dependency_edges.csv)
@@ -282,6 +283,23 @@ acceptance remains pending.
 - [Assumptions](reports/freight_dependency_assumptions.md)
 - [Findings](reports/freight_dependency_findings.md)
 - [QA](reports/freight_dependency_qa.md)
+
+## Phase 6A Ecology & Biodiversity Baseline
+
+Phase 6A is the implemented and validated factual 2026 ecological baseline. It
+contains 16 ecology nodes, 20 ecology edges, three directly supported inventory
+indicators, and Map 20. It establishes an ecological-system skeleton, not a
+complete species inventory, population model, conservation ranking, risk score,
+or future ecological scenario. Sol acceptance remains pending.
+
+- [20 — Western Basin ecological system, 2026](outputs/maps/systems/20_ecological_system_2026.png)
+- [Ecology nodes](data/processed/networks/ecology_system_nodes.csv)
+- [Ecology edges](data/processed/networks/ecology_system_edges.csv)
+- [Ecological indicators](data/processed/analysis/ecological_indicators_2026.csv)
+- [Sources](reports/ecology_system_sources.md)
+- [Assumptions](reports/ecology_system_assumptions.md)
+- [Findings](reports/ecology_system_findings.md)
+- [QA](reports/ecology_system_qa.md)
 
 ## Repository Structure
 
