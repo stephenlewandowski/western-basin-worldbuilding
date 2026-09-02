@@ -229,7 +229,7 @@ dimension qualitative matrices, Map 19, source/assumption/findings/QA reports,
 and independent Python/R validation. Phase 5C is formally **ACCEPTED / FROZEN**
 by explicit Sol decision under `reports/phase5c_freight_dependency_freeze_manifest.json`.
 
-## PHASE 6A — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE
+## PHASE 6A — ACCEPTED / FROZEN
 
 **Ecology & Biodiversity Baseline, 2026**
 
@@ -240,9 +240,10 @@ mobile-species functions. The package contains 16 ecology nodes, 20 ecology
 edges, three directly supported inventory indicators, Map 20, and independent
 Python/R validation. It does not canonicalize the held Great Black Swamp
 candidate, expose sensitive species locations, or create future ecological
-scenarios. Phase 6A is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE**.
+scenarios. Phase 6A is formally **ACCEPTED / FROZEN** by explicit Sol decision under
+`reports/phase6a_ecology_freeze_manifest.json`.
 
-## PHASE 6B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 6B — ACCEPTED / FROZEN
 
 **Ecological Dependencies, Disturbances & Resilience, 2026**
 
@@ -252,7 +253,7 @@ source/assumption/findings/QA reports over the Phase 6A skeleton. It records
 habitat, hydrologic, wetland, riparian, migration, landscape, and condition
 interfaces without creating ecological-risk scores, population models,
 species-sensitive locations, exact movement routes, or future scenarios. Phase
-6B is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** under
+6B is formally **ACCEPTED / FROZEN** by explicit Sol decision under
 `reports/phase6b_ecological_dependency_freeze_manifest.json`.
 
 ## PHASE 6C — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE

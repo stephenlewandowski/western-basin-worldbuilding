@@ -6,6 +6,8 @@
   ecological-futures layer: 18 assumptions, 36 node states, 30 edge states,
   36 disturbance states, 36 resilience states, 72 comparison rows, Maps 22/22b,
   and scenario reports; integrated and awaiting Sol acceptance.
+- Formally marked Phase 6A and Phase 6B **ACCEPTED / FROZEN** by explicit Sol
+  decision and retained their freeze manifests.
 - Implemented and validated Phase 6B as a separate factual 2026 ecological
   dependency layer: 18 dependency edges, 10 disturbance records, a six-row
   qualitative resilience matrix, Map 21, and bounded reports; awaiting Sol

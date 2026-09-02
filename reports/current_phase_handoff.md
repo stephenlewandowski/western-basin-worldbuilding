@@ -8,19 +8,19 @@ Canonical branch: `main`
 
 Active Phase 6C worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase6c`
 
-Local main SHA at handoff creation: `f7048ec9faa9716f7ed506e0d6271cf7aff76eda`
+Local main SHA at handoff creation: `8d4042bb2d717677b73cdb523cbefecb08bdc7cd`
 
-`origin/main` SHA at handoff creation: `f7048ec9faa9716f7ed506e0d6271cf7aff76eda`
+`origin/main` SHA at handoff creation: `8d4042bb2d717677b73cdb523cbefecb08bdc7cd`
 
 Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
 
 Working tree at handoff creation: clean before checkpoint update
 
-Last verified: 2026-09-02T22:00:00+09:00
+Last verified: 2026-09-03T09:00:00+09:00
 
 ## Current project state
 
-Latest accepted phase: **Phase 6A — Ecology & Biodiversity Baseline**
+Latest accepted phase: **Phase 6B — Ecological Dependencies, Disturbances & Resilience**
 
 Status: **ACCEPTED / FROZEN**
 
@@ -32,16 +32,19 @@ Status: **ACCEPTED / FROZEN**
 - Phase 4C: **ACCEPTED / FROZEN**
 - Phase 5A: **ACCEPTED / FROZEN**
 - Phase 5B: **ACCEPTED / FROZEN**
+- Phase 6A: **ACCEPTED / FROZEN**
+- Phase 6B: **ACCEPTED / FROZEN**
+- Phase 6C: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
 
-Next approved analytical phase: **Phase 6C — IN PROGRESS**
+Next approved analytical phase: **NOT APPROVED**
 
-Expected next phase: **Phase 6C — Ecological Futures, 2050 / 2075**
+Expected next phase: **NONE**
 
-Primary expected product: **Map 22 — Ecological Futures, 2050**
+Primary expected product: **Phase 6C package integrated; awaiting Sol acceptance**
 
 ## Active development state
 
-Active phase: **Phase 6C — Ecological Futures, 2050 / 2075**
+Active phase: **NONE**
 
 Active branch: **phase-6c-ecological-futures**
 
@@ -49,7 +52,7 @@ Active worktree: **C:\Projects\Public_Github\western-basin-worldbuilding-phase6c
 
 Starting main SHA: **f7048ec9faa9716f7ed506e0d6271cf7aff76eda**
 
-Current branch SHA: **f7048ec9faa9716f7ed506e0d6271cf7aff76eda**
+Current branch SHA: **8d4042bb2d717677b73cdb523cbefecb08bdc7cd**
 
 Phase 4A baseline hashes at Phase 4B start:
 
@@ -196,13 +199,13 @@ Phase 6C is active. Do not begin any work beyond Phase 6C.
 
 ## Uncommitted files
 
-Phase 6C scenario artifacts, reports, and validators are generated and remain
-uncommitted. Phase 6A and Phase 6B are protected by their freeze manifests.
+The Phase 6C package and final handoff are committed. Phase 6A and Phase 6B
+remain protected by their freeze manifests.
 
 ## Next exact action
 
-Review and commit the Phase 6C package as `phase6: model alternative ecological
-futures`; then push and integrate normally. Do not begin work beyond Phase 6C.
+No next analytical phase is approved. Await Sol review/acceptance of Phase 6C;
+do not begin Phase 6D or another module.
 
 ## Resumption checkpoint — Phase 5C completion
 
@@ -250,7 +253,7 @@ futures`; then push and integrate normally. Do not begin work beyond Phase 6C.
 
 ## Phase 6C checkpoint
 
-- Active phase: **Phase 6C — Ecological Futures, 2050 / 2075**.
+- Active phase: **NONE**.
 - Branch: `phase-6c-ecological-futures`.
 - Worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase6c`.
 - Starting main SHA: `f7048ec9faa9716f7ed506e0d6271cf7aff76eda`.
@@ -258,7 +261,21 @@ futures`; then push and integrate normally. Do not begin work beyond Phase 6C.
 - Scenario package generated: 18 assumptions, 36 node states, 30 edge states,
   36 disturbance states, 36 resilience states, and 72 comparison rows.
 - Maps 22/22b generated and SVG text inspectability validated.
+- Phase 6C feature commit: `8d4042bb2d717677b73cdb523cbefecb08bdc7cd`.
+- Phase 6C was pushed and fast-forward integrated into `main`.
+- Phase 6A and Phase 6B are **ACCEPTED / FROZEN**.
+- Phase 6C is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**.
 - No Phase 6D or other future module is authorized.
+
+## Final integrated state
+
+- Active phase: **NONE**.
+- Latest implementation: **Phase 6C — IMPLEMENTED / VALIDATED / INTEGRATED /
+  AWAITING SOL ACCEPTANCE**.
+- Final main SHA is recorded by Git after this handoff-only update.
+- Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo
+  intake-coordinate discrepancy remains unresolved.
+- No release or tag was created.
 
 ## Do not repeat
 

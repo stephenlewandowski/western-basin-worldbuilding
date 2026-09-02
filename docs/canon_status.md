@@ -97,8 +97,8 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 5A Freight / Industry / Material Flows Baseline:** accepted and frozen as a factual 2026 logistics/material-flow layer; Map 17
 - **Phase 5B Freight Evidence & Interchange Validation:** accepted and frozen as a factual 2026 evidence-strengthening layer; Map 18
 - **Phase 5C Freight Dependencies & Critical Interfaces:** accepted and frozen as a factual 2026 qualitative dependency layer; Map 19
-- **Phase 6A Ecology & Biodiversity Baseline:** implemented and validated as a factual 2026 ecological-system layer; awaiting Sol acceptance; Map 20
-- **Phase 6B Ecological Dependencies, Disturbances & Resilience:** implemented, validated, and integrated as a factual 2026 qualitative dependency layer; awaiting Sol acceptance; Map 21
+- **Phase 6A Ecology & Biodiversity Baseline:** accepted and frozen as a factual 2026 ecological-system layer; Map 20
+- **Phase 6B Ecological Dependencies, Disturbances & Resilience:** accepted and frozen as a factual 2026 qualitative dependency layer; Map 21
 - **Phase 6C Ecological Futures:** implemented, validated, and integrated as separate qualitative 2050/2075 scenario content; awaiting Sol acceptance; Maps 22/22b
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
@@ -144,15 +144,15 @@ geography. Its ecological nodes, edges, indicators, and Map 20 are a factual
 2026 system skeleton over existing water, wetland, and hydrography layers. The
 Great Black Swamp candidate remains held and noncanonical; sensitive species
 locations, invented biodiversity values, exact movement routes, ecological-risk
-scores, and future ecological scenarios are excluded. Phase 6A awaits Sol
-acceptance.
+scores, and future ecological scenarios are excluded. Phase 6A is accepted and
+frozen under `reports/phase6a_ecology_freeze_manifest.json`.
 
 Phase 6B changes no regional canon, macroregion, jurisdiction, or fictional
 geography. Its dependency edges, disturbance register, resilience matrix, and
 Map 21 are qualitative analytical interfaces over the Phase 6A baseline. They
 do not create ecological-risk scores, population trajectories, exact movement
-routes, sensitive species locations, or future scenarios. Phase 6B awaits Sol
-acceptance.
+routes, sensitive species locations, or future scenarios. Phase 6B is accepted
+and frozen under `reports/phase6b_ecological_dependency_freeze_manifest.json`.
 
 Phase 6C changes no factual ecological baseline or regional canon. Its 2050 and
 2075 objects are separate qualitative scenario deltas with explicit

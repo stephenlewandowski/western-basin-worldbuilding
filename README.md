@@ -286,11 +286,11 @@ acceptance was explicitly recorded by Sol under
 
 ## Phase 6A Ecology & Biodiversity Baseline
 
-Phase 6A is the implemented and validated factual 2026 ecological baseline. It
+Phase 6A is the accepted and frozen factual 2026 ecological baseline. It
 contains 16 ecology nodes, 20 ecology edges, three directly supported inventory
 indicators, and Map 20. It establishes an ecological-system skeleton, not a
 complete species inventory, population model, conservation ranking, risk score,
-or future ecological scenario. Sol acceptance remains pending.
+or future ecological scenario.
 
 - [20 — Western Basin ecological system, 2026](outputs/maps/systems/20_ecological_system_2026.png)
 - [Ecology nodes](data/processed/networks/ecology_system_nodes.csv)
@@ -308,8 +308,7 @@ disturbance register, a six-row resilience matrix, and Map 21 over the frozen
 Phase 6A baseline. It distinguishes habitat, hydrologic, wetland, riparian,
 migration, landscape, and condition interfaces. It does not create ecological-
 risk scores, population models, exact movement routes, sensitive locations, or
-Phase 6B is implemented and validated and awaits Sol
-acceptance. It is integrated under
+future scenarios. Phase 6B is accepted and frozen. It is integrated under
 `reports/phase6b_ecological_dependency_freeze_manifest.json`.
 
 - [21 — Ecological dependencies & disturbances, 2026](outputs/maps/systems/21_ecological_dependencies_disturbances_2026.png)
