@@ -16,7 +16,7 @@ Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
 
 Working tree at handoff creation: clean before checkpoint update
 
-Last verified: 2026-09-02T12:41:19+09:00
+Last verified: 2026-09-02T12:43:02+09:00
 
 ## Current project state
 
@@ -31,24 +31,24 @@ Status: **ACCEPTED / FROZEN**
 - Phase 4B: **ACCEPTED / FROZEN**
 - Phase 4C: **ACCEPTED / FROZEN**
 
-Next approved analytical phase: **Phase 5A — IN PROGRESS**
+Next approved analytical phase: **NOT APPROVED**
 
-Expected next phase: **Phase 5A — Freight / Industry / Material Flows Baseline, 2026**
+Expected next phase: **NONE — Phase 5B and future freight scenarios are not approved**
 
 Primary expected product: **Map 17 — Western Basin Freight & Industrial Flow System,
-2026**
+2026 — COMPLETE**
 
 ## Active development state
 
-Active phase: **Phase 5A — Freight / Industry / Material Flows Baseline, 2026**
+Active phase: **NONE**
 
-Active branch: **phase-5a-freight-industry-baseline**
+Active branch: **main**
 
-Active worktree: **C:\Projects\Public_GitHub\western-basin-worldbuilding-phase5a**
+Active worktree: **C:\Projects\Public_GitHub\western-basin-worldbuilding**
 
 Starting main SHA: **9a595388af6138d1b0230c512c260876fcc55248**
 
-Current branch SHA: **Phase 5A implementation commit; final amended SHA is verified with Git and is not embedded self-referentially**
+Current branch SHA: **Phase 5A integration handoff commit; final SHA is verified with Git and is not embedded self-referentially**
 
 Phase 4A baseline hashes at Phase 4B start:
 
@@ -99,7 +99,9 @@ Phase 4A baseline hashes at Phase 4B start:
 - Phase 5A source, assumptions, and QA reports generated
 - Phase 5A Python/R validation, Phase 4C freeze, prior regressions, Markdown links, application tests/build, and Git/LFS checks passed
 - Materials Corridor test completed: **B — WEAKLY SUPPORTED**
-- Phase 5A implementation commit created locally; completion checkpoint is being amended into that commit
+- Phase 5A feature commit `82c856e3e052d9a9fa76a349c405b2557a112ef2` pushed and fast-forward integrated into `main`
+- Phase 5A status: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+- Phase 5A feature commit created locally, pushed, and fast-forward integrated into `main`
 
 See `PROJECT_STATUS.md` for the detailed artifact and validation inventory.
 
@@ -107,9 +109,9 @@ See `PROJECT_STATUS.md` for the detailed artifact and validation inventory.
 
 Phase 4A and Phase 4B are accepted/frozen factual 2026 baselines. Phase 4C is
 accepted/frozen qualitative future-scenario work. Phase 5A implementation,
-documentation, and validation are complete in the isolated worktree. The
-feature commit is ready for handoff amendment, push, and integration. Do not
-begin Phase 5B or future freight scenarios.
+documentation, validation, feature-branch push, and fast-forward integration
+are complete. Phase 5A remains implemented/validated and awaits Sol acceptance.
+Do not begin Phase 5B or future freight scenarios.
 
 ## Validation already passed
 
@@ -141,6 +143,7 @@ begin Phase 5B or future freight scenarios.
 - Application tests passed: 22 tests; Vite/TypeScript build passed.
 - Git LFS status and `git lfs fsck` passed.
 - Map 17 and optional commodity-interface figure passed full-resolution OCR/SVG inspection.
+- Phase 5A feature branch and `main` were synchronized with their remote refs after push.
 
 ## Known holds / constraints
 
@@ -152,14 +155,13 @@ begin Phase 5B or future freight scenarios.
 
 ## Uncommitted files
 
-`reports/current_phase_handoff.md` (post-commit completion checkpoint; included via amend)
+`reports/current_phase_handoff.md` (this final integration checkpoint)
 
 ## Next exact action
 
-Amend this handoff completion checkpoint into the Phase 5A implementation
-commit, push the feature branch, review the remote branch, integrate normally
-into `main`, and verify local `main` equals `origin/main`. Preserve all Phase
-4A/4B/4C artifacts and the unresolved Toledo intake-coordinate discrepancy.
+Await Sol acceptance for Phase 5A. Do not begin Phase 5B or future freight
+scenarios. Preserve all Phase 4A/4B/4C/5A artifacts and the unresolved Toledo
+intake-coordinate discrepancy.
 
 ## Do not repeat
 
