@@ -8,15 +8,15 @@ Canonical branch: `main`
 
 Active Phase 6A worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase6a`
 
-Local main SHA at handoff creation: `3bac3673d7c62d83e3108cd38329c16d073212a2`
+Local main SHA at handoff creation: `22dd6e608ea589d33fe6ca76ade6d9d50ca4761b`
 
-`origin/main` SHA at handoff creation: `3bac3673d7c62d83e3108cd38329c16d073212a2`
+`origin/main` SHA at handoff creation: `22dd6e608ea589d33fe6ca76ade6d9d50ca4761b`
 
 Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
 
 Working tree at handoff creation: clean before checkpoint update
 
-Last verified: 2026-09-02T19:55:00+09:00
+Last verified: 2026-09-02T20:10:00+09:00
 
 ## Current project state
 
@@ -49,7 +49,7 @@ Active worktree: **C:\Projects\Public_Github\western-basin-worldbuilding-phase6a
 
 Starting main SHA: **52e107fe48f377471783ef16dfac2decf3d436fa**
 
-Current branch SHA: **788f6ab75dcb157825763fb55556306a7fdc4533**
+Current branch SHA: **22dd6e608ea589d33fe6ca76ade6d9d50ca4761b**
 
 Phase 4A baseline hashes at Phase 4B start:
 
@@ -115,8 +115,7 @@ See `PROJECT_STATUS.md` for the detailed artifact and validation inventory.
 
 Phase 4A and Phase 4B are accepted/frozen factual 2026 baselines. Phase 4C is
 accepted/frozen qualitative future-scenario work. Phase 5A and Phase 5B are
-accepted/frozen factual 2026 freight baselines. Phase 5C is accepted/frozen. Phase 6A is implemented and validated and awaits
-Sol acceptance. Do not begin Phase 6B or future ecological scenarios.
+accepted/frozen factual 2026 freight baselines. Phase 5C is accepted/frozen. Phase 6A is implemented, validated, and integrated and awaits Sol acceptance. Do not begin Phase 6B or future ecological scenarios.
 
 ## Validation already passed
 
@@ -228,6 +227,10 @@ do not begin Phase 6B or future ecological scenarios.
 - Phase 5C is accepted/frozen under
   `reports/phase5c_freight_dependency_freeze_manifest.json`.
 - Phase 6A feature commit: `788f6ab75dcb157825763fb55556306a7fdc4533`.
+- Follow-up provenance correction: Maumee Bay is represented as generalized
+  NWI-supported coastal-wetland context; Ottawa NWR remains the protected-area
+  anchor. The correction is validated and will be recorded in the next QA
+  follow-up commit.
 - Phase 6A was pushed and fast-forward integrated into `main`.
 - No Phase 6B or future ecological scenario has begun.
 

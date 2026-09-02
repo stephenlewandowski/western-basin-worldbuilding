@@ -34,7 +34,7 @@ NODE_ROWS = [
     ["ECO-004", "Maumee tributary and floodplain network", "maumee_tributary_floodplain", "river_system", "tributary / floodplain", "fish; amphibians; riparian vegetation", "real_2026", "", "", "regional network", "usgs_3dhp_all", "high", "Generalized tributary/floodplain interface; no straight-line animal route is implied."],
     ["ECO-005", "Western Lake Erie coastal wetland complex", "coastal_wetlands_marshes", "wetland_complex", "freshwater emergent / shrub / forested wetland", "waterfowl; shorebirds; wetland vegetation", "real_2026", "", "", "regional complex", "usfws_nwi", "high", "Generalized complex based on contemporary NWI features; inventory is not a jurisdictional determination."],
     ["ECO-006", "Ottawa National Wildlife Refuge", "coastal_wetlands_marshes", "protected_area", "coastal marsh / wetland", "migratory birds; wetland fauna", "real_2026", "41.63", "-83.14", "generalized public anchor", "phase6a_usfws_ottawa_nwr", "high", "Generalized public anchor only; sensitive species occurrence locations are not published."],
-    ["ECO-007", "Maumee Bay State Park and coastal restoration context", "coastal_wetlands_marshes", "restoration_area", "coastal wetland / shoreline", "waterbirds; fish nursery function", "real_2026", "41.69", "-83.22", "generalized public anchor", "phase6a_usfws_ottawa_nwr", "low", "Broad coastal-restoration context; exact project boundaries are not modeled in this skeleton."],
+    ["ECO-007", "Maumee Bay coastal wetland context", "coastal_wetlands_marshes", "wetland_complex", "coastal wetland / shoreline", "waterbirds; fish nursery function", "real_2026", "41.69", "-83.22", "generalized public anchor", "usfws_nwi", "moderate", "Broad NWI-supported coastal wetland context; exact project or restoration boundaries are not modeled."],
     ["ECO-008", "Contemporary NWI wetland network", "coastal_wetlands_marshes", "wetland_complex", "freshwater wetland", "wetland vegetation; amphibians; birds", "real_2026", "", "", "inventory network", "usfws_nwi", "high", "Uses existing generalized NWI features at the established 25-acre focus threshold."],
     ["ECO-009", "Black Swamp legacy agricultural matrix", "black_swamp_legacy_agriculture", "agricultural_matrix", "agriculture / drainage-altered landscape", "soil biota; farmland birds; pollinators", "real_2026", "", "", "landscape context", "h2ohio_great_black_swamp_history", "moderate", "Historical ecological legacy and modern matrix context; Great Black Swamp geometry remains noncanonical and no polygon is used."],
     ["ECO-010", "Contemporary terrestrial habitat mosaic", "terrestrial_habitat_fragmentation", "terrestrial_habitat", "forest / grassland / agriculture / developed", "terrestrial wildlife; vegetation; pollinators", "real_2026", "", "", "regional class context", "phase6a_mrlc_land_cover", "moderate", "Generalized contemporary land-cover classes; no large raster is committed."],
@@ -53,7 +53,7 @@ EDGE_ROWS = [
     ["ECE-004", "ECO-003", "ECO-011", "riparian_connection", "river-riparian edge function", "scientific_inference", "usgs_3dhp_all", "moderate", "Generalized riparian relationship; no parcel habitat claim."],
     ["ECE-005", "ECO-004", "ECO-008", "wetland_interface", "tributary-wetland hydrologic interface", "scientific_inference", "usfws_nwi", "moderate", "NWI and hydrography overlap supports an interface, not performance."],
     ["ECE-006", "ECO-005", "ECO-006", "habitat_connected", "coastal wetland complex", "documented_protected_area", "phase6a_usfws_ottawa_nwr", "moderate", "Generalized refuge-to-coastal-wetland relationship."],
-    ["ECE-007", "ECO-005", "ECO-007", "restoration_link", "coastal wetland restoration context", "documented_public_context", "phase6a_usfws_ottawa_nwr", "low", "Restoration context is broad and not a project-boundary assertion."],
+    ["ECE-007", "ECO-005", "ECO-007", "wetland_interface", "coastal wetland context", "documented_wetland_inventory", "usfws_nwi", "moderate", "Wetland context is broad and not a project-boundary assertion."],
     ["ECE-008", "ECO-009", "ECO-008", "wetland_interface", "drainage-altered agricultural matrix and wetland remnants", "historical_context_plus_inventory", "h2ohio_great_black_swamp_history", "moderate", "Modern legacy context; no historical boundary is mapped."],
     ["ECE-009", "ECO-009", "ECO-010", "terrestrial_interface", "agricultural-terrestrial habitat mosaic", "generalized_land_cover", "phase6a_mrlc_land_cover", "moderate", "Broad land-cover relationship; no habitat-quality score."],
     ["ECE-010", "ECO-010", "ECO-011", "habitat_connected", "terrestrial-riparian interface", "scientific_inference", "usgs_3dhp_all", "moderate", "Generalized interface without inferred movement path."],
@@ -87,10 +87,10 @@ def render_map() -> None:
     lake.plot(ax=ax, color="#a9d7df", edgecolor="#478c9a", linewidth=0.8, alpha=0.9)
     wetlands.plot(ax=ax, color="#6da77c", edgecolor="none", alpha=0.45)
     flowlines.plot(ax=ax, color="#4a8798", linewidth=0.3, alpha=0.55)
-    anchors = pd.DataFrame({"name": ["Ottawa NWR", "Maumee Bay State Park"], "longitude": [-83.14, -83.22], "latitude": [41.63, 41.69]})
+    anchors = pd.DataFrame({"name": ["Ottawa NWR", "Maumee Bay coastal wetland"], "longitude": [-83.14, -83.22], "latitude": [41.63, 41.69]})
     ax.scatter(anchors.longitude, anchors.latitude, s=55, c="#7b4f92", marker="^", edgecolor="#f1eadc", linewidth=0.8, zorder=5)
     ax.text(-83.14, 41.615, "Ottawa NWR", fontsize=8, color="#4d2e60", ha="center")
-    ax.text(-83.22, 41.72, "Maumee Bay State Park", fontsize=8, color="#4d2e60", ha="center")
+    ax.text(-83.22, 41.72, "Maumee Bay coastal wetland", fontsize=8, color="#4d2e60", ha="center")
     ax.text(-83.42, 41.72, "Western Lake Erie", fontsize=11, weight="bold", color="#235a68", ha="center")
     ax.text(-83.56, 41.47, "Maumee River / tributary structure", fontsize=9, color="#285f71", rotation=18, ha="center")
     ax.set_xlim(-84.55, -82.55)

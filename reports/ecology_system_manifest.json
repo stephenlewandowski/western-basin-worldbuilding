@@ -9,24 +9,24 @@
   },
   "artifacts": {
     "data/processed/networks/ecology_system_nodes.csv": {
-      "bytes": 4968,
-      "sha256": "e4e9212aaccb21636ac74731438bd0a70623da9d9371c8b02e230da34b643407"
+      "bytes": 4946,
+      "sha256": "092e9ba53468f9ebb2a289e3be60622bf7503131f91293b588f96fe53b9236ad"
     },
     "data/processed/networks/ecology_system_edges.csv": {
-      "bytes": 3907,
-      "sha256": "87c0c43c94f647f09828b15fefb6e076433fa225d60c555a81d00e5368bd694c"
+      "bytes": 3885,
+      "sha256": "de6f547be49f33f787064bf165c8ac074fbf1db136812e50134696bd878b008f"
     },
     "data/processed/analysis/ecological_indicators_2026.csv": {
       "bytes": 854,
       "sha256": "a9bc4669b23943660defe3582b163cae494ab3b92a12f99dc8ed74f6afaa36ea"
     },
     "outputs/maps/systems/20_ecological_system_2026.png": {
-      "bytes": 1183153,
-      "sha256": "ea041f5e251091538c3326648222fd17ecc35243543cd8a6b3ebce0679060a88"
+      "bytes": 1183416,
+      "sha256": "f1fd7d8bd8b49944ae8e6c2c0e6898e349fa6ed146c7020ef448b6d3c908741c"
     },
     "outputs/maps/systems/20_ecological_system_2026.svg": {
-      "bytes": 17828635,
-      "sha256": "242eea52cd89405b9dc649c4c2f3c4892f9e4e6ff90d015f574b7f100a521a03"
+      "bytes": 17828640,
+      "sha256": "dfa1d1fb16dc0f04cd6783e4ea4e66f918657469b5057438b1386516da905d1f"
     }
   }
 }

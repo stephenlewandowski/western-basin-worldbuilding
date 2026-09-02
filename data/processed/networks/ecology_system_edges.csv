@@ -5,7 +5,7 @@ ECE-003,ECO-004,ECO-003,habitat_connected,tributary-river habitat structure,docu
 ECE-004,ECO-003,ECO-011,riparian_connection,river-riparian edge function,scientific_inference,usgs_3dhp_all,moderate,Generalized riparian relationship; no parcel habitat claim.
 ECE-005,ECO-004,ECO-008,wetland_interface,tributary-wetland hydrologic interface,scientific_inference,usfws_nwi,moderate,"NWI and hydrography overlap supports an interface, not performance."
 ECE-006,ECO-005,ECO-006,habitat_connected,coastal wetland complex,documented_protected_area,phase6a_usfws_ottawa_nwr,moderate,Generalized refuge-to-coastal-wetland relationship.
-ECE-007,ECO-005,ECO-007,restoration_link,coastal wetland restoration context,documented_public_context,phase6a_usfws_ottawa_nwr,low,Restoration context is broad and not a project-boundary assertion.
+ECE-007,ECO-005,ECO-007,wetland_interface,coastal wetland context,documented_wetland_inventory,usfws_nwi,moderate,Wetland context is broad and not a project-boundary assertion.
 ECE-008,ECO-009,ECO-008,wetland_interface,drainage-altered agricultural matrix and wetland remnants,historical_context_plus_inventory,h2ohio_great_black_swamp_history,moderate,Modern legacy context; no historical boundary is mapped.
 ECE-009,ECO-009,ECO-010,terrestrial_interface,agricultural-terrestrial habitat mosaic,generalized_land_cover,phase6a_mrlc_land_cover,moderate,Broad land-cover relationship; no habitat-quality score.
 ECE-010,ECO-010,ECO-011,habitat_connected,terrestrial-riparian interface,scientific_inference,usgs_3dhp_all,moderate,Generalized interface without inferred movement path.
