@@ -28,6 +28,8 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 4A — COMPLETE / VALIDATED (2026 OBSERVATION & DECISION INFRASTRUCTURE BASELINE)**
 
+**Phase 4B — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE (2026 INFORMATION DEPENDENCIES & GOVERNANCE)**
+
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
 See [PROJECT_STATUS.md](PROJECT_STATUS.md) and the [Phase 1 handoff](reports/water_system_phase1_handoff.md).
@@ -193,6 +195,26 @@ future scenario layer is included.
 Rscript src\R\systems\validate_observation_system.R .
 ```
 
+## Phase 4B Information Dependencies & Governance
+
+- [15 — Information dependencies & governance, 2026](outputs/maps/systems/15_information_dependencies_governance_2026.png)
+- [Information dependency edges](data/processed/networks/information_dependency_edges.csv)
+- [Information blind spots](data/processed/analysis/information_blind_spots.csv)
+- [Decision authority matrix](data/processed/analysis/decision_authority_matrix.csv)
+- [Information dependency matrix](outputs/figures/information_dependency_matrix_2026.png)
+- [Sources](reports/information_dependency_sources.md)
+- [Assumptions](reports/information_dependency_assumptions.md)
+- [Governance findings](reports/information_governance_findings.md)
+- [QA](reports/information_dependency_qa.md)
+
+Phase 4B contains 20 qualitative information dependencies, 10 evidence-qualified
+blind spots, four authority rows, and a 4 × 7 dependency matrix. It reuses the
+Phase 4A observation baseline and keeps information availability, timeliness,
+coverage, uncertainty, authority, jurisdiction, and public access distinct.
+No cyberattack model, sensitive operational topology, automated decision
+authority, or future scenario is included. Phase 4B is implemented and
+validated, but awaits Sol acceptance.
+
 ## Repository Structure
 
 ```text
@@ -328,10 +350,10 @@ Three sketchbook sheets are preserved under [assets/concept_art](assets/concept_
 ## Roadmap
 
 1. Maintain the accepted project packages while preserving Phase 3A and Phase 3B as accepted/validated/frozen factual 2026 baselines and Phase 3C as separate accepted/validated future-scenario work
-2. Resolve or explicitly scope the remaining Phase 1 QA gates: Toledo intake coordinates and authoritative Great Black Swamp geometry
-3. Continue local outlet review for the 12 unresolved abstract hydrography routing relationships
-4. Review imported worldbuilding, research, and reference documents against the explicit canon hierarchy
-5. Develop the Lower Maumee/Ottawa historical GIS layer when ready; keep further detailed system, freight, and Materials Corridor geometry work subject to separate source and method review
+2. Preserve Phase 4A and Phase 4B as separate factual 2026 information layers; Phase 4B remains implemented/validated and awaits Sol acceptance
+3. Resolve or explicitly scope the remaining Phase 1 QA gates: Toledo intake coordinates, authoritative Great Black Swamp geometry, and 12 unresolved abstract routing relationships
+4. Continue the Lower Maumee/Ottawa historical GIS research and review imported material against the explicit canon hierarchy
+5. Do not begin Phase 4C or future information-governance scenarios without separate approval
 
 ## Licensing / Attribution
 

@@ -84,3 +84,21 @@ coordinates are plotted; abstract networks, products, organizations, and
 responses remain schematic. The Toledo intake-coordinate discrepancy remains
 unresolved, and no cyber, SCADA, automated-control, AI-authority, or future
 scenario layer is included.
+
+## Phase 4B information dependencies and governance
+
+Phase 4B is the implemented/validated analytical counterpart to Phase 4A. Its
+tables are `../data/processed/networks/information_dependency_edges.csv`,
+`../data/processed/analysis/information_blind_spots.csv`, and
+`../data/processed/analysis/decision_authority_matrix.csv`.
+
+- `information_dependency_sources.md` — reused source evidence and boundaries.
+- `information_dependency_assumptions.md` — qualitative fields and scope.
+- `information_governance_findings.md` — four-chain findings and worldbuilding implications.
+- `information_dependency_qa.md` — structural, immutability, and boundary QA.
+- `information_dependency_manifest.json` — Phase 4B artifact hashes and counts.
+- `information_dependency_artifact_check.json` — machine-readable validation result.
+
+Map 15 and the `information_dependency_matrix_2026` figure distinguish public
+information dependencies from physical geography. Phase 4B remains
+**IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE**. Phase 4C is not begun.

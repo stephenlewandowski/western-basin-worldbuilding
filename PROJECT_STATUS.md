@@ -128,6 +128,35 @@ assumption, and QA boundaries are recorded in
 `reports/observation_system_assumptions.md`, and
 `reports/observation_system_qa.md`.
 
+## PHASE 4B — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE
+
+**Information Dependencies, Blind Spots & Governance, 2026**
+
+Phase 4B adds a separate analytical layer over the Phase 4A observation
+baseline: 20 qualitative information dependencies, 10 evidence-qualified blind
+spots, a four-row decision-authority matrix, a 4 × 7 information-dependency
+matrix, and Map 15. It reuses Phase 4A node IDs and does not alter the Phase 4A
+tables or Map 14.
+
+The layer distinguishes observation, data, analysis/forecast, decision
+authority, and response from availability, timeliness, coverage, uncertainty,
+jurisdiction, stewardship, and public/operational access. Blind spots are
+recorded as information gaps or uncertainty, not vulnerabilities or evidence
+of failure. Public energy information remains high-level.
+
+Phase 4B contains no cyberattack model, attack path, sensitive operational
+topology, SCADA/control architecture, privacy-impact assessment, AI decision
+authority, surveillance-state scenario, fictional sensor network, or future
+scenario. It is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE** and is not
+marked scientifically accepted on behalf of Sol.
+
+The machine-readable result is `reports/information_dependency_artifact_check.json`;
+the source, assumption, findings, and QA boundaries are recorded in
+`reports/information_dependency_sources.md`,
+`reports/information_dependency_assumptions.md`,
+`reports/information_governance_findings.md`, and
+`reports/information_dependency_qa.md`.
+
 ## Open Phase 1 QA gates
 
 1. Toledo intake coordinate reconciliation

@@ -6,7 +6,7 @@ Repository: `C:\Projects\Public_GitHub\western-basin-worldbuilding`
 
 Canonical branch: `main`
 
-Active Phase 4A worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase4a`
+Active Phase 4B worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase4b`
 
 Local main SHA at handoff creation: `2a468cc7d3d7fec12801df9c51d7e8e9e8271e3a`
 
@@ -16,7 +16,7 @@ Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
 
 Working tree at handoff creation: clean before checkpoint update
 
-Last verified: 2026-09-01T22:47:52+09:00
+Last verified: 2026-09-02T09:37:45+09:00
 
 ## Current project state
 
@@ -28,7 +28,7 @@ Status: **ACCEPTED / VALIDATED**
 - Phase 3B: **ACCEPTED / FROZEN**
 - Phase 3C: **ACCEPTED / VALIDATED**
 
-Next approved analytical phase: **Phase 4B STARTING**
+Next approved analytical phase: **Phase 4B — IN PROGRESS**
 
 Expected next phase: **Phase 4B — Information Dependencies, Blind Spots &
 Governance, 2026**
@@ -38,15 +38,22 @@ Primary expected product: **Map 15 — Information Dependencies & Governance,
 
 ## Active development state
 
-Active phase: **NONE — Phase 4A integrated; Phase 4B worktree not yet established**
+Active phase: **Phase 4B — Information Dependencies, Blind Spots & Governance, 2026**
 
-Active branch: **main**
+Active branch: **phase-4b-information-dependencies**
 
-Active worktree: **C:\Projects\Public_GitHub\western-basin-worldbuilding**
+Active worktree: **C:\Projects\Public_GitHub\western-basin-worldbuilding-phase4b**
 
 Starting main SHA: **2a468cc7d3d7fec12801df9c51d7e8e9e8271e3a**
 
-Current branch SHA: **Phase 4A integration commit; final handoff commit is verified with Git and is not embedded self-referentially**
+Current branch SHA: **Phase 4B implementation commit; final amended SHA is verified with Git and is not embedded self-referentially**
+
+Phase 4A baseline hashes at Phase 4B start:
+
+- Map 14 PNG: `a7eaf86c91f9d18d0828d3662947e5a29cae57483fc923a304417baeacd460bd`
+- Map 14 SVG: `17057dbc706e20cfef892eaa9566ca0059dee277ac72569eee6fff7d79bddb04`
+- observation nodes: `14f749c43791982ffda01f3f5956e1e679dde7148d8425c0a62ad29f09676181`
+- observation edges: `f06be0e0484f43f05f55a800b5f5e46edf07a92666ed39eafc04d5951dcdc8c3`
 
 ## Completed
 
@@ -64,15 +71,26 @@ Current branch SHA: **Phase 4A integration commit; final handoff commit is verif
 - Prior Python and R regressions, Markdown links, application tests, Git/LFS checks, and full-resolution Map 14 inspection passed
 - Phase 4A feature commit `66c962cae14e77753394e8c9a47abb9f81d34e2a` pushed and fast-forward integrated into `main`
 - Phase 4A status: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+- Phase 4B isolated branch/worktree established from integrated `main`
+- Phase 4B dependency, blind-spot, authority, and matrix schemas established
+- Phase 4B dependency, blind-spot, authority, and matrix tables populated
+- Phase 4B Map 15, dependency matrix, manifest, and reports generated
+- Phase 4B Python and independent R validation passed
+- Phase 4B project-facing README, status, canon, changelog, and report navigation updated
+- Phase 4B independent R validation, prior-system regressions, Markdown links, application tests/build, and Git/LFS checks passed
+- Phase 4B implementation commit created locally; completion checkpoint is being amended into that commit
 
 See `PROJECT_STATUS.md` for the detailed artifact and validation inventory.
 
 ## Remaining
 
 Phase 4A implementation, documentation, validation, feature-branch push, and
-fast-forward integration are complete. Phase 4B is approved to begin without
-waiting for routine confirmation. Its isolated branch/worktree must be
-established before any Phase 4B edits.
+fast-forward integration are complete. Phase 4B implementation, analytical
+validation, repository-wide checks, and the feature commit are complete in the
+isolated worktree. The branch is ready for final handoff amendment, push, and
+integration. Its scope is information dependencies, blind spots, authority,
+qualitative failure modes, and Map 15; no cyberattack, sensitive-topology,
+privacy-impact, AI-authority, or future-scenario work is permitted.
 
 ## Validation already passed
 
@@ -83,9 +101,12 @@ established before any Phase 4B edits.
 - Phase 4A Python validation passed: 25 nodes, 21 edges, Map 14 valid, prior
   Maps 01–13b unchanged by 30-file hash check.
 - Phase 4A R validation passed: 25 nodes, 21 edges, four chains.
-- Full Python regression suite passed for Phases 1–3C.
-- Full prior-system R validation suite passed for Phases 1–3C.
-- Markdown-link validation passed: 84 links.
+- Phase 4A baseline immutability passed from Phase 4B: Map 14 and both Phase 4A tables unchanged.
+- Phase 4B Python validation passed: 20 dependencies, 10 blind spots, 4 authority rows, 4 × 7 matrix.
+- Phase 4B R validation passed: 20 dependencies, 10 blind spots, 4 authority rows, 4 × 7 matrix.
+- Full Python prior-system regression suite passed for Phases 1–3C.
+- Phase 4A and Phase 4B independent R validation passed.
+- Markdown-link validation passed: 95 links.
 - Application tests passed: 22 tests; Vite/TypeScript build passed.
 - Git LFS status and `git lfs fsck` passed.
 - Map 14 full-resolution OCR/SVG inspection passed; no label clipping was found.
@@ -100,15 +121,14 @@ established before any Phase 4B edits.
 
 ## Uncommitted files
 
-`reports/current_phase_handoff.md` (this post-integration checkpoint)
+`reports/current_phase_handoff.md` (post-commit completion checkpoint; included via amend)
 
 ## Next exact action
 
-Create the isolated `phase-4b-information-dependencies` branch/worktree from
-the integrated `main` tip. Record Phase 4B's starting SHA and Map 14 hashes,
-then begin the dependency, blind-spot, authority, matrix, report, and Map 15
-slice. Preserve prior artifacts and the unresolved Toledo intake-coordinate
-discrepancy.
+Amend this handoff completion checkpoint into the Phase 4B implementation
+commit, push the feature branch, review the remote branch, integrate normally
+into `main`, and verify synchronization. Preserve Map 14 and the unresolved
+Toledo intake-coordinate discrepancy.
 
 ## Do not repeat
 

@@ -2,6 +2,14 @@
 
 ## Unreleased
 
+- Implemented and validated Phase 4B's factual 2026 information-dependency
+  layer: 20 dependencies, 10 evidence-qualified blind spots, four authority
+  rows, a 4 × 7 ordinal matrix, Map 15, and governance findings; awaiting Sol
+  acceptance.
+- Reused Phase 4A observation nodes and preserved Map 14 and its tables as an
+  immutable baseline. Added no cyberattack model, sensitive topology, AI
+  authority, privacy-impact assessment, or future scenario.
+
 - Completed and validated Phase 4A's factual 2026 observation and decision
   infrastructure baseline: 25 nodes, 21 relationships, four representative
   public-information chains, and Map 14.

@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "phase": "4B",
+  "information_dependencies": 20,
+  "blind_spots": 10,
+  "authority_rows": 4,
+  "matrix_dimensions": [
+    4,
+    7
+  ],
+  "map15_png_dimensions": [
+    3264,
+    1991
+  ],
+  "matrix_png_dimensions": [
+    3080,
+    1760
+  ],
+  "provenance_complete": true,
+  "phase4a_baseline_immutable": true,
+  "map15_artifacts_valid": true,
+  "matrix_artifacts_valid": true,
+  "no_cyber_or_sensitive_topology": true,
+  "no_future_scenario_content": true,
+  "toledo_intake_uncertainty_preserved": true
+}

@@ -1,0 +1,5 @@
+domain,observation_availability,timeliness,spatial_coverage,model_dependence,organizational_handoff,public_data_availability,decision_authority_clarity
+lake_erie_hab,high,unknown,moderate,moderate,moderate,high,moderate
+maumee_hydrology,high,high,moderate,moderate,moderate,high,moderate
+environmental_regulatory,moderate,unknown,moderate,low,moderate,moderate,moderate
+energy_information,moderate,unknown,moderate,low,moderate,high,moderate
