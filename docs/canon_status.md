@@ -92,7 +92,8 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 2C Strategic Materials, Exposure & Remediation History:** complete and validated; Map 09 only, with zero documented individual exposure findings
 - **Phase 2D Alternative Materials Futures:** complete and validated as six explicitly fictional scenario states across 2050/2075; Maps 10/10b
 - **Phase 4A Data, Sensors & Decision Infrastructure Baseline:** complete and validated as a factual 2026 observation-to-decision layer; Map 14
-- **Phase 4B Information Dependencies, Blind Spots & Governance:** implemented and validated as a factual 2026 analytical layer awaiting Sol acceptance; Map 15
+- **Phase 4B Information Dependencies, Blind Spots & Governance:** accepted and frozen as a factual 2026 analytical layer; Map 15
+- **Phase 4C Data, Sensors, Governance & Security Futures:** in progress as separate qualitative 2050/2075 scenario deltas; Maps 16/16b are not yet created
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without
@@ -110,3 +111,7 @@ Phase 4B changes no regional canon, macroregion, jurisdiction, or fictional
 geography. Its dependency, blind-spot, authority, and matrix records are
 analytical governance interfaces over Phase 4A; they do not create physical
 communication routes, cyber architecture, AI authority, or future scenarios.
+
+Phase 4C does not change the five-region canon. Its 2050/2075 information,
+governance, trust, security, and automation objects are explicitly fictional
+scenario deltas and remain separate from factual 2026 records.

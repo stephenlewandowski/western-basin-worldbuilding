@@ -1,0 +1,71 @@
+{
+  "phase": "4C",
+  "generated": "2026-09-02",
+  "status": "scenario_baseline",
+  "counts": {
+    "assumptions": 36,
+    "scenario_node_states": 72,
+    "scenario_edge_deltas": 48,
+    "blindspot_states": 36,
+    "authority_rows": 6,
+    "comparison_rows": 6
+  },
+  "scenario_ids": [
+    "A2050",
+    "A2075",
+    "B2050",
+    "B2075",
+    "C2050",
+    "C2075"
+  ],
+  "artifacts": {
+    "data/processed/scenarios/information_scenario_assumptions.csv": {
+      "bytes": 12500,
+      "sha256": "e0af85c3acb27257cbc1b0be33b782856e9b34e74ec87c209dfe4b88e9335fae"
+    },
+    "data/processed/scenarios/information_nodes_scenario.csv": {
+      "bytes": 21574,
+      "sha256": "47171e56fb1dd1ae03a6abaa82d728404d56ab1d4801aca755236278f2af01ea"
+    },
+    "data/processed/scenarios/information_edges_scenario.csv": {
+      "bytes": 11731,
+      "sha256": "6dfeb73e727bf11a1f63bcf85118e4f4299dc1862ebe844baf0fe25c15646513"
+    },
+    "data/processed/scenarios/information_blind_spots_scenario.csv": {
+      "bytes": 12845,
+      "sha256": "f97abc7797a1b402cf77b55da3a63499f19a01fc368da9171ef708f6d04504c4"
+    },
+    "data/processed/scenarios/information_authority_scenario.csv": {
+      "bytes": 3516,
+      "sha256": "45b843379f878c0656168d6278bd53f4b774dd9bf2499ccaa3ef6f8d82e83707"
+    },
+    "outputs/figures/information_scenarios_comparison.csv": {
+      "bytes": 999,
+      "sha256": "e253cd9abcc8f2f10bccb868429e36538649dfece0d4fc8115971d47af6a336f"
+    },
+    "outputs/figures/information_scenarios_comparison.png": {
+      "bytes": 321902,
+      "sha256": "70c55668bb41fbcc11ae1766db6683df9fd307262a7bdd75c143fc29453635ff"
+    },
+    "outputs/figures/information_scenarios_comparison.svg": {
+      "bytes": 48286,
+      "sha256": "40e71185d23d866100b5c8597ffbb61e83530f08cc08162d21ae77d25eeb9908"
+    },
+    "outputs/maps/systems/16_information_governance_futures_2050.png": {
+      "bytes": 552725,
+      "sha256": "d31c55a7c0a9a17551b3f0624570f2695d27ed73d81ac7c8b1508f388747d020"
+    },
+    "outputs/maps/systems/16_information_governance_futures_2050.svg": {
+      "bytes": 8640884,
+      "sha256": "adaf9eb09e56307b3f6c82baa12225ee19641abcfcfb6b113459f2af547f535b"
+    },
+    "outputs/maps/systems/16b_information_governance_futures_2075.png": {
+      "bytes": 550020,
+      "sha256": "46a140bf9186a67f4ea2f3cff6ea17eac7ddb111e99fbd17dfb6f01f558c6b70"
+    },
+    "outputs/maps/systems/16b_information_governance_futures_2075.svg": {
+      "bytes": 8640883,
+      "sha256": "5aff22ed401ea12450ef49bf49ffbdf2d04a2f1a43a120b2dd7e64f6b4582a29"
+    }
+  }
+}

@@ -128,7 +128,7 @@ assumption, and QA boundaries are recorded in
 `reports/observation_system_assumptions.md`, and
 `reports/observation_system_qa.md`.
 
-## PHASE 4B — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE
+## PHASE 4B — ACCEPTED / FROZEN
 
 **Information Dependencies, Blind Spots & Governance, 2026**
 
@@ -147,15 +147,25 @@ of failure. Public energy information remains high-level.
 Phase 4B contains no cyberattack model, attack path, sensitive operational
 topology, SCADA/control architecture, privacy-impact assessment, AI decision
 authority, surveillance-state scenario, fictional sensor network, or future
-scenario. It is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE** and is not
-marked scientifically accepted on behalf of Sol.
+scenario. It is formally **ACCEPTED / FROZEN** by explicit Sol decision.
 
-The machine-readable result is `reports/information_dependency_artifact_check.json`;
+The machine-readable result is `reports/phase4b_information_freeze_manifest.json` and
+`reports/information_dependency_artifact_check.json`;
 the source, assumption, findings, and QA boundaries are recorded in
 `reports/information_dependency_sources.md`,
 `reports/information_dependency_assumptions.md`,
 `reports/information_governance_findings.md`, and
 `reports/information_dependency_qa.md`.
+
+## PHASE 4C — IN PROGRESS
+
+**Data, Sensors, Governance & Security Futures, 2050 / 2075**
+
+Phase 4C develops three separate qualitative scenario families over the frozen
+Phase 4A/4B 2026 baselines: Trusted Public Infrastructure, Federated Resilience,
+and High-Automation / Contested Information. Future objects must remain separate
+scenario deltas with explicit assumptions, provenance, and human decision
+authority. No Phase 4C future object may enter the factual baseline.
 
 ## Open Phase 1 QA gates
 

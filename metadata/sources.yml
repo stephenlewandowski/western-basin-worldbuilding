@@ -237,3 +237,27 @@ sources:
     retrieved_date: 2026-09-01
     source_type: regional_operator_primary_source
     use: High-level regional transmission-organization operations context; no dispatch, outage, congestion, or automated-control claim is made.
+  phase4c_noaa_ioos:
+    name: NOAA Integrated Ocean Observing System
+    url: https://ioos.noaa.gov/
+    retrieved_date: 2026-09-02
+    source_type: federal_observing_system_guidance
+    use: Future-driver context for interoperable, coordinated coastal and ocean observation; no future Western Basin deployment is assumed.
+  phase4c_nist_ai_rmf:
+    name: NIST AI Risk Management Framework
+    url: https://www.nist.gov/itl/ai-risk-management-framework
+    retrieved_date: 2026-09-02
+    source_type: federal_ai_governance_guidance
+    use: High-level future-driver context for trustworthy AI-assisted analysis and human governance; no specific future AI system is forecast.
+  phase4c_nist_privacy_framework:
+    name: NIST Privacy Framework
+    url: https://www.nist.gov/privacy-framework
+    retrieved_date: 2026-09-02
+    source_type: federal_privacy_governance_guidance
+    use: High-level future-driver context for privacy-aware data governance; no individual-level dataset or detailed privacy assessment is modeled.
+  phase4c_cisa_cpg:
+    name: CISA Cross-Sector Cybersecurity Performance Goals
+    url: https://www.cisa.gov/cross-sector-cybersecurity-performance-goals/cross-sector-cybersecurity-performance-goals
+    retrieved_date: 2026-09-02
+    source_type: federal_resilience_guidance
+    use: High-level future-driver context for availability, identity, authentication, and continuity; no attack path, vulnerability, or target detail is modeled.

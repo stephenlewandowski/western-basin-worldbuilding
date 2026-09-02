@@ -100,5 +100,13 @@ tables are `../data/processed/networks/information_dependency_edges.csv`,
 - `information_dependency_artifact_check.json` — machine-readable validation result.
 
 Map 15 and the `information_dependency_matrix_2026` figure distinguish public
-information dependencies from physical geography. Phase 4B remains
-**IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE**. Phase 4C is not begun.
+information dependencies from physical geography. Phase 4B is
+**ACCEPTED / FROZEN**; `phase4b_information_freeze_manifest.json` protects its
+principal artifacts. Phase 4C is the separate scenario phase and is active.
+
+## Phase 4C information and governance futures
+
+Phase 4C uses the frozen Phase 4A/4B factual baselines to model separate
+2050/2075 scenario deltas. It does not modify the Phase 4A/4B tables or maps.
+Future assumption, node-state, edge-state, comparison, and report artifacts are
+documented under the Phase 4C source and QA reports when generated.

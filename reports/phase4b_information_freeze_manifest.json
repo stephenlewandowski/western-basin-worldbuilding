@@ -1,0 +1,28 @@
+{
+  "accepted_phase": "4B",
+  "accepted_baseline": "Information Dependencies, Blind Spots & Governance, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol",
+  "accepted_date": "2026-09-02",
+  "counts": {
+    "information_dependencies": 20,
+    "blind_spots": 10,
+    "authority_rows": 4,
+    "matrix_rows": 4,
+    "matrix_columns": 7
+  },
+  "files": {
+    "outputs/maps/systems/15_information_dependencies_governance_2026.png": {"sha256": "619d890bd90c702c9500fe7afb2f8691060c3e35d0196625e1652b72062dd20f"},
+    "outputs/maps/systems/15_information_dependencies_governance_2026.svg": {"sha256": "7498527092629a0ab7888b71d79e5a417fece5d0b641a2df08d6258a03526a2d"},
+    "data/processed/networks/information_dependency_edges.csv": {"sha256": "d811c20b45abc10e6fc8122863b04c6fb5bdc40232afad11cc041ed4d421e6f0"},
+    "data/processed/analysis/information_blind_spots.csv": {"sha256": "1fbb56be9f25cbc3e4fb1692fadae68d6d11144c5ee081381a3a1fc6bce19665"},
+    "data/processed/analysis/decision_authority_matrix.csv": {"sha256": "06fb294937e6a3a67d44fa1ca2dd5d531ebfdc1ac76c40cd4705360f9fecad52"},
+    "outputs/figures/information_dependency_matrix_2026.csv": {"sha256": "a965289f9a61e800966af5d76bfa14008836bed899d08614d46ad14e8a62dc5c"},
+    "outputs/figures/information_dependency_matrix_2026.png": {"sha256": "31eeee7f6010321e159b9ace16a4b59401dd63543ce4f39cd778fd8db5c84e74"},
+    "outputs/figures/information_dependency_matrix_2026.svg": {"sha256": "be7b94a24ff6f21acf91f0cbcfd4dca898a1e17618831aa6e0a86fa6a035277d"},
+    "reports/information_dependency_sources.md": {"sha256": "c3ac03bd678fc91b8b028716d73531f0c58ec7ef620dacaf47062c579766aeb1"},
+    "reports/information_dependency_assumptions.md": {"sha256": "2c39856df9f3dcd914b3e27bd813937816229cadb6616620fb61665cb5aa08df"},
+    "reports/information_governance_findings.md": {"sha256": "ad1bb984642794c3358e1447057f41f8ae37ee9d2fbcf6c3e4eabc9d74383280"},
+    "reports/information_dependency_qa.md": {"sha256": "812a4313dcc28aa4c28afd351cea2e909d84c1e37044850f63cfbca75eb97133"}
+  }
+}

@@ -6,17 +6,17 @@ Repository: `C:\Projects\Public_GitHub\western-basin-worldbuilding`
 
 Canonical branch: `main`
 
-Active Phase 4B worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase4b`
+Active Phase 4C worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase4c`
 
-Local main SHA at handoff creation: `2a468cc7d3d7fec12801df9c51d7e8e9e8271e3a`
+Local main SHA at handoff creation: `c7f2813ba8b544aadd96c1863664f1b9b652dafe`
 
-`origin/main` SHA at handoff creation: `2a468cc7d3d7fec12801df9c51d7e8e9e8271e3a`
+`origin/main` SHA at handoff creation: `c7f2813ba8b544aadd96c1863664f1b9b652dafe`
 
 Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
 
 Working tree at handoff creation: clean before checkpoint update
 
-Last verified: 2026-09-02T09:39:18+09:00
+Last verified: 2026-09-02T11:15:52+09:00
 
 ## Current project state
 
@@ -28,25 +28,25 @@ Status: **ACCEPTED / VALIDATED**
 - Phase 3B: **ACCEPTED / FROZEN**
 - Phase 3C: **ACCEPTED / VALIDATED**
 
-Next approved analytical phase: **Phase 4B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+Next approved analytical phase: **Phase 4C — IN PROGRESS**
 
-Expected next phase: **Phase 4B — Information Dependencies, Blind Spots &
-Governance, 2026**
+Expected next phase: **Phase 4C — Data, Sensors, Governance & Security Futures,
+2050 / 2075**
 
-Primary expected product: **Map 15 — Information Dependencies & Governance,
-2026**
+Primary expected product: **Map 16 / 16b — Information / Governance Futures,
+2050 / 2075**
 
 ## Active development state
 
-Active phase: **NONE — Phase 4B integrated; Phase 4C not started**
+Active phase: **Phase 4C — Data, Sensors, Governance & Security Futures, 2050 / 2075**
 
-Active branch: **main**
+Active branch: **phase-4c-information-governance-scenarios**
 
-Active worktree: **C:\Projects\Public_GitHub\western-basin-worldbuilding**
+Active worktree: **C:\Projects\Public_GitHub\western-basin-worldbuilding-phase4c**
 
-Starting main SHA: **2a468cc7d3d7fec12801df9c51d7e8e9e8271e3a**
+Starting main SHA: **c7f2813ba8b544aadd96c1863664f1b9b652dafe**
 
-Current branch SHA: **Phase 4B integration handoff commit; final SHA is verified with Git and is not embedded self-referentially**
+Current branch SHA: **Phase 4C implementation commit; final amended SHA is verified with Git and is not embedded self-referentially**
 
 Phase 4A baseline hashes at Phase 4B start:
 
@@ -80,18 +80,26 @@ Phase 4A baseline hashes at Phase 4B start:
 - Phase 4B independent R validation, prior-system regressions, Markdown links, application tests/build, and Git/LFS checks passed
 - Phase 4B implementation commit created locally; completion checkpoint is being amended into that commit
 - Phase 4B feature commit `f743af28deae53c88eddf869734a47d1d8bfa0ae` pushed and fast-forward integrated into `main`
-- Phase 4B status: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+- Phase 4B status: **ACCEPTED / FROZEN** by explicit Sol decision
+- Phase 4B freeze protection is recorded in `reports/phase4b_information_freeze_manifest.json`
+- Phase 4C isolated branch/worktree established from integrated `main`
+- Phase 4B acceptance/freeze documentation updated
+- Phase 4C scenario assumption and delta tables generated for all six states
+- Maps 16/16b and scenario comparison artifacts generated
+- Phase 4B acceptance/freeze documentation, manifest, and Phase 4C project navigation updated
+- Phase 4C Python/R validation and all targeted/full regression checks passed
 
 See `PROJECT_STATUS.md` for the detailed artifact and validation inventory.
 
 ## Remaining
 
 Phase 4A implementation, documentation, validation, feature-branch push, and
-fast-forward integration are complete. Phase 4B implementation, analytical
-validation, repository-wide checks, feature-branch push, and fast-forward
-integration are complete. Phase 4B remains implemented/validated and awaits Sol
-acceptance. Phase 4C is not begun. No cyberattack, sensitive-topology,
-privacy-impact, AI-authority, or future-scenario work was introduced.
+fast-forward integration are complete. Phase 4B is accepted/frozen and its
+artifacts are the immutable factual information baseline. Phase 4C scenario
+tables, reports, maps, validation, and the feature commit are complete. The
+branch is ready for final handoff amendment, push, and integration. No scenario
+object may enter the factual baseline, and no attack path, sensitive-topology,
+or offensive security detail is permitted.
 
 ## Validation already passed
 
@@ -110,6 +118,7 @@ privacy-impact, AI-authority, or future-scenario work was introduced.
 - Markdown-link validation passed: 95 links.
 - Application tests passed: 22 tests; Vite/TypeScript build passed.
 - Git LFS status and `git lfs fsck` passed.
+- Maps 16/16b and comparison figure passed full-resolution OCR/SVG inspection.
 - Phase 4B feature branch and `main` were synchronized with their remote refs after push.
 - Map 14 full-resolution OCR/SVG inspection passed; no label clipping was found.
 
@@ -123,13 +132,14 @@ privacy-impact, AI-authority, or future-scenario work was introduced.
 
 ## Uncommitted files
 
-`reports/current_phase_handoff.md` (this post-integration checkpoint)
+`reports/current_phase_handoff.md` (post-commit completion checkpoint; included via amend)
 
 ## Next exact action
 
-Await Sol acceptance for Phase 4B. Do not begin Phase 4C. Preserve Phase 4A/4B
-artifacts, Map 14, Map 15, and the unresolved Toledo intake-coordinate
-discrepancy.
+Amend this handoff completion checkpoint into the Phase 4C implementation
+commit, push the feature branch, review the remote branch, integrate normally
+into `main`, and verify local `main` equals `origin/main`. Preserve all Phase
+4A/4B artifacts and the unresolved Toledo intake-coordinate discrepancy.
 
 ## Do not repeat
 

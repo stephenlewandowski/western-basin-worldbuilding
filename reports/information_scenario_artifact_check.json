@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "phase": "4C",
+  "assumptions": 36,
+  "scenario_node_states": 72,
+  "scenario_edge_deltas": 48,
+  "blindspot_states": 36,
+  "authority_rows": 6,
+  "comparison_dimensions": 12,
+  "scenario_ids": [
+    "A2050",
+    "A2075",
+    "B2050",
+    "B2075",
+    "C2050",
+    "C2075"
+  ],
+  "phase4a_immutable": true,
+  "phase4b_immutable": true,
+  "maps_valid": true,
+  "comparison_valid": true,
+  "human_authority_explicit": true,
+  "no_offensive_security_content": true,
+  "no_future_objects_in_baseline": true,
+  "toledo_intake_uncertainty_preserved": true,
+  "great_black_swamp_hold_preserved": true,
+  "image_sizes": [
+    [
+      3339,
+      1991
+    ],
+    [
+      3339,
+      1991
+    ],
+    [
+      3520,
+      1980
+    ]
+  ]
+}

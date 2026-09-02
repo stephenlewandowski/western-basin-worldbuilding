@@ -1,0 +1,7 @@
+scenario_id,scenario_year,scenario_family,openness,interoperability,sensing_density,automation,human_decision_authority,redundancy,data_concentration,privacy_constraint,security_constraint,model_dependence,public_transparency,resilience_to_information_loss
+A2050,2050,Trusted Public Infrastructure,moderate,high,moderate,moderate,high,moderate,moderate,moderate,moderate,high,moderate,moderate
+A2075,2075,Trusted Public Infrastructure,high,high,high,moderate,high,high,moderate,moderate,moderate,high,high,high
+B2050,2050,Federated Resilience,moderate,moderate,moderate,moderate,high,high,low,high,moderate,moderate,high,high
+B2075,2075,Federated Resilience,moderate,moderate,high,moderate,high,high,low,high,moderate,moderate,high,high
+C2050,2050,High-Automation / Contested Information,low,high,high,high,moderate,moderate,high,high,high,moderate,moderate,moderate
+C2075,2075,High-Automation / Contested Information,low,high,high,high,moderate,moderate,high,high,high,low,moderate,moderate
