@@ -1,0 +1,55 @@
+{
+  "phase": "6C",
+  "generated": "2026-09-02",
+  "status": "ecological_scenarios",
+  "counts": {
+    "assumptions": 18,
+    "scenario_nodes": 36,
+    "scenario_edges": 30,
+    "disturbance_states": 36,
+    "resilience_states": 36,
+    "comparison_rows": 72
+  },
+  "artifacts": {
+    "data/processed/scenarios/ecology_scenario_assumptions.csv": {
+      "bytes": 5263,
+      "sha256": "365ec438866938a43ab58d61a673e98fd9a8b7672a485b9bd6ae4cf8e29fb95d"
+    },
+    "data/processed/scenarios/ecology_nodes_scenario.csv": {
+      "bytes": 8713,
+      "sha256": "39db864e804c8526b16702918f2e4de7decfaa9e8cfe8dca04c675858b7f150c"
+    },
+    "data/processed/scenarios/ecology_edges_scenario.csv": {
+      "bytes": 5998,
+      "sha256": "545d27fcf370c9a6db825aa8aafa54eec01ebf22535ff6910a67f80d2d0af8cd"
+    },
+    "data/processed/scenarios/ecological_disturbance_scenario.csv": {
+      "bytes": 6750,
+      "sha256": "cd6f9836d433a8d04e4b512d1c8e1309c4c1fa3e7fd6118d6ddf463986e02130"
+    },
+    "data/processed/scenarios/ecological_resilience_scenario.csv": {
+      "bytes": 6325,
+      "sha256": "1e07557a6b2183e4aee7da10144573bc8312642884be4dcfbe29dabef409188d"
+    },
+    "outputs/figures/ecological_scenarios_comparison.csv": {
+      "bytes": 8045,
+      "sha256": "2be256cc022575c7844add3c9c32ad78baf172079de55f68a76447367ebf9e1a"
+    },
+    "outputs/maps/systems/22_ecological_futures_2050.png": {
+      "bytes": 237248,
+      "sha256": "1d10345e99c3e2b6662857bdab9900164a692253e447f13a41dcad815ccac316"
+    },
+    "outputs/maps/systems/22_ecological_futures_2050.svg": {
+      "bytes": 15614,
+      "sha256": "583f5209078576532bfc17c92f55e04a14cbf7306ad73fde50a9fbc139adfeb5"
+    },
+    "outputs/maps/systems/22b_ecological_futures_2075.png": {
+      "bytes": 238207,
+      "sha256": "b61905ba6ad043ab88f6a8178061254867429b7508fcc7181eb07b39671ce731"
+    },
+    "outputs/maps/systems/22b_ecological_futures_2075.svg": {
+      "bytes": 15615,
+      "sha256": "a663340cc0e0a410b59842c5a659469a05cac62a957b8ff3fc2169c420f8254b"
+    }
+  }
+}

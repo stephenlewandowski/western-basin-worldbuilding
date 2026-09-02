@@ -158,7 +158,7 @@ validated and await Sol acceptance.
 
 ## Phase 6B ecological dependencies
 
-Phase 6B is implemented and validated and awaits Sol acceptance. Its reports
+Phase 6B is implemented, validated, and integrated and awaits Sol acceptance. Its reports
 are `ecological_dependency_sources.md`, `ecological_dependency_assumptions.md`,
 `ecological_dependency_findings.md`, `ecological_dependency_qa.md`,
 `ecological_dependency_manifest.json`, and
@@ -166,3 +166,12 @@ are `ecological_dependency_sources.md`, `ecological_dependency_assumptions.md`,
 snapshot is `phase6b_ecological_dependency_freeze_manifest.json`. Map 21 and the dependency,
 disturbance, and resilience tables remain qualitative and exclude risk scores,
 population modeling, sensitive locations, exact routes, and future scenarios.
+
+## Phase 6C ecological futures
+
+Phase 6C is implemented, validated, and integrated and awaits Sol acceptance.
+Its reports are `ecology_scenario_sources.md`,
+`ecology_scenario_assumptions.md`, `ecology_scenario_consistency.md`,
+`ecology_future_worldbuilding.md`, `ecology_scenario_qa.md`, and
+`ecology_scenario_manifest.json`. Maps 22/22b and the scenario comparison are
+qualitative, assumption-based, and separate from factual 2026 baselines.

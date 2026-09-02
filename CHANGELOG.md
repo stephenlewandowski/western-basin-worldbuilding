@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Implemented and validated Phase 6C as a separate qualitative 2050/2075
+  ecological-futures layer: 18 assumptions, 36 node states, 30 edge states,
+  36 disturbance states, 36 resilience states, 72 comparison rows, Maps 22/22b,
+  and scenario reports; integrated and awaiting Sol acceptance.
 - Implemented and validated Phase 6B as a separate factual 2026 ecological
   dependency layer: 18 dependency edges, 10 disturbance records, a six-row
   qualitative resilience matrix, Map 21, and bounded reports; awaiting Sol

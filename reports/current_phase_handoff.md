@@ -6,17 +6,17 @@ Repository: `C:\Projects\Public_GitHub\western-basin-worldbuilding`
 
 Canonical branch: `main`
 
-Active Phase 6B worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase6b`
+Active Phase 6C worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase6c`
 
-Local main SHA at handoff creation: `179e8f1539cc4c8102e351085acc4e81939c1841`
+Local main SHA at handoff creation: `f7048ec9faa9716f7ed506e0d6271cf7aff76eda`
 
-`origin/main` SHA at handoff creation: `179e8f1539cc4c8102e351085acc4e81939c1841`
+`origin/main` SHA at handoff creation: `f7048ec9faa9716f7ed506e0d6271cf7aff76eda`
 
 Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
 
 Working tree at handoff creation: clean before checkpoint update
 
-Last verified: 2026-09-02T21:00:00+09:00
+Last verified: 2026-09-02T22:00:00+09:00
 
 ## Current project state
 
@@ -33,23 +33,23 @@ Status: **ACCEPTED / FROZEN**
 - Phase 5A: **ACCEPTED / FROZEN**
 - Phase 5B: **ACCEPTED / FROZEN**
 
-Next approved analytical phase: **Phase 6B — IN PROGRESS**
+Next approved analytical phase: **Phase 6C — IN PROGRESS**
 
-Expected next phase: **Phase 6B — Ecological Dependencies, Disturbances & Resilience, 2026**
+Expected next phase: **Phase 6C — Ecological Futures, 2050 / 2075**
 
-Primary expected product: **Map 21 — Ecological Dependencies & Disturbances, 2026**
+Primary expected product: **Map 22 — Ecological Futures, 2050**
 
 ## Active development state
 
-Active phase: **Phase 6B — Ecological Dependencies, Disturbances & Resilience, 2026**
+Active phase: **Phase 6C — Ecological Futures, 2050 / 2075**
 
-Active branch: **phase-6b-ecological-dependencies**
+Active branch: **phase-6c-ecological-futures**
 
-Active worktree: **C:\Projects\Public_Github\western-basin-worldbuilding-phase6b**
+Active worktree: **C:\Projects\Public_Github\western-basin-worldbuilding-phase6c**
 
-Starting main SHA: **179e8f1539cc4c8102e351085acc4e81939c1841**
+Starting main SHA: **f7048ec9faa9716f7ed506e0d6271cf7aff76eda**
 
-Current branch SHA: **179e8f1539cc4c8102e351085acc4e81939c1841**
+Current branch SHA: **f7048ec9faa9716f7ed506e0d6271cf7aff76eda**
 
 Phase 4A baseline hashes at Phase 4B start:
 
@@ -115,7 +115,10 @@ See `PROJECT_STATUS.md` for the detailed artifact and validation inventory.
 
 Phase 4A and Phase 4B are accepted/frozen factual 2026 baselines. Phase 4C is
 accepted/frozen qualitative future-scenario work. Phase 5A and Phase 5B are
-accepted/frozen factual 2026 freight baselines. Phase 5C is accepted/frozen. Phase 6A is implemented, validated, and integrated and awaits Sol acceptance. Do not begin Phase 6B or future ecological scenarios.
+accepted/frozen factual 2026 freight baselines. Phase 5C is accepted/frozen.
+Phase 6A is implemented, validated, and integrated and awaits Sol acceptance.
+Phase 6B is implemented, validated, and integrated and awaits Sol acceptance.
+Phase 6C is active. Do not begin any work beyond Phase 6C.
 
 ## Validation already passed
 
@@ -193,15 +196,13 @@ accepted/frozen factual 2026 freight baselines. Phase 5C is accepted/frozen. Pha
 
 ## Uncommitted files
 
-Phase 6B dependency, disturbance, resilience, Map 21, report, and validator
-artifacts are generated and remain uncommitted. Phase 6A is protected by its
-freeze manifest.
+Phase 6C scenario artifacts, reports, and validators are generated and remain
+uncommitted. Phase 6A and Phase 6B are protected by their freeze manifests.
 
 ## Next exact action
 
-Review and commit the Phase 6B package as
-`phase6: map ecological dependencies and disturbances`; then push and integrate
-normally. If validation remains clean, proceed automatically to Phase 6C.
+Review and commit the Phase 6C package as `phase6: model alternative ecological
+futures`; then push and integrate normally. Do not begin work beyond Phase 6C.
 
 ## Resumption checkpoint — Phase 5C completion
 
@@ -246,6 +247,18 @@ normally. If validation remains clean, proceed automatically to Phase 6C.
   disease/vector model, or future scenario was created.
 - If Phase 6B remains clean after commit/integration, create the Phase 6C
   worktree from integrated main and continue automatically.
+
+## Phase 6C checkpoint
+
+- Active phase: **Phase 6C — Ecological Futures, 2050 / 2075**.
+- Branch: `phase-6c-ecological-futures`.
+- Worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase6c`.
+- Starting main SHA: `f7048ec9faa9716f7ed506e0d6271cf7aff76eda`.
+- Phase 6B implementation freeze: `reports/phase6b_ecological_dependency_freeze_manifest.json`.
+- Scenario package generated: 18 assumptions, 36 node states, 30 edge states,
+  36 disturbance states, 36 resilience states, and 72 comparison rows.
+- Maps 22/22b generated and SVG text inspectability validated.
+- No Phase 6D or other future module is authorized.
 
 ## Do not repeat
 

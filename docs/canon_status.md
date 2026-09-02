@@ -98,7 +98,8 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 5B Freight Evidence & Interchange Validation:** accepted and frozen as a factual 2026 evidence-strengthening layer; Map 18
 - **Phase 5C Freight Dependencies & Critical Interfaces:** accepted and frozen as a factual 2026 qualitative dependency layer; Map 19
 - **Phase 6A Ecology & Biodiversity Baseline:** implemented and validated as a factual 2026 ecological-system layer; awaiting Sol acceptance; Map 20
-- **Phase 6B Ecological Dependencies, Disturbances & Resilience:** implemented and validated as a factual 2026 qualitative dependency layer; awaiting Sol acceptance; Map 21
+- **Phase 6B Ecological Dependencies, Disturbances & Resilience:** implemented, validated, and integrated as a factual 2026 qualitative dependency layer; awaiting Sol acceptance; Map 21
+- **Phase 6C Ecological Futures:** implemented, validated, and integrated as separate qualitative 2050/2075 scenario content; awaiting Sol acceptance; Maps 22/22b
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without
@@ -152,3 +153,9 @@ Map 21 are qualitative analytical interfaces over the Phase 6A baseline. They
 do not create ecological-risk scores, population trajectories, exact movement
 routes, sensitive species locations, or future scenarios. Phase 6B awaits Sol
 acceptance.
+
+Phase 6C changes no factual ecological baseline or regional canon. Its 2050 and
+2075 objects are separate qualitative scenario deltas with explicit
+assumptions, provenance, and no probabilities. The held Great Black Swamp
+candidate remains noncanonical, and no population, extinction, disease, or
+sensitive-location scenario is represented.

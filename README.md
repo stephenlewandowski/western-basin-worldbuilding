@@ -308,8 +308,9 @@ disturbance register, a six-row resilience matrix, and Map 21 over the frozen
 Phase 6A baseline. It distinguishes habitat, hydrologic, wetland, riparian,
 migration, landscape, and condition interfaces. It does not create ecological-
 risk scores, population models, exact movement routes, sensitive locations, or
-future scenarios. Phase 6B is implemented and validated and awaits Sol
-acceptance.
+Phase 6B is implemented and validated and awaits Sol
+acceptance. It is integrated under
+`reports/phase6b_ecological_dependency_freeze_manifest.json`.
 
 - [21 — Ecological dependencies & disturbances, 2026](outputs/maps/systems/21_ecological_dependencies_disturbances_2026.png)
 - [Dependency edges](data/processed/networks/ecology_dependency_edges.csv)
@@ -319,6 +320,26 @@ acceptance.
 - [Assumptions](reports/ecological_dependency_assumptions.md)
 - [Findings](reports/ecological_dependency_findings.md)
 - [QA](reports/ecological_dependency_qa.md)
+
+## Phase 6C Ecological Futures
+
+Phase 6C is a separate qualitative 2050/2075 scenario layer over the frozen
+Phase 6A baseline and validated Phase 6B implementation. It includes three
+alternative families—Restored Connectivity, Managed Working Basin, and
+High-Pressure Fragmented Basin—with explicit assumptions and no probabilities.
+It does not add future population values, extinction events, disease/vector
+ecology, precise sensitive locations, or a Great Black Swamp restoration
+boundary. Phase 6C is implemented, validated, integrated, and awaits Sol
+acceptance.
+
+- [22 — Ecological futures, 2050](outputs/maps/systems/22_ecological_futures_2050.png)
+- [22b — Ecological futures, 2075](outputs/maps/systems/22b_ecological_futures_2075.png)
+- [Scenario comparison](outputs/figures/ecological_scenarios_comparison.csv)
+- [Scenario sources](reports/ecology_scenario_sources.md)
+- [Scenario assumptions](reports/ecology_scenario_assumptions.md)
+- [Scenario consistency](reports/ecology_scenario_consistency.md)
+- [Future worldbuilding](reports/ecology_future_worldbuilding.md)
+- [Scenario QA](reports/ecology_scenario_qa.md)
 
 ## Repository Structure
 

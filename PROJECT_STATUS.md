@@ -242,7 +242,7 @@ Python/R validation. It does not canonicalize the held Great Black Swamp
 candidate, expose sensitive species locations, or create future ecological
 scenarios. Phase 6A is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE**.
 
-## PHASE 6B — IMPLEMENTED / VALIDATED / IN PROGRESS
+## PHASE 6B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
 
 **Ecological Dependencies, Disturbances & Resilience, 2026**
 
@@ -251,7 +251,20 @@ disturbance register, a six-row × 10-column resilience matrix, Map 21, and
 source/assumption/findings/QA reports over the Phase 6A skeleton. It records
 habitat, hydrologic, wetland, riparian, migration, landscape, and condition
 interfaces without creating ecological-risk scores, population models,
-species-sensitive locations, exact movement routes, or future scenarios.
+species-sensitive locations, exact movement routes, or future scenarios. Phase
+6B is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** under
+`reports/phase6b_ecological_dependency_freeze_manifest.json`.
+
+## PHASE 6C — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+
+**Ecological Futures, 2050 / 2075**
+
+Phase 6C contains 18 qualitative scenario assumptions, 36 scenario node states,
+30 scenario edge states, 36 disturbance states, 36 resilience states, 72
+comparison rows, Maps 22/22b, and scenario reports. It preserves the factual
+2026 Phase 6A/6B layers as immutable baselines and contains no probabilities,
+population trajectories, extinction events, precise sensitive locations,
+vector/disease ecology, or future Great Black Swamp polygon.
 
 ## Open Phase 1 QA gates
 

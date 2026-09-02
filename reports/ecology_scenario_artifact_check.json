@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "phase": "6C",
+  "assumptions": 18,
+  "scenario_nodes": 36,
+  "scenario_edges": 30,
+  "disturbance_states": 36,
+  "resilience_states": 36,
+  "comparison_rows": 72,
+  "phase6a_immutable": true,
+  "phase6b_immutable": true,
+  "prior_maps_01_21_unchanged": true,
+  "all_scenarios_explicit": true,
+  "no_future_population_values": true,
+  "no_extinction_or_disease": true,
+  "no_sensitive_locations": true,
+  "great_black_swamp_hold_preserved": true,
+  "image_sizes": [
+    [
+      2510,
+      1283
+    ],
+    [
+      2510,
+      1283
+    ]
+  ]
+}
