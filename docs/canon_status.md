@@ -91,9 +91,9 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 2B Material Flows:** complete and validated 2026 baseline; Maps 07–08 only
 - **Phase 2C Strategic Materials, Exposure & Remediation History:** complete and validated; Map 09 only, with zero documented individual exposure findings
 - **Phase 2D Alternative Materials Futures:** complete and validated as six explicitly fictional scenario states across 2050/2075; Maps 10/10b
-- **Phase 4A Data, Sensors & Decision Infrastructure Baseline:** complete and validated as a factual 2026 observation-to-decision layer; Map 14
+- **Phase 4A Data, Sensors & Decision Infrastructure Baseline:** accepted and frozen as a factual 2026 observation-to-decision layer; Map 14
 - **Phase 4B Information Dependencies, Blind Spots & Governance:** accepted and frozen as a factual 2026 analytical layer; Map 15
-- **Phase 4C Data, Sensors, Governance & Security Futures:** in progress as separate qualitative 2050/2075 scenario deltas; Maps 16/16b are not yet created
+- **Phase 4C Data, Sensors, Governance & Security Futures:** implemented and validated as separate qualitative 2050/2075 scenario deltas awaiting Sol acceptance; Maps 16/16b
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without

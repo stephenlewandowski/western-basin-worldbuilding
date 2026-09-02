@@ -108,5 +108,6 @@ principal artifacts. Phase 4C is the separate scenario phase and is active.
 
 Phase 4C uses the frozen Phase 4A/4B factual baselines to model separate
 2050/2075 scenario deltas. It does not modify the Phase 4A/4B tables or maps.
-Future assumption, node-state, edge-state, comparison, and report artifacts are
-documented under the Phase 4C source and QA reports when generated.
+The implemented/validated package is awaiting Sol acceptance; future assumption,
+node-state, edge-state, comparison, and report artifacts are documented in the
+Phase 4C reports.

@@ -26,11 +26,11 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 3C — ACCEPTED / VALIDATED (ENERGY / GRID / COMPUTE FUTURES)**
 
-**Phase 4A — COMPLETE / VALIDATED (2026 OBSERVATION & DECISION INFRASTRUCTURE BASELINE)**
+**Phase 4A — ACCEPTED / FROZEN (2026 OBSERVATION & DECISION INFRASTRUCTURE BASELINE)**
 
 **Phase 4B — ACCEPTED / FROZEN (2026 INFORMATION DEPENDENCIES & GOVERNANCE)**
 
-**Phase 4C — IN PROGRESS (DATA, SENSORS, GOVERNANCE & SECURITY FUTURES, 2050 / 2075)**
+**Phase 4C — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE (DATA, SENSORS, GOVERNANCE & SECURITY FUTURES, 2050 / 2075)**
 
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
@@ -219,9 +219,9 @@ Phase 4C uses it as an immutable factual baseline.
 
 ## Phase 4C Data, Sensors, Governance & Security Futures
 
-Phase 4C is a separate qualitative scenario layer for 2050 and 2075. It must
+Phase 4C is a separate qualitative scenario layer for 2050 and 2075. It does
 not overwrite the factual Phase 4A/4B baselines and does not assign
-probabilities.
+probabilities. It is implemented and validated and awaits Sol acceptance.
 
 ## Repository Structure
 

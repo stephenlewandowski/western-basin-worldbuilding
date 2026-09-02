@@ -2,11 +2,15 @@
 
 ## Unreleased
 
+- Formally marked Phase 4A **ACCEPTED / FROZEN** as the factual 2026
+  observation and decision infrastructure baseline; Map 14 and its tables are
+  protected from later scenario modification.
 - Formally marked Phase 4B **ACCEPTED / FROZEN** by explicit Sol decision and
   added `phase4b_information_freeze_manifest.json` for Map 15, dependency,
   blind-spot, authority, matrix, and principal-report hashes.
-- Began approved Phase 4C as a separate 2050/2075 information, governance,
-  trust, and security futures layer over the frozen 2026 baselines.
+- Implemented and validated approved Phase 4C as a separate 2050/2075
+  information, governance, trust, and security futures layer over the frozen
+  2026 baselines; awaiting Sol acceptance.
 
 - Implemented and validated Phase 4B's factual 2026 information-dependency
   layer: 20 dependencies, 10 evidence-qualified blind spots, four authority

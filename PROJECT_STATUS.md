@@ -101,7 +101,7 @@ No precise future MW, route, facility, probability, or power-flow claim is made.
 
 Phase 3C is formally **ACCEPTED** as the validated alternative-futures package.
 
-## PHASE 4A — COMPLETE / VALIDATED
+## PHASE 4A — ACCEPTED / FROZEN
 
 **Data, Sensors & Decision Infrastructure Baseline, 2026**
 
@@ -127,6 +127,10 @@ assumption, and QA boundaries are recorded in
 `reports/observation_system_sources.md`,
 `reports/observation_system_assumptions.md`, and
 `reports/observation_system_qa.md`.
+
+Phase 4A is formally **ACCEPTED / FROZEN**. Its Map 14 and observation-system
+tables are protected by the Phase 4A validation and remain immutable under later
+scenario phases.
 
 ## PHASE 4B — ACCEPTED / FROZEN
 
@@ -157,15 +161,21 @@ the source, assumption, findings, and QA boundaries are recorded in
 `reports/information_governance_findings.md`, and
 `reports/information_dependency_qa.md`.
 
-## PHASE 4C — IN PROGRESS
+## PHASE 4C — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE
 
 **Data, Sensors, Governance & Security Futures, 2050 / 2075**
 
-Phase 4C develops three separate qualitative scenario families over the frozen
+Phase 4C implements three separate qualitative scenario families over the frozen
 Phase 4A/4B 2026 baselines: Trusted Public Infrastructure, Federated Resilience,
-and High-Automation / Contested Information. Future objects must remain separate
-scenario deltas with explicit assumptions, provenance, and human decision
-authority. No Phase 4C future object may enter the factual baseline.
+and High-Automation / Contested Information. The package contains six horizon
+states, 36 assumptions, 72 scenario node states, 48 scenario edge deltas, 36
+blind-spot states, six authority states, Maps 16/16b, and a qualitative
+comparison. Future objects remain separate scenario deltas with explicit
+assumptions, provenance, and human decision authority. No Phase 4C future
+object enters the factual baseline.
+
+Phase 4C is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE**. It is not
+scientifically accepted on behalf of Sol.
 
 ## Open Phase 1 QA gates
 
