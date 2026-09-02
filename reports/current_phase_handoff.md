@@ -16,7 +16,7 @@ Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
 
 Working tree at handoff creation: clean before checkpoint update
 
-Last verified: 2026-09-02T19:20:00+09:00
+Last verified: 2026-09-02T19:55:00+09:00
 
 ## Current project state
 
@@ -33,15 +33,15 @@ Status: **ACCEPTED / FROZEN**
 - Phase 5A: **ACCEPTED / FROZEN**
 - Phase 5B: **ACCEPTED / FROZEN**
 
-Next approved analytical phase: **Phase 6A — IN PROGRESS**
+Next approved analytical phase: **NOT APPROVED**
 
-Expected next phase: **Phase 6A — Ecology & Biodiversity Baseline, 2026**
+Expected next phase: **NONE**
 
-Primary expected product: **Map 20 — Western Basin Ecological System, 2026**
+Primary expected product: **Phase 6A package integrated; awaiting Sol acceptance**
 
 ## Active development state
 
-Active phase: **Phase 6A — Ecology & Biodiversity Baseline, 2026**
+Active phase: **NONE**
 
 Active branch: **phase-6a-ecology-biodiversity-baseline**
 
@@ -49,7 +49,7 @@ Active worktree: **C:\Projects\Public_Github\western-basin-worldbuilding-phase6a
 
 Starting main SHA: **52e107fe48f377471783ef16dfac2decf3d436fa**
 
-Current branch SHA: **3bac3673d7c62d83e3108cd38329c16d073212a2**
+Current branch SHA: **788f6ab75dcb157825763fb55556306a7fdc4533**
 
 Phase 4A baseline hashes at Phase 4B start:
 
@@ -194,15 +194,13 @@ Sol acceptance. Do not begin Phase 6B or future ecological scenarios.
 
 ## Uncommitted files
 
-Phase 6A package and checkpoint are uncommitted pending final diff review. The
-accepted Phase 5C package is protected by its freeze manifest.
+The Phase 6A package and final handoff are committed. The feature branch and
+integrated main are synchronized with their remotes.
 
 ## Next exact action
 
-Review and commit the Phase 6A package as
-`phase6: establish ecology and biodiversity baseline`; then push the feature
-branch, integrate normally into `main`, and verify both remote refs. Phase 6A
-awaits Sol acceptance; do not begin Phase 6B or future ecological scenarios.
+No next analytical phase is approved. Await Sol review/acceptance of Phase 6A;
+do not begin Phase 6B or future ecological scenarios.
 
 ## Resumption checkpoint — Phase 5C completion
 
@@ -229,8 +227,20 @@ awaits Sol acceptance; do not begin Phase 6B or future ecological scenarios.
 - Starting main SHA: `3bac3673d7c62d83e3108cd38329c16d073212a2`.
 - Phase 5C is accepted/frozen under
   `reports/phase5c_freight_dependency_freeze_manifest.json`.
-- Phase 6A artifacts and documentation are generated and validated but remain
-  uncommitted. No Phase 6B or future ecological scenario has begun.
+- Phase 6A feature commit: `788f6ab75dcb157825763fb55556306a7fdc4533`.
+- Phase 6A was pushed and fast-forward integrated into `main`.
+- No Phase 6B or future ecological scenario has begun.
+
+## Final integrated state
+
+- Active phase: **NONE**.
+- Latest implementation: **Phase 6A — IMPLEMENTED / VALIDATED / INTEGRATED /
+  AWAITING SOL ACCEPTANCE**.
+- Final main SHA is recorded by Git after this handoff-only update.
+- Phase 5C remains **ACCEPTED / FROZEN** and its freeze manifest is unchanged.
+- Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo
+  intake-coordinate discrepancy remains unresolved.
+- No release or tag was created.
 
 ## Do not repeat
 
