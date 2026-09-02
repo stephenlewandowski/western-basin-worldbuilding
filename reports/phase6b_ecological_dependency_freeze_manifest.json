@@ -1,0 +1,18 @@
+{
+  "accepted_phase": "6B",
+  "baseline": "Ecological Dependencies, Disturbances & Resilience, 2026",
+  "status": "IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE",
+  "generated": "2026-09-02",
+  "counts": {"dependency_edges": 18, "disturbances": 10, "resilience_rows": 6},
+  "artifacts": {
+    "data/processed/networks/ecology_dependency_edges.csv": {"sha256": "d2b8a2e941566f821d2721ce616055ba5e82a721925257fbea677c1d2677131a"},
+    "data/processed/analysis/ecological_disturbance_register.csv": {"sha256": "2404965c6a6104d6f2f48cb2d1d5c3ab1dd47ae9f7d230aee78be96f078eecdb"},
+    "data/processed/analysis/ecological_resilience_matrix.csv": {"sha256": "6ef14a0350d3b2a6b466975f22add255e708504b9d54d83b447c6bb574db98e0"},
+    "outputs/maps/systems/21_ecological_dependencies_disturbances_2026.png": {"sha256": "6c013ea040154055e434b9f46984aeb7695276f6b1c68995acb7f81bb552772d"},
+    "outputs/maps/systems/21_ecological_dependencies_disturbances_2026.svg": {"sha256": "812ed2157655635b8e5c6c5f892e574ed173107f29c9251496f754f738f07f50"},
+    "reports/ecological_dependency_sources.md": {"sha256": "831d63cec79d03c5b46c51d082c6abe9d5453a51666722222e817afb02672108"},
+    "reports/ecological_dependency_assumptions.md": {"sha256": "62fa592036fb51d789713eca3d5609da96af3d16f6715619836bd7a683c6c9f5"},
+    "reports/ecological_dependency_findings.md": {"sha256": "e7a945613b3783ce1f9fe232889f58540ed00324e00e1fbb18557686b43e7110"},
+    "reports/ecological_dependency_qa.md": {"sha256": "ac4730261dcd91bffcc24b14c3acb6dc7f02b8e2728487c3ba13222bd3daaf43"}
+  }
+}

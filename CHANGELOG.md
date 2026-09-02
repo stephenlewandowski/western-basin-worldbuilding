@@ -2,6 +2,10 @@
 
 ## Unreleased
 
+- Implemented and validated Phase 6B as a separate factual 2026 ecological
+  dependency layer: 18 dependency edges, 10 disturbance records, a six-row
+  qualitative resilience matrix, Map 21, and bounded reports; awaiting Sol
+  acceptance.
 - Formally marked Phase 5C **ACCEPTED / FROZEN** by explicit Sol decision and
   added `phase5c_freight_dependency_freeze_manifest.json`.
 - Implemented and validated Phase 6A as a separate factual 2026 Ecology &

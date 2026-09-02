@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "phase": "6B",
+  "dependency_edges": 18,
+  "disturbances": 10,
+  "resilience_dimensions": [
+    6,
+    10
+  ],
+  "map21_valid": true,
+  "phase6a_frozen": true,
+  "prior_maps_01_20_unchanged": true,
+  "no_quantitative_risk": true,
+  "no_sensitive_locations": true,
+  "no_future_scenarios": true,
+  "no_exact_routes": true,
+  "image_size": [
+    5007,
+    1914
+  ]
+}

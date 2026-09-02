@@ -155,3 +155,14 @@ The implemented package includes `ecology_system_sources.md`,
 `ecology_system_qa.md`, `ecology_system_manifest.json`, and
 `ecology_system_artifact_check.json`. Map 20 and the ecology tables are
 validated and await Sol acceptance.
+
+## Phase 6B ecological dependencies
+
+Phase 6B is implemented and validated and awaits Sol acceptance. Its reports
+are `ecological_dependency_sources.md`, `ecological_dependency_assumptions.md`,
+`ecological_dependency_findings.md`, `ecological_dependency_qa.md`,
+`ecological_dependency_manifest.json`, and
+`ecological_dependency_artifact_check.json`. The Phase 6B implementation
+snapshot is `phase6b_ecological_dependency_freeze_manifest.json`. Map 21 and the dependency,
+disturbance, and resilience tables remain qualitative and exclude risk scores,
+population modeling, sensitive locations, exact routes, and future scenarios.

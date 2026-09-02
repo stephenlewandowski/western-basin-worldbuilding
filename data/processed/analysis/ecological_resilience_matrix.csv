@@ -1,0 +1,7 @@
+ecological_system,habitat_redundancy,hydrologic_connectivity,spatial_connectivity,restoration_capacity,protected_area_support,mobility_or_recolonization,monitoring_information,disturbance_exposure,evidence_confidence,notes
+western_lake_erie_aquatic,moderate,moderate,moderate,low,low,moderate,moderate,moderate,moderate,Lake/tributary structure and monitoring support remain visible; redundancy and condition are not quantified.
+maumee_tributary_floodplain,moderate,high,moderate,moderate,low,moderate,moderate,moderate,moderate,Physical hydrologic structure is strong; ecological continuity and disturbance exposure remain qualified.
+coastal_wetlands_marshes,moderate,moderate,moderate,moderate,high,high,moderate,moderate,moderate,NWI and protected refuge context support function; condition and redundancy remain uncertain.
+black_swamp_legacy_agriculture,unknown,moderate,low,low,low,moderate,low,high,moderate,Modern matrix is broad and altered; the historical swamp polygon is not used.
+terrestrial_habitat_fragmentation,unknown,moderate,low,low,low,moderate,low,moderate,low,"Generalized land-cover classes provide context, not habitat-quality measurement."
+migratory_mobile_species,moderate,moderate,moderate,moderate,moderate,high,moderate,moderate,moderate,"Mobility supports broad functional redundancy, but exact routes and numerical series are absent."

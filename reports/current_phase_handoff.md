@@ -6,21 +6,21 @@ Repository: `C:\Projects\Public_GitHub\western-basin-worldbuilding`
 
 Canonical branch: `main`
 
-Active Phase 6A worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase6a`
+Active Phase 6B worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase6b`
 
-Local main SHA at handoff creation: `e7d331fe90b2fc066e0d0a0e675d03d51648b8ea`
+Local main SHA at handoff creation: `179e8f1539cc4c8102e351085acc4e81939c1841`
 
-`origin/main` SHA at handoff creation: `e7d331fe90b2fc066e0d0a0e675d03d51648b8ea`
+`origin/main` SHA at handoff creation: `179e8f1539cc4c8102e351085acc4e81939c1841`
 
 Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
 
 Working tree at handoff creation: clean before checkpoint update
 
-Last verified: 2026-09-02T20:30:00+09:00
+Last verified: 2026-09-02T21:00:00+09:00
 
 ## Current project state
 
-Latest accepted phase: **Phase 5C — Freight Dependencies & Critical Interfaces**
+Latest accepted phase: **Phase 6A — Ecology & Biodiversity Baseline**
 
 Status: **ACCEPTED / FROZEN**
 
@@ -33,23 +33,23 @@ Status: **ACCEPTED / FROZEN**
 - Phase 5A: **ACCEPTED / FROZEN**
 - Phase 5B: **ACCEPTED / FROZEN**
 
-Next approved analytical phase: **NOT APPROVED**
+Next approved analytical phase: **Phase 6B — IN PROGRESS**
 
-Expected next phase: **NONE**
+Expected next phase: **Phase 6B — Ecological Dependencies, Disturbances & Resilience, 2026**
 
-Primary expected product: **Phase 6A package integrated; awaiting Sol acceptance**
+Primary expected product: **Map 21 — Ecological Dependencies & Disturbances, 2026**
 
 ## Active development state
 
-Active phase: **NONE**
+Active phase: **Phase 6B — Ecological Dependencies, Disturbances & Resilience, 2026**
 
-Active branch: **phase-6a-ecology-biodiversity-baseline**
+Active branch: **phase-6b-ecological-dependencies**
 
-Active worktree: **C:\Projects\Public_Github\western-basin-worldbuilding-phase6a**
+Active worktree: **C:\Projects\Public_Github\western-basin-worldbuilding-phase6b**
 
-Starting main SHA: **52e107fe48f377471783ef16dfac2decf3d436fa**
+Starting main SHA: **179e8f1539cc4c8102e351085acc4e81939c1841**
 
-Current branch SHA: **e7d331fe90b2fc066e0d0a0e675d03d51648b8ea**
+Current branch SHA: **179e8f1539cc4c8102e351085acc4e81939c1841**
 
 Phase 4A baseline hashes at Phase 4B start:
 
@@ -193,13 +193,15 @@ accepted/frozen factual 2026 freight baselines. Phase 5C is accepted/frozen. Pha
 
 ## Uncommitted files
 
-The Phase 6A package and final handoff are committed. The feature branch and
-integrated main are synchronized with their remotes.
+Phase 6B dependency, disturbance, resilience, Map 21, report, and validator
+artifacts are generated and remain uncommitted. Phase 6A is protected by its
+freeze manifest.
 
 ## Next exact action
 
-No next analytical phase is approved. Await Sol review/acceptance of Phase 6A;
-do not begin Phase 6B or future ecological scenarios.
+Review and commit the Phase 6B package as
+`phase6: map ecological dependencies and disturbances`; then push and integrate
+normally. If validation remains clean, proceed automatically to Phase 6C.
 
 ## Resumption checkpoint — Phase 5C completion
 
@@ -234,16 +236,16 @@ do not begin Phase 6B or future ecological scenarios.
 - Phase 6A was pushed and fast-forward integrated into `main`.
 - No Phase 6B or future ecological scenario has begun.
 
-## Final integrated state
+## Phase 6B checkpoint
 
-- Active phase: **NONE**.
-- Latest implementation: **Phase 6A — IMPLEMENTED / VALIDATED / INTEGRATED /
-  AWAITING SOL ACCEPTANCE**.
-- Final main SHA is recorded by Git after this handoff-only update.
-- Phase 5C remains **ACCEPTED / FROZEN** and its freeze manifest is unchanged.
-- Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo
-  intake-coordinate discrepancy remains unresolved.
-- No release or tag was created.
+- Active phase: **Phase 6B — Ecological Dependencies, Disturbances & Resilience, 2026**.
+- Dependency edges: 18; disturbance records: 10; resilience matrix: 6 × 10.
+- Phase 6B Python and independent R validation passed; Map 21 full-resolution
+  OCR/SVG inspection passed.
+- No risk score, population model, sensitive location, exact movement route,
+  disease/vector model, or future scenario was created.
+- If Phase 6B remains clean after commit/integration, create the Phase 6C
+  worktree from integrated main and continue automatically.
 
 ## Do not repeat
 

@@ -242,6 +242,17 @@ Python/R validation. It does not canonicalize the held Great Black Swamp
 candidate, expose sensitive species locations, or create future ecological
 scenarios. Phase 6A is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE**.
 
+## PHASE 6B — IMPLEMENTED / VALIDATED / IN PROGRESS
+
+**Ecological Dependencies, Disturbances & Resilience, 2026**
+
+Phase 6B adds 18 qualitative ecological dependency edges, a 10-record
+disturbance register, a six-row × 10-column resilience matrix, Map 21, and
+source/assumption/findings/QA reports over the Phase 6A skeleton. It records
+habitat, hydrologic, wetland, riparian, migration, landscape, and condition
+interfaces without creating ecological-risk scores, population models,
+species-sensitive locations, exact movement routes, or future scenarios.
+
 ## Open Phase 1 QA gates
 
 1. Toledo intake coordinate reconciliation

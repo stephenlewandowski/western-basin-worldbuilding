@@ -1,0 +1,20 @@
+{
+  "accepted_phase": "6A",
+  "accepted_baseline": "Ecology & Biodiversity Baseline, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit decision",
+  "accepted_date": "2026-09-02",
+  "feature_commit": "788f6ab75dcb157825763fb55556306a7fdc4533",
+  "correction_commit": "e7d331fe90b2fc066e0d0a0e675d03d51648b8ea",
+  "artifacts": {
+    "data/processed/networks/ecology_system_nodes.csv": {"sha256": "092e9ba53468f9ebb2a289e3be60622bf7503131f91293b588f96fe53b9236ad"},
+    "data/processed/networks/ecology_system_edges.csv": {"sha256": "de6f547be49f33f787064bf165c8ac074fbf1db136812e50134696bd878b008f"},
+    "data/processed/analysis/ecological_indicators_2026.csv": {"sha256": "a9bc4669b23943660defe3582b163cae494ab3b92a12f99dc8ed74f6afaa36ea"},
+    "outputs/maps/systems/20_ecological_system_2026.png": {"sha256": "f1fd7d8bd8b49944ae8e6c2c0e6898e349fa6ed146c7020ef448b6d3c908741c"},
+    "outputs/maps/systems/20_ecological_system_2026.svg": {"sha256": "dfa1d1fb16dc0f04cd6783e4ea4e66f918657469b5057438b1386516da905d1f"},
+    "reports/ecology_system_sources.md": {"sha256": "8102ec441c7f9dc569782b6f674b9ed983ec4bb635d1db0d55f6046163a7a8f1"},
+    "reports/ecology_system_assumptions.md": {"sha256": "8cff35aa2c1905f2e786191990847f8f37147f76a225aeb300e72d83e51763d8"},
+    "reports/ecology_system_findings.md": {"sha256": "5d984131d4e005acc9a1be25f70bd32113e214fb315a603b15834007924044ec"},
+    "reports/ecology_system_qa.md": {"sha256": "c0cf4b9577ba7ce2114578922e206836a349365cc91cfab1240b3d9d6de8c101"}
+  }
+}

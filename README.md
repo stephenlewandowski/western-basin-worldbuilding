@@ -301,6 +301,25 @@ or future ecological scenario. Sol acceptance remains pending.
 - [Findings](reports/ecology_system_findings.md)
 - [QA](reports/ecology_system_qa.md)
 
+## Phase 6B Ecological Dependencies & Disturbances
+
+Phase 6B adds 18 qualitative ecological dependency edges, a 10-record
+disturbance register, a six-row resilience matrix, and Map 21 over the frozen
+Phase 6A baseline. It distinguishes habitat, hydrologic, wetland, riparian,
+migration, landscape, and condition interfaces. It does not create ecological-
+risk scores, population models, exact movement routes, sensitive locations, or
+future scenarios. Phase 6B is implemented and validated and awaits Sol
+acceptance.
+
+- [21 — Ecological dependencies & disturbances, 2026](outputs/maps/systems/21_ecological_dependencies_disturbances_2026.png)
+- [Dependency edges](data/processed/networks/ecology_dependency_edges.csv)
+- [Disturbance register](data/processed/analysis/ecological_disturbance_register.csv)
+- [Resilience matrix](data/processed/analysis/ecological_resilience_matrix.csv)
+- [Sources](reports/ecological_dependency_sources.md)
+- [Assumptions](reports/ecological_dependency_assumptions.md)
+- [Findings](reports/ecological_dependency_findings.md)
+- [QA](reports/ecological_dependency_qa.md)
+
 ## Repository Structure
 
 ```text
