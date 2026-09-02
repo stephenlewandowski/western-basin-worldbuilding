@@ -1,0 +1,7 @@
+system_function,marine_dependence,rail_dependence,highway_dependence,external_market_dependence,interchange_dependence,modal_substitutability,evidence_confidence,notes
+agriculture/bulk,moderate,moderate,moderate,high,moderate,unknown,low,Broad FAF context; Toledo-specific grain/port flow unresolved.
+carbonate materials,low,unknown,moderate,moderate,low,moderate,moderate,Material roles documented; facility access and mode remain qualified.
+strategic materials,moderate,unknown,unknown,high,moderate,low,moderate,Elmore external orientation documented; route/mode not documented.
+general industry,moderate,moderate,high,high,moderate,moderate,moderate,Multiple broad modes and markets are visible; facility assignments remain limited.
+energy/fuels,unknown,unknown,unknown,high,low,low,low,Generalized fuel interface only; no pipeline or contract evidence.
+port commerce,high,high,high,high,high,low,high,Port gateway and modal access are strongest; substitutability is not operationally established.

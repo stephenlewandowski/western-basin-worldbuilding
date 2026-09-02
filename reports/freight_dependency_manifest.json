@@ -1,0 +1,47 @@
+{
+  "phase": "5C",
+  "generated": "2026-09-02",
+  "status": "dependency_baseline",
+  "counts": {
+    "dependency_edges": 20,
+    "dependency_register": 12,
+    "modal_matrix_rows": 6,
+    "modal_matrix_columns": 8,
+    "dependency_matrix_rows": 6,
+    "dependency_matrix_columns": 8
+  },
+  "artifacts": {
+    "data/processed/networks/freight_dependency_edges.csv": {
+      "bytes": 5095,
+      "sha256": "de0c78a6c34982330c3200f46895759b54693aa1cdf425aeb44af2c0c5b632fd"
+    },
+    "data/processed/analysis/freight_dependency_register.csv": {
+      "bytes": 3436,
+      "sha256": "31464782e13ccf36de1e335ed47ea229630747b56eaa5aff16e4189261417391"
+    },
+    "data/processed/analysis/modal_substitutability_matrix.csv": {
+      "bytes": 1009,
+      "sha256": "858379dd39afd10ad52e5fc966d8f808708234a3f088f2fd4456cd27ba767c3d"
+    },
+    "outputs/figures/freight_dependency_matrix_2026.csv": {
+      "bytes": 1009,
+      "sha256": "858379dd39afd10ad52e5fc966d8f808708234a3f088f2fd4456cd27ba767c3d"
+    },
+    "outputs/figures/freight_dependency_matrix_2026.png": {
+      "bytes": 234095,
+      "sha256": "7e879b13fcfe831e6f34d8346f7dc38692c7a3e407184674138520d7cbb0f1b7"
+    },
+    "outputs/figures/freight_dependency_matrix_2026.svg": {
+      "bytes": 34907,
+      "sha256": "1fce5870037ec3b7a12b40b5380bc8ec318b9c04d923d26a877363e9dd915af0"
+    },
+    "outputs/maps/systems/19_freight_dependencies_critical_interfaces_2026.png": {
+      "bytes": 736182,
+      "sha256": "34d8689f4d7cb8b6b19bc2ae3f0005d9d1a76c2f365f1c762f83f1145d164f00"
+    },
+    "outputs/maps/systems/19_freight_dependencies_critical_interfaces_2026.svg": {
+      "bytes": 9333676,
+      "sha256": "03982f9800dbbecef46b28ffd536b085c6fb08e430a6480ba5e5918b7048fb80"
+    }
+  }
+}

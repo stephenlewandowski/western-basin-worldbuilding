@@ -127,5 +127,16 @@ tables are `../data/processed/networks/freight_system_nodes.csv` and
 
 Map 17 and the optional commodity-interface figure distinguish public transport
 corridors from generalized or documented flow relationships. Phase 5A is
-**ACCEPTED / FROZEN** under `phase5a_freight_freeze_manifest.json`. Phase 5B is
+Phase 5A is **ACCEPTED / FROZEN** under `phase5a_freight_freeze_manifest.json`. Phase 5B is
 the active evidence-strengthening phase; future freight scenarios are not begun.
+
+## Phase 5C freight dependencies
+
+Phase 5C is implemented and validated and awaits Sol acceptance. Its reports
+are `freight_dependency_sources.md`, `freight_dependency_assumptions.md`,
+`freight_dependency_findings.md`, `freight_dependency_qa.md`,
+`freight_dependency_manifest.json`, and `freight_dependency_artifact_check.json`.
+The phase adds qualitative dependency and modal-substitutability analysis over
+the frozen Phase 5A/5B records and does not add routes, quantities, security
+targets, hazardous-material modeling, or future freight scenarios. The Phase
+3A newline portability maintenance note is `phase3a_freeze_portability.md`.

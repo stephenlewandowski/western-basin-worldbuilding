@@ -2,6 +2,13 @@
 
 ## Unreleased
 
+- Implemented and validated Phase 5C as a separate factual 2026 freight-
+  dependency layer: 20 dependency edges, 12 register rows, qualitative modal-
+  substitutability/dependency matrices, Map 19, and bounded source/assumption/
+  findings/QA reports; awaiting Sol acceptance.
+- Added newline-portable freeze validation for text manifests without changing
+  the Phase 3A analytical CSV or freeze manifest; binary artifacts remain raw-
+  byte strict and semantic mutation is rejected by a focused self-test.
 - Formally marked Phase 4C **ACCEPTED / FROZEN** by explicit Sol decision and
   added `phase4c_information_freeze_manifest.json` for its scenario artifacts.
 - Implemented and validated approved Phase 5A as a separate factual 2026

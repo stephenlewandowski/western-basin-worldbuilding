@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "phase": "5C",
+  "dependency_edges": 20,
+  "dependency_register": 12,
+  "modal_matrix_dimensions": [
+    6,
+    8
+  ],
+  "dependency_matrix_dimensions": [
+    6,
+    8
+  ],
+  "map19_artifacts_valid": true,
+  "phase4a_4c_5a_5b_immutable": true,
+  "prior_maps_01_16b_unchanged": true,
+  "qualitative_classes_valid": true,
+  "no_quantities_or_routes": true,
+  "no_hazardous_routes": true,
+  "no_security_target_model": true,
+  "no_future_freight_content": true,
+  "materials_corridor_not_promoted": true,
+  "image_sizes": [
+    [
+      4394,
+      1991
+    ],
+    [
+      3300,
+      1870
+    ]
+  ]
+}

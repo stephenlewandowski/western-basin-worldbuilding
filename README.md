@@ -36,7 +36,7 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 5B — ACCEPTED / FROZEN (FREIGHT EVIDENCE & INTERCHANGE VALIDATION, 2026)**
 
-**Phase 5C — IN PROGRESS (FREIGHT DEPENDENCIES & CRITICAL INTERFACES, 2026)**
+**Phase 5C — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE (FREIGHT DEPENDENCIES & CRITICAL INTERFACES, 2026)**
 
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
@@ -264,10 +264,24 @@ The automatic acceptance gate passed. Phase 5B is **ACCEPTED / FROZEN** under
 
 ## Phase 5C Freight Dependencies & Critical Interfaces
 
-Phase 5C is the approved next phase and is active in a separate worktree. It
-will model qualitative freight dependencies, modal substitutability, and broad
-critical interfaces only. It will not create a vulnerability map, hazardous-
-material route, security-target model, or future freight scenario.
+Phase 5C is implemented and validated as a separate factual 2026 qualitative
+dependency layer. It contains 20 dependency edges, a 12-row dependency
+register, six-row modal-substitutability and dependency matrices, and Map 19.
+It distinguishes documented freight relationships, corridor access,
+generalized logistics dependency, and unknown redundancy. It does not create
+shipment quantities, exact routes, hazardous-material routing, sensitive
+logistics topology, security targets, or future freight scenarios. Sol
+acceptance remains pending.
+
+- [19 — Freight dependencies & critical interfaces, 2026](outputs/maps/systems/19_freight_dependencies_critical_interfaces_2026.png)
+- [Freight dependency edges](data/processed/networks/freight_dependency_edges.csv)
+- [Freight dependency register](data/processed/analysis/freight_dependency_register.csv)
+- [Modal substitutability matrix](data/processed/analysis/modal_substitutability_matrix.csv)
+- [Dependency matrix](outputs/figures/freight_dependency_matrix_2026.png)
+- [Sources](reports/freight_dependency_sources.md)
+- [Assumptions](reports/freight_dependency_assumptions.md)
+- [Findings](reports/freight_dependency_findings.md)
+- [QA](reports/freight_dependency_qa.md)
 
 ## Repository Structure
 
