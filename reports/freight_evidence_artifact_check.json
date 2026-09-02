@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "phase": "5B",
+  "crosswalk": 20,
+  "evidence_relationships": 12,
+  "interchange_rows": 9,
+  "materials_corridor_test": "B \u2014 FREIGHT EVIDENCE PROVIDES WEAK SUPPORT",
+  "map18_artifacts_valid": true,
+  "phase5a_immutable": true,
+  "phase4a_4c_immutable": true,
+  "prior_maps_01_17_unchanged": true,
+  "documented_shipment_distinguished": true,
+  "proximity_not_promoted": true,
+  "unsupported_quantities_absent": true,
+  "hazardous_routes_absent": true,
+  "sensitive_logistics_absent": true,
+  "future_freight_content": false,
+  "map18_png_dimensions": [
+    4103,
+    1991
+  ]
+}

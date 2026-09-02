@@ -1,0 +1,21 @@
+{
+  "accepted_phase": "5A",
+  "accepted_baseline": "Freight / Industry / Material Flows Baseline, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol",
+  "accepted_date": "2026-09-02",
+  "counts": {"nodes": 22, "edges": 26, "rail_cache_features": 1221},
+  "files": {
+    "data/processed/networks/freight_system_nodes.csv": {"sha256": "cdcab7e7842b6e2d4deb05235972af2a1c5dbe3b1160e076494f0c652641604f"},
+    "data/processed/networks/freight_system_edges.csv": {"sha256": "c36beebe881bc7a6644ba6ad629e4f8cfea6f3ea946e1abe1ed50d3333f33bcc"},
+    "outputs/maps/systems/17_freight_industry_material_flows_2026.png": {"sha256": "3b71d8c47e6e4af83a0ae1937d0d80a149bf9152a42c83eb724578453722aecb"},
+    "outputs/maps/systems/17_freight_industry_material_flows_2026.svg": {"sha256": "d3a3975c7b4bb2847e7373c827a49d3dd7ce135973c30f3d75518f558233d542"},
+    "outputs/figures/freight_commodity_interfaces_2026.png": {"sha256": "4ec9de79cd1c81408ddf3d6df0197da3222f96e3f629b873f531442bd8c1e80f"},
+    "outputs/figures/freight_commodity_interfaces_2026.svg": {"sha256": "35cc1f4c322759008069d5af0a02b50aded21e1b96311221fbd6255c8279217b"},
+    "reports/freight_system_sources.md": {"sha256": "6b33a3162c68debee5a6fd8b7ae537adb5a6ef82434468bc511c8eeb9f74cb60"},
+    "reports/freight_system_assumptions.md": {"sha256": "8f41d44943b4fff867009c1d16b7614bf8346e6bc18c61d3fcd7a114484404c7"},
+    "reports/freight_system_qa.md": {"sha256": "d5e29ffe246d0e9c771a5767cb64be894f9a7537eff3496ac33ce50635263e1c"},
+    "reports/freight_system_manifest.json": {"sha256": "2f928bcb70bca2d6c01863f0b6b8cbe085fac77a76fdb887ac6920c88e75f9c0"},
+    "reports/freight_system_artifact_check.json": {"sha256": "de17c7fecc6e072cc2a6043defbf0e19afe0f46e87764199d3b50dae4e92dfc2"}
+  }
+}

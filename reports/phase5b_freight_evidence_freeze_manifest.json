@@ -1,0 +1,22 @@
+{
+  "accepted_phase": "5B",
+  "accepted_baseline": "Freight Evidence & Interchange Validation, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol pre-authorized automatic gate",
+  "accepted_date": "2026-09-02",
+  "counts": {"crosswalk": 20, "evidence_relationships": 12, "interchange_rows": 9},
+  "materials_corridor_test": "B — FREIGHT EVIDENCE PROVIDES WEAK SUPPORT",
+  "files": {
+    "data/processed/analysis/freight_evidence_crosswalk.csv": {"sha256": "5026473cef52ff2efcf475b09c3554b7c240b5ec94d26e83354c26251b494ace"},
+    "data/processed/networks/freight_evidence_relationships.csv": {"sha256": "cd3c089c94cb57fc1ea8b2b9ba0c3dae09eff727a3ac80a2dc99903ff61b16a8"},
+    "data/processed/analysis/freight_interchange_matrix.csv": {"sha256": "bc173a1b99ced1de544b6fa87cceee29715d35baf80bd1749d0aa1e14676b784"},
+    "outputs/maps/systems/18_freight_evidence_interchange_2026.png": {"sha256": "cc0bdf09b94098694263af840659f09d77817df8708fd285ea0a350b51bbcd4f"},
+    "outputs/maps/systems/18_freight_evidence_interchange_2026.svg": {"sha256": "c23602ffb552d26441fec62110cbc947cfa6dad42660714e98d7c90da3be6ee0"},
+    "reports/freight_evidence_sources.md": {"sha256": "09afb7c5a52dcb5617ec1f998e0f286b5a521bdcaf7ba318964215c5fd48109c"},
+    "reports/freight_evidence_assumptions.md": {"sha256": "52104cd457a36fff46c7454a398c6aa6fd500f13f9a4325a1c3657bed6624d73"},
+    "reports/freight_evidence_qa.md": {"sha256": "5349edbfe507c9c52bc0a6447aad8a8b72e8063fc3d6172127384cbf24b8eb25"},
+    "reports/freight_evidence_findings.md": {"sha256": "8cf3b6a166ae814fd17e1c4d099d842dc972f97749d844382bd5a525c87d2904"},
+    "reports/freight_evidence_manifest.json": {"sha256": "a18ac151aa226b8923be6d00a5cf08b36af9191bbe0f666f907fac8616eb4c9d"},
+    "reports/freight_evidence_artifact_check.json": {"sha256": "a37d6aa37823405d2510d7f834dd1c9a9ee661f7a3db5e6211061ed64e4fa6b4"}
+  }
+}

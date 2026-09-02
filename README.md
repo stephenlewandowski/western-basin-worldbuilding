@@ -32,7 +32,11 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 4C — ACCEPTED / FROZEN (DATA, SENSORS, GOVERNANCE & SECURITY FUTURES, 2050 / 2075)**
 
-**Phase 5A — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE (FREIGHT / INDUSTRY / MATERIAL FLOWS BASELINE, 2026)**
+**Phase 5A — ACCEPTED / FROZEN (FREIGHT / INDUSTRY / MATERIAL FLOWS BASELINE, 2026)**
+
+**Phase 5B — ACCEPTED / FROZEN (FREIGHT EVIDENCE & INTERCHANGE VALIDATION, 2026)**
+
+**Phase 5C — IN PROGRESS (FREIGHT DEPENDENCIES & CRITICAL INTERFACES, 2026)**
 
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
@@ -244,6 +248,26 @@ Phase 5A contains 22 nodes and 26 relationships. Its Materials Corridor test
 is **B — WEAKLY SUPPORTED**: network relationships exist, but the evidence does
 not justify a polygon, named route, sixth macroregion, or continuous shipment
 claim.
+
+## Phase 5B Freight Evidence & Interchange Validation
+
+Phase 5B contains a 20-record evidence crosswalk, 12 evidence-strengthened
+relationships, and a nine-row interchange matrix. It confirms selected Port of
+Toledo access and Ironville vessel/truck/rail functions, strengthens public
+NS/CSX/CN port/corridor interfaces, and keeps W&LE, agricultural activity,
+Woodville, Genoa, and Elmore access qualified or unresolved where evidence is
+insufficient.
+
+The automatic acceptance gate passed. Phase 5B is **ACCEPTED / FROZEN** under
+`reports/phase5b_freight_evidence_freeze_manifest.json`. Map 18 and the Phase
+5B tables are not replacements for the frozen Phase 5A network.
+
+## Phase 5C Freight Dependencies & Critical Interfaces
+
+Phase 5C is the approved next phase and is active in a separate worktree. It
+will model qualitative freight dependencies, modal substitutability, and broad
+critical interfaces only. It will not create a vulnerability map, hazardous-
+material route, security-target model, or future freight scenario.
 
 ## Repository Structure
 

@@ -6,21 +6,21 @@ Repository: `C:\Projects\Public_GitHub\western-basin-worldbuilding`
 
 Canonical branch: `main`
 
-Active Phase 5A worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase5a`
+Active Phase 5B worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase5b`
 
-Local main SHA at handoff creation: `9a595388af6138d1b0230c512c260876fcc55248`
+Local main SHA at handoff creation: `101209a594b5e0664a8515105627c51df661e915`
 
-`origin/main` SHA at handoff creation: `9a595388af6138d1b0230c512c260876fcc55248`
+`origin/main` SHA at handoff creation: `101209a594b5e0664a8515105627c51df661e915`
 
 Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
 
 Working tree at handoff creation: clean before checkpoint update
 
-Last verified: 2026-09-02T12:43:02+09:00
+Last verified: 2026-09-02T16:01:45+09:00
 
 ## Current project state
 
-Latest accepted phase: **Phase 4C — Data, Sensors, Governance & Security Futures**
+Latest accepted phase: **Phase 5A — Freight / Industry / Material Flows Baseline**
 
 Status: **ACCEPTED / FROZEN**
 
@@ -30,25 +30,27 @@ Status: **ACCEPTED / FROZEN**
 - Phase 4A: **ACCEPTED / FROZEN**
 - Phase 4B: **ACCEPTED / FROZEN**
 - Phase 4C: **ACCEPTED / FROZEN**
+- Phase 5A: **ACCEPTED / FROZEN**
+- Phase 5B: **ACCEPTED / FROZEN**
 
-Next approved analytical phase: **NOT APPROVED**
+Next approved analytical phase: **Phase 5B — ACCEPTED / FROZEN / READY FOR INTEGRATION**
 
-Expected next phase: **NONE — Phase 5B and future freight scenarios are not approved**
+Expected next phase: **Phase 5C — Freight Dependencies & Critical Interfaces, 2026**
 
-Primary expected product: **Map 17 — Western Basin Freight & Industrial Flow System,
+Primary expected product: **Map 18 — Freight Evidence & Interchange Validation,
 2026 — COMPLETE**
 
 ## Active development state
 
-Active phase: **NONE**
+Active phase: **Phase 5B — Freight Evidence & Interchange Validation, 2026**
 
-Active branch: **main**
+Active branch: **phase-5b-freight-evidence**
 
-Active worktree: **C:\Projects\Public_GitHub\western-basin-worldbuilding**
+Active worktree: **C:\Projects\Public_GitHub\western-basin-worldbuilding-phase5b**
 
-Starting main SHA: **9a595388af6138d1b0230c512c260876fcc55248**
+Starting main SHA: **101209a594b5e0664a8515105627c51df661e915**
 
-Current branch SHA: **Phase 5A integration handoff commit; final SHA is verified with Git and is not embedded self-referentially**
+Current branch SHA: **Phase 5B implementation commit; final amended SHA is verified with Git and is not embedded self-referentially**
 
 Phase 4A baseline hashes at Phase 4B start:
 
@@ -100,18 +102,20 @@ Phase 4A baseline hashes at Phase 4B start:
 - Phase 5A Python/R validation, Phase 4C freeze, prior regressions, Markdown links, application tests/build, and Git/LFS checks passed
 - Materials Corridor test completed: **B — WEAKLY SUPPORTED**
 - Phase 5A feature commit `82c856e3e052d9a9fa76a349c405b2557a112ef2` pushed and fast-forward integrated into `main`
-- Phase 5A status: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
-- Phase 5A feature commit created locally, pushed, and fast-forward integrated into `main`
+- Phase 5A status: **ACCEPTED / FROZEN** by explicit Sol decision
+- Phase 5A freeze protection is being recorded in `reports/phase5a_freight_freeze_manifest.json`
+- Phase 5B isolated branch/worktree established from integrated `main`
 
 See `PROJECT_STATUS.md` for the detailed artifact and validation inventory.
 
 ## Remaining
 
 Phase 4A and Phase 4B are accepted/frozen factual 2026 baselines. Phase 4C is
-accepted/frozen qualitative future-scenario work. Phase 5A implementation,
-documentation, validation, feature-branch push, and fast-forward integration
-are complete. Phase 5A remains implemented/validated and awaits Sol acceptance.
-Do not begin Phase 5B or future freight scenarios.
+accepted/frozen qualitative future-scenario work. Phase 5A is accepted/frozen
+as a factual 2026 freight baseline. Phase 5B data products, reports,
+validation, automatic gate, and Map 18 are complete. Phase 5B is accepted/
+frozen; its feature commit and integration remain. Do not begin future freight
+scenarios.
 
 ## Validation already passed
 
@@ -144,6 +148,16 @@ Do not begin Phase 5B or future freight scenarios.
 - Git LFS status and `git lfs fsck` passed.
 - Map 17 and optional commodity-interface figure passed full-resolution OCR/SVG inspection.
 - Phase 5A feature branch and `main` were synchronized with their remote refs after push.
+- Phase 5A acceptance/freeze state is recorded before Phase 5B work.
+- Phase 5A freeze manifest created from verified node, edge, Map 17, figure, and report hashes
+- Phase 5B evidence crosswalk, strengthened relationships, and interchange matrix generated
+- Map 18 generated
+- Phase 5B Python validation passed: 20 crosswalk records, 12 evidence relationships, 9 interchange rows, Phase 5A immutable.
+- Phase 5B R validation passed with the same counts.
+- Phase 5A freeze and all prior freeze validations passed.
+- Map 18 full-resolution OCR/SVG inspection passed.
+- Phase 5B automatic acceptance gate passed all ten pre-authorized conditions.
+- Phase 5B freeze manifest created and acceptance documentation updated.
 
 ## Known holds / constraints
 
@@ -155,13 +169,39 @@ Do not begin Phase 5B or future freight scenarios.
 
 ## Uncommitted files
 
-`reports/current_phase_handoff.md` (this final integration checkpoint)
+`CHANGELOG.md`
+`PROJECT_STATUS.md`
+`README.md`
+`docs/canon_status.md`
+`metadata/sources.yml`
+`reports/README.md`
+`reports/current_phase_handoff.md`
+`data/processed/analysis/freight_evidence_crosswalk.csv`
+`data/processed/analysis/freight_interchange_matrix.csv`
+`data/processed/networks/freight_evidence_relationships.csv`
+`outputs/figures/freight_evidence_R_validation.png`
+`outputs/maps/systems/18_freight_evidence_interchange_2026.png`
+`outputs/maps/systems/18_freight_evidence_interchange_2026.svg`
+`reports/freight_evidence_artifact_check.json`
+`reports/freight_evidence_assumptions.md`
+`reports/freight_evidence_findings.md`
+`reports/freight_evidence_manifest.json`
+`reports/freight_evidence_qa.md`
+`reports/freight_evidence_sources.md`
+`reports/phase5a_freight_freeze_manifest.json`
+`reports/phase5b_freight_evidence_freeze_manifest.json`
+`src/R/systems/validate_freight_evidence.R`
+`src/python/systems/build_freight_evidence.py`
+`src/python/systems/validate_freight_evidence.py`
 
 ## Next exact action
 
-Await Sol acceptance for Phase 5A. Do not begin Phase 5B or future freight
-scenarios. Preserve all Phase 4A/4B/4C/5A artifacts and the unresolved Toledo
-intake-coordinate discrepancy.
+Review the complete Phase 5B diff and `git diff --check`; stage only intended
+files; commit with `phase5: validate freight evidence and interchange`; push
+the feature branch; integrate normally into `main`; verify synchronization;
+then create the isolated Phase 5C branch/worktree and checkpoint it. Preserve
+all Phase 4A/4B/4C/5A artifacts and the unresolved Toledo intake-coordinate
+discrepancy.
 
 ## Do not repeat
 

@@ -126,6 +126,6 @@ tables are `../data/processed/networks/freight_system_nodes.csv` and
 - `freight_system_artifact_check.json` — machine-readable validation result.
 
 Map 17 and the optional commodity-interface figure distinguish public transport
-corridors from generalized or documented flow relationships. Phase 5A remains
-**IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE**. Phase 5B and future
-freight scenarios are not begun.
+corridors from generalized or documented flow relationships. Phase 5A is
+**ACCEPTED / FROZEN** under `phase5a_freight_freeze_manifest.json`. Phase 5B is
+the active evidence-strengthening phase; future freight scenarios are not begun.

@@ -178,7 +178,7 @@ Phase 4C is formally **ACCEPTED / FROZEN** by explicit Sol decision. Its
 scenario content and principal artifacts are protected by
 `reports/phase4c_information_freeze_manifest.json`.
 
-## PHASE 5A — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE
+## PHASE 5A — ACCEPTED / FROZEN
 
 **Freight / Industry / Material Flows Baseline, 2026**
 
@@ -197,8 +197,33 @@ future freight scenarios.
 The Materials Corridor test is **B — WEAKLY SUPPORTED**. Woodville, Genoa,
 Elmore, Luckey, Toledo, and the regional freight structure support a network
 interpretation, but not a polygon, named route, sixth macroregion, or continuous
-commercial shipment chain. Phase 5A is **IMPLEMENTED / VALIDATED / AWAITING SOL
-ACCEPTANCE** and is not marked scientifically accepted on behalf of Sol.
+commercial shipment chain. Phase 5A is formally **ACCEPTED / FROZEN** under
+`reports/phase5a_freight_freeze_manifest.json`.
+
+## PHASE 5B — ACCEPTED / FROZEN
+
+**Freight Evidence & Interchange Validation, 2026**
+
+Phase 5B adds a 20-record evidence crosswalk, 12 evidence-strengthened
+relationships, a nine-row interchange matrix, and Map 18. It strengthens
+documented Port of Toledo access, selected marine/rail/highway interfaces, and
+Ironville movement evidence while preserving unresolved or generalized
+relationships for W&LE, agricultural activity, Woodville, Genoa, and Elmore.
+
+The Materials Corridor determination is **B — FREIGHT EVIDENCE PROVIDES WEAK
+SUPPORT**. The evidence supports a loose industrial/material network, not a
+coherent geographic corridor, route, polygon, jurisdiction, or sixth macroregion.
+Phase 5B is formally **ACCEPTED / FROZEN** under
+`reports/phase5b_freight_evidence_freeze_manifest.json`.
+
+## PHASE 5C — IN PROGRESS
+
+**Freight Dependencies & Critical Interfaces, 2026**
+
+Phase 5C is a separate qualitative dependency layer over the frozen Phase 5A
+and Phase 5B baselines. It will distinguish mode/gateway dependency,
+interchange, modal alternatives, external-market orientation, and unknown
+redundancy without creating a security-target model or future freight scenario.
 
 ## Open Phase 1 QA gates
 

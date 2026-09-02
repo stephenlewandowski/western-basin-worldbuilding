@@ -1,0 +1,33 @@
+{
+  "phase": "5B",
+  "generated": "2026-09-02",
+  "status": "evidence_validation",
+  "counts": {
+    "crosswalk": 20,
+    "evidence_relationships": 12,
+    "interchange_rows": 9
+  },
+  "materials_corridor_test": "B \u2014 FREIGHT EVIDENCE PROVIDES WEAK SUPPORT",
+  "artifacts": {
+    "data/processed/analysis/freight_evidence_crosswalk.csv": {
+      "bytes": 6805,
+      "sha256": "5026473cef52ff2efcf475b09c3554b7c240b5ec94d26e83354c26251b494ace"
+    },
+    "data/processed/networks/freight_evidence_relationships.csv": {
+      "bytes": 3190,
+      "sha256": "cd3c089c94cb57fc1ea8b2b9ba0c3dae09eff727a3ac80a2dc99903ff61b16a8"
+    },
+    "data/processed/analysis/freight_interchange_matrix.csv": {
+      "bytes": 2411,
+      "sha256": "bc173a1b99ced1de544b6fa87cceee29715d35baf80bd1749d0aa1e14676b784"
+    },
+    "outputs/maps/systems/18_freight_evidence_interchange_2026.png": {
+      "bytes": 757770,
+      "sha256": "cc0bdf09b94098694263af840659f09d77817df8708fd285ea0a350b51bbcd4f"
+    },
+    "outputs/maps/systems/18_freight_evidence_interchange_2026.svg": {
+      "bytes": 9335120,
+      "sha256": "c23602ffb552d26441fec62110cbc947cfa6dad42660714e98d7c90da3be6ee0"
+    }
+  }
+}

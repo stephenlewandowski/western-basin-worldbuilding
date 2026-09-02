@@ -348,3 +348,9 @@ sources:
     retrieved_date: 2026-09-02
     source_type: federal_remediation_logistics_source
     use: Documented remediation-waste logistics context; no route, schedule, quantity, or hazardous-material route modeled.
+  phase5b_toledo_annual_report:
+    name: Toledo-Lucas County Port Authority 2025 Annual Report
+    url: https://www.toledoport.org/2025-annual-report
+    retrieved_date: 2026-09-02
+    source_type: port_authority_annual_report
+    use: Evidence for 13 terminal operators, Facility #1 general-cargo warehouse, liquid-bulk transloading, and port modernization; no customer-specific shipment route or volume is inferred.
