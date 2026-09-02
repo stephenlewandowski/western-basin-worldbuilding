@@ -8,15 +8,15 @@ Canonical branch: `main`
 
 Active Phase 6A worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase6a`
 
-Local main SHA at handoff creation: `22dd6e608ea589d33fe6ca76ade6d9d50ca4761b`
+Local main SHA at handoff creation: `e7d331fe90b2fc066e0d0a0e675d03d51648b8ea`
 
-`origin/main` SHA at handoff creation: `22dd6e608ea589d33fe6ca76ade6d9d50ca4761b`
+`origin/main` SHA at handoff creation: `e7d331fe90b2fc066e0d0a0e675d03d51648b8ea`
 
 Workflow setup commit: `5f10477aac0422d18ca0ca39558855e1498d99dd`
 
 Working tree at handoff creation: clean before checkpoint update
 
-Last verified: 2026-09-02T20:10:00+09:00
+Last verified: 2026-09-02T20:30:00+09:00
 
 ## Current project state
 
@@ -49,7 +49,7 @@ Active worktree: **C:\Projects\Public_Github\western-basin-worldbuilding-phase6a
 
 Starting main SHA: **52e107fe48f377471783ef16dfac2decf3d436fa**
 
-Current branch SHA: **22dd6e608ea589d33fe6ca76ade6d9d50ca4761b**
+Current branch SHA: **e7d331fe90b2fc066e0d0a0e675d03d51648b8ea**
 
 Phase 4A baseline hashes at Phase 4B start:
 
@@ -229,8 +229,8 @@ do not begin Phase 6B or future ecological scenarios.
 - Phase 6A feature commit: `788f6ab75dcb157825763fb55556306a7fdc4533`.
 - Follow-up provenance correction: Maumee Bay is represented as generalized
   NWI-supported coastal-wetland context; Ottawa NWR remains the protected-area
-  anchor. The correction is validated and will be recorded in the next QA
-  follow-up commit.
+  anchor. The correction is validated and recorded in
+  `e7d331fe90b2fc066e0d0a0e675d03d51648b8ea`.
 - Phase 6A was pushed and fast-forward integrated into `main`.
 - No Phase 6B or future ecological scenario has begun.
 
