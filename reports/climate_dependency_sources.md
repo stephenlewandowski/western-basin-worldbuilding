@@ -20,7 +20,7 @@ The Western Lake Erie study supplies a documented nutrient/meteorological/ecolog
 
 FEMA regulatory mapping is retained as a distinct flood-planning context.[11]. The parallel `d9_fema_nfhl` and `d9_noaa_inundation` registry rows are retained for audit context only and are not used as claim-row sources; their limitations state this explicitly.
 
-The machine-readable rows distinguish supported system dependencies, documented observation/product interfaces, physically plausible pathways, documented mechanisms plus plausible pathways, documented controls/tools, potential-buffer inference, and unsupported/unknown interfaces. Phase 9B uses these sources to qualify relationships and controls, not to create outage, damage, illness, exposure, social-vulnerability, or joint-probability estimates.
+The machine-readable rows distinguish supported system dependencies, documented observation/product interfaces, physically plausible pathways, documented mechanisms plus plausible pathways, documented controls/tools, potential-buffer inference, and unsupported/unknown interfaces. Ohio EPA NPDES, USFWS NWI, and H2Ohio are used for the specifically narrowed planning, wetland, and management-pathway rows.[12][13][14] Phase 9B uses these sources to qualify relationships and controls, not to create outage, damage, illness, exposure, social-vulnerability, or joint-probability estimates.
 
 ## Sources
 

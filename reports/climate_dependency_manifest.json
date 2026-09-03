@@ -39,19 +39,19 @@
     },
     "outputs/maps/systems/30_climate_hazard_dependencies_resilience_2026.svg": {
       "bytes": 17752357,
-      "sha256": "8f804b6471b2d911eec3d050858ea069beba6bf5386eec580c7d654b35efef5a"
+      "sha256": "de040c10c3255cf9ba088246c47773122d1a91834e48f9497ca363f07efacc11"
     },
     "reports/climate_dependency_sources.md": {
-      "bytes": 2573,
-      "sha256": "60aed110c32d1ec11146a4ec3748ec2d81c4a3c70e8404661e595e288cfc98e6"
+      "bytes": 2710,
+      "sha256": "30b41df2162e00816b7be211c48c4719eff5cbc970ee50a70f93e20d58720f52"
     },
     "reports/climate_dependency_assumptions.md": {
       "bytes": 1518,
       "sha256": "b5f45b7de74f961088a7aa0d57c3dd1f95f63ec99698345f59b3843bc05d811f"
     },
     "reports/climate_dependency_findings.md": {
-      "bytes": 4312,
-      "sha256": "79dc46ab9412af944e216d0b9ddd9507ff20e9e62982e7126765039b53cf4d5c"
+      "bytes": 4404,
+      "sha256": "ce756e6510833e3f6c7f8d832d860efb2feecf6928464312e466fab24d35d391"
     },
     "reports/climate_dependency_qa.md": {
       "bytes": 1200,

@@ -30,7 +30,8 @@ Severe storm plus power/communication and drought plus agricultural/ecological s
 
 Documented interfaces include public warnings, USGS stream gauges, the Toledo CO-OPS station, and U.S. Drought Monitor assessment.[3][8][9]
 
-FEMA mapping, urban drainage context, wetland/floodplain potential buffering, conservation pathways, the Lake Level Viewer, and winter forecasts are represented with their support status and limitations.[6][7][9]
+FEMA mapping, urban drainage context, the Lake Level Viewer, and winter forecasts are represented with their support status and limitations.[6][7][9]
+Wetland/floodplain potential buffering and conservation pathways use the specifically identified institutional program and inventory sources.[12][13][14]
 
 Great Lakes ice-cover resources remain contextual monitoring rather than local shoreline, harbor, or ecological-effect evidence.[5]
 

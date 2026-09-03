@@ -4,12 +4,12 @@ This document records the transparent correction applied to the unaccepted Phase
 
 ## USGS observation correction
 
-A direct query to the authoritative USGS NWIS daily-value service for site 04193500 confirmed:
+Direct verification against the authoritative USGS NWIS daily-value service for site 04193500 confirmed.[1]
 
-- `2026-07-29 = 313 cfs`.
-- `2026-09-02 = 476 cfs`.
+- `2026-07-29 = 313 cfs`.[1]
+- `2026-09-02 = 476 cfs`.[1]
 
-The builder recomputes the minimum from the raw response. `HZO-015`, the acquisition summary, findings, manifest, Python validator, and independent R validator now all use `2026-07-29` for the 313-cfs minimum and explicitly retain the 476-cfs value on 2026-09-02 as the contrasting source observation.
+The builder recomputes the minimum from the raw response. `HZO-015`, the acquisition summary, findings, manifest, Python validator, and independent R validator now all use `2026-07-29` for the 313-cfs minimum and explicitly retain the 476-cfs value on 2026-09-02 as the contrasting source observation.[1]
 
 ## Provenance dispositions
 
@@ -25,6 +25,10 @@ The builder recomputes the minimum from the raw response. `HZO-015`, the acquisi
 - `HZ-026`, `HZE-021`, `HZE-022`, `HZE-029`, and `HZE-030`: C — developed-system and access relationships are explicit qualitative inferences, not direct station, warning, drought, or weather-source findings.
 - `HZE-023`: E — removed because Atlas 14 precipitation-frequency context is not a historical occurrence. `HZ-023` remains a `reference_product` node.
 
+The dated 2025 Storm Events details snapshot is the source for the selected event aggregation.[2] Atlas 14 remains precipitation-frequency planning context only.[3]
+
+NWS point metadata remain forecast/warning context only.[4] The general Storm Events landing page is documentation context rather than aggregate provenance.[5]
+
 The corrected Phase 9A package contains 28 nodes, 29 edges, 28 observations, and 21 sources. Map 29 was not semantically affected by the correction and its original manifest-protected SVG/PNG artifact was preserved; it has no flow-extrema date annotation and no hazard surface.
 
 ## QA implementation
@@ -33,7 +37,7 @@ The Phase 9A Python and R validators explicitly check the raw USGS date/value pa
 
 Phase 9A remains a factual 2026 baseline with no unsupported probability, composite score, deterministic hazard surface, health/social-vulnerability score, or future rows.
 
-## Evidence
+## Sources
 
 [1] https://waterservices.usgs.gov/nwis/dv/?format=json&sites=04193500&startDT=2026-07-20&endDT=2026-09-03&parameterCd=00060&siteStatus=all
 [2] https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2025_c20260819.csv.gz

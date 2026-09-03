@@ -12,12 +12,12 @@ Original Phase 9B integrated commit: `ae6e946b17bedb9670ef1d6c5f3a958b33062e82`.
 
 ## Phase 9A factual correction
 
-Direct verification against the raw USGS NWIS response for site 04193500 and the scoped query in source `b9_usgs_dv` found:
+Direct verification against the raw USGS NWIS response for site 04193500 and the scoped query in source `b9_usgs_dv` found:[1]
 
-- `2026-07-29 = 313 cfs`.
-- `2026-09-02 = 476 cfs`.
+- `2026-07-29 = 313 cfs`.[1]
+- `2026-09-02 = 476 cfs`.[1]
 
-The builder now computes the minimum from the raw series, and the observation table, acquisition summary, findings report, manifest, and validators all carry the corrected date/value. The affected observation is `HZO-015`; the maximum observation `HZO-014` remains `68,200 cfs` on `2026-04-03`. No Map 29 annotation used the erroneous date; its original manifest-protected artifact was preserved because the map contains no flow-extrema date annotation.
+The builder now computes the minimum from the raw series, and the observation table, acquisition summary, findings report, manifest, and validators all carry the corrected date/value. The affected observation is `HZO-015`; the maximum observation `HZO-014` remains `68,200 cfs` on `2026-04-03`. No Map 29 annotation used the erroneous date; its original manifest-protected artifact was preserved because the map contains no flow-extrema date annotation.[1]
 
 ## Phase 9A provenance decisions
 
@@ -39,11 +39,11 @@ The correction uses narrowing and explicit inference rather than broad new resea
 | `HZE-029` | C — explicit project inference | U.S. Drought Monitor supports county drought status only; the developed water-demand relationship is not a direct demand or outage finding. |
 | `HZE-030` | C — explicit project inference | ACIS supports the station temperature observation only; the developed-system relationship is explicitly inferred and carries no exposure or health claim. |
 
-The dated Storm Events source is now used consistently for the selected event observations (`HZO-021` through `HZO-026`) and related event-record nodes/edges. The findings and source reports state that these are county event records, not event rates, probabilities, attribution, or hazard surfaces.
+The dated Storm Events source is now used consistently for the selected event observations (`HZO-021` through `HZO-026`) and related event-record nodes/edges.[2] The findings and source reports state that these are county event records, not event rates, probabilities, attribution, or hazard surfaces.
 
 ## Phase 9A validator and QA correction
 
-The Python and R validators now explicitly check the raw USGS date/value pair, the corrected `HZO-015` row, flagged node/edge source and inference statuses, dated Storm Events provenance, FEMA regulatory-versus-observed flood distinctions, event-record-versus-rate semantics, negative groundwater scope, spatial-scale separation, and negative health/social scope. The R validator independently recomputes all 11 Phase 9A manifest-listed artifact SHA-256 hashes through the system `sha256sum` executable.
+The Phase 9A Python and R validators now explicitly check the raw USGS date/value pair, the corrected `HZO-015` row, flagged node/edge source and inference statuses, dated Storm Events provenance, FEMA regulatory-versus-observed flood distinctions, event-record-versus-rate semantics, negative groundwater scope, spatial-scale separation, and negative health/social scope.[3][4] The R validator independently recomputes all 11 Phase 9A manifest-listed artifact SHA-256 hashes through the system `sha256sum` executable.
 
 Phase 9A remains a factual 2026 layer and contains no future rows, hazard probability, composite score, health/social-vulnerability score, or deterministic hazard surface.
 
@@ -79,7 +79,11 @@ Phase 9B corrections use the following dispositions. `relationship_basis` is exp
 | `CPL-001`, `CPL-004`, `CPL-008`, `CPL-009` | C — narrowed plausible compounds | Power is thermal-load context rather than outage evidence; stormwater, communications, and agricultural/ecological effects are explicitly physically plausible and source-qualified, not documented local consequences. |
 | `HZC-002`, `HZC-004`, `HZC-007`, `HZC-008`, `HZC-009`, `HZC-012` | A/B — direct role correction or narrowing | NWS warning, CO-OPS, Ohio EPA NPDES, USFWS NWI, H2Ohio, and NWS Great Lakes source roles now match the named interface. Controls distinguish documented planning context, potential-buffer inference, management pathway, tool, and interface-only status; effectiveness is not claimed. |
 
-The Phase 9B package remains qualitative. It contains no unsupported probability, damage, outage, health, exposure, social-vulnerability, or comprehensive emergency-management model. Unsupported or unknown interfaces remain marked as unknown rather than being interpreted as low.
+The Phase 9B package remains qualitative. It contains no unsupported probability, damage, outage, health, exposure, social-vulnerability, or comprehensive emergency-management model. Unsupported or unknown interfaces remain marked as unknown rather than being interpreted as low.[6][7][8]
+
+The winter-source limitation is preserved.[9] Ohio EPA NPDES and USFWS NWI source roles are limited to the named planning and inventory contexts.[10][11]
+
+H2Ohio is limited to the named management-pathway context.[12]
 
 ## Validator and R-independence corrections
 
@@ -89,8 +93,13 @@ The Phase 9B Python and R validators now check exact schemas, source membership,
 
 The preserved Phase 9C package was not discarded. Its scenario artifacts were regenerated from the corrected working baselines. Hazard states now reference valid Phase 9A node IDs by hazard family; dependency states reference Phase 9B dependency IDs; resilience states reference Phase 9B controls or explicitly unknown treatment/intake interfaces; and scenario pathway/compound sources match the claims they qualify. The Phase 9C package retains its six qualitative scenario-horizon states and no probability or deterministic impact model.
 
-## Phase 9B evidence references
+## Sources
 
+[1] https://waterservices.usgs.gov/nwis/dv/?format=json&sites=04193500&startDT=2026-07-20&endDT=2026-09-03&parameterCd=00060&siteStatus=all
+[2] https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2025_c20260819.csv.gz
+[3] https://hdsc.nws.noaa.gov/pfds/
+[4] https://api.weather.gov/points/41.65,-83.54
+[5] https://www.ncei.noaa.gov/stormevents/
 [6] https://coast.noaa.gov/llv
 [7] https://oceanservice.noaa.gov/facts/seiche.html
 [8] https://www.glerl.noaa.gov/data/ice
