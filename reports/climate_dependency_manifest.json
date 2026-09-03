@@ -10,52 +10,52 @@
   },
   "artifacts": {
     "data/processed/networks/climate_hazard_dependency_edges.csv": {
-      "bytes": 6433,
-      "sha256": "d203e9fe811d6ca7fdc902d73677581d53d9250f53bb73868288de8973ab8a55"
+      "bytes": 8607,
+      "sha256": "058814953b1fb08d52e5485f0d6827e3acf434ca0ee3c0e72e7450ce8ef5066e"
     },
     "data/processed/analysis/climate_hazard_dependency_register.csv": {
-      "bytes": 6938,
-      "sha256": "355ee7bd5640248a77406da600ea292c38504e0d2be57ea6cd5507b1b0df996f"
+      "bytes": 8112,
+      "sha256": "268d43645154b8c2c3913e2629af647279917330b6a3bd695b1b0bcac57f38f8"
     },
     "data/processed/analysis/climate_compound_event_register.csv": {
-      "bytes": 3224,
-      "sha256": "0b896d87cb3af0ca9a6b347a6fd46ad2a56606bbca1d1f47842a1b691be18293"
+      "bytes": 3769,
+      "sha256": "e72969da5ce646041d1c5e4ae99c8ccd840e3f0382fa75935a984ceeeac81a22"
     },
     "data/processed/analysis/climate_resilience_control_register.csv": {
-      "bytes": 3265,
-      "sha256": "913e860e118549e8eae5386ab884cf461b3f2c09144503c5ba078989a274cd7a"
+      "bytes": 3869,
+      "sha256": "c222e36b503ea5cda5e6b2e1f2e2a8b7571fcc718fbea0f2cffd23ce1f819fa4"
     },
     "data/processed/analysis/climate_hazard_dependency_matrix.csv": {
       "bytes": 1778,
       "sha256": "a03277f220d9f83b6afc75551f0a92458b8439a36a954e8dfbcf1f59ff856b0b"
     },
     "data/processed/analysis/climate_dependency_sources.csv": {
-      "bytes": 3556,
-      "sha256": "1021607d547b8f7053b252ff7cf85d0f23ddb0c6bc2bbc1ca3bfa6b1ffc7a191"
+      "bytes": 4723,
+      "sha256": "6d68242d34613e7e64ea92ca341f45dd741d5c0bf99060d9c37df7457c5e0ba2"
     },
     "outputs/maps/systems/30_climate_hazard_dependencies_resilience_2026.png": {
-      "bytes": 1256007,
-      "sha256": "bade437fd757c317a1f2152ca54e1ac1f3833d37d7703c651196c086038cf94e"
+      "bytes": 1282757,
+      "sha256": "50cac1f4bfe9b9f64f2766b228a8d36810991a435ffed41334a5d5f41edd0787"
     },
     "outputs/maps/systems/30_climate_hazard_dependencies_resilience_2026.svg": {
-      "bytes": 17752259,
-      "sha256": "c2f93acdae7416ab0c49c2f2788fc5aadf45c5ebdd96efba61d2e9b70ed79817"
+      "bytes": 17752357,
+      "sha256": "8f804b6471b2d911eec3d050858ea069beba6bf5386eec580c7d654b35efef5a"
     },
     "reports/climate_dependency_sources.md": {
-      "bytes": 1633,
-      "sha256": "eb86261c735d6907748e8195d97fec679771031fdf1362b706357889039d406c"
+      "bytes": 2573,
+      "sha256": "60aed110c32d1ec11146a4ec3748ec2d81c4a3c70e8404661e595e288cfc98e6"
     },
     "reports/climate_dependency_assumptions.md": {
-      "bytes": 1268,
-      "sha256": "c35915dd2835e21d507244d603a8ab0a65736f910092c4d9755d9880d7ba8290"
+      "bytes": 1518,
+      "sha256": "b5f45b7de74f961088a7aa0d57c3dd1f95f63ec99698345f59b3843bc05d811f"
     },
     "reports/climate_dependency_findings.md": {
-      "bytes": 3410,
-      "sha256": "ee4297bab226f613975a26f66f132d100168832d22b5bf33b5a9bca81a4ba8d1"
+      "bytes": 4312,
+      "sha256": "79dc46ab9412af944e216d0b9ddd9507ff20e9e62982e7126765039b53cf4d5c"
     },
     "reports/climate_dependency_qa.md": {
-      "bytes": 978,
-      "sha256": "9ac801958360805f86d67f82d0b4e742d9ed4db3dc87efeb5d09b649086f29af"
+      "bytes": 1200,
+      "sha256": "4c5235a55b8239aee46c78e9e8672c2e7367febed726f0bad7ec1136d1d6542d"
     }
   }
 }

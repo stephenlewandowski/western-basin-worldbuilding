@@ -2,7 +2,7 @@
 
 ## Dependency structure
 
-FACT: The strongest cross-system dependencies are heat-to-energy demand, precipitation-to-runoff and floodplain connectivity, drought-to-water/agriculture/ecology, lake level-to-coastal/freight access, and severe storm-to-energy/information interfaces.[1][2][3]
+INFERENCE: The register labels heat-to-energy demand, precipitation-to-runoff and floodplain connectivity, drought-to-water/agriculture/ecology, lake level-to-coastal/freight access, and severe storm-to-energy/information as prominent qualitative interfaces. The source records support different parts of these relationships and do not establish uniform local effects.[1][2][3]
 
 INFERENCE: Monitoring and warning capacity is strongest where public operational networks are explicit, but network presence does not demonstrate complete coverage or effective outcomes.[8][9]
 
@@ -12,33 +12,33 @@ The matrix preserves qualitative labels only. It contains no numeric weighting, 
 
 The register contains nine bounded pathways.
 
-The precipitation-plus-nutrient pathway is supported by a documented Western Lake Erie mechanism linking agricultural phosphorus, spring meteorology, circulation, warm conditions, and residence time.[10]
+The precipitation-plus-nutrient pathway is the only compound row classified as a documented mechanism plus plausible pathway, based on the Western Lake Erie study linking agricultural phosphorus, spring meteorology, circulation, warm conditions, and residence time.[10]
 
-Heat-plus-power is a plausible energy pathway because hot conditions can increase cooling demand.[2]
+Heat-plus-power is a physically plausible energy pathway because hot conditions can increase cooling demand; no local outage relationship is documented.[2]
 
 Heat-plus-drought is a plausible seasonal water/agriculture/ecology pathway.[1]
 
-Extreme precipitation plus stormwater/wastewater burden is retained as a plausible urban-hydrologic pathway.[1]
+Extreme precipitation plus stormwater/wastewater burden is retained only as a physically plausible urban-hydrologic pathway; NCA context does not document local overflows or treatment performance.[1]
 
-High lake level plus wind setup/seiche is a physically plausible coastal compound because seiche is a wind/pressure-driven standing-wave process in enclosed or semi-enclosed water.[4]
+High lake level plus wind setup/seiche is a physically plausible coastal compound because seiche is a wind/pressure-driven standing-wave process in enclosed or semi-enclosed water; no local combined level or shoreline effect is established.[4]
 
-Flood plus freight/access and freeze-thaw plus infrastructure are retained as system pathways, not route-level predictions.[1][9]
+Flood plus freight/access and freeze-thaw plus infrastructure are retained as physically plausible system pathways, not documented local disruptions or route-level predictions.[1][9]
 
-Severe storm plus power/communication and drought plus agricultural/ecological stress remain qualitative because no local joint-probability dataset was found.[1][2]
+Severe storm plus power/communication and drought plus agricultural/ecological stress remain physically plausible qualitative pathways because no local consequence or joint-probability dataset was found.[1][2]
 
 ## Resilience and controls
 
-Documented controls include public warnings, USGS stream gauges, NOAA CO-OPS/GLERL monitoring, and U.S. Drought Monitor assessment.[3][8][9]
+Documented interfaces include public warnings, USGS stream gauges, the Toledo CO-OPS station, and U.S. Drought Monitor assessment.[3][8][9]
 
-Floodplain planning, stormwater/wastewater interfaces, wetlands/floodplain storage, conservation, coastal planning tools, and winter forecasts are also represented.[6][7][9]
+FEMA mapping, urban drainage context, wetland/floodplain potential buffering, conservation pathways, the Lake Level Viewer, and winter forecasts are represented with their support status and limitations.[6][7][9]
 
-Great Lakes ice-cover resources remain contextual monitoring rather than local shoreline or harbor condition estimates.[5]
+Great Lakes ice-cover resources remain contextual monitoring rather than local shoreline, harbor, or ecological-effect evidence.[5]
 
 FEMA regulatory mapping remains a separate planning context.[11]
 
-The controls register does not claim uniform effectiveness.
+The controls register does not claim uniform effectiveness; HZC-007 is explicitly an unknown/unverified local-control context and HZC-008 is potential-buffer inference.
 
-NOAA's Lake Level Viewer is screening context and excludes wind-driven waves and seiche; it is not a local inundation or erosion forecast.[6]
+NOAA's Lake Level Viewer is a screening tool for calm-day lake-level context and excludes wind-driven waves and seiche; it is not direct evidence of port burden or a local inundation or erosion forecast.[6]
 
 ## Boundary and uncertainty
 
@@ -59,3 +59,6 @@ Future climate forcing, local topography, asset condition, operational redundanc
 [9] https://www.weather.gov/cle/winter
 [10] https://www.pnas.org/doi/10.1073/pnas.1216006110
 [11] https://www.fema.gov/flood-maps/national-flood-hazard-layer
+[12] https://epa.ohio.gov/divisions-and-offices/surface-water/permitting
+[13] https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer
+[14] https://h2.ohio.gov/

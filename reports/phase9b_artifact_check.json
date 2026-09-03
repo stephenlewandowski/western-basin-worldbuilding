@@ -8,6 +8,8 @@
   "matrix_rows": 9,
   "map30_valid": true,
   "phase9a_artifacts_checked": 11,
+  "explicit_relationship_basis_checked": true,
+  "explicit_control_support_checked": true,
   "probabilities_absent": true,
   "composite_score_absent": true,
   "phase9a_immutable": true,
