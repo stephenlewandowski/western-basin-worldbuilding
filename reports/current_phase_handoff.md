@@ -228,6 +228,18 @@ Phase 6C is active. Do not begin any work beyond Phase 6C.
 - No cumulative-risk or environmental-justice score, personal health data, plume, exposure zone, dose, illness, vector/infectious-disease module, future health scenario, release, or tag.
 - Current checkpoint: Python and R Phase 7A validators, Phase 6C/prior Python and R validators, Markdown links, application tests/build, and Git/LFS checks passed. Final feature commit and integration remain.
 
+## Final integrated Phase 7A handoff
+
+- Active phase: **NONE**.
+- Phase 6C: **ACCEPTED / FROZEN** under `reports/phase6c_ecological_futures_freeze_manifest.json`.
+- Latest implementation: **Phase 7A — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**.
+- Feature branch: `phase-7a-exposure-environmental-health-baseline`; worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase7a`.
+- Starting main SHA: `2391e998dfbc83de5c2c5303d0ce0719bd062def`.
+- Feature commit: `8ca0d7cdd789f54342d27cd05678ee72230ed671`; pushed and fast-forward integrated.
+- Final main SHA and origin/main SHA are recorded by Git after this handoff commit.
+- Next analytical phase: **NOT APPROVED**. Do not begin Phase 7B or another module.
+- No release or tag was created. Great Black Swamp remains C — HOLD / noncanonical; Toledo intake-coordinate discrepancy remains unresolved.
+
 ## Uncommitted files
 
 The Phase 6C package and final handoff are committed. Phase 6A and Phase 6B
