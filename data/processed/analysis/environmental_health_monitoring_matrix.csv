@@ -1,0 +1,6 @@
+pathway_family,hazard_observation,environmental_monitoring,regulatory_standard,treatment_or_control,public_advisory,spatial_coverage,temporal_coverage,exposure_confirmation,health_outcome_linkage,notes
+Drinking Water / HAB,strong,strong,strong,strong,strong,moderate,moderate,unknown,unknown,Strong monitoring/control does not mean high exposure.
+Ambient Air,moderate,strong,strong,not_applicable,moderate,moderate,moderate,unknown,unknown,Limited spatial coverage is not a risk score.
+Soil / Groundwater / Legacy Contamination,strong,strong,strong,strong,limited,limited,moderate,unknown,unknown,"Luckey evidence supports contamination/remediation, not individual exposure."
+Food / Fish / Recreational Water,moderate,moderate,moderate,not_applicable,strong,moderate,moderate,unknown,unknown,"Advisories provide context, not documented consumption or harm."
+Heat,strong,strong,not_applicable,moderate,strong,moderate,strong,unknown,unknown,Warnings and observations are not dose or illness evidence.

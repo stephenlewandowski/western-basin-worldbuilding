@@ -1,0 +1,26 @@
+{
+  "phase": "7A",
+  "status": "exposure_context_baseline",
+  "counts": {
+    "nodes": 20,
+    "edges": 20,
+    "pathway_register": 5,
+    "monitoring_matrix_rows": 5,
+    "monitoring_matrix_dimensions": [
+      5,
+      10
+    ],
+    "evidence_crosswalk": 10,
+    "uncertainty_register": 13
+  },
+  "artifacts": {
+    "data/processed/networks/exposure_context_nodes.csv": "3c3f399e375db87e3f0e2e7eb6fdd31f2417ce95ad62b05376c836a6ffc31db5",
+    "data/processed/networks/exposure_pathway_edges.csv": "a2bdb02bd50daf636d43c397789e329dacd378067b34adbc5dd2fdc7008c9bb8",
+    "data/processed/analysis/exposure_pathway_register.csv": "c732cfff6ea1440d55846d23ac4be2e38c609410629837badaa02390ca51c393",
+    "data/processed/analysis/environmental_health_monitoring_matrix.csv": "30060cb0ae25d7ec97d593a37b0f79908871ef08c9b6d0eb1f1b3930b72b9efb",
+    "data/processed/analysis/exposure_evidence_crosswalk.csv": "92abe382c80500258697f6e69d1644ea89d1185790db9f0ee2a8144bd886095a",
+    "data/processed/analysis/exposure_uncertainty_register.csv": "d21372d89fe06758ffe50c2711da424a0d3f54f06b76744008023afde434f247",
+    "outputs/maps/systems/23_environmental_exposure_context_2026.png": "4b86725a86e92ddd585fb03e8261a5e93497ba8d871ae5393e8b87689eb75121",
+    "outputs/maps/systems/23_environmental_exposure_context_2026.svg": "df4829fead5b80357396e2a97e74693c6f65204e8ce584da87d1578695485e21"
+  }
+}

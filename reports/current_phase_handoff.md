@@ -6,7 +6,7 @@ Repository: `C:\Projects\Public_GitHub\western-basin-worldbuilding`
 
 Canonical branch: `main`
 
-Active Phase 6C worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase6c`
+Active Phase 7A worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase7a`
 
 Local main SHA at handoff creation: `8d4042bb2d717677b73cdb523cbefecb08bdc7cd`
 
@@ -20,7 +20,7 @@ Last verified: 2026-09-03T09:00:00+09:00
 
 ## Current project state
 
-Latest accepted phase: **Phase 6B — Ecological Dependencies, Disturbances & Resilience**
+Latest accepted phase: **Phase 6C — Ecological Futures, 2050 / 2075**
 
 Status: **ACCEPTED / FROZEN**
 
@@ -34,23 +34,24 @@ Status: **ACCEPTED / FROZEN**
 - Phase 5B: **ACCEPTED / FROZEN**
 - Phase 6A: **ACCEPTED / FROZEN**
 - Phase 6B: **ACCEPTED / FROZEN**
-- Phase 6C: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+- Phase 6C: **ACCEPTED / FROZEN**
+- Phase 7A: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
 
 Next approved analytical phase: **NOT APPROVED**
 
 Expected next phase: **NONE**
 
-Primary expected product: **Phase 6C package integrated; awaiting Sol acceptance**
+Primary expected product: **Phase 7A package integrated; awaiting Sol acceptance**
 
 ## Active development state
 
-Active phase: **NONE**
+Active phase: **Phase 7A — Exposure & Environmental Health Baseline, 2026**
 
-Active branch: **phase-6c-ecological-futures**
+Active branch: **phase-7a-exposure-environmental-health-baseline**
 
-Active worktree: **C:\Projects\Public_Github\western-basin-worldbuilding-phase6c**
+Active worktree: **C:\Projects\Public_Github\western-basin-worldbuilding-phase7a**
 
-Starting main SHA: **f7048ec9faa9716f7ed506e0d6271cf7aff76eda**
+Starting main SHA: **2391e998dfbc83de5c2c5303d0ce0719bd062def**
 
 Current branch SHA: **8d4042bb2d717677b73cdb523cbefecb08bdc7cd**
 
@@ -196,6 +197,36 @@ Phase 6C is active. Do not begin any work beyond Phase 6C.
 - No release or tag is authorized by this setup task.
 - Future scenario content must remain separate from the factual baseline.
 - Toledo intake coordinate reconciliation remains an open Phase 1 QA gate.
+
+## Phase 7A execution checkpoints
+
+- A — Phase 6C formally accepted/frozen; Phase 7A brief persisted at `docs/phase_briefs/phase7a_exposure_environmental_health.md`; isolated branch/worktree created from `2391e998dfbc83de5c2c5303d0ce0719bd062def`.
+- B — Core source/context package populated: 20 nodes, 20 edges, five pathway rows, 5 × 10 monitoring matrix, 10 crosswalk rows, 13 uncertainty rows.
+- C — Five bounded pathway chains complete; no documented individual exposure, dose, illness, plume, or risk score.
+- D — Map 23 PNG/SVG generated and text/PNG QA passed.
+- E — Evidence crosswalk and uncertainty register complete.
+- F — Python and independent R validators passed.
+
+## Phase 7A products
+
+- Nodes: `data/processed/networks/exposure_context_nodes.csv` (20)
+- Edges: `data/processed/networks/exposure_pathway_edges.csv` (20)
+- Register: `data/processed/analysis/exposure_pathway_register.csv` (5)
+- Monitoring matrix: `data/processed/analysis/environmental_health_monitoring_matrix.csv` (5 rows × 10 dimensions)
+- Evidence crosswalk: `data/processed/analysis/exposure_evidence_crosswalk.csv` (10)
+- Uncertainty register: `data/processed/analysis/exposure_uncertainty_register.csv` (13)
+- Map 23: `outputs/maps/systems/23_environmental_exposure_context_2026.png` and `.svg`
+
+## Phase 7A delivery checkpoint
+
+- Phase 6C acceptance is formally recorded as **ACCEPTED / FROZEN** under `reports/phase6c_ecological_futures_freeze_manifest.json`; the manifest contains 12 protected artifacts.
+- Phase 7A branch: `phase-7a-exposure-environmental-health-baseline`; worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase7a`; starting main SHA: `2391e998dfbc83de5c2c5303d0ce0719bd062def`.
+- Primary product: Map 23 — Western Basin Environmental Exposure Context, 2026.
+- Five pathway families: Drinking Water / HAB; Ambient Air; Soil / Groundwater / Legacy Contamination; Food / Fish / Recreational Water; Heat.
+- No documented individual exposure relationships are asserted; all pathway-register dose and health-outcome fields are `unknown`.
+- Great Black Swamp remains C — HOLD / noncanonical. Toledo intake-coordinate discrepancy remains UNRESOLVED.
+- No cumulative-risk or environmental-justice score, personal health data, plume, exposure zone, dose, illness, vector/infectious-disease module, future health scenario, release, or tag.
+- Current checkpoint: Python and R Phase 7A validators, Phase 6C/prior Python and R validators, Markdown links, application tests/build, and Git/LFS checks passed. Final feature commit and integration remain.
 
 ## Uncommitted files
 

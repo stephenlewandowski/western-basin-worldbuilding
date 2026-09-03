@@ -1,0 +1,11 @@
+args <- commandArgs(trailingOnly=TRUE); root <- if(length(args)) args[1] else '.'
+read <- function(p) read.csv(file.path(root,p), stringsAsFactors=FALSE, check.names=FALSE)
+n <- read('data/processed/networks/exposure_context_nodes.csv'); e <- read('data/processed/networks/exposure_pathway_edges.csv'); p <- read('data/processed/analysis/exposure_pathway_register.csv'); m <- read('data/processed/analysis/environmental_health_monitoring_matrix.csv'); c <- read('data/processed/analysis/exposure_evidence_crosswalk.csv'); u <- read('data/processed/analysis/exposure_uncertainty_register.csv')
+stopifnot(nrow(n)==20,nrow(e)==20,nrow(p)==5,nrow(m)==5,nrow(c)==10,nrow(u)==13)
+stopifnot(length(unique(n$node_id))==20,length(unique(e$edge_id))==20,length(unique(p$pathway_id))==5)
+stopifnot(setequal(p$pathway_family,c('Drinking Water / HAB','Ambient Air','Soil / Groundwater / Legacy Contamination','Food / Fish / Recreational Water','Heat')))
+stopifnot(all(e$from_node_id %in% n$node_id),all(e$to_node_id %in% n$node_id),all(p$documented_exposure=='false'),all(p$dose_status=='unknown'),all(p$health_outcome_status=='unknown'))
+allowed <- c('strong','moderate','limited','unknown','not_applicable'); stopifnot(all(unlist(m[,2:10]) %in% allowed))
+stopifnot(all(nzchar(c$claim)),all(nzchar(c$does_not_support)),all(nzchar(u$issue)),all(nzchar(u$notes)))
+stopifnot(all(nzchar(n$source_id)),all(nzchar(e$source_id)),all(nzchar(p$source_id)))
+cat('status=passed\nphase=7A\nnodes=',nrow(n),'\nedges=',nrow(e),'\npathway_register=',nrow(p),'\nmonitoring_matrix_dimensions=',nrow(m),'x',ncol(m)-1,'\nevidence_crosswalk=',nrow(c),'\nuncertainty_register=',nrow(u),'\nno_documented_exposure=TRUE\nno_dose=TRUE\nno_health_outcomes=TRUE\n',sep='')

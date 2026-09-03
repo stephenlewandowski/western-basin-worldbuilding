@@ -1,6 +1,38 @@
 version: "0.1"
 retrieval_policy: Public, authoritative, non-sensitive sources; raw responses cached under data/raw.
 sources:
+  ohio_epa_hab:
+    name: Ohio EPA Harmful Algal Bloom advisories and monitoring
+    url: https://epa.ohio.gov/monitor-pollution/blue-green-algae-blooms
+    use: Western Lake Erie source-water/HAB monitoring and public advisory context; no dose inference.
+  epa_aqs:
+    name: US EPA Air Quality System / AirData
+    url: https://www.epa.gov/aqs
+    use: Public ambient monitoring context for supported criteria pollutants; no plume or personal dose modeling.
+  ohio_epa_air:
+    name: Ohio EPA Division of Air Pollution Control monitoring
+    url: https://epa.ohio.gov/divisions-and-offices/air-pollution-control
+    use: Ohio ambient-air regulatory and monitoring context.
+  michigan_air:
+    name: Michigan EGLE Air Quality Division monitoring
+    url: https://www.michigan.gov/egle/about/organization/air-quality
+    use: Geographically relevant Michigan ambient-air monitoring context.
+  ohio_fish_advisories:
+    name: Ohio fish consumption advisories
+    url: https://odh.ohio.gov/know-our-programs/seafood-safety/fish-advisories
+    use: Generic fish-consumption advisory context; no individual consumption or harm inference.
+  ohio_recreational_water:
+    name: Ohio EPA recreational water monitoring
+    url: https://epa.ohio.gov/monitor-pollution/monitoring-and-assessment/recreational-water
+    use: Recreational-water monitoring and advisory context.
+  nws_heat:
+    name: National Weather Service heat safety and warning products
+    url: https://www.weather.gov/safety/heat
+    use: 2026 meteorological heat-stress observations and warnings; no illness or dose model.
+  noaa_climate:
+    name: NOAA climate data and information
+    url: https://www.ncei.noaa.gov/
+    use: General authoritative meteorological context where needed; no future scenario.
   usgs_wbd:
     name: USGS Watershed Boundary Dataset
     url: https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer

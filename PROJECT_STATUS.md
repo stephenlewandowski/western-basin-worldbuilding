@@ -256,7 +256,7 @@ species-sensitive locations, exact movement routes, or future scenarios. Phase
 6B is formally **ACCEPTED / FROZEN** by explicit Sol decision under
 `reports/phase6b_ecological_dependency_freeze_manifest.json`.
 
-## PHASE 6C — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 6C — ACCEPTED / FROZEN
 
 **Ecological Futures, 2050 / 2075**
 

@@ -1,0 +1,14 @@
+uncertainty_id,pathway_family,category,issue,effect_on_interpretation,status,source_id,confidence,notes
+U-001,Drinking Water / HAB,spatial_uncertainty,Toledo intake coordinates differ across public sources,Intake map context remains qualified; no coordinate selected as definitive,open,glos_intake,high,Preserve unresolved discrepancy.
+U-002,Drinking Water / HAB,pathway_uncertainty,Source-water observations do not equal finished-water condition,Potential pathway is not exposure confirmation,open,toledo_water,high,Treatment is represented separately.
+U-003,Ambient Air,spatial_uncertainty,Station coverage is not a continuous regional field,No plume or neighborhood assignment,open,epa_aqs,high,Point monitoring only.
+U-004,Ambient Air,dose_unknown,Ambient concentration is not personal inhaled dose,No dose inference,open,epa_aqs,high,Uncertainty is retained rather than resolved by inference.
+U-005,Legacy Contamination,pathway_uncertainty,No receptor-reaching plume is established,Luckey remains contamination/remediation context,open,usace_luckey_groundwater_2026,high,Uncertainty is retained rather than resolved by inference.
+U-006,Legacy Contamination,receptor_uncertainty,Generic workers/site users are not identified individuals,No documented exposure relationship,open,usace_luckey_2026,high,Uncertainty is retained rather than resolved by inference.
+U-007,Food / Fish,receptor_uncertainty,Actual consumption is not observed,Advisory context only,open,ohio_fish_advisories,high,Uncertainty is retained rather than resolved by inference.
+U-008,Recreational Water,receptor_uncertainty,Actual recreational use is not observed,Advisory context only,open,ohio_recreational_water,moderate,Uncertainty is retained rather than resolved by inference.
+U-009,Heat,temporal_uncertainty,2026 conditions vary by day and warning period,"Broad baseline, not a continuous dose series",open,nws_heat,high,Uncertainty is retained rather than resolved by inference.
+U-010,Heat,health_outcome_unknown,No health outcomes are modeled,No illness or mortality claim,open,nws_heat,high,Uncertainty is retained rather than resolved by inference.
+U-011,All pathways,source_uncertainty,Public sources differ in detail and refresh timing,Confidence remains source-qualified,managed,epa_aqs,moderate,Uncertainty is retained rather than resolved by inference.
+U-012,All pathways,monitoring_gap,Exposure confirmation is not a product of these monitoring systems,No documented exposure relationships,open,epa_lake_erie,high,Uncertainty is retained rather than resolved by inference.
+U-013,All pathways,status_uncertainty,Advisory status changes over time,Rows are a 2026 context snapshot,open,ohio_fish_advisories,moderate,"Advisory timing is a bounded snapshot, not a permanent status."

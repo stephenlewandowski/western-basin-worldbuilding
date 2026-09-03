@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "phase": "7A",
+  "nodes": 20,
+  "edges": 20,
+  "pathway_register": 5,
+  "monitoring_matrix_dimensions": [
+    5,
+    10
+  ],
+  "evidence_crosswalk": 10,
+  "uncertainty_register": 13,
+  "map23_valid": true,
+  "image_size": [
+    4827,
+    1992
+  ],
+  "phase6c_frozen": true,
+  "no_documented_individual_exposures": true,
+  "no_dose_or_health_outcomes": true,
+  "no_risk_score": true,
+  "no_future_or_vector_work": true
+}

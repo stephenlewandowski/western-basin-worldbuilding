@@ -1,5 +1,11 @@
 # Glasspunk Systems Atlas
 
+## Phase 7A Exposure & Environmental Health
+
+- `environmental_health_sources.md`, `environmental_health_assumptions.md`, `environmental_health_findings.md`, and `environmental_health_qa.md` document the bounded 2026 five-pathway baseline.
+- `exposure_context_artifact_check.json` records machine validation; `phase6c_ecological_futures_freeze_manifest.json` protects the accepted Phase 6C scenario package.
+
+
 The historical v0.1 release builds the Phase 1 Water System only. Current development also includes the validated Phase 2A–2C materials and historical-exposure baseline. Existing TypeScript prototype files are untouched.
 
 Phase 3A adds the factual 2026 energy / grid / compute baseline and Map 11. See `energy_system_sources.md`, `energy_system_assumptions.md`, `energy_system_qa.md`, `energy_system_manifest.json`, and `energy_system_artifact_check.json`.

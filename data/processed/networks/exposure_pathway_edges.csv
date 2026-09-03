@@ -1,0 +1,21 @@
+edge_id,from_node_id,to_node_id,relationship_type,pathway_family,exposure_status,evidence_type,source_id,confidence,notes
+E-001,EXP-001,EXP-004,monitored_by,drinking_water_hab,environmental_presence,environmental_evidence,noaa_hab,high,Source-water condition is monitored; this does not confirm exposure.
+E-002,EXP-004,EXP-003,information_supports_control,drinking_water_hab,controlled_pathway,monitoring_control,ohio_epa_hab,high,Monitoring informs treatment/control decisions.
+E-003,EXP-003,EXP-018,control_reduces_pathway,drinking_water_hab,controlled_pathway,institutional_control,toledo_water,high,Finished-water treatment is distinct from source-water condition; no dose inferred.
+E-004,EXP-001,EXP-002,present_in,drinking_water_hab,potential_pathway,environmental_evidence,noaa_hab,high,Lake/source context reaches intake interface conceptually; intake coordinate remains unresolved.
+E-005,EXP-005,EXP-006,monitored_by,ambient_air,environmental_presence,environmental_evidence,epa_aqs,high,"Ambient measurements support condition interpretation, not personal dose."
+E-006,EXP-006,EXP-007,regulated_by,ambient_air,monitoring_control,regulatory_evidence,ohio_epa_air,moderate,State and federal monitoring/regulatory interfaces are represented without uniform coverage claim.
+E-007,EXP-005,EXP-017,potential_exposure_pathway,ambient_air,potential_pathway,environmental_evidence,epa_aqs,limited,Generic inhalation context only; no proximity or dose inference.
+E-008,EXP-008,EXP-009,monitored_by,legacy_contamination,environmental_presence,environmental_evidence,usace_luckey_groundwater_2026,high,Documented contamination is monitored; not documented individual exposure.
+E-009,EXP-008,EXP-010,treated_by,legacy_contamination,controlled_pathway,institutional_control,usace_luckey_2026,high,Remediation/control is documented; no plume drawn.
+E-010,EXP-009,EXP-020,potential_exposure_pathway,legacy_contamination,potential_pathway,environmental_evidence,usace_luckey_groundwater_2026,moderate,Receptor context is generic; sampled residential well result does not establish individual exposure.
+E-011,EXP-012,EXP-011,advisory_for,food_fish_recreation,advisory_context,advisory_evidence,ohio_fish_advisories,high,Advisory translates environmental/fish evidence into generic consumption guidance.
+E-012,EXP-011,EXP-019,advisory_for,food_fish_recreation,advisory_context,advisory_evidence,ohio_fish_advisories,moderate,No actual consumption or documented harm inferred.
+E-013,EXP-013,EXP-019,advisory_for,food_fish_recreation,advisory_context,monitoring_control,ohio_recreational_water,high,Recreational-water monitoring/advisory interface; no individual use assumed.
+E-014,EXP-014,EXP-015,monitored_by,heat,environmental_presence,meteorological_evidence,nws_heat,high,Observation/warning system supports public guidance.
+E-015,EXP-015,EXP-016,information_supports_control,heat,controlled_pathway,advisory_evidence,nws_heat,high,Generic outdoor-worker context; no heat dose or illness.
+E-016,EXP-014,EXP-016,potential_exposure_pathway,heat,potential_pathway,meteorological_evidence,nws_heat,moderate,Environmental stress context is not individual dose.
+E-017,EXP-014,EXP-018,receptor_context,heat,potential_pathway,meteorological_evidence,nws_heat,limited,General public context only; no outcome model.
+E-018,EXP-001,EXP-018,receptor_context,drinking_water_hab,potential_pathway,environmental_evidence,toledo_water,moderate,Potential system-user context; source/finished water distinction retained.
+E-019,EXP-012,EXP-013,monitored_by,food_fish_recreation,environmental_presence,environmental_evidence,epa_lake_erie,moderate,Broad lake condition informs fish/recreation monitoring; no direct individual exposure.
+E-020,EXP-008,EXP-020,receptor_context,legacy_contamination,potential_pathway,environmental_evidence,usace_luckey_2026,moderate,Historical/current site context does not establish a receptor-reaching pathway.

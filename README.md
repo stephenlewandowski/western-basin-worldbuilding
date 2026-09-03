@@ -38,6 +38,12 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 5C — ACCEPTED / FROZEN (FREIGHT DEPENDENCIES & CRITICAL INTERFACES, 2026)**
 
+**Phase 6C — ACCEPTED / FROZEN (ECOLOGICAL FUTURES, 2050 / 2075)**
+
+**Phase 7A — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE (EXPOSURE & ENVIRONMENTAL HEALTH BASELINE, 2026)**
+
+Map 23 is a bounded exposure-context layer covering drinking water/HAB, ambient air, Luckey legacy contamination, fish/recreational water, and heat. It does not infer individual exposure, dose, illness, causation, a plume, or a health-risk score.
+
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
 See [PROJECT_STATUS.md](PROJECT_STATUS.md) and the [Phase 1 handoff](reports/water_system_phase1_handoff.md).

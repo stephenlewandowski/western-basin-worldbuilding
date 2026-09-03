@@ -1,0 +1,28 @@
+{
+  "accepted_phase": "6C",
+  "baseline": "Ecological Futures, 2050 / 2075",
+  "status": "ACCEPTED / FROZEN",
+  "generated": "2026-09-03",
+  "counts": {
+    "assumptions": 18,
+    "scenario_nodes": 36,
+    "scenario_edges": 30,
+    "disturbance_states": 36,
+    "resilience_states": 36,
+    "comparison_rows": 72
+  },
+  "artifacts": {
+    "data/processed/scenarios/ecology_scenario_assumptions.csv": "365ec438866938a43ab58d61a673e98fd9a8b7672a485b9bd6ae4cf8e29fb95d",
+    "data/processed/scenarios/ecology_nodes_scenario.csv": "39db864e804c8526b16702918f2e4de7decfaa9e8cfe8dca04c675858b7f150c",
+    "data/processed/scenarios/ecology_edges_scenario.csv": "545d27fcf370c9a6db825aa8aafa54eec01ebf22535ff6910a67f80d2d0af8cd",
+    "data/processed/scenarios/ecological_disturbance_scenario.csv": "cd6f9836d433a8d04e4b512d1c8e1309c4c1fa3e7fd6118d6ddf463986e02130",
+    "data/processed/scenarios/ecological_resilience_scenario.csv": "1e07557a6b2183e4aee7da10144573bc8312642884be4dcfbe29dabef409188d",
+    "outputs/figures/ecological_scenarios_comparison.csv": "2be256cc022575c7844add3c9c32ad78baf172079de55f68a76447367ebf9e1a",
+    "outputs/maps/systems/22_ecological_futures_2050.png": "1d10345e99c3e2b6662857bdab9900164a692253e447f13a41dcad815ccac316",
+    "outputs/maps/systems/22_ecological_futures_2050.svg": "583f5209078576532bfc17c92f55e04a14cbf7306ad73fde50a9fbc139adfeb5",
+    "outputs/maps/systems/22b_ecological_futures_2075.png": "b61905ba6ad043ab88f6a8178061254867429b7508fcc7181eb07b39671ce731",
+    "outputs/maps/systems/22b_ecological_futures_2075.svg": "a663340cc0e0a410b59842c5a659469a05cac62a957b8ff3fc2169c420f8254b",
+    "reports/ecology_scenario_artifact_check.json": "aa1f365c539506cd6dda868597fad88c1a2169c55f10e58844e60e07fa022dc5",
+    "reports/ecology_scenario_qa.md": "afe00cba202bb70f042f335ecdc37f4f20e4166fa40bc8e8f298b3e5a005aed2"
+  }
+}
