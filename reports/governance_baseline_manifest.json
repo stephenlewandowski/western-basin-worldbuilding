@@ -6,25 +6,25 @@
     "actors": 40,
     "authorities": 100,
     "relationships": 100,
-    "sources": 47,
+    "sources": 48,
     "uncertainties": 16
   },
   "artifacts": {
     "data/processed/analysis/governance_actors.csv": {
-      "bytes": 16458,
-      "sha256": "b7b37b7aadec22b8322680dbb11cd06a28fa65f2f2b060d4cc285621a4c215c1"
+      "bytes": 16493,
+      "sha256": "4e8ea187d813d7607464e70ae653cfbdd4a8fea9123bf16b16fce64bf1c7432d"
     },
     "data/processed/analysis/governance_authorities.csv": {
-      "bytes": 24725,
-      "sha256": "226d03a636059458a8dbd03a5658544c80e9bf9c106a8100b2474dcc45c658fc"
+      "bytes": 24869,
+      "sha256": "d9ca07f68a9803d56e0ef3f243b24f092bd0859bda39ba8796204d284fd69bc2"
     },
     "data/processed/networks/governance_relationships.csv": {
-      "bytes": 19447,
-      "sha256": "4e59e9e98b72971fc45da2fda662d90aafcf5eb790fb6d7080def2aba7cb97f8"
+      "bytes": 19572,
+      "sha256": "8ebba96dd569d67cb290d768246b32d4c5fedc17527fc8150c7129f3997502f3"
     },
     "data/processed/analysis/governance_sources.csv": {
-      "bytes": 14060,
-      "sha256": "eba98b720ef2df465f668e7f7a6ff7917646f4614ffa76128824433cb87d0e65"
+      "bytes": 14393,
+      "sha256": "5b0fc4739e9e825ccfe90581583ec2861d2205e3ba31443500ff67590369df3f"
     },
     "data/processed/analysis/governance_uncertainty_register.csv": {
       "bytes": 4473,
@@ -39,20 +39,20 @@
       "sha256": "acf15256924f10242f083bcfeedf65f367166d466f64b96eecc30e0e22919643"
     },
     "reports/governance_baseline_sources.md": {
-      "bytes": 5740,
-      "sha256": "ddf80b6ddffdf1068a170c017169ca4a2656572ef5032f6a6399d4cf77e7b249"
+      "bytes": 5793,
+      "sha256": "9c221cb0ea30ac910c15736f13b72b9fa3ac1a2b9ba56c91a451da00ae29bd95"
     },
     "reports/governance_baseline_assumptions.md": {
       "bytes": 2338,
-      "sha256": "bbf4d4472fe18e7f0f129034c982788ca35e758d1e12212dd2f6d3b77ae5c489"
+      "sha256": "0cdd1dfb28a3aa4528d67db277a14e51241a70511f204433be79551087af36dd"
     },
     "reports/governance_baseline_findings.md": {
-      "bytes": 12223,
-      "sha256": "9b763aaa68385d8bf3f6d57eb8b42db1de42146ade284e3062b25a88bd3d1075"
+      "bytes": 12276,
+      "sha256": "2dbb3b74cbd1fb2af61b823c895ecbc63fa4b32776e9f96a0df9d305017d0a9c"
     },
     "reports/governance_baseline_qa.md": {
       "bytes": 1561,
-      "sha256": "6870829c2730bb9a19046ba5c897ce456771a1dc3cf238ce7bccb1c32ddead47"
+      "sha256": "34d9a9d5962396b4061836c65a39e8afadc75aee8a03335187da13612d60afbf"
     }
   }
 }

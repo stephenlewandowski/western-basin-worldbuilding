@@ -582,7 +582,7 @@ Toledo intake-coordinate discrepancy **UNRESOLVED**. Neither was resolved or tre
 
 ## Phase 10A checkpoint — validated working baseline
 
-- Phase 10A generated and validated: 40 actors, 100 authority/role records, 100 actor-system relationships, 47 sources, 16 uncertainty records, and Map 32 PNG/SVG.
+- Phase 10A generated and validated: 40 actors, 100 authority/role records, 100 actor-system relationships, 48 sources, 16 uncertainty records, and Map 32 PNG/SVG.
 - Python validator passed, including role-separation checks, source references, negative scope, Map 32, 196 prior freeze artifacts, and inherited holds.
 - Independent R validator passed with the same structural counts and Map 32 presence.
 - Working-baseline manifest: `reports/governance_baseline_manifest.json`; artifact check: `reports/governance_baseline_artifact_check.json`.
@@ -591,12 +591,13 @@ Toledo intake-coordinate discrepancy **UNRESOLVED**. Neither was resolved or tre
 
 ## Phase 10A/10B completion checkpoint — awaiting Sol acceptance
 
-- Phase 10A: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Products: 40 actors, 100 authority/role records, 100 actor-system relationships, 47 sources, 16 uncertainty records, and Map 32.
-- Phase 10B: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Products: 26 dependency rows/edges, 14 coordination mechanisms, 10-row qualitative matrix, and Map 33.
-- Python validators passed for 10A and 10B. Independent R validators passed for 10A and 10B. Strict grounded-citation verification passed for the four Phase 10 source/findings reports.
-- Phase 10A and 10B gates each independently verified 196 protected Phase 1–9 freeze artifacts and confirmed the 10A working baseline remained unchanged during 10B.
+- Phase 10A: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Products: 40 actors, 100 authority/role records, 100 actor-system relationships, 48 sources, 16 uncertainty records, and Map 32.
+- Phase 10B: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Products: 25 dependency rows/edges, 14 coordination mechanisms, 10-row qualitative matrix, and Map 33.
+- Python validators passed for the corrected 10A and 10B packages. Independent R validators passed for corrected 10A and 10B. Strict grounded-citation verification passed for the four Phase 10 source/findings reports.
+- The independent review record is `reports/governance_independent_review.md`. Its initial verdict was **CONDITIONAL PASS** with three blocking findings; all three were corrected, and post-correction automated validation passed. No second independent sign-off is claimed. Formal Sol acceptance remains pending.
+- Phase 10A and 10B gates each independently verified 196 protected Phase 1–9 freeze artifacts and confirmed the corrected 10A working baseline remained unchanged during 10B.
 - Repository-relative Markdown validation passed with 147 links. `npm ci`, 22 application tests, and the Vite/TypeScript production build passed. Git LFS status/fsck passed; `git diff --check` passed before staging.
 - The existing Phase 9 freeze validator passed against the committed LF text blob after a temporary newline-normalized verification checkout; the committed Phase 9 artifact content was not changed or staged.
-- No unsupported authority claims were promoted: scientific observation, funding, advice, ownership, permitting, private operation, tribal sovereignty, and legal decision authority remain distinct. No generalized governance gap or composite score was created.
+- The corrected package does not promote unsupported authority claims: scientific observation, funding, advice, ownership, permitting, private operation, tribal sovereignty, and legal decision authority remain distinct. No generalized governance gap or composite score was created.
 - Active phase: **NONE** after 10A/10B completion. Phase 10C is approved scope only and was not implemented. Next action: fresh session for Phase 10C after Sol review.
 - Active holds preserved: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. No release or tag was created.

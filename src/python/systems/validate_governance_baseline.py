@@ -40,7 +40,7 @@ ROLES = {"regulate", "permit", "enforce", "operate", "own", "monitor", "fund", "
 ROLE_TYPES = {"regulate": "regulatory_authority", "permit": "permitting", "enforce": "enforcement", "operate": "operational_control", "own": "ownership", "monitor": "monitoring", "fund": "funding", "coordinate": "coordination", "advise": "advisory", "plan": "planning", "warn": "warning", "respond": "response", "restore": "restoration", "set_standard": "standard_setting", "research": "research", "provide_data": "scientific_information"}
 BINDING = {"binding", "nonbinding", "mixed", "unknown", "not_applicable"}
 SCALES = {"federal", "state", "interstate", "binational", "tribal", "county", "municipal", "regional authority", "public utility", "system operator", "private", "special district"}
-TYPES = {"federal_agency", "state_agency", "tribal_sovereign", "binational_body", "interstate_body", "county_government", "municipal_government", "regional_authority", "public_utility", "system_operator", "private_operator", "research_monitoring_body", "special_district"}
+TYPES = {"federal_agency", "state_agency", "tribal_sovereign", "intertribal_body", "binational_body", "interstate_body", "county_government", "municipal_government", "regional_authority", "public_utility", "system_operator", "private_operator", "research_monitoring_body", "special_district"}
 QUAL = {"high", "moderate", "limited", "unknown"}
 RETRIEVAL = {"retrieved", "retrieved_limited", "reference_only"}
 
@@ -75,7 +75,7 @@ def verify_manifest(path: Path) -> int:
     assert manifest["phase"] == "10A"
     assert manifest["map_number"] == 32
     assert manifest["status"] == "implemented_validated_pending_sol_acceptance"
-    assert manifest["counts"] == {"actors": 40, "authorities": 100, "relationships": 100, "sources": 47, "uncertainties": 16}
+    assert manifest["counts"] == {"actors": 40, "authorities": 100, "relationships": 100, "sources": 48, "uncertainties": 16}
     for rel, metadata in manifest["artifacts"].items():
         file_path = ROOT / rel
         assert file_path.exists(), rel
@@ -183,7 +183,7 @@ def main() -> None:
     assert len(actors) == 40 and actors.actor_id.is_unique
     assert len(auth) == 100 and auth.authority_id.is_unique
     assert len(rel) == 100 and rel.relationship_id.is_unique
-    assert len(sources) == 47 and sources.source_id.is_unique
+    assert len(sources) == 48 and sources.source_id.is_unique
     assert len(uncertainties) == 16 and uncertainties.uncertainty_id.is_unique
     source_ids = set(sources.source_id)
     actor_ids = set(actors.actor_id)

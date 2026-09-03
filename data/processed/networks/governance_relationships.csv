@@ -2,7 +2,7 @@ relationship_id,actor_id,domain_system,relationship_type,authority_or_role,bindi
 REL-001,GA-001,Water,actor_system_role,regulate,binding,United States,federal,s01_epa_sdwa,high,real,verified,Federal standards are not municipal operation.
 REL-002,GA-001,Water,actor_system_role,set_standard,binding,United States,federal,s01_epa_sdwa,high,real,verified,A standard is not a treatment-plant operating command.
 REL-003,GA-001,Water,actor_system_role,coordinate,mixed,Great Lakes / United States,federal,s15_glwqa,moderate,real,verified,Coordination is distinct from each state or local permit.
-REL-004,GA-001,Water,actor_system_role,monitor,not_applicable,Great Lakes,federal,s07_glerl,moderate,real,verified,Monitoring does not itself regulate or operate.
+REL-004,GA-001,Water,actor_system_role,monitor,not_applicable,Great Lakes,federal,s47_epa_great_lakes_monitoring,moderate,real,verified,Monitoring and assessment provide information; they do not operate local utilities or regulate every source.
 REL-005,GA-002,Water,actor_system_role,regulate,binding,Ohio,state,s02_ohio_pws,high,real,verified,Scope is program-specific.
 REL-006,GA-002,Water,actor_system_role,permit,binding,Ohio,state,s05_ohio_npdes,high,real,verified,Permitting is not physical operation.
 REL-007,GA-002,Water,actor_system_role,enforce,binding,Ohio,state,s05_ohio_npdes,moderate,real,verified,No facility-specific enforcement finding is made.
@@ -28,7 +28,7 @@ REL-026,GA-008,Ecology / Biodiversity,actor_system_role,permit,binding,United St
 REL-027,GA-008,Ecology / Biodiversity,actor_system_role,enforce,binding,United States / covered activities,federal,s07_usace_regulatory,moderate,real,verified,No site-specific enforcement action is asserted.
 REL-028,GA-009,Ecology / Biodiversity,actor_system_role,monitor,not_applicable,United States,federal,s08_usfws_nwi,high,real,verified,Inventory and monitoring are not permit authority.
 REL-029,GA-009,Ecology / Biodiversity,actor_system_role,research,not_applicable,United States,federal,s08_usfws_nwi,moderate,real,verified,No species-sensitive location or local enforcement claim.
-REL-030,GA-009,Ecology / Biodiversity,actor_system_role,restore,mixed,United States / program sites,federal,s08_usfws_nwi,moderate,real,inferred,Restoration authority and funding are project-specific.
+REL-030,GA-009,Ecology / Biodiversity,actor_system_role,provide_data,not_applicable,United States,federal,s08_usfws_nwi,high,real,verified,"NWI data support decisions but do not themselves confer restoration, permit, or enforcement authority."
 REL-031,GA-010,Climate / Natural Hazards,actor_system_role,fund,mixed,"United States / state, tribal, and local partners",federal,s35_fema_mitigation,high,real,verified,Funding conditions do not make FEMA the local operator.
 REL-032,GA-010,Climate / Natural Hazards,actor_system_role,plan,nonbinding,"United States / state, tribal, and local governments",federal,s35_fema_mitigation,high,real,verified,Planning is distinct from local land-use administration.
 REL-033,GA-010,Climate / Natural Hazards,actor_system_role,provide_data,not_applicable,United States / mapped communities,federal,s34_fema_nfhl,high,real,verified,"NFHL is mapped regulatory context, not a local floodplain operator."

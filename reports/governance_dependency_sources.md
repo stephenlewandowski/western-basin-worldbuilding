@@ -41,7 +41,7 @@ Registry entries [34][35][36].
 Registry entries [37][38][39].
 Registry entries [40][41][42].
 Registry entries [43][44][45].
-Registry entries [46][47].
+Registry entries [46][47][48].
 ## Sources
 
 [1] https://www.epa.gov/ground-water-and-drinking-water/national-primary-drinking-water-regulations
@@ -91,3 +91,4 @@ Registry entries [46][47].
 [45] https://agri.ohio.gov/
 [46] https://ohiodnr.gov/
 [47] https://www.in.gov/idem/
+[48] https://www.epa.gov/great-lakes-monitoring

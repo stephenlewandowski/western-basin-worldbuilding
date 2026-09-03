@@ -1,6 +1,6 @@
 # Phase 10A Governance & Jurisdiction QA
 
-The baseline contains 40 actors, 100 authority/role records, 100 actor-system relationships, 47 sources, and 16 uncertainty records. Map 32 is a generalized geographic/schematic interface map; it contains no precise jurisdiction polygons or headquarters-as-jurisdiction representation.
+The baseline contains 40 actors, 100 authority/role records, 100 actor-system relationships, 48 sources, and 16 uncertainty records. Map 32 is a generalized geographic/schematic interface map; it contains no precise jurisdiction polygons or headquarters-as-jurisdiction representation.
 
 Python validation checks exact schemas, role/type vocabularies, source references, binding status, institutional scales, reality/canon status, coordinate/map boundaries, and semantic anti-collapse rules. It explicitly rejects regulator-as-operator, monitor-as-regulator, funder-as-controller, advisor-as-binding-authority, private-operator-as-government, planning-target-as-enforceable-mandate, historical/tribal-interest-as-current-jurisdiction, and science-as-legal-authority shortcuts.
 

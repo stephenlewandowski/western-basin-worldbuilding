@@ -372,11 +372,11 @@ and regional scales remain distinct. Phase 10A and 10B are approved and are impl
 
 **Governance, Jurisdiction, Cross-System Authority & Coordination, 2026**
 
-Phase 10A adds a 40-actor registry, 100 authority/role records, 100 actor-system relationships, 47 source records, 16 uncertainty records, and Map 32. It keeps regulation, operation, ownership, monitoring, funding, advisory, permitting, scientific information, and private/public roles distinct.
+Phase 10A adds a 40-actor registry, 100 authority/role records, 100 actor-system relationships, 48 source records, 16 uncertainty records, and Map 32. It keeps regulation, operation, ownership, monitoring, funding, advisory, permitting, scientific information, and private/public roles distinct.
 
-Phase 10B adds 26 cross-system dependency records and edges, 14 coordination mechanism records, a 10-row qualitative governance/dependency matrix, and Map 33. It distinguishes overlapping, sequential, split, information, funding, permit, public/private, interstate, binational, monitoring-without-control, and control-without-direct-observation relationships. It uses no composite governance score and makes no generalized governance-gap claim.
+Phase 10B adds 25 cross-system dependency records and edges, 14 coordination mechanism records, a 10-row qualitative governance/dependency matrix, and Map 33. It distinguishes overlapping, sequential, split, information, funding, permit, public/private, interstate, binational, monitoring-without-control, and control-without-direct-observation relationships. It uses no composite governance score and makes no generalized governance-gap claim.
 
-Phase 10A and 10B are implemented, validated, and integrated pending formal Sol acceptance. Phase 10C is approved future scope only and was not implemented.
+Phase 10A and 10B are implemented, validated, and integrated pending formal Sol acceptance. The independent review and correction disposition are recorded in `reports/governance_independent_review.md`. Phase 10C is approved future scope only and was not implemented.
 
 Active phase: **NONE**. Next action: **FRESH SESSION FOR PHASE 10C**.
 

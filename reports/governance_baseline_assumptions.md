@@ -20,4 +20,4 @@ Great Black Swamp remains C — HOLD / noncanonical. The Toledo intake-coordinat
 
 ## Contents
 
-The package contains 40 actors, 100 authority/role records, 100 actor-system relationships, 47 source records, and 16 uncertainty records. All factual records use `reality_status=real`; `canon_status=inferred` is used only where the institutional relationship or scope remains qualified.
+The package contains 40 actors, 100 authority/role records, 100 actor-system relationships, 48 source records, and 16 uncertainty records. All factual records use `reality_status=real`; `canon_status=inferred` is used only where the institutional relationship or scope remains qualified.

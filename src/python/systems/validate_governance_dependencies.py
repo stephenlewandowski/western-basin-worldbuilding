@@ -71,7 +71,7 @@ def verify_manifest(path: Path) -> int:
     manifest = json.loads(path.read_text(encoding="utf-8"))
     assert manifest["phase"] == "10B" and manifest["map_number"] == 33
     assert manifest["status"] == "implemented_validated_pending_sol_acceptance"
-    assert manifest["counts"] == {"dependency_register": 26, "dependency_edges": 26, "coordination_mechanisms": 14, "matrix_rows": 10, "sources_reused": 47}
+    assert manifest["counts"] == {"dependency_register": 25, "dependency_edges": 25, "coordination_mechanisms": 14, "matrix_rows": 10, "sources_reused": 48}
     for rel, metadata in manifest["artifacts"].items():
         file_path = ROOT / rel
         assert file_path.exists(), rel
@@ -82,7 +82,7 @@ def verify_manifest(path: Path) -> int:
 def verify_a_manifest() -> int:
     manifest = json.loads(A_MANIFEST.read_text(encoding="utf-8"))
     assert manifest["phase"] == "10A" and manifest["map_number"] == 32
-    assert manifest["counts"] == {"actors": 40, "authorities": 100, "relationships": 100, "sources": 47, "uncertainties": 16}
+    assert manifest["counts"] == {"actors": 40, "authorities": 100, "relationships": 100, "sources": 48, "uncertainties": 16}
     for rel, metadata in manifest["artifacts"].items():
         assert manifest_matches(ROOT, rel, metadata["sha256"]), rel
     return len(manifest["artifacts"])
@@ -112,21 +112,20 @@ def verify_semantics(dep: pd.DataFrame, edge: pd.DataFrame, mech: pd.DataFrame, 
     assert edge.actor_a.tolist() == dep.actor_a.tolist() and edge.actor_b.tolist() == dep.actor_b.tolist()
 
     d2 = one(dep, "dependency_id", "GDEP-002")
-    assert d2.role_a == "permit" and d2.role_b == "operate" and d2.mandatory_or_voluntary == "mandatory" and d2.documented_or_inferred == "documented"
+    assert d2.role_a == "regulate" and d2.role_b == "operate" and d2.mandatory_or_voluntary == "mandatory" and d2.dependency_type == "mandatory_coordination" and d2.documented_or_inferred == "documented"
     d7 = one(dep, "dependency_id", "GDEP-007")
     assert d7.actor_a == "GA-026" and d7.role_a == "operate" and d7.actor_b == "GA-030" and d7.dependency_type == "public_private_dependency"
     d9 = one(dep, "dependency_id", "GDEP-009")
     assert d9.actor_a == "GA-025" and d9.role_a == "set_standard" and d9.dependency_type == "control-without-direct-observation"
     d14 = one(dep, "dependency_id", "GDEP-014")
-    assert d14.dependency_type == "overlapping_authority" and d14.coordination_mechanism == "permit"
+    assert d14.dependency_type == "overlapping_authority" and d14.coordination_mechanism == "permit" and d14.source_id == "s05_ohio_npdes" and d14.documented_or_inferred == "inferred"
     d18 = one(dep, "dependency_id", "GDEP-018")
     assert d18.documented_or_inferred == "inferred" and "no Western Basin jurisdiction" in d18.notes
     d19 = one(dep, "dependency_id", "GDEP-019")
     assert d19.documented_or_inferred == "documented" and d19.coordination_mechanism == "consultation relationship"
     d20 = one(dep, "dependency_id", "GDEP-020")
     assert d20.mandatory_or_voluntary == "voluntary" and d20.dependency_type == "voluntary_coordination"
-    d26 = one(dep, "dependency_id", "GDEP-026")
-    assert d26.actor_a == "GA-040" and d26.role_a == "regulate" and "municipal public-water operation" in d26.notes
+    assert "no western basin jurisdiction" in one(dep, "dependency_id", "GDEP-018").notes.lower()
     assert "gap" not in " ".join(dep.notes).lower()
     assert not mech.binding_character.str.contains(r"universal|all assets|always", case=False, regex=True).any()
     return {"authority_overlap_checked": True, "sequential_authority_checked": True, "monitoring_without_control_checked": True, "control_without_direct_observation_checked": True, "public_private_seams_checked": True, "federal_state_local_seams_checked": True, "interstate_binational_seams_checked": True, "voluntary_mandatory_checked": True, "gap_discipline_checked": True}
@@ -137,11 +136,11 @@ def main() -> None:
     actors = read(A / "governance_actors.csv")
     auth = read(A / "governance_authorities.csv")
     assert set(dep.columns) == DEP_COLUMNS and set(edge.columns) == EDGE_COLUMNS and set(mech.columns) == MECH_COLUMNS and set(mat.columns) == MAT_COLUMNS
-    assert len(dep) == 26 and dep.dependency_id.is_unique
-    assert len(edge) == 26 and edge.edge_id.is_unique
+    assert len(dep) == 25 and dep.dependency_id.is_unique
+    assert len(edge) == 25 and edge.edge_id.is_unique
     assert len(mech) == 14 and mech.mechanism_id.is_unique
     assert len(mat) == 10 and mat.pathway.is_unique
-    assert len(sources) == 47 and sources.source_id.is_unique
+    assert len(sources) == 48 and sources.source_id.is_unique
     assert dep.system_a.str.len().gt(0).all() and dep.system_b.str.len().gt(0).all()
     assert dep.notes.str.len().gt(0).all() and edge.notes.str.len().gt(0).all() and mech.notes.str.len().gt(0).all() and mat.notes.str.len().gt(0).all()
     semantic = verify_semantics(dep, edge, mech, mat, actors, auth, sources)

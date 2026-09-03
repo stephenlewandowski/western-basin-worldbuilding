@@ -1,6 +1,6 @@
 # Phase 10B Cross-System Governance Dependency QA
 
-The package contains 26 dependency-register rows, 26 dependency edges, 14 coordination-mechanism rows, 10 matrix rows, and Map 33 PNG/SVG. The Phase 10A working baseline is protected by `reports/governance_baseline_manifest.json` and is hash-checked before this layer is accepted as clean.
+The package contains 25 dependency-register rows, 25 dependency edges, 14 coordination-mechanism rows, 10 matrix rows, and Map 33 PNG/SVG. The Phase 10A working baseline is protected by `reports/governance_baseline_manifest.json` and is hash-checked before this layer is accepted as clean.
 
 Python validation checks exact schemas, actor/role references, dependency and mechanism vocabularies, documented/inferred separation, mandatory/voluntary distinctions, matrix labels, source references, negative scope, and Map 33 integrity/readability. It checks that no relationship converts monitoring into regulation, funding into control, advisory status into binding authority, private operation into government, or a program target into an individual mandate.
 

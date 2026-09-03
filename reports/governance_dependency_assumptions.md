@@ -10,4 +10,4 @@ The qualitative matrix uses strong, moderate, limited, unknown, and not_applicab
 
 Map 33 spatializes only generalized system interfaces over existing physical context. It does not map headquarters as jurisdiction or derive precise jurisdiction polygons from program descriptions. Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains unresolved.
 
-The package contains 26 dependency-register rows, 26 dependency edges, 14 coordination-mechanism rows, and 10 matrix rows. Phase 10C is not implemented.
+The package contains 25 dependency-register rows, 25 dependency edges, 14 coordination-mechanism rows, and 10 matrix rows. Phase 10C is not implemented.

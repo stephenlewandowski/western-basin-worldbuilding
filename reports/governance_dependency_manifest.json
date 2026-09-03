@@ -3,17 +3,17 @@
   "map_number": 33,
   "status": "implemented_validated_pending_sol_acceptance",
   "counts": {
-    "dependency_register": 26,
-    "dependency_edges": 26,
+    "dependency_register": 25,
+    "dependency_edges": 25,
     "coordination_mechanisms": 14,
     "matrix_rows": 10,
-    "sources_reused": 47
+    "sources_reused": 48
   },
   "phase10a_manifest": "reports/governance_baseline_manifest.json",
   "artifacts": {
     "data/processed/analysis/governance_dependency_register.csv": {
-      "bytes": 7672,
-      "sha256": "282d74c58d90852088028929e8209bb924b96269ad7180343aab60d0ff38a566"
+      "bytes": 7435,
+      "sha256": "e0d363c858462a0bfde1da82ba3cdc1c5c82626e9a9e36d18eb96eb398eaa13f"
     },
     "data/processed/analysis/governance_coordination_mechanisms.csv": {
       "bytes": 3794,
@@ -24,12 +24,12 @@
       "sha256": "ff8109989729ed41ce43eee236d3033c3a49240957232ae98ec9cf93ddd6d8ab"
     },
     "data/processed/networks/governance_dependency_edges.csv": {
-      "bytes": 6597,
-      "sha256": "a187502a39884a84ee3fd6f8405720d34838938944b7507ee64e0300470449c4"
+      "bytes": 6403,
+      "sha256": "8927829ba5443116a07534cbae67b07f4b6c0becbfd0c4b5da0aab1c4b1d6afb"
     },
     "data/processed/analysis/governance_sources.csv": {
-      "bytes": 14060,
-      "sha256": "eba98b720ef2df465f668e7f7a6ff7917646f4614ffa76128824433cb87d0e65"
+      "bytes": 14393,
+      "sha256": "5b0fc4739e9e825ccfe90581583ec2861d2205e3ba31443500ff67590369df3f"
     },
     "outputs/maps/systems/33_cross_system_governance_dependencies_2026.png": {
       "bytes": 1221707,
@@ -40,20 +40,20 @@
       "sha256": "6337412ae4b0ad63be5edbcd021301f5f068059ac3f1c8544a821a838c8e60b5"
     },
     "reports/governance_dependency_sources.md": {
-      "bytes": 4964,
-      "sha256": "77d84137934abd003be2b767c99c9d2fc112ea8495272475d3352da5260c8543"
+      "bytes": 5017,
+      "sha256": "e40a74e2edcffdac85b287bbbcd6d8275aff6c8e8a6662c30599d5ef6edae481"
     },
     "reports/governance_dependency_assumptions.md": {
       "bytes": 2130,
-      "sha256": "1960c2ceca7eb44b6248a41e48a0119981ac77422266b0d10acc77b0e2c23df1"
+      "sha256": "aad54f1fa02043bb30a3225cdfcc422d5501d912abfbff073a4a423197aa3112"
     },
     "reports/governance_dependency_findings.md": {
-      "bytes": 10997,
-      "sha256": "4efbf390773dcb74d6c9b3c96a6189de2aeb39111813c77e68351eb84eff4c52"
+      "bytes": 11050,
+      "sha256": "05db3d4d2fbc3569bf12e33337b2c79658f86dbb6799c7148a444d61dd772042"
     },
     "reports/governance_dependency_qa.md": {
       "bytes": 1584,
-      "sha256": "864e542e5b9aee2e31ab62af6b4f681245014b7840c8acf495ad6d0913333345"
+      "sha256": "65365ee2011b3d3f9e7df8f5a9a1885d6fefc5eb3e5a8f6588f972c24ed7e1e9"
     }
   }
 }
