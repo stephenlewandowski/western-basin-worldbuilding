@@ -25,7 +25,7 @@ The builder recomputes the minimum from the raw response. `HZO-015`, the acquisi
 - `HZ-026`, `HZE-021`, `HZE-022`, `HZE-029`, and `HZE-030`: C — developed-system and access relationships are explicit qualitative inferences, not direct station, warning, drought, or weather-source findings.
 - `HZE-023`: E — removed because Atlas 14 precipitation-frequency context is not a historical occurrence. `HZ-023` remains a `reference_product` node.
 
-The corrected Phase 9A package contains 28 nodes, 29 edges, 28 observations, and 21 sources. Map 29 was regenerated for package consistency; it has no flow-extrema date annotation and no hazard surface.
+The corrected Phase 9A package contains 28 nodes, 29 edges, 28 observations, and 21 sources. Map 29 was not semantically affected by the correction and its original manifest-protected SVG/PNG artifact was preserved; it has no flow-extrema date annotation and no hazard surface.
 
 ## QA implementation
 

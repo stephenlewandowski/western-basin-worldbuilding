@@ -1,8 +1,8 @@
 {
   "status": "passed",
   "phase": "9A",
-  "nodes": 26,
-  "edges": 30,
+  "nodes": 28,
+  "edges": 29,
   "observations": 28,
   "sources": 21,
   "map29_valid": true,
@@ -11,6 +11,12 @@
     1997
   ],
   "phase8_and_prior_frozen_artifacts_checked": 148,
+  "usgs_2026_minimum_checked": {
+    "date": "2026-07-29",
+    "value_cfs": 313
+  },
+  "explicit_provenance_assertions": true,
+  "semantic_boundary_assertions": true,
   "future_rows_absent": true,
   "unsupported_probabilities_absent": true,
   "health_and_social_scoring_absent": true,
