@@ -1,6 +1,6 @@
 # Project Status
 
-Last reviewed: 2026-09-02
+Last reviewed: 2026-09-03
 
 ## PHASE 1 — COMPLETE
 
@@ -328,31 +328,37 @@ The complete Phase 8 package is accepted/frozen and protected by three
 subphase manifests. No accepted Phase 8 scientific content was changed while
 recording this decision.
 
-## PHASE 9 — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 9 — ACCEPTED / FROZEN
 
 **Climate & Natural Hazards System, 2026 / 2050 / 2075**
 
-Phase 9A is implemented, validated, corrected, and integrated as a factual
-2026 physical-hazard baseline: 28 nodes, 29 relationships, 28
-quantitative/context observations, and 21 sources under Map 29. Phase 9B is
-implemented, validated, corrected, and integrated as a qualitative dependency,
-compound-event, and resilience layer: 24 dependency edges, 9 compound-event
-pathways, 12 controls, an 11-dimension 9-row matrix, and Map 30. Phase 9C is
-implemented, validated, and integrated as separate qualitative futures with 12
+Phase 9A is accepted and frozen as a factual 2026 physical-hazard baseline:
+28 nodes, 29 relationships, 28 quantitative/context observations, and 21
+sources under Map 29. Phase 9B is accepted and frozen as a qualitative
+dependency, compound-event, and resilience layer: 24 dependency edges, 9
+compound-event pathways, 12 controls, an 11-dimension 9-row matrix, and Map
+30. Phase 9C is accepted and frozen as separate qualitative futures with 12
 projection evidence records, 36 assumptions, 36 hazard states, 48 dependency
 states, 48 resilience states, 54 compound-event states, six comparisons, and
 Maps 31/31b.
 
 Phase 9A/9B post-integration corrections are recorded in
 `reports/phase9a_correction_qa.md` and `reports/phase9_correction_qa.md`. The
-original implementation commits remain in history; correction commits were not
-amended into them.
+final independent-review record is `reports/phase9_independent_review.md`.
+The original implementation commits and transparent correction commits remain
+in history; no correction was amended, squashed, rewritten, or concealed.
+
+Freeze protection covers 48 Phase 9 artifacts under:
+
+- `reports/phase9a_climate_natural_hazards_freeze_manifest.json` — 13 artifacts
+- `reports/phase9b_climate_hazard_dependencies_resilience_freeze_manifest.json` — 14 artifacts
+- `reports/phase9c_climate_hazard_futures_freeze_manifest.json` — 21 artifacts
 
 Final subphase status:
 
-- Phase 9A: **IMPLEMENTED / VALIDATED / CORRECTED / INTEGRATED / AWAITING SOL ACCEPTANCE**
-- Phase 9B: **IMPLEMENTED / VALIDATED / CORRECTED / INTEGRATED / AWAITING SOL ACCEPTANCE**
-- Phase 9C: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+- Phase 9A: **ACCEPTED / FROZEN**
+- Phase 9B: **ACCEPTED / FROZEN**
+- Phase 9C: **ACCEPTED / FROZEN**
 - Active phase: **NONE**
 - Next analytical phase: **NOT APPROVED**.
 

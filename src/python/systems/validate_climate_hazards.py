@@ -48,6 +48,11 @@ def digest(path: Path) -> str:
 def check_prior_manifests() -> list[str]:
     protected = []
     for path in sorted(REPORTS.glob("phase*_freeze_manifest.json")):
+        # Phase 9's acceptance manifests are current-phase outputs, not prior
+        # baselines; including them would mutate the phase9a artifact-check
+        # count after the freeze manifests are created.
+        if path.name.startswith("phase9"):
+            continue
         manifest = json.loads(path.read_text(encoding="utf-8"))
         for rel, metadata in manifest.get("artifacts", manifest.get("files", {})).items():
             artifact = ROOT / rel

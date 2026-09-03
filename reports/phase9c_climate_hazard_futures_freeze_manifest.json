@@ -1,0 +1,125 @@
+{
+  "accepted_phase": "9C",
+  "baseline": "Climate & Hazard Futures, 2050 / 2075",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-03",
+  "source_commit": "b5680aa9de0e17544c92cdfabe7b2d9e039f7f07",
+  "acceptance_basis": "Sol formally accepted the corrected and finalized Phase 9 module; transparent correction history remains preserved in separate commits and reports.",
+  "counts": {
+    "projection_records": 12,
+    "assumptions": 36,
+    "hazard_states": 36,
+    "dependency_states": 48,
+    "resilience_states": 48,
+    "compound_event_states": 54,
+    "comparison_rows": 6
+  },
+  "artifacts": {
+    "data/processed/analysis/climate_projection_evidence.csv": {
+      "sha256": "d06fe47ad930716646029e488e435286ed2ed7308f17f9ffcf78527cf5dac442",
+      "bytes": 3717,
+      "role": "projection evidence table"
+    },
+    "data/processed/scenarios/climate_scenario_assumptions.csv": {
+      "sha256": "2403079d443166862d024225453af93345916e795ef71bca81af6dd59a3c59e7",
+      "bytes": 11651,
+      "role": "scenario state table"
+    },
+    "data/processed/scenarios/climate_scenario_hazard_states.csv": {
+      "sha256": "9285f7c581fd22f47a22fa019997e65c5f48ebbc176f34a808d28803e42727a0",
+      "bytes": 9405,
+      "role": "scenario state table"
+    },
+    "data/processed/scenarios/climate_scenario_dependency_states.csv": {
+      "sha256": "38f2d324d36d00ca1fe84593db924ab5f3e548c19ac452f0be4aa610e8bd834b",
+      "bytes": 13607,
+      "role": "scenario state table"
+    },
+    "data/processed/scenarios/climate_scenario_resilience_states.csv": {
+      "sha256": "62b6ba235fe8cd3f3884acd23695184deb06aa4b7d110197f3b4780173509f8c",
+      "bytes": 11408,
+      "role": "scenario state table"
+    },
+    "data/processed/scenarios/climate_compound_event_scenario_states.csv": {
+      "sha256": "5a7b2db90407d2d475127d86ed510357ea3cb930bc7fb6c633a511eeff557fce",
+      "bytes": 15088,
+      "role": "scenario state table"
+    },
+    "outputs/figures/climate_scenario_comparison.csv": {
+      "sha256": "9c94ddc7664c5d0ddae40d57b98656838c964910b3cca17fb49c9e55bfc581c6",
+      "bytes": 2084,
+      "role": "scenario comparison table"
+    },
+    "data/processed/analysis/climate_scenario_sources.csv": {
+      "sha256": "bade36c1afa1c0c063e766396bf81847481d995c406b5d86f76ca2bfe7c26b6e",
+      "bytes": 4757,
+      "role": "scenario source registry"
+    },
+    "outputs/maps/systems/31_climate_hazard_futures_2050.png": {
+      "sha256": "42a14d514591400f089d1e7fe247bd9925d7ee826ca81d4456ead70c5a490fb0",
+      "bytes": 1226656,
+      "role": "map raster"
+    },
+    "outputs/maps/systems/31_climate_hazard_futures_2050.svg": {
+      "sha256": "cdceefc9ff426390c99e705b7c121709c0c99396ff0a188062ff49c854ab9bd6",
+      "bytes": 17759129,
+      "role": "map vector"
+    },
+    "outputs/maps/systems/31b_climate_hazard_futures_2075.png": {
+      "sha256": "ff13631b09f0e77b4654f7ac4912be2fed748e112af1b4c2f670ef4a6997c023",
+      "bytes": 1227679,
+      "role": "map raster"
+    },
+    "outputs/maps/systems/31b_climate_hazard_futures_2075.svg": {
+      "sha256": "80129d47f09d70f0ab34b6e5573f16b7ab251a2dbc90a0540fae5736aa446549",
+      "bytes": 17759130,
+      "role": "map vector"
+    },
+    "reports/climate_scenario_sources.md": {
+      "sha256": "db6f343d1e5cafde61940342d617faaa964f0d354ea95d0554f34d22d3e7bb3e",
+      "bytes": 2040,
+      "role": "source report"
+    },
+    "reports/climate_scenario_assumptions.md": {
+      "sha256": "0ab4d93b60fc46470498573929cf9ecc66de8a06c4a7bf97e22e0fa5eb2b422d",
+      "bytes": 1105,
+      "role": "assumptions and scope report"
+    },
+    "reports/climate_scenario_consistency.md": {
+      "sha256": "5bd11019cfb0452fd430a68f1bf0c041ce78088c7d32c721b37042abbcc8a75b",
+      "bytes": 895,
+      "role": "scenario consistency report"
+    },
+    "reports/climate_scenario_findings.md": {
+      "sha256": "fe70f2cd68df4597c0a74f427672fd271d48ed8fa45ffb3ac845d841aeef3a8e",
+      "bytes": 6283,
+      "role": "findings report"
+    },
+    "reports/climate_scenario_worldbuilding.md": {
+      "sha256": "eeb4185e3c85db3c0c4fe983482bdba62f7c0a5956b230c4282e394bd3404078",
+      "bytes": 1298,
+      "role": "speculative implications report"
+    },
+    "reports/climate_scenario_qa.md": {
+      "sha256": "700b6fb14085342857e1fbfa25cad6ab08a2f2cad7f4637172657412ac0d4be1",
+      "bytes": 1259,
+      "role": "QA report"
+    },
+    "reports/climate_scenario_manifest.json": {
+      "sha256": "322abae927ad92f768ef59ec88f3bdea0b6b5f66b9c578d88528e1a763d9fa7b",
+      "bytes": 3501,
+      "role": "scenario artifact manifest"
+    },
+    "reports/phase9c_artifact_check.json": {
+      "sha256": "930a1d67b44d1c80ed7b3d1fabeeebc5b50ad5e39ab317c99b1efabda034d753",
+      "bytes": 518,
+      "role": "machine validation result"
+    },
+    "reports/phase9_independent_review.md": {
+      "sha256": "2b652dd1a27365482b8f3caaf182c92f0b694f38170d9f01f1fbd77d5eb0345f",
+      "bytes": 3037,
+      "role": "final independent-review record"
+    }
+  }
+}

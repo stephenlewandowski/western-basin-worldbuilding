@@ -519,3 +519,53 @@ embedded self-referentially in this file.
 - Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains unresolved.
 - No accepted Phase 1–8 artifact was changed. No unrelated module, release, or tag was created.
 - Feature and integrated-main SHAs are verified by Git after the final commit; this handoff avoids a self-referential hash.
+
+## Phase 9 acceptance / freeze handoff — 2026-09-03
+
+Repository state before acceptance bookkeeping: local `main` and `origin/main`
+were synchronized and clean at `b5680aa9de0e17544c92cdfabe7b2d9e039f7f07`.
+That SHA is the corrected Phase 9 package source commit; the final handoff
+commit is intentionally verified by Git rather than embedded self-referentially
+in this file.
+
+Sol formally accepted and froze the complete corrected Phase 9 module:
+
+- Phase 9A — Climate & Natural Hazards Baseline, 2026: **ACCEPTED / FROZEN**;
+  28 nodes, 29 edges, 28 observations, 21 sources; 13 protected artifacts in
+  `reports/phase9a_climate_natural_hazards_freeze_manifest.json`.
+- Phase 9B — Climate/Hazard Dependencies, Compound Events & Resilience, 2026:
+  **ACCEPTED / FROZEN**; 24 dependency edges, 24 register rows, 9 compound
+  events, 12 controls, 9 matrix rows; 14 protected artifacts in
+  `reports/phase9b_climate_hazard_dependencies_resilience_freeze_manifest.json`.
+- Phase 9C — Climate & Hazard Futures, 2050 / 2075: **ACCEPTED / FROZEN**;
+  12 projection records, 36 assumptions, 36 hazard states, 48 dependency
+  states, 48 resilience states, 54 compound-event states, 6 comparisons; 21
+  protected artifacts in
+  `reports/phase9c_climate_hazard_futures_freeze_manifest.json`.
+
+The three manifests protect 48 unique Phase 9 artifacts. Python and R freeze
+validation independently passed for all three manifests and 148 prior Phase
+1–8 protected artifacts; eight prior text-manifest matches were confirmed as
+newline-only differences under the established portability rule. Phase 9A,
+9B, and 9C Python and independent R validators also passed. Repository-relative
+Markdown validation passed with 137 links.
+
+The final independent-review record is
+`reports/phase9_independent_review.md`. Completed bounded reviews
+`deleg_2b475307` and `deleg_e06a0505` returned `passed: true` with empty
+security-concern and logic-error arrays. Interrupted attempts returned no
+verdict and are not counted as acceptance evidence.
+
+Correction history remains explicit and unrevised: original Phase 9A commit
+`8a76895c62be6af8304d93f50895828812b13e26`, original Phase 9B commit
+`ae6e946b17bedb9670ef1d6c5f3a958b33062e82`, preservation checkpoint `affde66`,
+correction commits `f0546d6`, `c529c30`, `4db3515`, and `d1e9369`, followed by
+corrected Phase 9C commit `5b104b9` and handoff commit `b5680aa`.
+
+Active phase: **NONE**.
+
+Next analytical phase: **NOT APPROVED**. Do not start Phase 10.
+
+Active holds are unchanged: Great Black Swamp **C — HOLD / noncanonical**;
+Toledo intake-coordinate discrepancy **UNRESOLVED**. Neither was resolved or
+treated as a prerequisite for Phase 9 acceptance. No release or tag was created.

@@ -1,6 +1,6 @@
 # Phase 9A — Climate & Natural Hazards Baseline, 2026
 
-Status: approved execution brief; implementation is not Sol-accepted until the completed Phase 9 module is returned.
+Status: ACCEPTED / FROZEN; the corrected Phase 9A package is protected by `reports/phase9a_climate_natural_hazards_freeze_manifest.json`.
 
 Primary product: Map 29 — Western Basin Climate & Natural Hazards, 2026.
 
@@ -47,4 +47,4 @@ Great Black Swamp remains C — HOLD / noncanonical. Toledo intake-coordinate re
 
 ## Transition gate
 
-Phase 9B may begin only after Phase 9A generation, Python/R validation, Map 29 QA, Phase 8/prior immutability checks, and integration readback pass. Phase 9A then becomes an immutable working baseline, not formal Sol acceptance.
+Phase 9A is formally **ACCEPTED / FROZEN** after corrected-package review, Python/R validation, Map 29 QA, prior immutability checks, integration readback, and Sol acceptance. Its factual 2026 artifacts are immutable under the Phase 9A freeze manifest.

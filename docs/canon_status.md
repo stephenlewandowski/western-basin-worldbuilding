@@ -107,9 +107,9 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 8A Biogeochemical & Nutrient Flux Baseline:** accepted and frozen as a separate factual 2026 layer; Map 26; `reports/phase8a_biogeochemical_nutrient_flux_freeze_manifest.json`
 - **Phase 8B Biogeochemical Dependencies & Controls:** accepted and frozen as a separate qualitative 2026 layer; Map 27; `reports/phase8b_biogeochemical_dependencies_controls_freeze_manifest.json`
 - **Phase 8C Biogeochemical & Nutrient Flux Futures:** accepted and frozen as separate qualitative 2050/2075 scenario content; Maps 28/28b; `reports/phase8c_biogeochemical_futures_freeze_manifest.json`
-- **Phase 9 Climate & Natural Hazards System:** implemented, validated, corrected, and integrated as a separate physical 2026 / qualitative 2050–2075 layer; Maps 29, 30, 31, and 31b; awaiting Sol acceptance. Post-integration correction history is recorded in `reports/phase9a_correction_qa.md` and `reports/phase9_correction_qa.md`.
+- **Phase 9 Climate & Natural Hazards System:** accepted and frozen as a separate physical 2026 / qualitative 2050–2075 layer; Maps 29, 30, 31, and 31b; freeze protection is recorded in `reports/phase9a_climate_natural_hazards_freeze_manifest.json`, `reports/phase9b_climate_hazard_dependencies_resilience_freeze_manifest.json`, and `reports/phase9c_climate_hazard_futures_freeze_manifest.json`. Post-integration correction history is recorded in `reports/phase9a_correction_qa.md` and `reports/phase9_correction_qa.md`.
 
-Final subphase status: Phase 9A is **IMPLEMENTED / VALIDATED / CORRECTED / INTEGRATED / AWAITING SOL ACCEPTANCE**; Phase 9B is **IMPLEMENTED / VALIDATED / CORRECTED / INTEGRATED / AWAITING SOL ACCEPTANCE**; Phase 9C is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Active phase is **NONE** and the next analytical phase is **NOT APPROVED**.
+Final subphase status: Phase 9A is **ACCEPTED / FROZEN**; Phase 9B is **ACCEPTED / FROZEN**; Phase 9C is **ACCEPTED / FROZEN**. Active phase is **NONE** and the next analytical phase is **NOT APPROVED**.
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without
@@ -169,3 +169,23 @@ Phase 6C changes no factual ecological baseline or regional canon. Its 2050 and
 assumptions, provenance, and no probabilities. The held Great Black Swamp
 candidate remains noncanonical, and no population, extinction, disease, or
 sensitive-location scenario is represented.
+
+## Phase 9 acceptance boundary
+
+Phase 9A, 9B, and 9C are accepted and frozen. Phase 9A remains the factual 2026
+hazard baseline; Phase 9B remains a separate qualitative dependency,
+compound-event, and resilience layer; and Phase 9C remains separate qualitative
+2050/2075 scenario content. No Phase 9 layer creates a composite hazard score,
+unsupported probability, deterministic hazard surface, health or
+social-vulnerability score, or comprehensive emergency-management model.
+
+The transparent correction lineage is preserved: original Phase 9A and 9B
+implementation commits `8a76895c62be6af8304d93f50895828812b13e26` and
+`ae6e946b17bedb9670ef1d6c5f3a958b33062e82`, preservation checkpoint `affde66`,
+correction commits `f0546d6`, `c529c30`, `4db3515`, and `d1e9369`, and corrected
+Phase 9C commit `5b104b9` remain visible in Git history. The final independent
+review record is `reports/phase9_independent_review.md`.
+
+Great Black Swamp remains **C — HOLD / noncanonical**. The Toledo
+intake-coordinate discrepancy remains **UNRESOLVED**. Neither hold was resolved
+or treated as a prerequisite for Phase 9 acceptance.

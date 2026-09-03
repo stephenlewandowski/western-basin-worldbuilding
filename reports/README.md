@@ -222,3 +222,14 @@ Phase 9A reports are `climate_hazard_sources.md`, `climate_hazard_assumptions.md
 `climate_dependency_manifest.json`. Neither layer creates a composite hazard
 score, unsupported probability, health/social-vulnerability ranking, or
 comprehensive emergency-management model.
+
+Phase 9A, 9B, and 9C are **ACCEPTED / FROZEN**. Their freeze manifests protect
+13, 14, and 21 artifacts respectively:
+
+- `phase9a_climate_natural_hazards_freeze_manifest.json`
+- `phase9b_climate_hazard_dependencies_resilience_freeze_manifest.json`
+- `phase9c_climate_hazard_futures_freeze_manifest.json`
+
+The transparent correction logs are `phase9a_correction_qa.md` and
+`phase9_correction_qa.md`; the final independent-review record is
+`phase9_independent_review.md`.

@@ -1,6 +1,6 @@
 # Phase 9C — Climate & Hazard Futures, 2050 / 2075
 
-Status: approved sequential subphase; implementation is not Sol-accepted until the completed Phase 9 module is returned.
+Status: ACCEPTED / FROZEN; the corrected Phase 9C package is protected by `reports/phase9c_climate_hazard_futures_freeze_manifest.json`.
 
 Primary products: Map 31 — Climate & Hazard Futures, 2050; Map 31b — Climate & Hazard Futures, 2075.
 
@@ -46,4 +46,4 @@ Scientific findings must remain distinct from speculative worldbuilding implicat
 
 ## Completion gate
 
-After clean validation, review, commit, push, fast-forward integration, and synchronization readback, record Phase 9A, 9B, and 9C as IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE; set Active phase to NONE and Next analytical phase to NOT APPROVED. Do not start another major scientific module.
+After clean validation, independent review, commit, push, fast-forward integration, synchronization readback, and Sol acceptance, record Phase 9A, 9B, and 9C as **ACCEPTED / FROZEN**; set Active phase to **NONE** and Next analytical phase to **NOT APPROVED**. Do not start another major scientific module.

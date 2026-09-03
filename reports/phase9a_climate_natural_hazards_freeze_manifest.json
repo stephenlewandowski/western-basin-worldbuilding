@@ -1,0 +1,82 @@
+{
+  "accepted_phase": "9A",
+  "baseline": "Climate & Natural Hazards Baseline, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-03",
+  "source_commit": "b5680aa9de0e17544c92cdfabe7b2d9e039f7f07",
+  "acceptance_basis": "Sol formally accepted the corrected and finalized Phase 9 module; transparent correction history remains preserved in separate commits and reports.",
+  "counts": {
+    "nodes": 28,
+    "edges": 29,
+    "observations": 28,
+    "sources": 21
+  },
+  "artifacts": {
+    "data/processed/networks/climate_hazard_nodes.csv": {
+      "sha256": "fe5175cc81f9df81ff6ddbe32fa14ae3fb72b3a96b68529353045dd0f63ff76f",
+      "bytes": 8310,
+      "role": "Phase 9 analytical artifact"
+    },
+    "data/processed/networks/climate_hazard_edges.csv": {
+      "sha256": "c15afa843d274171e9f1f79a1bebf05063174d6c6bba33009c11e497825e2107",
+      "bytes": 6435,
+      "role": "Phase 9 analytical artifact"
+    },
+    "data/processed/analysis/climate_hazard_observations.csv": {
+      "sha256": "7d7833e8a043282a27d3705395e4b339442f88728a3eabaecafb50a285432ad5",
+      "bytes": 7242,
+      "role": "Phase 9 analytical artifact"
+    },
+    "data/processed/analysis/climate_hazard_sources.csv": {
+      "sha256": "2f7a1f8ae4d52fb65c0b881264cb15439db1fed57f324c7ec9333684dce4444c",
+      "bytes": 7958,
+      "role": "Phase 9 analytical artifact"
+    },
+    "reports/phase9a_acquisition_summary.json": {
+      "sha256": "4f0d414c597a66025b993163d782c890a4f93d5831dc45118989ada09b33c07d",
+      "bytes": 3032,
+      "role": "source acquisition summary"
+    },
+    "outputs/maps/systems/29_climate_natural_hazards_2026.png": {
+      "sha256": "9a01fc91b3321ce60868bc5757ca9dbdfdbc1b688f394e69691c0da9cdee13f8",
+      "bytes": 1289604,
+      "role": "map raster"
+    },
+    "outputs/maps/systems/29_climate_natural_hazards_2026.svg": {
+      "sha256": "7571dcc5176d2cb98874f76404918170ed42188064b07a9b8c10332203d29e68",
+      "bytes": 17752308,
+      "role": "map vector"
+    },
+    "reports/climate_hazard_sources.md": {
+      "sha256": "5792822fb8a6b835a046d8611265aa7c73fd892a4277ace66b7b5c7bd9a5ffb6",
+      "bytes": 3923,
+      "role": "source report"
+    },
+    "reports/climate_hazard_assumptions.md": {
+      "sha256": "4b93bd992f196858750c52c99070750a483183a9cca3b28ce9c723f26cbd12a3",
+      "bytes": 2042,
+      "role": "assumptions and scope report"
+    },
+    "reports/climate_hazard_findings.md": {
+      "sha256": "f514f26cf9cd117b01bc8db38551a83560573593010d9b97216aa1bd71684e34",
+      "bytes": 8176,
+      "role": "findings report"
+    },
+    "reports/climate_hazard_qa.md": {
+      "sha256": "9b060e8fe5d722d033978eef9922c4c70d43ef48513aeefa7131caf9ffb034c7",
+      "bytes": 2518,
+      "role": "QA report"
+    },
+    "reports/phase9a_artifact_check.json": {
+      "sha256": "4089ba3f77fb8ca0c759705aa169af37df9c4323643828ab2b870e72e40ef590",
+      "bytes": 637,
+      "role": "machine validation result"
+    },
+    "reports/phase9a_correction_qa.md": {
+      "sha256": "4dbc1323ab458b23be93cbe8acd25831f8bbbf3f649dbd253c6249fd11aa351e",
+      "bytes": 4460,
+      "role": "transparent correction history"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "accepted_phase": "9B",
+  "baseline": "Climate/Hazard Dependencies, Compound Events & Resilience, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-03",
+  "source_commit": "b5680aa9de0e17544c92cdfabe7b2d9e039f7f07",
+  "acceptance_basis": "Sol formally accepted the corrected and finalized Phase 9 module; transparent correction history remains preserved in separate commits and reports.",
+  "counts": {
+    "dependency_edges": 24,
+    "dependency_register": 24,
+    "compound_events": 9,
+    "controls": 12,
+    "matrix_rows": 9
+  },
+  "artifacts": {
+    "data/processed/networks/climate_hazard_dependency_edges.csv": {
+      "sha256": "058814953b1fb08d52e5485f0d6827e3acf434ca0ee3c0e72e7450ce8ef5066e",
+      "bytes": 8607,
+      "role": "Phase 9 analytical artifact"
+    },
+    "data/processed/analysis/climate_hazard_dependency_register.csv": {
+      "sha256": "268d43645154b8c2c3913e2629af647279917330b6a3bd695b1b0bcac57f38f8",
+      "bytes": 8112,
+      "role": "Phase 9 analytical artifact"
+    },
+    "data/processed/analysis/climate_compound_event_register.csv": {
+      "sha256": "e72969da5ce646041d1c5e4ae99c8ccd840e3f0382fa75935a984ceeeac81a22",
+      "bytes": 3769,
+      "role": "Phase 9 analytical artifact"
+    },
+    "data/processed/analysis/climate_resilience_control_register.csv": {
+      "sha256": "c222e36b503ea5cda5e6b2e1f2e2a8b7571fcc718fbea0f2cffd23ce1f819fa4",
+      "bytes": 3869,
+      "role": "Phase 9 analytical artifact"
+    },
+    "data/processed/analysis/climate_hazard_dependency_matrix.csv": {
+      "sha256": "a03277f220d9f83b6afc75551f0a92458b8439a36a954e8dfbcf1f59ff856b0b",
+      "bytes": 1778,
+      "role": "Phase 9 analytical artifact"
+    },
+    "data/processed/analysis/climate_dependency_sources.csv": {
+      "sha256": "6d68242d34613e7e64ea92ca341f45dd741d5c0bf99060d9c37df7457c5e0ba2",
+      "bytes": 4723,
+      "role": "Phase 9 analytical artifact"
+    },
+    "outputs/maps/systems/30_climate_hazard_dependencies_resilience_2026.png": {
+      "sha256": "50cac1f4bfe9b9f64f2766b228a8d36810991a435ffed41334a5d5f41edd0787",
+      "bytes": 1282757,
+      "role": "map raster"
+    },
+    "outputs/maps/systems/30_climate_hazard_dependencies_resilience_2026.svg": {
+      "sha256": "de040c10c3255cf9ba088246c47773122d1a91834e48f9497ca363f07efacc11",
+      "bytes": 17752357,
+      "role": "map vector"
+    },
+    "reports/climate_dependency_sources.md": {
+      "sha256": "30b41df2162e00816b7be211c48c4719eff5cbc970ee50a70f93e20d58720f52",
+      "bytes": 2710,
+      "role": "source report"
+    },
+    "reports/climate_dependency_assumptions.md": {
+      "sha256": "b5f45b7de74f961088a7aa0d57c3dd1f95f63ec99698345f59b3843bc05d811f",
+      "bytes": 1518,
+      "role": "assumptions and scope report"
+    },
+    "reports/climate_dependency_findings.md": {
+      "sha256": "ce756e6510833e3f6c7f8d832d860efb2feecf6928464312e466fab24d35d391",
+      "bytes": 4404,
+      "role": "findings report"
+    },
+    "reports/climate_dependency_qa.md": {
+      "sha256": "4c5235a55b8239aee46c78e9e8672c2e7367febed726f0bad7ec1136d1d6542d",
+      "bytes": 1200,
+      "role": "QA report"
+    },
+    "reports/phase9b_artifact_check.json": {
+      "sha256": "67cc6dbfb000866935721520093845aa852b997000cb7e7f2583a1b60ffd0aaf",
+      "bytes": 458,
+      "role": "machine validation result"
+    },
+    "reports/phase9_correction_qa.md": {
+      "sha256": "52b3f8b8f3742fc318dd87a29449709cf9667056f8fafedefc70b728827cc662",
+      "bytes": 11975,
+      "role": "transparent correction history"
+    }
+  }
+}

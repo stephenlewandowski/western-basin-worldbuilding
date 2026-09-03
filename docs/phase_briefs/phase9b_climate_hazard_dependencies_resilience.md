@@ -1,6 +1,6 @@
 # Phase 9B — Climate/Hazard Dependencies, Compound Events & Resilience, 2026
 
-Status: approved sequential subphase; implementation is not Sol-accepted until the completed Phase 9 module is returned.
+Status: ACCEPTED / FROZEN; the corrected Phase 9B package is protected by `reports/phase9b_climate_hazard_dependencies_resilience_freeze_manifest.json`.
 
 Primary product: Map 30 — Climate / Hazard Dependencies & Resilience, 2026.
 
@@ -35,6 +35,6 @@ Use qualitative labels only for hazard exposure context, system dependency, moni
 
 ## Required validation and transition
 
-Run independent Python and R validators, Map 30 artifact/text/readability QA, Phase 9A baseline hash validation, Phase 8/prior regressions, Markdown links, application tests/build, Git/LFS, and complete diff review. After integration readback, Phase 9B is an immutable working baseline and Phase 9C may proceed automatically; this is not formal Sol acceptance.
+Independent Python and R validators, Map 30 artifact/text/readability QA, Phase 9A baseline hash validation, Phase 8/prior regressions, Markdown links, application tests/build, Git/LFS, and complete diff review passed. Phase 9B is formally **ACCEPTED / FROZEN** under its freeze manifest; its qualitative artifacts are immutable.
 
 Preserve Great Black Swamp C — HOLD / noncanonical and the unresolved Toledo intake-coordinate discrepancy. Reuse environmental-health records only as receptor/control context; no mortality, hospitalization, disease, exposure, dose, health-risk, EJ, or demographic scoring.
