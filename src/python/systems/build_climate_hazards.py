@@ -36,7 +36,7 @@ SOURCE_COLUMNS = [
     "use_limitations",
 ]
 SOURCE_ROWS = [
-    ["b9_acis", "Applied Climate Information System station data", "https://data.rcc-acis.org/StnData", "StnData JSON for KTDZ / Toledo Executive Airport", "regional_climate_service", "observation", "station", "2025 calendar year and 2026 YTD", "2026-09-03", "Daily values are station observations; missing and trace precipitation are retained as limitations."],
+    ["b9_acis", "Applied Climate Information System station data", "https://data.rcc-acis.org/StnData", "StnData JSON for KTDZ / Toledo Executive Airport", "station_climate_service", "observation", "station", "2025 calendar year and 2026 YTD", "2026-09-03", "Daily values are station observations; missing and trace precipitation are retained as limitations."],
     ["b9_ncei_cag", "NOAA NCEI Climate at a Glance", "https://www.ncei.noaa.gov/access/monitoring/climate-at-a-glance/county/time-series/OH-095-tavg/12/12/2025-2026.json", "County temperature time series", "federal_dataset", "observation_adjusted_climate_series", "Lucas County", "2025 latest complete value returned", "2026-09-03", "Climate variability context; recent values may be preliminary and are not a station extreme."],
     ["b9_nws_points", "National Weather Service API point metadata", "https://api.weather.gov/points/41.65,-83.54", "Toledo-area point forecast / warning service linkage", "federal_api", "forecast_and_warning_service", "point / NWS service areas", "current service metadata", "2026-09-03", "Service endpoint identifies forecast and warning systems; it is not an observed hazard surface."],
     ["b9_nws_climate", "NWS Weather Research and Forecasting Climate portal", "https://www.weather.gov/wrh/Climate?wfo=cle", "NOWData and local climate products", "federal_web", "observation_and_climate_context", "NWS WFO / station", "current portal", "2026-09-03", "Portal documents station and product context; interactive output is not embedded as a new regional climatology."],
@@ -64,11 +64,11 @@ NODE_ROWS = [
     ["HZ-001", "Toledo Executive Airport climate observation station", "extreme_heat;heavy_precipitation;winter", "climate_observation", "real", "verified", "station", 41.56327, -83.47671, "source-backed station", "b9_acis", "high", "Representative station record; not basin-wide and precipitation contains missing/trace values."],
     ["HZ-002", "Lucas County climate variability context", "extreme_heat;heavy_precipitation;drought", "climate_observation", "real", "verified", "county", "", "", "county context", "b9_ncei_cag", "moderate", "County climate-series context; adjusted climate analysis is not identical to a station extreme."],
     ["HZ-003", "Toledo-area NWS forecast and warning service area", "all", "warning_system", "real", "verified", "NWS point / service area", "", "", "public warning interface", "b9_nws_points", "high", "Forecast and warning service linkage; no current alert or hazard probability is asserted."],
-    ["HZ-004", "Maumee watershed precipitation and runoff interface", "heavy_precipitation_flooding", "hazard_region", "real", "inferred", "HUC8 / HUC12 interface", "", "", "hydrologic context", "b9_noaa_atlas14", "moderate", "Regional physical interface; no precipitation-frequency surface is generated here."],
+    ["HZ-004", "Maumee watershed runoff-connectivity interface", "heavy_precipitation_flooding", "hazard_region", "real", "inferred", "HUC8 / HUC12 interface", "", "", "hydrologic context", "b9_usgs_dv", "limited", "Project-inferred hydrologic interface; the representative USGS gauge supports river observation only and does not establish watershed-wide runoff or a precipitation-frequency surface."],
     ["HZ-005", "Maumee River at Waterville USGS gauge", "heavy_precipitation_flooding;drought_low_water", "river_flood_interface", "real", "verified", "station / river reach", 41.5000526, -83.7127145, "source-backed gauge", "b9_usgs_dv", "high", "Daily mean discharge observation; gauge is not the whole watershed or floodplain."],
     ["HZ-006", "Lower Maumee and tributary flood interface", "heavy_precipitation_flooding", "river_flood_interface", "real", "inferred", "river / floodplain interface", "", "", "regional interface", "b9_usgs_dv", "moderate", "Represents runoff, river-stage, tributary, and floodplain interaction without a new flood footprint."],
     ["HZ-007", "Regulatory flood-hazard mapping context", "heavy_precipitation_flooding", "floodplain_context", "real", "verified", "modeled regulatory flood zone", "", "", "mapped regulatory context", "b9_fema_nfhl", "moderate", "FEMA regulatory mapping is distinct from observed flooding, forecast flooding, and future scenario change."],
-    ["HZ-008", "Urban and developed stormwater burden context", "heavy_precipitation_flooding;winter", "urban_context", "real", "inferred", "urban area / subwatershed", "", "", "developed-land context", "b9_noaa_atlas14", "limited", "Generalized urban drainage burden; no parcel, outfall, or imperviousness load model."],
+    ["HZ-008", "Urban stormwater pathway context", "heavy_precipitation_flooding", "urban_context", "real", "inferred", "urban area / subwatershed", "", "", "developed-land context", "b9_noaa_atlas14", "limited", "Project-inferred developed drainage context; Atlas 14 supports site/grid precipitation-frequency context only and does not establish urban burden, outfalls, imperviousness, or control performance."],
     ["HZ-009", "Lucas County drought-status context", "drought_low_water", "drought_context", "real", "verified", "county", "", "", "county status context", "b9_usdm_area", "high", "Weekly U.S. Drought Monitor category context; not groundwater depletion or a soil-moisture field."],
     ["HZ-010", "Maumee low-flow observation context", "drought_low_water", "low_flow_observation", "real", "verified", "station / river reach", 41.5000526, -83.7127145, "source-backed gauge", "b9_usgs_dv", "high", "Low daily mean flow at one gauge; not a watershed-wide low-flow statistic."],
     ["HZ-011", "NOAA Toledo Great Lakes water-level station", "lake_coastal", "climate_observation", "real", "verified", "station / shoreline", 41.6936, -83.4723, "source-backed station", "b9_coops_station", "high", "Station 9063085; daily means do not capture all short-lived wind setup or seiche variability."],
@@ -76,28 +76,30 @@ NODE_ROWS = [
     ["HZ-013", "Western Lake Erie shoreline and coastal-flood interface", "lake_coastal", "coastal_interface", "real", "inferred", "shoreline / nearshore", "", "", "generalized shoreline interface", "b9_glerl_levels", "moderate", "High/low lake levels, waves, wind setup, and erosion are represented as interfaces, not shoreline predictions."],
     ["HZ-014", "Lake Erie wind setup and seiche interface", "lake_coastal;severe_convective", "lake_hazard", "real", "inferred", "western Lake Erie / bay", "", "", "lake-process context", "b9_glerl_levels", "moderate", "Great Lakes wind setup/seiche process; not equated with ocean storm surge."],
     ["HZ-015", "Lake wave, storm, and ice-condition context", "lake_coastal;winter", "lake_hazard", "real", "verified", "western Lake Erie / shoreline", "", "", "regional lake context", "b9_glerl_levels", "moderate", "Wave, storm, and ice conditions are contextual; no wave-height or ice-risk surface is asserted."],
-    ["HZ-016", "Regional severe convective hazard context", "severe_convective", "convective_hazard", "real", "verified", "regional / county event context", "", "", "regional aggregation", "b9_storm_events", "moderate", "Thunderstorm wind, tornado, hail, and flood-related records are aggregated at selected county scale."],
-    ["HZ-017", "Selected western-basin county Storm Events records", "severe_convective;heavy_precipitation_flooding;winter", "climate_observation", "real", "verified", "county / event record", "", "", "historical event context", "b9_storm_events_2025", "high", "2025 selected county event records; event counts are not rates, probabilities, or hazard surfaces."],
+    ["HZ-016", "Regional severe convective hazard context", "severe_convective", "convective_hazard", "real", "verified", "regional / county event context", "", "", "regional aggregation", "b9_storm_events_2025", "moderate", "Thunderstorm wind, tornado, hail, and flood-related records use the dated 2025 details snapshot aggregated at selected county scale; these are not regional rates or climatology."],
+    ["HZ-017", "Selected western-basin county Storm Events records", "severe_convective;heavy_precipitation_flooding;winter", "historical_event_context", "real", "verified", "county / event record", "", "", "historical event context", "b9_storm_events_2025", "high", "2025 selected county event records; event counts are not rates, probabilities, or hazard surfaces."],
     ["HZ-018", "Regional winter hazard context", "winter", "winter_hazard", "real", "verified", "regional / forecast area", "", "", "regional hazard context", "b9_nws_winter", "moderate", "Extreme cold, snow, ice, and freeze-thaw context; lake-effect snow is not overgeneralized."],
     ["HZ-019", "NWS public warning system", "all", "warning_system", "real", "verified", "forecast area / county", "", "", "public warning interface", "b9_nws_points", "high", "Public warnings and forecasts are control interfaces; warning availability is not hazard absence."],
     ["HZ-020", "USGS streamflow monitoring network", "heavy_precipitation_flooding;drought_low_water", "monitoring_system", "real", "verified", "station / river network", "", "", "monitoring network context", "b9_usgs_dv", "high", "One representative gauge is used; this is not an exhaustive gauge inventory."],
-    ["HZ-021", "NOAA CO-OPS Great Lakes water-level monitoring", "lake_coastal", "monitoring_system", "real", "verified", "station / Great Lakes network", "", "", "monitoring network context", "b9_glerl_levels", "high", "CO-OPS and binational monitoring provide water-level observations; network coverage is not a hazard score."],
+    ["HZ-021", "NOAA CO-OPS Toledo water-level monitoring", "lake_coastal", "monitoring_system", "real", "verified", "station / shoreline", "", "", "monitoring station context", "b9_coops_daily", "high", "CO-OPS station 9063085 provides a local daily-mean water-level record; it is not a complete Great Lakes network or hazard score."],
     ["HZ-022", "U.S. Drought Monitor and drought-information system", "drought_low_water", "monitoring_system", "real", "verified", "county / regional status", "", "", "monitoring and assessment", "b9_drought_gov", "high", "Drought categories combine indicators and expert assessment; no groundwater depletion claim."],
-    ["HZ-023", "NOAA/NWS precipitation-frequency information", "heavy_precipitation_flooding", "monitoring_system", "real", "verified", "site / regional frequency product", "", "", "reference product", "b9_noaa_atlas14", "moderate", "Frequency product is kept as reference context rather than converted into a new local event statistic."],
-    ["HZ-024", "NOAA/NCEI and regional climate data services", "extreme_heat;heavy_precipitation;winter", "monitoring_system", "real", "verified", "station / county / regional", "", "", "climate data context", "b9_ncei_cag", "high", "Climate series and station products have different adjustments and scales; they are not mixed silently."],
+    ["HZ-023", "NOAA/NWS precipitation-frequency information", "heavy_precipitation_flooding", "reference_product", "real", "verified", "site / regional frequency product", "", "", "reference product", "b9_noaa_atlas14", "moderate", "Modeled precipitation-frequency planning context; no observed event, runoff, rate, or future projection is generated here."],
+    ["HZ-024", "NOAA NCEI Lucas County climate-series context", "extreme_heat;heavy_precipitation;winter", "monitoring_system", "real", "verified", "county", "", "", "county climate-series context", "b9_ncei_cag", "moderate", "NOAA Climate at a Glance county series only; it is not an ACIS station record or a regional climate-data aggregation."],
     ["HZ-025", "NOAA GLERL Great Lakes water-level and ice resources", "lake_coastal;winter", "monitoring_system", "real", "verified", "Great Lakes / station network", "", "", "lake monitoring context", "b9_glerl_levels", "high", "Monitoring, observation, forecast, and ice resources are distinct products."],
-    ["HZ-026", "Developed infrastructure and access context", "all", "infrastructure_context", "real", "inferred", "urban / regional function", "", "", "generalized receptor context", "b9_nws_points", "limited", "Generalized infrastructure context for physical disruption pathways; no asset vulnerability score or sensitive detail."],
+    ["HZ-026", "Generalized developed-system receptor context", "all", "infrastructure_context", "real", "inferred", "urban / regional function", "", "", "generalized receptor context", "b9_nws_points", "limited", "Project-inferred generalized receptor context; NWS point metadata establish a forecast/warning interface only and do not directly establish infrastructure or access effects; no asset vulnerability score or sensitive detail."],
+    ["HZ-027", "Applied Climate Information System station-data service", "extreme_heat;heavy_precipitation;winter", "monitoring_system", "real", "verified", "station", "", "", "station climate-data service", "b9_acis", "high", "ACIS station-data service supports the Toledo Executive Airport observations; it is not a county climate series."],
+    ["HZ-028", "NOAA NCEI Storm Events 2025 details snapshot", "severe_convective;heavy_precipitation_flooding;winter", "monitoring_system", "real", "verified", "county / event record", "", "", "dated event-record service", "b9_storm_events_2025", "high", "Dated 2025 details snapshot used for the selected-county event records; counts are not rates or probabilities."],
 ]
 
 EDGE_COLUMNS = ["edge_id", "from_id", "to_id", "relationship_type", "relationship_basis", "scale", "source_id", "confidence", "notes"]
 EDGE_ROWS = [
-    ["HZE-001", "HZ-001", "HZ-024", "observed_by", "documented station data service", "station", "b9_acis", "high", "Daily station observations are retained at station scale."],
+    ["HZE-001", "HZ-001", "HZ-027", "observed_by", "documented station data service", "station", "b9_acis", "high", "Daily station observations are retained at station scale."],
     ["HZE-002", "HZ-002", "HZ-024", "observed_by", "documented climate data service", "county", "b9_ncei_cag", "moderate", "County climate context is not substituted for a station record."],
     ["HZE-003", "HZ-001", "HZ-003", "warning_for", "public warning-service interface", "station / forecast area", "b9_nws_points", "moderate", "Heat and cold conditions can be addressed through warnings; no event claim is added."],
-    ["HZE-004", "HZ-004", "HZ-006", "hydrologically_amplified_by", "physical runoff and drainage logic", "HUC8 / river / floodplain", "b9_usgs_dv", "moderate", "Runoff and tributary connectivity can amplify flood conditions; no universal threshold is inferred."],
+    ["HZE-004", "HZ-006", "HZ-004", "hydrologically_amplified_by", "project inference / representative gauge plus hydrologic connectivity logic", "HUC8 / river / floodplain", "b9_usgs_dv", "limited", "The USGS gauge supports one river observation; tributary connectivity and amplification are project-inferred physical logic, not directly quantified by that source."],
     ["HZE-005", "HZ-004", "HZ-005", "observed_by", "representative gauge observation", "HUC8 / station", "b9_usgs_dv", "moderate", "Gauge observation samples one reach within a larger watershed."],
     ["HZE-006", "HZ-006", "HZ-007", "affects", "floodplain interface and regulatory mapping context", "river / floodplain", "b9_fema_nfhl", "moderate", "Mapped regulatory flood context is not an observed flood footprint."],
-    ["HZE-007", "HZ-008", "HZ-006", "affects", "urban drainage and receiving-water interface", "urban / river", "b9_noaa_atlas14", "limited", "Generalized stormwater burden; no outfall or parcel claim."],
+    ["HZE-007", "HZ-008", "HZ-006", "affects", "project inference / precipitation-frequency context plus urban drainage logic", "urban / river", "b9_noaa_atlas14", "limited", "Atlas 14 supports precipitation-frequency context only; the urban drainage/receiving-water relationship is an explicit project inference with no outfall, parcel, imperviousness, or performance claim."],
     ["HZE-008", "HZ-006", "HZ-019", "forecast_by", "public river and flood warning interface", "river / forecast area", "b9_nws_points", "moderate", "Forecast and warning systems are distinct from observed flood conditions."],
     ["HZE-009", "HZ-009", "HZ-022", "monitored_by", "documented drought assessment system", "county / regional", "b9_usdm_area", "high", "Weekly drought categories are assessed from multiple indicators."],
     ["HZE-010", "HZ-009", "HZ-010", "affects", "meteorological and hydrologic low-water pathway", "county / station", "b9_usgs_dv", "limited", "County drought status does not determine a gauge-specific flow on every date."],
@@ -108,19 +110,19 @@ EDGE_ROWS = [
     ["HZE-015", "HZ-015", "HZ-013", "affects", "wave, storm, and ice interface", "shoreline / nearshore", "b9_glerl_levels", "limited", "No wave height, ice thickness, or shoreline position is fabricated."],
     ["HZE-016", "HZ-015", "HZ-025", "monitored_by", "documented Great Lakes monitoring resources", "lake / network", "b9_glerl_levels", "moderate", "Ice and lake condition resources are monitoring context."],
     ["HZE-017", "HZ-016", "HZ-017", "historically_occurs_in", "historical event-record aggregation", "regional / county", "b9_storm_events_2025", "high", "Event records document occurrence in selected counties, not a spatial risk surface."],
-    ["HZE-018", "HZ-017", "HZ-024", "observed_by", "historical event and climate-data systems", "county / event record", "b9_storm_events", "moderate", "Storm Events and climate series answer different questions and remain separate."],
+    ["HZE-018", "HZ-017", "HZ-028", "observed_by", "historical event-record aggregation", "county / event record", "b9_storm_events_2025", "high", "The dated 2025 Storm Events snapshot supports selected county event records; county climate series answer a different question and remain separate."],
     ["HZE-019", "HZ-019", "HZ-016", "warning_for", "public severe-weather warning interface", "regional / forecast area", "b9_nws_thunderstorm", "moderate", "Warnings support response but do not remove hazard conditions."],
     ["HZE-020", "HZ-019", "HZ-018", "warning_for", "public winter warning interface", "regional / forecast area", "b9_nws_winter", "moderate", "Warning system relationship; no alert frequency is asserted."],
-    ["HZE-021", "HZ-018", "HZ-026", "affects", "winter weather and developed-system interface", "regional / urban", "b9_nws_winter", "limited", "Physical disruption context only; no infrastructure loss estimate."],
-    ["HZE-022", "HZ-016", "HZ-026", "affects", "severe storm and developed-system interface", "regional / urban", "b9_nws_thunderstorm", "limited", "No outage probability or communication failure estimate."],
-    ["HZE-023", "HZ-023", "HZ-004", "historically_occurs_in", "precipitation-frequency reference context", "site / HUC8", "b9_noaa_atlas14", "moderate", "Frequency product is reference context, not a new event observation."],
+    ["HZE-021", "HZ-018", "HZ-026", "affects", "project inference / winter-weather-to-developed-system logic", "regional / urban", "b9_nws_winter", "limited", "NWS winter products support hazard and forecast context only; the developed-system effect is a qualitative physical inference with no infrastructure-loss, road-closure, or maintenance-failure estimate."],
+    ["HZE-022", "HZ-016", "HZ-026", "affects", "project inference / severe-weather-to-developed-system logic", "regional / urban", "b9_nws_thunderstorm", "limited", "NWS thunderstorm guidance supports hazard definitions only; the developed-system relationship is a qualitative inference with no outage probability, communications-failure, restoration, or access-loss estimate."],
+
     ["HZE-024", "HZ-018", "HZ-015", "coastal_interface_with", "winter lake and ice process interface", "western Lake Erie / shoreline", "b9_glerl_levels", "limited", "Lake-effect snow is not assumed to dominate the whole region."],
     ["HZE-025", "HZ-004", "HZ-020", "monitored_by", "hydrologic monitoring network", "HUC8 / station network", "b9_usgs_dv", "moderate", "Representative station does not imply complete watershed coverage."],
     ["HZE-026", "HZ-012", "HZ-021", "monitored_by", "binational Great Lakes water-level monitoring", "lake / station network", "b9_glerl_levels", "high", "Water levels are continuously monitored through regional federal partnerships."],
     ["HZE-027", "HZ-016", "HZ-019", "forecast_by", "NWS convective forecast and warning service", "regional / forecast area", "b9_nws_points", "moderate", "Forecast availability is separate from event occurrence."],
     ["HZE-028", "HZ-004", "HZ-007", "affects", "runoff/floodplain and mapped regulatory context", "HUC8 / floodplain", "b9_fema_nfhl", "moderate", "Hydrologic event context and regulatory mapping remain distinct categories."],
-    ["HZE-029", "HZ-009", "HZ-026", "affects", "drought and developed water-demand context", "county / urban", "b9_usdm_area", "limited", "Generalized physical context; no demand, outage, or health claim."],
-    ["HZE-030", "HZ-001", "HZ-026", "affects", "extreme temperature and developed-system context", "station / urban", "b9_acis", "limited", "Station heat observations do not estimate individual exposure or health outcome."],
+    ["HZE-029", "HZ-009", "HZ-026", "affects", "project inference / drought-status-to-developed-water-demand logic", "county / urban", "b9_usdm_area", "limited", "The Drought Monitor supports county status only; the developed water-demand relationship is a qualitative inference with no observed demand, water-use, outage, or health claim."],
+    ["HZE-030", "HZ-001", "HZ-026", "affects", "project inference / station-to-developed-system context", "station / urban", "b9_acis", "limited", "ACIS supports the station temperature observation only; the developed-system relationship is a qualitative inference and does not estimate infrastructure effect, individual exposure, health outcome, or outage."],
 ]
 
 OBS_COLUMNS = ["observation_id", "hazard_family", "metric", "value", "units", "period", "station_or_scope", "spatial_scale", "observed_or_modeled", "source_id", "confidence", "notes"]
@@ -342,9 +344,9 @@ Hydrologic observations use the USGS daily-value service for Maumee River at Wat
 
 FEMA flood-hazard mapping remains a distinct regulatory context.[6]
 
-NOAA/NWS precipitation-frequency products remain a distinct modeled context.[7]
+NOAA/NWS precipitation-frequency products remain a distinct modeled context and are not used as direct evidence for Maumee runoff or urban stormwater burden.[7]
 
-NWS forecast and warning metadata are a separate service layer.[3][4]
+NWS forecast and warning metadata are a separate service layer; general forecast/station metadata do not directly establish infrastructure or access effects.[3][4]
 
 Drought context uses the U.S. Drought Monitor weekly county services.[8][9]
 
@@ -356,7 +358,7 @@ CO-OPS flood-level metadata are retained as a separate warning-stage context.[14
 
 NOAA GLERL provides Great Lakes monitoring and process context.[15]
 
-The selected convective and winter event records come from a dated NOAA NCEI Storm Events archive snapshot.[16][17][18]
+The selected convective and winter event records come from the dated 2025 NOAA NCEI Storm Events details snapshot, not the general Storm Events landing page.[16][17][18]
 
 NWS and SPC provide hazard-definition and regional severe-weather context.[19][20][21]
 
@@ -364,7 +366,7 @@ The acquisition package preserves raw JSON/CSV responses under `data/raw/climate
 
 The full 2025 bulk archive is intentionally not committed.
 
-Station, county, HUC/river, floodplain, shoreline, regional, and forecast-area scales remain explicit.[1][5][6]
+Station, county, HUC/river, floodplain, shoreline, regional, and forecast-area scales remain explicit.[1][5][6] Project-inferred watershed, urban-drainage, and developed-system relationships are labeled as inference rather than direct source findings.
 
 The phase does not create a composite hazard score, individual exposure, health outcome, social-vulnerability ranking, or unsupported hazard probability.[6][18][19]
 """,
@@ -378,7 +380,7 @@ Station observations remain station observations. The Lucas County Climate at a 
 
 The NOAA CO-OPS daily mean water-level series is retained in meters referenced to IGLD 1985. CO-OPS flood-level metadata are retained separately in the source-reported feet reference and are warning thresholds, not observations; no arithmetic comparison is made between the two. Great Lakes wind setup and seiche are represented as lake-process interfaces, not ocean storm surge.
 
-NOAA Storm Events counts are selected 2025 county event records across a defined western-basin regional context. They are historical reports, not event probabilities, trends, attribution studies, or hazard zones. Winter records provide event context; lake-effect snow is not generalized across the basin without a specific regional climatology.
+NOAA Storm Events counts are selected 2025 county event records from the dated details snapshot across a defined western-basin regional context. They are historical reports, not event probabilities, trends, attribution studies, or hazard zones. Winter records provide event context; lake-effect snow is not generalized across the basin without a specific regional climatology.
 
 ## Exclusions
 
@@ -426,11 +428,11 @@ FACT: At USGS 04193500, Maumee River at Waterville, the 2025 daily mean discharg
 
 FACT: The 2025 daily mean minimum is 65 cubic feet per second on 2025-10-25.[5]
 
-FACT: The 2026 returned record includes a maximum of 68,200 cubic feet per second on 2026-04-03 and a minimum of 313 cubic feet per second on 2026-09-02.[5]
+FACT: The 2026 returned record includes a maximum of 68,200 cubic feet per second on 2026-04-03 and a minimum of 313 cubic feet per second on 2026-07-29; the 2026-09-02 value is 476 cubic feet per second.[5]
 
 These are daily mean observations at one gauge, not observed flood extents, regulatory flood zones, or basin-wide low-flow conditions.[5][6]
 
-INFERENCE: Heavy precipitation and flooding materially connect upland/subwatershed runoff, tributaries, the Lower Maumee, floodplain interfaces, and urban stormwater systems.
+INFERENCE: Heavy precipitation and flooding can connect upland/subwatershed runoff, tributaries, the Lower Maumee, floodplain interfaces, and urban stormwater systems. The watershed and urban-drainage relationships are project inferences; the cited gauge and Atlas 14 product do not directly quantify those broader interfaces.
 
 FEMA regulatory flood-hazard mapping remains a separate modeled category.[6]
 
@@ -500,11 +502,11 @@ These gaps are recorded rather than filled with synthetic values.
 
 ## Structural and provenance checks
 
-The package contains 26 hazard nodes, 30 directed relationships, 28 quantitative/context observation records, and 21 source-registry records. Every node and edge has a source ID, scale, confidence, reality/canon status, and notes. Every observation retains metric, value, units, period, station_or_scope, spatial scale, observed_or_modeled status, source ID, confidence, and limitations.
+The package contains 28 hazard nodes, 30 directed relationships, 28 quantitative/context observation records, and 21 source-registry records. Every node and edge has a source ID, scale, confidence, reality/canon status, and notes. Every observation retains metric, value, units, period, station_or_scope, spatial scale, observed_or_modeled status, source ID, confidence, and limitations.
 
 ## Scientific boundary checks
 
-The validator rejects composite scores, unsupported probabilities, future scenario rows, health outcomes, personal exposure/dose, social-vulnerability rankings, neighborhood risk rankings, deterministic event surfaces, and unsupported groundwater claims. It also checks that regulatory flood-zone language is not represented as an observed flood footprint, county event counts are not represented as rates, and Great Lakes seiche/wind setup is not described as ocean storm surge.
+The validator explicitly checks selected semantic boundaries: the FEMA regulatory-flood node and related edges retain modeled-regulatory status and observed-flood exclusions; Storm Events observations retain the dated-snapshot source, county-event-record scale, and non-rate/non-probability notes; groundwater mentions are limited to explicit negative-scope notes; and the station, county, watershed, floodplain, shoreline, regional, and forecast-area categories remain distinct. It also rejects composite scores, unsupported probabilities, future scenario rows, health outcomes, personal exposure/dose, social-vulnerability rankings, neighborhood risk rankings, deterministic event surfaces, and unsupported positive groundwater claims. Great Lakes seiche/wind setup is checked as distinct from ocean storm surge.
 
 ## Map QA
 
@@ -512,7 +514,7 @@ Map 29 is a PNG/SVG pair with inspectable SVG text, source-backed station marker
 
 ## Completeness and limitations
 
-The ACIS precipitation record has missing and trace values, so reported sums and threshold counts are qualified. The USGS and CO-OPS records are station-scale. U.S. Drought Monitor values are weekly county assessment products. Storm Events counts use a dated 2025 archive snapshot and a selected county scope. Warning thresholds are not observations. These distinctions are machine-checked and remain visible in the data tables and reports.
+The ACIS precipitation record has missing and trace values, so reported sums and threshold counts are qualified. The USGS and CO-OPS records are station-scale. U.S. Drought Monitor values are weekly county assessment products. Storm Events counts use a dated 2025 archive snapshot and a selected county scope. Warning thresholds are not observations. These distinctions are checked by explicit row, field, source, scale, and negative-scope assertions and remain visible in the data tables and reports.
 
 ## Protected prior content
 

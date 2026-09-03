@@ -2,11 +2,11 @@
 
 ## Structural and provenance checks
 
-The package contains 26 hazard nodes, 30 directed relationships, 28 quantitative/context observation records, and 21 source-registry records. Every node and edge has a source ID, scale, confidence, reality/canon status, and notes. Every observation retains metric, value, units, period, station_or_scope, spatial scale, observed_or_modeled status, source ID, confidence, and limitations.
+The package contains 28 hazard nodes, 30 directed relationships, 28 quantitative/context observation records, and 21 source-registry records. Every node and edge has a source ID, scale, confidence, reality/canon status, and notes. Every observation retains metric, value, units, period, station_or_scope, spatial scale, observed_or_modeled status, source ID, confidence, and limitations.
 
 ## Scientific boundary checks
 
-The validator rejects composite scores, unsupported probabilities, future scenario rows, health outcomes, personal exposure/dose, social-vulnerability rankings, neighborhood risk rankings, deterministic event surfaces, and unsupported groundwater claims. It also checks that regulatory flood-zone language is not represented as an observed flood footprint, county event counts are not represented as rates, and Great Lakes seiche/wind setup is not described as ocean storm surge.
+The validator explicitly checks selected semantic boundaries: the FEMA regulatory-flood node and related edges retain modeled-regulatory status and observed-flood exclusions; Storm Events observations retain the dated-snapshot source, county-event-record scale, and non-rate/non-probability notes; groundwater mentions are limited to explicit negative-scope notes; and the station, county, watershed, floodplain, shoreline, regional, and forecast-area categories remain distinct. It also rejects composite scores, unsupported probabilities, future scenario rows, health outcomes, personal exposure/dose, social-vulnerability rankings, neighborhood risk rankings, deterministic event surfaces, and unsupported positive groundwater claims. Great Lakes seiche/wind setup is checked as distinct from ocean storm surge.
 
 ## Map QA
 
@@ -14,7 +14,7 @@ Map 29 is a PNG/SVG pair with inspectable SVG text, source-backed station marker
 
 ## Completeness and limitations
 
-The ACIS precipitation record has missing and trace values, so reported sums and threshold counts are qualified. The USGS and CO-OPS records are station-scale. U.S. Drought Monitor values are weekly county assessment products. Storm Events counts use a dated 2025 archive snapshot and a selected county scope. Warning thresholds are not observations. These distinctions are machine-checked and remain visible in the data tables and reports.
+The ACIS precipitation record has missing and trace values, so reported sums and threshold counts are qualified. The USGS and CO-OPS records are station-scale. U.S. Drought Monitor values are weekly county assessment products. Storm Events counts use a dated 2025 archive snapshot and a selected county scope. Warning thresholds are not observations. These distinctions are checked by explicit row, field, source, scale, and negative-scope assertions and remain visible in the data tables and reports.
 
 ## Protected prior content
 

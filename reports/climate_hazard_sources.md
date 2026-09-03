@@ -8,9 +8,9 @@ Hydrologic observations use the USGS daily-value service for Maumee River at Wat
 
 FEMA flood-hazard mapping remains a distinct regulatory context.[6]
 
-NOAA/NWS precipitation-frequency products remain a distinct modeled context.[7]
+NOAA/NWS precipitation-frequency products remain a distinct modeled context and are not used as direct evidence for Maumee runoff or urban stormwater burden.[7]
 
-NWS forecast and warning metadata are a separate service layer.[3][4]
+NWS forecast and warning metadata are a separate service layer; general forecast/station metadata do not directly establish infrastructure or access effects.[3][4]
 
 Drought context uses the U.S. Drought Monitor weekly county services.[8][9]
 
@@ -22,7 +22,7 @@ CO-OPS flood-level metadata are retained as a separate warning-stage context.[14
 
 NOAA GLERL provides Great Lakes monitoring and process context.[15]
 
-The selected convective and winter event records come from a dated NOAA NCEI Storm Events archive snapshot.[16][17][18]
+The selected convective and winter event records come from the dated 2025 NOAA NCEI Storm Events details snapshot, not the general Storm Events landing page.[16][17][18]
 
 NWS and SPC provide hazard-definition and regional severe-weather context.[19][20][21]
 
@@ -30,7 +30,7 @@ The acquisition package preserves raw JSON/CSV responses under `data/raw/climate
 
 The full 2025 bulk archive is intentionally not committed.
 
-Station, county, HUC/river, floodplain, shoreline, regional, and forecast-area scales remain explicit.[1][5][6]
+Station, county, HUC/river, floodplain, shoreline, regional, and forecast-area scales remain explicit.[1][5][6] Project-inferred watershed, urban-drainage, and developed-system relationships are labeled as inference rather than direct source findings.
 
 The phase does not create a composite hazard score, individual exposure, health outcome, social-vulnerability ranking, or unsupported hazard probability.[6][18][19]
 

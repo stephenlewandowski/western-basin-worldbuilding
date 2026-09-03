@@ -40,11 +40,11 @@ FACT: At USGS 04193500, Maumee River at Waterville, the 2025 daily mean discharg
 
 FACT: The 2025 daily mean minimum is 65 cubic feet per second on 2025-10-25.[5]
 
-FACT: The 2026 returned record includes a maximum of 68,200 cubic feet per second on 2026-04-03 and a minimum of 313 cubic feet per second on 2026-09-02.[5]
+FACT: The 2026 returned record includes a maximum of 68,200 cubic feet per second on 2026-04-03 and a minimum of 313 cubic feet per second on 2026-07-29; the 2026-09-02 value is 476 cubic feet per second.[5]
 
 These are daily mean observations at one gauge, not observed flood extents, regulatory flood zones, or basin-wide low-flow conditions.[5][6]
 
-INFERENCE: Heavy precipitation and flooding materially connect upland/subwatershed runoff, tributaries, the Lower Maumee, floodplain interfaces, and urban stormwater systems.
+INFERENCE: Heavy precipitation and flooding can connect upland/subwatershed runoff, tributaries, the Lower Maumee, floodplain interfaces, and urban stormwater systems. The watershed and urban-drainage relationships are project inferences; the cited gauge and Atlas 14 product do not directly quantify those broader interfaces.
 
 FEMA regulatory flood-hazard mapping remains a separate modeled category.[6]
 

@@ -8,7 +8,7 @@ Station observations remain station observations. The Lucas County Climate at a 
 
 The NOAA CO-OPS daily mean water-level series is retained in meters referenced to IGLD 1985. CO-OPS flood-level metadata are retained separately in the source-reported feet reference and are warning thresholds, not observations; no arithmetic comparison is made between the two. Great Lakes wind setup and seiche are represented as lake-process interfaces, not ocean storm surge.
 
-NOAA Storm Events counts are selected 2025 county event records across a defined western-basin regional context. They are historical reports, not event probabilities, trends, attribution studies, or hazard zones. Winter records provide event context; lake-effect snow is not generalized across the basin without a specific regional climatology.
+NOAA Storm Events counts are selected 2025 county event records from the dated details snapshot across a defined western-basin regional context. They are historical reports, not event probabilities, trends, attribution studies, or hazard zones. Winter records provide event context; lake-effect snow is not generalized across the basin without a specific regional climatology.
 
 ## Exclusions
 

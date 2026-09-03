@@ -2,27 +2,27 @@
   "phase": "9A",
   "status": "implemented_validated_pending_sol_acceptance",
   "counts": {
-    "nodes": 26,
-    "edges": 30,
+    "nodes": 28,
+    "edges": 29,
     "observations": 28,
     "sources": 21
   },
   "artifacts": {
     "data/processed/networks/climate_hazard_nodes.csv": {
-      "bytes": 7271,
-      "sha256": "47eea528e9dae46ff58b49bfe4519b8b38a0026e6394dbafed70ad0d41c1b095"
+      "bytes": 8310,
+      "sha256": "fe5175cc81f9df81ff6ddbe32fa14ae3fb72b3a96b68529353045dd0f63ff76f"
     },
     "data/processed/networks/climate_hazard_edges.csv": {
-      "bytes": 5687,
-      "sha256": "821d4b0753cbd37b2f00c1ad30598863d55c311d8f34ea22e19bf8fe7ed70582"
+      "bytes": 6435,
+      "sha256": "c15afa843d274171e9f1f79a1bebf05063174d6c6bba33009c11e497825e2107"
     },
     "data/processed/analysis/climate_hazard_observations.csv": {
       "bytes": 7242,
       "sha256": "7d7833e8a043282a27d3705395e4b339442f88728a3eabaecafb50a285432ad5"
     },
     "data/processed/analysis/climate_hazard_sources.csv": {
-      "bytes": 7959,
-      "sha256": "f6316ee6e7b56dcf2e6ccb791f9185690f30db606b25919cd75b8d77a3777d1d"
+      "bytes": 7958,
+      "sha256": "2f7a1f8ae4d52fb65c0b881264cb15439db1fed57f324c7ec9333684dce4444c"
     },
     "reports/phase9a_acquisition_summary.json": {
       "bytes": 3032,
@@ -37,20 +37,20 @@
       "sha256": "7571dcc5176d2cb98874f76404918170ed42188064b07a9b8c10332203d29e68"
     },
     "reports/climate_hazard_sources.md": {
-      "bytes": 3558,
-      "sha256": "d99ad2d1b6ccc731e087f24e5806653cdd6056121a5b97766a575d058c58c835"
+      "bytes": 3923,
+      "sha256": "5792822fb8a6b835a046d8611265aa7c73fd892a4277ace66b7b5c7bd9a5ffb6"
     },
     "reports/climate_hazard_assumptions.md": {
-      "bytes": 2010,
-      "sha256": "cb994bc5ca28803723e408146ebca77f97143fb92e4216cc81685e18650a6d58"
+      "bytes": 2042,
+      "sha256": "4b93bd992f196858750c52c99070750a483183a9cca3b28ce9c723f26cbd12a3"
     },
     "reports/climate_hazard_findings.md": {
-      "bytes": 7973,
-      "sha256": "a6ccdaf5e3e8f9ff271cda67acb047eb61aea1c9da1ee8c46d36b0507219971d"
+      "bytes": 8176,
+      "sha256": "f514f26cf9cd117b01bc8db38551a83560573593010d9b97216aa1bd71684e34"
     },
     "reports/climate_hazard_qa.md": {
-      "bytes": 2122,
-      "sha256": "a9b5472f7de867edbf6aee1930ccca7a0bf4e30baa36ee9e9aef4bce5b1ff4e4"
+      "bytes": 2518,
+      "sha256": "1b1bc99fefffa1a8ab95ea1f9f17663dd8cd3b44fb385094bcfc6b727e3d1faa"
     }
   }
 }
