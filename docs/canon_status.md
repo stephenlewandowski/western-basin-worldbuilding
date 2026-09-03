@@ -107,7 +107,7 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 8A Biogeochemical & Nutrient Flux Baseline:** accepted and frozen as a separate factual 2026 layer; Map 26; `reports/phase8a_biogeochemical_nutrient_flux_freeze_manifest.json`
 - **Phase 8B Biogeochemical Dependencies & Controls:** accepted and frozen as a separate qualitative 2026 layer; Map 27; `reports/phase8b_biogeochemical_dependencies_controls_freeze_manifest.json`
 - **Phase 8C Biogeochemical & Nutrient Flux Futures:** accepted and frozen as separate qualitative 2050/2075 scenario content; Maps 28/28b; `reports/phase8c_biogeochemical_futures_freeze_manifest.json`
-- **Phase 9 Climate & Natural Hazards System:** approved and active; 9A factual baseline, 9B qualitative dependencies/resilience, and 9C qualitative 2050/2075 futures; Maps 29, 30, 31, and 31b
+- **Phase 9 Climate & Natural Hazards System:** 9A implemented, validated, and integrated as a factual 2026 layer with Map 29; 9B implemented and validated as a qualitative dependency/compound/resilience layer with Map 30; 9C active for separate qualitative 2050/2075 futures with Maps 31/31b
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without

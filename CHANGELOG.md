@@ -6,6 +6,7 @@
 - Phase 7C implemented, validated, and integrated as separate qualitative 2050/2075 environmental-health futures with Maps 25/25b; awaiting Sol acceptance. No release or tag was created.
 - Phase 8A–8C formally accepted/frozen by Sol without changing accepted scientific content. Freeze protection is recorded in `reports/phase8a_biogeochemical_nutrient_flux_freeze_manifest.json`, `reports/phase8b_biogeochemical_dependencies_controls_freeze_manifest.json`, and `reports/phase8c_biogeochemical_futures_freeze_manifest.json`.
 - Began approved Phase 9 Climate & Natural Hazards System: 9A factual 2026 baseline, 9B qualitative dependencies/resilience, and 9C qualitative 2050/2075 futures. No release or tag was created.
+- Phase 9A is implemented, validated, and integrated as Map 29 with 26 hazard nodes, 30 relationships, 28 quantitative/context observations, and 21 sources. Phase 9B adds Map 30 with 24 qualitative dependency edges, nine compound-event pathways, 12 controls, and a nine-row matrix; Phase 9C remains in progress.
 
 - Implemented and validated Phase 6C as a separate qualitative 2050/2075
   ecological-futures layer: 18 assumptions, 36 node states, 30 edge states,

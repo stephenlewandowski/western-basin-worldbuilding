@@ -330,11 +330,20 @@ recording this decision.
 
 ## PHASE 9 — ACTIVE
 
-Phase 9A → 9B → 9C is the approved Climate & Natural Hazards System package.
-Phase 9A is the active factual 2026 baseline; Phase 9B and 9C remain separate
-working layers until their own validation and integration. The module will
-produce Maps 29, 30, 31, and 31b without health, social-vulnerability, or
-unsupported hazard-probability modeling.
+**Climate & Natural Hazards System, 2026 / 2050 / 2075**
+
+Phase 9A is implemented, validated, and integrated as a factual 2026 physical
+hazard baseline: 26 nodes, 30 relationships, 28 quantitative/context
+observations, and 21 sources under Map 29. Phase 9B is implemented and
+validated as a qualitative dependency, compound-event, and resilience layer:
+24 dependency edges, 9 compound-event pathways, 12 controls, a 9-row matrix,
+and Map 30. Phase 9C remains the next active subphase and will add separate
+2050/2075 scenario products without modifying Phase 9A or 9B.
+
+Phase 9 uses no composite hazard score, unsupported hazard probability, health
+or social-vulnerability scoring, deterministic hazard surface, or comprehensive
+emergency-management model. Station, watershed, county, floodplain, shoreline,
+and regional scales remain distinct.
 
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry

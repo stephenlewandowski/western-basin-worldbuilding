@@ -1,0 +1,61 @@
+{
+  "phase": "9B",
+  "status": "implemented_validated_pending_sol_acceptance",
+  "counts": {
+    "dependency_edges": 24,
+    "dependency_register": 24,
+    "compound_events": 9,
+    "controls": 12,
+    "matrix_rows": 9
+  },
+  "artifacts": {
+    "data/processed/networks/climate_hazard_dependency_edges.csv": {
+      "bytes": 6433,
+      "sha256": "d203e9fe811d6ca7fdc902d73677581d53d9250f53bb73868288de8973ab8a55"
+    },
+    "data/processed/analysis/climate_hazard_dependency_register.csv": {
+      "bytes": 6938,
+      "sha256": "355ee7bd5640248a77406da600ea292c38504e0d2be57ea6cd5507b1b0df996f"
+    },
+    "data/processed/analysis/climate_compound_event_register.csv": {
+      "bytes": 3224,
+      "sha256": "0b896d87cb3af0ca9a6b347a6fd46ad2a56606bbca1d1f47842a1b691be18293"
+    },
+    "data/processed/analysis/climate_resilience_control_register.csv": {
+      "bytes": 3265,
+      "sha256": "913e860e118549e8eae5386ab884cf461b3f2c09144503c5ba078989a274cd7a"
+    },
+    "data/processed/analysis/climate_hazard_dependency_matrix.csv": {
+      "bytes": 1778,
+      "sha256": "a03277f220d9f83b6afc75551f0a92458b8439a36a954e8dfbcf1f59ff856b0b"
+    },
+    "data/processed/analysis/climate_dependency_sources.csv": {
+      "bytes": 3556,
+      "sha256": "1021607d547b8f7053b252ff7cf85d0f23ddb0c6bc2bbc1ca3bfa6b1ffc7a191"
+    },
+    "outputs/maps/systems/30_climate_hazard_dependencies_resilience_2026.png": {
+      "bytes": 1256007,
+      "sha256": "bade437fd757c317a1f2152ca54e1ac1f3833d37d7703c651196c086038cf94e"
+    },
+    "outputs/maps/systems/30_climate_hazard_dependencies_resilience_2026.svg": {
+      "bytes": 17752259,
+      "sha256": "c2f93acdae7416ab0c49c2f2788fc5aadf45c5ebdd96efba61d2e9b70ed79817"
+    },
+    "reports/climate_dependency_sources.md": {
+      "bytes": 1633,
+      "sha256": "eb86261c735d6907748e8195d97fec679771031fdf1362b706357889039d406c"
+    },
+    "reports/climate_dependency_assumptions.md": {
+      "bytes": 1268,
+      "sha256": "c35915dd2835e21d507244d603a8ab0a65736f910092c4d9755d9880d7ba8290"
+    },
+    "reports/climate_dependency_findings.md": {
+      "bytes": 3410,
+      "sha256": "ee4297bab226f613975a26f66f132d100168832d22b5bf33b5a9bca81a4ba8d1"
+    },
+    "reports/climate_dependency_qa.md": {
+      "bytes": 978,
+      "sha256": "9ac801958360805f86d67f82d0b4e742d9ed4db3dc87efeb5d09b649086f29af"
+    }
+  }
+}

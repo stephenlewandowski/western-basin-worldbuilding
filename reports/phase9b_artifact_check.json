@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "phase": "9B",
+  "dependency_edges": 24,
+  "dependency_register": 24,
+  "compound_events": 9,
+  "controls": 12,
+  "matrix_rows": 9,
+  "map30_valid": true,
+  "phase9a_artifacts_checked": 11,
+  "probabilities_absent": true,
+  "composite_score_absent": true,
+  "phase9a_immutable": true,
+  "health_social_scope_absent": true
+}

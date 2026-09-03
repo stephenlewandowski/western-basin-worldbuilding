@@ -366,6 +366,26 @@ Phase 9 will not create a composite hazard score, deterministic hazard surface, 
 
 The three Phase 9 briefs are in [docs/phase_briefs](docs/phase_briefs/): `phase9a_climate_natural_hazards_baseline.md`, `phase9b_climate_hazard_dependencies_resilience.md`, and `phase9c_climate_hazard_futures.md`.
 
+## Phase 9 Climate & Natural Hazards System
+
+Phase 9A is implemented, validated, and integrated as the factual 2026 hazard
+baseline: `data/processed/networks/climate_hazard_nodes.csv`,
+`climate_hazard_edges.csv`, `data/processed/analysis/climate_hazard_observations.csv`,
+and `climate_hazard_sources.csv`; Map 29 is the compact physical-hazard view.
+Phase 9B adds qualitative dependency edges, a compound-event register,
+resilience/control register, and dependency matrix; Map 30 is the schematic
+cross-system view. Phase 9C is a separate 2050/2075 scenario layer and must not
+modify these working baselines.
+
+Phase 9A reports are `climate_hazard_sources.md`, `climate_hazard_assumptions.md`,
+`climate_hazard_findings.md`, `climate_hazard_qa.md`, and
+`climate_hazard_baseline_manifest.json`. Phase 9B reports are
+`climate_dependency_sources.md`, `climate_dependency_assumptions.md`,
+`climate_dependency_findings.md`, `climate_dependency_qa.md`, and
+`climate_dependency_manifest.json`. Neither layer creates a composite hazard
+score, unsupported probability, health/social-vulnerability ranking, or
+comprehensive emergency-management model.
+
 ## Repository Structure
 
 ```text

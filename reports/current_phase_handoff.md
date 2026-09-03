@@ -449,3 +449,21 @@ embedded self-referentially in this file.
 - Grounded-citation strict verification passed for `reports/climate_hazard_sources.md` and `reports/climate_hazard_findings.md`.
 - Phase 9A is ready for review/integration as `IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE`; it remains an immutable working baseline for Phase 9B after integration readback.
 - Next exact action: perform independent review and repository-wide regression checks, commit/push/integrate Phase 9A, then begin Phase 9B dependencies, compound events, resilience, and Map 30.
+
+## Phase 9A checkpoint D — integrated working baseline
+
+- Phase 9A feature commit: `8a76895c62be6af8304d93f50895828812b13e26`.
+- Phase 9A feature branch was pushed and fast-forward integrated into `main`.
+- Local `main`, `origin/main`, and the Phase 9 branch were read back at `8a76895c62be6af8304d93f50895828812b13e26`.
+- Phase 9A is `IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE` and is now an immutable working baseline for Phase 9B.
+- Phase 8A-8C freeze manifests remain present and validated; prior system artifacts remain unchanged.
+- Next exact action: build the separate Phase 9B dependency, compound-event, resilience/control, matrix, and Map 30 products without modifying Phase 9A tables or Map 29.
+
+## Phase 9B checkpoint E — dependency, compound-event, resilience package
+
+- Phase 9B package generated: 24 qualitative dependency edges, 24 dependency-register rows, 9 compound-event records, 12 resilience/control records, 9-row qualitative matrix, 11 source records, and Map 30 PNG/SVG.
+- Compound-event register covers heat + power, heat + drought, extreme precipitation + nutrient mobilization, extreme precipitation + wastewater/stormwater, high lake level + wind setup/seiche, flooding + freight/access, freeze-thaw + infrastructure, severe storm + power/communications, and drought + agricultural/ecological stress.
+- Python Phase 9B validator passed with Phase 9A immutability and Map 30 checks. Independent R Phase 9B validator passed with the same structural counts.
+- Grounded-citation strict verification passed for `reports/climate_dependency_sources.md` and `reports/climate_dependency_findings.md` using the phase-local citation ledger.
+- Phase 9B remains a qualitative working layer and is ready for independent review, commit/push/integration. Phase 9C may begin only after integration readback.
+- Next exact action: review the complete Phase 9B diff, run targeted/full regressions and Git/LFS checks, commit/push/integrate Phase 9B, then build Phase 9C projection-led scenarios and Maps 31/31b.

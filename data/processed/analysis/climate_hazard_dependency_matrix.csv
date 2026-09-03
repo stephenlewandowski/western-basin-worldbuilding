@@ -1,0 +1,10 @@
+pathway,hazard_exposure_context,system_dependency,monitoring_strength,warning_capacity,physical_redundancy,ecological_buffering,infrastructure_control,seasonality,compound_event_potential,spatial_certainty,temporal_certainty,notes
+heat → energy / developed systems,strong,strong,moderate,strong,unknown,limited,moderate,strong,strong,limited,moderate,"No demand, outage, or health score."
+precipitation → water / floodplain,strong,strong,moderate,strong,unknown,moderate,moderate,strong,strong,moderate,moderate,Observed and regulatory flood categories remain separate.
+precipitation → nutrient / water quality,strong,strong,moderate,moderate,limited,moderate,moderate,strong,strong,moderate,limited,No future load or bloom probability.
+drought → water / agriculture / ecology,moderate,strong,moderate,limited,unknown,limited,limited,strong,strong,moderate,limited,"Drought status, flow, soil, and ecology are not interchangeable."
+lake level + wind setup/seiche,strong,moderate,moderate,moderate,unknown,limited,limited,strong,strong,limited,moderate,No joint probability or shoreline footprint.
+flood → freight / access,moderate,moderate,limited,moderate,unknown,limited,moderate,moderate,strong,limited,moderate,No route-specific disruption probability.
+severe storm → energy / information,moderate,moderate,moderate,strong,unknown,limited,moderate,strong,strong,limited,moderate,No outage or communications-failure model.
+freeze-thaw → infrastructure,moderate,moderate,limited,moderate,unknown,limited,limited,strong,moderate,limited,moderate,No cycle count or failure rate.
+drought / precipitation → ag/ecology,moderate,moderate,limited,limited,limited,moderate,limited,strong,moderate,limited,limited,No social-vulnerability or ecological score.

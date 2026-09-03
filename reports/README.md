@@ -184,8 +184,8 @@ qualitative, assumption-based, and separate from factual 2026 baselines.
 
 ## Phase 8 biogeochemical and nutrient fluxes
 
-Phase 8A–8C is implemented, validated, and integrated in the Phase 8 feature
-worktree pending Sol acceptance. Phase 8A provides the factual 2026 baseline in
+Phase 8A–8C is accepted and frozen under the three Phase 8 subphase freeze
+manifests. Phase 8A provides the factual 2026 baseline in
 `../data/processed/networks/biogeochemical_system_nodes.csv`,
 `biogeochemical_flux_edges.csv`, and
 `../data/processed/analysis/biogeochemical_quantitative_fluxes.csv`; Map 26 is
@@ -202,3 +202,23 @@ Map 27 is the dependency/control view. Phase 8C provides separate qualitative
 `biogeochemical_module_manifest.json` document provenance, boundaries, findings,
 and artifact hashes. No future nutrient quantities, probabilities, or predictive
 HAB model are included.
+
+## Phase 9 climate and natural hazards
+
+Phase 9A is implemented, validated, and integrated as the factual 2026 hazard
+baseline: `../data/processed/networks/climate_hazard_nodes.csv`,
+`climate_hazard_edges.csv`, `../data/processed/analysis/climate_hazard_observations.csv`,
+and `climate_hazard_sources.csv`; Map 29 is the compact physical-hazard view.
+Phase 9B adds qualitative dependency edges, a compound-event register,
+resilience/control register, and dependency matrix; Map 30 is the schematic
+cross-system view. Phase 9C is a separate 2050/2075 scenario layer and must not
+modify these working baselines.
+
+Phase 9A reports are `climate_hazard_sources.md`, `climate_hazard_assumptions.md`,
+`climate_hazard_findings.md`, `climate_hazard_qa.md`, and
+`climate_hazard_baseline_manifest.json`. Phase 9B reports are
+`climate_dependency_sources.md`, `climate_dependency_assumptions.md`,
+`climate_dependency_findings.md`, `climate_dependency_qa.md`, and
+`climate_dependency_manifest.json`. Neither layer creates a composite hazard
+score, unsupported probability, health/social-vulnerability ranking, or
+comprehensive emergency-management model.
