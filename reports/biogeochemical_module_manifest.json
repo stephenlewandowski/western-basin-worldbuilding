@@ -1,0 +1,41 @@
+{
+  "phase": "8A-8C",
+  "status": "implemented_validated_pending_sol_acceptance",
+  "counts": {
+    "baseline_nodes": 18,
+    "baseline_edges": 24,
+    "quantitative_records": 10,
+    "dependencies": 22,
+    "controls": 10,
+    "matrix_rows": 8,
+    "scenario_assumptions": 36,
+    "scenario_nodes": 48,
+    "scenario_edges": 42,
+    "scenario_controls": 48,
+    "scenario_uncertainty": 48,
+    "comparison_rows": 6
+  },
+  "artifacts": {
+    "data/processed/networks/biogeochemical_system_sources.csv": "12509830a924b3d41c5ad879ea5769d748c8c232ead09d1c7b9c273dd532cce9",
+    "data/processed/networks/biogeochemical_system_nodes.csv": "cbe33d6f2dbb60dea3d4dd7a3ca2d8ef58df17d96a031725c48de81112e83e89",
+    "data/processed/networks/biogeochemical_flux_edges.csv": "0d00b7daed14676199f50ae035011430241035c99ab52d5b3fba3ccbf297e97f",
+    "data/processed/analysis/biogeochemical_quantitative_fluxes.csv": "84e60637f94648836e8f0eee13fbe81e650fd79a6041dc5c03fba4ed5c2cd856",
+    "outputs/maps/systems/26_biogeochemical_nutrient_flux_system_2026.png": "8ab4983c6b13e9d914493a2bdd9552a69f59a86f9b2c87cf3413219d20822625",
+    "outputs/maps/systems/26_biogeochemical_nutrient_flux_system_2026.svg": "8b3f49ee4fe93e2d8b27efa4d4799d0258c791f14af483f36c945518475b98b4",
+    "data/processed/networks/biogeochemical_dependency_edges.csv": "6f8c74b9375a11d5eead514984c783e8a23da6352e5f95fcbe8c81c95dd9150d",
+    "data/processed/analysis/biogeochemical_control_register.csv": "0bb2ccedf71392fbcc00ed68b412371ca0a265e2d921c573cc086eeb77a9c95e",
+    "data/processed/analysis/biogeochemical_dependency_matrix.csv": "42deb30a7d9c2d47b2605afa6f915180e4df63d266a1e74ad5a93818a0bf1c51",
+    "outputs/maps/systems/27_biogeochemical_dependencies_controls_2026.png": "d624d7c8194415386f8d2ff7dfaca17f03958de245125368edae33ad430dfcff",
+    "outputs/maps/systems/27_biogeochemical_dependencies_controls_2026.svg": "88737dc15b0794240a6d9c4c65aaa94d6e1d6127730e25b3326c43d75fb33266",
+    "data/processed/scenarios/biogeochemical_scenario_assumptions.csv": "123ef91040fe8d65075b1c4c5d99079e80099dde3ab160681139b83c8d1628b1",
+    "data/processed/scenarios/biogeochemical_nodes_scenario.csv": "dd62f036998a97c2f167a7e1f3f2e344343bfa4d90de225ed257a43ff36aa0fc",
+    "data/processed/scenarios/biogeochemical_edges_scenario.csv": "cd34fca4558f8f8aa3cfc2a5a21d8cf46adf062d0998f25e8a0fd18c847c3e24",
+    "data/processed/scenarios/biogeochemical_controls_scenario.csv": "802348a6985860ecf71ae815f0dc9490ae957d90f0d91ec3775dbac48f02a8ed",
+    "data/processed/scenarios/biogeochemical_uncertainty_scenario.csv": "ec8fce8af44c29fde3167d2ecb1ac4ec1e64c29d35c2456523dac873be4a2024",
+    "outputs/figures/biogeochemical_scenarios_comparison.csv": "c261afdd225f1049cc4c7e9e0eaae4bca9bd3047564745d91b36e4129a565f31",
+    "outputs/maps/systems/28_biogeochemical_futures_2050.png": "c119402b40cd0efa96cc3960e75ddc2a394cd4335d1e790a8e1a53aab3073ab9",
+    "outputs/maps/systems/28_biogeochemical_futures_2050.svg": "de34a92f3cb0d0d1d59c4dada7bbad842c209ede4a1a9efce1a7ef32656bd579",
+    "outputs/maps/systems/28b_biogeochemical_futures_2075.png": "e1efaea8cc4d4e1e610122d0471cdce51aa013930b7321ceae0c17d46fb062f0",
+    "outputs/maps/systems/28b_biogeochemical_futures_2075.svg": "dfb7f2617211ac04df5c754e1bd2aa3b275efc6a94368fe30cb9784f310ef1d3"
+  }
+}

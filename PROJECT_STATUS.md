@@ -294,6 +294,37 @@ Phase 7C adds 36 assumptions, 30 scenario node states, 30 edge states, 30 contro
 
 ## Open Phase 1 QA gates
 
+## PHASE 8A — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+
+**Biogeochemical & Nutrient Flux Baseline, 2026**
+
+Phase 8A adds 18 biogeochemical nodes, 24 directed flux edges, six separate
+quantitative/context records, a source registry, Map 26, and bounded findings
+for phosphorus, nitrogen, carbon/organic matter, water-carrier transport,
+agriculture, wastewater, wetlands/riparian systems, and monitoring.
+
+## PHASE 8B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+
+**Biogeochemical Dependencies, Controls & Bottlenecks, 2026**
+
+Phase 8B adds 22 qualitative dependency edges, 10 control records, an 8-row
+qualitative dependency matrix, official target framing, and Map 27. Unknown
+quantities remain unknown; targets are not treated as observed reductions.
+
+## PHASE 8C — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+
+**Biogeochemical & Nutrient Flux Futures, 2050 / 2075**
+
+Phase 8C adds 36 scenario assumptions, 48 scenario node states, 42 scenario
+edge states, 48 control states, 48 uncertainty states, six comparison rows,
+and Maps 28/28b. The future layer is qualitative and separate from factual
+2026 records; it contains no future loads, concentrations, probabilities, or
+predictive HAB model.
+
+The full Phase 8 package is implemented and validated in an isolated feature
+worktree. Formal Sol acceptance remains external. No unrelated scientific
+module was started.
+
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry
 

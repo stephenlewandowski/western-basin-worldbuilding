@@ -404,3 +404,81 @@ sources:
     retrieved_date: 2026-09-02
     source_type: federal_land_cover_data_portal
     use: Contemporary land-cover classification source context; Phase 6A uses generalized classes and does not commit a large raster extract.
+  bge_usgs_wbd:
+    name: USGS Watershed Boundary Dataset
+    url: https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer
+    retrieved_date: 2026-09-03
+    source_type: federal_dataset
+    use: Watershed and HUC scale context; not a nutrient-loading surface.
+  bge_usgs_3dhp:
+    name: USGS 3D Hydrography Program
+    url: https://3dhp.nationalmap.gov/arcgis/rest/services/usgs_3dhp_all/FeatureServer
+    retrieved_date: 2026-09-03
+    source_type: federal_dataset
+    use: Physical water-carrier context; not a complete nutrient-flow model.
+  bge_epa_lake_erie:
+    name: US EPA Lake Erie Water Quality Data
+    url: https://www.epa.gov/glwqa/lake-erie-water-quality-data
+    retrieved_date: 2026-09-03
+    source_type: federal_web
+    use: Annual phosphorus loads, western-basin HAB context, and target/status framing.
+  bge_epa_mwn_tmdl:
+    name: US EPA Maumee Watershed Nutrient TMDL approval
+    url: https://www.epa.gov/tmdl/epas-approval-ohios-maumee-watershed-nutrient-total-maximum-daily-load
+    retrieved_date: 2026-09-03
+    source_type: federal_web
+    use: Approved total-phosphorus TMDL planning and point/nonpoint allocation context.
+  bge_noaa_hab:
+    name: NOAA NCCOS Lake Erie HAB Forecast
+    url: https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/lake-erie/
+    retrieved_date: 2026-09-03
+    source_type: federal_science
+    use: HAB monitoring and forecast interface; no new predictive model.
+  bge_ncwqr:
+    name: Heidelberg University National Center for Water Quality Research
+    url: https://ncwqr.org/
+    retrieved_date: 2026-09-03
+    source_type: institutional_program
+    use: Great Lakes surface-water monitoring and public data-portal context.
+  bge_nass:
+    name: USDA NASS Cropland Data Layer
+    url: https://www.nass.usda.gov/Research_and_Science/Cropland/Release/
+    retrieved_date: 2026-09-03
+    source_type: federal_dataset
+    use: Agricultural landscape context; not farm-level management or export attribution.
+  bge_nrscs:
+    name: USDA NRCS Conservation Practice Standards
+    url: https://www.nrcs.usda.gov/conservation-basics/conservation-by-state/ohio
+    retrieved_date: 2026-09-03
+    source_type: federal_program
+    use: Conservation and soil-management control context; effectiveness is site-dependent.
+  bge_ohio_h2ohio:
+    name: Ohio H2Ohio program
+    url: https://h2.ohio.gov/
+    retrieved_date: 2026-09-03
+    source_type: state_program
+    use: Nutrient-management, wetlands, and water-quality intervention context.
+  bge_ohio_epa_npdes:
+    name: Ohio EPA NPDES program
+    url: https://epa.ohio.gov/divisions-and-offices/surface-water/permitting
+    retrieved_date: 2026-09-03
+    source_type: state_regulatory
+    use: Permitted discharge and treatment regulatory context; permits are not actual loads.
+  bge_usfws_nwi:
+    name: USFWS National Wetlands Inventory
+    url: https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer
+    retrieved_date: 2026-09-03
+    source_type: federal_dataset
+    use: Wetland inventory and broad retention/transformation interface; no uniform removal rate.
+  bge_glri_annex4:
+    name: Great Lakes Water Quality Agreement Annex 4
+    url: https://binational.net/annexes/a4/
+    retrieved_date: 2026-09-03
+    source_type: binational_program
+    use: Binational nutrient-reduction target and adaptive-management context.
+  bge_noaa_climate:
+    name: NOAA climate data and projections
+    url: https://www.ncei.noaa.gov/
+    retrieved_date: 2026-09-03
+    source_type: federal_science
+    use: External qualitative scenario driver for precipitation, temperature, and hydrologic variability.

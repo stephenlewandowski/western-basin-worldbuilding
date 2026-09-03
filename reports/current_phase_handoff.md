@@ -400,3 +400,15 @@ embedded self-referentially in this file.
 - Map 24 PNG/SVG generated with inspectable SVG text.
 - Python and independent R validators pass; Phase 7A freeze validator and Phase 7A R validator pass.
 - Next exact action: run repository regressions/application/Git-LFS checks, review diff, commit and push Phase 7B, then integrate and begin Phase 7C only after readback.
+
+## Phase 8A–8C current run checkpoint
+
+- Starting main SHA: `a0fd25463b41ef76216b1079ac30fe68fff9cc5a`; starting `main` and `origin/main` synchronized; working tree clean.
+- Phase briefs persisted: `docs/phase_briefs/phase8a_biogeochemical_nutrient_flux_baseline.md`, `phase8b_biogeochemical_dependencies_controls.md`, and `phase8c_biogeochemical_futures.md`.
+- Isolated worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase8`; branch: `phase-8-biogeochemical-nutrient-fluxes`.
+- Phase 8A package generated: 18 nodes, 24 directed flux edges, six separate quantitative/context records, Map 26.
+- Phase 8B package generated: 22 dependency edges, 10 controls, 8-row qualitative matrix, Map 27.
+- Phase 8C package generated: 36 assumptions, 48 scenario nodes, 42 scenario edges, 48 control states, 48 uncertainty states, six comparison rows, Maps 28/28b.
+- Python and independent R Phase 8 validators pass; Phase 7 artifacts are unchanged by the Phase 8 diff.
+- All future records are qualitative and separate from factual 2026 records. No unsupported nutrient/flux quantities or future HAB forecast was created.
+- Remaining delivery: independent review, repository regressions, feature commits, push, fast-forward integration, and final synchronized handoff. Formal Sol acceptance remains external.

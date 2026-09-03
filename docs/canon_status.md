@@ -103,6 +103,9 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 7A Exposure & Environmental Health Baseline:** accepted and frozen as a bounded factual 2026 exposure-context layer; Map 23
 - **Phase 7B Exposure Dependencies, Evidence Strength & Controls:** implemented, validated, and integrated; awaiting Sol acceptance; Map 24
 - **Phase 7C Environmental Health Futures:** implemented, validated, and integrated as separate qualitative 2050/2075 scenario content; awaiting Sol acceptance; Maps 25/25b
+- **Phase 8A Biogeochemical & Nutrient Flux Baseline:** implemented, validated, and integrated as a separate factual 2026 layer; awaiting Sol acceptance; Map 26
+- **Phase 8B Biogeochemical Dependencies & Controls:** implemented, validated, and integrated as a separate qualitative 2026 layer; awaiting Sol acceptance; Map 27
+- **Phase 8C Biogeochemical & Nutrient Flux Futures:** implemented, validated, and integrated as separate qualitative 2050/2075 scenario content; awaiting Sol acceptance; Maps 28/28b
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without

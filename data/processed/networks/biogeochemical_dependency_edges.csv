@@ -1,0 +1,23 @@
+dependency_id,source_node_id,dependent_node_id,material_or_process,dependency_type,dependency_strength,evidence_quality,scale,source_id,confidence,quantity_status,notes
+BGD-001,BGC-002,BGC-004,P;N,source-to-mobilization,strong,moderate,field/HUC12,bge_ohio_h2ohio,moderate,unknown,Input presence does not quantify export.
+BGD-002,BGC-004,BGC-005,P;N;sediment,hydrologic_transport,strong,moderate,HUC12/HUC8,bge_usgs_3dhp,moderate,unknown,Connectivity is physical context; event transport varies.
+BGD-003,BGC-005,BGC-007,P;N,river_delivery,strong,high,river/bay,bge_usgs_3dhp,high,unknown,"Directional connection, no load magnitude."
+BGD-004,BGC-007,BGC-009,P;N,receiving_delivery,strong,high,river/bay,bge_epa_lake_erie,high,unknown,Delivery can be modified by settling and mixing.
+BGD-005,BGC-009,BGC-008,P;N,lake_exchange,moderate,high,bay/lake,bge_epa_lake_erie,high,unknown,No plume or bloom footprint.
+BGD-006,BGC-001,BGC-004,P;N;C,landscape_mobilization,strong,moderate,field/HUC12,bge_nass,moderate,unknown,Landscape context not management behavior.
+BGD-007,BGC-010,BGC-007,P;N;sediment,wetland_retention,moderate,moderate,wetland/river,bge_usfws_nwi,moderate,unknown,Function varies; removal unknown.
+BGD-008,BGC-011,BGC-007,P;N;sediment,riparian_transformation,moderate,moderate,reach/floodplain,bge_nrscs,moderate,unknown,No efficiency estimate.
+BGD-009,BGC-012,BGC-005,P;N,urban_runoff,moderate,limited,municipal/HUC8,bge_ohio_epa_npdes,limited,unknown,No outfall load.
+BGD-010,BGC-013,BGC-009,P;N,point_source_control,moderate,high,facility/receiving water,bge_ohio_epa_npdes,high,unknown,Permit is not actual discharge.
+BGD-011,BGC-014,BGC-005,P;N,monitoring_coverage,moderate,moderate,station/HUC8,bge_ncwqr,moderate,unknown,Temporal/spatial coverage varies.
+BGD-012,BGC-014,BGC-008,P;N;HAB,monitoring_coverage,moderate,high,station/lake,bge_noaa_hab,high,unknown,Monitoring does not create basin-wide estimate.
+BGD-013,BGC-017,BGC-001,P;N,agricultural_control,moderate,moderate,regional/watershed,bge_ohio_h2ohio,moderate,unknown,"Documented intervention, outcome not assumed."
+BGD-014,BGC-017,BGC-010,P;N;sediment,restoration_control,limited,limited,wetland/watershed,bge_ohio_h2ohio,limited,unknown,Site-specific performance unknown.
+BGD-015,BGC-017,BGC-013,P;N,wastewater_control,moderate,moderate,facility/receiving water,bge_ohio_epa_npdes,moderate,unknown,Treatment capacity and actual load distinct.
+BGD-016,BGC-006,BGC-005,P;N,station_representativeness,limited,moderate,station/river,bge_ncwqr,moderate,unknown,One station is not the basin.
+BGD-017,BGC-004,BGC-007,P;N;sediment,seasonal_event_transport,strong,moderate,HUC12/river,bge_epa_lake_erie,moderate,unknown,Spring/event dependence is important; no seasonal load fabricated.
+BGD-018,BGC-003,BGC-015,C;organic_matter,soil_carbon_partitioning,limited,limited,field/river,bge_nrscs,limited,unknown,Bounded carbon context only.
+BGD-019,BGC-015,BGC-009,sediment;organic_matter,particulate_delivery,moderate,limited,river/bay,bge_epa_lake_erie,limited,unknown,No sediment budget.
+BGD-020,BGC-018,BGC-013,P;N,recovery_interface,limited,limited,facility/regional,bge_ohio_epa_npdes,limited,unknown,Potential control only.
+BGD-021,BGC-008,BGC-016,P;HAB,ecological_response_interface,strong,high,lake,bge_epa_lake_erie,high,unknown,No bloom magnitude or toxicity forecast.
+BGD-022,BGC-005,BGC-010,water,wetland_connectivity,moderate,high,river/wetland,bge_usgs_3dhp,moderate,unknown,Physical connection does not ensure retention.

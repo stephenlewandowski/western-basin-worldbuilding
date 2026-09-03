@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "phase": "8A-8C",
+  "baseline_nodes": 18,
+  "baseline_edges": 24,
+  "quantitative_records": 6,
+  "dependencies": 22,
+  "controls": 10,
+  "matrix_rows": 8,
+  "scenario_assumptions": 36,
+  "scenario_nodes": 48,
+  "scenario_edges": 42,
+  "scenario_controls": 48,
+  "scenario_uncertainty": 48,
+  "comparison_rows": 6,
+  "maps_26_27_28_28b_valid": true,
+  "qualitative_future_only": true,
+  "phase7_immutability_check": true,
+  "no_unsupported_future_quantities": true,
+  "no_predictive_hab_model": true
+}

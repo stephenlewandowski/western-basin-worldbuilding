@@ -181,3 +181,24 @@ Its reports are `ecology_scenario_sources.md`,
 `ecology_future_worldbuilding.md`, `ecology_scenario_qa.md`, and
 `ecology_scenario_manifest.json`. Maps 22/22b and the scenario comparison are
 qualitative, assumption-based, and separate from factual 2026 baselines.
+
+## Phase 8 biogeochemical and nutrient fluxes
+
+Phase 8A–8C is implemented, validated, and integrated in the Phase 8 feature
+worktree pending Sol acceptance. Phase 8A provides the factual 2026 baseline in
+`../data/processed/networks/biogeochemical_system_nodes.csv`,
+`biogeochemical_flux_edges.csv`, and
+`../data/processed/analysis/biogeochemical_quantitative_fluxes.csv`; Map 26 is
+the geographic/system view. Phase 8B provides qualitative dependencies,
+controls, and bottlenecks in `biogeochemical_dependency_edges.csv`,
+`biogeochemical_control_register.csv`, and `biogeochemical_dependency_matrix.csv`;
+Map 27 is the dependency/control view. Phase 8C provides separate qualitative
+2050/2075 scenario tables, comparison output, and Maps 28/28b.
+
+`biogeochemical_sources.md`, `biogeochemical_assumptions.md`,
+`biogeochemical_findings.md`, `biogeochemical_dependency_findings.md`,
+`biogeochemical_consistency.md`, `biogeochemical_qa.md`,
+`biogeochemical_future_worldbuilding.md`, and
+`biogeochemical_module_manifest.json` document provenance, boundaries, findings,
+and artifact hashes. No future nutrient quantities, probabilities, or predictive
+HAB model are included.

@@ -1,0 +1,9 @@
+system_interface,source_strength,transport_connectivity,hydrologic_dependence,seasonality,retention_capacity,management_control,monitoring_strength,spatial_certainty,temporal_certainty,flux_quantification,notes
+agricultural landscape → tributary,strong,strong,strong,strong,limited,moderate,moderate,moderate,moderate,limited,Landscape and event pathways are important; quantities remain incomplete.
+tributary → Lower Maumee,moderate,strong,strong,strong,limited,limited,moderate,strong,moderate,limited,Physical carrier is clear; flux partitioning is not.
+Lower Maumee → western Lake Erie,moderate,strong,strong,strong,limited,moderate,moderate,strong,moderate,moderate,Receiving delivery is documented; annual variability is large.
+wetland/floodplain retention,limited,moderate,strong,moderate,unknown,moderate,limited,limited,limited,unknown,Function is supported but performance is site-specific.
+wastewater → receiving water,moderate,moderate,moderate,limited,limited,strong,moderate,moderate,moderate,limited,Permit and treatment controls exist; actual loads require data.
+urban stormwater → tributary,moderate,moderate,strong,strong,limited,moderate,limited,limited,limited,unknown,No exhaustive outfall/load model.
+monitoring → decision,moderate,moderate,strong,strong,not_applicable,moderate,moderate,moderate,moderate,limited,Observation supports control but does not fill all gaps.
+sediment/organic matter transport,limited,moderate,strong,strong,unknown,limited,limited,limited,limited,unknown,Bounded interface; no regional sediment budget.

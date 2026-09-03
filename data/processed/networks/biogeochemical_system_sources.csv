@@ -1,0 +1,16 @@
+source_id,title,url,use,source_type
+bge_usgs_wbd,USGS Watershed Boundary Dataset,https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer,Watershed and HUC scale context; not a loading surface.,federal_dataset
+bge_usgs_3dhp,USGS 3D Hydrography Program,https://3dhp.nationalmap.gov/arcgis/rest/services/usgs_3dhp_all/FeatureServer,Mapped physical water-carrier context; not a complete nutrient-flow model.,federal_dataset
+bge_epa_lake_erie,US EPA Lake Erie Water Quality Data,https://www.epa.gov/glwqa/lake-erie-water-quality-data,"Annual phosphorus loads, western-basin HAB context, and target/status framing.",federal_web
+bge_epa_mwn_tmdl,US EPA Maumee Watershed Nutrient TMDL approval,https://www.epa.gov/tmdl/epas-approval-ohios-maumee-watershed-nutrient-total-maximum-daily-load,Approved TP TMDL planning and point/nonpoint allocation context.,federal_web
+bge_epa_mwn_tmdl_faqs,US EPA Maumee Watershed Nutrient TMDL FAQs,https://www.epa.gov/system/files/documents/2023-09/maumee-watershed-nutrient-tmdl-faqs.pdf,"Spring TP loading-capacity and Waterville target framing; planning values, not observed loads.",federal_document
+bge_epa_mwn_tmdl_tables,US EPA/Ohio EPA Maumee Watershed Nutrient TMDL Tables,https://www.epa.gov/system/files/documents/2023-09/2023.9.18_att_1_mwn-tmdl-tables.pdf,"Spring TP point/nonpoint allocation table; planning allocations, not measured source contributions.",federal_document
+bge_noaa_hab,NOAA NCCOS Lake Erie HAB Forecast,https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/lake-erie/,HAB monitoring/forecast interface; no new predictive model.,federal_science
+bge_ncwqr,Heidelberg University NCWQR monitoring program,https://ncwqr.org/,Public Great Lakes surface-water monitoring and data-portal context.,institutional_program
+bge_nass,USDA NASS Cropland Data Layer,https://www.nass.usda.gov/Research_and_Science/Cropland/Release/,Agricultural landscape context; not farm-level management or export attribution.,federal_dataset
+bge_nrscs,USDA NRCS Conservation Practice Standards,https://www.nrcs.usda.gov/conservation-basics/conservation-by-state/ohio,Conservation and soil-management control context; effectiveness is site-dependent.,federal_program
+bge_ohio_h2ohio,Ohio H2Ohio program,https://h2.ohio.gov/,"Documented nutrient-management, wetlands, and water-quality intervention context.",state_program
+bge_ohio_epa_npdes,Ohio EPA NPDES program,https://epa.ohio.gov/divisions-and-offices/surface-water/permitting,Permitted discharge and treatment regulatory context; permits are not actual loads.,state_regulatory
+bge_usfws_nwi,USFWS National Wetlands Inventory,https://fwspublicservices.wim.usgs.gov/wetlandsmapservice/rest/services/Wetlands/MapServer,Wetland inventory and broad retention/transformation interface; no uniform removal rate.,federal_dataset
+bge_glri_annex4,Great Lakes Water Quality Agreement Annex 4,https://binational.net/annexes/a4/,Binational nutrient-reduction target and adaptive-management context.,binational_program
+bge_noaa_climate,NOAA climate data and projections,https://www.ncei.noaa.gov/,"External qualitative scenario driver for precipitation, temperature, and hydrologic variability.",federal_science

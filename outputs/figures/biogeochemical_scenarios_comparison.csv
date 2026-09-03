@@ -1,0 +1,7 @@
+scenario_id,scenario_year,retention,mobilization,transport_variability,delivery,management,monitoring,ecological_interface,worldbuilding_read
+A2050,2050,strengthened,reduced,managed,reduced_or_buffered,adaptive_and_integrated,expanded,improved_but_not_eliminated,Nutrients become visible regional infrastructure; no future bloom forecast.
+A2075,2075,strengthened,reduced,managed,reduced_or_buffered,adaptive_and_integrated,expanded,improved_but_not_eliminated,Nutrients become visible regional infrastructure; no future bloom forecast.
+B2050,2050,targeted,managed,persistent,persists_managed,selective_and_technical,expanded,persistent_managed,Nutrients become visible regional infrastructure; no future bloom forecast.
+B2075,2075,targeted,managed,persistent,persists_managed,selective_and_technical,expanded,persistent_managed,Nutrients become visible regional infrastructure; no future bloom forecast.
+C2050,2050,weakened_in_some_systems,increased_episodically,more_variable,persists_highly_variable,burdened_and_constrained,burden_increased,stress_increased_uncertain,Nutrients become visible regional infrastructure; no future bloom forecast.
+C2075,2075,weakened_in_some_systems,increased_episodically,more_variable,persists_highly_variable,burdened_and_constrained,burden_increased,stress_increased_uncertain,Nutrients become visible regional infrastructure; no future bloom forecast.

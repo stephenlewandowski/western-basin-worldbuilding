@@ -1,0 +1,11 @@
+control_id,control_type,control_name,acts_on,evidence_support,source_id,confidence,uncertainty
+BGC-CTL-001,nutrient_management,Agricultural nutrient-management planning and practice programs,BGC-001;BGC-002,Documented state/federal program context; practice adoption and outcome vary,bge_ohio_h2ohio,moderate,No farm-level behavior or achieved load reduction asserted.
+BGC-CTL-002,fertilizer_management,"Timing, rate, placement, and source management",BGC-002;BGC-004,Practice framework supports mobilization control; regional performance is not uniform,bge_nrscs,moderate,No export coefficient assigned.
+BGC-CTL-003,wetland_restoration,Wetland restoration and water-storage interfaces,BGC-010;BGC-007,Can provide retention/transformation context where connected,bge_ohio_h2ohio,moderate,No universal removal efficiency.
+BGC-CTL-004,riparian_buffer,Riparian and edge-of-field conservation interfaces,BGC-011;BGC-004,Can intercept or transform materials under appropriate conditions,bge_nrscs,moderate,Site conditions and maintenance matter.
+BGC-CTL-005,wastewater_treatment,Permitted wastewater treatment and discharge controls,BGC-013;BGC-009,Regulatory control applies to point-source context,bge_ohio_epa_npdes,high,Permit limit is not measured discharge.
+BGC-CTL-006,stormwater_control,Urban stormwater management,BGC-012;BGC-005,Public control interface for runoff pathways,bge_ohio_epa_npdes,moderate,No outfall inventory or load.
+BGC-CTL-007,drainage_management,Drainage and water-retention management,BGC-004;BGC-005,Hydrologic timing and connectivity can be managed in some settings,bge_ohio_h2ohio,limited,No tile-network geometry or effectiveness claim.
+BGC-CTL-008,monitoring,"Tributary, lake, and HAB monitoring",BGC-014;BGC-006,Supports observation and adaptive management,bge_ncwqr,moderate,Coverage and timeliness remain uneven.
+BGC-CTL-009,regulatory_target,Lake Erie nutrient-reduction targets and Maumee TMDL,BGC-008;BGC-017,Official targets and planning allocations establish management direction,bge_epa_mwn_tmdl,high,Targets are not observed reductions.
+BGC-CTL-010,nutrient_recovery,Potential phosphorus recovery/circular nutrient interface,BGC-018;BGC-013,Conceptual management interface for future scenario layer,bge_ohio_epa_npdes,limited,Not asserted as a regional 2026 operating system.
