@@ -361,6 +361,20 @@ embedded self-referentially in this file.
 - Phase 7B working baseline: commit `c4ed03fa7c85c4f2febafef8a768eef298a50d6e`; factual tables and Map 24 immutable.
 - Next exact action: build separate qualitative A/B/C 2050/2075 scenario products, Maps 25/25b, and comparison outputs. Stop after Phase 7C.
 
+## Final integrated Phase 7C handoff
+
+- Active phase: **NONE**.
+- Phase 7A: **ACCEPTED / FROZEN**; freeze manifest `reports/phase7a_exposure_environmental_health_freeze_manifest.json`.
+- Phase 7B: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; commit `c4ed03fa7c85c4f2febafef8a768eef298a50d6e`; branch/worktree `phase-7b-exposure-dependencies-controls` / `C:\Projects\Public_Github\western-basin-worldbuilding-phase7b`.
+- Phase 7C: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; commit `c915e15793a50c861a76baa404347ec448dc9e48`; branch/worktree `phase-7c-environmental-health-futures` / `C:\Projects\Public_Github\western-basin-worldbuilding-phase7c`.
+- Phase 7C starting main SHA: `8ab398534343654116825fedff3d097204cba355`.
+- Final main SHA and origin/main SHA: `c915e15793a50c861a76baa404347ec448dc9e48`.
+- Products: 36 assumptions, 30 node states, 30 edge states, 30 control states, 30 uncertainty states, six comparison rows, Maps 25/25b.
+- Validation: Python/R Phase 7A, 7B, and 7C validators pass; prior ecological regressions, Markdown links, npm tests/build, and Git LFS pass.
+- Known holds: Great Black Swamp C — HOLD / noncanonical; Toledo intake-coordinate discrepancy UNRESOLVED; Luckey has no project-established individual exposure or receptor-reaching plume.
+- No personal health data, exposure/dose/illness model, cumulative-risk score, disease/vector module, release, or tag.
+- Next analytical phase: **NOT APPROVED**. Stop after Phase 7C; do not begin Phase 7D or another module.
+
 ## Phase 7C completion checkpoint
 
 - Scenario assumptions: 36; node states: 30; edge states: 30; control states: 30; uncertainty states: 30; comparison rows: 6.
