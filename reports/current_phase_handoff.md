@@ -345,3 +345,21 @@ embedded self-referentially in this file.
 - Starting main SHA: `19515f614c61ea4900fedc73ef7353a44a5d2e58`.
 - Next exact action: create the isolated Phase 7B worktree, then build dependency/control/evidence tables and Map 24 without modifying Phase 7A.
 - Protected boundaries: no exposure magnitude, dose, illness, EJ score, plume, vector/infectious disease, or future content. Great Black Swamp remains C — HOLD; Toledo intake discrepancy remains unresolved.
+
+## Phase 7B worktree checkpoint
+
+- Active branch: `phase-7b-exposure-dependencies-controls`.
+- Active worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase7b`.
+- Starting main SHA: `dd92cb9fcd663e9abcb6db6da7d4c2fb3c429c80`.
+- Phase 7A freeze manifest is present and must remain unchanged.
+- Next exact action: create the four Phase 7B CSV products, Map 24, reports, and independent validators.
+
+## Phase 7B analytical checkpoint
+
+- Dependency edges: 20.
+- Control register: 7.
+- Evidence-strength register: 5.
+- Dependency/control matrix: 5 rows × 10 qualitative dimensions.
+- Map 24 PNG/SVG generated with inspectable SVG text.
+- Python and independent R validators pass; Phase 7A freeze validator and Phase 7A R validator pass.
+- Next exact action: run repository regressions/application/Git-LFS checks, review diff, commit and push Phase 7B, then integrate and begin Phase 7C only after readback.

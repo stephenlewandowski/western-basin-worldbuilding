@@ -1,0 +1,6 @@
+pathway_id,pathway_family,environmental_presence_evidence,pathway_evidence,receptor_evidence,exposure_confirmation,dose_information,health_outcome_information,overall_evidence_class,key_missing_link,source_id,confidence,notes
+P-01,Drinking Water / HAB,strong,moderate,limited,unconfirmed,unknown,unknown,pathway_with_control,finished-water/user contact evidence,noaa_hab,high,"Source-water condition, monitoring, and treatment are documented interfaces; HAB observation is not exposure."
+P-02,Ambient Air,moderate,limited,limited,unconfirmed,unknown,unknown,plausible_pathway,personal concentration and facility contribution,epa_aqs,moderate,Ambient measurement is not personal inhaled dose.
+P-03,Soil / Groundwater / Legacy Contamination,strong,moderate,limited,unconfirmed,unknown,unknown,pathway_with_control,receptor-reaching pathway evidence,usace_luckey_2026,high,Documented contamination/remediation; no individual exposure or illness attribution.
+P-04,Food / Fish / Recreational Water,moderate,moderate,limited,unconfirmed,unknown,unknown,advisory_context,actual consumption/recreation contact,ohio_fish_advisories,high,Advisory is not proof of consumption or harm.
+P-05,Heat,strong,limited,limited,unconfirmed,unknown,unknown,plausible_pathway,individual event contact and response,nws_heat,high,Warnings identify conditions; no personal dose or illness model.

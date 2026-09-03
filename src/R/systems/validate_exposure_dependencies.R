@@ -1,0 +1,11 @@
+root <- if(length(commandArgs(trailingOnly=TRUE))) commandArgs(trailingOnly=TRUE)[1] else '.'
+r <- function(p) read.csv(file.path(root,p), stringsAsFactors=FALSE, check.names=FALSE)
+d <- r('data/processed/networks/exposure_dependency_edges.csv'); c <- r('data/processed/analysis/exposure_control_register.csv'); e <- r('data/processed/analysis/exposure_evidence_strength_register.csv'); m <- r('data/processed/analysis/exposure_dependency_control_matrix.csv')
+stopifnot(nrow(d)==20,nrow(c)==7,nrow(e)==5,nrow(m)==5,ncol(m)==11)
+stopifnot(length(unique(d$dependency_id))==20,length(unique(c$control_id))==7,length(unique(e$pathway_id))==5)
+f <- c('Drinking Water / HAB','Ambient Air','Soil / Groundwater / Legacy Contamination','Food / Fish / Recreational Water','Heat')
+stopifnot(setequal(unique(d$pathway_family),f),setequal(e$pathway_family,f),setequal(m$pathway_family,f))
+allowed <- c('strong','moderate','limited','unknown','not_applicable'); stopifnot(all(d$evidence_strength %in% allowed),all(unlist(m[,2:11]) %in% allowed))
+stopifnot(all(e$exposure_confirmation=='unconfirmed'),all(e$dose_information=='unknown'),all(e$health_outcome_information=='unknown'))
+stopifnot(all(nzchar(d$source_id)),all(nzchar(c$source_id)),all(nzchar(e$source_id)))
+cat('status=passed\nphase=7B\ndependency_edges=',nrow(d),'\ncontrol_register=',nrow(c),'\nevidence_register=',nrow(e),'\nmatrix_dimensions=',nrow(m),'x',ncol(m),'\nno_exposure_score=TRUE\nno_dose_or_health_model=TRUE\n',sep='')

@@ -1,0 +1,788 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="965.04075pt" height="568.8pt" viewBox="0 0 965.04075 568.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-03T11:59:27.104870</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 568.8
+L 965.04075 568.8
+L 965.04075 0
+L 0 0
+z
+" style="fill: #101820"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 19px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="42.912" y="37.692" transform="rotate(-0 42.912 37.692)">MAP 24 — EXPOSURE DEPENDENCIES &amp; CONTROLS, 2026</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #d6dee5" x="42.912" y="63.7488" transform="rotate(-0 42.912 63.7488)">Potential pathways depend on conditions, information, controls, receptor assumptions, and evidence limits</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="38.448" y="108.1008" transform="rotate(-0 38.448 108.1008)">Drinking Water / HAB</text>
+   </g>
+   <g id="PathCollection_1">
+    <defs>
+     <path id="mf5b82342cc" d="M 0 10.839742
+C 2.874733 10.839742 5.632112 9.697598 7.664855 7.664855
+C 9.697598 5.632112 10.839742 2.874733 10.839742 0
+C 10.839742 -2.874733 9.697598 -5.632112 7.664855 -7.664855
+C 5.632112 -9.697598 2.874733 -10.839742 0 -10.839742
+C -2.874733 -10.839742 -5.632112 -9.697598 -7.664855 -7.664855
+C -9.697598 -5.632112 -10.839742 -2.874733 -10.839742 0
+C -10.839742 2.874733 -9.697598 5.632112 -7.664855 7.664855
+C -5.632112 9.697598 -2.874733 10.839742 0 10.839742
+z
+" style="stroke: #ffffff; stroke-width: 0.6"/>
+    </defs>
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#mf5b82342cc" x="176.832" y="129.168" style="fill: #4c9be8; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="176.832" y="130.908691" transform="rotate(-0 176.832 130.908691)">Environmental condition</text>
+   </g>
+   <g id="patch_2">
+    <path d="M 201.152817 129.168
+Q 241.560854 129.168 280.850857 129.168
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 276.850857 127.168
+L 280.850857 129.168
+L 276.850857 131.168
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_2">
+    <defs>
+     <path id="m9b276f2682" d="M 0 10.839742
+C 2.874733 10.839742 5.632112 9.697598 7.664855 7.664855
+C 9.697598 5.632112 10.839742 2.874733 10.839742 0
+C 10.839742 -2.874733 9.697598 -5.632112 7.664855 -7.664855
+C 5.632112 -9.697598 2.874733 -10.839742 0 -10.839742
+C -2.874733 -10.839742 -5.632112 -9.697598 -7.664855 -7.664855
+C -9.697598 -5.632112 -10.839742 -2.874733 -10.839742 0
+C -10.839742 2.874733 -9.697598 5.632112 -7.664855 7.664855
+C -5.632112 9.697598 -2.874733 10.839742 0 10.839742
+z
+" style="stroke: #ffffff; stroke-width: 0.6"/>
+    </defs>
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m9b276f2682" x="306.288" y="129.168" style="fill: #f0b35a; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="306.288" y="130.908691" transform="rotate(-0 306.288 130.908691)">Pathway opportunity</text>
+   </g>
+   <g id="patch_3">
+    <path d="M 330.610588 129.168
+Q 373.249151 129.168 414.769681 129.168
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 410.769681 127.168
+L 414.769681 129.168
+L 410.769681 131.168
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_3">
+    <defs>
+     <path id="m9dd842c2db" d="M 0 10.839742
+C 2.874733 10.839742 5.632112 9.697598 7.664855 7.664855
+C 9.697598 5.632112 10.839742 2.874733 10.839742 0
+C 10.839742 -2.874733 9.697598 -5.632112 7.664855 -7.664855
+C 5.632112 -9.697598 2.874733 -10.839742 0 -10.839742
+C -2.874733 -10.839742 -5.632112 -9.697598 -7.664855 -7.664855
+C -9.697598 -5.632112 -10.839742 -2.874733 -10.839742 0
+C -10.839742 2.874733 -9.697598 5.632112 -7.664855 7.664855
+C -5.632112 9.697598 -2.874733 10.839742 0 10.839742
+z
+" style="stroke: #ffffff; stroke-width: 0.6"/>
+    </defs>
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m9dd842c2db" x="440.208" y="129.168" style="fill: #70c7a1; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="440.208" y="130.908691" transform="rotate(-0 440.208 130.908691)">Monitoring</text>
+   </g>
+   <g id="patch_4">
+    <path d="M 464.530588 129.168
+Q 507.169151 129.168 548.689681 129.168
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 544.689681 127.168
+L 548.689681 129.168
+L 544.689681 131.168
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_4">
+    <defs>
+     <path id="m3cc726500d" d="M 0 10.839742
+C 2.874733 10.839742 5.632112 9.697598 7.664855 7.664855
+C 9.697598 5.632112 10.839742 2.874733 10.839742 0
+C 10.839742 -2.874733 9.697598 -5.632112 7.664855 -7.664855
+C 5.632112 -9.697598 2.874733 -10.839742 0 -10.839742
+C -2.874733 -10.839742 -5.632112 -9.697598 -7.664855 -7.664855
+C -9.697598 -5.632112 -10.839742 -2.874733 -10.839742 0
+C -10.839742 2.874733 -9.697598 5.632112 -7.664855 7.664855
+C -5.632112 9.697598 -2.874733 10.839742 0 10.839742
+z
+" style="stroke: #ffffff; stroke-width: 0.6"/>
+    </defs>
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m3cc726500d" x="574.128" y="129.168" style="fill: #b58be8; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #101820" transform="translate(559.056141 126.887775)">Control/</text>
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #101820" transform="translate(561.092836 134.929607)">barrier</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 598.448817 129.168
+Q 638.856854 129.168 678.146857 129.168
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 674.146857 127.168
+L 678.146857 129.168
+L 674.146857 131.168
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_5">
+    <defs>
+     <path id="m03f3ed1386" d="M 0 10.839742
+C 2.874733 10.839742 5.632112 9.697598 7.664855 7.664855
+C 9.697598 5.632112 10.839742 2.874733 10.839742 0
+C 10.839742 -2.874733 9.697598 -5.632112 7.664855 -7.664855
+C 5.632112 -9.697598 2.874733 -10.839742 0 -10.839742
+C -2.874733 -10.839742 -5.632112 -9.697598 -7.664855 -7.664855
+C -9.697598 -5.632112 -10.839742 -2.874733 -10.839742 0
+C -10.839742 2.874733 -9.697598 5.632112 -7.664855 7.664855
+C -5.632112 9.697598 -2.874733 10.839742 0 10.839742
+z
+" style="stroke: #ffffff; stroke-width: 0.6"/>
+    </defs>
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m03f3ed1386" x="703.584" y="129.168" style="fill: #f18f8f; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="703.584" y="130.908691" transform="rotate(-0 703.584 130.908691)">Generic receptor</text>
+   </g>
+   <g id="patch_6">
+    <path d="M 727.900321 129.168
+Q 763.847198 129.168 798.67604 129.168
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 794.67604 127.168
+L 798.67604 129.168
+L 794.67604 131.168
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_6">
+    <defs>
+     <path id="medc11f3f2d" d="M 0 10.839742
+C 2.874733 10.839742 5.632112 9.697598 7.664855 7.664855
+C 9.697598 5.632112 10.839742 2.874733 10.839742 0
+C 10.839742 -2.874733 9.697598 -5.632112 7.664855 -7.664855
+C 5.632112 -9.697598 2.874733 -10.839742 0 -10.839742
+C -2.874733 -10.839742 -5.632112 -9.697598 -7.664855 -7.664855
+C -9.697598 -5.632112 -10.839742 -2.874733 -10.839742 0
+C -10.839742 2.874733 -9.697598 5.632112 -7.664855 7.664855
+C -5.632112 9.697598 -2.874733 10.839742 0 10.839742
+z
+" style="stroke: #ffffff; stroke-width: 0.6"/>
+    </defs>
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#medc11f3f2d" x="824.112" y="129.168" style="fill: #f4e66b; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="824.112" y="130.908691" transform="rotate(-0 824.112 130.908691)">Evidence gap</text>
+   </g>
+   <g id="text_10">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="38.448" y="182.9448" transform="rotate(-0 38.448 182.9448)">Ambient Air</text>
+   </g>
+   <g id="PathCollection_7">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#mf5b82342cc" x="176.832" y="204.012" style="fill: #4c9be8; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="176.832" y="205.752691" transform="rotate(-0 176.832 205.752691)">Environmental condition</text>
+   </g>
+   <g id="patch_7">
+    <path d="M 201.152817 204.012
+Q 241.560854 204.012 280.850857 204.012
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 276.850857 202.012
+L 280.850857 204.012
+L 276.850857 206.012
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_8">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m9b276f2682" x="306.288" y="204.012" style="fill: #f0b35a; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="306.288" y="205.752691" transform="rotate(-0 306.288 205.752691)">Pathway opportunity</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 330.610588 204.012
+Q 373.249151 204.012 414.769681 204.012
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 410.769681 202.012
+L 414.769681 204.012
+L 410.769681 206.012
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_9">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m9dd842c2db" x="440.208" y="204.012" style="fill: #70c7a1; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="440.208" y="205.752691" transform="rotate(-0 440.208 205.752691)">Monitoring</text>
+   </g>
+   <g id="patch_9">
+    <path d="M 464.530588 204.012
+Q 507.169151 204.012 548.689681 204.012
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 544.689681 202.012
+L 548.689681 204.012
+L 544.689681 206.012
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_10">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m3cc726500d" x="574.128" y="204.012" style="fill: #b58be8; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #101820" transform="translate(559.056141 201.731775)">Control/</text>
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #101820" transform="translate(561.092836 209.773607)">barrier</text>
+   </g>
+   <g id="patch_10">
+    <path d="M 598.448817 204.012
+Q 638.856854 204.012 678.146857 204.012
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 674.146857 202.012
+L 678.146857 204.012
+L 674.146857 206.012
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_11">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m03f3ed1386" x="703.584" y="204.012" style="fill: #f18f8f; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="703.584" y="205.752691" transform="rotate(-0 703.584 205.752691)">Generic receptor</text>
+   </g>
+   <g id="patch_11">
+    <path d="M 727.900321 204.012
+Q 763.847198 204.012 798.67604 204.012
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 794.67604 202.012
+L 798.67604 204.012
+L 794.67604 206.012
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_12">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#medc11f3f2d" x="824.112" y="204.012" style="fill: #f4e66b; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="824.112" y="205.752691" transform="rotate(-0 824.112 205.752691)">Evidence gap</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="38.448" y="257.7888" transform="rotate(-0 38.448 257.7888)">Soil / Groundwater / Legacy Contamination</text>
+   </g>
+   <g id="PathCollection_13">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#mf5b82342cc" x="176.832" y="278.856" style="fill: #4c9be8; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="176.832" y="280.596691" transform="rotate(-0 176.832 280.596691)">Environmental condition</text>
+   </g>
+   <g id="patch_12">
+    <path d="M 201.152817 278.856
+Q 241.560854 278.856 280.850857 278.856
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 276.850857 276.856
+L 280.850857 278.856
+L 276.850857 280.856
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_14">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m9b276f2682" x="306.288" y="278.856" style="fill: #f0b35a; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="306.288" y="280.596691" transform="rotate(-0 306.288 280.596691)">Pathway opportunity</text>
+   </g>
+   <g id="patch_13">
+    <path d="M 330.610588 278.856
+Q 373.249151 278.856 414.769681 278.856
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 410.769681 276.856
+L 414.769681 278.856
+L 410.769681 280.856
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_15">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m9dd842c2db" x="440.208" y="278.856" style="fill: #70c7a1; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="440.208" y="280.596691" transform="rotate(-0 440.208 280.596691)">Monitoring</text>
+   </g>
+   <g id="patch_14">
+    <path d="M 464.530588 278.856
+Q 507.169151 278.856 548.689681 278.856
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 544.689681 276.856
+L 548.689681 278.856
+L 544.689681 280.856
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_16">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m3cc726500d" x="574.128" y="278.856" style="fill: #b58be8; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #101820" transform="translate(559.056141 276.575775)">Control/</text>
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #101820" transform="translate(561.092836 284.617607)">barrier</text>
+   </g>
+   <g id="patch_15">
+    <path d="M 598.448817 278.856
+Q 638.856854 278.856 678.146857 278.856
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 674.146857 276.856
+L 678.146857 278.856
+L 674.146857 280.856
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_17">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m03f3ed1386" x="703.584" y="278.856" style="fill: #f18f8f; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="703.584" y="280.596691" transform="rotate(-0 703.584 280.596691)">Generic receptor</text>
+   </g>
+   <g id="patch_16">
+    <path d="M 727.900321 278.856
+Q 763.847198 278.856 798.67604 278.856
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 794.67604 276.856
+L 798.67604 278.856
+L 794.67604 280.856
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_18">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#medc11f3f2d" x="824.112" y="278.856" style="fill: #f4e66b; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_23">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="824.112" y="280.596691" transform="rotate(-0 824.112 280.596691)">Evidence gap</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="38.448" y="332.6328" transform="rotate(-0 38.448 332.6328)">Food / Fish / Recreational Water</text>
+   </g>
+   <g id="PathCollection_19">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#mf5b82342cc" x="176.832" y="353.7" style="fill: #4c9be8; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_25">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="176.832" y="355.440691" transform="rotate(-0 176.832 355.440691)">Environmental condition</text>
+   </g>
+   <g id="patch_17">
+    <path d="M 201.152817 353.7
+Q 241.560854 353.7 280.850857 353.7
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 276.850857 351.7
+L 280.850857 353.7
+L 276.850857 355.7
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_20">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m9b276f2682" x="306.288" y="353.7" style="fill: #f0b35a; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="306.288" y="355.440691" transform="rotate(-0 306.288 355.440691)">Pathway opportunity</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 330.610588 353.7
+Q 373.249151 353.7 414.769681 353.7
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 410.769681 351.7
+L 414.769681 353.7
+L 410.769681 355.7
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_21">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m9dd842c2db" x="440.208" y="353.7" style="fill: #70c7a1; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_27">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="440.208" y="355.440691" transform="rotate(-0 440.208 355.440691)">Monitoring</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 464.530588 353.7
+Q 507.169151 353.7 548.689681 353.7
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 544.689681 351.7
+L 548.689681 353.7
+L 544.689681 355.7
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_22">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m3cc726500d" x="574.128" y="353.7" style="fill: #b58be8; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #101820" transform="translate(559.056141 351.419775)">Control/</text>
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #101820" transform="translate(561.092836 359.461607)">barrier</text>
+   </g>
+   <g id="patch_20">
+    <path d="M 598.448817 353.7
+Q 638.856854 353.7 678.146857 353.7
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 674.146857 351.7
+L 678.146857 353.7
+L 674.146857 355.7
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_23">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m03f3ed1386" x="703.584" y="353.7" style="fill: #f18f8f; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_29">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="703.584" y="355.440691" transform="rotate(-0 703.584 355.440691)">Generic receptor</text>
+   </g>
+   <g id="patch_21">
+    <path d="M 727.900321 353.7
+Q 763.847198 353.7 798.67604 353.7
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 794.67604 351.7
+L 798.67604 353.7
+L 794.67604 355.7
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_24">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#medc11f3f2d" x="824.112" y="353.7" style="fill: #f4e66b; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_30">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="824.112" y="355.440691" transform="rotate(-0 824.112 355.440691)">Evidence gap</text>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="38.448" y="407.4768" transform="rotate(-0 38.448 407.4768)">Heat</text>
+   </g>
+   <g id="PathCollection_25">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#mf5b82342cc" x="176.832" y="428.544" style="fill: #4c9be8; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="176.832" y="430.284691" transform="rotate(-0 176.832 430.284691)">Environmental condition</text>
+   </g>
+   <g id="patch_22">
+    <path d="M 201.152817 428.544
+Q 241.560854 428.544 280.850857 428.544
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 276.850857 426.544
+L 280.850857 428.544
+L 276.850857 430.544
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_26">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m9b276f2682" x="306.288" y="428.544" style="fill: #f0b35a; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="306.288" y="430.284691" transform="rotate(-0 306.288 430.284691)">Pathway opportunity</text>
+   </g>
+   <g id="patch_23">
+    <path d="M 330.610588 428.544
+Q 373.249151 428.544 414.769681 428.544
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 410.769681 426.544
+L 414.769681 428.544
+L 410.769681 430.544
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_27">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m9dd842c2db" x="440.208" y="428.544" style="fill: #70c7a1; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_34">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="440.208" y="430.284691" transform="rotate(-0 440.208 430.284691)">Monitoring</text>
+   </g>
+   <g id="patch_24">
+    <path d="M 464.530588 428.544
+Q 507.169151 428.544 548.689681 428.544
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 544.689681 426.544
+L 548.689681 428.544
+L 544.689681 430.544
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_28">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m3cc726500d" x="574.128" y="428.544" style="fill: #b58be8; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #101820" transform="translate(559.056141 426.263775)">Control/</text>
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #101820" transform="translate(561.092836 434.305607)">barrier</text>
+   </g>
+   <g id="patch_25">
+    <path d="M 598.448817 428.544
+Q 638.856854 428.544 678.146857 428.544
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 674.146857 426.544
+L 678.146857 428.544
+L 674.146857 430.544
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_29">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#m03f3ed1386" x="703.584" y="428.544" style="fill: #f18f8f; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_36">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="703.584" y="430.284691" transform="rotate(-0 703.584 430.284691)">Generic receptor</text>
+   </g>
+   <g id="patch_26">
+    <path d="M 727.900321 428.544
+Q 763.847198 428.544 798.67604 428.544
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+    <path d="M 794.67604 426.544
+L 798.67604 428.544
+L 794.67604 430.544
+" style="fill: none; stroke: #9aa8b5; stroke-linecap: round"/>
+   </g>
+   <g id="PathCollection_30">
+    <g clip-path="url(#p20a5d6d6c9)">
+     <use xlink:href="#medc11f3f2d" x="824.112" y="428.544" style="fill: #f4e66b; stroke: #ffffff; stroke-width: 0.6"/>
+    </g>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 6.7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #101820" x="824.112" y="430.284691" transform="rotate(-0 824.112 430.284691)">Evidence gap</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #d6dee5" x="42.912" y="531.108" transform="rotate(-0 42.912 531.108)">Evidence ladder remains explicit: environmental presence ≠ potential pathway ≠ documented exposure ≠ dose ≠ illness. Schematic interfaces; no exact routes, plumes, personal exposure, or risk score.</text>
+   </g>
+   <g id="legend_1">
+    <g id="line2d_1">
+     <path d="M 436.015 537.6775
+L 444.015 537.6775
+L 452.015 537.6775
+" style="fill: none; stroke: #000000; stroke-opacity: 0; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="m96cd805e50" d="M 0 4.5
+C 1.193414 4.5 2.338109 4.025852 3.181981 3.181981
+C 4.025852 2.338109 4.5 1.193414 4.5 0
+C 4.5 -1.193414 4.025852 -2.338109 3.181981 -3.181981
+C 2.338109 -4.025852 1.193414 -4.5 0 -4.5
+C -1.193414 -4.5 -2.338109 -4.025852 -3.181981 -3.181981
+C -4.025852 -2.338109 -4.5 -1.193414 -4.5 0
+C -4.5 1.193414 -4.025852 2.338109 -3.181981 3.181981
+C -2.338109 4.025852 -1.193414 4.5 0 4.5
+z
+" style="stroke: #000000"/>
+     </defs>
+     <g>
+      <use xlink:href="#m96cd805e50" x="444.015" y="537.6775" style="fill: #4c9be8; stroke: #000000"/>
+     </g>
+    </g>
+    <g id="text_39">
+     <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="458.415" y="540.4775" transform="rotate(-0 458.415 540.4775)">Environmental condition</text>
+    </g>
+    <g id="line2d_2">
+     <path d="M 436.015 549.678125
+L 444.015 549.678125
+L 452.015 549.678125
+" style="fill: none; stroke: #000000; stroke-opacity: 0; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="m225a5c29b5" d="M 0 4.5
+C 1.193414 4.5 2.338109 4.025852 3.181981 3.181981
+C 4.025852 2.338109 4.5 1.193414 4.5 0
+C 4.5 -1.193414 4.025852 -2.338109 3.181981 -3.181981
+C 2.338109 -4.025852 1.193414 -4.5 0 -4.5
+C -1.193414 -4.5 -2.338109 -4.025852 -3.181981 -3.181981
+C -4.025852 -2.338109 -4.5 -1.193414 -4.5 0
+C -4.5 1.193414 -4.025852 2.338109 -3.181981 3.181981
+C -2.338109 4.025852 -1.193414 4.5 0 4.5
+z
+" style="stroke: #000000"/>
+     </defs>
+     <g>
+      <use xlink:href="#m225a5c29b5" x="444.015" y="549.678125" style="fill: #f0b35a; stroke: #000000"/>
+     </g>
+    </g>
+    <g id="text_40">
+     <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="458.415" y="552.478125" transform="rotate(-0 458.415 552.478125)">Pathway opportunity</text>
+    </g>
+    <g id="line2d_3">
+     <path d="M 572.1525 537.6775
+L 580.1525 537.6775
+L 588.1525 537.6775
+" style="fill: none; stroke: #000000; stroke-opacity: 0; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="m5b3295b256" d="M 0 4.5
+C 1.193414 4.5 2.338109 4.025852 3.181981 3.181981
+C 4.025852 2.338109 4.5 1.193414 4.5 0
+C 4.5 -1.193414 4.025852 -2.338109 3.181981 -3.181981
+C 2.338109 -4.025852 1.193414 -4.5 0 -4.5
+C -1.193414 -4.5 -2.338109 -4.025852 -3.181981 -3.181981
+C -4.025852 -2.338109 -4.5 -1.193414 -4.5 0
+C -4.5 1.193414 -4.025852 2.338109 -3.181981 3.181981
+C -2.338109 4.025852 -1.193414 4.5 0 4.5
+z
+" style="stroke: #000000"/>
+     </defs>
+     <g>
+      <use xlink:href="#m5b3295b256" x="580.1525" y="537.6775" style="fill: #70c7a1; stroke: #000000"/>
+     </g>
+    </g>
+    <g id="text_41">
+     <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="594.5525" y="540.4775" transform="rotate(-0 594.5525 540.4775)">Monitoring</text>
+    </g>
+    <g id="line2d_4">
+     <path d="M 572.1525 549.678125
+L 580.1525 549.678125
+L 588.1525 549.678125
+" style="fill: none; stroke: #000000; stroke-opacity: 0; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="m0b699baeaa" d="M 0 4.5
+C 1.193414 4.5 2.338109 4.025852 3.181981 3.181981
+C 4.025852 2.338109 4.5 1.193414 4.5 0
+C 4.5 -1.193414 4.025852 -2.338109 3.181981 -3.181981
+C 2.338109 -4.025852 1.193414 -4.5 0 -4.5
+C -1.193414 -4.5 -2.338109 -4.025852 -3.181981 -3.181981
+C -4.025852 -2.338109 -4.5 -1.193414 -4.5 0
+C -4.5 1.193414 -4.025852 2.338109 -3.181981 3.181981
+C -2.338109 4.025852 -1.193414 4.5 0 4.5
+z
+" style="stroke: #000000"/>
+     </defs>
+     <g>
+      <use xlink:href="#m0b699baeaa" x="580.1525" y="549.678125" style="fill: #b58be8; stroke: #000000"/>
+     </g>
+    </g>
+    <g id="text_42">
+     <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="594.5525" y="552.478125" transform="rotate(-0 594.5525 552.478125)">Control / barrier</text>
+    </g>
+    <g id="line2d_5">
+     <path d="M 674.1025 537.6775
+L 682.1025 537.6775
+L 690.1025 537.6775
+" style="fill: none; stroke: #000000; stroke-opacity: 0; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="m427ec8a88d" d="M 0 4.5
+C 1.193414 4.5 2.338109 4.025852 3.181981 3.181981
+C 4.025852 2.338109 4.5 1.193414 4.5 0
+C 4.5 -1.193414 4.025852 -2.338109 3.181981 -3.181981
+C 2.338109 -4.025852 1.193414 -4.5 0 -4.5
+C -1.193414 -4.5 -2.338109 -4.025852 -3.181981 -3.181981
+C -4.025852 -2.338109 -4.5 -1.193414 -4.5 0
+C -4.5 1.193414 -4.025852 2.338109 -3.181981 3.181981
+C -2.338109 4.025852 -1.193414 4.5 0 4.5
+z
+" style="stroke: #000000"/>
+     </defs>
+     <g>
+      <use xlink:href="#m427ec8a88d" x="682.1025" y="537.6775" style="fill: #f18f8f; stroke: #000000"/>
+     </g>
+    </g>
+    <g id="text_43">
+     <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="696.5025" y="540.4775" transform="rotate(-0 696.5025 540.4775)">Generic receptor</text>
+    </g>
+    <g id="line2d_6">
+     <path d="M 674.1025 549.678125
+L 682.1025 549.678125
+L 690.1025 549.678125
+" style="fill: none; stroke: #000000; stroke-opacity: 0; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="md3bf33b360" d="M 0 4.5
+C 1.193414 4.5 2.338109 4.025852 3.181981 3.181981
+C 4.025852 2.338109 4.5 1.193414 4.5 0
+C 4.5 -1.193414 4.025852 -2.338109 3.181981 -3.181981
+C 2.338109 -4.025852 1.193414 -4.5 0 -4.5
+C -1.193414 -4.5 -2.338109 -4.025852 -3.181981 -3.181981
+C -4.025852 -2.338109 -4.5 -1.193414 -4.5 0
+C -4.5 1.193414 -4.025852 2.338109 -3.181981 3.181981
+C -2.338109 4.025852 -1.193414 4.5 0 4.5
+z
+" style="stroke: #000000"/>
+     </defs>
+     <g>
+      <use xlink:href="#md3bf33b360" x="682.1025" y="549.678125" style="fill: #f4e66b; stroke: #000000"/>
+     </g>
+    </g>
+    <g id="text_44">
+     <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="696.5025" y="552.478125" transform="rotate(-0 696.5025 552.478125)">Evidence gap</text>
+    </g>
+    <g id="line2d_7">
+     <path d="M 779.82375 537.6775
+L 787.82375 537.6775
+L 795.82375 537.6775
+" style="fill: none; stroke: #000000; stroke-opacity: 0; stroke-width: 1.5; stroke-linecap: square"/>
+     <defs>
+      <path id="mde6b66945b" d="M 0 4.5
+C 1.193414 4.5 2.338109 4.025852 3.181981 3.181981
+C 4.025852 2.338109 4.5 1.193414 4.5 0
+C 4.5 -1.193414 4.025852 -2.338109 3.181981 -3.181981
+C 2.338109 -4.025852 1.193414 -4.5 0 -4.5
+C -1.193414 -4.5 -2.338109 -4.025852 -3.181981 -3.181981
+C -4.025852 -2.338109 -4.5 -1.193414 -4.5 0
+C -4.5 1.193414 -4.025852 2.338109 -3.181981 3.181981
+C -2.338109 4.025852 -1.193414 4.5 0 4.5
+z
+" style="stroke: #000000"/>
+     </defs>
+     <g>
+      <use xlink:href="#mde6b66945b" x="787.82375" y="537.6775" style="fill: #b9c2cc; stroke: #000000"/>
+     </g>
+    </g>
+    <g id="text_45">
+     <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="802.22375" y="540.4775" transform="rotate(-0 802.22375 540.4775)">Unconfirmed exposure</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p20a5d6d6c9">
+   <rect x="7.2" y="7.2" width="892.8" height="554.4"/>
+  </clipPath>
+ </defs>
+</svg>

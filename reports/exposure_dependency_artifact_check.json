@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "phase": "7B",
+  "dependency_edges": 20,
+  "control_register": 7,
+  "evidence_register": 5,
+  "matrix_dimensions": [
+    5,
+    11
+  ],
+  "map24_valid": true,
+  "phase7a_immutable": true,
+  "no_exposure_score": true,
+  "no_dose_or_health_model": true
+}

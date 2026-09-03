@@ -1,0 +1,6 @@
+pathway_family,environmental_evidence,pathway_evidence,monitoring_strength,control_strength,receptor_certainty,exposure_confirmation,dose_information,health_outcome_evidence,spatial_certainty,temporal_certainty
+Drinking Water / HAB,strong,moderate,strong,moderate,limited,unknown,unknown,unknown,moderate,moderate
+Ambient Air,moderate,limited,moderate,limited,limited,unknown,unknown,unknown,limited,moderate
+Soil / Groundwater / Legacy Contamination,strong,moderate,strong,strong,limited,unknown,unknown,unknown,moderate,limited
+Food / Fish / Recreational Water,moderate,moderate,moderate,moderate,limited,unknown,unknown,unknown,limited,limited
+Heat,strong,limited,strong,moderate,limited,unknown,unknown,unknown,moderate,moderate
