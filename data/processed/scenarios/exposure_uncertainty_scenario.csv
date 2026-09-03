@@ -1,0 +1,31 @@
+scenario_id,scenario_year,pathway_family,baseline_uncertainty,change_type,state,assumption_id,plausibility,notes
+A,2050,Drinking Water / HAB,"receptor contact, spatial coverage, and temporal evidence",reduced,uncertainty is reduced through integration,EA-01-01,high,Does not create documented exposure.
+A,2050,Ambient Air,"receptor contact, spatial coverage, and temporal evidence",reduced,uncertainty is reduced through integration,EA-01-02,high,Does not create documented exposure.
+A,2050,Legacy Contamination,"receptor contact, spatial coverage, and temporal evidence",reduced,uncertainty is reduced through integration,EA-01-03,high,Does not create documented exposure.
+A,2050,Food / Fish / Recreational Water,"receptor contact, spatial coverage, and temporal evidence",reduced,uncertainty is reduced through integration,EA-01-04,high,Does not create documented exposure.
+A,2050,Heat,"receptor contact, spatial coverage, and temporal evidence",reduced,uncertainty is reduced through integration,EA-01-05,high,Does not create documented exposure.
+A,2075,Drinking Water / HAB,"receptor contact, spatial coverage, and temporal evidence",reduced,uncertainty is reduced through integration,EA-02-01,high,Does not create documented exposure.
+A,2075,Ambient Air,"receptor contact, spatial coverage, and temporal evidence",reduced,uncertainty is reduced through integration,EA-02-02,high,Does not create documented exposure.
+A,2075,Legacy Contamination,"receptor contact, spatial coverage, and temporal evidence",reduced,uncertainty is reduced through integration,EA-02-03,high,Does not create documented exposure.
+A,2075,Food / Fish / Recreational Water,"receptor contact, spatial coverage, and temporal evidence",reduced,uncertainty is reduced through integration,EA-02-04,high,Does not create documented exposure.
+A,2075,Heat,"receptor contact, spatial coverage, and temporal evidence",reduced,uncertainty is reduced through integration,EA-02-05,high,Does not create documented exposure.
+B,2050,Drinking Water / HAB,"receptor contact, spatial coverage, and temporal evidence",persists,uncertainty remains heterogeneous,EA-03-01,moderate,Does not create documented exposure.
+B,2050,Ambient Air,"receptor contact, spatial coverage, and temporal evidence",persists,uncertainty remains heterogeneous,EA-03-02,moderate,Does not create documented exposure.
+B,2050,Legacy Contamination,"receptor contact, spatial coverage, and temporal evidence",persists,uncertainty remains heterogeneous,EA-03-03,moderate,Does not create documented exposure.
+B,2050,Food / Fish / Recreational Water,"receptor contact, spatial coverage, and temporal evidence",persists,uncertainty remains heterogeneous,EA-03-04,moderate,Does not create documented exposure.
+B,2050,Heat,"receptor contact, spatial coverage, and temporal evidence",persists,uncertainty remains heterogeneous,EA-03-05,moderate,Does not create documented exposure.
+B,2075,Drinking Water / HAB,"receptor contact, spatial coverage, and temporal evidence",persists,uncertainty remains heterogeneous,EA-04-01,moderate,Does not create documented exposure.
+B,2075,Ambient Air,"receptor contact, spatial coverage, and temporal evidence",persists,uncertainty remains heterogeneous,EA-04-02,moderate,Does not create documented exposure.
+B,2075,Legacy Contamination,"receptor contact, spatial coverage, and temporal evidence",persists,uncertainty remains heterogeneous,EA-04-03,moderate,Does not create documented exposure.
+B,2075,Food / Fish / Recreational Water,"receptor contact, spatial coverage, and temporal evidence",persists,uncertainty remains heterogeneous,EA-04-04,moderate,Does not create documented exposure.
+B,2075,Heat,"receptor contact, spatial coverage, and temporal evidence",persists,uncertainty remains heterogeneous,EA-04-05,moderate,Does not create documented exposure.
+C,2050,Drinking Water / HAB,"receptor contact, spatial coverage, and temporal evidence",increased,evidence gaps and burden expand,EA-05-01,exploratory,Does not create documented exposure.
+C,2050,Ambient Air,"receptor contact, spatial coverage, and temporal evidence",increased,evidence gaps and burden expand,EA-05-02,exploratory,Does not create documented exposure.
+C,2050,Legacy Contamination,"receptor contact, spatial coverage, and temporal evidence",increased,evidence gaps and burden expand,EA-05-03,exploratory,Does not create documented exposure.
+C,2050,Food / Fish / Recreational Water,"receptor contact, spatial coverage, and temporal evidence",increased,evidence gaps and burden expand,EA-05-04,exploratory,Does not create documented exposure.
+C,2050,Heat,"receptor contact, spatial coverage, and temporal evidence",increased,evidence gaps and burden expand,EA-05-05,exploratory,Does not create documented exposure.
+C,2075,Drinking Water / HAB,"receptor contact, spatial coverage, and temporal evidence",increased,evidence gaps and burden expand,EA-06-01,exploratory,Does not create documented exposure.
+C,2075,Ambient Air,"receptor contact, spatial coverage, and temporal evidence",increased,evidence gaps and burden expand,EA-06-02,exploratory,Does not create documented exposure.
+C,2075,Legacy Contamination,"receptor contact, spatial coverage, and temporal evidence",increased,evidence gaps and burden expand,EA-06-03,exploratory,Does not create documented exposure.
+C,2075,Food / Fish / Recreational Water,"receptor contact, spatial coverage, and temporal evidence",increased,evidence gaps and burden expand,EA-06-04,exploratory,Does not create documented exposure.
+C,2075,Heat,"receptor contact, spatial coverage, and temporal evidence",increased,evidence gaps and burden expand,EA-06-05,exploratory,Does not create documented exposure.

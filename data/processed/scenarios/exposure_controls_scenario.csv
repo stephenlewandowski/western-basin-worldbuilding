@@ -1,0 +1,31 @@
+scenario_id,scenario_year,pathway_family,baseline_control_id,change_type,state,assumption_id,plausibility,notes
+A,2050,Drinking Water / HAB,CTL-001,strengthened,preventive capacity expands,EA-01-01,high,Qualitative control evolution; no efficiency claim.
+A,2050,Ambient Air,CTL-002,strengthened,preventive capacity expands,EA-01-02,high,Qualitative control evolution; no efficiency claim.
+A,2050,Legacy Contamination,CTL-003,strengthened,preventive capacity expands,EA-01-03,high,Qualitative control evolution; no efficiency claim.
+A,2050,Food / Fish / Recreational Water,CTL-004,strengthened,preventive capacity expands,EA-01-04,high,Qualitative control evolution; no efficiency claim.
+A,2050,Heat,CTL-005,strengthened,preventive capacity expands,EA-01-05,high,Qualitative control evolution; no efficiency claim.
+A,2075,Drinking Water / HAB,CTL-001,strengthened,preventive capacity expands,EA-02-01,high,Qualitative control evolution; no efficiency claim.
+A,2075,Ambient Air,CTL-002,strengthened,preventive capacity expands,EA-02-02,high,Qualitative control evolution; no efficiency claim.
+A,2075,Legacy Contamination,CTL-003,strengthened,preventive capacity expands,EA-02-03,high,Qualitative control evolution; no efficiency claim.
+A,2075,Food / Fish / Recreational Water,CTL-004,strengthened,preventive capacity expands,EA-02-04,high,Qualitative control evolution; no efficiency claim.
+A,2075,Heat,CTL-005,strengthened,preventive capacity expands,EA-02-05,high,Qualitative control evolution; no efficiency claim.
+B,2050,Drinking Water / HAB,CTL-001,persists,targeted management continues,EA-03-01,moderate,Qualitative control evolution; no efficiency claim.
+B,2050,Ambient Air,CTL-002,persists,targeted management continues,EA-03-02,moderate,Qualitative control evolution; no efficiency claim.
+B,2050,Legacy Contamination,CTL-003,persists,targeted management continues,EA-03-03,moderate,Qualitative control evolution; no efficiency claim.
+B,2050,Food / Fish / Recreational Water,CTL-004,persists,targeted management continues,EA-03-04,moderate,Qualitative control evolution; no efficiency claim.
+B,2050,Heat,CTL-005,persists,targeted management continues,EA-03-05,moderate,Qualitative control evolution; no efficiency claim.
+B,2075,Drinking Water / HAB,CTL-001,persists,targeted management continues,EA-04-01,moderate,Qualitative control evolution; no efficiency claim.
+B,2075,Ambient Air,CTL-002,persists,targeted management continues,EA-04-02,moderate,Qualitative control evolution; no efficiency claim.
+B,2075,Legacy Contamination,CTL-003,persists,targeted management continues,EA-04-03,moderate,Qualitative control evolution; no efficiency claim.
+B,2075,Food / Fish / Recreational Water,CTL-004,persists,targeted management continues,EA-04-04,moderate,Qualitative control evolution; no efficiency claim.
+B,2075,Heat,CTL-005,persists,targeted management continues,EA-04-05,moderate,Qualitative control evolution; no efficiency claim.
+C,2050,Drinking Water / HAB,CTL-001,weakened,reliance and burden increase,EA-05-01,exploratory,Qualitative control evolution; no efficiency claim.
+C,2050,Ambient Air,CTL-002,weakened,reliance and burden increase,EA-05-02,exploratory,Qualitative control evolution; no efficiency claim.
+C,2050,Legacy Contamination,CTL-003,weakened,reliance and burden increase,EA-05-03,exploratory,Qualitative control evolution; no efficiency claim.
+C,2050,Food / Fish / Recreational Water,CTL-004,weakened,reliance and burden increase,EA-05-04,exploratory,Qualitative control evolution; no efficiency claim.
+C,2050,Heat,CTL-005,weakened,reliance and burden increase,EA-05-05,exploratory,Qualitative control evolution; no efficiency claim.
+C,2075,Drinking Water / HAB,CTL-001,weakened,reliance and burden increase,EA-06-01,exploratory,Qualitative control evolution; no efficiency claim.
+C,2075,Ambient Air,CTL-002,weakened,reliance and burden increase,EA-06-02,exploratory,Qualitative control evolution; no efficiency claim.
+C,2075,Legacy Contamination,CTL-003,weakened,reliance and burden increase,EA-06-03,exploratory,Qualitative control evolution; no efficiency claim.
+C,2075,Food / Fish / Recreational Water,CTL-004,weakened,reliance and burden increase,EA-06-04,exploratory,Qualitative control evolution; no efficiency claim.
+C,2075,Heat,CTL-005,weakened,reliance and burden increase,EA-06-05,exploratory,Qualitative control evolution; no efficiency claim.

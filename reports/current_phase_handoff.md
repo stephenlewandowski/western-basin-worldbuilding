@@ -352,6 +352,23 @@ embedded self-referentially in this file.
 - Phase 7B working-baseline commit/hash: `c4ed03fa7c85c4f2febafef8a768eef298a50d6e`.
 - Next exact action: create the isolated Phase 7C worktree from integrated main and build separate scenario tables and Maps 25/25b. Do not modify Phase 7A/7B factual tables.
 
+## Phase 7C worktree checkpoint
+
+- Active phase: **Phase 7C — Environmental Health Futures, 2050 / 2075**.
+- Active branch: `phase-7c-environmental-health-futures`.
+- Active worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase7c`.
+- Starting main SHA: `8ab398534343654116825fedff3d097204cba355`.
+- Phase 7B working baseline: commit `c4ed03fa7c85c4f2febafef8a768eef298a50d6e`; factual tables and Map 24 immutable.
+- Next exact action: build separate qualitative A/B/C 2050/2075 scenario products, Maps 25/25b, and comparison outputs. Stop after Phase 7C.
+
+## Phase 7C completion checkpoint
+
+- Scenario assumptions: 36; node states: 30; edge states: 30; control states: 30; uncertainty states: 30; comparison rows: 6.
+- Maps 25 and 25b PNG/SVG generated and validated.
+- Python and independent R scenario validators pass; Phase 7A/7B validators pass; prior ecological regressions, Markdown links, npm tests/build, and Git LFS pass.
+- Phase 7A and Phase 7B working-baseline artifacts remain immutable.
+- Next exact action: review and commit Phase 7C, push feature, integrate fast-forward into main, then set Active phase NONE and verify final synchronization. Do not begin Phase 7D or another module.
+
 ## Phase 7B worktree checkpoint
 
 - Active branch: `phase-7b-exposure-dependencies-controls`.

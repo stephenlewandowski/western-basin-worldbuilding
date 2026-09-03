@@ -286,9 +286,11 @@ individual exposure, dose, illness, plume, or cumulative-risk score.
 
 Phase 7B adds 20 dependency edges, seven controls, five evidence-strength rows, a 5 × 10 qualitative matrix, and Map 24. It preserves the Phase 7A evidence ladder and zero documented individual exposures. It contains no dose, illness, plume, risk score, or future content.
 
-## PHASE 7C — ACTIVE
+## PHASE 7C — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
 
 **Environmental Health Futures, 2050 / 2075**
+
+Phase 7C adds 36 assumptions, 30 scenario node states, 30 edge states, 30 control states, 30 uncertainty states, six comparison rows, and Maps 25/25b. It is qualitative scenario content separate from factual 2026 layers; it contains no probabilities, exposure/dose/illness outcomes, or vector/infectious-disease work.
 
 ## Open Phase 1 QA gates
 

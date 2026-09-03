@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "phase": "7C",
+  "assumptions": 36,
+  "scenario_nodes": 30,
+  "scenario_edges": 30,
+  "control_states": 30,
+  "uncertainty_states": 30,
+  "comparison_rows": 6,
+  "maps_25_25b_valid": true,
+  "qualitative_only": true,
+  "baseline_separation": true
+}

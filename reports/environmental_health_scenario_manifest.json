@@ -1,0 +1,24 @@
+{
+  "phase": "7C",
+  "counts": {
+    "assumptions": 36,
+    "scenario_nodes": 30,
+    "scenario_edges": 30,
+    "control_states": 30,
+    "uncertainty_states": 30,
+    "comparison_rows": 6
+  },
+  "artifacts": {
+    "data/processed/scenarios/environmental_health_scenario_assumptions.csv": "85c88c4883f2ef266ee2350b407784762b21a37ccc93e9f5f2139d45189443ef",
+    "data/processed/scenarios/exposure_nodes_scenario.csv": "9d9e86609f477ad3940c347af3a50d297020eb639e7c090b7aa5d0ca9ca0aada",
+    "data/processed/scenarios/exposure_edges_scenario.csv": "c6cdd72b04a46bb73f1170dae0773fe6ae7c765dbd6225317d97480d6762be36",
+    "data/processed/scenarios/exposure_controls_scenario.csv": "dc32d0814b4dcd5ca3359240b0eb38e84f1cacba7bd485eaad4bb30d5521f9b8",
+    "data/processed/scenarios/exposure_uncertainty_scenario.csv": "7c076763b25a0a66886e966fb04f45059bd2f3b2aaedbeda9e93095079e5e85f",
+    "outputs/figures/environmental_health_scenarios_comparison.csv": "3386a6e678d78b24992ef7d1ce50b2b980d6e278e14622ad46f232fbe5a58c76",
+    "outputs/figures/environmental_health_scenarios_comparison.png": "201020669e58ba525191f0732c77049635d7cb75fe4207d1da40c4b78bc81da5",
+    "outputs/maps/systems/25_environmental_health_futures_2050.png": "68ef140e293db9c4f1130ed4b67aea9ea51a708eda9a69a1107a9b7e5b768b18",
+    "outputs/maps/systems/25_environmental_health_futures_2050.svg": "96b48b6e6cd52f85b759768883c49bd81645243ded7723790d763a274e92aabc",
+    "outputs/maps/systems/25b_environmental_health_futures_2075.png": "6daf65d256b291ccdbe3f013f76bc6469f51890b4f2e204fbc6cc9586c2c7428",
+    "outputs/maps/systems/25b_environmental_health_futures_2075.svg": "8598d4a15167b80f2fe265a849df7e833118508f2a107269f8fd02a4a4afd71a"
+  }
+}
