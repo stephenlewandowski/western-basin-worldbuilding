@@ -20,20 +20,20 @@
       "sha256": "2403079d443166862d024225453af93345916e795ef71bca81af6dd59a3c59e7"
     },
     "data/processed/scenarios/climate_scenario_hazard_states.csv": {
-      "bytes": 9393,
-      "sha256": "dbacbc36efb200a94fa5aa2c9d61b778e15bce59a940f1b0cbc0cd1701c69d9b"
+      "bytes": 9405,
+      "sha256": "9285f7c581fd22f47a22fa019997e65c5f48ebbc176f34a808d28803e42727a0"
     },
     "data/processed/scenarios/climate_scenario_dependency_states.csv": {
-      "bytes": 11069,
-      "sha256": "5d0320854b9e736646e6a983fe718d075b558e25621bc00dee32c78927244a8b"
+      "bytes": 13607,
+      "sha256": "38f2d324d36d00ca1fe84593db924ab5f3e548c19ac452f0be4aa610e8bd834b"
     },
     "data/processed/scenarios/climate_scenario_resilience_states.csv": {
-      "bytes": 12218,
-      "sha256": "2c723a40caf0e59f6c46bd7d5d78e279ab5821b71fb4064a6d56de931ae00003"
+      "bytes": 11408,
+      "sha256": "62b6ba235fe8cd3f3884acd23695184deb06aa4b7d110197f3b4780173509f8c"
     },
     "data/processed/scenarios/climate_compound_event_scenario_states.csv": {
-      "bytes": 15076,
-      "sha256": "4a6ea8f6b1aec467aea8f5c6d1ccfd3d20a898ec58285b009c852b4219e75c2a"
+      "bytes": 15088,
+      "sha256": "5a7b2db90407d2d475127d86ed510357ea3cb930bc7fb6c633a511eeff557fce"
     },
     "outputs/figures/climate_scenario_comparison.csv": {
       "bytes": 2084,
@@ -49,7 +49,7 @@
     },
     "outputs/maps/systems/31_climate_hazard_futures_2050.svg": {
       "bytes": 17759129,
-      "sha256": "e49751a5b537accc6de32f6841513e9e63a196e01640891fa646ae43c69e35c8"
+      "sha256": "cdceefc9ff426390c99e705b7c121709c0c99396ff0a188062ff49c854ab9bd6"
     },
     "outputs/maps/systems/31b_climate_hazard_futures_2075.png": {
       "bytes": 1227679,
@@ -57,7 +57,7 @@
     },
     "outputs/maps/systems/31b_climate_hazard_futures_2075.svg": {
       "bytes": 17759130,
-      "sha256": "60a4bbd6b2b91674188d57db28a90bc1e707d15b1a86edd6da4d5361487a6598"
+      "sha256": "80129d47f09d70f0ab34b6e5573f16b7ab251a2dbc90a0540fae5736aa446549"
     },
     "reports/climate_scenario_sources.md": {
       "bytes": 2040,
@@ -68,8 +68,8 @@
       "sha256": "0ab4d93b60fc46470498573929cf9ecc66de8a06c4a7bf97e22e0fa5eb2b422d"
     },
     "reports/climate_scenario_consistency.md": {
-      "bytes": 761,
-      "sha256": "561883811929f36f97212f55bb7ed23cb47c1f13a3d1465c58cdcc4a3ce33696"
+      "bytes": 895,
+      "sha256": "5bd11019cfb0452fd430a68f1bf0c041ce78088c7d32c721b37042abbcc8a75b"
     },
     "reports/climate_scenario_findings.md": {
       "bytes": 6283,
@@ -80,8 +80,8 @@
       "sha256": "eeb4185e3c85db3c0c4fe983482bdba62f7c0a5956b230c4282e394bd3404078"
     },
     "reports/climate_scenario_qa.md": {
-      "bytes": 1171,
-      "sha256": "656a9f8173d239816d78d2902e5e37f85613ed267c1bfecc8704f675c186bb81"
+      "bytes": 1259,
+      "sha256": "700b6fb14085342857e1fbfa25cad6ab08a2f2cad7f4637172657412ac0d4be1"
     }
   }
 }

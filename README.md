@@ -54,7 +54,7 @@ The Phase 8 package is protected by `reports/phase8a_biogeochemical_nutrient_flu
 
 **PHASE 9 — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE (CLIMATE & NATURAL HAZARDS SYSTEM)**
 
-Phase 9A, 9B, and 9C are complete and separate from earlier factual systems. The package contains Map 29 (2026 baseline), Map 30 (2026 dependencies/compound events/resilience), and Maps 31/31b (qualitative 2050/2075 futures). It contains no composite hazard score, unsupported probability, health/social-vulnerability ranking, deterministic hazard surface, or comprehensive emergency-management module. No further analytical phase is approved.
+Phase 9A, 9B, and 9C are complete, corrected where required, and separate from earlier factual systems. The package contains Map 29 (2026 baseline), Map 30 (2026 dependencies/compound events/resilience), and Maps 31/31b (qualitative 2050/2075 futures). Correction history is recorded in `reports/phase9a_correction_qa.md` and `reports/phase9_correction_qa.md`. It contains no composite hazard score, unsupported probability, health/social-vulnerability ranking, deterministic hazard surface, or comprehensive emergency-management module. No further analytical phase is approved.
 
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 

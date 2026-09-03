@@ -498,3 +498,24 @@ embedded self-referentially in this file.
 - Pre-correction Phase 9B manifest SHA-256: `86f88bd0da39a2e2439a68ca89d540423032cfde5b5a2f4e690ef217b280d884`; manifest-listed working artifacts matched. The dependency-register artifact was `355ee7bd5640248a77406da600ea292c38504e0d2be57ea6cd5507b1b0df996f` and Map 30 SVG was `c2f93acdae7416ab0c49c2f2788fc5aadf45c5ebdd96efba61d2e9b70ed79817`.
 - Protected Phase 8 freeze manifest SHA-256 readback: Phase 8A `43eab525bd521c9854d528ef011e7f34d8241e6c403cde770db63bb7362c0415`; Phase 8B `8738ebe3c6e9ca34b2d28198ac9eae82f420317aa0ca0013484d218483070f01`; Phase 8C `9d13d88670fd6790a591a118377e75a40a0ee58a3cf251095330c38156e24b82`.
 - The Phase 9C checkpoint is not integrated into `main`; the original Phase 9A/9B commits are not amended or rewritten. Next action is to create a local preservation checkpoint if needed, then apply and document only the authorized corrections.
+
+## Phase 9 corrected-package completion checkpoint
+
+- Phase 9A correction commits: `f0546d6` (`qa: correct Phase 9 climate baseline provenance`) and `c529c30` (`qa: record Phase 9A corrected validation`). Phase 9B/QA correction commits: `4db3515` (`qa: tighten Phase 9 dependency validation`) and `d1e9369` (`qa: align Phase 9 correction citations`). Original implementation commits `8a76895c62be6af8304d93f50895828812b13e26` and `ae6e946b17bedb9670ef1d6c5f3a958b33062e82` remain intact.
+- Corrected Phase 9A package: 28 nodes, 29 edges, 28 observations, 21 sources. Corrected Phase 9B package: 24 dependency edges, 24 register rows, 9 compound events, 12 controls, 9 matrix rows, and 14 source-registry rows.
+- Phase 9C was regenerated from corrected A/B baselines: 12 projection records, 36 assumptions, 36 hazard states, 48 dependency states, 48 resilience states, 54 compound-event states, six comparisons, and Maps 31/31b. Baseline IDs and source mappings were independently checked.
+- Phase 9A, 9B, and 9C Python validators passed. All 27 repository Python validators passed; all 26 repository R validators passed, including independent SHA-256 recomputation of the Phase 9A and Phase 9B working-baseline manifests. Phase 8 freeze validation and 148 prior-artifact checks passed.
+- `npm test` passed with 22 tests; `npm run build` passed. Repository-relative Markdown validation passed with 137 links. `git diff --check` and `git lfs fsck` passed. Strict grounded-citation verification passed for the Phase 9A, 9B, and 9C report pairs and both correction logs using mechanically generated phase-local citation ledgers.
+- Map 29 was preserved because the correction did not affect its annotations. Map 30 and Maps 31/31b were regenerated where corrected B/C content changed them. No accepted Phase 1–8 baseline artifact changed.
+- R validator hash portability was corrected for the native Windows `Rscript` environment with a `certutil` SHA-256 fallback; the independent R checks must be rerun before commit.
+## Phase 9 final integrated handoff
+
+- Phase 9A: **IMPLEMENTED / VALIDATED / CORRECTED / INTEGRATED / AWAITING SOL ACCEPTANCE**.
+- Phase 9B: **IMPLEMENTED / VALIDATED / CORRECTED / INTEGRATED / AWAITING SOL ACCEPTANCE**.
+- Phase 9C: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**.
+- Active phase: **NONE**.
+- Next analytical phase: **NOT APPROVED**.
+- The original Phase 9A/9B implementation commits, local preservation checkpoint `affde66`, and correction commits `f0546d6`, `c529c30`, `4db3515`, and `d1e9369` remain preserved; no prior commit was amended or rewritten.
+- Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains unresolved.
+- No accepted Phase 1–8 artifact was changed. No unrelated module, release, or tag was created.
+- Feature and integrated-main SHAs are verified by Git after the final commit; this handoff avoids a self-referential hash.

@@ -502,7 +502,7 @@ These gaps are recorded rather than filled with synthetic values.
 
 ## Structural and provenance checks
 
-The package contains 28 hazard nodes, 30 directed relationships, 28 quantitative/context observation records, and 21 source-registry records. Every node and edge has a source ID, scale, confidence, reality/canon status, and notes. Every observation retains metric, value, units, period, station_or_scope, spatial scale, observed_or_modeled status, source ID, confidence, and limitations.
+The package contains 28 hazard nodes, 29 directed relationships, 28 quantitative/context observation records, and 21 source-registry records. Every node and edge has a source ID, scale, confidence, reality/canon status, and notes. Every observation retains metric, value, units, period, station_or_scope, spatial scale, observed_or_modeled status, source ID, confidence, and limitations.
 
 ## Scientific boundary checks
 

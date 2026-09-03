@@ -52,6 +52,11 @@ families=["extreme_heat","heavy_precipitation_flooding","drought_low_water","lak
 paths=["heat_to_energy","precip_to_nutrient","precip_to_stormwater","flood_to_freight","lake_to_coastal","storm_to_power_information","drought_to_ag_ecology","winter_to_infrastructure"]
 controls=["warning_systems","heat_adaptation","floodplain_stormwater","wetland_floodplain_buffer","water_treatment","lake_monitoring","agricultural_conservation","grid_information_redundancy"]
 compounds=["heat_plus_power","heat_plus_drought","precip_plus_nutrient","precip_plus_stormwater_wastewater","high_lake_plus_seiche","flood_plus_freight","freeze_thaw_plus_infrastructure","storm_plus_power_communications","drought_plus_ag_ecology"]
+hazard_baselines={"extreme_heat":"HZ-001","heavy_precipitation_flooding":"HZ-004","drought_low_water":"HZ-009","lake_coastal":"HZ-012","severe_convective":"HZ-016","winter":"HZ-018"}
+path_baselines={"heat_to_energy":"HZD-001","precip_to_nutrient":"HZD-005","precip_to_stormwater":"HZD-006","flood_to_freight":"HZD-007","lake_to_coastal":"HZD-013","storm_to_power_information":"HZD-016;HZD-017","drought_to_ag_ecology":"HZD-009;HZD-010","winter_to_infrastructure":"HZD-018;HZD-019"}
+control_baselines={"warning_systems":"HZC-001","heat_adaptation":"HZC-002","floodplain_stormwater":"HZC-006","wetland_floodplain_buffer":"HZC-008","water_treatment":"HZD-008;HZD-022","lake_monitoring":"HZC-004","agricultural_conservation":"HZC-009","grid_information_redundancy":"HZC-012"}
+path_sources={"heat_to_energy":"c9_nca_energy","precip_to_nutrient":"c9_pnas_hab","precip_to_stormwater":"c9_nca_midwest","flood_to_freight":"c9_nca_midwest","lake_to_coastal":"c9_epa_great_lakes","storm_to_power_information":"c9_nca_energy","drought_to_ag_ecology":"c9_nca_midwest","winter_to_infrastructure":"c9_nca_midwest"}
+compound_sources={"heat_plus_power":"c9_nca_energy","heat_plus_drought":"c9_nca_midwest","precip_plus_nutrient":"c9_pnas_hab","precip_plus_stormwater_wastewater":"c9_nca_midwest","high_lake_plus_seiche":"c9_epa_great_lakes","flood_plus_freight":"c9_nca_midwest","freeze_thaw_plus_infrastructure":"c9_nca_midwest","storm_plus_power_communications":"c9_nca_energy","drought_plus_ag_ecology":"c9_nca_midwest"}
 
 ASS_COLUMNS=["assumption_id","scenario_id","scenario_year","scope","assumption","basis","value_type","source_id","plausibility","uncertainty","reality_status","notes"]
 HAZ_COLUMNS=["scenario_id","scenario_year","state_id","baseline_object_id","hazard_family","change_type","future_state","reality_status","relationship_basis","assumption_id","source_id","plausibility","notes"]
@@ -81,12 +86,12 @@ def tables():
  for s in scenarios:
   for y in (2050,2075):
    sid=f"{s}{y}"
-   for i,f in enumerate(families,1): h.append([sid,y,f"CSH-{sid}-{i:02d}",f"HZ-{i:03d}",f,"qualitative_driver",hazard_state(s,f),"fictional","scenario_assumption",f"CSA-{s}{y}-{((i-1)%6)+1:02d}","c9_glisa_summary" if f in ("extreme_heat","heavy_precipitation_flooding") else "c9_nca_midwest","moderate" if s=="B" else "limited","Qualitative scenario state; no local future hazard surface or probability."])
-   for i,p in enumerate(paths,1): d.append([sid,y,f"CSD-{sid}-{i:02d}",p,"cross_system",dep_state(s,p),"qualitative_change","fictional","scenario_assumption",f"CSA-{s}{y}-{((i+1)%6)+1:02d}","c9_nca_midwest" if p in ("heat_to_energy","flood_to_freight") else "c9_pnas_hab","moderate" if s=="B" else "limited","No numeric dependency strength or outage probability."])
-   for i,c in enumerate(controls,1): r.append([sid,y,f"CSR-{sid}-{i:02d}",c,f"2026_{c}",res_state(s,c),"qualitative_change","fictional","scenario_assumption",f"CSA-{s}{y}-{((i+2)%6)+1:02d}","c9_nca_midwest" if c not in ("lake_monitoring",) else "c9_epa_great_lakes","moderate" if s=="B" else "limited","Control state is qualitative; effectiveness is not quantified."])
+   for i,f in enumerate(families,1): h.append([sid,y,f"CSH-{sid}-{i:02d}",hazard_baselines[f],f,"qualitative_driver",hazard_state(s,f),"fictional","scenario_assumption",f"CSA-{s}{y}-{((i-1)%6)+1:02d}","c9_glisa_summary" if f in ("extreme_heat","heavy_precipitation_flooding") else "c9_notaro_levels" if f=="lake_coastal" else "c9_notaro_snow" if f=="winter" else "c9_nca_midwest","moderate" if s=="B" else "limited","Qualitative scenario state; no local future hazard surface or probability."])
+   for i,p in enumerate(paths,1): d.append([sid,y,f"CSD-{sid}-{i:02d}",path_baselines[p],"cross_system",dep_state(s,p),"qualitative_change","fictional","scenario_assumption",f"CSA-{s}{y}-{((i+1)%6)+1:02d}",path_sources[p],"moderate" if s=="B" else "limited","Qualitative scenario state references a Phase 9B interface; no numeric dependency strength or outage probability."])
+   for i,c in enumerate(controls,1): r.append([sid,y,f"CSR-{sid}-{i:02d}",c,control_baselines[c],res_state(s,c),"qualitative_change","fictional","scenario_assumption",f"CSA-{s}{y}-{((i+2)%6)+1:02d}","c9_nca_energy" if c=="heat_adaptation" else "c9_epa_great_lakes" if c=="lake_monitoring" else "c9_nca_midwest","moderate" if s=="B" else "limited","Control state is qualitative; effectiveness is not quantified."])
    for i,c in enumerate(compounds,1):
     a,b=(c.split("_plus_",1)+["system"])[:2] if "_plus_" in c else (c,"system")
-    cp.append([sid,y,f"CSC-{sid}-{i:02d}",c,a,b,"cross_system",comp_state(s,c),"qualitative_change","fictional","scenario_assumption",f"CSA-{s}{y}-{((i+3)%6)+1:02d}","c9_pnas_hab" if c=="precip_plus_nutrient" else "c9_nca_midwest","moderate" if s=="B" else "limited","Scenario interaction, not a probability or guaranteed co-occurrence."])
+    cp.append([sid,y,f"CSC-{sid}-{i:02d}",c,a,b,"cross_system",comp_state(s,c),"qualitative_change","fictional","scenario_assumption",f"CSA-{s}{y}-{((i+3)%6)+1:02d}",compound_sources[c],"moderate" if s=="B" else "limited","Scenario interaction, not a probability or guaranteed co-occurrence."])
  return ass,h,d,r,cp
 
 COMP_ROWS=[]
@@ -143,9 +148,9 @@ Projection values are used only where the source directly supports a range or me
 """,
  "climate_scenario_consistency.md":"""# Phase 9C Climate & Hazard Scenario Consistency
 
-All six scenario-horizon states reference the same factual Phase 9A hazard objects and Phase 9B qualitative interfaces without modifying them.
+All six scenario-horizon states reference explicit Phase 9A hazard-node IDs and Phase 9B dependency/control IDs from the corrected working baselines without modifying those baselines.
 
-The scenario layer separates projection evidence, scenario assumptions, hazard states, dependency states, resilience states, compound-event states, and speculative worldbuilding implications.[3][5][9]
+The scenario layer separates projection evidence, scenario assumptions, hazard states, dependency states, resilience states, compound-event states, and speculative worldbuilding implications. Baseline IDs are checked against the Phase 9A/9B tables rather than inferred from row order.[3][5][9]
 
 The climate evidence is not converted into probabilities. Lake-level sign uncertainty is retained, and late-century source periods are not relabeled as 2075 point estimates.[9][10]
 
@@ -254,9 +259,9 @@ These are explicitly speculative implications, not scientific baseline or projec
 
 The package contains 12 projection evidence records, 36 scenario assumptions, 36 hazard-state records, 48 dependency-state records, 48 resilience-state records, 54 compound-event scenario states, six comparison rows, and Maps 31/31b.
 
-Python and R validators check scenario separation, source references, projection-period provenance, qualitative vocabularies, absence of probabilities and unsupported impact values, Phase 9A/9B immutability, map integrity, and health/social negative scope.
+Python and R validators check scenario separation, source references, projection-period provenance, baseline object/interface IDs, qualitative vocabularies, absence of probabilities and unsupported impact values, recomputed Phase 9A/9B immutability hashes, map integrity, and health/social negative scope.
 
-The validators reject future tornado counts, future flood damages, shoreline positions, outage probabilities, mortality, disease, social-vulnerability scoring, composite hazard scores, and deterministic hazard surfaces. They require explicit scenario year, model/scenario framing, relationship basis, assumption reference, and uncertainty.
+The validators reject future tornado counts, future flood damages, shoreline positions, outage probabilities, mortality, disease, social-vulnerability scoring, composite hazard scores, and deterministic hazard surfaces. They require explicit scenario year, model/scenario framing, baseline references, relationship basis, assumption reference, source reference, and uncertainty.
 
 Map 31 and Map 31b use generalized scenario markers and projection caveats. They do not display hazard zones, exact routes, inundation footprints, shoreline predictions, or infrastructure-failure probabilities. Late-century 2080–2099 evidence is not relabeled as a 2075 point estimate.
 """,

@@ -332,14 +332,30 @@ recording this decision.
 
 **Climate & Natural Hazards System, 2026 / 2050 / 2075**
 
-Phase 9A is implemented, validated, and integrated as a factual 2026 physical
-hazard baseline: 26 nodes, 30 relationships, 28 quantitative/context
-observations, and 21 sources under Map 29. Phase 9B is implemented, validated,
-and integrated as a qualitative dependency, compound-event, and resilience
-layer: 24 dependency edges, 9 compound-event pathways, 12 controls, an 11-
-dimension 9-row matrix, and Map 30. Phase 9C adds 12 projection evidence
-records, 36 assumptions, 36 hazard states, 48 dependency states, 48 resilience
-states, 54 compound-event states, six comparisons, and Maps 31/31b.
+Phase 9A is implemented, validated, corrected, and integrated as a factual
+2026 physical-hazard baseline: 28 nodes, 29 relationships, 28
+quantitative/context observations, and 21 sources under Map 29. Phase 9B is
+implemented, validated, corrected, and integrated as a qualitative dependency,
+compound-event, and resilience layer: 24 dependency edges, 9 compound-event
+pathways, 12 controls, an 11-dimension 9-row matrix, and Map 30. Phase 9C is
+implemented, validated, and integrated as separate qualitative futures with 12
+projection evidence records, 36 assumptions, 36 hazard states, 48 dependency
+states, 48 resilience states, 54 compound-event states, six comparisons, and
+Maps 31/31b.
+
+Phase 9A/9B post-integration corrections are recorded in
+`reports/phase9a_correction_qa.md` and `reports/phase9_correction_qa.md`. The
+original implementation commits remain in history; correction commits were not
+amended into them.
+
+Final subphase status:
+
+- Phase 9A: **IMPLEMENTED / VALIDATED / CORRECTED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+- Phase 9B: **IMPLEMENTED / VALIDATED / CORRECTED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+- Phase 9C: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+- Active phase: **NONE**
+- Next analytical phase: **NOT APPROVED**.
+
 
 Phase 9 uses no composite hazard score, unsupported hazard probability, health
 or social-vulnerability scoring, deterministic hazard surface, or comprehensive

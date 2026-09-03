@@ -11,8 +11,9 @@
   "map31_valid": true,
   "map31b_valid": true,
   "phase9a_9b_artifacts_checked": 23,
-  "future_probabilities_absent": true,
+  "baseline_references_checked": true,
   "baseline_immutability": true,
+  "future_probabilities_absent": true,
   "no_health_social_scoring": true,
   "late_century_not_relabelled_2075": true
 }

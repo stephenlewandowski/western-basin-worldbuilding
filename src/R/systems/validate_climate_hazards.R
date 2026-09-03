@@ -3,10 +3,18 @@ root <- if (length(args)) args[[1]] else normalizePath(file.path(dirname(sys.fra
 read_csv <- function(p) read.csv(p, stringsAsFactors=FALSE, check.names=FALSE, na.strings=c(""))
 sha256_file <- function(path) {
   cmd <- Sys.which("sha256sum")
-  stopifnot(nchar(cmd) > 0)
-  out <- system2(cmd, path, stdout=TRUE, stderr=TRUE)
-  stopifnot(length(out) >= 1)
-  strsplit(trimws(out[[1]]), "[[:space:]]+")[[1]][1]
+  if (nchar(cmd) > 0) {
+    out <- system2(cmd, path, stdout=TRUE, stderr=TRUE)
+    stopifnot(length(out) >= 1)
+    return(tolower(strsplit(trimws(out[[1]]), "[[:space:]]+")[[1]][1]))
+  }
+  certutil <- Sys.which("certutil")
+  stopifnot(nchar(certutil) > 0)
+  out <- system2(certutil, c("-hashfile", path, "SHA256"), stdout=TRUE, stderr=TRUE)
+  normalized <- tolower(gsub("[[:space:]]+", "", out))
+  hits <- normalized[grepl("^[0-9a-f]{64}$", normalized)]
+  stopifnot(length(hits) >= 1)
+  hits[[1]]
 }
 manifest_artifacts <- function(path) {
   lines <- readLines(path, warn=FALSE)

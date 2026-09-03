@@ -62,6 +62,7 @@ Phase 9A remains a factual 2026 layer and contains no future rows, hazard probab
 - `HZ-017` is now typed as `historical_event_context`, not `climate_observation`.
 - The ACIS registry source type is now `station_climate_service`.
 - The final Phase 9A package contains 28 nodes and 29 edges; the edge reduction is the explicit removal of the unsupported Atlas 14 occurrence relation.
+- The Phase 9A QA report and builder template now state the corrected 28-node/29-relationship count; the Phase 9A manifest entry is refreshed accordingly.
 
 ## Phase 9B provenance decisions
 
@@ -86,6 +87,8 @@ The winter-source limitation is preserved.[9] Ohio EPA NPDES and USFWS NWI sourc
 H2Ohio is limited to the named management-pathway context.[12]
 
 ## Validator and R-independence corrections
+
+The R SHA-256 helper uses `sha256sum` when available and the native Windows `certutil -hashfile ... SHA256` path otherwise, so the independent hash checks execute on both supported environments without delegating hashing to Python.
 
 The Phase 9B Python and R validators now check exact schemas, source membership, explicit relationship/support vocabularies, flagged-row source assignments, dependency/register parity, flood regulatory-versus-observed distinctions, event-count-versus-rate semantics, negative groundwater scope, negative health/social scope, map caveats, and independently recomputed Phase 9A/9B manifest hashes. The Phase 9C validators additionally check explicit baseline IDs and corrected Phase 9A/9B source mappings.
 
