@@ -1,0 +1,126 @@
+{
+  "retrieval_date": "2026-09-03",
+  "acis_2025": {
+    "period": "2025 calendar year",
+    "station": "TOLEDO EXECUTIVE AIRPORT",
+    "station_ids": [
+      "04848 1",
+      "14849 1",
+      "338356 2",
+      "TDZ 3",
+      "KTDZ 5",
+      "USW00004848 6",
+      "USW00014849 6",
+      "TDZ 7",
+      "USW00004848 32",
+      "USW00014849 32"
+    ],
+    "latitude": 41.56327,
+    "longitude": -83.47671,
+    "records": 365,
+    "max_temperature_f": 96.0,
+    "max_temperature_date": "2025-06-23",
+    "min_temperature_f": -2.0,
+    "min_temperature_date": "2025-01-22",
+    "days_maxt_ge_90f": 20,
+    "days_mint_le_32f": 112,
+    "precipitation_sum_in_excluding_missing_and_trace": 12.84,
+    "precip_numeric_days": 254,
+    "precip_missing_days": 69,
+    "precip_trace_days": 42,
+    "days_precip_ge_1in": 1,
+    "snow_observed_days": 0
+  },
+  "acis_2026_ytd": {
+    "period": "2026-01-01 through 2026-09-03 requested",
+    "station": "TOLEDO EXECUTIVE AIRPORT",
+    "station_ids": [
+      "04848 1",
+      "14849 1",
+      "338356 2",
+      "TDZ 3",
+      "KTDZ 5",
+      "USW00004848 6",
+      "USW00014849 6",
+      "TDZ 7",
+      "USW00004848 32",
+      "USW00014849 32"
+    ],
+    "latitude": 41.56327,
+    "longitude": -83.47671,
+    "records": 246,
+    "max_temperature_f": 98.0,
+    "max_temperature_date": "2026-07-01",
+    "min_temperature_f": -5.0,
+    "min_temperature_date": "2026-01-24",
+    "days_maxt_ge_90f": 8,
+    "days_mint_le_32f": 58,
+    "precipitation_sum_in_excluding_missing_and_trace": 16.480000000000004,
+    "precip_numeric_days": 189,
+    "precip_missing_days": 57,
+    "precip_trace_days": 0,
+    "days_precip_ge_1in": 4,
+    "snow_observed_days": 0
+  },
+  "cag_lucas_2025_f": 51.8,
+  "usgs_flow": {
+    "2025": {
+      "records": 365,
+      "max": 68200.0,
+      "max_date": "2025-04-04",
+      "min": 65.0,
+      "min_date": "2025-10-25"
+    },
+    "2026": {
+      "records": 244,
+      "max": 68200.0,
+      "max_date": "2026-04-03",
+      "min": 313.0,
+      "min_date": "2026-07-29"
+    }
+  },
+  "coops_water_level": {
+    "records": 365,
+    "max": 174.848,
+    "max_date": "2025-05-20 00:00",
+    "min": 172.845,
+    "min_date": "2025-12-29 00:00"
+  },
+  "usdm_lucas_latest": {
+    "map_date": "2026-08-25",
+    "none_percent": 100.0,
+    "d0_percent": 0.0,
+    "d1_percent": 0.0,
+    "d2_percent": 0.0,
+    "d3_percent": 0.0,
+    "d4_percent": 0.0,
+    "dsci_map_date": "2026-08-25",
+    "dsci": 0.0
+  },
+  "storm_event_counts": {
+    "Thunderstorm Wind": 58,
+    "Winter Storm": 13,
+    "Tornado": 11,
+    "Hail": 9,
+    "Heavy Snow": 6,
+    "Flash Flood": 4,
+    "Ice Storm": 4,
+    "Cold/Wind Chill": 3,
+    "Flood": 3,
+    "Extreme Cold/Wind Chill": 2
+  },
+  "storm_event_scope": [
+    "DEFIANCE",
+    "FULTON",
+    "HENRY",
+    "LENAWEE",
+    "LUCAS",
+    "MONROE",
+    "OTTAWA",
+    "PAULDING",
+    "PUTNAM",
+    "SANDUSKY",
+    "WILLIAMS",
+    "WOOD"
+  ]
+}

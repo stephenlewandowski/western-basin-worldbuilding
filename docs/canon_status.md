@@ -35,6 +35,7 @@ The **Woodville–Elmore–Luckey Materials Corridor** may develop as a geology/
 6. Exposure / Environmental Health
 7. Data / Sensors / Governance / Security
 8. Governance / Jurisdiction as an optional cross-cutting view
+9. Climate / Natural Hazards as a physical-environmental layer
 
 ## Indigenous history and sovereignty
 
@@ -103,9 +104,10 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 7A Exposure & Environmental Health Baseline:** accepted and frozen as a bounded factual 2026 exposure-context layer; Map 23
 - **Phase 7B Exposure Dependencies, Evidence Strength & Controls:** implemented, validated, and integrated; awaiting Sol acceptance; Map 24
 - **Phase 7C Environmental Health Futures:** implemented, validated, and integrated as separate qualitative 2050/2075 scenario content; awaiting Sol acceptance; Maps 25/25b
-- **Phase 8A Biogeochemical & Nutrient Flux Baseline:** implemented, validated, and integrated as a separate factual 2026 layer; awaiting Sol acceptance; Map 26
-- **Phase 8B Biogeochemical Dependencies & Controls:** implemented, validated, and integrated as a separate qualitative 2026 layer; awaiting Sol acceptance; Map 27
-- **Phase 8C Biogeochemical & Nutrient Flux Futures:** implemented, validated, and integrated as separate qualitative 2050/2075 scenario content; awaiting Sol acceptance; Maps 28/28b
+- **Phase 8A Biogeochemical & Nutrient Flux Baseline:** accepted and frozen as a separate factual 2026 layer; Map 26; `reports/phase8a_biogeochemical_nutrient_flux_freeze_manifest.json`
+- **Phase 8B Biogeochemical Dependencies & Controls:** accepted and frozen as a separate qualitative 2026 layer; Map 27; `reports/phase8b_biogeochemical_dependencies_controls_freeze_manifest.json`
+- **Phase 8C Biogeochemical & Nutrient Flux Futures:** accepted and frozen as separate qualitative 2050/2075 scenario content; Maps 28/28b; `reports/phase8c_biogeochemical_futures_freeze_manifest.json`
+- **Phase 9 Climate & Natural Hazards System:** approved and active; 9A factual baseline, 9B qualitative dependencies/resilience, and 9C qualitative 2050/2075 futures; Maps 29, 30, 31, and 31b
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without

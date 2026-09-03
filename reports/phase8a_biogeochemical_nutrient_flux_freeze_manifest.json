@@ -1,0 +1,59 @@
+{
+  "source_commit": "21f8d6cc3ab6925a8001551f21ab771622ea9d41",
+  "acceptance_basis": "Sol acceptance decision supplied for this run; accepted scientific content is protected without modification.",
+  "accepted_phase": "8A",
+  "baseline": "Biogeochemical & Nutrient Flux Baseline, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "counts": {
+    "nodes": 18,
+    "flux_edges": 24,
+    "quantitative_records": 10
+  },
+  "artifacts": {
+    "data/processed/networks/biogeochemical_system_sources.csv": {
+      "sha256": "12509830a924b3d41c5ad879ea5769d748c8c232ead09d1c7b9c273dd532cce9",
+      "bytes": 3216,
+      "role": "source registry"
+    },
+    "data/processed/networks/biogeochemical_system_nodes.csv": {
+      "sha256": "cbe33d6f2dbb60dea3d4dd7a3ca2d8ef58df17d96a031725c48de81112e83e89",
+      "bytes": 4625,
+      "role": "Phase 8A factual nodes"
+    },
+    "data/processed/networks/biogeochemical_flux_edges.csv": {
+      "sha256": "0d00b7daed14676199f50ae035011430241035c99ab52d5b3fba3ccbf297e97f",
+      "bytes": 6173,
+      "role": "Phase 8A factual flux edges"
+    },
+    "data/processed/analysis/biogeochemical_quantitative_fluxes.csv": {
+      "sha256": "84e60637f94648836e8f0eee13fbe81e650fd79a6041dc5c03fba4ed5c2cd856",
+      "bytes": 2794,
+      "role": "Phase 8A quantitative/context records"
+    },
+    "outputs/maps/systems/26_biogeochemical_nutrient_flux_system_2026.png": {
+      "sha256": "8ab4983c6b13e9d914493a2bdd9552a69f59a86f9b2c87cf3413219d20822625",
+      "bytes": 1195506,
+      "role": "Phase 8A map raster"
+    },
+    "outputs/maps/systems/26_biogeochemical_nutrient_flux_system_2026.svg": {
+      "sha256": "8b3f49ee4fe93e2d8b27efa4d4799d0258c791f14af483f36c945518475b98b4",
+      "bytes": 17915636,
+      "role": "Phase 8A map vector"
+    },
+    "reports/biogeochemical_sources.md": {
+      "sha256": "f801ea64b451636994628f708dcf872c3882ae168beb33bdef4ef6aab16e6740",
+      "bytes": 1279,
+      "role": "Phase 8A source report"
+    },
+    "reports/biogeochemical_assumptions.md": {
+      "sha256": "6b3699be5a0003ed1250b06c267b55c93853311164758ad2ef257d8a446da2cb",
+      "bytes": 834,
+      "role": "Phase 8A/8B/8C assumptions and scope report"
+    },
+    "reports/biogeochemical_findings.md": {
+      "sha256": "3e9af4749ce71120f4e8ac355cc9f57a7ce2b614f07074f74b91e2e361984612",
+      "bytes": 1310,
+      "role": "Phase 8A findings report"
+    }
+  }
+}

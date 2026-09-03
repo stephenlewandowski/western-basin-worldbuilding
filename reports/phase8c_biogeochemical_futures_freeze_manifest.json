@@ -1,0 +1,92 @@
+{
+  "source_commit": "21f8d6cc3ab6925a8001551f21ab771622ea9d41",
+  "acceptance_basis": "Sol acceptance decision supplied for this run; accepted scientific content is protected without modification.",
+  "accepted_phase": "8C",
+  "baseline": "Alternative Biogeochemical Futures, 2050 / 2075",
+  "status": "ACCEPTED / FROZEN",
+  "counts": {
+    "assumptions": 36,
+    "scenario_nodes": 48,
+    "scenario_edges": 42,
+    "scenario_controls": 48,
+    "scenario_uncertainty": 48,
+    "comparison_rows": 6
+  },
+  "artifacts": {
+    "data/processed/scenarios/biogeochemical_scenario_assumptions.csv": {
+      "sha256": "123ef91040fe8d65075b1c4c5d99079e80099dde3ab160681139b83c8d1628b1",
+      "bytes": 8985,
+      "role": "Phase 8C scenario assumptions"
+    },
+    "data/processed/scenarios/biogeochemical_nodes_scenario.csv": {
+      "sha256": "dd62f036998a97c2f167a7e1f3f2e344343bfa4d90de225ed257a43ff36aa0fc",
+      "bytes": 11268,
+      "role": "Phase 8C scenario node states"
+    },
+    "data/processed/scenarios/biogeochemical_edges_scenario.csv": {
+      "sha256": "cd34fca4558f8f8aa3cfc2a5a21d8cf46adf062d0998f25e8a0fd18c847c3e24",
+      "bytes": 8806,
+      "role": "Phase 8C scenario edge states"
+    },
+    "data/processed/scenarios/biogeochemical_controls_scenario.csv": {
+      "sha256": "802348a6985860ecf71ae815f0dc9490ae957d90f0d91ec3775dbac48f02a8ed",
+      "bytes": 8408,
+      "role": "Phase 8C scenario control states"
+    },
+    "data/processed/scenarios/biogeochemical_uncertainty_scenario.csv": {
+      "sha256": "ec8fce8af44c29fde3167d2ecb1ac4ec1e64c29d35c2456523dac873be4a2024",
+      "bytes": 6189,
+      "role": "Phase 8C scenario uncertainty states"
+    },
+    "outputs/figures/biogeochemical_scenarios_comparison.csv": {
+      "sha256": "c261afdd225f1049cc4c7e9e0eaae4bca9bd3047564745d91b36e4129a565f31",
+      "bytes": 1397,
+      "role": "Phase 8C comparison table"
+    },
+    "outputs/maps/systems/28_biogeochemical_futures_2050.png": {
+      "sha256": "c119402b40cd0efa96cc3960e75ddc2a394cd4335d1e790a8e1a53aab3073ab9",
+      "bytes": 1150893,
+      "role": "Phase 8C 2050 map raster"
+    },
+    "outputs/maps/systems/28_biogeochemical_futures_2050.svg": {
+      "sha256": "de34a92f3cb0d0d1d59c4dada7bbad842c209ede4a1a9efce1a7ef32656bd579",
+      "bytes": 17901044,
+      "role": "Phase 8C 2050 map vector"
+    },
+    "outputs/maps/systems/28b_biogeochemical_futures_2075.png": {
+      "sha256": "e1efaea8cc4d4e1e610122d0471cdce51aa013930b7321ceae0c17d46fb062f0",
+      "bytes": 1152095,
+      "role": "Phase 8C 2075 map raster"
+    },
+    "outputs/maps/systems/28b_biogeochemical_futures_2075.svg": {
+      "sha256": "dfb7f2617211ac04df5c754e1bd2aa3b275efc6a94368fe30cb9784f310ef1d3",
+      "bytes": 17901829,
+      "role": "Phase 8C 2075 map vector"
+    },
+    "reports/biogeochemical_future_worldbuilding.md": {
+      "sha256": "6f47eb28ac55b655971698959cfc6425b027508f7893da4647e68cc01ee38bf6",
+      "bytes": 881,
+      "role": "Phase 8C speculative implications"
+    },
+    "reports/biogeochemical_consistency.md": {
+      "sha256": "c40cb24a5d0b9c00617815ef0d5696a81a35504ca93800c3f58445ab1b14b38d",
+      "bytes": 990,
+      "role": "Phase 8C consistency report"
+    },
+    "reports/biogeochemical_qa.md": {
+      "sha256": "5f25aa9643390f97e84b1cea0ec894599a0d7aa6007dc8e4c70b34cd158b2551",
+      "bytes": 1899,
+      "role": "Phase 8 module QA report"
+    },
+    "reports/biogeochemical_module_manifest.json": {
+      "sha256": "19705fd0635e6d7d77ce608804f0ecb66f0c140b3f00455410875bd802b1f798",
+      "bytes": 3341,
+      "role": "Phase 8 module artifact manifest"
+    },
+    "reports/biogeochemical_artifact_check.json": {
+      "sha256": "f2374ca2daa7f916006dc4771815cb771ae956be2f01798b6ee75853f17e3ba7",
+      "bytes": 549,
+      "role": "Phase 8 module validation result"
+    }
+  }
+}

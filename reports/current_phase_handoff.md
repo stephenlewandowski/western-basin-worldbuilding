@@ -426,3 +426,26 @@ embedded self-referentially in this file.
 - Formal Sol acceptance remains external. Great Black Swamp remains C — HOLD / noncanonical; Toledo intake-coordinate discrepancy remains unresolved.
 - No unsupported nutrient/flux quantities, future HAB forecast, unrelated scientific module, release, or tag was created.
 - Next analytical phase: **NOT APPROVED**. Stop after Phase 8C.
+
+## Phase 8 acceptance and Phase 9 startup checkpoint A
+
+- Starting repository SHA: `21f8d6cc3ab6925a8001551f21ab771622ea9d41`; local `main` and `origin/main` were freshly verified synchronized and clean.
+- Sol acceptance recorded for Phase 8A, Phase 8B, and Phase 8C: **ACCEPTED / FROZEN**.
+- Phase 8 freeze manifests to be created and validated without changing accepted Phase 8 scientific artifacts: `reports/phase8a_biogeochemical_nutrient_flux_freeze_manifest.json`, `reports/phase8b_biogeochemical_dependencies_controls_freeze_manifest.json`, and `reports/phase8c_biogeochemical_futures_freeze_manifest.json`.
+- Phase 9 isolated worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase9`; branch: `phase-9-climate-natural-hazards`; base SHA: `21f8d6cc3ab6925a8001551f21ab771622ea9d41`.
+- Phase 9 briefs persisted: `docs/phase_briefs/phase9a_climate_natural_hazards_baseline.md`, `docs/phase_briefs/phase9b_climate_hazard_dependencies_resilience.md`, and `docs/phase_briefs/phase9c_climate_hazard_futures.md`.
+- Phase 9A → 9B → 9C is approved for automatic sequential execution under the user package. Phase 9 products remain working baselines until formal Sol acceptance after the completed module.
+- Protected constraints: Great Black Swamp C — HOLD / noncanonical; Toledo intake-coordinate reconciliation unresolved; no accepted factual baseline changes; no health or social-vulnerability scoring; no unsupported hazard probabilities.
+- Current checkpoint: worktree established and briefs persisted; next exact action is validate/create Phase 8 acceptance freeze manifests, then acquire Phase 9A sources and build the factual hazard baseline.
+
+## Phase 9A checkpoints B-C
+
+- Source acquisition completed from public NOAA/ACIS, NCEI, NWS, USGS, FEMA, U.S. Drought Monitor, NOAA CO-OPS, NOAA GLERL, and NCEI Storm Events endpoints. Small raw snapshots are under `data/raw/climate_hazards/`; the full 2025 Storm Events bulk archive remains uncommitted.
+- Phase 9A package generated: 26 nodes, 30 directed edges, 28 quantitative/context observations, 21 source records, Map 29 PNG/SVG, acquisition summary, baseline manifest, and bounded reports.
+- Important quantitative records include Toledo Executive Airport temperature observations, incomplete/qualified station precipitation sums and threshold counts, Maumee River at Waterville daily mean flow extrema, Toledo CO-OPS daily mean lake levels, Lucas County U.S. Drought Monitor status, selected county Storm Events counts, and separate warning-threshold metadata.
+- Map 29 QA passed: PNG verified, SVG parsed with inspectable text, three source-backed stations plotted, six generalized family interfaces labeled, legend/caveats present, no hazard polygons or composite score.
+- Python Phase 9A validator passed: 26 nodes, 30 edges, 28 observations, 21 sources; 148 protected prior artifacts checked; future rows, unsupported probabilities, health/social scoring, and scale-category collapse absent.
+- Independent R Phase 9A validator passed with the same counts and Map 29 presence. Phase 8 freeze Python/R validators and existing Phase 8 module Python/R validators passed.
+- Grounded-citation strict verification passed for `reports/climate_hazard_sources.md` and `reports/climate_hazard_findings.md`.
+- Phase 9A is ready for review/integration as `IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE`; it remains an immutable working baseline for Phase 9B after integration readback.
+- Next exact action: perform independent review and repository-wide regression checks, commit/push/integrate Phase 9A, then begin Phase 9B dependencies, compound events, resilience, and Map 30.

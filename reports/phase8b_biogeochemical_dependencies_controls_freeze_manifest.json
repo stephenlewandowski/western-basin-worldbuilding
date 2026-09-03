@@ -1,0 +1,44 @@
+{
+  "source_commit": "21f8d6cc3ab6925a8001551f21ab771622ea9d41",
+  "acceptance_basis": "Sol acceptance decision supplied for this run; accepted scientific content is protected without modification.",
+  "accepted_phase": "8B",
+  "baseline": "Biogeochemical Dependencies, Controls & Bottlenecks, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "counts": {
+    "dependency_edges": 22,
+    "controls": 10,
+    "matrix_rows": 8
+  },
+  "artifacts": {
+    "data/processed/networks/biogeochemical_dependency_edges.csv": {
+      "sha256": "6f8c74b9375a11d5eead514984c783e8a23da6352e5f95fcbe8c81c95dd9150d",
+      "bytes": 3525,
+      "role": "Phase 8B dependency edges"
+    },
+    "data/processed/analysis/biogeochemical_control_register.csv": {
+      "sha256": "0bb2ccedf71392fbcc00ed68b412371ca0a265e2d921c573cc086eeb77a9c95e",
+      "bytes": 2326,
+      "role": "Phase 8B control register"
+    },
+    "data/processed/analysis/biogeochemical_dependency_matrix.csv": {
+      "sha256": "42deb30a7d9c2d47b2605afa6f915180e4df63d266a1e74ad5a93818a0bf1c51",
+      "bytes": 1575,
+      "role": "Phase 8B qualitative matrix"
+    },
+    "outputs/maps/systems/27_biogeochemical_dependencies_controls_2026.png": {
+      "sha256": "d624d7c8194415386f8d2ff7dfaca17f03958de245125368edae33ad430dfcff",
+      "bytes": 1187244,
+      "role": "Phase 8B map raster"
+    },
+    "outputs/maps/systems/27_biogeochemical_dependencies_controls_2026.svg": {
+      "sha256": "88737dc15b0794240a6d9c4c65aaa94d6e1d6127730e25b3326c43d75fb33266",
+      "bytes": 17915974,
+      "role": "Phase 8B map vector"
+    },
+    "reports/biogeochemical_dependency_findings.md": {
+      "sha256": "cc58792e68c9a6ca04267a03e7585a532b3e0579aba7f2e4b855b6eb6a323247",
+      "bytes": 748,
+      "role": "Phase 8B findings report"
+    }
+  }
+}

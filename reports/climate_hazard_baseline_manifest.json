@@ -1,0 +1,56 @@
+{
+  "phase": "9A",
+  "status": "implemented_validated_pending_sol_acceptance",
+  "counts": {
+    "nodes": 26,
+    "edges": 30,
+    "observations": 28,
+    "sources": 21
+  },
+  "artifacts": {
+    "data/processed/networks/climate_hazard_nodes.csv": {
+      "bytes": 7271,
+      "sha256": "47eea528e9dae46ff58b49bfe4519b8b38a0026e6394dbafed70ad0d41c1b095"
+    },
+    "data/processed/networks/climate_hazard_edges.csv": {
+      "bytes": 5687,
+      "sha256": "821d4b0753cbd37b2f00c1ad30598863d55c311d8f34ea22e19bf8fe7ed70582"
+    },
+    "data/processed/analysis/climate_hazard_observations.csv": {
+      "bytes": 7242,
+      "sha256": "7d7833e8a043282a27d3705395e4b339442f88728a3eabaecafb50a285432ad5"
+    },
+    "data/processed/analysis/climate_hazard_sources.csv": {
+      "bytes": 7959,
+      "sha256": "f6316ee6e7b56dcf2e6ccb791f9185690f30db606b25919cd75b8d77a3777d1d"
+    },
+    "reports/phase9a_acquisition_summary.json": {
+      "bytes": 3032,
+      "sha256": "4f0d414c597a66025b993163d782c890a4f93d5831dc45118989ada09b33c07d"
+    },
+    "outputs/maps/systems/29_climate_natural_hazards_2026.png": {
+      "bytes": 1289604,
+      "sha256": "9a01fc91b3321ce60868bc5757ca9dbdfdbc1b688f394e69691c0da9cdee13f8"
+    },
+    "outputs/maps/systems/29_climate_natural_hazards_2026.svg": {
+      "bytes": 17752308,
+      "sha256": "7571dcc5176d2cb98874f76404918170ed42188064b07a9b8c10332203d29e68"
+    },
+    "reports/climate_hazard_sources.md": {
+      "bytes": 3558,
+      "sha256": "d99ad2d1b6ccc731e087f24e5806653cdd6056121a5b97766a575d058c58c835"
+    },
+    "reports/climate_hazard_assumptions.md": {
+      "bytes": 2010,
+      "sha256": "cb994bc5ca28803723e408146ebca77f97143fb92e4216cc81685e18650a6d58"
+    },
+    "reports/climate_hazard_findings.md": {
+      "bytes": 7973,
+      "sha256": "a6ccdaf5e3e8f9ff271cda67acb047eb61aea1c9da1ee8c46d36b0507219971d"
+    },
+    "reports/climate_hazard_qa.md": {
+      "bytes": 2122,
+      "sha256": "a9b5472f7de867edbf6aee1930ccca7a0bf4e30baa36ee9e9aef4bce5b1ff4e4"
+    }
+  }
+}

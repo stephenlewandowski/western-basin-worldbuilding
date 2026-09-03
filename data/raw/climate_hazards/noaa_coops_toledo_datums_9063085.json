@@ -1,0 +1,34 @@
+{
+  "accepted": null,
+  "superseded": null,
+  "epoch": null,
+  "units": "feet",
+  "OrthometricDatum": null,
+  "datums": [
+    {
+      "name": "GL_LWD",
+      "description": "Great Lakes Lower Water Datum",
+      "value": 569.23
+    }
+  ],
+  "LAT": null,
+  "LATdate": null,
+  "LATtime": null,
+  "HAT": null,
+  "HATdate": null,
+  "HATtime": null,
+  "min": 561.62,
+  "mindate": "20221223",
+  "mintime": "11:00:00",
+  "max": 576.827,
+  "maxdate": "20180415",
+  "maxtime": "08:54:00",
+  "disclaimers": {
+    "disclaimers": [],
+    "self": null
+  },
+  "DatumAnalysisPeriod": [],
+  "NGSLink": null,
+  "ctrlStation": null,
+  "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9063085/datums.json"
+}

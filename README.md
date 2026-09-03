@@ -44,6 +44,18 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 Map 23 is a bounded exposure-context layer covering drinking water/HAB, ambient air, Luckey legacy contamination, fish/recreational water, and heat. It does not infer individual exposure, dose, illness, causation, a plume, or a health-risk score.
 
+**Phase 8A — ACCEPTED / FROZEN (BIOGEOCHEMICAL & NUTRIENT FLUX BASELINE, 2026)**
+
+**Phase 8B — ACCEPTED / FROZEN (BIOGEOCHEMICAL DEPENDENCIES & CONTROLS, 2026)**
+
+**Phase 8C — ACCEPTED / FROZEN (BIOGEOCHEMICAL & NUTRIENT FLUX FUTURES, 2050 / 2075)**
+
+The Phase 8 package is protected by `reports/phase8a_biogeochemical_nutrient_flux_freeze_manifest.json`, `reports/phase8b_biogeochemical_dependencies_controls_freeze_manifest.json`, and `reports/phase8c_biogeochemical_futures_freeze_manifest.json`. Accepted scientific content was not changed while recording Sol acceptance.
+
+**PHASE 9 — ACTIVE (CLIMATE & NATURAL HAZARDS SYSTEM)**
+
+Phase 9A → 9B → 9C is approved for sequential execution. It models physical hazards and system dependencies, not health outcomes, social vulnerability, emergency management, or unsupported hazard probabilities.
+
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
 See [PROJECT_STATUS.md](PROJECT_STATUS.md) and the [Phase 1 handoff](reports/water_system_phase1_handoff.md).
@@ -345,6 +357,14 @@ acceptance.
 - [Scenario consistency](reports/ecology_scenario_consistency.md)
 - [Future worldbuilding](reports/ecology_future_worldbuilding.md)
 - [Scenario QA](reports/ecology_scenario_qa.md)
+
+## Phase 9 Climate & Natural Hazards System
+
+Phase 9 is a distinct physical/environmental layer for western Lake Erie, the Maumee watershed, and Toledo/Northwest Ohio. The approved package covers extreme heat; heavy precipitation/flooding; drought/low water; Lake/coastal hazards; severe convective weather; and winter hazards in a compact 2026 baseline, followed by qualitative dependencies/resilience and three alternative 2050/2075 futures.
+
+Phase 9 will not create a composite hazard score, deterministic hazard surface, health or demographic ranking, individual exposure or dose, comprehensive emergency-management model, or unsupported probability. Station, watershed, county, floodplain, shoreline, western Lake Erie, and regional climate-division scales remain distinct. Great Lakes seiche/wind setup is not described as ocean storm surge.
+
+The three Phase 9 briefs are in [docs/phase_briefs](docs/phase_briefs/): `phase9a_climate_natural_hazards_baseline.md`, `phase9b_climate_hazard_dependencies_resilience.md`, and `phase9c_climate_hazard_futures.md`.
 
 ## Repository Structure
 

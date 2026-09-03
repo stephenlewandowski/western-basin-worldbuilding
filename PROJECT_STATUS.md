@@ -294,24 +294,26 @@ Phase 7C adds 36 assumptions, 30 scenario node states, 30 edge states, 30 contro
 
 ## Open Phase 1 QA gates
 
-## PHASE 8A — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 8A — ACCEPTED / FROZEN
 
 **Biogeochemical & Nutrient Flux Baseline, 2026**
 
-Phase 8A adds 18 biogeochemical nodes, 24 directed flux edges, six separate
+Phase 8A adds 18 biogeochemical nodes, 24 directed flux edges, ten separate
 quantitative/context records, a source registry, Map 26, and bounded findings
 for phosphorus, nitrogen, carbon/organic matter, water-carrier transport,
-agriculture, wastewater, wetlands/riparian systems, and monitoring.
+agriculture, wastewater, wetlands/riparian systems, and monitoring. Sol formally
+accepted and froze Phase 8A under `reports/phase8a_biogeochemical_nutrient_flux_freeze_manifest.json`.
 
-## PHASE 8B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 8B — ACCEPTED / FROZEN
 
 **Biogeochemical Dependencies, Controls & Bottlenecks, 2026**
 
 Phase 8B adds 22 qualitative dependency edges, 10 control records, an 8-row
 qualitative dependency matrix, official target framing, and Map 27. Unknown
-quantities remain unknown; targets are not treated as observed reductions.
+quantities remain unknown; targets are not treated as observed reductions. Sol
+formally accepted and froze Phase 8B under `reports/phase8b_biogeochemical_dependencies_controls_freeze_manifest.json`.
 
-## PHASE 8C — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 8C — ACCEPTED / FROZEN
 
 **Biogeochemical & Nutrient Flux Futures, 2050 / 2075**
 
@@ -319,11 +321,20 @@ Phase 8C adds 36 scenario assumptions, 48 scenario node states, 42 scenario
 edge states, 48 control states, 48 uncertainty states, six comparison rows,
 and Maps 28/28b. The future layer is qualitative and separate from factual
 2026 records; it contains no future loads, concentrations, probabilities, or
-predictive HAB model.
+predictive HAB model. Sol formally accepted and froze Phase 8C under
+`reports/phase8c_biogeochemical_futures_freeze_manifest.json`.
 
-The full Phase 8 package is implemented and validated in an isolated feature
-worktree. Formal Sol acceptance remains external. No unrelated scientific
-module was started.
+The complete Phase 8 package is accepted/frozen and protected by three
+subphase manifests. No accepted Phase 8 scientific content was changed while
+recording this decision.
+
+## PHASE 9 — ACTIVE
+
+Phase 9A → 9B → 9C is the approved Climate & Natural Hazards System package.
+Phase 9A is the active factual 2026 baseline; Phase 9B and 9C remain separate
+working layers until their own validation and integration. The module will
+produce Maps 29, 30, 31, and 31b without health, social-vulnerability, or
+unsupported hazard-probability modeling.
 
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry

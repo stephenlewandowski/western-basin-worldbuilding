@@ -1,0 +1,31 @@
+edge_id,from_id,to_id,relationship_type,relationship_basis,scale,source_id,confidence,notes
+HZE-001,HZ-001,HZ-024,observed_by,documented station data service,station,b9_acis,high,Daily station observations are retained at station scale.
+HZE-002,HZ-002,HZ-024,observed_by,documented climate data service,county,b9_ncei_cag,moderate,County climate context is not substituted for a station record.
+HZE-003,HZ-001,HZ-003,warning_for,public warning-service interface,station / forecast area,b9_nws_points,moderate,Heat and cold conditions can be addressed through warnings; no event claim is added.
+HZE-004,HZ-004,HZ-006,hydrologically_amplified_by,physical runoff and drainage logic,HUC8 / river / floodplain,b9_usgs_dv,moderate,Runoff and tributary connectivity can amplify flood conditions; no universal threshold is inferred.
+HZE-005,HZ-004,HZ-005,observed_by,representative gauge observation,HUC8 / station,b9_usgs_dv,moderate,Gauge observation samples one reach within a larger watershed.
+HZE-006,HZ-006,HZ-007,affects,floodplain interface and regulatory mapping context,river / floodplain,b9_fema_nfhl,moderate,Mapped regulatory flood context is not an observed flood footprint.
+HZE-007,HZ-008,HZ-006,affects,urban drainage and receiving-water interface,urban / river,b9_noaa_atlas14,limited,Generalized stormwater burden; no outfall or parcel claim.
+HZE-008,HZ-006,HZ-019,forecast_by,public river and flood warning interface,river / forecast area,b9_nws_points,moderate,Forecast and warning systems are distinct from observed flood conditions.
+HZE-009,HZ-009,HZ-022,monitored_by,documented drought assessment system,county / regional,b9_usdm_area,high,Weekly drought categories are assessed from multiple indicators.
+HZE-010,HZ-009,HZ-010,affects,meteorological and hydrologic low-water pathway,county / station,b9_usgs_dv,limited,County drought status does not determine a gauge-specific flow on every date.
+HZE-011,HZ-010,HZ-020,observed_by,documented USGS daily-value service,station / river,b9_usgs_dv,high,Daily mean discharge remains a point observation.
+HZE-012,HZ-011,HZ-021,observed_by,documented CO-OPS station network,station / Great Lakes,b9_coops_daily,high,Toledo water-level station provides a local lake-level record.
+HZE-013,HZ-012,HZ-013,coastal_interface_with,lake-level and shoreline process logic,western Lake Erie / shoreline,b9_glerl_levels,moderate,Lake-level variability can interact with shoreline conditions; no erosion rate is estimated.
+HZE-014,HZ-014,HZ-013,affects,wind setup/seiche and nearshore water-level logic,western Lake Erie / bay,b9_glerl_levels,moderate,Great Lakes process is not ocean storm surge.
+HZE-015,HZ-015,HZ-013,affects,"wave, storm, and ice interface",shoreline / nearshore,b9_glerl_levels,limited,"No wave height, ice thickness, or shoreline position is fabricated."
+HZE-016,HZ-015,HZ-025,monitored_by,documented Great Lakes monitoring resources,lake / network,b9_glerl_levels,moderate,Ice and lake condition resources are monitoring context.
+HZE-017,HZ-016,HZ-017,historically_occurs_in,historical event-record aggregation,regional / county,b9_storm_events_2025,high,"Event records document occurrence in selected counties, not a spatial risk surface."
+HZE-018,HZ-017,HZ-024,observed_by,historical event and climate-data systems,county / event record,b9_storm_events,moderate,Storm Events and climate series answer different questions and remain separate.
+HZE-019,HZ-019,HZ-016,warning_for,public severe-weather warning interface,regional / forecast area,b9_nws_thunderstorm,moderate,Warnings support response but do not remove hazard conditions.
+HZE-020,HZ-019,HZ-018,warning_for,public winter warning interface,regional / forecast area,b9_nws_winter,moderate,Warning system relationship; no alert frequency is asserted.
+HZE-021,HZ-018,HZ-026,affects,winter weather and developed-system interface,regional / urban,b9_nws_winter,limited,Physical disruption context only; no infrastructure loss estimate.
+HZE-022,HZ-016,HZ-026,affects,severe storm and developed-system interface,regional / urban,b9_nws_thunderstorm,limited,No outage probability or communication failure estimate.
+HZE-023,HZ-023,HZ-004,historically_occurs_in,precipitation-frequency reference context,site / HUC8,b9_noaa_atlas14,moderate,"Frequency product is reference context, not a new event observation."
+HZE-024,HZ-018,HZ-015,coastal_interface_with,winter lake and ice process interface,western Lake Erie / shoreline,b9_glerl_levels,limited,Lake-effect snow is not assumed to dominate the whole region.
+HZE-025,HZ-004,HZ-020,monitored_by,hydrologic monitoring network,HUC8 / station network,b9_usgs_dv,moderate,Representative station does not imply complete watershed coverage.
+HZE-026,HZ-012,HZ-021,monitored_by,binational Great Lakes water-level monitoring,lake / station network,b9_glerl_levels,high,Water levels are continuously monitored through regional federal partnerships.
+HZE-027,HZ-016,HZ-019,forecast_by,NWS convective forecast and warning service,regional / forecast area,b9_nws_points,moderate,Forecast availability is separate from event occurrence.
+HZE-028,HZ-004,HZ-007,affects,runoff/floodplain and mapped regulatory context,HUC8 / floodplain,b9_fema_nfhl,moderate,Hydrologic event context and regulatory mapping remain distinct categories.
+HZE-029,HZ-009,HZ-026,affects,drought and developed water-demand context,county / urban,b9_usdm_area,limited,"Generalized physical context; no demand, outage, or health claim."
+HZE-030,HZ-001,HZ-026,affects,extreme temperature and developed-system context,station / urban,b9_acis,limited,Station heat observations do not estimate individual exposure or health outcome.

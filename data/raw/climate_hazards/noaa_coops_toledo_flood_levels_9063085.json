@@ -1,0 +1,10 @@
+{
+  "nos_minor": null,
+  "nos_moderate": null,
+  "nos_major": null,
+  "nws_minor": 575.22,
+  "nws_moderate": 575.89,
+  "nws_major": 576.72,
+  "action": 574.36,
+  "self": "https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/9063085/floodlevels.json"
+}

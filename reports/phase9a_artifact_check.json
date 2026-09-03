@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "phase": "9A",
+  "nodes": 26,
+  "edges": 30,
+  "observations": 28,
+  "sources": 21,
+  "map29_valid": true,
+  "image_size": [
+    5843,
+    1997
+  ],
+  "phase8_and_prior_frozen_artifacts_checked": 148,
+  "future_rows_absent": true,
+  "unsupported_probabilities_absent": true,
+  "health_and_social_scoring_absent": true,
+  "scale_distinctions_checked": true,
+  "regulatory_observed_forecast_distinctions_checked": true
+}

@@ -1,0 +1,390 @@
+{
+  "source_url": "https://www.ncei.noaa.gov/pub/data/swdi/stormevents/csvfiles/StormEvents_details-ftp_v1.0_d2025_c20260819.csv.gz",
+  "source_snapshot": "d2025_c20260819",
+  "spatial_scope": "selected counties in the western Maumee / western Lake Erie regional context; county event records are not hazard surfaces",
+  "event_scope": [
+    "Tornado",
+    "Hail",
+    "Thunderstorm Wind",
+    "Flood",
+    "Flash Flood",
+    "Heavy Rain",
+    "Winter Storm",
+    "Heavy Snow",
+    "Ice Storm",
+    "Extreme Cold/Wind Chill",
+    "Cold/Wind Chill",
+    "Blizzard",
+    "Lake-Effect Snow",
+    "High Wind",
+    "Strong Wind",
+    "Freezing Fog",
+    "Sleet"
+  ],
+  "selected_counties": [
+    "DEFIANCE",
+    "FULTON",
+    "HENRY",
+    "LENAWEE",
+    "LUCAS",
+    "MONROE",
+    "OTTAWA",
+    "PAULDING",
+    "PUTNAM",
+    "SANDUSKY",
+    "WILLIAMS",
+    "WOOD"
+  ],
+  "selected_event_rows": 113,
+  "unique_event_ids_not_available_after_county_aggregation": null,
+  "counts_by_event_type": {
+    "Thunderstorm Wind": 58,
+    "Winter Storm": 13,
+    "Tornado": 11,
+    "Hail": 9,
+    "Heavy Snow": 6,
+    "Flash Flood": 4,
+    "Ice Storm": 4,
+    "Cold/Wind Chill": 3,
+    "Flood": 3,
+    "Extreme Cold/Wind Chill": 2
+  },
+  "counts_by_state": {
+    "INDIANA": 52,
+    "MICHIGAN": 22,
+    "OHIO": 39
+  },
+  "counts": [
+    {
+      "STATE": "INDIANA",
+      "county": "Fulton",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 8
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Fulton",
+      "EVENT_TYPE": "Tornado",
+      "event_count": 1
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Fulton",
+      "EVENT_TYPE": "Winter Storm",
+      "event_count": 1
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Henry",
+      "EVENT_TYPE": "Cold/Wind Chill",
+      "event_count": 1
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Henry",
+      "EVENT_TYPE": "Extreme Cold/Wind Chill",
+      "event_count": 1
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Henry",
+      "EVENT_TYPE": "Flash Flood",
+      "event_count": 1
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Henry",
+      "EVENT_TYPE": "Heavy Snow",
+      "event_count": 2
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Henry",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 1
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Henry",
+      "EVENT_TYPE": "Winter Storm",
+      "event_count": 1
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Monroe",
+      "EVENT_TYPE": "Flash Flood",
+      "event_count": 2
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Monroe",
+      "EVENT_TYPE": "Hail",
+      "event_count": 3
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Monroe",
+      "EVENT_TYPE": "Heavy Snow",
+      "event_count": 3
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Monroe",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 8
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Monroe",
+      "EVENT_TYPE": "Tornado",
+      "event_count": 2
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Monroe",
+      "EVENT_TYPE": "Winter Storm",
+      "event_count": 1
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Putnam",
+      "EVENT_TYPE": "Cold/Wind Chill",
+      "event_count": 1
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Putnam",
+      "EVENT_TYPE": "Extreme Cold/Wind Chill",
+      "event_count": 1
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Putnam",
+      "EVENT_TYPE": "Flash Flood",
+      "event_count": 1
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Putnam",
+      "EVENT_TYPE": "Flood",
+      "event_count": 1
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Putnam",
+      "EVENT_TYPE": "Hail",
+      "event_count": 3
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Putnam",
+      "EVENT_TYPE": "Heavy Snow",
+      "event_count": 1
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Putnam",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 6
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Putnam",
+      "EVENT_TYPE": "Tornado",
+      "event_count": 1
+    },
+    {
+      "STATE": "INDIANA",
+      "county": "Putnam",
+      "EVENT_TYPE": "Winter Storm",
+      "event_count": 1
+    },
+    {
+      "STATE": "MICHIGAN",
+      "county": "Lenawee",
+      "EVENT_TYPE": "Hail",
+      "event_count": 1
+    },
+    {
+      "STATE": "MICHIGAN",
+      "county": "Lenawee",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 5
+    },
+    {
+      "STATE": "MICHIGAN",
+      "county": "Monroe",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 4
+    },
+    {
+      "STATE": "MICHIGAN",
+      "county": "Monroe",
+      "EVENT_TYPE": "Tornado",
+      "event_count": 1
+    },
+    {
+      "STATE": "MICHIGAN",
+      "county": "Ottawa",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 6
+    },
+    {
+      "STATE": "MICHIGAN",
+      "county": "Ottawa",
+      "EVENT_TYPE": "Tornado",
+      "event_count": 1
+    },
+    {
+      "STATE": "MICHIGAN",
+      "county": "Ottawa",
+      "EVENT_TYPE": "Winter Storm",
+      "event_count": 4
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Defiance",
+      "EVENT_TYPE": "Hail",
+      "event_count": 2
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Defiance",
+      "EVENT_TYPE": "Winter Storm",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Fulton",
+      "EVENT_TYPE": "Flood",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Fulton",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 2
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Fulton",
+      "EVENT_TYPE": "Winter Storm",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Henry",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 2
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Henry",
+      "EVENT_TYPE": "Winter Storm",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Lucas",
+      "EVENT_TYPE": "Ice Storm",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Lucas",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 3
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Monroe",
+      "EVENT_TYPE": "Cold/Wind Chill",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Monroe",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 5
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Ottawa",
+      "EVENT_TYPE": "Ice Storm",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Ottawa",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Ottawa",
+      "EVENT_TYPE": "Tornado",
+      "event_count": 2
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Paulding",
+      "EVENT_TYPE": "Tornado",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Paulding",
+      "EVENT_TYPE": "Winter Storm",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Putnam",
+      "EVENT_TYPE": "Flood",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Putnam",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 5
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Putnam",
+      "EVENT_TYPE": "Tornado",
+      "event_count": 2
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Sandusky",
+      "EVENT_TYPE": "Ice Storm",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Williams",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Williams",
+      "EVENT_TYPE": "Winter Storm",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Wood",
+      "EVENT_TYPE": "Ice Storm",
+      "event_count": 1
+    },
+    {
+      "STATE": "OHIO",
+      "county": "Wood",
+      "EVENT_TYPE": "Thunderstorm Wind",
+      "event_count": 1
+    }
+  ],
+  "limitations": "NOAA Storm Events event/county records are historical documented reports, not deterministic hazard zones, rates, probabilities, or attribution evidence."
+}
