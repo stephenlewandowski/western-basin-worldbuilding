@@ -507,7 +507,7 @@ embedded self-referentially in this file.
 - Phase 9A, 9B, and 9C Python validators passed. All 27 repository Python validators passed; all 26 repository R validators passed, including independent SHA-256 recomputation of the Phase 9A and Phase 9B working-baseline manifests. Phase 8 freeze validation and 148 prior-artifact checks passed.
 - `npm test` passed with 22 tests; `npm run build` passed. Repository-relative Markdown validation passed with 137 links. `git diff --check` and `git lfs fsck` passed. Strict grounded-citation verification passed for the Phase 9A, 9B, and 9C report pairs and both correction logs using mechanically generated phase-local citation ledgers.
 - Map 29 was preserved because the correction did not affect its annotations. Map 30 and Maps 31/31b were regenerated where corrected B/C content changed them. No accepted Phase 1–8 baseline artifact changed.
-- R validator hash portability was corrected for the native Windows `Rscript` environment with a `certutil` SHA-256 fallback; the independent R checks must be rerun before commit.
+- R validator hash portability was corrected for the native Windows `Rscript` environment with a `certutil` SHA-256 fallback; the independent Phase 9A/9B/9C R checks passed after the correction.
 ## Phase 9 final integrated handoff
 
 - Phase 9A: **IMPLEMENTED / VALIDATED / CORRECTED / INTEGRATED / AWAITING SOL ACCEPTANCE**.
