@@ -1,0 +1,58 @@
+{
+  "phase": "10A",
+  "map_number": 32,
+  "status": "implemented_validated_pending_sol_acceptance",
+  "counts": {
+    "actors": 40,
+    "authorities": 100,
+    "relationships": 100,
+    "sources": 47,
+    "uncertainties": 16
+  },
+  "artifacts": {
+    "data/processed/analysis/governance_actors.csv": {
+      "bytes": 16458,
+      "sha256": "b7b37b7aadec22b8322680dbb11cd06a28fa65f2f2b060d4cc285621a4c215c1"
+    },
+    "data/processed/analysis/governance_authorities.csv": {
+      "bytes": 24725,
+      "sha256": "226d03a636059458a8dbd03a5658544c80e9bf9c106a8100b2474dcc45c658fc"
+    },
+    "data/processed/networks/governance_relationships.csv": {
+      "bytes": 19447,
+      "sha256": "4e59e9e98b72971fc45da2fda662d90aafcf5eb790fb6d7080def2aba7cb97f8"
+    },
+    "data/processed/analysis/governance_sources.csv": {
+      "bytes": 14060,
+      "sha256": "eba98b720ef2df465f668e7f7a6ff7917646f4614ffa76128824433cb87d0e65"
+    },
+    "data/processed/analysis/governance_uncertainty_register.csv": {
+      "bytes": 4473,
+      "sha256": "cf70085adbcd49188017f505f4d5c937d6d4dc5b46a5d8b000748fd2760971ca"
+    },
+    "outputs/maps/systems/32_governance_jurisdiction_2026.png": {
+      "bytes": 1200518,
+      "sha256": "1f90e023705993abab79bfb7a98ef4144d89d65c29024527cf16594a9b425bf0"
+    },
+    "outputs/maps/systems/32_governance_jurisdiction_2026.svg": {
+      "bytes": 17925333,
+      "sha256": "acf15256924f10242f083bcfeedf65f367166d466f64b96eecc30e0e22919643"
+    },
+    "reports/governance_baseline_sources.md": {
+      "bytes": 5740,
+      "sha256": "ddf80b6ddffdf1068a170c017169ca4a2656572ef5032f6a6399d4cf77e7b249"
+    },
+    "reports/governance_baseline_assumptions.md": {
+      "bytes": 2338,
+      "sha256": "bbf4d4472fe18e7f0f129034c982788ca35e758d1e12212dd2f6d3b77ae5c489"
+    },
+    "reports/governance_baseline_findings.md": {
+      "bytes": 12223,
+      "sha256": "9b763aaa68385d8bf3f6d57eb8b42db1de42146ade284e3062b25a88bd3d1075"
+    },
+    "reports/governance_baseline_qa.md": {
+      "bytes": 1561,
+      "sha256": "6870829c2730bb9a19046ba5c897ce456771a1dc3cf238ce7bccb1c32ddead47"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+relationship_id,actor_id,domain_system,relationship_type,authority_or_role,binding_or_nonbinding,geographic_scope,jurisdictional_scale,source_id,evidence_strength,reality_status,canon_status,notes
+REL-001,GA-001,Water,actor_system_role,regulate,binding,United States,federal,s01_epa_sdwa,high,real,verified,Federal standards are not municipal operation.
+REL-002,GA-001,Water,actor_system_role,set_standard,binding,United States,federal,s01_epa_sdwa,high,real,verified,A standard is not a treatment-plant operating command.
+REL-003,GA-001,Water,actor_system_role,coordinate,mixed,Great Lakes / United States,federal,s15_glwqa,moderate,real,verified,Coordination is distinct from each state or local permit.
+REL-004,GA-001,Water,actor_system_role,monitor,not_applicable,Great Lakes,federal,s07_glerl,moderate,real,verified,Monitoring does not itself regulate or operate.
+REL-005,GA-002,Water,actor_system_role,regulate,binding,Ohio,state,s02_ohio_pws,high,real,verified,Scope is program-specific.
+REL-006,GA-002,Water,actor_system_role,permit,binding,Ohio,state,s05_ohio_npdes,high,real,verified,Permitting is not physical operation.
+REL-007,GA-002,Water,actor_system_role,enforce,binding,Ohio,state,s05_ohio_npdes,moderate,real,verified,No facility-specific enforcement finding is made.
+REL-008,GA-002,Water,actor_system_role,monitor,not_applicable,Ohio,state,s02_ohio_pws,high,real,verified,Monitoring is not the same as regulation even when the same agency administers both.
+REL-009,GA-002,Biogeochemical / Nutrient Flux,actor_system_role,regulate,binding,Ohio,state,s05_ohio_npdes,high,real,verified,Point-source regulation is not a farm-level diffuse-source obligation.
+REL-010,GA-002,Ecology / Biodiversity,actor_system_role,permit,binding,Ohio,state,s05_ohio_npdes,high,real,verified,Ecological interest alone does not establish this permit role; the program source does.
+REL-011,GA-002,Environmental Health / Exposure,actor_system_role,monitor,not_applicable,Ohio,state,s09_ohio_air,moderate,real,verified,No medical or individual-exposure conclusion is inferred.
+REL-012,GA-003,Water,actor_system_role,own,not_applicable,Toledo and surrounding service areas,municipal,s03_toledo_treatment,high,real,verified,Ownership does not equal state regulation.
+REL-013,GA-003,Water,actor_system_role,operate,not_applicable,Toledo and surrounding service areas,municipal,s03_toledo_treatment,high,real,verified,Operational control is not federal/state regulatory authority.
+REL-014,GA-004,Water,actor_system_role,operate,not_applicable,Toledo service area,public utility,s03_toledo_treatment,high,real,verified,"The utility is an operator, not the primary drinking-water regulator."
+REL-015,GA-004,Water,actor_system_role,monitor,not_applicable,Toledo service area,public utility,s04_toledo_quality,high,real,verified,Monitoring does not create independent regulatory authority.
+REL-016,GA-004,Environmental Health / Exposure,actor_system_role,provide_data,not_applicable,Toledo service area,public utility,s04_toledo_quality,high,real,verified,Public data are not themselves legal decisions.
+REL-017,GA-005,Water,actor_system_role,monitor,not_applicable,United States / monitoring locations,federal,s06_usgs_data,high,real,verified,"No permit, enforcement, or operational role."
+REL-018,GA-005,Climate / Natural Hazards,actor_system_role,provide_data,not_applicable,United States / monitoring locations,federal,s06_usgs_data,high,real,verified,Observation can inform decisions without binding authority.
+REL-019,GA-005,Water,actor_system_role,research,not_applicable,United States,federal,s06_usgs_data,high,real,verified,Research is distinct from regulation.
+REL-020,GA-006,Climate / Natural Hazards,actor_system_role,warn,not_applicable,United States / forecast areas,federal,s36_nws,high,real,verified,Warning is not emergency command or asset operation.
+REL-021,GA-006,Climate / Natural Hazards,actor_system_role,monitor,not_applicable,United States / forecast areas,federal,s36_nws,high,real,verified,Observation is not regulation.
+REL-022,GA-006,Data / Sensors / Security,actor_system_role,provide_data,not_applicable,United States / forecast areas,federal,s36_nws,high,real,verified,Information is not legal decision authority.
+REL-023,GA-007,Data / Sensors / Security,actor_system_role,research,not_applicable,Great Lakes,federal,s07_glerl,high,real,verified,No direct permit or operating control.
+REL-024,GA-007,Ecology / Biodiversity,actor_system_role,monitor,not_applicable,Great Lakes,federal,s07_glerl,high,real,verified,Monitoring does not equal ecological regulation.
+REL-025,GA-007,Water,actor_system_role,provide_data,not_applicable,Great Lakes,federal,s07_glerl,high,real,verified,Scientific information does not bind the recipient.
+REL-026,GA-008,Ecology / Biodiversity,actor_system_role,permit,binding,United States / covered waters and projects,federal,s07_usace_regulatory,high,real,verified,Permit authority is activity-specific and not ownership or operation.
+REL-027,GA-008,Ecology / Biodiversity,actor_system_role,enforce,binding,United States / covered activities,federal,s07_usace_regulatory,moderate,real,verified,No site-specific enforcement action is asserted.
+REL-028,GA-009,Ecology / Biodiversity,actor_system_role,monitor,not_applicable,United States,federal,s08_usfws_nwi,high,real,verified,Inventory and monitoring are not permit authority.
+REL-029,GA-009,Ecology / Biodiversity,actor_system_role,research,not_applicable,United States,federal,s08_usfws_nwi,moderate,real,verified,No species-sensitive location or local enforcement claim.
+REL-030,GA-009,Ecology / Biodiversity,actor_system_role,restore,mixed,United States / program sites,federal,s08_usfws_nwi,moderate,real,inferred,Restoration authority and funding are project-specific.
+REL-031,GA-010,Climate / Natural Hazards,actor_system_role,fund,mixed,"United States / state, tribal, and local partners",federal,s35_fema_mitigation,high,real,verified,Funding conditions do not make FEMA the local operator.
+REL-032,GA-010,Climate / Natural Hazards,actor_system_role,plan,nonbinding,"United States / state, tribal, and local governments",federal,s35_fema_mitigation,high,real,verified,Planning is distinct from local land-use administration.
+REL-033,GA-010,Climate / Natural Hazards,actor_system_role,provide_data,not_applicable,United States / mapped communities,federal,s34_fema_nfhl,high,real,verified,"NFHL is mapped regulatory context, not a local floodplain operator."
+REL-034,GA-011,Biogeochemical / Nutrient Flux,actor_system_role,fund,mixed,United States / Ohio producers,federal,s12_nrcs_eqip,high,real,verified,Financial assistance is not a general enforceable nutrient mandate.
+REL-035,GA-011,Biogeochemical / Nutrient Flux,actor_system_role,advise,nonbinding,Ohio agricultural producers,federal,s11_nrcs_ohio,high,real,verified,Technical assistance is not regulation.
+REL-036,GA-011,Water,actor_system_role,plan,nonbinding,Ohio agricultural producers,federal,s12_nrcs_eqip,high,real,verified,Planning target or plan is not an individual legal obligation absent separate authority.
+REL-037,GA-012,Biogeochemical / Nutrient Flux,actor_system_role,coordinate,mixed,Ohio,state,s44_ohio_oda,moderate,real,verified,No universal farm-level nutrient mandate is inferred.
+REL-038,GA-012,Biogeochemical / Nutrient Flux,actor_system_role,advise,nonbinding,Ohio,state,s10_h2ohio,moderate,real,verified,Advice and incentives do not equal permit obligations.
+REL-039,GA-013,Biogeochemical / Nutrient Flux,actor_system_role,advise,nonbinding,Lucas County,special district,s10_h2ohio,moderate,real,verified,Voluntary conservation support is not regulation.
+REL-040,GA-013,Biogeochemical / Nutrient Flux,actor_system_role,plan,nonbinding,Lucas County,special district,s11_nrcs_ohio,moderate,real,verified,No achieved reduction or binding individual duty is asserted.
+REL-041,GA-014,Geology / Strategic Materials,actor_system_role,monitor,not_applicable,Ohio,state,s45_odnr,limited,real,inferred,"Limited monitoring interface; no site-specific mineral permit, reserve, production, or facility authority is inferred."
+REL-042,GA-014,Ecology / Biodiversity,actor_system_role,restore,mixed,Ohio,state,s45_odnr,limited,real,inferred,Restoration role is program/site dependent.
+REL-043,GA-015,Water,actor_system_role,regulate,binding,Michigan / Great Lakes waters,state,s37_michigan_egle,high,real,verified,Neighboring-state role is not a Western Basin-wide authority.
+REL-044,GA-015,Water,actor_system_role,permit,binding,Michigan / Great Lakes waters,state,s37_michigan_egle,high,real,verified,Permit scope is activity and location specific.
+REL-045,GA-015,Water,actor_system_role,monitor,not_applicable,Michigan / Great Lakes waters,state,s37_michigan_egle,high,real,verified,Monitoring does not equal operation.
+REL-046,GA-016,Water,actor_system_role,regulate,binding,Indiana,state,s46_indiana_idem,limited,real,inferred,No particular Western Basin permit is assigned.
+REL-047,GA-017,Water,actor_system_role,advise,nonbinding,Great Lakes states and Canadian observers,interstate,s13_glc,high,real,verified,Advisory and policy coordination are not domestic regulation.
+REL-048,GA-017,Water,actor_system_role,coordinate,nonbinding,Great Lakes basin,interstate,s13_glc,high,real,verified,No individual permit or enforcement power is inferred.
+REL-049,GA-018,Water,actor_system_role,coordinate,mixed,Eight states and two provinces,binational,s14_gsgp,high,real,verified,Regional framework does not replace state implementation.
+REL-050,GA-018,Water,actor_system_role,plan,nonbinding,Great Lakes basin,binational,s14_gsgp,high,real,verified,Planning is not facility operation.
+REL-051,GA-019,Water,actor_system_role,advise,nonbinding,United States–Canada boundary waters,binational,s16_ijc,limited,real,inferred,No direct domestic permitting or enforcement authority is asserted.
+REL-052,GA-019,Water,actor_system_role,coordinate,nonbinding,United States–Canada boundary waters,binational,s16_ijc,limited,real,inferred,The role is intentionally limited because the primary page was not fully retrieved.
+REL-053,GA-020,Water,actor_system_role,coordinate,nonbinding,Great Lakes basin,binational,s15_glwqa,moderate,real,verified,Agreement objectives are not represented as individual permits.
+REL-054,GA-020,Ecology / Biodiversity,actor_system_role,provide_data,not_applicable,Great Lakes basin,binational,s15_glwqa,limited,real,inferred,Information is distinct from domestic legal decision authority.
+REL-055,GA-021,Ecology / Biodiversity,actor_system_role,advise,nonbinding,Treaty-ceded territories served by member tribes,tribal,s17_glifwc,high,real,verified,No current Western Basin jurisdiction is inferred.
+REL-056,GA-021,Ecology / Biodiversity,actor_system_role,monitor,not_applicable,Treaty-ceded territories served by member tribes,tribal,s17_glifwc,high,real,verified,Monitoring does not equal state/federal regulation.
+REL-057,GA-022,Ecology / Biodiversity,actor_system_role,advise,unknown,Nation-specific / Western Great Lakes review context,tribal,s18_epa_tribal,limited,real,inferred,Sovereignty and historical connection do not establish a current project jurisdiction.
+REL-058,GA-023,Ecology / Biodiversity,actor_system_role,advise,unknown,Nation-specific / Great Lakes review context,tribal,s18_epa_tribal,limited,real,inferred,No current Western Basin polygon or permit authority is created.
+REL-059,GA-024,Energy / Grid / Compute,actor_system_role,regulate,binding,United States interstate energy,federal,s21_ferc,high,real,verified,FERC does not operate local distribution facilities.
+REL-060,GA-024,Energy / Grid / Compute,actor_system_role,enforce,binding,United States interstate energy,federal,s21_ferc,high,real,verified,Enforcement is not physical operation or ownership.
+REL-061,GA-024,Energy / Grid / Compute,actor_system_role,set_standard,binding,North American bulk power system,federal,s21_ferc,high,real,verified,Standard setting is distinct from dispatch.
+REL-062,GA-025,Energy / Grid / Compute,actor_system_role,set_standard,mixed,North American bulk power system,interstate,s23_nerc,high,real,verified,NERC is not utility owner or local distribution operator.
+REL-063,GA-025,Energy / Grid / Compute,actor_system_role,monitor,mixed,North American bulk power system,interstate,s23_nerc,moderate,real,verified,Compliance monitoring does not equal asset operation.
+REL-064,GA-025,Energy / Grid / Compute,actor_system_role,coordinate,mixed,North American bulk power system,interstate,s23_nerc,high,real,verified,Coordination does not transfer ownership.
+REL-065,GA-026,Energy / Grid / Compute,actor_system_role,operate,not_applicable,PJM footprint,system operator,s24_pjm,high,real,verified,PJM operation is not utility ownership or local retail distribution.
+REL-066,GA-026,Energy / Grid / Compute,actor_system_role,coordinate,mixed,PJM footprint,system operator,s24_pjm,high,real,verified,Wholesale coordination is distinct from state economic regulation.
+REL-067,GA-026,Energy / Grid / Compute,actor_system_role,plan,mixed,PJM footprint,system operator,s24_pjm,high,real,verified,Planning does not itself construct or own every asset.
+REL-068,GA-026,Data / Sensors / Security,actor_system_role,provide_data,not_applicable,PJM footprint,system operator,s24_pjm,moderate,real,verified,Public data are not SCADA or private telemetry.
+REL-069,GA-027,Energy / Grid / Compute,actor_system_role,regulate,binding,Ohio,state,s25_puco,high,real,verified,Economic regulation does not equal physical operation.
+REL-070,GA-027,Freight / Industry,actor_system_role,regulate,binding,Ohio,state,s25_puco,high,real,verified,Regulation is distinct from carrier operation.
+REL-071,GA-028,Energy / Grid / Compute,actor_system_role,regulate,binding,United States,federal,s26_nrc,high,real,verified,NRC is not PJM or a utility owner.
+REL-072,GA-028,Environmental Health / Exposure,actor_system_role,enforce,binding,United States,federal,s26_nrc,high,real,verified,No exposure or health outcome is inferred.
+REL-073,GA-029,Energy / Grid / Compute,actor_system_role,fund,mixed,United States,federal,s27_doe,moderate,real,verified,Funding and coordination do not confer dispatch authority.
+REL-074,GA-029,Energy / Grid / Compute,actor_system_role,research,not_applicable,United States,federal,s27_doe,moderate,real,verified,Research is not operation.
+REL-075,GA-030,Energy / Grid / Compute,actor_system_role,own,not_applicable,FirstEnergy service context,private,s28_firstenergy,high,real,verified,Ownership is private and does not equal public control.
+REL-076,GA-030,Energy / Grid / Compute,actor_system_role,operate,not_applicable,FirstEnergy service context,private,s28_firstenergy,high,real,verified,No facility-specific Toledo assignment is inferred.
+REL-077,GA-031,Freight / Industry,actor_system_role,own,not_applicable,Ohio public transportation system,state,s39_odot,moderate,real,verified,Public-road ownership does not equal private rail/marine operation.
+REL-078,GA-031,Freight / Industry,actor_system_role,operate,not_applicable,Ohio public transportation system,state,s39_odot,moderate,real,verified,No route-specific operation claim is made.
+REL-079,GA-031,Freight / Industry,actor_system_role,plan,nonbinding,Ohio,state,s39_odot,moderate,real,verified,Planning is not carrier operation.
+REL-080,GA-032,Freight / Industry,actor_system_role,fund,mixed,United States,federal,s29_fhwa,high,real,verified,Funding does not make FHWA the operator of funded assets.
+REL-081,GA-032,Freight / Industry,actor_system_role,plan,nonbinding,United States,federal,s29_fhwa,high,real,verified,Planning is not a route-level dispatch role.
+REL-082,GA-033,Freight / Industry,actor_system_role,regulate,binding,United States rail network,federal,s30_fra,high,real,verified,Safety regulation is not railroad operation.
+REL-083,GA-033,Freight / Industry,actor_system_role,enforce,binding,United States rail network,federal,s30_fra,high,real,verified,Enforcement is not ownership.
+REL-084,GA-033,Freight / Industry,actor_system_role,fund,mixed,United States rail network,federal,s30_fra,high,real,verified,Investment is not operation.
+REL-085,GA-034,Freight / Industry,actor_system_role,fund,mixed,United States maritime system,federal,s31_marad,moderate,real,verified,No Port of Toledo project is assigned from this source alone.
+REL-086,GA-034,Freight / Industry,actor_system_role,plan,nonbinding,United States maritime system,federal,s31_marad,moderate,real,verified,Planning is not port operation.
+REL-087,GA-035,Freight / Industry,actor_system_role,own,not_applicable,Port-authority facilities,regional authority,s33_ohio_port_statute,high,real,verified,Only authority facilities are implicated; private carriers remain private.
+REL-088,GA-035,Freight / Industry,actor_system_role,operate,not_applicable,Northwest Ohio authority facilities,regional authority,s32_port,moderate,real,verified,"Not operation of every vessel, railroad, terminal tenant, or industrial facility."
+REL-089,GA-035,Freight / Industry,actor_system_role,fund,mixed,Northwest Ohio,regional authority,s32_port,high,real,verified,Funding is not regulatory authority.
+REL-090,GA-036,Freight / Industry,actor_system_role,own,not_applicable,Private rail network,private,s41_norfolk_southern,moderate,real,verified,No public ownership is inferred.
+REL-091,GA-036,Freight / Industry,actor_system_role,operate,not_applicable,Private rail network,private,s41_norfolk_southern,moderate,real,verified,Regulation and operation remain distinct.
+REL-092,GA-037,Freight / Industry,actor_system_role,own,not_applicable,Private rail network,private,s42_csx,moderate,real,verified,No public ownership is inferred.
+REL-093,GA-037,Freight / Industry,actor_system_role,operate,not_applicable,Private rail network,private,s42_csx,moderate,real,verified,Regulation and operation remain distinct.
+REL-094,GA-038,Climate / Natural Hazards,actor_system_role,plan,mixed,Lucas County,county,s35_fema_mitigation,moderate,real,inferred,Exact delegated floodplain or asset authority varies by local program and is not assumed.
+REL-095,GA-038,Climate / Natural Hazards,actor_system_role,coordinate,mixed,Lucas County,county,s35_fema_mitigation,moderate,real,inferred,Coordination does not imply ownership of all infrastructure.
+REL-096,GA-039,Environmental Health / Exposure,actor_system_role,monitor,not_applicable,Toledo/Lucas County,special district,s40_lucas_health,limited,real,verified,No specific environmental permit or medical outcome claim.
+REL-097,GA-039,Environmental Health / Exposure,actor_system_role,warn,not_applicable,Toledo/Lucas County,special district,s40_lucas_health,limited,real,verified,Warning is not environmental regulation or water-plant operation.
+REL-098,GA-039,Environmental Health / Exposure,actor_system_role,respond,not_applicable,Toledo/Lucas County,special district,s40_lucas_health,limited,real,verified,Bounded response role; no comprehensive emergency-management command or operations model is asserted.
+REL-099,GA-040,Water,actor_system_role,regulate,binding,Ohio,state,s38_odh,limited,real,verified,Does not replace Ohio EPA municipal public-water regulation or City operation.
+REL-100,GA-040,Environmental Health / Exposure,actor_system_role,monitor,not_applicable,Ohio,state,s38_odh,limited,real,verified,Medical/public-health monitoring is not environmental system operation.

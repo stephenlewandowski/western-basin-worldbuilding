@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "phase": "10B",
+  "map_number": 33,
+  "dependency_register": 26,
+  "dependency_edges": 26,
+  "coordination_mechanisms": 14,
+  "matrix_rows": 10,
+  "sources_reused": 47,
+  "map33_valid": true,
+  "image_size": [
+    6004,
+    1998
+  ],
+  "phase10a_manifest_artifacts_checked": 11,
+  "phase10b_manifest_artifacts_checked": 11,
+  "prior_freeze_artifacts_checked": 196,
+  "semantic_dependency_checks": {
+    "authority_overlap_checked": true,
+    "sequential_authority_checked": true,
+    "monitoring_without_control_checked": true,
+    "control_without_direct_observation_checked": true,
+    "public_private_seams_checked": true,
+    "federal_state_local_seams_checked": true,
+    "interstate_binational_seams_checked": true,
+    "voluntary_mandatory_checked": true,
+    "gap_discipline_checked": true
+  },
+  "phase10a_immutable": true,
+  "negative_scope_checks": true,
+  "phase10c_absent": true,
+  "holds_preserved": true
+}

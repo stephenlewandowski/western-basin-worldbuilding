@@ -120,7 +120,11 @@ history. `PROJECT_STATUS.md` remains authoritative for detailed status.
 ## Current boundary
 
 Phase 1 and Phase 2A–2C are complete/validated factual baselines. Phase 3A and
-Phase 3B factual baselines remain accepted/validated/frozen. Phase 2D and Phase
-3C are accepted/validated future-scenario packages. Phase 4A is the approved
-Data, Sensors & Decision Infrastructure baseline, 2026. Future scenario
-content must remain separate from factual baseline content.
+Phase 3B factual baselines remain accepted/validated/frozen. Phase 2D and
+Phase 3C are accepted/validated future-scenario packages. Phase 4A–4C, Phase
+5A–5C, Phase 6A–6C, Phase 7A, Phase 8A–8C, and Phase 9A–9C are recorded in
+`PROJECT_STATUS.md` and their freeze manifests. Phase 10A and 10B are the
+approved, implemented, validated, and integrated governance/jurisdiction layers
+for 2026, awaiting Sol acceptance. Phase 10C is approved scope only and is not
+implemented until a fresh session. Future scenario content must remain separate
+from factual baseline content.

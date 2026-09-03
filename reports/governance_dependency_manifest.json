@@ -1,0 +1,59 @@
+{
+  "phase": "10B",
+  "map_number": 33,
+  "status": "implemented_validated_pending_sol_acceptance",
+  "counts": {
+    "dependency_register": 26,
+    "dependency_edges": 26,
+    "coordination_mechanisms": 14,
+    "matrix_rows": 10,
+    "sources_reused": 47
+  },
+  "phase10a_manifest": "reports/governance_baseline_manifest.json",
+  "artifacts": {
+    "data/processed/analysis/governance_dependency_register.csv": {
+      "bytes": 7672,
+      "sha256": "282d74c58d90852088028929e8209bb924b96269ad7180343aab60d0ff38a566"
+    },
+    "data/processed/analysis/governance_coordination_mechanisms.csv": {
+      "bytes": 3794,
+      "sha256": "0bafec54034edb27f665099f25e157c64158125f6eb0e5bafe42694b90ce916f"
+    },
+    "data/processed/analysis/governance_dependency_matrix.csv": {
+      "bytes": 2715,
+      "sha256": "ff8109989729ed41ce43eee236d3033c3a49240957232ae98ec9cf93ddd6d8ab"
+    },
+    "data/processed/networks/governance_dependency_edges.csv": {
+      "bytes": 6597,
+      "sha256": "a187502a39884a84ee3fd6f8405720d34838938944b7507ee64e0300470449c4"
+    },
+    "data/processed/analysis/governance_sources.csv": {
+      "bytes": 14060,
+      "sha256": "eba98b720ef2df465f668e7f7a6ff7917646f4614ffa76128824433cb87d0e65"
+    },
+    "outputs/maps/systems/33_cross_system_governance_dependencies_2026.png": {
+      "bytes": 1221707,
+      "sha256": "01399dbc4e66bbb3bd599dec3844a92dc4508b832b85427d3145f35225d02f12"
+    },
+    "outputs/maps/systems/33_cross_system_governance_dependencies_2026.svg": {
+      "bytes": 17925871,
+      "sha256": "6337412ae4b0ad63be5edbcd021301f5f068059ac3f1c8544a821a838c8e60b5"
+    },
+    "reports/governance_dependency_sources.md": {
+      "bytes": 4964,
+      "sha256": "77d84137934abd003be2b767c99c9d2fc112ea8495272475d3352da5260c8543"
+    },
+    "reports/governance_dependency_assumptions.md": {
+      "bytes": 2130,
+      "sha256": "1960c2ceca7eb44b6248a41e48a0119981ac77422266b0d10acc77b0e2c23df1"
+    },
+    "reports/governance_dependency_findings.md": {
+      "bytes": 10997,
+      "sha256": "4efbf390773dcb74d6c9b3c96a6189de2aeb39111813c77e68351eb84eff4c52"
+    },
+    "reports/governance_dependency_qa.md": {
+      "bytes": 1584,
+      "sha256": "864e542e5b9aee2e31ab62af6b4f681245014b7840c8acf495ad6d0913333345"
+    }
+  }
+}

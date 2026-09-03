@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "phase": "10A",
+  "map_number": 32,
+  "actors": 40,
+  "authorities": 100,
+  "relationships": 100,
+  "sources": 47,
+  "uncertainties": 16,
+  "map32_valid": true,
+  "image_size": [
+    6385,
+    1998
+  ],
+  "manifest_artifacts_checked": 11,
+  "prior_freeze_artifacts_checked": 196,
+  "semantic_separation_checks": {
+    "regulator_operator_separation": true,
+    "monitor_regulator_separation": true,
+    "funder_control_separation": true,
+    "advisor_binding_separation": true,
+    "private_public_separation": true,
+    "program_target_mandate_separation": true,
+    "tribal_current_jurisdiction_guard": true,
+    "science_legal_authority_separation": true
+  },
+  "source_references_valid": true,
+  "negative_scope_checks": true,
+  "phase10c_absent": true,
+  "holds_preserved": true
+}

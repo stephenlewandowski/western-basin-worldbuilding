@@ -109,7 +109,11 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 8C Biogeochemical & Nutrient Flux Futures:** accepted and frozen as separate qualitative 2050/2075 scenario content; Maps 28/28b; `reports/phase8c_biogeochemical_futures_freeze_manifest.json`
 - **Phase 9 Climate & Natural Hazards System:** accepted and frozen as a separate physical 2026 / qualitative 2050–2075 layer; Maps 29, 30, 31, and 31b; freeze protection is recorded in `reports/phase9a_climate_natural_hazards_freeze_manifest.json`, `reports/phase9b_climate_hazard_dependencies_resilience_freeze_manifest.json`, and `reports/phase9c_climate_hazard_futures_freeze_manifest.json`. Post-integration correction history is recorded in `reports/phase9a_correction_qa.md` and `reports/phase9_correction_qa.md`.
 
-Final subphase status: Phase 9A is **ACCEPTED / FROZEN**; Phase 9B is **ACCEPTED / FROZEN**; Phase 9C is **ACCEPTED / FROZEN**. Active phase is **NONE** and the next analytical phase is **NOT APPROVED**.
+- **Phase 10A Governance & Jurisdiction Baseline:** implemented and validated as a factual 2026 institutional layer; Map 32; awaiting Sol acceptance
+- **Phase 10B Cross-System Authority, Dependencies & Coordination:** implemented and validated as a qualitative 2026 dependency layer; Map 33; awaiting Sol acceptance
+- **Phase 10C Governance Futures:** approved scope only; not implemented
+
+Final subphase status: Phase 9A is **ACCEPTED / FROZEN**; Phase 9B is **ACCEPTED / FROZEN**; Phase 9C is **ACCEPTED / FROZEN**. Phase 10A and 10B are **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Active phase is **NONE**. Next action is a fresh session for approved Phase 10C scope.
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without

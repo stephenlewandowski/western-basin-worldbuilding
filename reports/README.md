@@ -233,3 +233,24 @@ Phase 9A, 9B, and 9C are **ACCEPTED / FROZEN**. Their freeze manifests protect
 The transparent correction logs are `phase9a_correction_qa.md` and
 `phase9_correction_qa.md`; the final independent-review record is
 `phase9_independent_review.md`.
+
+## Phase 10 governance, jurisdiction, and decision systems
+
+Phase 10A and 10B are implemented, validated, and integrated as a factual/qualitative 2026 institutional layer pending Sol acceptance. Phase 10C is approved scope only and is not implemented.
+
+- `../data/processed/analysis/governance_actors.csv` — 40-actor registry
+- `../data/processed/analysis/governance_authorities.csv` — 100 authority/role records
+- `../data/processed/networks/governance_relationships.csv` — 100 actor-system relationships
+- `../data/processed/analysis/governance_sources.csv` — 47 source records
+- `../data/processed/analysis/governance_uncertainty_register.csv` — 16 uncertainty records
+- `../outputs/maps/systems/32_governance_jurisdiction_2026.png` and `.svg` — Map 32
+- `../data/processed/analysis/governance_dependency_register.csv` — 26 cross-system dependency rows
+- `../data/processed/networks/governance_dependency_edges.csv` — 26 dependency edges
+- `../data/processed/analysis/governance_coordination_mechanisms.csv` — 14 mechanisms
+- `../data/processed/analysis/governance_dependency_matrix.csv` — 10-row qualitative matrix
+- `../outputs/maps/systems/33_cross_system_governance_dependencies_2026.png` and `.svg` — Map 33
+- `governance_baseline_sources.md`, `governance_baseline_assumptions.md`, `governance_baseline_findings.md`, `governance_baseline_qa.md`
+- `governance_dependency_sources.md`, `governance_dependency_assumptions.md`, `governance_dependency_findings.md`, `governance_dependency_qa.md`
+- `governance_baseline_manifest.json` and `governance_dependency_manifest.json`
+
+The package explicitly separates regulation, operation, ownership, monitoring, funding, advisory, permitting, scientific information, public/private control, mandatory/voluntary status, and jurisdictional scale. It makes no composite governance score or generalized governance-gap ranking.

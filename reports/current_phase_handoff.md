@@ -567,5 +567,36 @@ Active phase: **NONE**.
 Next analytical phase: **NOT APPROVED**. Do not start Phase 10.
 
 Active holds are unchanged: Great Black Swamp **C — HOLD / noncanonical**;
-Toledo intake-coordinate discrepancy **UNRESOLVED**. Neither was resolved or
-treated as a prerequisite for Phase 9 acceptance. No release or tag was created.
+Toledo intake-coordinate discrepancy **UNRESOLVED**. Neither was resolved or treated as a prerequisite for Phase 9 acceptance. No release or tag was created.
+
+## Phase 10 startup checkpoint — approved 10A/10B only
+
+- Starting local `main`, `origin/main`, and remote `origin/main`: `285763ce1d286f1151aa8e1347527a441cf2f0b7`.
+- Phase 9A, 9B, and 9C are accepted/frozen under their existing manifests; the Phase 1–9 freeze boundary must remain immutable.
+- Sol approved Phase 10A — Governance & Jurisdiction Baseline, 2026 — and Phase 10B — Cross-System Authority, Dependencies & Coordination, 2026 — for this session. Phase 10C is approved scope only and is not to be implemented.
+- Isolated worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase10`; branch: `phase-10-governance-jurisdiction`.
+- Durable briefs persisted: `docs/phase_briefs/phase10a_governance_jurisdiction_baseline.md`, `phase10b_governance_dependencies_coordination.md`, and `phase10c_governance_futures.md`.
+- Active phase: **Phase 10A — Governance & Jurisdiction Baseline, 2026**. Phase 10B may begin only after a clean 10A checkpoint and working-baseline protection.
+- Active holds preserved: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**.
+- No partisan/election analysis, no accepted Phase 1–9 changes, no release/tag, and no Phase 10C implementation are authorized.
+
+## Phase 10A checkpoint — validated working baseline
+
+- Phase 10A generated and validated: 40 actors, 100 authority/role records, 100 actor-system relationships, 47 sources, 16 uncertainty records, and Map 32 PNG/SVG.
+- Python validator passed, including role-separation checks, source references, negative scope, Map 32, 196 prior freeze artifacts, and inherited holds.
+- Independent R validator passed with the same structural counts and Map 32 presence.
+- Working-baseline manifest: `reports/governance_baseline_manifest.json`; artifact check: `reports/governance_baseline_artifact_check.json`.
+- Phase 10A is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE** and is protected by its working manifest before Phase 10B.
+- Next exact action: build Phase 10B dependency and coordination products without changing Phase 10A artifacts or Phase 1–9 frozen content.
+
+## Phase 10A/10B completion checkpoint — awaiting Sol acceptance
+
+- Phase 10A: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Products: 40 actors, 100 authority/role records, 100 actor-system relationships, 47 sources, 16 uncertainty records, and Map 32.
+- Phase 10B: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Products: 26 dependency rows/edges, 14 coordination mechanisms, 10-row qualitative matrix, and Map 33.
+- Python validators passed for 10A and 10B. Independent R validators passed for 10A and 10B. Strict grounded-citation verification passed for the four Phase 10 source/findings reports.
+- Phase 10A and 10B gates each independently verified 196 protected Phase 1–9 freeze artifacts and confirmed the 10A working baseline remained unchanged during 10B.
+- Repository-relative Markdown validation passed with 147 links. `npm ci`, 22 application tests, and the Vite/TypeScript production build passed. Git LFS status/fsck passed; `git diff --check` passed before staging.
+- The existing Phase 9 freeze validator passed against the committed LF text blob after a temporary newline-normalized verification checkout; the committed Phase 9 artifact content was not changed or staged.
+- No unsupported authority claims were promoted: scientific observation, funding, advice, ownership, permitting, private operation, tribal sovereignty, and legal decision authority remain distinct. No generalized governance gap or composite score was created.
+- Active phase: **NONE** after 10A/10B completion. Phase 10C is approved scope only and was not implemented. Next action: fresh session for Phase 10C after Sol review.
+- Active holds preserved: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. No release or tag was created.

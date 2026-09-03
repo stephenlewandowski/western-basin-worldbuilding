@@ -52,9 +52,13 @@ Map 23 is a bounded exposure-context layer covering drinking water/HAB, ambient 
 
 The Phase 8 package is protected by `reports/phase8a_biogeochemical_nutrient_flux_freeze_manifest.json`, `reports/phase8b_biogeochemical_dependencies_controls_freeze_manifest.json`, and `reports/phase8c_biogeochemical_futures_freeze_manifest.json`. Accepted scientific content was not changed while recording Sol acceptance.
 
-**PHASE 9 — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE (CLIMATE & NATURAL HAZARDS SYSTEM)**
+**PHASE 9 — ACCEPTED / FROZEN (CLIMATE & NATURAL HAZARDS SYSTEM)**
 
-Phase 9A, 9B, and 9C are complete, corrected where required, and separate from earlier factual systems. The package contains Map 29 (2026 baseline), Map 30 (2026 dependencies/compound events/resilience), and Maps 31/31b (qualitative 2050/2075 futures). Correction history is recorded in `reports/phase9a_correction_qa.md` and `reports/phase9_correction_qa.md`. It contains no composite hazard score, unsupported probability, health/social-vulnerability ranking, deterministic hazard surface, or comprehensive emergency-management module. No further analytical phase is approved.
+Phase 9A, 9B, and 9C are complete, corrected where required, and separate from earlier factual systems. The package contains Map 29 (2026 baseline), Map 30 (2026 dependencies/compound events/resilience), and Maps 31/31b (qualitative 2050/2075 futures). Correction history is recorded in `reports/phase9a_correction_qa.md` and `reports/phase9_correction_qa.md`. It contains no composite hazard score, unsupported probability, health/social-vulnerability ranking, deterministic hazard surface, or comprehensive emergency-management module.
+
+**PHASE 10A / 10B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE (GOVERNANCE & JURISDICTION, 2026)**
+
+Phase 10A provides 40 actors, 100 authority/role records, 100 actor-system relationships, 47 sources, 16 uncertainty records, and Map 32. Phase 10B provides 26 dependency rows/edges, 14 coordination mechanisms, a 10-row qualitative matrix, and Map 33. The package distinguishes regulation, operation, ownership, monitoring, funding, advisory, permitting, scientific information, public/private, mandatory/voluntary, and jurisdictional roles. Phase 10C is approved scope only and was not implemented. No composite governance score or generalized governance-gap claim was created.
 
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
@@ -394,7 +398,34 @@ transparent correction history is recorded in
 `reports/phase9a_correction_qa.md` and `reports/phase9_correction_qa.md`; the
 final independent-review record is `reports/phase9_independent_review.md`.
 
-## Repository Structure
+## Phase 10 Governance, Jurisdiction & Decision Systems
+
+Phase 10A and 10B are implemented, validated, and integrated as a factual/qualitative 2026 institutional layer pending Sol acceptance. Phase 10C is approved future scope only and is not implemented.
+
+- [32 — Western Basin governance and jurisdiction, 2026](outputs/maps/systems/32_governance_jurisdiction_2026.png)
+- [33 — Cross-system governance dependencies and coordination, 2026](outputs/maps/systems/33_cross_system_governance_dependencies_2026.png)
+- [Governance actors](data/processed/analysis/governance_actors.csv)
+- [Governance authority/role registry](data/processed/analysis/governance_authorities.csv)
+- [Governance relationships](data/processed/networks/governance_relationships.csv)
+- [Governance dependency register](data/processed/analysis/governance_dependency_register.csv)
+- [Coordination mechanism register](data/processed/analysis/governance_coordination_mechanisms.csv)
+- [Qualitative governance/dependency matrix](data/processed/analysis/governance_dependency_matrix.csv)
+- [Phase 10A findings](reports/governance_baseline_findings.md)
+- [Phase 10B findings](reports/governance_dependency_findings.md)
+
+The package keeps regulation, operation, ownership, monitoring, funding, advisory, permitting, scientific information, and private/public roles separate. It does not create jurisdiction polygons from vague descriptions, a composite governance score, a generalized governance-gap ranking, partisan/election analysis, or Phase 10C futures.
+
+Rebuild and validate the governance layers from the repository root:
+
+```powershell
+.\\venv\\Scripts\\python.exe src\\python\\systems\\build_governance_baseline.py
+.\\venv\\Scripts\\python.exe src\\python\\systems\\validate_governance_baseline.py
+Rscript src\\R\\systems\\validate_governance_baseline.R .
+.\\venv\\Scripts\\python.exe src\\python\\systems\\build_governance_dependencies.py
+.\\venv\\Scripts\\python.exe src\\python\\systems\\validate_governance_dependencies.py
+Rscript src\\R\\systems\\validate_governance_dependencies.R .
+```
+
 
 ```text
 assets/                 exploratory concept art and archived generated maps
