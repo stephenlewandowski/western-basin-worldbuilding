@@ -411,4 +411,18 @@ embedded self-referentially in this file.
 - Phase 8C package generated: 36 assumptions, 48 scenario nodes, 42 scenario edges, 48 control states, 48 uncertainty states, six comparison rows, Maps 28/28b.
 - Python and independent R Phase 8 validators pass; Phase 7 artifacts are unchanged by the Phase 8 diff.
 - All future records are qualitative and separate from factual 2026 records. No unsupported nutrient/flux quantities or future HAB forecast was created.
-- Remaining delivery: independent review, repository regressions, feature commits, push, fast-forward integration, and final synchronized handoff. Formal Sol acceptance remains external.
+- Delivery complete: independent review, repository regressions, feature commit, push, fast-forward integration, and synchronized handoff completed. Formal Sol acceptance remains external.
+
+## Final integrated Phase 8 handoff
+
+- Active phase: **NONE**.
+- Phase 8A: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; factual 2026 biogeochemical baseline; Map 26.
+- Phase 8B: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; qualitative dependencies, controls, and bottlenecks; Map 27.
+- Phase 8C: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; qualitative 2050/2075 futures; Maps 28/28b.
+- Feature branch: `phase-8-biogeochemical-nutrient-fluxes`; feature commit: `693ced2`; pushed and fast-forward integrated into `main`.
+- Final main and origin/main SHA: `693ced2`.
+- Products: 18 baseline nodes, 24 flux edges, 10 quantitative/context records, 22 dependency edges, 10 controls, 8 dependency-matrix rows, 36 assumptions, 48 scenario nodes, 42 scenario edges, 48 control states, 48 uncertainty states, and 6 comparison rows.
+- Validation: Python/R Phase 8 validators, map checks, Phase 7 immutability checks, Markdown links, npm tests/build, Git/LFS checks, and staged diff checks passed.
+- Formal Sol acceptance remains external. Great Black Swamp remains C — HOLD / noncanonical; Toledo intake-coordinate discrepancy remains unresolved.
+- No unsupported nutrient/flux quantities, future HAB forecast, unrelated scientific module, release, or tag was created.
+- Next analytical phase: **NOT APPROVED**. Stop after Phase 8C.
