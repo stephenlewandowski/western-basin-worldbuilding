@@ -267,6 +267,25 @@ comparison rows, Maps 22/22b, and scenario reports. It preserves the factual
 population trajectories, extinction events, precise sensitive locations,
 vector/disease ecology, or future Great Black Swamp polygon.
 
+## PHASE 7A — ACCEPTED / FROZEN
+
+**Exposure & Environmental Health Baseline, 2026**
+
+Phase 7A is formally **ACCEPTED / FROZEN**. Its 20-node/20-edge exposure-context
+layer, five pathway register, monitoring matrix, evidence crosswalk, uncertainty
+register, Map 23, and principal reports are protected by
+`reports/phase7a_exposure_environmental_health_freeze_manifest.json`.
+
+The layer preserves environmental presence, potential pathway, documented
+exposure, dose, and health-outcome distinctions. It asserts no documented
+individual exposure, dose, illness, plume, or cumulative-risk score.
+
+## PHASE 7B — ACTIVE
+
+**Exposure Dependencies, Evidence Strength & Controls, 2026**
+
+Phase 7B is a separate qualitative analytical layer over frozen Phase 7A.
+
 ## Open Phase 1 QA gates
 
 1. Toledo intake coordinate reconciliation

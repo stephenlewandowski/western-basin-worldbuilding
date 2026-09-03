@@ -3,7 +3,7 @@
 ## Unreleased
 
 - Phase 6C formally accepted/frozen with hash protection.
-- Phase 7A exposure and environmental-health baseline implemented, validated, and integrated; Map 23 and six analytical tables added. Scientific acceptance remains awaiting Sol; no release or tag was created.
+- Phase 7A formally marked ACCEPTED / FROZEN with hash protection; Map 23 and its analytical tables remain immutable. Phase 7B dependency/control work begins; no release or tag was created.
 
 - Implemented and validated Phase 6C as a separate qualitative 2050/2075
   ecological-futures layer: 18 assumptions, 36 node states, 30 edge states,

@@ -334,3 +334,14 @@ Repository state overrides this narrative if they differ. Inspect first.
 
 The final branch tip is verified with Git after this setup commit; it is not
 embedded self-referentially in this file.
+
+## Current run checkpoint — Phase 7B
+
+- Phase 7A: **ACCEPTED / FROZEN** under `reports/phase7a_exposure_environmental_health_freeze_manifest.json`.
+- Phase 7A protected products: 20 nodes, 20 edges, five pathway rows, 5 × 10 monitoring matrix, 10 evidence rows, 13 uncertainty rows, and Map 23 PNG/SVG.
+- Phase 7B brief: `docs/phase_briefs/phase7b_exposure_dependencies_controls.md`.
+- Active phase: **Phase 7B — Exposure Dependencies, Evidence Strength & Controls, 2026**.
+- Planned branch/worktree: `phase-7b-exposure-dependencies-controls` / `C:\Projects\Public_Github\western-basin-worldbuilding-phase7b`.
+- Starting main SHA: `19515f614c61ea4900fedc73ef7353a44a5d2e58`.
+- Next exact action: create the isolated Phase 7B worktree, then build dependency/control/evidence tables and Map 24 without modifying Phase 7A.
+- Protected boundaries: no exposure magnitude, dose, illness, EJ score, plume, vector/infectious disease, or future content. Great Black Swamp remains C — HOLD; Toledo intake discrepancy remains unresolved.
