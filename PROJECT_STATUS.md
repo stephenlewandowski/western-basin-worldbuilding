@@ -280,11 +280,15 @@ The layer preserves environmental presence, potential pathway, documented
 exposure, dose, and health-outcome distinctions. It asserts no documented
 individual exposure, dose, illness, plume, or cumulative-risk score.
 
-## PHASE 7B — ACTIVE
+## PHASE 7B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
 
 **Exposure Dependencies, Evidence Strength & Controls, 2026**
 
-Phase 7B is a separate qualitative analytical layer over frozen Phase 7A.
+Phase 7B adds 20 dependency edges, seven controls, five evidence-strength rows, a 5 × 10 qualitative matrix, and Map 24. It preserves the Phase 7A evidence ladder and zero documented individual exposures. It contains no dose, illness, plume, risk score, or future content.
+
+## PHASE 7C — ACTIVE
+
+**Environmental Health Futures, 2050 / 2075**
 
 ## Open Phase 1 QA gates
 

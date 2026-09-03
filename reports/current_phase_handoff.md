@@ -345,6 +345,12 @@ embedded self-referentially in this file.
 - Starting main SHA: `19515f614c61ea4900fedc73ef7353a44a5d2e58`.
 - Next exact action: create the isolated Phase 7B worktree, then build dependency/control/evidence tables and Map 24 without modifying Phase 7A.
 - Protected boundaries: no exposure magnitude, dose, illness, EJ score, plume, vector/infectious disease, or future content. Great Black Swamp remains C — HOLD; Toledo intake discrepancy remains unresolved.
+- Phase 7B: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; commit `c4ed03fa7c85c4f2febafef8a768eef298a50d6e`; main and origin/main synchronized.
+- Phase 7C brief: `docs/phase_briefs/phase7c_environmental_health_futures.md`.
+- Active phase: **Phase 7C — Environmental Health Futures, 2050 / 2075**.
+- Phase 7C planned branch/worktree: `phase-7c-environmental-health-futures` / `C:\Projects\Public_Github\western-basin-worldbuilding-phase7c`.
+- Phase 7B working-baseline commit/hash: `c4ed03fa7c85c4f2febafef8a768eef298a50d6e`.
+- Next exact action: create the isolated Phase 7C worktree from integrated main and build separate scenario tables and Maps 25/25b. Do not modify Phase 7A/7B factual tables.
 
 ## Phase 7B worktree checkpoint
 
