@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "phase": "9C",
+  "projection_records": 12,
+  "assumptions": 36,
+  "hazard_states": 36,
+  "dependency_states": 48,
+  "resilience_states": 48,
+  "compound_event_states": 54,
+  "comparison_rows": 6,
+  "map31_valid": true,
+  "map31b_valid": true,
+  "phase9a_9b_artifacts_checked": 23,
+  "future_probabilities_absent": true,
+  "baseline_immutability": true,
+  "no_health_social_scoring": true,
+  "late_century_not_relabelled_2075": true
+}

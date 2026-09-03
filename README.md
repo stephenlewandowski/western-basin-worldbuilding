@@ -52,9 +52,9 @@ Map 23 is a bounded exposure-context layer covering drinking water/HAB, ambient 
 
 The Phase 8 package is protected by `reports/phase8a_biogeochemical_nutrient_flux_freeze_manifest.json`, `reports/phase8b_biogeochemical_dependencies_controls_freeze_manifest.json`, and `reports/phase8c_biogeochemical_futures_freeze_manifest.json`. Accepted scientific content was not changed while recording Sol acceptance.
 
-**PHASE 9 — ACTIVE (CLIMATE & NATURAL HAZARDS SYSTEM)**
+**PHASE 9 — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE (CLIMATE & NATURAL HAZARDS SYSTEM)**
 
-Phase 9A → 9B → 9C is approved for sequential execution. It models physical hazards and system dependencies, not health outcomes, social vulnerability, emergency management, or unsupported hazard probabilities.
+Phase 9A, 9B, and 9C are complete and separate from earlier factual systems. The package contains Map 29 (2026 baseline), Map 30 (2026 dependencies/compound events/resilience), and Maps 31/31b (qualitative 2050/2075 futures). It contains no composite hazard score, unsupported probability, health/social-vulnerability ranking, deterministic hazard surface, or comprehensive emergency-management module. No further analytical phase is approved.
 
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 

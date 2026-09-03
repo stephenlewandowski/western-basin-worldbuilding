@@ -328,22 +328,23 @@ The complete Phase 8 package is accepted/frozen and protected by three
 subphase manifests. No accepted Phase 8 scientific content was changed while
 recording this decision.
 
-## PHASE 9 — ACTIVE
+## PHASE 9 — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
 
 **Climate & Natural Hazards System, 2026 / 2050 / 2075**
 
 Phase 9A is implemented, validated, and integrated as a factual 2026 physical
 hazard baseline: 26 nodes, 30 relationships, 28 quantitative/context
-observations, and 21 sources under Map 29. Phase 9B is implemented and
-validated as a qualitative dependency, compound-event, and resilience layer:
-24 dependency edges, 9 compound-event pathways, 12 controls, a 9-row matrix,
-and Map 30. Phase 9C remains the next active subphase and will add separate
-2050/2075 scenario products without modifying Phase 9A or 9B.
+observations, and 21 sources under Map 29. Phase 9B is implemented, validated,
+and integrated as a qualitative dependency, compound-event, and resilience
+layer: 24 dependency edges, 9 compound-event pathways, 12 controls, an 11-
+dimension 9-row matrix, and Map 30. Phase 9C adds 12 projection evidence
+records, 36 assumptions, 36 hazard states, 48 dependency states, 48 resilience
+states, 54 compound-event states, six comparisons, and Maps 31/31b.
 
 Phase 9 uses no composite hazard score, unsupported hazard probability, health
 or social-vulnerability scoring, deterministic hazard surface, or comprehensive
 emergency-management model. Station, watershed, county, floodplain, shoreline,
-and regional scales remain distinct.
+and regional scales remain distinct. The next analytical phase is NOT APPROVED.
 
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry

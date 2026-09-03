@@ -467,3 +467,34 @@ embedded self-referentially in this file.
 - Grounded-citation strict verification passed for `reports/climate_dependency_sources.md` and `reports/climate_dependency_findings.md` using the phase-local citation ledger.
 - Phase 9B remains a qualitative working layer and is ready for independent review, commit/push/integration. Phase 9C may begin only after integration readback.
 - Next exact action: review the complete Phase 9B diff, run targeted/full regressions and Git/LFS checks, commit/push/integrate Phase 9B, then build Phase 9C projection-led scenarios and Maps 31/31b.
+
+## Phase 9B checkpoint F — integrated working baseline
+
+- Phase 9B feature/integration commit: `ae6e946b17bedb9670ef1d6c5f3a958b33062e82`.
+- Feature branch was pushed and fast-forward integrated into `main`; local `main`, `origin/main`, and the Phase 9 branch were read back synchronized at `ae6e946b17bedb9670ef1d6c5f3a958b33062e82`.
+- Phase 9B is `IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE` and is now an immutable working baseline for Phase 9C.
+- Phase 9A manifest and all 11 Phase 9A artifacts remain hash-validated and unchanged.
+- Next exact action: build Phase 9C projection evidence, scenario ledgers/states, comparison outputs, worldbuilding implications, and Maps 31/31b without modifying Phase 9A or 9B.
+
+## Phase 9C checkpoints G-H-I
+
+- Projection evidence package generated with 12 records: GLISA mid/late-century temperature and hot-day envelopes, precipitation envelope, LOCA2 CMIP6 method metadata, Great Lakes model-dependent lake-level branches, lake-effect snow transition, and Western Lake Erie precipitation ensemble context.
+- Scenario package generated: 36 assumptions; 36 hazard states; 48 dependency states; 48 resilience/control states; 54 compound-event states; six comparison rows; 13 source records; separate scenario source, assumptions, consistency, findings, QA, and speculative-worldbuilding reports.
+- Maps 31 (2050) and 31b (2075) generated as PNG/SVG pairs with readable scenario labels, projection-period caveats, source/model framing, and no hazard polygons or deterministic forecasts.
+- Python Phase 9C validator passed: scenario separation, 23 Phase 9A/9B protected artifacts, both maps, absence of probabilities/unsupported impact fields, no health/social scoring, and no late-century relabeling as a 2075 point estimate.
+- Independent R Phase 9C validator passed with the same scenario counts and Maps 31/31b present.
+- Grounded-citation strict verification passed for `reports/climate_scenario_sources.md` and `reports/climate_scenario_findings.md` using the phase-local citation ledger.
+- Phase 9C is ready for final independent review, full regression, commit/push/integration, and final handoff. No further scientific module may begin.
+- Next exact action: review and validate the complete Phase 9A-9C diff, run full Python/R/application/Markdown/Git-LFS checks, commit/push/integrate Phase 9C, then finalize status and synchronization.
+
+## Phase 9 correction run — pre-correction preservation checkpoint
+
+- Correction authorization: Sol explicitly authorized transparent correction of the unaccepted Phase 9A and Phase 9B working baselines for the identified factual, provenance, validator, and QA defects. Accepted/frozen Phase 1–8 artifacts remain protected.
+- Recovered branch/worktree: `phase-9-climate-natural-hazards` / `C:\Projects\Public_Github\western-basin-worldbuilding-phase9`; HEAD, local `main`, `origin/main`, and the feature branch were read at `ae6e946b17bedb9670ef1d6c5f3a958b33062e82` before correction.
+- Phase 9A original integrated commit: `8a76895c62be6af8304d93f50895828812b13e26`.
+- Phase 9B original integrated commit: `ae6e946b17bedb9670ef1d6c5f3a958b33062e82`.
+- The complete uncommitted Phase 9C package was inspected and preserved before any Phase 9A/9B edit: 23 untracked Phase 9C files plus the five tracked project-facing/status documents shown by Git. Pre-correction `reports/climate_scenario_manifest.json` SHA-256: `6cc4d0694f0b9465f82fefb509eeac9174e13a73febdc7b10902cfb289a74a6a`.
+- Pre-correction Phase 9A manifest SHA-256: `b6510409105cc74c65877f5004a8f4f2c00722ce778aa66c334f2c3467f039d6`; manifest-listed working artifacts matched. Key artifact hashes were recorded in `reports/climate_hazard_baseline_manifest.json`; the observations artifact was `7d7833e8a043282a27d3705395e4b339442f88728a3eabaecafb50a285432ad5` and the acquisition summary was `4f0d414c597a66025b993163d782c890a4f93d5831dc45118989ada09b33c07d`.
+- Pre-correction Phase 9B manifest SHA-256: `86f88bd0da39a2e2439a68ca89d540423032cfde5b5a2f4e690ef217b280d884`; manifest-listed working artifacts matched. The dependency-register artifact was `355ee7bd5640248a77406da600ea292c38504e0d2be57ea6cd5507b1b0df996f` and Map 30 SVG was `c2f93acdae7416ab0c49c2f2788fc5aadf45c5ebdd96efba61d2e9b70ed79817`.
+- Protected Phase 8 freeze manifest SHA-256 readback: Phase 8A `43eab525bd521c9854d528ef011e7f34d8241e6c403cde770db63bb7362c0415`; Phase 8B `8738ebe3c6e9ca34b2d28198ac9eae82f420317aa0ca0013484d218483070f01`; Phase 8C `9d13d88670fd6790a591a118377e75a40a0ee58a3cf251095330c38156e24b82`.
+- The Phase 9C checkpoint is not integrated into `main`; the original Phase 9A/9B commits are not amended or rewritten. Next action is to create a local preservation checkpoint if needed, then apply and document only the authorized corrections.
