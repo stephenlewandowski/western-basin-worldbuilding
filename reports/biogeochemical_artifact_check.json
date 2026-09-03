@@ -3,7 +3,7 @@
   "phase": "8A-8C",
   "baseline_nodes": 18,
   "baseline_edges": 24,
-  "quantitative_records": 6,
+  "quantitative_records": 10,
   "dependencies": 22,
   "controls": 10,
   "matrix_rows": 8,
