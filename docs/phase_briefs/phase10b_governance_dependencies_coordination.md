@@ -1,6 +1,6 @@
 # Phase 10B — Cross-System Authority, Dependencies & Coordination, 2026
 
-Status: APPROVED FOR IMPLEMENTATION AFTER CLEAN 10A CHECKPOINT; working baseline pending Sol acceptance.
+Status: ACCEPTED / FROZEN by Sol explicit acceptance decision on 2026-09-04.
 
 Primary product: Map 33 — Cross-System Governance Dependencies & Coordination, 2026 (or the next sequential map number confirmed from repository state).
 
@@ -51,4 +51,8 @@ Map only defensible geographic meaning: authoritative jurisdictional areas where
 
 ## Validation and transition gate
 
-Validate 10A working-baseline hashes, schemas, controlled vocabularies, source references, documented/inferred separation, mandatory/voluntary distinctions, gap discipline, matrix labels, negative scope, map artifact/readability, Python/R independence, prior Phase 1–9 freeze manifests, Markdown links, Git/LFS, and complete diff review. Do not begin Phase 10C, Phase 11, population, infectious disease, vector ecology, biosecurity, emergency-management operations, or AI/AGI convergence in this session. Phase 10B remains unaccepted until Sol review.
+Validate 10A working-baseline hashes, schemas, controlled vocabularies, source references, documented/inferred separation, mandatory/voluntary distinctions, gap discipline, matrix labels, negative scope, map artifact/readability, Python/R independence, prior Phase 1–9 freeze manifests, Markdown links, Git/LFS, and complete diff review. Do not begin Phase 10C, Phase 11, population, infectious disease, vector ecology, biosecurity, emergency-management operations, or AI/AGI convergence in this session. Phase 10B is accepted/frozen and protected by its final freeze manifest.
+
+## Acceptance / freeze record
+
+Sol formally accepted and froze Phase 10B on 2026-09-04. Final freeze manifest: `reports/phase10b_governance_dependencies_coordination_freeze_manifest.json`; it references the frozen Phase 10A manifest. The accepted distinctions remain unchanged: overlap ≠ dysfunction, unknown ≠ failure, and distributed authority is not absence of authority. GLIFWC remains an `intertribal_body`; distinct sovereign nations remain distinct actors; no present-day Western Basin tribal territory or permit/enforcement jurisdiction is inferred. Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains UNRESOLVED. Phase 10C is approved / not implemented.

@@ -589,7 +589,9 @@ Toledo intake-coordinate discrepancy **UNRESOLVED**. Neither was resolved or tre
 - Phase 10A is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE** and is protected by its working manifest before Phase 10B.
 - Next exact action: build Phase 10B dependency and coordination products without changing Phase 10A artifacts or Phase 1–9 frozen content.
 
-## Phase 10A/10B completion checkpoint — awaiting Sol acceptance
+## Phase 10A/10B completion checkpoint — pre-acceptance record
+
+This section records the integrated pre-acceptance state. It was superseded by the final Phase 10A / 10B acceptance and freeze handoff below.
 
 - Phase 10A: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Products: 40 actors, 100 authority/role records, 100 actor-system relationships, 48 sources, 16 uncertainty records, and Map 32.
 - Phase 10B: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Products: 25 dependency rows/edges, 14 coordination mechanisms, 10-row qualitative matrix, and Map 33.
@@ -601,3 +603,28 @@ Toledo intake-coordinate discrepancy **UNRESOLVED**. Neither was resolved or tre
 - The corrected package does not promote unsupported authority claims: scientific observation, funding, advice, ownership, permitting, private operation, tribal sovereignty, and legal decision authority remain distinct. No generalized governance gap or composite score was created.
 - Active phase: **NONE** after 10A/10B completion. Phase 10C is approved scope only and was not implemented. Next action: fresh session for Phase 10C after Sol review.
 - Active holds preserved: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. No release or tag was created.
+
+## Final Phase 10A / 10B acceptance and freeze handoff — 2026-09-04
+
+Repository state before acceptance bookkeeping: local `main`, `origin/main`, and the Phase 10 worktree were clean and synchronized at `e1f233cc89e3694d2f08dfd81fde6f9194f57a65`.
+
+Sol formally accepted and froze:
+
+- Phase 9A: **ACCEPTED / FROZEN**
+- Phase 9B: **ACCEPTED / FROZEN**
+- Phase 9C: **ACCEPTED / FROZEN**
+- Phase 10A — Governance & Jurisdiction Baseline, 2026: **ACCEPTED / FROZEN** under `reports/phase10a_governance_jurisdiction_freeze_manifest.json`.
+- Phase 10B — Cross-System Authority, Dependencies & Coordination, 2026: **ACCEPTED / FROZEN** under `reports/phase10b_governance_dependencies_coordination_freeze_manifest.json`.
+- Phase 10C: **APPROVED / NOT IMPLEMENTED**.
+
+The final Phase 10 manifests protect 26 unique Phase 10 artifacts across 30 manifest entries; shared source and review records are intentionally referenced by both phase manifests. The Phase 10A package contains 40 actors, 100 authority/role records, 100 actor-system relationships, 48 sources, 16 uncertainties, and Map 32. The Phase 10B package contains 25 dependency rows/edges, 14 coordination mechanisms, a 10-row qualitative matrix, and Map 33.
+
+Python and independent R freeze validation passed for both final manifests. Phase 1–9 immutability validation passed for all 196 prior protected artifacts. The initial conditional-pass review and correction disposition remain in `reports/governance_independent_review.md`; post-correction records for `deleg_2e8d515e` and `deleg_eedc4116` remain in `reports/governance_post_correction_independent_review.md` and `reports/governance_additional_post_correction_independent_review.md`.
+
+Correction lineage remains preserved and unrevised: `e7d421c7c1a43a335e1e2faef2bca009c4427712`, `d25d4394c265fcc68ed4b5a89cf2901f70910fad`, `f613d3ff1f4193444d1f01560806cbf2d6b8fc9b`, and `e1f233cc89e3694d2f08dfd81fde6f9194f57a65`. No commit was amended, squashed, rewritten, or concealed.
+
+Active phase: **NONE**.
+
+Next action: **FRESH SESSION FOR PHASE 10C**.
+
+Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. No release or tag was created.

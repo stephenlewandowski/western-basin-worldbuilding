@@ -56,9 +56,9 @@ The Phase 8 package is protected by `reports/phase8a_biogeochemical_nutrient_flu
 
 Phase 9A, 9B, and 9C are complete, corrected where required, and separate from earlier factual systems. The package contains Map 29 (2026 baseline), Map 30 (2026 dependencies/compound events/resilience), and Maps 31/31b (qualitative 2050/2075 futures). Correction history is recorded in `reports/phase9a_correction_qa.md` and `reports/phase9_correction_qa.md`. It contains no composite hazard score, unsupported probability, health/social-vulnerability ranking, deterministic hazard surface, or comprehensive emergency-management module.
 
-**PHASE 10A / 10B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE (GOVERNANCE & JURISDICTION, 2026)**
+**PHASE 10A / 10B — ACCEPTED / FROZEN (GOVERNANCE & JURISDICTION, 2026)**
 
-Phase 10A provides 40 actors, 100 authority/role records, 100 actor-system relationships, 48 sources, 16 uncertainty records, and Map 32. Phase 10B provides 25 dependency rows/edges, 14 coordination mechanisms, a 10-row qualitative matrix, and Map 33. The package distinguishes regulation, operation, ownership, monitoring, funding, advisory, permitting, scientific information, public/private, mandatory/voluntary, and jurisdictional roles. Phase 10C is approved scope only and was not implemented. No composite governance score or generalized governance-gap claim was created.
+Phase 10A provides 40 actors, 100 authority/role records, 100 actor-system relationships, 48 sources, 16 uncertainty records, and Map 32. Phase 10B provides 25 dependency rows/edges, 14 coordination mechanisms, a 10-row qualitative matrix, and Map 33. The package distinguishes regulation, operation, ownership, monitoring, funding, advisory, permitting, scientific information, public/private, mandatory/voluntary, and jurisdictional roles. Phase 10A and 10B are protected by `reports/phase10a_governance_jurisdiction_freeze_manifest.json` and `reports/phase10b_governance_dependencies_coordination_freeze_manifest.json`. Phase 10C is approved / not implemented. No composite governance score or generalized governance-gap claim was created.
 
 Phase 1 contains seven Maumee basin HUC-8 watersheds, 252 HUC-12 subwatersheds, 864 physical Lower Maumee flowlines, 251 explicitly inferred WBD routing connectors, 608 NWI freshwater wetlands, 14 system nodes, and 15 dependency edges.
 
@@ -400,7 +400,7 @@ final independent-review record is `reports/phase9_independent_review.md`.
 
 ## Phase 10 Governance, Jurisdiction & Decision Systems
 
-Phase 10A and 10B are implemented, validated, and integrated as a factual/qualitative 2026 institutional layer pending Sol acceptance. Phase 10C is approved future scope only and is not implemented.
+Phase 10A and 10B are **ACCEPTED / FROZEN** as a factual/qualitative 2026 institutional layer. Phase 10C is **APPROVED / NOT IMPLEMENTED** and is reserved for a fresh session.
 
 - [32 — Western Basin governance and jurisdiction, 2026](outputs/maps/systems/32_governance_jurisdiction_2026.png)
 - [33 — Cross-system governance dependencies and coordination, 2026](outputs/maps/systems/33_cross_system_governance_dependencies_2026.png)
@@ -410,11 +410,17 @@ Phase 10A and 10B are implemented, validated, and integrated as a factual/qualit
 - [Governance dependency register](data/processed/analysis/governance_dependency_register.csv)
 - [Coordination mechanism register](data/processed/analysis/governance_coordination_mechanisms.csv)
 - [Qualitative governance/dependency matrix](data/processed/analysis/governance_dependency_matrix.csv)
+- [Phase 10A freeze manifest](reports/phase10a_governance_jurisdiction_freeze_manifest.json)
+- [Phase 10B freeze manifest](reports/phase10b_governance_dependencies_coordination_freeze_manifest.json)
+- [Phase 10 initial independent review](reports/governance_independent_review.md)
+- [Phase 10 post-correction review](reports/governance_post_correction_independent_review.md)
+- [Phase 10 additional post-correction review](reports/governance_additional_post_correction_independent_review.md)
 - [Phase 10A findings](reports/governance_baseline_findings.md)
 - [Phase 10B findings](reports/governance_dependency_findings.md)
-- [Phase 10 independent review](reports/governance_independent_review.md)
 
 The package keeps regulation, operation, ownership, monitoring, funding, advisory, permitting, scientific information, and private/public roles separate. It does not create jurisdiction polygons from vague descriptions, a composite governance score, a generalized governance-gap ranking, partisan/election analysis, or Phase 10C futures.
+
+The correction lineage `e7d421c`, `d25d439`, `f613d3f`, and `e1f233c` remains visible and unrevised. The accepted review records identify `deleg_2e8d515e` and `deleg_eedc4116` as passed with no blocking findings.
 
 Rebuild and validate the governance layers from the repository root:
 

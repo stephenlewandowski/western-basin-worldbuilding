@@ -366,19 +366,36 @@ Final subphase status:
 Phase 9 uses no composite hazard score, unsupported hazard probability, health
 or social-vulnerability scoring, deterministic hazard surface, or comprehensive
 emergency-management model. Station, watershed, county, floodplain, shoreline,
-and regional scales remain distinct. Phase 10A and 10B are approved and are implemented as a separate institutional governance layer; Phase 10C remains approved scope only and is not implemented.
+and regional scales remain distinct. Phase 10A and 10B are accepted/frozen as a separate institutional governance layer; Phase 10C remains approved / not implemented.
 
-## PHASE 10A / 10B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 10A — ACCEPTED / FROZEN
 
-**Governance, Jurisdiction, Cross-System Authority & Coordination, 2026**
+**Governance & Jurisdiction Baseline, 2026**
 
 Phase 10A adds a 40-actor registry, 100 authority/role records, 100 actor-system relationships, 48 source records, 16 uncertainty records, and Map 32. It keeps regulation, operation, ownership, monitoring, funding, advisory, permitting, scientific information, and private/public roles distinct.
 
+Sol formally accepted and froze Phase 10A on 2026-09-04 under `reports/phase10a_governance_jurisdiction_freeze_manifest.json`. The manifest protects 15 Phase 10A acceptance artifacts, including the source, assumptions, findings, QA, artifact-check, and independent-review records. The accepted boundaries include regulatory authority ≠ operational control; monitoring ≠ regulation; funding ≠ binding authority; advisory role ≠ legal decision authority; ownership ≠ regulation; private operation ≠ public operation; scientific information ≠ legal authority; and voluntary program ≠ enforceable mandate.
+
+## PHASE 10B — ACCEPTED / FROZEN
+
+**Cross-System Authority, Dependencies & Coordination, 2026**
+
 Phase 10B adds 25 cross-system dependency records and edges, 14 coordination mechanism records, a 10-row qualitative governance/dependency matrix, and Map 33. It distinguishes overlapping, sequential, split, information, funding, permit, public/private, interstate, binational, monitoring-without-control, and control-without-direct-observation relationships. It uses no composite governance score and makes no generalized governance-gap claim.
 
-Phase 10A and 10B are implemented, validated, and integrated pending formal Sol acceptance. The independent review and correction disposition are recorded in `reports/governance_independent_review.md`. Phase 10C is approved future scope only and was not implemented.
+Sol formally accepted and froze Phase 10B on 2026-09-04 under `reports/phase10b_governance_dependencies_coordination_freeze_manifest.json`. The manifest protects 15 Phase 10B acceptance artifacts and references the frozen Phase 10A manifest. Unknown ≠ failure and overlap ≠ dysfunction remain explicit boundaries.
 
-Active phase: **NONE**. Next action: **FRESH SESSION FOR PHASE 10C**.
+The Phase 10 correction lineage remains transparent and unrevised: implementation `e7d421c7c1a43a335e1e2faef2bca009c4427712`, provenance correction `d25d4394c265fcc68ed4b5a89cf2901f70910fad`, handoff `f613d3ff1f4193444d1f01560806cbf2d6b8fc9b`, and post-correction review record `e1f233cc89e3694d2f08dfd81fde6f9194f57a65` remain visible in Git history. Review records are preserved in `reports/governance_independent_review.md`, `reports/governance_post_correction_independent_review.md` (`deleg_2e8d515e`), and `reports/governance_additional_post_correction_independent_review.md` (`deleg_eedc4116`). No commit was amended, squashed, rewritten, or concealed.
+
+Final subphase status:
+
+- Phase 9A: **ACCEPTED / FROZEN**
+- Phase 9B: **ACCEPTED / FROZEN**
+- Phase 9C: **ACCEPTED / FROZEN**
+- Phase 10A: **ACCEPTED / FROZEN**
+- Phase 10B: **ACCEPTED / FROZEN**
+- Phase 10C: **APPROVED / NOT IMPLEMENTED**
+- Active phase: **NONE**
+- Next action: **FRESH SESSION FOR PHASE 10C**
 
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry

@@ -1,0 +1,98 @@
+{
+  "accepted_phase": "10B",
+  "baseline": "Cross-System Authority, Dependencies & Coordination, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-04",
+  "source_commit": "e1f233cc89e3694d2f08dfd81fde6f9194f57a65",
+  "acceptance_basis": "Sol formally accepted the corrected and finalized Phase 10A/10B package after Python validation, independent R validation, strict provenance/citation checks, Phase 1\u20139 immutability validation, clean Git/LFS checks, and passed post-correction independent reviews.",
+  "counts": {
+    "dependency_register": 25,
+    "dependency_edges": 25,
+    "coordination_mechanisms": 14,
+    "matrix_rows": 10,
+    "sources_reused": 48
+  },
+  "artifacts": {
+    "data/processed/analysis/governance_dependency_register.csv": {
+      "sha256": "e0d363c858462a0bfde1da82ba3cdc1c5c82626e9a9e36d18eb96eb398eaa13f",
+      "bytes": 7435,
+      "role": "Phase 10 analytical artifact"
+    },
+    "data/processed/analysis/governance_coordination_mechanisms.csv": {
+      "sha256": "0bafec54034edb27f665099f25e157c64158125f6eb0e5bafe42694b90ce916f",
+      "bytes": 3794,
+      "role": "Phase 10 analytical artifact"
+    },
+    "data/processed/analysis/governance_dependency_matrix.csv": {
+      "sha256": "ff8109989729ed41ce43eee236d3033c3a49240957232ae98ec9cf93ddd6d8ab",
+      "bytes": 2715,
+      "role": "Phase 10 analytical artifact"
+    },
+    "data/processed/networks/governance_dependency_edges.csv": {
+      "sha256": "8927829ba5443116a07534cbae67b07f4b6c0becbfd0c4b5da0aab1c4b1d6afb",
+      "bytes": 6403,
+      "role": "Phase 10 analytical artifact"
+    },
+    "data/processed/analysis/governance_sources.csv": {
+      "sha256": "5b0fc4739e9e825ccfe90581583ec2861d2205e3ba31443500ff67590369df3f",
+      "bytes": 14393,
+      "role": "Phase 10 analytical artifact"
+    },
+    "outputs/maps/systems/33_cross_system_governance_dependencies_2026.png": {
+      "sha256": "01399dbc4e66bbb3bd599dec3844a92dc4508b832b85427d3145f35225d02f12",
+      "bytes": 1221707,
+      "role": "map raster"
+    },
+    "outputs/maps/systems/33_cross_system_governance_dependencies_2026.svg": {
+      "sha256": "6337412ae4b0ad63be5edbcd021301f5f068059ac3f1c8544a821a838c8e60b5",
+      "bytes": 17925871,
+      "role": "map vector"
+    },
+    "reports/governance_dependency_sources.md": {
+      "sha256": "e40a74e2edcffdac85b287bbbcd6d8275aff6c8e8a6662c30599d5ef6edae481",
+      "bytes": 5017,
+      "role": "source report"
+    },
+    "reports/governance_dependency_assumptions.md": {
+      "sha256": "aad54f1fa02043bb30a3225cdfcc422d5501d912abfbff073a4a423197aa3112",
+      "bytes": 2130,
+      "role": "assumptions and scope report"
+    },
+    "reports/governance_dependency_findings.md": {
+      "sha256": "05db3d4d2fbc3569bf12e33337b2c79658f86dbb6799c7148a444d61dd772042",
+      "bytes": 11050,
+      "role": "findings report"
+    },
+    "reports/governance_dependency_qa.md": {
+      "sha256": "65365ee2011b3d3f9e7df8f5a9a1885d6fefc5eb3e5a8f6588f972c24ed7e1e9",
+      "bytes": 1584,
+      "role": "QA report"
+    },
+    "reports/governance_dependency_artifact_check.json": {
+      "sha256": "298d709ce6c3f89e63e8d1bad9100d409b828d5da00f35c098be5e12cb8c2e4f",
+      "bytes": 980,
+      "role": "machine validation result"
+    },
+    "reports/governance_independent_review.md": {
+      "sha256": "afc553af45a2824942ecc64b2378602366757a53cbbffa001729441134b809af",
+      "bytes": 3154,
+      "role": "independent review record"
+    },
+    "reports/governance_post_correction_independent_review.md": {
+      "sha256": "7c6ba82f621548e0112a33f4e823eeec0a6ca937dd84d7d54637efd9b9d18f23",
+      "bytes": 1970,
+      "role": "independent review record"
+    },
+    "reports/governance_additional_post_correction_independent_review.md": {
+      "sha256": "09a9cfb2d7998073d1fe854061ff167cbcb3cf96c202c9d1be03968d48709a22",
+      "bytes": 685,
+      "role": "independent review record"
+    }
+  },
+  "phase10a_freeze_manifest": {
+    "path": "reports/phase10a_governance_jurisdiction_freeze_manifest.json",
+    "sha256": "63f0a1481ae70bb2bc1954d084062f6052799cbce3ba9dac8f1859495f27f6d4",
+    "bytes": 3975
+  }
+}

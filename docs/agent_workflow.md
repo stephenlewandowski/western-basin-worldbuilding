@@ -124,7 +124,7 @@ Phase 3B factual baselines remain accepted/validated/frozen. Phase 2D and
 Phase 3C are accepted/validated future-scenario packages. Phase 4A–4C, Phase
 5A–5C, Phase 6A–6C, Phase 7A, Phase 8A–8C, and Phase 9A–9C are recorded in
 `PROJECT_STATUS.md` and their freeze manifests. Phase 10A and 10B are the
-approved, implemented, validated, and integrated governance/jurisdiction layers
-for 2026, awaiting Sol acceptance. Phase 10C is approved scope only and is not
-implemented until a fresh session. Future scenario content must remain separate
-from factual baseline content.
+accepted/frozen governance/jurisdiction layers for 2026, protected by their
+Phase 10 freeze manifests. Phase 10C is approved / not implemented until a
+fresh session. Future scenario content must remain separate from factual
+baseline content.

@@ -236,7 +236,7 @@ The transparent correction logs are `phase9a_correction_qa.md` and
 
 ## Phase 10 governance, jurisdiction, and decision systems
 
-Phase 10A and 10B are implemented, validated, and integrated as a factual/qualitative 2026 institutional layer pending Sol acceptance. Phase 10C is approved scope only and is not implemented.
+Phase 10A and 10B are **ACCEPTED / FROZEN** as a factual/qualitative 2026 institutional layer. Phase 10C is **APPROVED / NOT IMPLEMENTED** and is reserved for a fresh session.
 
 - `../data/processed/analysis/governance_actors.csv` — 40-actor registry
 - `../data/processed/analysis/governance_authorities.csv` — 100 authority/role records
@@ -251,7 +251,11 @@ Phase 10A and 10B are implemented, validated, and integrated as a factual/qualit
 - `../outputs/maps/systems/33_cross_system_governance_dependencies_2026.png` and `.svg` — Map 33
 - `governance_baseline_sources.md`, `governance_baseline_assumptions.md`, `governance_baseline_findings.md`, `governance_baseline_qa.md`
 - `governance_dependency_sources.md`, `governance_dependency_assumptions.md`, `governance_dependency_findings.md`, `governance_dependency_qa.md`
-- `governance_independent_review.md` — independent institutional review and correction disposition
-- `governance_baseline_manifest.json` and `governance_dependency_manifest.json`
+- `phase10a_governance_jurisdiction_freeze_manifest.json`
+- `phase10b_governance_dependencies_coordination_freeze_manifest.json`
+- `governance_baseline_manifest.json` and `governance_dependency_manifest.json` — pre-acceptance working manifests retained for lineage
+- `governance_independent_review.md` — initial conditional-pass review and correction disposition
+- `governance_post_correction_independent_review.md` — post-correction review (`deleg_2e8d515e`)
+- `governance_additional_post_correction_independent_review.md` — additional review (`deleg_eedc4116`)
 
 The package explicitly separates regulation, operation, ownership, monitoring, funding, advisory, permitting, scientific information, public/private control, mandatory/voluntary status, and jurisdictional scale. It makes no composite governance score or generalized governance-gap ranking.

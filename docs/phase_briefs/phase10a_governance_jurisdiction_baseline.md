@@ -1,6 +1,6 @@
 # Phase 10A — Governance & Jurisdiction Baseline, 2026
 
-Status: APPROVED FOR IMPLEMENTATION; working baseline pending Sol acceptance.
+Status: ACCEPTED / FROZEN by Sol explicit acceptance decision on 2026-09-04.
 
 Primary product: Map 32 — Western Basin Governance & Jurisdiction, 2026 (or the next sequential map number confirmed from repository state).
 
@@ -48,4 +48,8 @@ Prefer statutes/regulations, treaties/compacts/formal agreements, official agenc
 
 ## Validation and transition gate
 
-Validate schemas, controlled vocabularies, source references, claim-status separation, jurisdictional scales, coordinates/map semantics, negative-scope rules, map artifact integrity/readability, prior Phase 1–9 freeze manifests, Markdown links, Git/LFS, Python and independent R validators, and complete diff review. Explicitly test that no regulator is represented as an operator, monitor as regulator, funder as controller, advisor as binding authority, private operator as governmental authority, planning target as enforceable mandate, historical Indigenous association as unsupported current jurisdiction, or project inference as legal fact. Phase 10A remains an unaccepted working baseline until Sol review.
+Validate schemas, controlled vocabularies, source references, claim-status separation, jurisdictional scales, coordinates/map semantics, negative-scope rules, map artifact integrity/readability, prior Phase 1–9 freeze manifests, Markdown links, Git/LFS, Python and independent R validators, and complete diff review. Explicitly test that no regulator is represented as an operator, monitor as regulator, funder as controller, advisor as binding authority, private operator as governmental authority, planning target as enforceable mandate, historical Indigenous association as unsupported current jurisdiction, or project inference as legal fact. Phase 10A is accepted/frozen and protected by its final freeze manifest.
+
+## Acceptance / freeze record
+
+Sol formally accepted and froze Phase 10A on 2026-09-04. Final freeze manifest: `reports/phase10a_governance_jurisdiction_freeze_manifest.json`. The accepted institutional boundaries remain unchanged, including regulation ≠ operation, monitoring ≠ regulation, funding ≠ binding authority, advisory role ≠ legal decision authority, ownership ≠ regulation, private operation ≠ public operation, scientific information ≠ legal authority, and voluntary program ≠ enforceable mandate. GLIFWC remains an `intertribal_body`; distinct sovereign nations remain distinct actors; no present-day Western Basin tribal territory or permit/enforcement jurisdiction is inferred. Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains UNRESOLVED. Phase 10C is approved / not implemented.

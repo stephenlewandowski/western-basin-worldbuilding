@@ -1,6 +1,6 @@
 # Phase 10C — Governance Futures, 2050 / 2075
 
-Status: APPROVED FUTURE SCOPE ONLY; NOT IMPLEMENTED IN THIS session.
+Status: APPROVED / NOT IMPLEMENTED; reserved for a fresh session.
 
 ## Reserved scope
 
