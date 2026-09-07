@@ -241,7 +241,7 @@ def main() -> None:
     assert manifest["counts"] == EXPECTED_COUNTS
     for rel, meta in manifest["artifacts"].items():
         artifact = ROOT / rel
-        assert artifact.exists() and artifact.stat().st_size > 0 and sha(artifact) == meta["sha256"], rel
+        assert artifact.exists() and artifact.stat().st_size > 0 and manifest_matches(ROOT, rel, meta["sha256"]), rel
     result = {
         "status": "passed", "phase": "10C", **EXPECTED_COUNTS,
         "phase10_freeze_entries": phase10_entries, "phase10_unique_artifacts": phase10_unique,

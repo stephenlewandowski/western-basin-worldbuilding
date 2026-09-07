@@ -153,7 +153,7 @@ stopifnot(file.info(file.path(fig_dir,"governance_scenario_comparison.png"))$siz
 scenario_manifest <- file.path(report_dir,"governance_scenario_manifest.json")
 manifest_lines <- readLines(scenario_manifest,warn=FALSE,encoding="UTF-8")
 stopifnot(any(grepl('"phase"[[:space:]]*:[[:space:]]*"10C"',manifest_lines,perl=TRUE)), any(grepl('"scenario_assumptions"[[:space:]]*:[[:space:]]*48',manifest_lines,perl=TRUE)), any(grepl('"uncertainty_states"[[:space:]]*:[[:space:]]*96',manifest_lines,perl=TRUE)))
-stopifnot(check_manifest(scenario_manifest, portable=FALSE) == 21L)
+stopifnot(check_manifest(scenario_manifest, portable=TRUE) == 21L)
 
 changed <- system2("git", c("-C",root,"diff","--name-only","8664bcafdf1714c9085d016ebb32f4913b48dbef"), stdout=TRUE)
 stopifnot(!any(grepl("phase11", changed, ignore.case=TRUE)))
