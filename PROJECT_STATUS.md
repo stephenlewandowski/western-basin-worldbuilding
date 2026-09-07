@@ -366,7 +366,7 @@ Final subphase status:
 Phase 9 uses no composite hazard score, unsupported hazard probability, health
 or social-vulnerability scoring, deterministic hazard surface, or comprehensive
 emergency-management model. Station, watershed, county, floodplain, shoreline,
-and regional scales remain distinct. Phase 10A and 10B are accepted/frozen as a separate institutional governance layer; Phase 10C is implemented/validated as a separate qualitative 2050/2075 scenario layer awaiting Sol acceptance.
+and regional scales remain distinct. Phase 10A and 10B are accepted/frozen as a separate institutional governance layer; Phase 10C is accepted/frozen as a separate qualitative 2050/2075 scenario layer under its final freeze manifest.
 
 ## PHASE 10A — ACCEPTED / FROZEN
 
