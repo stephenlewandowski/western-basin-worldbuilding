@@ -1,6 +1,6 @@
 # Phase 10C — Governance Futures, 2050 / 2075
 
-Status: IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE.
+Status: ACCEPTED / FROZEN by Sol explicit acceptance decision on 2026-09-07.
 
 ## Scope implemented
 
@@ -26,4 +26,4 @@ The Great Black Swamp remains C — HOLD / noncanonical. The Toledo intake-coord
 
 ## Acceptance / freeze record
 
-Formal Sol acceptance and freeze have not occurred. Phase 10C remains separate scenario content awaiting external Sol review/acceptance.
+Sol formally accepted and froze Phase 10C on 2026-09-07. Final freeze manifest: `reports/phase10c_governance_futures_freeze_manifest.json`. The manifest protects 23 accepted scenario artifacts, including the validated working manifest, artifact check, Maps 34/34b, all phase reports, and the fresh independent review with `passed: true` and no blocking findings. The scenario layer remains separate from the factual Phase 10A/10B baseline; no Phase 11 work is authorized.

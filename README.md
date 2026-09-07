@@ -400,7 +400,7 @@ final independent-review record is `reports/phase9_independent_review.md`.
 
 ## Phase 10 Governance, Jurisdiction & Decision Systems
 
-Phase 10A and 10B are **ACCEPTED / FROZEN** as a factual/qualitative 2026 institutional layer. Phase 10C is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE** as a separate qualitative 2050/2075 governance-futures layer.
+Phase 10A and 10B are **ACCEPTED / FROZEN** as a factual/qualitative 2026 institutional layer. Phase 10C is **ACCEPTED / FROZEN** under `reports/phase10c_governance_futures_freeze_manifest.json` as a separate qualitative 2050/2075 governance-futures layer.
 
 - [32 — Western Basin governance and jurisdiction, 2026](outputs/maps/systems/32_governance_jurisdiction_2026.png)
 - [33 — Cross-system governance dependencies and coordination, 2026](outputs/maps/systems/33_cross_system_governance_dependencies_2026.png)
@@ -415,6 +415,7 @@ Phase 10A and 10B are **ACCEPTED / FROZEN** as a factual/qualitative 2026 instit
 - [Governance scenario comparison](outputs/figures/governance_scenario_comparison.png)
 - [Governance scenario manifest](reports/governance_scenario_manifest.json)
 - [Governance scenario independent review](reports/governance_scenario_independent_review.md)
+- [Phase 10C freeze manifest](reports/phase10c_governance_futures_freeze_manifest.json)
 - [Governance actors](data/processed/analysis/governance_actors.csv)
 - [Governance authority/role registry](data/processed/analysis/governance_authorities.csv)
 - [Governance relationships](data/processed/networks/governance_relationships.csv)

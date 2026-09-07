@@ -156,7 +156,7 @@ stopifnot(grepl(paste0('"sha256": "', sha256_file(a_path), '"'), b_txt, fixed=TR
 
 prior_total <- 0L
 prior_names <- list.files(reports, pattern="^phase.*_freeze_manifest[.]json$", full.names=FALSE)
-prior_names <- prior_names[!(prior_names %in% final_names)]
+prior_names <- prior_names[!(prior_names %in% c(final_names, "phase10c_governance_futures_freeze_manifest.json"))]
 for (name in prior_names) {
   x <- manifest_artifacts(file.path(reports, name))
   stopifnot(nrow(x) > 0)

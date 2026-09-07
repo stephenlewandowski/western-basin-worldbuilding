@@ -108,6 +108,7 @@ def verify_prior_freezes(final_artifacts: set[str]) -> tuple[int, int]:
     total = 0
     newline_only = 0
     final_names = {spec["path"].name for spec in FINAL.values()}
+    final_names.add("phase10c_governance_futures_freeze_manifest.json")
     for path in sorted(REPORTS.glob("phase*_freeze_manifest.json")):
         if path.name in final_names:
             continue
@@ -149,7 +150,7 @@ def verify_records_and_status() -> None:
     ):
         text = (ROOT / rel).read_text(encoding="utf-8").lower()
         assert "accepted / frozen" in text, rel
-        assert "phase 10c" in text and "not implemented" in text, rel
+        assert "phase 10c" in text and "accepted / frozen" in text, rel
     canon = (ROOT / "docs/canon_status.md").read_text(encoding="utf-8")
     handoff = (ROOT / "reports/current_phase_handoff.md").read_text(encoding="utf-8")
     for text in (canon, handoff):
@@ -157,7 +158,7 @@ def verify_records_and_status() -> None:
         assert "great black swamp" in lower and "hold" in lower and "noncanonical" in lower
         assert "intake-coordinate discrepancy" in lower and "unresolved" in lower
     changed = subprocess.check_output(["git", "-C", str(ROOT), "diff", "--name-only", SOURCE_COMMIT], text=True).splitlines()
-    assert all("phase10c" not in rel.lower() or rel.lower() == "docs/phase_briefs/phase10c_governance_futures.md" for rel in changed)
+    assert not any("phase11" in rel.lower() for rel in changed)
 
 
 def main() -> None:
@@ -174,7 +175,7 @@ def main() -> None:
         "manifest_hashes_valid": True,
         "status_consistency_valid": True,
         "review_records_preserved": ["deleg_2e8d515e", "deleg_eedc4116"],
-        "phase10c_unimplemented": True,
+        "phase10c_status_recorded": True,
         "holds_preserved": True,
     }
     print(json.dumps(result, indent=2))

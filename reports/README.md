@@ -236,7 +236,7 @@ The transparent correction logs are `phase9a_correction_qa.md` and
 
 ## Phase 10 governance, jurisdiction, and decision systems
 
-Phase 10A and 10B are **ACCEPTED / FROZEN** as a factual/qualitative 2026 institutional layer. Phase 10C is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE** as a separate qualitative 2050/2075 scenario layer.
+Phase 10A and 10B are **ACCEPTED / FROZEN** as a factual/qualitative 2026 institutional layer. Phase 10C is **ACCEPTED / FROZEN** under `phase10c_governance_futures_freeze_manifest.json` as a separate qualitative 2050/2075 scenario layer.
 
 - `../data/processed/scenarios/governance_scenario_assumptions.csv` — 48 explicit scenario assumptions
 - `../data/processed/scenarios/governance_actor_states_scenario.csv` — 120 actor states
@@ -249,8 +249,9 @@ Phase 10A and 10B are **ACCEPTED / FROZEN** as a factual/qualitative 2026 instit
 - `../outputs/maps/systems/34b_governance_futures_2075.png` and `.svg`
 - `../outputs/figures/governance_scenario_comparison.csv`, `.png`, and `.svg`
 - `governance_scenario_sources.md`, `governance_scenario_assumptions.md`, `governance_scenario_consistency.md`, `governance_scenario_findings.md`, `governance_scenario_worldbuilding.md`, and `governance_scenario_qa.md`
-- `governance_scenario_manifest.json` and `governance_scenario_artifact_check.json`
-- `governance_scenario_independent_review.md` — fresh bounded review of the actual final package
+- `governance_scenario_manifest.json` and `governance_scenario_artifact_check.json` — validated working records retained for lineage
+- `phase10c_governance_futures_freeze_manifest.json` — final Sol-acceptance freeze manifest protecting 23 artifacts
+- `governance_scenario_independent_review.md` — fresh bounded review of the actual final package; `passed: true` with no blocking findings
 
 Phase 10C keeps every future state explicitly separate from the current 2026 baseline, with current-fact, scenario-assumption, and scenario-consequence fields. It preserves GLIFWC as an intertribal body, distinct sovereign nations, binational role boundaries, public/private distinctions, human legal authority, the Great Black Swamp hold, and the unresolved Toledo intake-coordinate discrepancy. It creates no composite governance score, unsupported future jurisdiction, partisan/election analysis, AI legal authority, or Phase 11 work.
 

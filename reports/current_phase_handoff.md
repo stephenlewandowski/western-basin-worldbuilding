@@ -653,15 +653,36 @@ Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; 
 - Phase 10A/10B artifacts remain immutable. Great Black Swamp remains C — HOLD / noncanonical; Toledo intake-coordinate discrepancy remains UNRESOLVED.
 - Current worktree is uncommitted. Next exact action: review the complete diff and run repository-wide Markdown, application, regression, Git/LFS, and staged-diff checks; then commit, push, and integrate only if all gates remain green. Phase 10C still awaits Sol acceptance.
 
-## Phase 10C final integrated handoff — implementation complete, acceptance pending
+## Phase 10C acceptance / freeze handoff — 2026-09-07
+
+- Starting acceptance-run SHA: `350ace49241622337fffa11330ef9e0bd28ce9d9`; local `main` and `origin/main` were clean and synchronized before the freeze bookkeeping.
+- Sol formally accepted and froze Phase 10C — Governance Futures, 2050 / 2075 — as a separate qualitative scenario layer.
+- Accepted package: 48 scenario assumptions, 120 actor states, 90 authority states, 150 dependency states, 84 coordination states, 96 uncertainty states, 19 scenario-source records, six comparison rows, Maps 34/34b, reports, validated working manifest, artifact check, and fresh independent review.
+- Final freeze manifest: `reports/phase10c_governance_futures_freeze_manifest.json`; it protects 23 Phase 10C artifacts. Phase 10A/10B and Phase 1–9 protected artifacts remain immutable.
+- Independent review preservation: `reports/governance_scenario_independent_review.md` remains unchanged with `passed: true` and empty security, logic, provenance, scenario-boundary, and authority-classification findings. Phase 10 implementation, correction, handoff, review, and newline-portability commits remain unrevised.
+- Active phase: **NONE**.
+- Next analytical phase: **NOT APPROVED**. Do not begin Phase 11.
+- Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**.
+- No release or tag was created. Final SHA and validation readbacks are recorded after the acceptance commit rather than embedded self-referentially here.
+
+## Phase 10C pre-acceptance integrated handoff — historical checkpoint
 
 - Finalization checkpoint: `2026-09-07T14:32:20+09:00`.
 - Feature branch `phase-10c-governance-futures-2050-2075` was committed as `3e1bd27810771a9de520fbc6ee6fcdad5e7c01e0`, followed by newline-portability fix commit `4541e6dd036ccc51534827ba1c6a791fd37d0145`; both were pushed and fast-forward integrated into `main`.
 - Local `main`, `origin/main`, and remote `origin/main` were read back at `4541e6dd036ccc51534827ba1c6a791fd37d0145` before this handoff-only update.
-- Phase 10C remains **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. It is not marked accepted or frozen.
+- Phase 10C at this earlier checkpoint was **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. It was not yet marked accepted or frozen at that checkpoint.
 - Final products: 48 scenario assumptions; 120 actor states; 90 authority states; 150 dependency states; 84 coordination states; 96 uncertainty states; 19 scenario-source records; six comparison rows; Maps 34/34b; comparison figure; reports; working manifest; and fresh independent review.
 - Final gates before this handoff passed: Python Phase 10C validation; independent R validation; strict grounded-citation verification for three source/findings/assumptions reports; fresh structured review with `passed: true`; Markdown validation with 163 links; 22 application tests; TypeScript/Vite production build; `git diff --check`; and Git LFS fsck.
 - Phase 10A/10B freeze validation passed with 30 manifest entries and 26 unique protected artifacts. Phase 1–9 immutability validation passed for 196 protected artifacts. No protected Phase 10A/10B or Phase 1–9 artifact was modified.
 - Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**.
 - No unsupported jurisdiction, partisan/election analysis, AI legal authority, Phase 11 work, release, or tag was created.
-- The final main SHA after this handoff-only commit must be read back from Git; it is not embedded self-referentially here. Next action is external Sol review/acceptance of Phase 10C; do not begin Phase 11 or another analytical module.
+- The final main SHA after this handoff-only commit must be read back from Git; it is not embedded self-referentially here. Next action was external Sol review/acceptance of Phase 10C; do not begin Phase 11 or another analytical module.
+
+## Phase 10C final acceptance verification — 2026-09-07
+
+- Sol acceptance is recorded as **ACCEPTED / FROZEN** under `reports/phase10c_governance_futures_freeze_manifest.json`.
+- Final freeze protection covers 23 Phase 10C artifacts. The working manifest and fresh independent review are preserved unchanged as lineage/acceptance evidence.
+- Freeze-boundary Python and independent R validation, Phase 10A/10B integrity, Phase 1–9 immutability, Markdown links, `git diff --check`, Git LFS, and local/remote synchronization are recorded after execution below.
+- Final state: Phase 10A **ACCEPTED / FROZEN**; Phase 10B **ACCEPTED / FROZEN**; Phase 10C **ACCEPTED / FROZEN**; Active phase **NONE**; Next analytical phase **NOT APPROVED**.
+- Active holds remain preserved: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**.
+- No release or tag was created. Do not begin Phase 11.

@@ -1,0 +1,143 @@
+{
+  "accepted_phase": "10C",
+  "baseline": "Governance Futures, 2050 / 2075",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-07",
+  "source_commit": "4541e6dd036ccc51534827ba1c6a791fd37d0145",
+  "acceptance_basis": "Sol formally accepted and froze the validated Phase 10C scenario package after the fresh independent review passed with no blocking findings, with Phase 10A/10B and Phase 1–9 freeze integrity preserved.",
+  "counts": {
+    "scenario_assumptions": 48,
+    "actor_states": 120,
+    "authority_states": 90,
+    "dependency_states": 150,
+    "coordination_states": 84,
+    "uncertainty_states": 96,
+    "scenario_sources": 19,
+    "comparison_rows": 6
+  },
+  "artifacts": {
+    "data/processed/scenarios/governance_scenario_assumptions.csv": {
+      "sha256": "dde3c2d4216c287397dd51d40be2248c6ef84b2b8e8bb56e2abad3100df65690",
+      "bytes": 27917,
+      "role": "scenario state table"
+    },
+    "data/processed/scenarios/governance_actor_states_scenario.csv": {
+      "sha256": "25d8c39f65eb56da6bff36abd8e150fcd6aa475909b96a420c83e59fe7a21b3e",
+      "bytes": 194215,
+      "role": "scenario state table"
+    },
+    "data/processed/scenarios/governance_authority_states_scenario.csv": {
+      "sha256": "9d9549b664595472ceefafda8f82e9a0dc411971271052e8b5f59d3f9bc8f99f",
+      "bytes": 109911,
+      "role": "scenario state table"
+    },
+    "data/processed/scenarios/governance_dependency_states_scenario.csv": {
+      "sha256": "1c5e761c26de14af5c926b23b4c24385506d4c9c5a126184f956a9959160a216",
+      "bytes": 167783,
+      "role": "scenario state table"
+    },
+    "data/processed/scenarios/governance_coordination_states_scenario.csv": {
+      "sha256": "44b6c55284fdf282a4c3d7aecdc9038c1097880134d25910dfcd5c699ac8d169",
+      "bytes": 100674,
+      "role": "scenario state table"
+    },
+    "data/processed/scenarios/governance_uncertainty_states_scenario.csv": {
+      "sha256": "acb4f13c48d1c919d429d530627e16c38f535d9a2108341accdedc8d8d529a95",
+      "bytes": 93489,
+      "role": "scenario state table"
+    },
+    "data/processed/analysis/governance_scenario_sources.csv": {
+      "sha256": "deb3e3d84cb36c2594c707749bc5812dcb1eb7eaba903ddc39f38ae99b5b7faf",
+      "bytes": 7248,
+      "role": "scenario source registry"
+    },
+    "outputs/figures/governance_scenario_comparison.csv": {
+      "sha256": "f92c248b46987a075eae4e8df0fa3c4621a805e1db8c19ebdfedae244b059589",
+      "bytes": 4172,
+      "role": "scenario comparison table"
+    },
+    "outputs/figures/governance_scenario_comparison.png": {
+      "sha256": "82d20e7cd7be3ceab0fdbc52e8439416f05a15e5ad84e5c202de0834e3380211",
+      "bytes": 329609,
+      "role": "map or figure raster"
+    },
+    "outputs/figures/governance_scenario_comparison.svg": {
+      "sha256": "34c7c5ac6b523d362e6f46cfdf3c5ba133c0d267012e71c8efffb20c2625020b",
+      "bytes": 60558,
+      "role": "map or figure vector"
+    },
+    "outputs/maps/systems/34_governance_futures_2050.png": {
+      "sha256": "b6c78b59c82b1932de34c5a2e55bfc9bbb5890ac511c61ed5a4d20715ea7769b",
+      "bytes": 271029,
+      "role": "map or figure raster"
+    },
+    "outputs/maps/systems/34_governance_futures_2050.svg": {
+      "sha256": "7ca9c7ba5e1e151dad8a0d8add1cedf0edec6ae20ac5a1247c4c0e9acbd5fed1",
+      "bytes": 6627333,
+      "role": "map or figure vector"
+    },
+    "outputs/maps/systems/34b_governance_futures_2075.png": {
+      "sha256": "0f1f2446f2e177124cb1c49c4e48c3d19844601edbcdd7124a09b7db2209075c",
+      "bytes": 275562,
+      "role": "map or figure raster"
+    },
+    "outputs/maps/systems/34b_governance_futures_2075.svg": {
+      "sha256": "1b540f6919c38fe999b77084dd5affe396392dff2c884a4df6e7055adf06c868",
+      "bytes": 6627349,
+      "role": "map or figure vector"
+    },
+    "reports/governance_scenario_sources.md": {
+      "sha256": "71f7019876529e3db0c2368be69d448fce041079345b435a64947566fb4250d7",
+      "bytes": 4483,
+      "role": "source report"
+    },
+    "reports/governance_scenario_assumptions.md": {
+      "sha256": "b21b0319123e6c810186d88f530321a00cd1141756d6aea92bc061736213d322",
+      "bytes": 4037,
+      "role": "assumptions and scope report"
+    },
+    "reports/governance_scenario_consistency.md": {
+      "sha256": "d0d14cb1452092d66717760ac5adb5c1fcd1f091d90be2e479deb389dc735964",
+      "bytes": 1753,
+      "role": "scenario consistency report"
+    },
+    "reports/governance_scenario_findings.md": {
+      "sha256": "e085da6c0c29717cb3b6b9fd870342ae5a505581c5b7de265543728da2cff6d5",
+      "bytes": 6918,
+      "role": "findings report"
+    },
+    "reports/governance_scenario_worldbuilding.md": {
+      "sha256": "dea99bd50bc5128480fabbee21b769be01a068fcf939eca97db0cdfd41e4698b",
+      "bytes": 1937,
+      "role": "speculative implications report"
+    },
+    "reports/governance_scenario_qa.md": {
+      "sha256": "ffb563316ba62d2c3b500ea6305f837fe9393b4ef67cb449228eed8c0e172d97",
+      "bytes": 1360,
+      "role": "QA report"
+    },
+    "reports/governance_scenario_independent_review.md": {
+      "sha256": "17094f997e1a45447acd159bf3282026b01b965d1f86b78901eac2b564285508",
+      "bytes": 448,
+      "role": "final independent-review record"
+    },
+    "reports/governance_scenario_manifest.json": {
+      "sha256": "7458e5689d46ffd60c0fda61c150c795f1f14f31d9ac14cf1091005da2484826",
+      "bytes": 4527,
+      "role": "scenario artifact manifest"
+    },
+    "reports/governance_scenario_artifact_check.json": {
+      "sha256": "44f5292e9c25916eb3c0062386507d4fca36ce1b3a2d162321d20bfdadbccd23",
+      "bytes": 916,
+      "role": "machine validation result"
+    }
+  },
+  "protected_inputs": [
+    "reports/phase10a_governance_jurisdiction_freeze_manifest.json",
+    "reports/phase10b_governance_dependencies_coordination_freeze_manifest.json",
+    "reports/phase9a_climate_natural_hazards_freeze_manifest.json",
+    "reports/phase9b_climate_hazard_dependencies_resilience_freeze_manifest.json",
+    "reports/phase9c_climate_hazard_futures_freeze_manifest.json"
+  ]
+}
