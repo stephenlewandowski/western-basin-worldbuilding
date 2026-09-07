@@ -366,7 +366,7 @@ Final subphase status:
 Phase 9 uses no composite hazard score, unsupported hazard probability, health
 or social-vulnerability scoring, deterministic hazard surface, or comprehensive
 emergency-management model. Station, watershed, county, floodplain, shoreline,
-and regional scales remain distinct. Phase 10A and 10B are accepted/frozen as a separate institutional governance layer; Phase 10C remains approved / not implemented.
+and regional scales remain distinct. Phase 10A and 10B are accepted/frozen as a separate institutional governance layer; Phase 10C is implemented/validated as a separate qualitative 2050/2075 scenario layer awaiting Sol acceptance.
 
 ## PHASE 10A — ACCEPTED / FROZEN
 
@@ -384,6 +384,16 @@ Phase 10B adds 25 cross-system dependency records and edges, 14 coordination mec
 
 Sol formally accepted and froze Phase 10B on 2026-09-04 under `reports/phase10b_governance_dependencies_coordination_freeze_manifest.json`. The manifest protects 15 Phase 10B acceptance artifacts and references the frozen Phase 10A manifest. Unknown ≠ failure and overlap ≠ dysfunction remain explicit boundaries.
 
+## PHASE 10C — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE
+
+**Governance Futures, 2050 / 2075**
+
+Phase 10C adds a separate qualitative scenario layer with 48 assumptions, 120 actor states, 90 authority states, 150 dependency states, 84 coordination states, 96 uncertainty states, six comparison rows, 19 scenario-source records, a comparison figure, and Maps 34/34b. Scenario A is Integrated Basin Governance, Scenario B is Federated / Networked Governance, and Scenario C is Fragmented / Contested Governance. 2050 is an intermediate trajectory; 2075 is a matured or diverged state rather than a simple intensity copy.
+
+All future records explicitly separate CURRENT FACT (2026 baseline), SCENARIO ASSUMPTION, and SCENARIO CONSEQUENCE. Phase 10A/10B authority, actor, dependency, and coordination records remain immutable. GLIFWC remains an intertribal body; distinct sovereign nations remain distinct actors. Regulation, operation, ownership, public finance, market operation, monitoring, advice, and scientific information remain separate. AI recommendation is not legal authority, automated monitoring is not automatic enforcement, algorithmic prioritization is not final public decision, and sensor coverage is not institutional capacity.
+
+Phase 10C creates no composite governance score, political/election analysis, unsupported future jurisdiction, treaty amendment prediction, tribal territory, permit jurisdiction, enforcement authority, public/private role collapse, or Phase 11 content. Its working manifest is `reports/governance_scenario_manifest.json`; the fresh independent review is `reports/governance_scenario_independent_review.md`.
+
 The Phase 10 correction lineage remains transparent and unrevised: implementation `e7d421c7c1a43a335e1e2faef2bca009c4427712`, provenance correction `d25d4394c265fcc68ed4b5a89cf2901f70910fad`, handoff `f613d3ff1f4193444d1f01560806cbf2d6b8fc9b`, and post-correction review record `e1f233cc89e3694d2f08dfd81fde6f9194f57a65` remain visible in Git history. Review records are preserved in `reports/governance_independent_review.md`, `reports/governance_post_correction_independent_review.md` (`deleg_2e8d515e`), and `reports/governance_additional_post_correction_independent_review.md` (`deleg_eedc4116`). No commit was amended, squashed, rewritten, or concealed.
 
 Final subphase status:
@@ -393,9 +403,9 @@ Final subphase status:
 - Phase 9C: **ACCEPTED / FROZEN**
 - Phase 10A: **ACCEPTED / FROZEN**
 - Phase 10B: **ACCEPTED / FROZEN**
-- Phase 10C: **APPROVED / NOT IMPLEMENTED**
+- Phase 10C: **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE**
 - Active phase: **NONE**
-- Next action: **FRESH SESSION FOR PHASE 10C**
+- Next action: **SOL REVIEW / ACCEPTANCE OF PHASE 10C**
 
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry

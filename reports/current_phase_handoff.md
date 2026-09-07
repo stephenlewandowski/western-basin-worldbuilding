@@ -628,3 +628,27 @@ Active phase: **NONE**.
 Next action: **FRESH SESSION FOR PHASE 10C**.
 
 Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. No release or tag was created.
+
+## Phase 10C startup checkpoint — governance futures, 2050 / 2075
+
+- Checkpoint time: `2026-09-07T12:51:18+09:00`.
+- Starting local `main`, `origin/main`, and remote `origin/main`: `8664bcafdf1714c9085d016ebb32f4913b48dbef`; the working tree was clean and synchronized.
+- Phase 10A and 10B are **ACCEPTED / FROZEN** under `reports/phase10a_governance_jurisdiction_freeze_manifest.json` and `reports/phase10b_governance_dependencies_coordination_freeze_manifest.json`.
+- Phase 1–9 accepted/frozen artifacts are protected by the repository's existing freeze manifests. Phase 10A/10B artifacts are immutable in this phase.
+- Phase 10C brief: `docs/phase_briefs/phase10c_governance_futures.md`; approved scope is separate qualitative governance futures for 2050 and 2075 only.
+- Isolated worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase10c`; branch: `phase-10c-governance-futures-2050-2075`; base SHA: `8664bcafdf1714c9085d016ebb32f4913b48dbef`.
+- Expected products: next sequential Maps 34 and 34b, separate assumption/actor/authority/dependency/coordination/uncertainty/comparison products, Python and independent R validators, reports, and a phase manifest.
+- Protected boundaries: current 2026 governance remains factual; future authority changes are explicit scenario assumptions; GLIFWC remains an intertribal body; distinct sovereign nations remain distinct actors; regulation, operation, ownership, funding, monitoring, advice, and scientific information remain separate; no composite score, political/election analysis, unsupported future jurisdiction, or AI legal authority.
+- Active holds preserved: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**.
+- Next exact action: inspect scenario conventions and delegated research, then implement the reproducible Phase 10C package without modifying protected baseline artifacts.
+
+## Phase 10C implementation checkpoint — validated working package
+
+- Phase 10C package generated on branch `phase-10c-governance-futures-2050-2075` in `C:\Projects\Public_Github\western-basin-worldbuilding-phase10c`.
+- Products: 48 scenario assumptions; 120 actor states; 90 authority states; 150 dependency states; 84 coordination states; 96 uncertainty states; 19 scenario-source records; six comparison rows; Maps 34/34b; comparison CSV/PNG/SVG; reports; manifest; and independent-review record.
+- Python validator passed with Phase 10A/10B freeze integrity, 196 prior Phase 1–9 protected artifacts, assumption and baseline references, qualitative-only checks, scenario separation, tribal/binational/public-private/technology boundaries, Map 34/34b, active holds, and no Phase 11.
+- Independent R validator passed with the same scenario counts, Phase 10A/10B protection, 196 prior protected artifacts, and Map 34/34b checks.
+- Strict grounded-citation verification passed for `reports/governance_scenario_sources.md`, `reports/governance_scenario_assumptions.md`, and `reports/governance_scenario_findings.md`; 19 source URLs are cited through the phase-local ledger.
+- Fresh bounded independent review of the actual working package passed with `passed: true`, empty security, logic, provenance, scenario-boundary, and authority-classification findings; record: `reports/governance_scenario_independent_review.md`.
+- Phase 10A/10B artifacts remain immutable. Great Black Swamp remains C — HOLD / noncanonical; Toledo intake-coordinate discrepancy remains UNRESOLVED.
+- Current worktree is uncommitted. Next exact action: review the complete diff and run repository-wide Markdown, application, regression, Git/LFS, and staged-diff checks; then commit, push, and integrate only if all gates remain green. Phase 10C still awaits Sol acceptance.

@@ -236,9 +236,25 @@ The transparent correction logs are `phase9a_correction_qa.md` and
 
 ## Phase 10 governance, jurisdiction, and decision systems
 
-Phase 10A and 10B are **ACCEPTED / FROZEN** as a factual/qualitative 2026 institutional layer. Phase 10C is **APPROVED / NOT IMPLEMENTED** and is reserved for a fresh session.
+Phase 10A and 10B are **ACCEPTED / FROZEN** as a factual/qualitative 2026 institutional layer. Phase 10C is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE** as a separate qualitative 2050/2075 scenario layer.
 
-- `../data/processed/analysis/governance_actors.csv` — 40-actor registry
+- `../data/processed/scenarios/governance_scenario_assumptions.csv` — 48 explicit scenario assumptions
+- `../data/processed/scenarios/governance_actor_states_scenario.csv` — 120 actor states
+- `../data/processed/scenarios/governance_authority_states_scenario.csv` — 90 authority states
+- `../data/processed/scenarios/governance_dependency_states_scenario.csv` — 150 dependency states
+- `../data/processed/scenarios/governance_coordination_states_scenario.csv` — 84 coordination states
+- `../data/processed/scenarios/governance_uncertainty_states_scenario.csv` — 96 uncertainty states
+- `../data/processed/analysis/governance_scenario_sources.csv` — 19 scenario-source records
+- `../outputs/maps/systems/34_governance_futures_2050.png` and `.svg`
+- `../outputs/maps/systems/34b_governance_futures_2075.png` and `.svg`
+- `../outputs/figures/governance_scenario_comparison.csv`, `.png`, and `.svg`
+- `governance_scenario_sources.md`, `governance_scenario_assumptions.md`, `governance_scenario_consistency.md`, `governance_scenario_findings.md`, `governance_scenario_worldbuilding.md`, and `governance_scenario_qa.md`
+- `governance_scenario_manifest.json` and `governance_scenario_artifact_check.json`
+- `governance_scenario_independent_review.md` — fresh bounded review of the actual final package
+
+Phase 10C keeps every future state explicitly separate from the current 2026 baseline, with current-fact, scenario-assumption, and scenario-consequence fields. It preserves GLIFWC as an intertribal body, distinct sovereign nations, binational role boundaries, public/private distinctions, human legal authority, the Great Black Swamp hold, and the unresolved Toledo intake-coordinate discrepancy. It creates no composite governance score, unsupported future jurisdiction, partisan/election analysis, AI legal authority, or Phase 11 work.
+
+The package explicitly separates regulation, operation, ownership, monitoring, funding, advisory, permitting, scientific information, public/private control, mandatory/voluntary status, and jurisdictional scale. It makes no composite governance score or generalized governance-gap ranking.
 - `../data/processed/analysis/governance_authorities.csv` — 100 authority/role records
 - `../data/processed/networks/governance_relationships.csv` — 100 actor-system relationships
 - `../data/processed/analysis/governance_sources.csv` — 48 source records
