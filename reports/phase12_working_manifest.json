@@ -1,0 +1,30 @@
+{
+  "phase": "12A/12B",
+  "status": "implemented_validated_pending_sol_acceptance",
+  "maps": [
+    38,
+    39
+  ],
+  "counts": {
+    "12A": {
+      "nodes": 20,
+      "edges": 26,
+      "surveillance_records": 36,
+      "habitat_associations": 15,
+      "sources": 27,
+      "uncertainties": 10
+    },
+    "12B": {
+      "dependency_register": 28,
+      "dependency_edges": 28,
+      "matrix_rows": 8,
+      "evidence_rows": 8,
+      "sources_reused": 27
+    }
+  },
+  "phase12a_manifest": "reports/vector_ecology_baseline_manifest.json",
+  "phase12b_manifest": "reports/vector_dependency_manifest.json",
+  "phase12c_implemented": false,
+  "phase13_implemented": false,
+  "active_holds_preserved": true
+}

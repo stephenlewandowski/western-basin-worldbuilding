@@ -481,7 +481,50 @@ Phase 11A, 11B, and 11C are **ACCEPTED / FROZEN**. Phase 11C remains a separate 
 - [Phase 11C Python validator](src/python/systems/validate_population_settlement_futures.py)
 - [Phase 11C independent R validator](src/R/systems/validate_population_settlement_futures.R)
 
-The package preserves person/household/housing-unit/density/worker/job/commuter distinctions, residence/workplace and commuting/migration boundaries, mixed Census/ACS/PEP/LODES vintages, and generalized service/dependency interfaces. Phase 11C models qualitative spatial redistribution and settlement form through Connected Reconcentration, Polycentric Adaptive Basin, and Uneven Change / Infrastructure Strain, using official 2050 county projection products as reference evidence without deterministic scenario totals. It creates no unsupported exact future total, vulnerability or environmental-justice score, protected-class ranking, individual movement model, health outcome, exact utility territory, or unsupported forecast. The fresh independent review passed with all blocking arrays empty. Active phase is NONE; no Phase 12, release, or tag is authorized.
+The package preserves person/household/housing-unit/density/worker/job/commuter distinctions, residence/workplace and commuting/migration boundaries, mixed Census/ACS/PEP/LODES vintages, and generalized service/dependency interfaces. Phase 11C models qualitative spatial redistribution and settlement form through Connected Reconcentration, Polycentric Adaptive Basin, and Uneven Change / Infrastructure Strain, using official 2050 county projection products as reference evidence without deterministic scenario totals. It creates no unsupported exact future total, vulnerability or environmental-justice score, protected-class ranking, individual movement model, health outcome, exact utility territory, or unsupported forecast. The fresh independent review passed with all blocking arrays empty. Phase 12 is a separate approved vector-ecology package; no release or tag is authorized.
+
+## Phase 12 Vector Ecology & Dependencies
+
+Phase 12A and 12B are implemented and validated working layers awaiting final
+independent review and integration. Map 38 is the factual 2026 Vector Ecology
+Baseline; Map 39 is the separate qualitative Vector / Environment / Human-System
+Dependencies layer.
+
+- [38 — Vector Ecology Baseline, 2026](outputs/maps/systems/38_vector_ecology_baseline_2026.png)
+- [39 — Vector / Environment / Human-System Dependencies, 2026](outputs/maps/systems/39_vector_environment_human_dependencies_2026.png)
+- [Vector ecology nodes](data/processed/networks/vector_ecology_nodes.csv)
+- [Vector ecology relationships](data/processed/networks/vector_ecology_edges.csv)
+- [Vector surveillance records](data/processed/analysis/vector_surveillance_records.csv)
+- [Vector habitat associations](data/processed/analysis/vector_habitat_associations.csv)
+- [Vector ecology sources](data/processed/analysis/vector_ecology_sources.csv)
+- [Vector ecology uncertainty](data/processed/analysis/vector_ecology_uncertainty.csv)
+- [Vector dependency register](data/processed/analysis/vector_system_dependency_register.csv)
+- [Vector dependency edges](data/processed/networks/vector_system_dependency_edges.csv)
+- [Vector dependency matrix](data/processed/analysis/vector_system_dependency_matrix.csv)
+- [Vector dependency evidence](data/processed/analysis/vector_dependency_evidence.csv)
+- [Phase 12A sources](reports/vector_ecology_sources.md)
+- [Phase 12A findings](reports/vector_ecology_findings.md)
+- [Phase 12A QA](reports/vector_ecology_qa.md)
+- [Phase 12B sources](reports/vector_dependency_sources.md)
+- [Phase 12B findings](reports/vector_dependency_findings.md)
+- [Phase 12B QA](reports/vector_dependency_qa.md)
+- [Phase 12A manifest](reports/vector_ecology_baseline_manifest.json)
+- [Phase 12B manifest](reports/vector_dependency_manifest.json)
+- [Phase 12 working manifest](reports/phase12_working_manifest.json)
+- [Phase 12A Python validator](src/python/systems/validate_vector_ecology_baseline.py)
+- [Phase 12B Python validator](src/python/systems/validate_vector_dependencies.py)
+- [Phase 12A independent R validator](src/R/systems/validate_vector_ecology_baseline.R)
+- [Phase 12B independent R validator](src/R/systems/validate_vector_dependencies.R)
+- [Phase 12C approved-scope brief](docs/phase_briefs/phase12c_vector_ecology_futures.md)
+
+The package keeps vector presence, abundance, pathogen-in-vector detection,
+human-vector contact, infection, and clinical disease separate. Sampling effort
+is not abundance; detection is not establishment; non-detection and CDC
+no-records are not absence; county detections are not precise local
+distributions; and positive vector pools or human cases are not local
+transmission proof. No individual risk, exposure estimate, disease-risk score,
+vulnerability/EJ score, unsupported abundance or range surface, Phase 12C,
+Phase 13, release, or tag is included.
 
 ```text
 assets/                 exploratory concept art and archived generated maps

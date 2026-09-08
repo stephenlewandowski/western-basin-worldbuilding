@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "phase": "12B",
+  "map_number": 39,
+  "dependency_register": 28,
+  "dependency_edges": 28,
+  "matrix_rows": 8,
+  "evidence_rows": 8,
+  "sources_reused": 27,
+  "map39_valid": true,
+  "image_size": [
+    6304,
+    1980
+  ],
+  "phase12a_artifacts_checked": 14,
+  "phase12b_manifest_artifacts_checked": 10,
+  "prior_freeze_manifest_entries_checked": 298,
+  "prior_unique_protected_artifacts_checked": 293,
+  "phase11a_b_c_accepted_frozen": true,
+  "documented_vs_inferred_boundary": true,
+  "presence_abundance_boundary": true,
+  "vector_pathogen_human_case_boundary": true,
+  "sampling_effort_boundary": true,
+  "spatial_scale_boundary": true,
+  "no_individual_risk": true,
+  "no_vulnerability_scoring": true,
+  "no_unsupported_disease_attribution": true,
+  "no_unsupported_future_range": true,
+  "phase12c_absent": true,
+  "phase13_absent": true,
+  "active_holds_preserved": true
+}
