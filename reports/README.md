@@ -279,7 +279,7 @@ The package explicitly separates regulation, operation, ownership, monitoring, f
 
 ## Phase 11 population, settlement, mobility, and dependencies
 
-Phase 11A and 11B are implemented, validated, and integrated, awaiting formal Sol acceptance. Phase 11C is approved scope only and is not implemented.
+Phase 11A and Phase 11B are **ACCEPTED / FROZEN** under their final freeze manifests. Phase 11C is approved scope only and is not implemented.
 
 - `../data/processed/analysis/population_settlement_nodes.csv` — 62 population, municipality, and employment-center nodes
 - `../data/processed/analysis/population_settlement_observations.csv` — 918 population/settlement observations
@@ -293,6 +293,7 @@ Phase 11A and 11B are implemented, validated, and integrated, awaiting formal So
 - `population_settlement_sources.md`, `population_settlement_assumptions.md`, `population_settlement_findings.md`, `population_settlement_qa.md`
 - `population_mobility_sources.md`, `population_mobility_assumptions.md`, `population_mobility_findings.md`, `population_mobility_qa.md`
 - `population_settlement_baseline_manifest.json` and `phase11_working_manifest.json`
+- `phase11a_population_settlement_freeze_manifest.json` and `phase11b_population_mobility_dependencies_freeze_manifest.json` — final Sol-acceptance freeze manifests
 - `population_settlement_artifact_check.json` and `population_mobility_artifact_check.json`
 
-The package preserves Census/ACS/PEP/LODES vintages and geography scales, distinguishes residence/workplace and commuting/migration, and keeps accepted water, energy, transport, climate, environmental-health, ecology, nutrient, housing, and governance interfaces qualitative. It creates no vulnerability/EJ score, protected-class ranking, individual movement model, health outcome, exact utility territory, unsupported forecast, Phase 11C content, or Phase 12 content.
+The package preserves Census/ACS/PEP/LODES vintages and geography scales, distinguishes residence/workplace and commuting/migration, and keeps accepted water, energy, transport, climate, environmental-health, ecology, nutrient, housing, and governance interfaces qualitative. It creates no vulnerability/EJ score, protected-class ranking, individual movement model, health outcome, exact utility territory, unsupported forecast, Phase 11C content, or Phase 12 content. Python freeze validation is `../src/python/systems/validate_phase11_freezes.py`; independent R freeze validation is `../src/R/systems/validate_phase11_freezes.R`.

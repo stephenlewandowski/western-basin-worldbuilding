@@ -83,7 +83,7 @@ manifest_artifacts <- function(path) {
     }
     m <- regexec('^[[:space:]]*"([^"]+)"[[:space:]]*:[[:space:]]*\\{', line, perl=TRUE)
     hit <- regmatches(line, m)[[1]]
-    if (length(hit) == 2 && grepl("/", hit[[2]], fixed=TRUE)) { append_current(); current <- hit[[2]] }
+    if (length(hit) == 2) { append_current(); if (grepl("/", hit[[2]], fixed=TRUE)) current <- hit[[2]] }
     b <- regexec('"bytes"[[:space:]]*:[[:space:]]*([0-9]+)', line, perl=TRUE)
     bh <- regmatches(line, b)[[1]]
     if (length(bh) == 2 && !is.na(current)) { current_bytes <- as.numeric(bh[[2]]); append_current() }
@@ -156,7 +156,7 @@ stopifnot(grepl(paste0('"sha256": "', sha256_file(a_path), '"'), b_txt, fixed=TR
 
 prior_total <- 0L
 prior_names <- list.files(reports, pattern="^phase.*_freeze_manifest[.]json$", full.names=FALSE)
-prior_names <- prior_names[!(prior_names %in% c(final_names, "phase10c_governance_futures_freeze_manifest.json"))]
+prior_names <- prior_names[!(prior_names %in% c(final_names, "phase10c_governance_futures_freeze_manifest.json", "phase11a_population_settlement_freeze_manifest.json", "phase11b_population_mobility_dependencies_freeze_manifest.json"))]
 for (name in prior_names) {
   x <- manifest_artifacts(file.path(reports, name))
   stopifnot(nrow(x) > 0)

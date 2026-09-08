@@ -409,7 +409,7 @@ Final subphase status:
 - Active phase: **NONE**
 - Next analytical phase: **NOT APPROVED**
 
-## PHASE 11A — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 11A — ACCEPTED / FROZEN
 
 **Population & Settlement Baseline, 2026**
 
@@ -419,7 +419,7 @@ The package distinguishes person counts, household counts, housing-unit counts, 
 
 Map 35 and the Phase 11A working baseline are protected by `reports/population_settlement_baseline_manifest.json` and the Phase 11A Python/R validators. Great Black Swamp remains C — HOLD / noncanonical; the Toledo intake-coordinate discrepancy remains unresolved.
 
-## PHASE 11B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 11B — ACCEPTED / FROZEN
 
 **Population, Mobility & System Dependencies, 2026**
 
@@ -429,7 +429,7 @@ LODES records are modeled/tabulated administrative products aggregated to county
 
 Map 36 and the complete Phase 11 working package are protected by `reports/phase11_working_manifest.json`, `reports/population_mobility_artifact_check.json`, and the Phase 11B Python/R validators. Phase 11C remains approved scope only and is not implemented.
 
-Final Phase 11 status: 11A and 11B are implemented, validated, and integrated, awaiting formal Sol acceptance; active phase is **NONE**; next analytical phase is **NOT APPROVED**.
+Final Phase 11 status: Phase 11A and 11B are **ACCEPTED / FROZEN**; active phase is **NONE**; next analytical phase is **FRESH SESSION FOR PHASE 11C**.
 
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry

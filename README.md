@@ -448,7 +448,7 @@ Rscript src\\R\\systems\\validate_governance_dependencies.R .
 
 ## Phase 11 Population & Settlement Dynamics
 
-Phase 11A and 11B are implemented, validated, and integrated, awaiting formal Sol acceptance. Phase 11C is approved scope only and is not implemented.
+Phase 11A and 11B are **ACCEPTED / FROZEN**. Phase 11C is approved scope only and is not implemented. The final freeze manifests are `reports/phase11a_population_settlement_freeze_manifest.json` and `reports/phase11b_population_mobility_dependencies_freeze_manifest.json`.
 
 - [35 — Population & settlement system, 2026](outputs/maps/systems/35_population_settlement_2026.png)
 - [36 — Population, mobility & system dependencies, 2026](outputs/maps/systems/36_population_mobility_dependencies_2026.png)
@@ -461,6 +461,10 @@ Phase 11A and 11B are implemented, validated, and integrated, awaiting formal So
 - [Population system dependency matrix](data/processed/analysis/population_system_dependency_matrix.csv)
 - [Phase 11A baseline manifest](reports/population_settlement_baseline_manifest.json)
 - [Phase 11 working manifest](reports/phase11_working_manifest.json)
+- [Phase 11A freeze manifest](reports/phase11a_population_settlement_freeze_manifest.json)
+- [Phase 11B freeze manifest](reports/phase11b_population_mobility_dependencies_freeze_manifest.json)
+- [Phase 11 Python freeze validator](src/python/systems/validate_phase11_freezes.py)
+- [Phase 11 independent R freeze validator](src/R/systems/validate_phase11_freezes.R)
 - [Phase 11A brief](docs/phase_briefs/phase11a_population_settlement_baseline.md)
 - [Phase 11B brief](docs/phase_briefs/phase11b_population_mobility_dependencies.md)
 - [Phase 11C approved-scope brief](docs/phase_briefs/phase11c_population_settlement_futures.md)

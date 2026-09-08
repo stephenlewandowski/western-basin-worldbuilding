@@ -1,6 +1,6 @@
 # Phase 11A — Population & Settlement Baseline, 2026
 
-Status: APPROVED SCOPE / IMPLEMENTATION IN PROGRESS; formal Sol acceptance remains pending.
+Status: ACCEPTED / FROZEN.
 
 ## Purpose
 
@@ -51,4 +51,4 @@ The findings report must answer where population is concentrated; which municipa
 
 ## Transition gate
 
-11A must pass Python/R schema, provenance, scale, quantity, map, negative-scope, and Phase 1–10 immutability checks before 11B proceeds. Phase 11A remains an unaccepted working baseline until Sol review.
+11A passed the package, provenance, scale, quantity, map, negative-scope, and Phase 1–10 immutability checks. Sol formally accepted and froze Phase 11A under `reports/phase11a_population_settlement_freeze_manifest.json`. Its accepted package is 62 nodes, 918 observations, 44 relationships, 34 sources, nine uncertainty records, and Map 35. Phase 11B uses it as an immutable baseline. Phase 11C is approved scope only and is not implemented.

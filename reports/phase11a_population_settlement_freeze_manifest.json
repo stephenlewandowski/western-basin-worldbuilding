@@ -1,0 +1,94 @@
+{
+  "accepted_phase": "11A",
+  "baseline": "Population & Settlement Baseline, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-08",
+  "source_commit": "f2abcb45f39f7222b3d1585c3c322937e540bb95",
+  "acceptance_basis": "Sol formally accepted and froze the completed corrected Phase 11A baseline after the fresh independent review passed with no security, logic, provenance, statistical, spatial-scale, or demographic-boundary errors; Phase 1–10 freeze integrity remained intact.",
+  "counts": {
+    "nodes": 62,
+    "population_observations": 918,
+    "relationships": 44,
+    "sources": 34,
+    "uncertainties": 9
+  },
+  "artifacts": {
+    "data/processed/analysis/population_settlement_nodes.csv": {
+      "sha256": "b2455857a70ae568af2c75a44608ce926b7064cdf3a9667811dd9b66f175aa6c",
+      "bytes": 18217,
+      "role": "Phase 11A analytical artifact"
+    },
+    "data/processed/analysis/population_settlement_observations.csv": {
+      "sha256": "a96da77e66b41677b55a9e91026d31b249805b009d932bd0160a0b399dee55af",
+      "bytes": 249423,
+      "role": "Phase 11A analytical artifact"
+    },
+    "data/processed/networks/population_settlement_relationships.csv": {
+      "sha256": "bb02fd10b11cd8cd35fb18840838b66bf5e23615a87dd9775fcfb9bb584ff7bb",
+      "bytes": 13924,
+      "role": "Phase 11A analytical artifact"
+    },
+    "data/processed/analysis/population_settlement_sources.csv": {
+      "sha256": "db2917e133f9ba2c7de03cda27fd065991e0dbdbe6c7efa9fcd1b222cd7817b5",
+      "bytes": 13313,
+      "role": "Phase 11A source registry"
+    },
+    "data/processed/analysis/population_settlement_uncertainty.csv": {
+      "sha256": "61177a6d097477c6b605e7c2091e091d58304a3f81e164e92b43b90138ed9e4a",
+      "bytes": 2320,
+      "role": "Phase 11A uncertainty register"
+    },
+    "outputs/maps/systems/35_population_settlement_2026.png": {
+      "sha256": "6d210fbc8685d78e3169f4910d0a20f4361c4b20d06b7159b1024396d55f51f1",
+      "bytes": 269355,
+      "role": "Map 35 raster"
+    },
+    "outputs/maps/systems/35_population_settlement_2026.svg": {
+      "sha256": "6b5d5a11f9446e096acaeece1b15468fe743128a68f4c2153df3077f9c12fe4d",
+      "bytes": 599454,
+      "role": "Map 35 vector"
+    },
+    "reports/population_settlement_sources.md": {
+      "sha256": "57730994bc882788ddeae848e9b0a9917ea4abe4564266e85baf96232aa596c3",
+      "bytes": 4382,
+      "role": "source report"
+    },
+    "reports/population_settlement_assumptions.md": {
+      "sha256": "b91c4833af88b847557d4e132ea6df944cbbe8a239b03ec2bdcc64aa6843b62e",
+      "bytes": 1745,
+      "role": "assumptions and scope report"
+    },
+    "reports/population_settlement_findings.md": {
+      "sha256": "ec2b9712a6105aa53cb61386653c2ef0736bca51a1b71dc52dac3e825c056d49",
+      "bytes": 7746,
+      "role": "findings report"
+    },
+    "reports/population_settlement_qa.md": {
+      "sha256": "99464b1a7e2475e8d61de10cda789cda2e9905ee1199024f9dc52bbdebae7c0d",
+      "bytes": 970,
+      "role": "QA report"
+    },
+    "reports/population_settlement_baseline_manifest.json": {
+      "sha256": "574f961776466bdf1832a4cbeb8cf633767055ade6f97608277ae2ee9ac2158e",
+      "bytes": 2333,
+      "role": "pre-acceptance working manifest retained for lineage"
+    },
+    "reports/population_settlement_artifact_check.json": {
+      "sha256": "3eeae2199888a1024f385d9c4417abfdedf3e92ba1c2ab48f2c95e5228df80ef",
+      "bytes": 550,
+      "role": "machine validation result"
+    },
+    "reports/population_settlement_independent_review.md": {
+      "sha256": "e184df546d4bf1d30df802fb43107c474f0add341619720c743f7fc51f6f05d5",
+      "bytes": 6133,
+      "role": "independent review and correction record"
+    }
+  },
+  "protected_scope": "Accepted Phase 11A factual baseline; Phase 1–10 accepted/frozen artifacts unchanged",
+  "phase11c_implemented": false,
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  }
+}

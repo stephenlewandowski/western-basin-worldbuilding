@@ -2,6 +2,8 @@
 
 Status: APPROVED SCOPE / NOT IMPLEMENTED.
 
+Phase 11A and Phase 11B are **ACCEPTED / FROZEN**. This brief remains a separate approved-scope record; no Phase 11C implementation was authorized in this session.
+
 ## Approved scope only
 
 Phase 11C may later examine qualitative alternative population and settlement futures for 2050 and 2075 over the accepted Phase 11A/11B 2026 factual baselines. It may represent divergence in population distribution, settlement concentration/deconcentration, housing form, employment geography, mobility interfaces, infrastructure-service dependence, and urban/suburban/rural form through explicit scenario assumptions and separate future-state records.

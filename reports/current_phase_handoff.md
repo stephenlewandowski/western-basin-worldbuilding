@@ -702,13 +702,14 @@ Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; 
 - Current active phase: **Phase 11A — Population & Settlement Baseline, 2026**.
 - Next exact action: complete independent review, stage the validated package, commit/push the feature branch, then fast-forward integrate into `main` and verify remote synchronization.
 
-## Phase 11 final delivery checkpoint — 2026-09-08
+## Phase 11 final acceptance and freeze handoff — 2026-09-08
 
-- Phase 11A and 11B were independently reviewed after targeted correction. The fresh post-correction review returned `passed: true` with empty security, logic, provenance, statistical, spatial-scale, and demographic-boundary error arrays. Review record: `reports/population_settlement_independent_review.md`; review delegation: `deleg_0f848f19`.
-- Phase 11A: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; 62 nodes, 918 observations, 44 relationships, 34 sources, nine uncertainties, Map 35.
-- Phase 11B: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; 302 mobility observations, 142 mobility relationships, 520 dependency-register rows, 52 matrix rows, Map 36.
-- Feature package commit: `440f7ffd5a716667c3e81a6ba8848227dded0de9`; pushed to `origin/phase-11-population-settlement-dynamics` and fast-forward integrated into `main`.
-- Final status: active phase **NONE**; next analytical phase **NOT APPROVED**. Phase 11C remains approved scope only/not implemented.
-- Validation passed: Phase 11A/11B Python and R validators; Phase 10 freeze validation in Python and R; strict local provenance/citation checks; Markdown links (178); `git diff --check`; Git LFS status/fsck; npm test (22 tests); npm build.
-- First independent review findings were corrected without new Census/ACS/PEP/LODES research; the correction lineage and original `passed: false` verdict remain in the review record. No accepted/frozen Phase 1–10 artifact changed.
-- Active holds remain unchanged: Great Black Swamp `C — HOLD / noncanonical`; Toledo intake-coordinate discrepancy `UNRESOLVED`. No vulnerability/EJ scoring, individual-level inference, unsupported forecasting, Phase 12, release, or tag was created.
+- Sol formally accepted and froze Phase 11A — Population & Settlement Baseline, 2026 — and Phase 11B — Population, Mobility & System Dependencies, 2026.
+- Fresh post-correction independent review returned `passed: true` with empty security, logic, provenance, statistical, spatial-scale, and demographic-boundary error arrays. Review record: `reports/population_settlement_independent_review.md`; delegation: `deleg_0f848f19`.
+- Phase 11A: **ACCEPTED / FROZEN**; 62 nodes, 918 observations, 44 relationships, 34 sources, nine uncertainties, Map 35. Freeze manifest: `reports/phase11a_population_settlement_freeze_manifest.json`.
+- Phase 11B: **ACCEPTED / FROZEN**; 302 mobility observations, 142 mobility relationships, 520 dependency-register rows, 52 matrix rows, Map 36. Freeze manifest: `reports/phase11b_population_mobility_dependencies_freeze_manifest.json`.
+- Feature package commit `440f7ffd5a716667c3e81a6ba8848227dded0de9` remains preserved and integrated; final acceptance bookkeeping is a separate commit whose SHA is verified by Git after commit.
+- Python and independent R freeze validation verify the accepted Phase 11 package, Phase 10 freeze integrity, and Phase 1–9 immutability. Markdown/Git/LFS checks are required acceptance gates.
+- Active phase: **NONE**. Next action: **FRESH SESSION FOR PHASE 11C**. Phase 11C is approved scope only and is not implemented; Phase 12 is not implemented.
+- Active holds remain unchanged: Great Black Swamp `C — HOLD / noncanonical`; Toledo intake-coordinate discrepancy `UNRESOLVED`.
+- No vulnerability/EJ scoring, protected-class ranking, individual-level inference, unsupported forecasting, release, or tag was created.

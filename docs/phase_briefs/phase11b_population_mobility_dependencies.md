@@ -1,6 +1,6 @@
 # Phase 11B — Population, Mobility & System Dependencies, 2026
 
-Status: APPROVED SCOPE / IMPLEMENTATION IN PROGRESS; formal Sol acceptance remains pending.
+Status: ACCEPTED / FROZEN.
 
 ## Purpose
 
@@ -48,4 +48,4 @@ The findings report must state where residence and workplace concentrations dive
 
 ## Transition and completion gate
 
-11B begins only after a clean 11A checkpoint and working-baseline hashes. Before integration, run Python/R validators, strict source/provenance checks, Map 35/36 QA, prior freeze integrity, Markdown/Git/LFS checks, complete diff review, and a fresh independent review of the actual package. Phase 11B remains awaiting Sol acceptance after integration.
+11B began from the clean Phase 11A working baseline and passed Python/R freeze validation, exact source/vintage checks, Map 35/36 checks, Phase 10 integrity, Phase 1–9 immutability, and the fresh independent review. Sol formally accepted and froze Phase 11B under `reports/phase11b_population_mobility_dependencies_freeze_manifest.json`. Its accepted package is 302 mobility observations, 142 mobility relationships, 520 dependency-register rows, 52 qualitative matrix rows, and Map 36. Phase 11C is approved scope only and is not implemented.

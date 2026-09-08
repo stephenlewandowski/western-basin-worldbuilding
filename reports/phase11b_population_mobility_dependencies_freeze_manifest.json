@@ -1,0 +1,101 @@
+{
+  "accepted_phase": "11B",
+  "baseline": "Population, Mobility & System Dependencies, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-08",
+  "source_commit": "f2abcb45f39f7222b3d1585c3c322937e540bb95",
+  "acceptance_basis": "Sol formally accepted and froze the completed corrected Phase 11B mobility/dependency baseline after the fresh independent review passed with no security, logic, provenance, statistical, spatial-scale, or demographic-boundary errors; Phase 11A and Phase 1–10 freeze integrity remained intact.",
+  "counts": {
+    "mobility_observations": 302,
+    "mobility_relationships": 142,
+    "dependency_register": 520,
+    "matrix_rows": 52,
+    "sources_reused": 34
+  },
+  "phase11a_freeze_manifest": {
+    "path": "reports/phase11a_population_settlement_freeze_manifest.json",
+    "sha256": "7efe58a6cef4f9be44d68b05e50e50f1de272847a8e810d9ef81ef5041edc2a2",
+    "bytes": 4046
+  },
+  "artifacts": {
+    "data/processed/analysis/population_mobility_observations.csv": {
+      "sha256": "d7f8e43d092b78ae597a0b33a711d06d4c508b544b7943d5545ab28c07f215fc",
+      "bytes": 84466,
+      "role": "Phase 11B mobility observation artifact"
+    },
+    "data/processed/networks/population_mobility_relationships.csv": {
+      "sha256": "331ff3858e3f4a8604f27f011b7dc0c0b7a365ef098e7ba459895ae0a42a9a72",
+      "bytes": 43627,
+      "role": "Phase 11B mobility relationship artifact"
+    },
+    "data/processed/analysis/population_system_dependency_register.csv": {
+      "sha256": "d096adf7aef94d37053035e52190c39147b4002a81332107403a14b77dc91935",
+      "bytes": 147673,
+      "role": "Phase 11B dependency register"
+    },
+    "data/processed/analysis/population_system_dependency_matrix.csv": {
+      "sha256": "89ab26383113f5266b9b84b19ffffedb34757f6f029315064ccd518f546bef0e",
+      "bytes": 27072,
+      "role": "Phase 11B qualitative dependency matrix"
+    },
+    "outputs/maps/systems/36_population_mobility_dependencies_2026.png": {
+      "sha256": "0a18a447ef7c11b61af86efc0c0779eda11539333536cb04a245c4c04896fd94",
+      "bytes": 307371,
+      "role": "Map 36 raster"
+    },
+    "outputs/maps/systems/36_population_mobility_dependencies_2026.svg": {
+      "sha256": "7b5cce6391ce9141f163fe7e5a938e690e47cf4023005bd4a9cb018a184e1e53",
+      "bytes": 617076,
+      "role": "Map 36 vector"
+    },
+    "reports/population_mobility_sources.md": {
+      "sha256": "fec114a5a755951f22a6a005ddd25ce4c1bb42bfbf5366770ebc1a8da0a1b8d4",
+      "bytes": 4044,
+      "role": "source report"
+    },
+    "reports/population_mobility_assumptions.md": {
+      "sha256": "a275df2f2aa37362949f101c73c84bfd854181f502c47dd9ea0d2f0fec9a2018",
+      "bytes": 2045,
+      "role": "assumptions and scope report"
+    },
+    "reports/population_mobility_findings.md": {
+      "sha256": "9eabf2bb8c9981bf842455d70f3b2be55e7888edb7a9f4bc75382aa5b82a9e67",
+      "bytes": 7852,
+      "role": "findings report"
+    },
+    "reports/population_mobility_qa.md": {
+      "sha256": "165eacfcb0d5bcddd4c5c35f92682bbc840bdaeaaef550a47f5fd2c235925e58",
+      "bytes": 979,
+      "role": "QA report"
+    },
+    "reports/phase11_working_manifest.json": {
+      "sha256": "6622b0cacf21fbf2ff9604485de1975475b6e563d844ff39aaa9e9612888cdbe",
+      "bytes": 2380,
+      "role": "pre-acceptance working manifest retained for lineage"
+    },
+    "reports/population_mobility_artifact_check.json": {
+      "sha256": "b599ea0e0807fc734d3e05f5b8419753251f31b0d9553d910f93e6d2c4a76dcd",
+      "bytes": 623,
+      "role": "machine validation result"
+    },
+    "reports/population_settlement_independent_review.md": {
+      "sha256": "e184df546d4bf1d30df802fb43107c474f0add341619720c743f7fc51f6f05d5",
+      "bytes": 6133,
+      "role": "independent review and correction record"
+    }
+  },
+  "protected_inputs": [
+    "reports/phase11a_population_settlement_freeze_manifest.json",
+    "reports/phase10a_governance_jurisdiction_freeze_manifest.json",
+    "reports/phase10b_governance_dependencies_coordination_freeze_manifest.json",
+    "reports/phase10c_governance_futures_freeze_manifest.json"
+  ],
+  "phase10_protected": true,
+  "phase11c_implemented": false,
+  "phase12_implemented": false,
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  }
+}

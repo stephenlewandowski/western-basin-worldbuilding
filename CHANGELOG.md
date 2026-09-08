@@ -2,10 +2,10 @@
 
 ## Unreleased
 
-- Fresh post-correction independent review passed with no blocking findings. The Phase 11A/11B package was committed as `440f7ffd5a716667c3e81a6ba8848227dded0de9`, pushed, and fast-forward integrated into `main`; Phase 11A and 11B remain awaiting Sol acceptance.
-- Implemented Phase 11A Population & Settlement Baseline, 2026: 62 nodes, 918 observations, 44 relationships, 34 sources, nine uncertainty records, and Map 35. The package preserves Census/ACS/PEP vintages and person/household/housing-unit/density distinctions; it remains awaiting independent review, integration, and Sol acceptance.
+- Sol formally accepted and froze Phase 11A and 11B after the fresh post-correction independent review passed with no blocking findings. Freeze manifests are `reports/phase11a_population_settlement_freeze_manifest.json` and `reports/phase11b_population_mobility_dependencies_freeze_manifest.json`; Phase 1–10 freeze integrity and prior-system immutability were preserved.
+- Phase 11A Population & Settlement Baseline, 2026 is **ACCEPTED / FROZEN**: 62 nodes, 918 observations, 44 relationships, 34 sources, nine uncertainty records, and Map 35. Census/ACS/PEP vintages and person/household/housing-unit/density distinctions remain explicit.
 - Implemented Phase 11B Population, Mobility & System Dependencies, 2026: 302 mobility observations, 142 generalized commuting relationships, 520 qualitative dependency-register rows, 52 matrix rows, and Map 36. Ohio/Indiana LODES WAC/RAC/OD products are 2023; Michigan WAC/OD are 2021 and RAC is 2023; mismatched Michigan WAC/RAC differences are omitted. The layer contains no individual movement model, vulnerability/EJ score, protected-class ranking, health outcome, exact utility territory, or unsupported forecast.
-- Persisted approved-scope-only Phase 11C brief; no Phase 11C, Phase 12, release, or tag was created. Phase 1–10 accepted/frozen content and active holds remain protected.
+- Persisted the approved-scope-only Phase 11C brief; Phase 11C is not implemented and Phase 12 is not implemented. Phase 1–10 accepted/frozen content and active holds remain protected; no release or tag was created.
 
 
 - Phase 6C formally accepted/frozen with hash protection.
