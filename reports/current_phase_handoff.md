@@ -765,4 +765,4 @@ Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; 
 - Implementation commit `e34324fb19c5cf3c9af2afd08bd805cc60e3d504` and fresh review `deleg_74c3b7aa` remain preserved; no baseline artifact or review history was rewritten.
 - Active holds remain unchanged: Great Black Swamp `C — HOLD / noncanonical`; Toledo intake-coordinate discrepancy `UNRESOLVED`.
 - No Phase 12 work, release, or tag was created.
-- Final acceptance/freeze commit SHA and synchronized `main`/`origin/main` SHA are recorded after commit.
+- Freeze implementation/documentation commit `38df1ac` records the acceptance decision and final manifest; the final handoff commit SHA and synchronized `main`/`origin/main` SHA are read back from Git after this handoff commit.
