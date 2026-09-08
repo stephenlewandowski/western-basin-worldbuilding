@@ -57,7 +57,7 @@ demographic_boundary_errors: []
 suggestions:
   - Optionally add explicit per-dimension source, basis, and documented-or-inferred fields to the matrix, plus combined provenance records for derived density and containment rows.
   - Strengthen the Python and R validators to recompute every matrix dimension and exact source/basis-note set rather than checking only a derived-text marker.
-  - Reconcile or clearly label legacy status wording in the historical handoff and older project records.
-summary: "The corrected package passed the fresh independent review; prior dependency-scope, matrix-derivation, and combined WAC/RAC metadata blockers were not retained."
+  - Reconcile or clearly label legacy status wording in the historical handoff and older freeze records before the next formal handoff.
+summary: "Passed. The corrected package has the expected 11A/11B counts; all 16 workplace_residence_difference rows use exact same-vintage combined WAC/RAC metadata with no Michigan difference rows; all 52 transport dependencies use state-matched LODES OD sources and are inferred; water/wastewater scopes and generalized qualifications are consistent; mapped matrix values and source/evidence notes match dependency-register evidence; both R validators passed; maps, manifests, and all protected Phase 1–10 artifact hashes verified."
 
 The reviewer confirmed the expected counts, source/vintage boundaries, Michigan difference exclusion, state-matched OD provenance, generalized service-dependency boundaries, map integrity, prohibited-scope exclusions, Phase 11C/12 absence, and Phase 1–10 freeze integrity. The remaining items are non-blocking suggestions. Formal Sol acceptance remains external.
