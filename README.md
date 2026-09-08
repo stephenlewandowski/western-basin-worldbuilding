@@ -485,8 +485,8 @@ The package preserves person/household/housing-unit/density/worker/job/commuter 
 
 ## Phase 12 Vector Ecology & Dependencies
 
-Phase 12A and 12B are implemented and validated working layers awaiting final
-independent review and integration. Map 38 is the factual 2026 Vector Ecology
+Phase 12A and 12B are implemented, validated, and integrated working layers
+awaiting Sol acceptance. Map 38 is the factual 2026 Vector Ecology
 Baseline; Map 39 is the separate qualitative Vector / Environment / Human-System
 Dependencies layer.
 
@@ -524,7 +524,8 @@ no-records are not absence; county detections are not precise local
 distributions; and positive vector pools or human cases are not local
 transmission proof. No individual risk, exposure estimate, disease-risk score,
 vulnerability/EJ score, unsupported abundance or range surface, Phase 12C,
-Phase 13, release, or tag is included.
+Phase 13, release, or tag is included. Active phase is NONE; the next analytical
+phase is NOT APPROVED.
 
 ```text
 assets/                 exploratory concept art and archived generated maps

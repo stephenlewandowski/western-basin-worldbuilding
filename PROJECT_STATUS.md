@@ -467,7 +467,7 @@ phase is **NONE**; next analytical phase is **NOT APPROVED**. The fresh Phase
 and review history remain preserved in Git and
 `reports/population_settlement_future_independent_review.md`.
 
-## PHASE 12A — IMPLEMENTED / VALIDATED / AWAITING INTEGRATION
+## PHASE 12A — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
 
 **Vector Ecology Baseline, 2026**
 
@@ -485,7 +485,7 @@ workbook provenance retains the original CDC source-page URL and the actual
 `restoredcdc.org` mirror/retrieval URL, explicitly not CDC-hosted, after the
 direct CDC binary returned HTTP 403.
 
-## PHASE 12B — IMPLEMENTED / VALIDATED / AWAITING INTEGRATION
+## PHASE 12B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
 
 **Vector / Environment / Human-System Dependencies, 2026**
 
@@ -497,9 +497,9 @@ monitoring is not control; and positive vector pools or reported human cases do
 not establish local transmission without supporting evidence.
 
 The Phase 12A working baseline remains immutable during 12B. Phase 12C is
-approved scope only and is not implemented. Active phase remains Phase 12A/12B
-delivery pending final review and integration; the next analytical phase is not
-approved.
+approved scope only and is not implemented. The Phase 12A/12B package was
+integrated after the fresh bounded review passed. Active phase is **NONE** and
+the next analytical phase is **NOT APPROVED**.
 
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry

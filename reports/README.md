@@ -319,8 +319,8 @@ The complete package preserves Census/ACS/PEP/LODES vintages and geography scale
 
 ## Phase 12 vector ecology and dependencies
 
-Phase 12A and 12B are implemented and validated working layers awaiting final
-independent review and integration. Phase 12A contains 20 nodes, 26 ecology
+Phase 12A and 12B are implemented, validated, and integrated working layers
+awaiting Sol acceptance. Phase 12A contains 20 nodes, 26 ecology
 relationships, 36 surveillance/context records, 15 habitat associations, 27
 sources, 10 uncertainties, and Map 38. Phase 12B contains 28 dependency rows,
 28 dependency edges, eight matrix rows, eight evidence-crosswalk rows, 27 reused
@@ -344,4 +344,5 @@ infection, sampling effort != abundance, detection != establishment, county
 record != precise local distribution, non-detection/CDC no-records != absence,
 and positive vector pool or human case != local transmission. It creates no
 individual risk or exposure estimate, disease-risk or vulnerability/EJ score,
-unsupported abundance/range surface, Phase 12C, Phase 13, release, or tag.
+unsupported abundance/range surface, Phase 12C, Phase 13, release, or tag. Active
+phase is NONE; the next analytical phase is NOT APPROVED.

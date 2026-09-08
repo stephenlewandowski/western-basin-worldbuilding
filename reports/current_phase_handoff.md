@@ -787,8 +787,8 @@ Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; 
 - Phase 12A Python validation passed: 20 nodes, 26 edges, 36 surveillance/context records, 15 habitat associations, 27 sources, 10 uncertainties, Map 38, and 298 prior manifest entries / 293 unique protected artifacts.
 - Phase 12B Python validation passed: 28 dependency-register rows, 28 dependency edges, 8 matrix rows, 8 evidence-crosswalk rows, 27 reused sources, and Map 39.
 - Independent R validators were created at `src/R/systems/validate_vector_ecology_baseline.R` and `src/R/systems/validate_vector_dependencies.R`; both passed with independent map, provenance, boundary, Phase 12A integrity, prior-freeze, and Phase 12C/13 absence checks.
-- Strict grounded-citation checks passed for the four principal Phase 12 reports. Fresh independent review remains before commit, push, and integration.
-- Next exact action: review the complete Phase 12A/12B diff and, if the fresh bounded review passes, commit the coherent package, push the feature branch, fast-forward integrate into `main`, update final status surfaces, and verify synchronization.
+- Strict grounded-citation checks passed for the four principal Phase 12 reports. The fresh independent review and delivery are recorded below.
+- Recovery checkpoint completed by the final integrated handoff below.
 
 ## Phase 12 independent review checkpoint
 
@@ -796,4 +796,13 @@ Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; 
 - The reviewer confirmed the actual package counts, 14 Phase 12A and 10 Phase 12B manifest artifacts, 298 prior manifest entries / 293 unique protected artifacts, Maps 38/39, surveillance boundaries, and absence of Phase 12C/13 products.
 - Reviewer suggestions are non-blocking and deferred: three unused registry sources, stronger scoped later-phase exclusion checks, and reconciliation with current refs.
 - Live `main` and `origin/main` advanced after the Phase 12 base to `26794df493e684805d431903436461f3a7a7968d` through two unrelated governance-skill commits. Phase 12 remains at base `e6c044774865f99916e564578b4a91ddd5412285`; preserve both commits and integrate normally without reset or history rewrite.
-- Next exact action: inspect and stage the complete intended Phase 12 package, commit it, push the feature branch with upstream tracking, verify the remote feature ref, merge it normally into the advanced `main`, then finalize status surfaces and synchronization.
+- Delivery completed: the intended package was staged, committed, pushed with upstream tracking, verified at the remote feature ref, merged normally into the advanced `main`, and followed by final status-surface updates.
+
+## Phase 12 final integrated handoff
+
+- Phase 12A: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; 20 nodes, 26 ecology edges, 36 surveillance/context records, 15 habitat associations, 27 sources, 10 uncertainties, Map 38.
+- Phase 12B: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; 28 dependency-register rows, 28 dependency edges, 8 matrix rows, 8 evidence-crosswalk rows, 27 reused sources, Map 39.
+- Feature commit: `ec37108371d51ccdecd9fafcbde58463d79911d7`; normal integration merge commit was created after `main` advanced to `26794df493e684805d431903436461f3a7a7968d` through unrelated governance-skill commits.
+- Fresh review `deleg_3199d624` passed with empty blocking arrays and is preserved at `reports/phase12_independent_review.md`.
+- Active phase: **NONE**. Next analytical phase: **NOT APPROVED**. Phase 12C and Phase 13 are not implemented. No release or tag was created.
+- Final main and origin/main SHAs are verified by Git after this handoff commit rather than embedded self-referentially here.
