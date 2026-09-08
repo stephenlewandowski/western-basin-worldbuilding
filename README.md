@@ -448,7 +448,7 @@ Rscript src\\R\\systems\\validate_governance_dependencies.R .
 
 ## Phase 11 Population & Settlement Dynamics
 
-Phase 11A and 11B are **ACCEPTED / FROZEN**. Phase 11C is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** as a separate qualitative 2050/2075 scenario layer. The final freeze manifests are `reports/phase11a_population_settlement_freeze_manifest.json` and `reports/phase11b_population_mobility_dependencies_freeze_manifest.json`; the Phase 11C working manifest is `reports/population_settlement_future_manifest.json`.
+Phase 11A, 11B, and 11C are **ACCEPTED / FROZEN**. Phase 11C remains a separate qualitative 2050/2075 scenario layer. The final freeze manifests are `reports/phase11a_population_settlement_freeze_manifest.json`, `reports/phase11b_population_mobility_dependencies_freeze_manifest.json`, and `reports/phase11c_population_settlement_futures_freeze_manifest.json`; the Phase 11C working manifest is `reports/population_settlement_future_manifest.json`.
 
 - [35 — Population & settlement system, 2026](outputs/maps/systems/35_population_settlement_2026.png)
 - [36 — Population, mobility & system dependencies, 2026](outputs/maps/systems/36_population_mobility_dependencies_2026.png)
@@ -463,6 +463,7 @@ Phase 11A and 11B are **ACCEPTED / FROZEN**. Phase 11C is **IMPLEMENTED / VALIDA
 - [Phase 11 working manifest](reports/phase11_working_manifest.json)
 - [Phase 11A freeze manifest](reports/phase11a_population_settlement_freeze_manifest.json)
 - [Phase 11B freeze manifest](reports/phase11b_population_mobility_dependencies_freeze_manifest.json)
+- [Phase 11C freeze manifest](reports/phase11c_population_settlement_futures_freeze_manifest.json)
 - [Phase 11 Python freeze validator](src/python/systems/validate_phase11_freezes.py)
 - [Phase 11 independent R freeze validator](src/R/systems/validate_phase11_freezes.R)
 - [Phase 11A brief](docs/phase_briefs/phase11a_population_settlement_baseline.md)
@@ -475,10 +476,12 @@ Phase 11A and 11B are **ACCEPTED / FROZEN**. Phase 11C is **IMPLEMENTED / VALIDA
 - [Phase 11C projection evidence](data/processed/scenarios/population_settlement_projection_evidence.csv)
 - [Phase 11C comparison figure](outputs/figures/population_settlement_future_comparison.png)
 - [Phase 11C working manifest](reports/population_settlement_future_manifest.json)
+- [Phase 11C artifact check](reports/population_settlement_future_artifact_check.json)
+- [Phase 11C independent review](reports/population_settlement_future_independent_review.md)
 - [Phase 11C Python validator](src/python/systems/validate_population_settlement_futures.py)
 - [Phase 11C independent R validator](src/R/systems/validate_population_settlement_futures.R)
 
-The package preserves person/household/housing-unit/density/worker/job/commuter distinctions, residence/workplace and commuting/migration boundaries, mixed Census/ACS/PEP/LODES vintages, and generalized service/dependency interfaces. Phase 11C models qualitative spatial redistribution and settlement form through Connected Reconcentration, Polycentric Adaptive Basin, and Uneven Change / Infrastructure Strain, using official 2050 county projection products as reference evidence without deterministic scenario totals. It creates no unsupported exact future total, vulnerability or environmental-justice score, protected-class ranking, individual movement model, health outcome, exact utility territory, or unsupported forecast. Active phase is NONE; no Phase 12, release, or tag is authorized.
+The package preserves person/household/housing-unit/density/worker/job/commuter distinctions, residence/workplace and commuting/migration boundaries, mixed Census/ACS/PEP/LODES vintages, and generalized service/dependency interfaces. Phase 11C models qualitative spatial redistribution and settlement form through Connected Reconcentration, Polycentric Adaptive Basin, and Uneven Change / Infrastructure Strain, using official 2050 county projection products as reference evidence without deterministic scenario totals. It creates no unsupported exact future total, vulnerability or environmental-justice score, protected-class ranking, individual movement model, health outcome, exact utility territory, or unsupported forecast. The fresh independent review passed with all blocking arrays empty. Active phase is NONE; no Phase 12, release, or tag is authorized.
 
 ```text
 assets/                 exploratory concept art and archived generated maps

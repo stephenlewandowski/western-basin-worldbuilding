@@ -7,7 +7,7 @@ maps <- file.path(root, "outputs", "maps", "systems")
 
 source_commit <- "f2abcb45f39f7222b3d1585c3c322937e540bb95"
 text_ext <- c("csv", "json", "md", "txt", "yml", "yaml", "svg")
-phase11_names <- c("phase11a_population_settlement_freeze_manifest.json", "phase11b_population_mobility_dependencies_freeze_manifest.json")
+phase11_names <- c("phase11a_population_settlement_freeze_manifest.json", "phase11b_population_mobility_dependencies_freeze_manifest.json", "phase11c_population_settlement_futures_freeze_manifest.json")
 phase10_names <- c("phase10a_governance_jurisdiction_freeze_manifest.json", "phase10b_governance_dependencies_coordination_freeze_manifest.json", "phase10c_governance_futures_freeze_manifest.json")
 
 expected_a <- c(
@@ -40,6 +40,30 @@ expected_b <- c(
   "reports/phase11_working_manifest.json",
   "reports/population_mobility_artifact_check.json",
   "reports/population_settlement_independent_review.md"
+)
+expected_c <- c(
+  "data/processed/scenarios/population_settlement_scenario_assumptions.csv",
+  "data/processed/scenarios/population_settlement_projection_evidence.csv",
+  "data/processed/scenarios/population_settlement_future_states.csv",
+  "data/processed/networks/population_settlement_future_relationships.csv",
+  "data/processed/scenarios/population_settlement_future_uncertainty.csv",
+  "data/processed/analysis/population_settlement_future_sources.csv",
+  "outputs/figures/population_settlement_future_comparison.csv",
+  "outputs/figures/population_settlement_future_comparison.png",
+  "outputs/figures/population_settlement_future_comparison.svg",
+  "outputs/maps/systems/37_population_settlement_futures_2050.png",
+  "outputs/maps/systems/37_population_settlement_futures_2050.svg",
+  "outputs/maps/systems/37b_population_settlement_futures_2075.png",
+  "outputs/maps/systems/37b_population_settlement_futures_2075.svg",
+  "reports/population_settlement_future_sources.md",
+  "reports/population_settlement_future_assumptions.md",
+  "reports/population_settlement_future_findings.md",
+  "reports/population_settlement_future_qa.md",
+  "reports/population_settlement_future_independent_review.md",
+  "reports/population_settlement_future_manifest.json",
+  "reports/population_settlement_future_artifact_check.json",
+  "src/python/systems/validate_phase11_freezes.py",
+  "src/R/systems/validate_phase11_freezes.R"
 )
 
 stop_if <- function(condition, message) if (!isTRUE(condition)) stop(message, call.=FALSE)
@@ -150,10 +174,41 @@ verify_final <- function(name, phase, baseline, counts, expected, check_phase12=
   x$rel
 }
 
+verify_phase11c_final <- function() {
+  path <- file.path(reports, "phase11c_population_settlement_futures_freeze_manifest.json")
+  txt <- manifest_text(path)
+  require_fixed(txt, '"accepted_phase": "11C"', "Phase 11C phase")
+  require_fixed(txt, '"baseline": "Population & Settlement Futures, 2050 / 2075"', "Phase 11C baseline")
+  require_fixed(txt, '"status": "ACCEPTED / FROZEN"', "Phase 11C status")
+  require_fixed(txt, '"accepted_by": "Sol explicit acceptance decision supplied for this run"', "Phase 11C acceptance")
+  require_fixed(txt, '"accepted_date": "2026-09-08"', "Phase 11C date")
+  require_fixed(txt, '"source_commit": "00c582c0f6204eb7f7a3952d90c2768a30f4bf68"', "Phase 11C source commit")
+  for (pair in c('"scenario_assumptions": 36', '"projection_evidence": 6', '"future_states": 108', '"future_relationships": 108', '"uncertainty_states": 36', '"scenario_sources": 11', '"comparison_rows": 6')) require_fixed(txt, pair, "Phase 11C count")
+  require_fixed(txt, '"phase11a_11b_immutable": true', "Phase 11A/11B immutability")
+  require_fixed(txt, '"phase1_10_immutable": true', "Phase 1–10 immutability")
+  require_fixed(txt, '"numeric_future_values_adopted": false', "numeric future boundary")
+  require_fixed(txt, '"climate_migration_as_growth_assumption": false', "climate migration boundary")
+  require_fixed(txt, '"phase12_implemented": false', "Phase 12 boundary")
+  require_fixed(txt, '"great_black_swamp": "C — HOLD / noncanonical"', "Great Black Swamp hold")
+  require_fixed(txt, '"toledo_intake_coordinate_discrepancy": "UNRESOLVED"', "Toledo intake discrepancy")
+  x <- manifest_artifacts(path)
+  stop_if(nrow(x) == length(expected_c), "Phase 11C artifact count")
+  stop_if(setequal(x$rel, expected_c), "Phase 11C artifact inventory")
+  for (i in seq_len(nrow(x))) stop_if(portable_final_match(file.path(root, x$rel[[i]]), x$sha256[[i]], x$bytes[[i]]), paste("Phase 11C", x$rel[[i]]))
+  review <- tolower(paste(readLines(file.path(reports, "population_settlement_future_independent_review.md"), warn=FALSE, encoding="UTF-8"), collapse=" "))
+  for (term in c('"passed": true', '"security_concerns": []', '"logic_errors": []', '"provenance_errors": []', '"statistical_errors": []', '"scenario_boundary_errors": []', '"spatial_scale_errors": []', '"demographic_boundary_errors": []')) require_fixed(review, term, "Phase 11C independent review")
+  working <- manifest_text(file.path(reports, "population_settlement_future_manifest.json"))
+  require_fixed(working, '"status": "implemented_validated_pending_sol_acceptance"', "working manifest lineage")
+  require_fixed(working, '"numeric_future_values_adopted": false', "working manifest numeric boundary")
+  require_fixed(working, '"phase12_implemented": false', "working manifest Phase 12 boundary")
+  x$rel
+}
+
 # Final Phase 11 manifests and their exact accepted inventories.
 a_paths <- verify_final(phase11_names[[1]], "11A", "Population & Settlement Baseline, 2026", c(nodes=62L, population_observations=918L, relationships=44L, sources=34L, uncertainties=9L), expected_a)
 b_paths <- verify_final(phase11_names[[2]], "11B", "Population, Mobility & System Dependencies, 2026", c(mobility_observations=302L, mobility_relationships=142L, dependency_register=520L, matrix_rows=52L, sources_reused=34L), expected_b, TRUE)
-stop_if(length(unique(c(a_paths, b_paths))) == 26L, "Phase 11 protected-artifact uniqueness")
+c_paths <- verify_phase11c_final()
+stop_if(length(unique(c(a_paths, b_paths, c_paths))) == 48L, "Phase 11 protected-artifact uniqueness")
 
 b_txt <- manifest_text(file.path(reports, phase11_names[[2]])); a_path <- file.path(reports, phase11_names[[1]])
 portable_manifest_hashes <- function(path) {
@@ -286,7 +341,7 @@ for (name in prior_names) {
 stop_if(prior_total == 196L && length(unique(prior_paths)) == 196L, "Phase 1–9 protected-artifact inventory")
 changed <- system2("git", c("-C", root, "diff", "--name-only", source_commit), stdout=TRUE, stderr=TRUE)
 stop_if(!any(changed %in% prior_paths), "Acceptance diff changed a prior protected artifact")
-stop_if(!any(prior_paths %in% unique(c(a_paths, b_paths, phase10_paths))), "Current protected scope overlaps prior artifacts")
+stop_if(!any(prior_paths %in% unique(c(a_paths, b_paths, c_paths, phase10_paths))), "Current protected scope overlaps prior artifacts")
 
 # Status and hold readback is part of the freeze boundary.
 status_files <- c("PROJECT_STATUS.md","docs/canon_status.md","docs/phase_briefs/phase11a_population_settlement_baseline.md","docs/phase_briefs/phase11b_population_mobility_dependencies.md","docs/phase_briefs/phase11c_population_settlement_futures.md","reports/current_phase_handoff.md","README.md","CHANGELOG.md","reports/README.md")
@@ -299,4 +354,4 @@ for (rel in c("PROJECT_STATUS.md","docs/canon_status.md","reports/current_phase_
   stop_if(grepl("active phase", txt, fixed=TRUE) && grepl("none", txt, fixed=TRUE) && grepl("great black swamp", txt, fixed=TRUE) && grepl("hold", txt, fixed=TRUE) && grepl("noncanonical", txt, fixed=TRUE) && grepl("intake-coordinate discrepancy", txt, fixed=TRUE) && grepl("unresolved", txt, fixed=TRUE), paste("Hold/status record", rel))
 }
 
-cat(sprintf("Phase 11 freeze R validation passed: 11A %d artifacts and 11B %d artifacts; 62 nodes, 918 observations, 44 relationships, 34 sources, 9 uncertainties; 302 mobility observations, 142 mobility relationships, 520 dependency rows, 52 matrix rows; Phase 10 %d entries/%d unique artifacts; Phase 1–9 %d protected artifacts; maps, review, vintages, boundaries, holds, Phase 11C separate-layer status, and Phase 12 absence checked\n", length(a_paths), length(b_paths), phase10_entries, length(unique(phase10_paths)), prior_total))
+cat(sprintf("Phase 11 freeze R validation passed: 11A %d artifacts, 11B %d artifacts, and 11C %d artifacts; 62 nodes, 918 observations, 44 relationships, 34 sources, 9 uncertainties; 302 mobility observations, 142 mobility relationships, 520 dependency rows, 52 matrix rows; Phase 10 %d entries/%d unique artifacts; Phase 1–9 %d protected artifacts; maps, review, vintages, boundaries, holds, Phase 11C acceptance, and Phase 12 absence checked\n", length(a_paths), length(b_paths), length(c_paths), phase10_entries, length(unique(phase10_paths)), prior_total))

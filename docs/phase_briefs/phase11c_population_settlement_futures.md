@@ -1,8 +1,8 @@
 # Phase 11C — Population & Settlement Futures, 2050 / 2075
 
-Status: IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE.
+Status: ACCEPTED / FROZEN.
 
-Phase 11A and Phase 11B are **ACCEPTED / FROZEN**. This brief remains the approved scientific specification for the separate Phase 11C scenario layer; Phase 11C is not accepted or frozen by implementation alone.
+Phase 11A, Phase 11B, and Phase 11C are **ACCEPTED / FROZEN**. This brief remains the scientific specification for the separate Phase 11C scenario layer; the final freeze boundary is recorded in `reports/phase11c_population_settlement_futures_freeze_manifest.json`.
 
 ## Approved scope only
 
@@ -18,4 +18,4 @@ Phase 11C must preserve Great Black Swamp `C — HOLD / noncanonical` and the un
 
 ## Implementation result
 
-The implementation creates separate qualitative scenario assumptions, projection-evidence records, future settlement states, spatial relationships, uncertainty states, comparison outputs, Maps 37/37b, reproducible Python/R validators, and bounded reports. It creates no exact future population values, unsupported local forecast, fake future Census precision, individual movement model, vulnerability/EJ score, protected-class ranking, or utility-territory assignment. Phase 11C remains awaiting Sol acceptance and must not be marked accepted/frozen here.
+The implementation creates separate qualitative scenario assumptions, projection-evidence records, future settlement states, spatial relationships, uncertainty states, comparison outputs, Maps 37/37b, reproducible Python/R validators, and bounded reports. It creates no exact future population values, unsupported local forecast, fake future Census precision, individual movement model, vulnerability/EJ score, protected-class ranking, or utility-territory assignment. Phase 11C is accepted/frozen under the final freeze manifest; its working manifest and independent-review record remain preserved for lineage.

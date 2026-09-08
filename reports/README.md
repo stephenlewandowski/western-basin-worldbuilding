@@ -279,7 +279,7 @@ The package explicitly separates regulation, operation, ownership, monitoring, f
 
 ## Phase 11 population, settlement, mobility, and dependencies
 
-Phase 11A and Phase 11B are **ACCEPTED / FROZEN** under their final freeze manifests. Phase 11C is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** as a separate qualitative scenario layer.
+Phase 11A, Phase 11B, and Phase 11C are **ACCEPTED / FROZEN** under their final freeze manifests. Phase 11C remains a separate qualitative scenario layer.
 
 - `../data/processed/analysis/population_settlement_nodes.csv` — 62 population, municipality, and employment-center nodes
 - `../data/processed/analysis/population_settlement_observations.csv` — 918 population/settlement observations
@@ -294,6 +294,7 @@ Phase 11A and Phase 11B are **ACCEPTED / FROZEN** under their final freeze manif
 - `population_mobility_sources.md`, `population_mobility_assumptions.md`, `population_mobility_findings.md`, `population_mobility_qa.md`
 - `population_settlement_baseline_manifest.json` and `phase11_working_manifest.json`
 - `phase11a_population_settlement_freeze_manifest.json` and `phase11b_population_mobility_dependencies_freeze_manifest.json` — final Sol-acceptance freeze manifests
+- `phase11c_population_settlement_futures_freeze_manifest.json` — final Sol-acceptance freeze manifest protecting the 22-artifact qualitative futures package
 - `population_settlement_artifact_check.json` and `population_mobility_artifact_check.json`
 
 Phase 11C products:
@@ -309,6 +310,7 @@ Phase 11C products:
 - `../outputs/maps/systems/37b_population_settlement_futures_2075.png` and `.svg` — Map 37b
 - `population_settlement_future_sources.md`, `population_settlement_future_assumptions.md`, `population_settlement_future_findings.md`, and `population_settlement_future_qa.md`
 - `population_settlement_future_manifest.json` and `population_settlement_future_artifact_check.json`
+- `population_settlement_future_independent_review.md` — fresh post-correction review; `passed: true` with all blocking arrays empty
 - `../src/python/systems/build_population_settlement_futures.py`, `validate_population_settlement_futures.py`, and `../src/R/systems/validate_population_settlement_futures.R`
 
 Official Ohio, Michigan, and Indiana county projection products are recorded as 2050 reference evidence without deterministic scenario totals. 2075 is explicit scenario content rather than mechanical extrapolation. Climate migration is a high-uncertainty scenario mechanism, not a population-growth assumption. Population, households, housing units, workers, jobs, and commuters remain distinct; commuting remains distinct from migration.

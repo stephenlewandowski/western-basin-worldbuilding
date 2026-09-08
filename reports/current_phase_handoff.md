@@ -755,3 +755,14 @@ Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; 
 - Official Ohio, Michigan, and Indiana county projection products remain 2050 reference evidence without deterministic scenario totals. 2075 remains explicit scenario content. Climate migration remains a high-uncertainty scenario mechanism, not a population-growth assumption.
 - Active holds remain unchanged: Great Black Swamp `C — HOLD / noncanonical`; Toledo intake-coordinate discrepancy `UNRESOLVED`.
 - No Phase 12 work, release, or tag was created.
+
+## Phase 11C final acceptance / freeze — 2026-09-08
+
+- Sol decision recorded: Phase 11C is **ACCEPTED / FROZEN**. Phase 11A and 11B remain **ACCEPTED / FROZEN**; active phase is **NONE**; next analytical phase is **NOT APPROVED**.
+- Final freeze manifest: `reports/phase11c_population_settlement_futures_freeze_manifest.json`; protected count: 22 artifacts, including the validated scenario package, reports, working manifest, artifact check, fresh independent review, and Python/R freeze validators.
+- Python and independent R freeze validation passed: Phase 11C counts and boundaries, Phase 11A/11B integrity, Phase 10 integrity, and all 196 prior Phase 1–9 protected artifacts verified. Git/LFS, Markdown, application tests/build, and whitespace checks remain required final gates.
+- Official projection evidence remains reference evidence rather than a scenario assumption or deterministic total; 2075 remains scenario-based; commuting remains distinct from migration; no climate-migrant population bonus, pseudo-Census precision, vulnerability/EJ score, protected-class ranking, or individual mobility model was added.
+- Implementation commit `e34324fb19c5cf3c9af2afd08bd805cc60e3d504` and fresh review `deleg_74c3b7aa` remain preserved; no baseline artifact or review history was rewritten.
+- Active holds remain unchanged: Great Black Swamp `C — HOLD / noncanonical`; Toledo intake-coordinate discrepancy `UNRESOLVED`.
+- No Phase 12 work, release, or tag was created.
+- Final acceptance/freeze commit SHA and synchronized `main`/`origin/main` SHA are recorded after commit.

@@ -27,6 +27,7 @@ PHASE10_NAMES = {
 PHASE11_NAMES = {
     "phase11a_population_settlement_freeze_manifest.json",
     "phase11b_population_mobility_dependencies_freeze_manifest.json",
+    "phase11c_population_settlement_futures_freeze_manifest.json",
 }
 MATRIX_DIMENSIONS = [
     "settlement_concentration",
@@ -79,6 +80,30 @@ EXPECTED_B = {
     "reports/population_mobility_artifact_check.json",
     "reports/population_settlement_independent_review.md",
 }
+EXPECTED_C = {
+    "data/processed/scenarios/population_settlement_scenario_assumptions.csv",
+    "data/processed/scenarios/population_settlement_projection_evidence.csv",
+    "data/processed/scenarios/population_settlement_future_states.csv",
+    "data/processed/networks/population_settlement_future_relationships.csv",
+    "data/processed/scenarios/population_settlement_future_uncertainty.csv",
+    "data/processed/analysis/population_settlement_future_sources.csv",
+    "outputs/figures/population_settlement_future_comparison.csv",
+    "outputs/figures/population_settlement_future_comparison.png",
+    "outputs/figures/population_settlement_future_comparison.svg",
+    "outputs/maps/systems/37_population_settlement_futures_2050.png",
+    "outputs/maps/systems/37_population_settlement_futures_2050.svg",
+    "outputs/maps/systems/37b_population_settlement_futures_2075.png",
+    "outputs/maps/systems/37b_population_settlement_futures_2075.svg",
+    "reports/population_settlement_future_sources.md",
+    "reports/population_settlement_future_assumptions.md",
+    "reports/population_settlement_future_findings.md",
+    "reports/population_settlement_future_qa.md",
+    "reports/population_settlement_future_independent_review.md",
+    "reports/population_settlement_future_manifest.json",
+    "reports/population_settlement_future_artifact_check.json",
+    "src/python/systems/validate_phase11_freezes.py",
+    "src/R/systems/validate_phase11_freezes.R",
+}
 
 
 def digest(path: Path) -> str:
@@ -120,6 +145,64 @@ def verify_final_manifest(path: Path, phase: str, baseline: str, counts: dict[st
     assert set(artifacts) == expected
     for rel, metadata in artifacts.items():
         verify_artifact(rel, metadata)
+    return payload
+
+
+def verify_phase11c_final() -> dict[str, object]:
+    path = REPORTS / "phase11c_population_settlement_futures_freeze_manifest.json"
+    payload = json.loads(path.read_text(encoding="utf-8"))
+    assert payload["accepted_phase"] == "11C"
+    assert payload["baseline"] == "Population & Settlement Futures, 2050 / 2075"
+    assert payload["status"] == "ACCEPTED / FROZEN"
+    assert payload["accepted_by"] == "Sol explicit acceptance decision supplied for this run"
+    assert payload["accepted_date"] == "2026-09-08"
+    assert payload["source_commit"] == "00c582c0f6204eb7f7a3952d90c2768a30f4bf68"
+    assert payload["counts"] == {
+        "scenario_assumptions": 36,
+        "projection_evidence": 6,
+        "future_states": 108,
+        "future_relationships": 108,
+        "uncertainty_states": 36,
+        "scenario_sources": 11,
+        "comparison_rows": 6,
+    }
+    assert payload["protected_inputs"] == [
+        "reports/phase11a_population_settlement_freeze_manifest.json",
+        "reports/phase11b_population_mobility_dependencies_freeze_manifest.json",
+        "reports/phase10a_governance_jurisdiction_freeze_manifest.json",
+        "reports/phase10b_governance_dependencies_coordination_freeze_manifest.json",
+        "reports/phase10c_governance_futures_freeze_manifest.json",
+    ]
+    assert payload["phase11a_11b_immutable"] is True
+    assert payload["phase1_10_immutable"] is True
+    assert payload["numeric_future_values_adopted"] is False
+    assert payload["climate_migration_as_growth_assumption"] is False
+    assert payload["phase12_implemented"] is False
+    assert payload["active_holds_preserved"] == {
+        "great_black_swamp": "C — HOLD / noncanonical",
+        "toledo_intake_coordinate_discrepancy": "UNRESOLVED",
+    }
+    artifacts = payload["artifacts"]
+    assert set(artifacts) == EXPECTED_C
+    for rel, metadata in artifacts.items():
+        verify_artifact(rel, metadata)
+    review = (REPORTS / "population_settlement_future_independent_review.md").read_text(encoding="utf-8").lower()
+    for term in (
+        '"passed": true',
+        '"security_concerns": []',
+        '"logic_errors": []',
+        '"provenance_errors": []',
+        '"statistical_errors": []',
+        '"scenario_boundary_errors": []',
+        '"spatial_scale_errors": []',
+        '"demographic_boundary_errors": []',
+    ):
+        assert term in review, term
+    working = json.loads((REPORTS / "population_settlement_future_manifest.json").read_text(encoding="utf-8"))
+    assert working["phase"] == "11C"
+    assert working["status"] == "implemented_validated_pending_sol_acceptance"
+    assert working["numeric_future_values_adopted"] is False
+    assert working["phase12_implemented"] is False
     return payload
 
 
@@ -286,6 +369,7 @@ def verify_status_records() -> None:
         "docs/canon_status.md",
         "docs/phase_briefs/phase11a_population_settlement_baseline.md",
         "docs/phase_briefs/phase11b_population_mobility_dependencies.md",
+        "docs/phase_briefs/phase11c_population_settlement_futures.md",
         "reports/current_phase_handoff.md",
         "README.md",
         "CHANGELOG.md",
@@ -306,11 +390,12 @@ def verify_status_records() -> None:
 def main() -> None:
     a = verify_final_manifest(PHASE11A, "11A", "Population & Settlement Baseline, 2026", {"nodes": 62, "population_observations": 918, "relationships": 44, "sources": 34, "uncertainties": 9}, EXPECTED_A)
     b = verify_final_manifest(PHASE11B, "11B", "Population, Mobility & System Dependencies, 2026", {"mobility_observations": 302, "mobility_relationships": 142, "dependency_register": 520, "matrix_rows": 52, "sources_reused": 34}, EXPECTED_B)
+    c = verify_phase11c_final()
     assert b["phase11a_freeze_manifest"]["path"] == "reports/phase11a_population_settlement_freeze_manifest.json"
     assert manifest_matches(ROOT, "reports/phase11a_population_settlement_freeze_manifest.json", str(b["phase11a_freeze_manifest"]["sha256"]))
     assert int(b["phase11a_freeze_manifest"]["bytes"]) in allowed_sizes(PHASE11A)
     phase10_entries, phase10_unique, phase10_paths = verify_phase10_freeze_integrity()
-    prior, newline_only = verify_phase1_9_immutability(set(a["artifacts"]) | set(b["artifacts"]) | phase10_paths)
+    prior, newline_only = verify_phase1_9_immutability(set(a["artifacts"]) | set(b["artifacts"]) | set(c["artifacts"]) | phase10_paths)
     package_counts = verify_package()
     verify_maps_and_review()
     verify_status_records()
@@ -320,7 +405,9 @@ def main() -> None:
         "phase11b_freeze_manifest": "reports/phase11b_population_mobility_dependencies_freeze_manifest.json",
         "phase11a_protected_artifacts": len(a["artifacts"]),
         "phase11b_protected_artifacts": len(b["artifacts"]),
-        "unique_phase11_protected_artifacts": len(set(a["artifacts"]) | set(b["artifacts"])),
+        "phase11c_freeze_manifest": "reports/phase11c_population_settlement_futures_freeze_manifest.json",
+        "phase11c_protected_artifacts": len(c["artifacts"]),
+        "unique_phase11_protected_artifacts": len(set(a["artifacts"]) | set(b["artifacts"]) | set(c["artifacts"])),
         "phase10_manifest_entries": phase10_entries,
         "phase10_unique_artifacts": phase10_unique,
         "prior_phase1_9_protected_artifacts": prior,

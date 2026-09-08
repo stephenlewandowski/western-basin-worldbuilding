@@ -1,0 +1,146 @@
+{
+  "accepted_phase": "11C",
+  "baseline": "Population & Settlement Futures, 2050 / 2075",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-08",
+  "source_commit": "00c582c0f6204eb7f7a3952d90c2768a30f4bf68",
+  "acceptance_basis": "Sol formally accepted and froze the validated Phase 11C qualitative scenario package after the fresh independent review passed with all blocking arrays empty; Phase 11A/11B and Phase 1–10 freeze integrity remained intact.",
+  "counts": {
+    "scenario_assumptions": 36,
+    "projection_evidence": 6,
+    "future_states": 108,
+    "future_relationships": 108,
+    "uncertainty_states": 36,
+    "scenario_sources": 11,
+    "comparison_rows": 6
+  },
+  "artifacts": {
+    "data/processed/scenarios/population_settlement_scenario_assumptions.csv": {
+      "sha256": "1151a10eec38e433c0dd7c81591be772af1d7360910708da97b4406136bdf824",
+      "bytes": 23668,
+      "role": "scenario state table"
+    },
+    "data/processed/scenarios/population_settlement_projection_evidence.csv": {
+      "sha256": "49badd9a77877abe26a12e421f097532c3dbf47d226c7a661cf68e96eabba160",
+      "bytes": 1930,
+      "role": "scenario state table"
+    },
+    "data/processed/scenarios/population_settlement_future_states.csv": {
+      "sha256": "2650feb4eb3966af0985fef37bb00b0bee99c204efde3c3acdf84fcc5fbb5059",
+      "bytes": 168432,
+      "role": "scenario state table"
+    },
+    "data/processed/networks/population_settlement_future_relationships.csv": {
+      "sha256": "f95098c417e63f50c4b2762da189a2e11954172fd7f611c2a5a747a447d0b5a2",
+      "bytes": 116060,
+      "role": "scenario state table"
+    },
+    "data/processed/scenarios/population_settlement_future_uncertainty.csv": {
+      "sha256": "50c3abaa55bec205c85ec1c6bbb1b9e6501b2fd6cc0afb1df76f251588803fcc",
+      "bytes": 23006,
+      "role": "scenario state table"
+    },
+    "data/processed/analysis/population_settlement_future_sources.csv": {
+      "sha256": "a9afdfda6f5cdf06d79c2a3e00d5c6c2ee614ac1f0efa90d623fc384c7f0eca7",
+      "bytes": 4610,
+      "role": "scenario source registry"
+    },
+    "outputs/figures/population_settlement_future_comparison.csv": {
+      "sha256": "2b0eed1dd12de3a6cce8f5532c08a1ca53347107428ee6be282deff32119e6be",
+      "bytes": 3273,
+      "role": "scenario comparison table"
+    },
+    "outputs/figures/population_settlement_future_comparison.png": {
+      "sha256": "e2790d6e79cc78aebb20d819945e31211f2bc1de3e38979d27fbe94c1f032578",
+      "bytes": 264507,
+      "role": "map or figure raster"
+    },
+    "outputs/figures/population_settlement_future_comparison.svg": {
+      "sha256": "5dd379db39fc9b60b3c0c547b19875ba4a6852b9aa94c50f495b8061232e40ae",
+      "bytes": 38708,
+      "role": "map or figure vector"
+    },
+    "outputs/maps/systems/37_population_settlement_futures_2050.png": {
+      "sha256": "6dc45f61067c39a6eb6c4732a4f6b0fd9e5dcd5d4b26e1fade923c56810c2b17",
+      "bytes": 238204,
+      "role": "map or figure raster"
+    },
+    "outputs/maps/systems/37_population_settlement_futures_2050.svg": {
+      "sha256": "336c804bc926c4c41147e3611dbfccd30438bf35bbbbb991f55ee91a6ab7b3d6",
+      "bytes": 1758572,
+      "role": "map or figure vector"
+    },
+    "outputs/maps/systems/37b_population_settlement_futures_2075.png": {
+      "sha256": "5c20a3a4d6632c444c55fbc6e788a71408a80b3c4cee3733d3b49c3b99c56e55",
+      "bytes": 238970,
+      "role": "map or figure raster"
+    },
+    "outputs/maps/systems/37b_population_settlement_futures_2075.svg": {
+      "sha256": "ad747b01a258d9519358213607d8e659005d58de0f29256292a297939632c393",
+      "bytes": 1758573,
+      "role": "map or figure vector"
+    },
+    "reports/population_settlement_future_sources.md": {
+      "sha256": "eeafd79952eaf9f615f5d24f2e9c54a96d6b1d7d4ba299fa8905b8f9e4354f77",
+      "bytes": 2941,
+      "role": "source report"
+    },
+    "reports/population_settlement_future_assumptions.md": {
+      "sha256": "d096f62b91b141c23e28d3585be955365bb4428b5c2265aa649608342b1f30d6",
+      "bytes": 2971,
+      "role": "assumptions and scope report"
+    },
+    "reports/population_settlement_future_findings.md": {
+      "sha256": "400dbbe8f32489b4cccb9d6dbdb92e7027102d3736ffd1a644634ba26a5f05f2",
+      "bytes": 4019,
+      "role": "findings report"
+    },
+    "reports/population_settlement_future_qa.md": {
+      "sha256": "c9e45cbfa2b898d4fbd5633449da9068d5509b4c0fa0e94a6c22d39706a77406",
+      "bytes": 1464,
+      "role": "QA report"
+    },
+    "reports/population_settlement_future_independent_review.md": {
+      "sha256": "69c187ac28217ac0d9529b88a5fab99e85657ed7ba10f40d9b44b5c7e3fed30c",
+      "bytes": 1465,
+      "role": "final independent-review record"
+    },
+    "reports/population_settlement_future_manifest.json": {
+      "sha256": "3a66516f2636726031d62262bcc90d592bb7a7189926d74a374b382654cdaae9",
+      "bytes": 4505,
+      "role": "validated working scenario manifest"
+    },
+    "reports/population_settlement_future_artifact_check.json": {
+      "sha256": "0cbbb47d0d084f0d01c13bfabfc56bb3e24f0bdb96d4b3c72eca6e5fedb05e3e",
+      "bytes": 1307,
+      "role": "machine validation result"
+    },
+    "src/python/systems/validate_phase11_freezes.py": {
+      "sha256": "81439046b348437279e5ba25f9e799beaaf0cc7390a8d6dce5ac90daebb64818",
+      "bytes": 22279,
+      "role": "Python independent freeze validator"
+    },
+    "src/R/systems/validate_phase11_freezes.R": {
+      "sha256": "6ae5e80050de0060a7f719dd3bf305b3eb3cfed077d5096c5e4a99717e837d89",
+      "bytes": 26999,
+      "role": "independent R freeze validator"
+    }
+  },
+  "protected_inputs": [
+    "reports/phase11a_population_settlement_freeze_manifest.json",
+    "reports/phase11b_population_mobility_dependencies_freeze_manifest.json",
+    "reports/phase10a_governance_jurisdiction_freeze_manifest.json",
+    "reports/phase10b_governance_dependencies_coordination_freeze_manifest.json",
+    "reports/phase10c_governance_futures_freeze_manifest.json"
+  ],
+  "phase11a_11b_immutable": true,
+  "phase1_10_immutable": true,
+  "numeric_future_values_adopted": false,
+  "climate_migration_as_growth_assumption": false,
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  },
+  "phase12_implemented": false
+}

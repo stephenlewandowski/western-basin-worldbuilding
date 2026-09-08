@@ -429,7 +429,7 @@ LODES records are modeled/tabulated administrative products aggregated to county
 
 Map 36 and the complete Phase 11A/11B package are protected by their final freeze manifests, `reports/phase11_working_manifest.json`, `reports/population_mobility_artifact_check.json`, and the Phase 11A/11B Python/R validators. Phase 11C is implemented as a separate qualitative scenario layer and does not modify those protected artifacts.
 
-## PHASE 11C — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 11C — ACCEPTED / FROZEN
 
 **Population & Settlement Futures, 2050 / 2075**
 
@@ -457,10 +457,15 @@ vulnerability/EJ score, protected-class ranking, individual movement model, or
 utility-territory assignment is included. The working manifest is
 `reports/population_settlement_future_manifest.json`; Python and independent R
 validation are recorded in `reports/population_settlement_future_artifact_check.json`.
+The final freeze manifest protects the validated package, reports, working
+manifest, review record, and Python/R freeze validators at
+`reports/phase11c_population_settlement_futures_freeze_manifest.json`.
 
-Final Phase 11 status: Phase 11A and 11B are **ACCEPTED / FROZEN**; Phase 11C is
-**IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; active phase
-is **NONE**; next analytical phase is **NOT APPROVED**.
+Final Phase 11 status: Phase 11A, 11B, and 11C are **ACCEPTED / FROZEN**; active
+phase is **NONE**; next analytical phase is **NOT APPROVED**. The fresh Phase
+11C independent review passed with all blocking arrays empty; its implementation
+and review history remain preserved in Git and
+`reports/population_settlement_future_independent_review.md`.
 
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry
