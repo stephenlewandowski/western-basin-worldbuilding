@@ -315,4 +315,33 @@ Phase 11C products:
 
 Official Ohio, Michigan, and Indiana county projection products are recorded as 2050 reference evidence without deterministic scenario totals. 2075 is explicit scenario content rather than mechanical extrapolation. Climate migration is a high-uncertainty scenario mechanism, not a population-growth assumption. Population, households, housing units, workers, jobs, and commuters remain distinct; commuting remains distinct from migration.
 
-The complete package preserves Census/ACS/PEP/LODES vintages and geography scales, distinguishes residence/workplace and commuting/migration, and keeps accepted water, energy, transport, climate, environmental-health, ecology, nutrient, housing, and governance interfaces qualitative. It creates no vulnerability/EJ score, protected-class ranking, individual movement model, health outcome, exact utility territory, unsupported forecast, or Phase 12 content. Python Phase 11 freeze validation is `../src/python/systems/validate_phase11_freezes.py`; independent R freeze validation is `../src/R/systems/validate_phase11_freezes.R`. Phase 11C validation is `../src/python/systems/validate_population_settlement_futures.py` and `../src/R/systems/validate_population_settlement_futures.R`.
+The complete package preserves Census/ACS/PEP/LODES vintages and geography scales, distinguishes residence/workplace and commuting/migration, and keeps accepted water, energy, transport, climate, environmental-health, ecology, nutrient, housing, and governance interfaces qualitative. It creates no vulnerability/EJ score, protected-class ranking, individual movement model, health outcome, exact utility territory, or unsupported forecast. Phase 12 is a separate approved vector-ecology package. Python Phase 11 freeze validation is `../src/python/systems/validate_phase11_freezes.py`; independent R freeze validation is `../src/R/systems/validate_phase11_freezes.R`. Phase 11C validation is `../src/python/systems/validate_population_settlement_futures.py` and `../src/R/systems/validate_population_settlement_futures.R`.
+
+## Phase 12 vector ecology and dependencies
+
+Phase 12A and 12B are implemented and validated working layers awaiting final
+independent review and integration. Phase 12A contains 20 nodes, 26 ecology
+relationships, 36 surveillance/context records, 15 habitat associations, 27
+sources, 10 uncertainties, and Map 38. Phase 12B contains 28 dependency rows,
+28 dependency edges, eight matrix rows, eight evidence-crosswalk rows, 27 reused
+sources, and Map 39.
+
+- `../data/processed/networks/vector_ecology_nodes.csv`, `vector_ecology_edges.csv`
+- `../data/processed/analysis/vector_surveillance_records.csv`, `vector_habitat_associations.csv`, `vector_ecology_sources.csv`, `vector_ecology_uncertainty.csv`
+- `../data/processed/analysis/vector_system_dependency_register.csv`, `vector_system_dependency_matrix.csv`, `vector_dependency_evidence.csv`
+- `../data/processed/networks/vector_system_dependency_edges.csv`
+- `../outputs/maps/systems/38_vector_ecology_baseline_2026.png` and `.svg`
+- `../outputs/maps/systems/39_vector_environment_human_dependencies_2026.png` and `.svg`
+- `vector_ecology_sources.md`, `vector_ecology_assumptions.md`, `vector_ecology_findings.md`, `vector_ecology_qa.md`
+- `vector_dependency_sources.md`, `vector_dependency_assumptions.md`, `vector_dependency_findings.md`, `vector_dependency_qa.md`
+- `vector_ecology_baseline_manifest.json`, `vector_dependency_manifest.json`, and `phase12_working_manifest.json`
+- `../src/python/systems/build_vector_ecology.py`, `validate_vector_ecology_baseline.py`, and `validate_vector_dependencies.py`
+- `../src/R/systems/validate_vector_ecology_baseline.R` and `validate_vector_dependencies.R`
+- `../docs/phase_briefs/phase12a_vector_ecology_baseline.md`, `phase12b_vector_environment_human_dependencies.md`, and `phase12c_vector_ecology_futures.md`
+
+The package preserves presence != abundance, pathogen detection != human
+infection, sampling effort != abundance, detection != establishment, county
+record != precise local distribution, non-detection/CDC no-records != absence,
+and positive vector pool or human case != local transmission. It creates no
+individual risk or exposure estimate, disease-risk or vulnerability/EJ score,
+unsupported abundance/range surface, Phase 12C, Phase 13, release, or tag.

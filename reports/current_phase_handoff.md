@@ -766,3 +766,34 @@ Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; 
 - Active holds remain unchanged: Great Black Swamp `C — HOLD / noncanonical`; Toledo intake-coordinate discrepancy `UNRESOLVED`.
 - No Phase 12 work, release, or tag was created.
 - Freeze implementation/documentation commit `38df1ac` records the acceptance decision and final manifest; the final handoff commit SHA and synchronized `main`/`origin/main` SHA are read back from Git after this handoff commit.
+
+## Phase 12 startup checkpoint — approved 12A/12B only
+
+- Starting local `main`, `origin/main`, and remote `origin/main`: `e6c044774865f99916e564578b4a91ddd5412285`; the working tree was clean and synchronized.
+- Phase 11A, 11B, and 11C are **ACCEPTED / FROZEN** under their final freeze manifests. Phase 1–11 accepted/frozen artifacts remain protected.
+- Isolated worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase12`; branch: `phase-12-vector-ecology`; base SHA: `e6c044774865f99916e564578b4a91ddd5412285`.
+- Durable briefs persisted: `docs/phase_briefs/phase12a_vector_ecology_baseline.md`, `phase12b_vector_environment_human_dependencies.md`, and `phase12c_vector_ecology_futures.md`.
+- Approved implementation scope: Phase 12A — Vector Ecology Baseline, 2026 — and Phase 12B — Vector / Environment / Human-System Dependencies, 2026. Phase 12C is approved scope only and remains not implemented.
+- Expected next maps confirmed from repository state: Map 38 for 12A and Map 39 for 12B.
+- Protected boundaries: vector presence != abundance != pathogen detection != human-vector contact != infection != clinical disease; sampling effort != abundance; detection != establishment; county record != precise local distribution; positive vector pool != human case; reported case != local transmission unless supported.
+- Active holds preserved: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**.
+- No Phase 13, full infectious-disease dynamics, biosecurity, release, or tag is in scope.
+
+## Phase 12 recovery / validation checkpoint
+
+- Recovered the dirty Phase 12 worktree at base SHA `e6c044774865f99916e564578b4a91ddd5412285` without discarding the existing package.
+- Inspected and retained the corrected `VDE-003` builder row with `canon_status=verified`; added builder row-width assertions to prevent recurrence of the stopping defect.
+- Regenerated the affected Phase 12A/12B tables, reports, manifests, and Maps 38/39 from existing evidence. The source registry now retains the original CDC source-page URL and the actual `restoredcdc.org` mirror/retrieval URL, explicitly identified as not CDC-hosted; the direct CDC binary 403 is retained.
+- Phase 12A Python validation passed: 20 nodes, 26 edges, 36 surveillance/context records, 15 habitat associations, 27 sources, 10 uncertainties, Map 38, and 298 prior manifest entries / 293 unique protected artifacts.
+- Phase 12B Python validation passed: 28 dependency-register rows, 28 dependency edges, 8 matrix rows, 8 evidence-crosswalk rows, 27 reused sources, and Map 39.
+- Independent R validators were created at `src/R/systems/validate_vector_ecology_baseline.R` and `src/R/systems/validate_vector_dependencies.R`; both passed with independent map, provenance, boundary, Phase 12A integrity, prior-freeze, and Phase 12C/13 absence checks.
+- Strict grounded-citation checks passed for the four principal Phase 12 reports. Fresh independent review remains before commit, push, and integration.
+- Next exact action: review the complete Phase 12A/12B diff and, if the fresh bounded review passes, commit the coherent package, push the feature branch, fast-forward integrate into `main`, update final status surfaces, and verify synchronization.
+
+## Phase 12 independent review checkpoint
+
+- Fresh bounded independent review `deleg_3199d624` returned `passed: true` with empty security, logic, provenance, ecological, surveillance, spatial-scale, and health-boundary arrays. The durable record is `reports/phase12_independent_review.md`.
+- The reviewer confirmed the actual package counts, 14 Phase 12A and 10 Phase 12B manifest artifacts, 298 prior manifest entries / 293 unique protected artifacts, Maps 38/39, surveillance boundaries, and absence of Phase 12C/13 products.
+- Reviewer suggestions are non-blocking and deferred: three unused registry sources, stronger scoped later-phase exclusion checks, and reconciliation with current refs.
+- Live `main` and `origin/main` advanced after the Phase 12 base to `26794df493e684805d431903436461f3a7a7968d` through two unrelated governance-skill commits. Phase 12 remains at base `e6c044774865f99916e564578b4a91ddd5412285`; preserve both commits and integrate normally without reset or history rewrite.
+- Next exact action: inspect and stage the complete intended Phase 12 package, commit it, push the feature branch with upstream tracking, verify the remote feature ref, merge it normally into the advanced `main`, then finalize status surfaces and synchronization.

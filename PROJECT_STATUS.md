@@ -467,6 +467,40 @@ phase is **NONE**; next analytical phase is **NOT APPROVED**. The fresh Phase
 and review history remain preserved in Git and
 `reports/population_settlement_future_independent_review.md`.
 
+## PHASE 12A — IMPLEMENTED / VALIDATED / AWAITING INTEGRATION
+
+**Vector Ecology Baseline, 2026**
+
+Phase 12A contains 20 vector/ecology nodes, 26 ecology relationships, 36
+surveillance/context records, 15 habitat associations, 27 source records, 10
+uncertainty records, and Map 38. It separates vector presence, abundance,
+pathogen-in-vector detection, human-vector contact, infection, and clinical
+disease; sampling effort is not abundance; detection is not establishment; and
+county records are not precise local distributions.
+
+The package retains different state/program methods and denominators, treats
+non-detection and CDC no-records as not absence, and treats pooled mosquito
+testing as surveillance context rather than an abundance index. The CDC Ixodes
+workbook provenance retains the original CDC source-page URL and the actual
+`restoredcdc.org` mirror/retrieval URL, explicitly not CDC-hosted, after the
+direct CDC binary returned HTTP 403.
+
+## PHASE 12B — IMPLEMENTED / VALIDATED / AWAITING INTEGRATION
+
+**Vector / Environment / Human-System Dependencies, 2026**
+
+Phase 12B contains 28 dependency-register rows, 28 dependency edges, eight
+qualitative matrix rows, eight evidence-crosswalk rows, 27 reused sources, and
+Map 39. Documented relationships remain separate from project inference;
+potential contact interfaces are not exposure, dose, infection, or disease;
+monitoring is not control; and positive vector pools or reported human cases do
+not establish local transmission without supporting evidence.
+
+The Phase 12A working baseline remains immutable during 12B. Phase 12C is
+approved scope only and is not implemented. Active phase remains Phase 12A/12B
+delivery pending final review and integration; the next analytical phase is not
+approved.
+
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry
 

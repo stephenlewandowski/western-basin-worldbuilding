@@ -115,8 +115,11 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 11A Population & Settlement Baseline:** accepted and frozen as a factual 2026 layer; Map 35; `reports/phase11a_population_settlement_freeze_manifest.json`
 - **Phase 11B Population, Mobility & System Dependencies:** accepted and frozen as a qualitative 2026 dependency layer; Map 36; `reports/phase11b_population_mobility_dependencies_freeze_manifest.json`
 - **Phase 11C Population & Settlement Futures:** accepted and frozen as separate qualitative 2050/2075 scenario content; Maps 37/37b; `reports/phase11c_population_settlement_futures_freeze_manifest.json`.
+- **Phase 12A Vector Ecology Baseline:** implemented and validated as a factual 2026 vector ecology/surveillance layer, awaiting integration; Map 38.
+- **Phase 12B Vector / Environment / Human-System Dependencies:** implemented and validated as a separate qualitative 2026 dependency layer, awaiting integration; Map 39.
+- **Phase 12C Vector Ecology Futures:** approved scope only; not implemented.
 
-Final subphase status: Phase 9A is **ACCEPTED / FROZEN**; Phase 9B is **ACCEPTED / FROZEN**; Phase 9C is **ACCEPTED / FROZEN**; Phase 10A is **ACCEPTED / FROZEN**; Phase 10B is **ACCEPTED / FROZEN**; Phase 10C is **ACCEPTED / FROZEN**; Phase 11A is **ACCEPTED / FROZEN**; Phase 11B is **ACCEPTED / FROZEN**; and Phase 11C is **ACCEPTED / FROZEN**. Active phase: **NONE**. Next analytical phase: **NOT APPROVED**.
+Final subphase status: Phase 9A is **ACCEPTED / FROZEN**; Phase 9B is **ACCEPTED / FROZEN**; Phase 9C is **ACCEPTED / FROZEN**; Phase 10A is **ACCEPTED / FROZEN**; Phase 10B is **ACCEPTED / FROZEN**; Phase 10C is **ACCEPTED / FROZEN**; Phase 11A is **ACCEPTED / FROZEN**; Phase 11B is **ACCEPTED / FROZEN**; Phase 11C is **ACCEPTED / FROZEN**; Phase 12A is **IMPLEMENTED / VALIDATED / AWAITING INTEGRATION**; Phase 12B is **IMPLEMENTED / VALIDATED / AWAITING INTEGRATION**; and Phase 12C is **APPROVED / NOT IMPLEMENTED**. Active phase: **Phase 12A/12B delivery**. Next analytical phase: **NOT APPROVED**.
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without
@@ -212,3 +215,29 @@ Phase 11A is a factual 2026 population/settlement layer using 2020 Census enumer
 The accepted package contains 62 nodes, 918 population/settlement observations, 44 relationships, 34 sources, and nine uncertainty records in Phase 11A; plus 302 mobility observations, 142 mobility relationships, 520 dependency-register rows, and 52 qualitative matrix rows in Phase 11B. Ohio and Indiana LODES WAC/RAC/OD are 2023; Michigan WAC/OD are 2021 and RAC is 2023. Michigan cross-vintage WAC/RAC differences are not calculated, OD provenance is state-matched, service dependencies are generalized, and transport dependencies are inferred where appropriate. COMMUTING ≠ MIGRATION, WORKPLACE ≠ RESIDENCE, DEPENDENCY ≠ VULNERABILITY, MODELED POPULATION ≠ CENSUS ENUMERATION, and MUNICIPAL BOUNDARY ≠ UTILITY SERVICE TERRITORY remain explicit boundaries. Phase 11C is a separate qualitative future layer and does not alter these accepted baselines.
 
 Phase 11C contains 36 scenario assumptions, six projection-evidence records, 108 future settlement states, 108 qualitative spatial relationships, 36 uncertainty states, 11 scenario sources, six comparison rows, a comparison figure, and Maps 37/37b. Official Ohio, Michigan, and Indiana county projection products are recorded as 2050 reference evidence without deterministic scenario totals; 2075 is explicit scenario content. Climate migration is a high-uncertainty mechanism, not a population-growth assumption. The layer contains no unsupported exact future totals, fake Census precision, individual movement model, vulnerability/EJ score, protected-class ranking, or utility-territory assignment. The fresh independent review passed with all blocking arrays empty. Active phase: **NONE**; next analytical phase: **NOT APPROVED**.
+
+## Phase 12 boundary
+
+Phase 12A is a factual 2026 vector ecology and surveillance layer containing 20
+nodes, 26 ecology relationships, 36 surveillance/context records, 15 habitat
+associations, 27 sources, 10 uncertainties, and Map 38. Phase 12B is a separate
+qualitative dependency layer containing 28 dependency rows/edges, eight matrix
+rows, eight evidence-crosswalk rows, and Map 39. The layers preserve vector
+presence != abundance != pathogen detection in vector != human-vector contact !=
+human infection != clinical disease; sampling effort != abundance; detection !=
+establishment; county record != precise local distribution; positive vector pool
+!= human case; and reported case != local transmission unless supported.
+
+Different state/program methods and denominators remain distinct. Non-detection
+and CDC no-records are not absence, county detections are not precise local
+distributions, and pooled mosquito testing is not an abundance index. The CDC
+Ixodes source registry retains the original CDC source-page provenance and the
+actual `restoredcdc.org` mirror/retrieval provenance, explicitly not CDC-hosted;
+the direct CDC binary URL returned HTTP 403.
+
+No individual infection probability, disease-risk score, vulnerability/EJ score,
+deterministic incidence forecast, unsupported abundance surface, unsupported
+exact vector range, personal exposure estimate, Phase 12C, or Phase 13 content is
+represented. Phase 12C is **APPROVED SCOPE / NOT IMPLEMENTED**. The Great Black
+Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate
+discrepancy remains **UNRESOLVED**.

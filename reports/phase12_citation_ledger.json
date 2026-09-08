@@ -1,0 +1,125 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://odh.ohio.gov/know-our-programs/zoonotic-disease-program/animals/mosquitoes-in-ohio",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 2,
+      "url": "https://odh.ohio.gov/know-our-programs/zoonotic-disease-program/news/vectorborne-disease-update",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 3,
+      "url": "https://ohid.ohio.gov/wps/wcm/connect/gov/ohio+content+english/odh/know-our-programs/zoonotic-disease-program/media/west-nile-virus-map",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 4,
+      "url": "https://ohioline.osu.edu/factsheet/ent-89",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 5,
+      "url": "https://www.mdpi.com/2075-4450/14/1/56",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 6,
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4106292",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 7,
+      "url": "https://www.michigan.gov/emergingdiseases/-/media/Project/Websites/emergingdiseases/EZID_Annual_Surveillance_Summary.pdf",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 8,
+      "url": "https://www.michigan.gov/emergingdiseases/home/west-nile",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 9,
+      "url": "https://www.in.gov/health/idepd/zoonotic-and-vectorborne-epidemiology-entomology/vector-borne-diseases/mosquito-borne-diseases/aedes-albopictus",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 10,
+      "url": "https://events.in.gov/event/idoh-news-release-indianas-first-west-nile-virus-case-of-2026-reported-in-allen-county",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 11,
+      "url": "https://www.cdc.gov/mosquitoes/about",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 12,
+      "url": "https://www.cdc.gov/mosquitoes/php/toolkit/mosquito-surveillance-traps.html",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 13,
+      "url": "https://www.cdc.gov/west-nile-virus/data-maps",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 14,
+      "url": "https://www.cdc.gov/west-nile-virus/about",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 15,
+      "url": "https://www.cdc.gov/ticks/about/where-ticks-live.html",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 16,
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 17,
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/tick-surveillance-data-sets.html",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 18,
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/blacklegged-tick-surveillance.html",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 19,
+      "url": "https://www.cdc.gov/ticks/data-research/facts-stats/american-dog-tick-surveillance.html",
+      "title": "",
+      "accessed": "2026-09-08"
+    },
+    {
+      "id": 20,
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/index.html",
+      "title": "",
+      "accessed": "2026-09-08"
+    }
+  ]
+}

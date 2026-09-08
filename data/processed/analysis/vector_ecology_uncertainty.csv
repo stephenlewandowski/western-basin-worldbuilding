@@ -1,0 +1,11 @@
+uncertainty_id,subject_id,category,statement,resolution_status,source_id,confidence,notes
+VUNC-001,VEC-001,presence_vs_abundance,Ohio presence and habitat documentation do not quantify local abundance.,open,v12_ohio_mosquitoes,high,Presence != abundance.
+VUNC-002,VEC-004,study_generalization,Wooster and Michigan study findings are not a Western Basin-wide range or abundance estimate.,open,v12_ohio_ae_japonicus,high,Study detection and trap composition retain local scope.
+VUNC-003,VEC-006,tick_no_records,CDC no-record county status is not evidence of tick absence.,qualified,v12_cdc_tick_sets,high,Detection != establishment; no records != absence.
+VUNC-004,VEC-006,county_scale,CDC county status does not resolve precise local distribution within a county.,open,v12_cdc_tick_sets,high,County record != precise local distribution.
+VUNC-005,VEC-015,mosquito_effort,Ohio pooled counts do not provide comparable county-level trap effort or species composition.,open,v12_ohio_vector_update,high,Sampling effort != abundance.
+VUNC-006,VEC-016,program_coverage,"Michigan surveillance totals reflect participating jurisdictions and program methods, not uniform statewide coverage.",open,v12_mi_annual_2023,high,Coverage and methods vary.
+VUNC-007,VEC-017,state_effort,Indiana 2026 positive-county summary does not report comparable sampling effort or species-level counts.,open,v12_in_wnv_2026,high,Detection status cannot be converted to abundance.
+VUNC-008,VEC-019,pathogen_health_boundary,"A positive mosquito pool or tick pathogen record is not a human case, infection, clinical disease, or local transmission proof.",qualified,v12_cdc_wnv_data,high,Health boundary is explicit.
+VUNC-009,VEC-020,case_geography,Human case county-of-residence data are not necessarily exposure or infection location.,qualified,v12_cdc_lyme,high,Reported human case != local transmission.
+VUNC-010,VEC-008,held_geometry,Great Black Swamp remains C — HOLD / noncanonical and is not used as a vector habitat polygon.,open,phase6_ecology_context,high,Toledo intake-coordinate discrepancy remains unresolved.

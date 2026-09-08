@@ -1,0 +1,65 @@
+{
+  "phase": "12B",
+  "status": "implemented_validated_pending_sol_acceptance",
+  "map_number": 39,
+  "counts": {
+    "dependency_register": 28,
+    "dependency_edges": 28,
+    "matrix_rows": 8,
+    "evidence_rows": 8,
+    "sources_reused": 27
+  },
+  "artifacts": {
+    "data/processed/analysis/vector_system_dependency_register.csv": {
+      "sha256": "2cd09802a858a779223ee9325a5ed744cdcb89e99f2e585c5c96e0e08572c9fa",
+      "bytes": 8097
+    },
+    "data/processed/networks/vector_system_dependency_edges.csv": {
+      "sha256": "2cd09802a858a779223ee9325a5ed744cdcb89e99f2e585c5c96e0e08572c9fa",
+      "bytes": 8097
+    },
+    "data/processed/analysis/vector_system_dependency_matrix.csv": {
+      "sha256": "59008d9332f59599a9c6a22f521d83e1c3e097199c0dcce71efb9e4fa3a1b479",
+      "bytes": 2302
+    },
+    "data/processed/analysis/vector_dependency_evidence.csv": {
+      "sha256": "b0d4c067160f2fd4b799ef95528583385daa87b8a3d32802f587f74ff42a2852",
+      "bytes": 2159
+    },
+    "outputs/maps/systems/39_vector_environment_human_dependencies_2026.png": {
+      "sha256": "9e15babcd3e39d8bd6b8631ac7d9a2f6a26f6eab1daa2f26e9d684388a369c81",
+      "bytes": 1277924
+    },
+    "outputs/maps/systems/39_vector_environment_human_dependencies_2026.svg": {
+      "sha256": "0783e35afa3ff0f614d620ae239356fafd26567ec2adc8f7409cba24fe3a9a03",
+      "bytes": 17194865
+    },
+    "reports/vector_dependency_sources.md": {
+      "sha256": "702e93a3e971c834c571352bd0ed2d4e6d76f3ee4313f5404e2280f62df6f4f3",
+      "bytes": 2948
+    },
+    "reports/vector_dependency_assumptions.md": {
+      "sha256": "432616b440ef35c819d9479e0cbf2cf877ff2832c62a4d6ba2b5b84d571e878b",
+      "bytes": 1394
+    },
+    "reports/vector_dependency_findings.md": {
+      "sha256": "a86eb57a2ede3cdb1e8d95a5d9d187551977850663d19d82c7b9b94152c0c7b4",
+      "bytes": 4682
+    },
+    "reports/vector_dependency_qa.md": {
+      "sha256": "9902c4d7734537093dd0ab41f0aa4cedeb4bb7b18f7d391320ded7b7ca8125a4",
+      "bytes": 1021
+    }
+  },
+  "protected_12a_manifest": {
+    "path": "reports/vector_ecology_baseline_manifest.json",
+    "sha256": "4ae474f35610ec8c78f843c8995da6b1c1035edffb23fd1efd6a71fa6c3ef918",
+    "bytes": 3435
+  },
+  "phase12c_implemented": false,
+  "phase13_implemented": false,
+  "active_holds_preserved": {
+    "great_black_swamp": "C \u2014 HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  }
+}
