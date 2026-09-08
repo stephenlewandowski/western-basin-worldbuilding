@@ -856,3 +856,15 @@ Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; 
 - Python and independent R Phase 12C validation passed with review required. Strict grounded-citation/provenance validation passed. NPM tests/build, Markdown-link validation, Git/LFS checks, and staged whitespace checks passed.
 - Final state: Phase 12C **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; Active phase **NONE**; Next analytical phase **NOT APPROVED**. Great Black Swamp remains **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy remains **UNRESOLVED**.
 - Deferred maintenance remains unchanged: Phase 6B manifest status wording mismatch and Phase 3A missing manifest status. No Phase 13 implementation, release, or tag was created. Final handoff bookkeeping commit and synchronized main/origin SHAs must be read back from Git after this update.
+
+## Phase 12C final acceptance / freeze handoff — 2026-09-08
+
+- Starting acceptance-run SHA: `d6aaa7f357ddef7a89be29577bdd315b4f70eaf8`; local `main` and `origin/main` were clean and synchronized before freeze bookkeeping.
+- Sol formally accepted and froze Phase 12C — Vector Ecology Futures, 2050 / 2075 — as a separate qualitative scenario layer.
+- Accepted package: 36 assumptions, 36 vector states, 48 habitat states, 30 surveillance states, 168 dependency states, 60 uncertainty states, 28 scenario-source records, six comparison rows, and Maps 40/40b.
+- Final freeze manifest: `reports/phase12c_vector_ecology_futures_freeze_manifest.json`; protected count: 28 artifacts. It protects the accepted scenario package, reports, working manifest, artifact check, initial failed review, final independent review, scenario validators, and independent Python/R freeze validators.
+- Python freeze validation passed with 28 Phase 12C artifacts, 17 Phase 12A artifacts, 15 Phase 12B artifacts, 298 prior Phase 1–11 manifest entries, and 293 unique protected artifacts. Independent R freeze validation passed with the same counts. Phase 12C scenario Python/R validation and strict grounded-citation/provenance validation passed.
+- Final independent review `deleg_8c342c98` remains preserved with `passed: true` and all blocking arrays empty. The initial failed review and implementation/correction/review/integration history remain unrevised.
+- Phase 12A, 12B, and 12C are **ACCEPTED / FROZEN**. Active phase: **NONE**. Next analytical phase: **NOT APPROVED**.
+- Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred maintenance remains limited to the Phase 6B manifest status wording mismatch and the Phase 3A missing manifest status.
+- No Phase 13 implementation, release, or tag was created. Final main/origin synchronization and all-worktree cleanliness are verified after the acceptance commit rather than embedded self-referentially here.

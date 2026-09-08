@@ -22,6 +22,7 @@ REPORTS = ROOT / "reports"
 BASE_SHA = "e3d5226dcd1f334a41f83bdd10dc5382bd5a0f80"
 A_FREEZE = REPORTS / "phase12a_vector_ecology_freeze_manifest.json"
 B_FREEZE = REPORTS / "phase12b_vector_environment_human_dependencies_freeze_manifest.json"
+C_FREEZE = REPORTS / "phase12c_vector_ecology_futures_freeze_manifest.json"
 MANIFEST = REPORTS / "vector_ecology_future_manifest.json"
 LEDGER = REPORTS / "phase12c_citation_ledger.json"
 CITATION_SCRIPT = Path.home() / "AppData/Local/hermes/skills/research/grounded-citations/scripts/sources.py"
@@ -136,7 +137,7 @@ def check_frozen_inputs() -> tuple[int, int, set[str]]:
     expected_hashes: dict[str, str] = {}
     entries_count = 0
     for path in sorted(REPORTS.glob("phase*_freeze_manifest.json")):
-        if path.name in {A_FREEZE.name, B_FREEZE.name}:
+        if path.name in {A_FREEZE.name, B_FREEZE.name, C_FREEZE.name}:
             continue
         payload = json.loads(path.read_text(encoding="utf-8"))
         for relative, metadata in artifact_entries(payload).items():

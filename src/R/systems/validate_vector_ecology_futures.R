@@ -193,6 +193,7 @@ for (url in c("https://odh.ohio.gov/know-our-programs/zoonotic-disease-program/a
 
 check_manifest(A_FREEZE <- file.path(reports,"phase12a_vector_ecology_freeze_manifest.json"),17,"12A","Vector Ecology Baseline, 2026")
 check_manifest(B_FREEZE <- file.path(reports,"phase12b_vector_environment_human_dependencies_freeze_manifest.json"),15,"12B","Vector / Environment / Human-System Dependencies, 2026")
+C_FREEZE <- file.path(reports,"phase12c_vector_ecology_futures_freeze_manifest.json")
 
 future_manifest <- file.path(reports,"vector_ecology_future_manifest.json")
 future_text <- json_text(future_manifest)
@@ -208,7 +209,7 @@ if (require_review) {
 for (i in seq_len(nrow(future_artifacts))) stop_if(file.exists(file.path(root,future_artifacts$rel[[i]])) && portable_match(file.path(root,future_artifacts$rel[[i]]), future_artifacts$sha256[[i]]), paste("future manifest hash",future_artifacts$rel[[i]]))
 
 prior_files <- list.files(reports, pattern="^phase.*_freeze_manifest[.]json$", full.names=TRUE)
-prior_files <- prior_files[!(basename(prior_files) %in% c("phase12a_vector_ecology_freeze_manifest.json","phase12b_vector_environment_human_dependencies_freeze_manifest.json"))]
+prior_files <- prior_files[!(basename(prior_files) %in% c("phase12a_vector_ecology_freeze_manifest.json","phase12b_vector_environment_human_dependencies_freeze_manifest.json","phase12c_vector_ecology_futures_freeze_manifest.json"))]
 protected <- character(); expected_hashes <- character(); prior_entries <- 0L
 for (path in sort(prior_files)) {
   x <- manifest_artifacts(path)

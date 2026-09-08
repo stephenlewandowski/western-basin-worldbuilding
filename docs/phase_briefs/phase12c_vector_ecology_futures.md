@@ -1,6 +1,6 @@
 # Phase 12C — Vector Ecology Futures, 2050 / 2075
 
-Status: IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE.
+Status: ACCEPTED / FROZEN.
 
 ## Approved scope
 
@@ -60,3 +60,6 @@ observed distribution or guaranteed establishment. No abundance, pathogen
 prevalence, human contact/infection, disease incidence, individual-risk,
 vulnerability/EJ, or precise future-range product is included. The final bounded
 independent review and delivery state are recorded in the Phase 12C reports.
+Sol accepted and froze Phase 12C under
+`reports/phase12c_vector_ecology_futures_freeze_manifest.json` (28 artifacts); the
+active phase is NONE and the next analytical phase is NOT APPROVED.

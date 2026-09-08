@@ -1,0 +1,173 @@
+{
+  "accepted_phase": "12C",
+  "baseline": "Vector Ecology Futures, 2050 / 2075",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-08",
+  "source_commit": "d6aaa7f357ddef7a89be29577bdd315b4f70eaf8",
+  "acceptance_basis": "Sol formally accepted and froze the corrected, validated Phase 12C qualitative futures package after Python and independent R validation, strict grounded-citation/provenance checks, Phase 12A/12B freeze-integrity verification, prior-system immutability verification, and the final bounded independent review passing with all blocking arrays empty.",
+  "counts": {
+    "scenario_assumptions": 36,
+    "vector_states": 36,
+    "habitat_states": 48,
+    "surveillance_states": 30,
+    "dependency_states": 168,
+    "uncertainty_states": 60,
+    "scenario_sources": 28,
+    "comparison_rows": 6
+  },
+  "artifacts": {
+    "data/processed/scenarios/vector_ecology_scenario_assumptions.csv": {
+      "sha256": "ccb29c4149c9e9a5352d8f4bc169bb6bfbd5d756999184afc83b09aa5f8c412c",
+      "bytes": 35667,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "data/processed/scenarios/vector_ecology_vector_states_scenario.csv": {
+      "sha256": "4a695315a2de9c6293107de63545860c774a67f5c6ef96b6d36342dd0b7c56bc",
+      "bytes": 80672,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "data/processed/scenarios/vector_ecology_habitat_states_scenario.csv": {
+      "sha256": "2983ead603eae48d329b23315031768f638a86417bc90e26343cd729c317d488",
+      "bytes": 37826,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "data/processed/scenarios/vector_ecology_surveillance_states_scenario.csv": {
+      "sha256": "f5c9f25382d761b0a6de4cf9821ffb7ef012127fdef04a1539306c632655d8c0",
+      "bytes": 28122,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "data/processed/scenarios/vector_ecology_dependency_states_scenario.csv": {
+      "sha256": "741729a66db509b226c9dfed48c368c1e5d55347bfd070f328a75fcaebc4a221",
+      "bytes": 247659,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "data/processed/scenarios/vector_ecology_uncertainty_states_scenario.csv": {
+      "sha256": "c4c49af9811e474e1c12c6c47ff39bc28b70c997e1566a0a3685515f1a581921",
+      "bytes": 74591,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "data/processed/analysis/vector_ecology_future_sources.csv": {
+      "sha256": "325eddd71279a595ad5f2b46a0f2133806c1c3541ffa4574fc5731ff0afaa16d",
+      "bytes": 10295,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "outputs/figures/vector_ecology_future_comparison.csv": {
+      "sha256": "d9fff36078d9c725047dcbe9471992d78e2d5a9d3fac5d0d7537f466c21ef2e9",
+      "bytes": 5514,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "outputs/figures/vector_ecology_future_comparison.png": {
+      "sha256": "19ba3863dbd6f6128db55a2ee87ca5e2a5ea9a78a616ad050b08efcf3721b682",
+      "bytes": 198629,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "outputs/figures/vector_ecology_future_comparison.svg": {
+      "sha256": "297ef555cb79daee7c1fce6a8c5f15e8aa81d3afe057602c2d7d214338358346",
+      "bytes": 32055,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "outputs/maps/systems/40_vector_ecology_futures_2050.png": {
+      "sha256": "92b04c4c2807f7ecfc2af2296a3ef372b2503efe6cc0622ad6722649d0f1ca1c",
+      "bytes": 237958,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "outputs/maps/systems/40_vector_ecology_futures_2050.svg": {
+      "sha256": "6aaeb2e280e318a2602c69a21fa03dafa4b331aee334c23e33f8912bc8a887fc",
+      "bytes": 20629,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "outputs/maps/systems/40b_vector_ecology_futures_2075.png": {
+      "sha256": "467cd4d555b54a47cf23eff389ce8dda04391800e87f90de591afb8ba25bb62f",
+      "bytes": 243402,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "outputs/maps/systems/40b_vector_ecology_futures_2075.svg": {
+      "sha256": "6d5772ed38b4794cc76cbce769133ac3ee5a75ff728e925c0d67bdbea74f35fa",
+      "bytes": 20623,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "reports/phase12c_citation_ledger.json": {
+      "sha256": "6556b80e91c56045ad9095bf93ae635fa764c6dbb3e43e00925651403cc380dc",
+      "bytes": 3984,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "reports/vector_ecology_future_sources.md": {
+      "sha256": "e5fe985a21a1f25f8677962da8358123d066257284ce0b283d0772bb55a00e0f",
+      "bytes": 4148,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "reports/vector_ecology_future_assumptions.md": {
+      "sha256": "d684b2672bb75fd4c40ace413da07ce69652cfc196367a0b2f5e250a7fb48160",
+      "bytes": 4449,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "reports/vector_ecology_future_findings.md": {
+      "sha256": "7128c4a2dfc46bf73e85c1426537131ff01aa538aab35c88d36634d351029112",
+      "bytes": 6640,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "reports/vector_ecology_future_consistency.md": {
+      "sha256": "86b5d00903801d436edf279d8219c42d95eed9259ba2b598ba57448cc1d5e4d7",
+      "bytes": 1831,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "reports/vector_ecology_future_qa.md": {
+      "sha256": "a901ee50b4c46749c0495caec3121d8d87bfae86c62cbebab01070a3c9b5b10e",
+      "bytes": 1720,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "reports/vector_ecology_future_worldbuilding.md": {
+      "sha256": "a2cf4ce70bd3e3cd17696dd792f2c3d6aabca2de4a6f1728be12625bf58b70e0",
+      "bytes": 1062,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "src/python/systems/validate_vector_ecology_futures.py": {
+      "sha256": "afee9c7acfc14c8a28d5a27a3125c358cf56a6a31a0a7c778d66e4c2a78af8fa",
+      "bytes": 27774,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "src/R/systems/validate_vector_ecology_futures.R": {
+      "sha256": "a9c113d4033d9083ba663b9a8c77eaa32c93ddecffa88709e520e7a94725daa1",
+      "bytes": 24873,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "reports/vector_ecology_future_independent_review.md": {
+      "sha256": "0e67ca12770ea0823669bfcf90e3278f7cd98ae4640484c04bed341837e43001",
+      "bytes": 1224,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "reports/vector_ecology_future_independent_review_initial.md": {
+      "sha256": "e89e252d0c230ec17b82af1fc8659f29e643b6dd8cb5a2f7138d363e9e32a497",
+      "bytes": 2303,
+      "role": "Phase 12C accepted analytical artifact"
+    },
+    "reports/vector_ecology_future_artifact_check.json": {
+      "sha256": "9f6f9db7dda5ad0effbe5807dc9e6abdab24bb319d2298117abc946533983bf0",
+      "bytes": 1581,
+      "role": "machine validation result"
+    },
+    "src/python/systems/validate_phase12c_freeze.py": {
+      "sha256": "e8c6b81c2fd4d71e9584103ebaea29fb272b2076575a4e7c722db4e117407f0e",
+      "bytes": 7921,
+      "role": "Python independent freeze validator"
+    },
+    "src/R/systems/validate_phase12c_freeze.R": {
+      "sha256": "22dea1a53ee9cc3452e49b32b84806eab72e3d0b475da7610809c4a9a08b2fe3",
+      "bytes": 8415,
+      "role": "independent R freeze validator"
+    }
+  },
+  "protected_inputs": [
+    "reports/phase12a_vector_ecology_freeze_manifest.json",
+    "reports/phase12b_vector_environment_human_dependencies_freeze_manifest.json",
+    "reports/vector_ecology_future_manifest.json"
+  ],
+  "phase12a_12b_immutable": true,
+  "phase1_11_immutable": true,
+  "phase13_implemented": false,
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  }
+}

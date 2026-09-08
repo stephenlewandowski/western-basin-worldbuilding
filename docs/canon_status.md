@@ -117,9 +117,9 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 11C Population & Settlement Futures:** accepted and frozen as separate qualitative 2050/2075 scenario content; Maps 37/37b; `reports/phase11c_population_settlement_futures_freeze_manifest.json`.
 - **Phase 12A Vector Ecology Baseline:** accepted and frozen as a factual 2026 vector ecology/surveillance layer; Map 38; `reports/phase12a_vector_ecology_freeze_manifest.json`.
 - **Phase 12B Vector / Environment / Human-System Dependencies:** accepted and frozen as a separate qualitative 2026 dependency layer; Map 39; `reports/phase12b_vector_environment_human_dependencies_freeze_manifest.json`.
-- **Phase 12C Vector Ecology Futures:** implemented, validated, and integrated as a separate qualitative 2050/2075 scenario layer; awaiting Sol acceptance; Maps 40/40b.
+- **Phase 12C Vector Ecology Futures:** accepted and frozen as a separate qualitative 2050/2075 scenario layer; Maps 40/40b; `reports/phase12c_vector_ecology_futures_freeze_manifest.json` (28 artifacts).
 
-Final subphase status: Phase 9A is **ACCEPTED / FROZEN**; Phase 9B is **ACCEPTED / FROZEN**; Phase 9C is **ACCEPTED / FROZEN**; Phase 10A is **ACCEPTED / FROZEN**; Phase 10B is **ACCEPTED / FROZEN**; Phase 10C is **ACCEPTED / FROZEN**; Phase 11A is **ACCEPTED / FROZEN**; Phase 11B is **ACCEPTED / FROZEN**; Phase 11C is **ACCEPTED / FROZEN**; Phase 12A is **ACCEPTED / FROZEN**; Phase 12B is **ACCEPTED / FROZEN**; and Phase 12C is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Active phase: **NONE**. Next analytical phase: **NOT APPROVED**.
+Final subphase status: Phase 9A is **ACCEPTED / FROZEN**; Phase 9B is **ACCEPTED / FROZEN**; Phase 9C is **ACCEPTED / FROZEN**; Phase 10A is **ACCEPTED / FROZEN**; Phase 10B is **ACCEPTED / FROZEN**; Phase 10C is **ACCEPTED / FROZEN**; Phase 11A is **ACCEPTED / FROZEN**; Phase 11B is **ACCEPTED / FROZEN**; Phase 11C is **ACCEPTED / FROZEN**; Phase 12A is **ACCEPTED / FROZEN**; Phase 12B is **ACCEPTED / FROZEN**; and Phase 12C is **ACCEPTED / FROZEN**. Active phase: **NONE**. Next analytical phase: **NOT APPROVED**.
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without
@@ -237,13 +237,13 @@ the direct CDC binary URL returned HTTP 403.
 
 No individual infection probability, disease-risk score, vulnerability/EJ score,
 deterministic incidence forecast, unsupported abundance surface, unsupported
-exact vector range, personal exposure estimate, Phase 12C, or Phase 13 content is
-Phase 12A and Phase 12B are **ACCEPTED / FROZEN** under their final
-freeze manifests. Phase 12C is implemented as a separate qualitative future
-layer and awaits Sol acceptance; it does not modify the accepted Phase 12A/12B
-artifacts. The implementation, corrected VDE-003 lineage, independent review,
-and validation history remains preserved. The Great Black Swamp remains
-**C — HOLD / noncanonical** and the Toledo intake-coordinate discrepancy remains
-**UNRESOLVED**. Deferred maintenance is limited to the Phase 6B manifest status
-wording mismatch and the Phase 3A missing manifest status; neither was altered
-in this freeze run.
+exact vector range, personal exposure estimate, or Phase 13 content is in the
+Phase 12A/12B accepted package. Phase 12A, Phase 12B, and Phase 12C are
+**ACCEPTED / FROZEN** under their final freeze manifests. Phase 12C remains a
+separate qualitative future layer and does not modify the accepted Phase 12A/12B
+artifacts. The implementation, corrected VDE-003 lineage, initial failed review,
+final independent review, and validation history remain preserved. The Great
+Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate
+discrepancy remains **UNRESOLVED**. Deferred maintenance is limited to the Phase
+6B manifest status wording mismatch and the Phase 3A missing manifest status;
+neither was altered in this freeze run.

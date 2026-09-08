@@ -334,7 +334,7 @@ sources, and Map 39.
 - `vector_ecology_sources.md`, `vector_ecology_assumptions.md`, `vector_ecology_findings.md`, `vector_ecology_qa.md`
 - `vector_dependency_sources.md`, `vector_dependency_assumptions.md`, `vector_dependency_findings.md`, `vector_dependency_qa.md`
 - `vector_ecology_baseline_manifest.json`, `vector_dependency_manifest.json`, and `phase12_working_manifest.json` — pre-acceptance working manifests retained for lineage
-- `phase12a_vector_ecology_freeze_manifest.json` and `phase12b_vector_environment_human_dependencies_freeze_manifest.json` — final Sol-acceptance freeze manifests
+- `phase12a_vector_ecology_freeze_manifest.json` (17 artifacts), `phase12b_vector_environment_human_dependencies_freeze_manifest.json` (15 artifacts), and `phase12c_vector_ecology_futures_freeze_manifest.json` (28 artifacts) — final Sol-acceptance freeze manifests
 - `phase12_independent_review.md` — fresh bounded review; `passed: true` with all blocking arrays empty
 - `../src/python/systems/build_vector_ecology.py`, `validate_vector_ecology_baseline.py`, and `validate_vector_dependencies.py`
 - `../src/R/systems/validate_vector_ecology_baseline.R` and `validate_vector_dependencies.R`
@@ -349,15 +349,16 @@ sources, and Map 39.
 - `vector_ecology_future_independent_review_initial.md` — failed initial review retained as correction lineage
 - `vector_ecology_future_independent_review.md` — fresh corrected-package review; `passed: true` with all blocking arrays empty
 - `../src/python/systems/build_vector_ecology_futures.py`, `validate_vector_ecology_futures.py`, and `../src/R/systems/validate_vector_ecology_futures.R`
+- `../src/python/systems/validate_phase12c_freeze.py` and `../src/R/systems/validate_phase12c_freeze.R` — independent final Phase 12C freeze validators
 
 The package preserves presence != abundance, pathogen detection != human
 infection, sampling effort != abundance, detection != establishment, county
 record != precise local distribution, non-detection/CDC no-records != absence,
 and positive vector pool or human case != local transmission. Phase 12C is
-implemented, validated, and integrated as a separate qualitative 2050/2075
-scenario layer awaiting Sol acceptance. It creates no individual risk or
-exposure estimate, disease-risk or vulnerability/EJ score, unsupported
-abundance/range surface, Phase 13, release, or tag. Active phase is NONE; the
-next analytical phase is NOT APPROVED. Deferred maintenance is limited to the
-Phase 6B manifest status wording mismatch and the Phase 3A missing manifest
-status; neither was altered during the Phase 12 freeze.
+**ACCEPTED / FROZEN** as a separate qualitative 2050/2075 scenario layer under
+`phase12c_vector_ecology_futures_freeze_manifest.json` (28 protected artifacts).
+It creates no individual risk or exposure estimate, disease-risk or
+vulnerability/EJ score, unsupported abundance/range surface, Phase 13, release,
+or tag. Active phase is NONE; the next analytical phase is NOT APPROVED.
+Deferred maintenance is limited to the Phase 6B manifest status wording mismatch
+and the Phase 3A missing manifest status; neither was altered during this freeze.

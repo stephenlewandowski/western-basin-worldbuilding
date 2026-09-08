@@ -510,7 +510,7 @@ history remains preserved in Git: `ec37108371d51ccdecd9fafcbde58463d79911d7`,
 `dc231c3e5c371050482c9cf8f4f938b4ec55a624`, `326fbd7`, `0853f8b`, and
 `e158740aa35f31d2155a9906a3bc2c5529fb5147`.
 
-## PHASE 12C — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 12C — ACCEPTED / FROZEN
 
 **Vector Ecology Futures, 2050 / 2075**
 
@@ -529,12 +529,17 @@ future range polygon, abundance estimate, pathogen-prevalence forecast, human
 contact/infection model, disease-incidence forecast, exposure/dose model,
 vulnerability/EJ score, or individual-risk surface.
 
-The corrected package is protected by `reports/vector_ecology_future_manifest.json`
-and `reports/vector_ecology_future_artifact_check.json`. Deterministic Python and
-independent R validation passed; strict citation/provenance validation passed;
-the first failed review is preserved as correction lineage and the fresh bounded
-independent review passed. The feature branch was pushed and integrated normally
-into `main`; Phase 12A/12B remain immutable.
+Sol formally accepted and froze the corrected package after deterministic Python
+and independent R validation, strict grounded-citation/provenance checks,
+Phase 12A/12B freeze-integrity verification, verification of 298 prior manifest
+entries / 293 unique protected artifacts, and the fresh bounded independent
+review passing with all blocking arrays empty. Final freeze protection is recorded
+in `reports/phase12c_vector_ecology_futures_freeze_manifest.json` (28 artifacts).
+The working manifest and artifact check remain preserved, as do the initial failed
+review, correction lineage, implementation history, and final review. Python and
+independent R freeze validators are `src/python/systems/validate_phase12c_freeze.py`
+and `src/R/systems/validate_phase12c_freeze.R`. Phase 12A/12B remain immutable.
+
 Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate
 discrepancy remains UNRESOLVED. Phase 13 is not implemented.
 

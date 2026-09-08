@@ -536,17 +536,19 @@ Dependencies layer.
 - [Phase 12C independent review](reports/vector_ecology_future_independent_review.md)
 - [Phase 12C Python validator](src/python/systems/validate_vector_ecology_futures.py)
 - [Phase 12C independent R validator](src/R/systems/validate_vector_ecology_futures.R)
+- [Phase 12C freeze manifest](reports/phase12c_vector_ecology_futures_freeze_manifest.json) — 28 protected artifacts
+- [Phase 12C Python freeze validator](src/python/systems/validate_phase12c_freeze.py)
+- [Phase 12C independent R freeze validator](src/R/systems/validate_phase12c_freeze.R)
 
 The package keeps vector presence, abundance, pathogen-in-vector detection,
 human-vector contact, infection, and clinical disease separate. Sampling effort
 is not abundance; detection is not establishment; non-detection and CDC
 no-records are not absence; county detections are not precise local
 distributions; and positive vector pools or human cases are not local
-transmission proof. Phase 12C is implemented, validated, and integrated as a
-separate qualitative scenario layer awaiting Sol acceptance. It creates no
-individual risk, exposure estimate, disease-risk score, vulnerability/EJ score,
-unsupported abundance or range surface, Phase 13, release, or tag. Active phase
-is NONE; the next analytical phase is NOT APPROVED.
+transmission proof. Phase 12C is **ACCEPTED / FROZEN** as a separate qualitative
+scenario layer. It creates no individual risk, exposure estimate, disease-risk
+score, vulnerability/EJ score, unsupported abundance or range surface, Phase 13,
+release, or tag. Active phase is NONE; the next analytical phase is NOT APPROVED.
 
 ```text
 assets/                 exploratory concept art and archived generated maps
