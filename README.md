@@ -448,7 +448,7 @@ Rscript src\\R\\systems\\validate_governance_dependencies.R .
 
 ## Phase 11 Population & Settlement Dynamics
 
-Phase 11A and 11B are **ACCEPTED / FROZEN**. Phase 11C is approved scope only and is not implemented. The final freeze manifests are `reports/phase11a_population_settlement_freeze_manifest.json` and `reports/phase11b_population_mobility_dependencies_freeze_manifest.json`.
+Phase 11A and 11B are **ACCEPTED / FROZEN**. Phase 11C is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** as a separate qualitative 2050/2075 scenario layer. The final freeze manifests are `reports/phase11a_population_settlement_freeze_manifest.json` and `reports/phase11b_population_mobility_dependencies_freeze_manifest.json`; the Phase 11C working manifest is `reports/population_settlement_future_manifest.json`.
 
 - [35 — Population & settlement system, 2026](outputs/maps/systems/35_population_settlement_2026.png)
 - [36 — Population, mobility & system dependencies, 2026](outputs/maps/systems/36_population_mobility_dependencies_2026.png)
@@ -468,8 +468,17 @@ Phase 11A and 11B are **ACCEPTED / FROZEN**. Phase 11C is approved scope only an
 - [Phase 11A brief](docs/phase_briefs/phase11a_population_settlement_baseline.md)
 - [Phase 11B brief](docs/phase_briefs/phase11b_population_mobility_dependencies.md)
 - [Phase 11C approved-scope brief](docs/phase_briefs/phase11c_population_settlement_futures.md)
+- [37 — Population & settlement futures, 2050](outputs/maps/systems/37_population_settlement_futures_2050.png)
+- [37b — Population & settlement futures, 2075](outputs/maps/systems/37b_population_settlement_futures_2075.png)
+- [Phase 11C future settlement states](data/processed/scenarios/population_settlement_future_states.csv)
+- [Phase 11C future spatial relationships](data/processed/networks/population_settlement_future_relationships.csv)
+- [Phase 11C projection evidence](data/processed/scenarios/population_settlement_projection_evidence.csv)
+- [Phase 11C comparison figure](outputs/figures/population_settlement_future_comparison.png)
+- [Phase 11C working manifest](reports/population_settlement_future_manifest.json)
+- [Phase 11C Python validator](src/python/systems/validate_population_settlement_futures.py)
+- [Phase 11C independent R validator](src/R/systems/validate_population_settlement_futures.R)
 
-The package preserves person/household/housing-unit/density/worker/job/commuter distinctions, residence/workplace and commuting/migration boundaries, mixed Census/ACS/PEP/LODES vintages, and generalized service/dependency interfaces. It creates no vulnerability or environmental-justice score, protected-class ranking, individual movement model, health outcome, exact utility territory, unsupported forecast, or future population layer.
+The package preserves person/household/housing-unit/density/worker/job/commuter distinctions, residence/workplace and commuting/migration boundaries, mixed Census/ACS/PEP/LODES vintages, and generalized service/dependency interfaces. Phase 11C models qualitative spatial redistribution and settlement form through Connected Reconcentration, Polycentric Adaptive Basin, and Uneven Change / Infrastructure Strain, using official 2050 county projection products as reference evidence without deterministic scenario totals. It creates no unsupported exact future total, vulnerability or environmental-justice score, protected-class ranking, individual movement model, health outcome, exact utility territory, or unsupported forecast. Active phase is NONE; no Phase 12, release, or tag is authorized.
 
 ```text
 assets/                 exploratory concept art and archived generated maps

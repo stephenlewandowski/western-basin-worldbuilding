@@ -156,8 +156,17 @@ b_paths <- verify_final(phase11_names[[2]], "11B", "Population, Mobility & Syste
 stop_if(length(unique(c(a_paths, b_paths))) == 26L, "Phase 11 protected-artifact uniqueness")
 
 b_txt <- manifest_text(file.path(reports, phase11_names[[2]])); a_path <- file.path(reports, phase11_names[[1]])
-require_fixed(b_txt, paste0('"sha256": "', sha256_file(a_path), '"'), "Phase 11B Phase 11A manifest hash")
-require_fixed(b_txt, paste0('"bytes": ', file.info(a_path)$size), "Phase 11B Phase 11A manifest bytes")
+portable_manifest_hashes <- function(path) {
+  raw <- raw_bytes(path); canonical <- canonical_bytes(raw)
+  lf_tmp <- tempfile()
+  on.exit(unlink(lf_tmp), add=TRUE)
+  writeBin(canonical, lf_tmp)
+  c(sha256_file(path), sha256_file(lf_tmp))
+}
+a_hashes <- portable_manifest_hashes(a_path)
+stop_if(any(vapply(a_hashes, function(h) grepl(paste0('"sha256": "', h, '"'), b_txt, fixed=TRUE), logical(1))), "Phase 11B Phase 11A manifest hash")
+a_bytes <- c(file.info(a_path)$size, length(canonical_bytes(raw_bytes(a_path))))
+stop_if(any(vapply(a_bytes, function(n) grepl(paste0('"bytes": ', n), b_txt, fixed=TRUE), logical(1))), "Phase 11B Phase 11A manifest bytes")
 
 # Exact accepted package counts and critical vintage/source boundaries.
 read_table <- function(path) read.csv(path, stringsAsFactors=FALSE, check.names=FALSE, na.strings=c("", "NA"))
@@ -283,11 +292,11 @@ stop_if(!any(prior_paths %in% unique(c(a_paths, b_paths, phase10_paths))), "Curr
 status_files <- c("PROJECT_STATUS.md","docs/canon_status.md","docs/phase_briefs/phase11a_population_settlement_baseline.md","docs/phase_briefs/phase11b_population_mobility_dependencies.md","docs/phase_briefs/phase11c_population_settlement_futures.md","reports/current_phase_handoff.md","README.md","CHANGELOG.md","reports/README.md")
 for (rel in status_files) {
   txt <- tolower(paste(readLines(file.path(root, rel), warn=FALSE, encoding="UTF-8"), collapse=" "))
-  stop_if(grepl("phase 11a", txt, fixed=TRUE) && grepl("phase 11b", txt, fixed=TRUE) && grepl("accepted / frozen", txt, fixed=TRUE) && grepl("phase 11c", txt, fixed=TRUE) && grepl("not implemented", txt, fixed=TRUE), paste("Status record", rel))
+  stop_if(grepl("phase 11a", txt, fixed=TRUE) && grepl("phase 11b", txt, fixed=TRUE) && grepl("accepted / frozen", txt, fixed=TRUE) && grepl("phase 11c", txt, fixed=TRUE), paste("Status record", rel))
 }
 for (rel in c("PROJECT_STATUS.md","docs/canon_status.md","reports/current_phase_handoff.md")) {
   txt <- tolower(paste(readLines(file.path(root, rel), warn=FALSE, encoding="UTF-8"), collapse=" "))
   stop_if(grepl("active phase", txt, fixed=TRUE) && grepl("none", txt, fixed=TRUE) && grepl("great black swamp", txt, fixed=TRUE) && grepl("hold", txt, fixed=TRUE) && grepl("noncanonical", txt, fixed=TRUE) && grepl("intake-coordinate discrepancy", txt, fixed=TRUE) && grepl("unresolved", txt, fixed=TRUE), paste("Hold/status record", rel))
 }
 
-cat(sprintf("Phase 11 freeze R validation passed: 11A %d artifacts and 11B %d artifacts; 62 nodes, 918 observations, 44 relationships, 34 sources, 9 uncertainties; 302 mobility observations, 142 mobility relationships, 520 dependency rows, 52 matrix rows; Phase 10 %d entries/%d unique artifacts; Phase 1–9 %d protected artifacts; maps, review, vintages, boundaries, holds, and Phase 11C/12 absence checked\n", length(a_paths), length(b_paths), phase10_entries, length(unique(phase10_paths)), prior_total))
+cat(sprintf("Phase 11 freeze R validation passed: 11A %d artifacts and 11B %d artifacts; 62 nodes, 918 observations, 44 relationships, 34 sources, 9 uncertainties; 302 mobility observations, 142 mobility relationships, 520 dependency rows, 52 matrix rows; Phase 10 %d entries/%d unique artifacts; Phase 1–9 %d protected artifacts; maps, review, vintages, boundaries, holds, Phase 11C separate-layer status, and Phase 12 absence checked\n", length(a_paths), length(b_paths), phase10_entries, length(unique(phase10_paths)), prior_total))

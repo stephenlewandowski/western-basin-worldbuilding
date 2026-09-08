@@ -1,8 +1,8 @@
 # Phase 11C — Population & Settlement Futures, 2050 / 2075
 
-Status: APPROVED SCOPE / NOT IMPLEMENTED.
+Status: IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE.
 
-Phase 11A and Phase 11B are **ACCEPTED / FROZEN**. This brief remains a separate approved-scope record; no Phase 11C implementation was authorized in this session.
+Phase 11A and Phase 11B are **ACCEPTED / FROZEN**. This brief remains the approved scientific specification for the separate Phase 11C scenario layer; Phase 11C is not accepted or frozen by implementation alone.
 
 ## Approved scope only
 
@@ -16,6 +16,6 @@ No unsupported demographic forecast, probability, precise future population tota
 
 Phase 11C must preserve Great Black Swamp `C — HOLD / noncanonical` and the unresolved Toledo intake-coordinate discrepancy. It must not modify Phase 11A/11B factual baselines, Phase 1–10 accepted/frozen artifacts, or current canon.
 
-## Not implemented in this session
+## Implementation result
 
-No Phase 11C scenario tables, maps, forecasts, assumptions, or future population values are created by this package. A future session requires a new approved implementation brief and transition gate after formal Sol review of Phase 11A/11B.
+The implementation creates separate qualitative scenario assumptions, projection-evidence records, future settlement states, spatial relationships, uncertainty states, comparison outputs, Maps 37/37b, reproducible Python/R validators, and bounded reports. It creates no exact future population values, unsupported local forecast, fake future Census precision, individual movement model, vulnerability/EJ score, protected-class ranking, or utility-territory assignment. Phase 11C remains awaiting Sol acceptance and must not be marked accepted/frozen here.

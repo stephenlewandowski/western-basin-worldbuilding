@@ -279,7 +279,7 @@ The package explicitly separates regulation, operation, ownership, monitoring, f
 
 ## Phase 11 population, settlement, mobility, and dependencies
 
-Phase 11A and Phase 11B are **ACCEPTED / FROZEN** under their final freeze manifests. Phase 11C is approved scope only and is not implemented.
+Phase 11A and Phase 11B are **ACCEPTED / FROZEN** under their final freeze manifests. Phase 11C is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** as a separate qualitative scenario layer.
 
 - `../data/processed/analysis/population_settlement_nodes.csv` — 62 population, municipality, and employment-center nodes
 - `../data/processed/analysis/population_settlement_observations.csv` — 918 population/settlement observations
@@ -296,4 +296,21 @@ Phase 11A and Phase 11B are **ACCEPTED / FROZEN** under their final freeze manif
 - `phase11a_population_settlement_freeze_manifest.json` and `phase11b_population_mobility_dependencies_freeze_manifest.json` — final Sol-acceptance freeze manifests
 - `population_settlement_artifact_check.json` and `population_mobility_artifact_check.json`
 
-The package preserves Census/ACS/PEP/LODES vintages and geography scales, distinguishes residence/workplace and commuting/migration, and keeps accepted water, energy, transport, climate, environmental-health, ecology, nutrient, housing, and governance interfaces qualitative. It creates no vulnerability/EJ score, protected-class ranking, individual movement model, health outcome, exact utility territory, unsupported forecast, Phase 11C content, or Phase 12 content. Python freeze validation is `../src/python/systems/validate_phase11_freezes.py`; independent R freeze validation is `../src/R/systems/validate_phase11_freezes.R`.
+Phase 11C products:
+
+- `../data/processed/scenarios/population_settlement_scenario_assumptions.csv` — 36 explicit scenario assumptions
+- `../data/processed/scenarios/population_settlement_projection_evidence.csv` — six projection-evidence records
+- `../data/processed/scenarios/population_settlement_future_states.csv` — 108 qualitative county-scale future settlement states
+- `../data/processed/networks/population_settlement_future_relationships.csv` — 108 qualitative spatial relationships
+- `../data/processed/scenarios/population_settlement_future_uncertainty.csv` — 36 uncertainty states
+- `../data/processed/analysis/population_settlement_future_sources.csv` — 11 scenario-source records
+- `../outputs/figures/population_settlement_future_comparison.csv`, `.png`, and `.svg` — six-row comparison
+- `../outputs/maps/systems/37_population_settlement_futures_2050.png` and `.svg` — Map 37
+- `../outputs/maps/systems/37b_population_settlement_futures_2075.png` and `.svg` — Map 37b
+- `population_settlement_future_sources.md`, `population_settlement_future_assumptions.md`, `population_settlement_future_findings.md`, and `population_settlement_future_qa.md`
+- `population_settlement_future_manifest.json` and `population_settlement_future_artifact_check.json`
+- `../src/python/systems/build_population_settlement_futures.py`, `validate_population_settlement_futures.py`, and `../src/R/systems/validate_population_settlement_futures.R`
+
+Official Ohio, Michigan, and Indiana county projection products are recorded as 2050 reference evidence without deterministic scenario totals. 2075 is explicit scenario content rather than mechanical extrapolation. Climate migration is a high-uncertainty scenario mechanism, not a population-growth assumption. Population, households, housing units, workers, jobs, and commuters remain distinct; commuting remains distinct from migration.
+
+The complete package preserves Census/ACS/PEP/LODES vintages and geography scales, distinguishes residence/workplace and commuting/migration, and keeps accepted water, energy, transport, climate, environmental-health, ecology, nutrient, housing, and governance interfaces qualitative. It creates no vulnerability/EJ score, protected-class ranking, individual movement model, health outcome, exact utility territory, unsupported forecast, or Phase 12 content. Python Phase 11 freeze validation is `../src/python/systems/validate_phase11_freezes.py`; independent R freeze validation is `../src/R/systems/validate_phase11_freezes.R`. Phase 11C validation is `../src/python/systems/validate_population_settlement_futures.py` and `../src/R/systems/validate_population_settlement_futures.R`.

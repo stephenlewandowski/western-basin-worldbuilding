@@ -1,6 +1,6 @@
 # Project Status
 
-Last reviewed: 2026-09-07
+Last reviewed: 2026-09-08
 
 ## PHASE 1 — COMPLETE
 
@@ -427,9 +427,40 @@ Phase 11B adds 302 mobility observations, 142 generalized residence/workplace re
 
 LODES records are modeled/tabulated administrative products aggregated to county interfaces. Commuting is kept distinct from migration; workplace is kept distinct from residence; passenger movement is kept distinct from freight. The dependency matrix uses qualitative labels only and creates no composite vulnerability, service-access, governance, environmental-justice, or community-risk score. Population presence does not assign residents to exact utility service territories.
 
-Map 36 and the complete Phase 11 working package are protected by `reports/phase11_working_manifest.json`, `reports/population_mobility_artifact_check.json`, and the Phase 11B Python/R validators. Phase 11C remains approved scope only and is not implemented.
+Map 36 and the complete Phase 11A/11B package are protected by their final freeze manifests, `reports/phase11_working_manifest.json`, `reports/population_mobility_artifact_check.json`, and the Phase 11A/11B Python/R validators. Phase 11C is implemented as a separate qualitative scenario layer and does not modify those protected artifacts.
 
-Final Phase 11 status: Phase 11A and 11B are **ACCEPTED / FROZEN**; active phase is **NONE**; next analytical phase is **FRESH SESSION FOR PHASE 11C**.
+## PHASE 11C — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+
+**Population & Settlement Futures, 2050 / 2075**
+
+Phase 11C adds 36 scenario assumptions, six projection-evidence records, 108
+county-scale future settlement states, 108 qualitative spatial relationships,
+36 uncertainty states, 11 scenario-source records, six comparison rows, a
+comparison figure, and Maps 37/37b. It models spatial redistribution,
+settlement form, housing form, employment geography, mobility interfaces, and
+service dependence as separate qualitative scenario states.
+
+2050 is an intermediate scenario horizon. Official Ohio, Michigan, and Indiana
+county projection products are available as reference evidence, but no
+deterministic scenario total is adopted in the qualitative future states. 2075
+is primarily an explicit scenario horizon, not a mechanical extrapolation.
+Climate migration remains a high-uncertainty scenario mechanism,
+not a population-growth assumption. Population, households, housing units,
+workers, jobs, and commuters remain distinct; commuting remains distinct from
+migration.
+
+The future layer is separate from factual 2026 tables and uses three scenario
+families: A — Connected Reconcentration; B — Polycentric Adaptive Basin; and C
+— Uneven Change / Infrastructure Strain. No exact future population, household,
+housing-unit, worker, job, commuter, or migration total is asserted. No
+vulnerability/EJ score, protected-class ranking, individual movement model, or
+utility-territory assignment is included. The working manifest is
+`reports/population_settlement_future_manifest.json`; Python and independent R
+validation are recorded in `reports/population_settlement_future_artifact_check.json`.
+
+Final Phase 11 status: Phase 11A and 11B are **ACCEPTED / FROZEN**; Phase 11C is
+**IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; active phase
+is **NONE**; next analytical phase is **NOT APPROVED**.
 
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry

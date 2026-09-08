@@ -713,3 +713,33 @@ Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; 
 - Active phase: **NONE**. Next action: **FRESH SESSION FOR PHASE 11C**. Phase 11C is approved scope only and is not implemented; Phase 12 is not implemented.
 - Active holds remain unchanged: Great Black Swamp `C — HOLD / noncanonical`; Toledo intake-coordinate discrepancy `UNRESOLVED`.
 - No vulnerability/EJ scoring, protected-class ranking, individual-level inference, unsupported forecasting, release, or tag was created.
+
+## Phase 11C startup checkpoint — population & settlement futures, 2050 / 2075
+
+- Recovered synchronized `main` / `origin/main` at `038b373449c4d267aaf25b199f4f3b286d8258b7`; the working tree was clean.
+- Phase 11A and 11B final freeze manifests passed Python and independent R validation before implementation: 14 and 13 protected entries respectively; Phase 10 freeze integrity and the 196-artifact Phase 1–9 boundary also passed.
+- No legitimate Phase 11C implementation exists in `main` or the existing Phase 11A/11B worktree; the existing Phase 11 worktree remains clean at its accepted Phase 11 package.
+- Isolated worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase11c`; branch: `phase-11c-population-settlement-futures`; base SHA: `038b373449c4d267aaf25b199f4f3b286d8258b7`.
+- Approved products: separate qualitative scenario tables, projection-evidence/source records, comparison outputs, reproducible Python builder and validator, independent R validator, Maps 37/37b, reports, working manifest, artifact check, and one fresh bounded independent review.
+- Scenario families: A — Connected Reconcentration; B — Polycentric Adaptive Basin; C — Uneven Change / Infrastructure Strain. 2050 remains an intermediate horizon; 2075 is primarily an explicit scenario horizon rather than a mechanically extrapolated forecast.
+- Protected boundaries: no exact unsupported future totals, no fake Census precision, no individual movement model, no vulnerability/EJ score, no protected-class ranking, no utility-territory assignment, no Phase 12, release, or tag. Phase 11A/11B and Phase 1–10 artifacts remain immutable.
+- Active holds preserved: Great Black Swamp `C — HOLD / noncanonical`; Toledo intake-coordinate discrepancy `UNRESOLVED`.
+- Next exact action: implement the deterministic Phase 11C package from the approved brief, validate it in Python and R, dispatch one fresh independent reviewer before the context grows, then complete the authorized feature-branch delivery and integration gates.
+
+## Phase 11C implementation checkpoint — validated working package
+
+- Phase 11C package generated on branch `phase-11c-population-settlement-futures` in `C:\Projects\Public_Github\western-basin-worldbuilding-phase11c`.
+- Products: 36 scenario assumptions; six projection-evidence records; 108 county-scale future settlement states; 108 qualitative spatial relationships; 36 uncertainty states; 11 scenario-source records; six comparison rows; comparison PNG/SVG; Maps 37/37b PNG/SVG; reports; working manifest; artifact check; and reproducible Python/R validators.
+- Official Ohio, Michigan, and Indiana county projection products are recorded as 2050 reference evidence. Their values are not copied into qualitative scenario states or treated as deterministic scenario totals. No county-level 2075 projection is adopted.
+- Phase 11C Python validation passed, including scenario separation, 2050/2075 horizon distinction, projection and climate-migration boundaries, population-unit distinctions, commuting/migration boundary, map integrity, Phase 11A/11B freeze integrity, Phase 10 integrity, and 196 protected Phase 1–9 artifacts.
+- Independent R Phase 11C validation passed. Python and R Phase 11A/11B freeze validators also passed with newline-portable manifest checks.
+- Status surfaces now record Phase 11C as **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; Phase 11A/11B remain **ACCEPTED / FROZEN**. The Phase 11C brief is not marked accepted/frozen.
+- Active holds preserved: Great Black Swamp `C — HOLD / noncanonical`; Toledo intake-coordinate discrepancy `UNRESOLVED`.
+- Current worktree is uncommitted. Next exact action: dispatch one fresh bounded independent reviewer with the required structured verdict, then run final review, provenance, repository, commit, push, integration, and synchronization gates.
+
+## Phase 11C review correction checkpoint
+
+- The first bounded independent review returned `passed: false` with one legitimate scenario-boundary blocker: `docs/canon_status.md` line 210 retained a stale statement that Phase 11C was not implemented.
+- The stale canonical sentence was corrected to state that Phase 11C is implemented as a separate qualitative 2050/2075 layer awaiting Sol acceptance and is not accepted or frozen. No analytical artifact or protected baseline was changed by the correction.
+- Python Phase 11C validation, independent R Phase 11C validation, both Phase 11 freeze validators, Markdown-link validation, and the application tests/build passed after correction.
+- A fresh bounded post-correction reviewer was dispatched; no commit, push, or integration is permitted until its complete structured verdict returns `passed: true`.

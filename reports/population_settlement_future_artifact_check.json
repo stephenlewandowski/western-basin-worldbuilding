@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "phase": "11C",
+  "scenario_ids": [
+    "A2050",
+    "A2075",
+    "B2050",
+    "B2075",
+    "C2050",
+    "C2075"
+  ],
+  "scenario_assumptions": 36,
+  "projection_evidence": 6,
+  "future_states": 108,
+  "future_relationships": 108,
+  "uncertainty_states": 36,
+  "comparison_rows": 6,
+  "scenario_sources": 11,
+  "maps_37_37b_valid": true,
+  "comparison_figure_valid": true,
+  "scenario_separation": true,
+  "horizon_distinction": true,
+  "official_2050_county_reference_without_scenario_total": true,
+  "2075_explicit_scenario_only": true,
+  "climate_migration_high_uncertainty": true,
+  "population_unit_boundaries": true,
+  "commuting_migration_boundary": true,
+  "spatial_scale_boundary": true,
+  "negative_scope_checks": true,
+  "phase11a_11b_protected_entries": {
+    "phase11a_population_settlement_freeze_manifest.json": 14,
+    "phase11b_population_mobility_dependencies_freeze_manifest.json": 13
+  },
+  "phase1_10_immutability": true,
+  "phase1_9_protected_artifacts": 196,
+  "manifest_counts": {
+    "scenario_assumptions": 36,
+    "projection_evidence": 6,
+    "future_states": 108,
+    "future_relationships": 108,
+    "uncertainty_states": 36,
+    "comparison_rows": 6,
+    "scenario_sources": 11
+  },
+  "active_holds_preserved": true,
+  "phase12_implemented": false
+}
