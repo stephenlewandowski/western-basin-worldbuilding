@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "phase": "12C",
+  "scenario_ids": [
+    "A2050",
+    "A2075",
+    "B2050",
+    "B2075",
+    "C2050",
+    "C2075"
+  ],
+  "scenario_assumptions": 36,
+  "vector_states": 36,
+  "habitat_states": 48,
+  "surveillance_states": 30,
+  "dependency_states": 168,
+  "uncertainty_states": 60,
+  "scenario_sources": 28,
+  "comparison_rows": 6,
+  "maps_40_40b_valid": true,
+  "comparison_figure_valid": true,
+  "provenance_strict": true,
+  "assumption_references": true,
+  "scenario_fact_separation": true,
+  "horizon_distinction": true,
+  "scenario_b_structurally_distinct": true,
+  "vector_presence_abundance_pathogen_contact_health_boundaries": true,
+  "surveillance_not_abundance": true,
+  "no_future_range_precision": true,
+  "no_disease_incidence_forecast": true,
+  "no_human_risk_inference": true,
+  "no_vulnerability_ej_scoring": true,
+  "no_phase13": true,
+  "phase12a_12b_freeze_integrity": true,
+  "prior_phase1_11_manifest_entries": 298,
+  "prior_phase1_11_unique_protected_artifacts": 293,
+  "phase12a_12b_immutable": true,
+  "active_holds_preserved": true,
+  "independent_review_required_for_delivery": true,
+  "independent_review_passed": true,
+  "manifest_counts": {
+    "scenario_assumptions": 36,
+    "vector_states": 36,
+    "habitat_states": 48,
+    "surveillance_states": 30,
+    "dependency_states": 168,
+    "uncertainty_states": 60,
+    "scenario_sources": 28,
+    "comparison_rows": 6
+  },
+  "map_sizes": [
+    [
+      2880,
+      1800
+    ],
+    [
+      2880,
+      1800
+    ]
+  ]
+}

@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1189.548pt" height="653.637656pt" viewBox="0 0 1189.548 653.637656" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 653.637656
+L 1189.548 653.637656
+L 1189.548 0
+L 0 0
+z
+" style="fill: #f1eadc"/>
+  </g>
+  <g id="axes_1">
+   <g id="table_1">
+    <g id="patch_2">
+     <path d="M 7.2 277.017656
+L 87.552 277.017656
+L 87.552 251.217656
+L 7.2 251.217656
+z
+" style="fill: #17384b; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_1">
+     <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="15.2352" y="265.832109" transform="rotate(-0 15.2352 265.832109)">state</text>
+    </g>
+    <g id="patch_3">
+     <path d="M 87.552 277.017656
+L 258.3 277.017656
+L 258.3 251.217656
+L 87.552 251.217656
+z
+" style="fill: #17384b; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_2">
+     <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="104.6268" y="265.832367" transform="rotate(-0 104.6268 265.832367)">seasonality</text>
+    </g>
+    <g id="patch_4">
+     <path d="M 258.3 277.017656
+L 479.268 277.017656
+L 479.268 251.217656
+L 258.3 251.217656
+z
+" style="fill: #17384b; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_3">
+     <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="280.3968" y="265.832367" transform="rotate(-0 280.3968 265.832367)">container / water</text>
+    </g>
+    <g id="patch_5">
+     <path d="M 479.268 277.017656
+L 660.06 277.017656
+L 660.06 251.217656
+L 479.268 251.217656
+z
+" style="fill: #17384b; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_4">
+     <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="497.3472" y="265.832367" transform="rotate(-0 497.3472 265.832367)">forest / host</text>
+    </g>
+    <g id="patch_6">
+     <path d="M 660.06 277.017656
+L 840.852 277.017656
+L 840.852 251.217656
+L 660.06 251.217656
+z
+" style="fill: #17384b; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_5">
+     <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="678.1392" y="265.832367" transform="rotate(-0 678.1392 265.832367)">surveillance</text>
+    </g>
+    <g id="patch_7">
+     <path d="M 840.852 277.017656
+L 1001.556 277.017656
+L 1001.556 251.217656
+L 840.852 251.217656
+z
+" style="fill: #17384b; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_6">
+     <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="856.9224" y="265.832367" transform="rotate(-0 856.9224 265.832367)">heterogeneity</text>
+    </g>
+    <g id="patch_8">
+     <path d="M 1001.556 277.017656
+L 1182.348 277.017656
+L 1182.348 251.217656
+L 1001.556 251.217656
+z
+" style="fill: #17384b; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_7">
+     <text style="font-weight: 700; font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #ffffff" x="1019.6352" y="265.832367" transform="rotate(-0 1019.6352 265.832367)">boundary</text>
+    </g>
+    <g id="patch_9">
+     <path d="M 7.2 302.817656
+L 87.552 302.817656
+L 87.552 277.017656
+L 7.2 277.017656
+z
+" style="fill: #dbece4; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_8">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="15.2352" y="291.632109" transform="rotate(-0 15.2352 291.632109)">A2050</text>
+    </g>
+    <g id="patch_10">
+     <path d="M 87.552 302.817656
+L 258.3 302.817656
+L 258.3 277.017656
+L 87.552 277.017656
+z
+" style="fill: #dbece4; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_9">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="104.6268" y="291.632367" transform="rotate(-0 104.6268 291.632367)">managed seasonal opportunity</text>
+    </g>
+    <g id="patch_11">
+     <path d="M 258.3 302.817656
+L 479.268 302.817656
+L 479.268 277.017656
+L 258.3 277.017656
+z
+" style="fill: #dbece4; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_10">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="280.3968" y="291.632367" transform="rotate(-0 280.3968 291.632367)">reduced in selected maintained settings; reduced persistent opportunity with episodic residuals</text>
+    </g>
+    <g id="patch_12">
+     <path d="M 479.268 302.817656
+L 660.06 302.817656
+L 660.06 277.017656
+L 479.268 277.017656
+z
+" style="fill: #dbece4; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="497.3472" y="291.632367" transform="rotate(-0 497.3472 291.632367)">selected stewardship of humid edges; host context monitored, not projected</text>
+    </g>
+    <g id="patch_13">
+     <path d="M 660.06 302.817656
+L 840.852 302.817656
+L 840.852 277.017656
+L 660.06 277.017656
+z
+" style="fill: #dbece4; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_12">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="678.1392" y="291.632367" transform="rotate(-0 678.1392 291.632367)">coordinated selected programs; earlier detection in priority interfaces</text>
+    </g>
+    <g id="patch_14">
+     <path d="M 840.852 302.817656
+L 1001.556 302.817656
+L 1001.556 277.017656
+L 840.852 277.017656
+z
+" style="fill: #dbece4; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_13">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="856.9224" y="291.632367" transform="rotate(-0 856.9224 291.632367)">more connected monitoring-to-management</text>
+    </g>
+    <g id="patch_15">
+     <path d="M 1001.556 302.817656
+L 1182.348 302.817656
+L 1182.348 277.017656
+L 1001.556 277.017656
+z
+" style="fill: #dbece4; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_14">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="1019.6352" y="291.632367" transform="rotate(-0 1019.6352 291.632367)">suitability ≠ range; surveillance ≠ abundance</text>
+    </g>
+    <g id="patch_16">
+     <path d="M 7.2 328.617656
+L 87.552 328.617656
+L 87.552 302.817656
+L 7.2 302.817656
+z
+" style="fill: #dbece4; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_15">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="15.2352" y="317.432109" transform="rotate(-0 15.2352 317.432109)">A2075</text>
+    </g>
+    <g id="patch_17">
+     <path d="M 87.552 328.617656
+L 258.3 328.617656
+L 258.3 302.817656
+L 87.552 302.817656
+z
+" style="fill: #dbece4; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_16">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="104.6268" y="317.432367" transform="rotate(-0 104.6268 317.432367)">mature managed seasonal opportunity</text>
+    </g>
+    <g id="patch_18">
+     <path d="M 258.3 328.617656
+L 479.268 328.617656
+L 479.268 302.817656
+L 258.3 302.817656
+z
+" style="fill: #dbece4; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_17">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="280.3968" y="317.432367" transform="rotate(-0 280.3968 317.432367)">routine maintenance constrains selected settings; persistent opportunity constrained in selected systems</text>
+    </g>
+    <g id="patch_19">
+     <path d="M 479.268 328.617656
+L 660.06 328.617656
+L 660.06 302.817656
+L 479.268 302.817656
+z
+" style="fill: #dbece4; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_18">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="497.3472" y="317.432367" transform="rotate(-0 497.3472 317.432367)">mature selected edge stewardship; host context remains an uncertainty</text>
+    </g>
+    <g id="patch_20">
+     <path d="M 660.06 328.617656
+L 840.852 328.617656
+L 840.852 302.817656
+L 660.06 302.817656
+z
+" style="fill: #dbece4; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_19">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="678.1392" y="317.432367" transform="rotate(-0 678.1392 317.432367)">routine selected cross-program protocols; earlier detection and recurring review in selected interfaces</text>
+    </g>
+    <g id="patch_21">
+     <path d="M 840.852 328.617656
+L 1001.556 328.617656
+L 1001.556 302.817656
+L 840.852 302.817656
+z
+" style="fill: #dbece4; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_20">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="856.9224" y="317.432367" transform="rotate(-0 856.9224 317.432367)">management and monitoring handoffs are more connected</text>
+    </g>
+    <g id="patch_22">
+     <path d="M 1001.556 328.617656
+L 1182.348 328.617656
+L 1182.348 302.817656
+L 1001.556 302.817656
+z
+" style="fill: #dbece4; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_21">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="1019.6352" y="317.432367" transform="rotate(-0 1019.6352 317.432367)">suitability ≠ range; surveillance ≠ abundance</text>
+    </g>
+    <g id="patch_23">
+     <path d="M 7.2 354.417656
+L 87.552 354.417656
+L 87.552 328.617656
+L 7.2 328.617656
+z
+" style="fill: #f0e3cb; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_22">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="15.2352" y="343.232109" transform="rotate(-0 15.2352 343.232109)">B2050</text>
+    </g>
+    <g id="patch_24">
+     <path d="M 87.552 354.417656
+L 258.3 354.417656
+L 258.3 328.617656
+L 87.552 328.617656
+z
+" style="fill: #f0e3cb; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_23">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="104.6268" y="343.232367" transform="rotate(-0 104.6268 343.232367)">habitat-specific permissiveness</text>
+    </g>
+    <g id="patch_25">
+     <path d="M 258.3 354.417656
+L 479.268 354.417656
+L 479.268 328.617656
+L 258.3 328.617656
+z
+" style="fill: #f0e3cb; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_24">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="280.3968" y="343.232367" transform="rotate(-0 280.3968 343.232367)">varies by settlement and maintenance; constrained, permissive, and episodic mosaic</text>
+    </g>
+    <g id="patch_26">
+     <path d="M 479.268 354.417656
+L 660.06 354.417656
+L 660.06 328.617656
+L 479.268 328.617656
+z
+" style="fill: #f0e3cb; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_25">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="497.3472" y="343.232367" transform="rotate(-0 497.3472 343.232367)">moisture and edge differences dominate; host context differs locally</text>
+    </g>
+    <g id="patch_27">
+     <path d="M 660.06 354.417656
+L 840.852 354.417656
+L 840.852 328.617656
+L 660.06 328.617656
+z
+" style="fill: #f0e3cb; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_26">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="678.1392" y="343.232367" transform="rotate(-0 678.1392 343.232367)">functional but uneven programs; timing varies by program and habitat</text>
+    </g>
+    <g id="patch_28">
+     <path d="M 840.852 354.417656
+L 1001.556 354.417656
+L 1001.556 328.617656
+L 840.852 328.617656
+z
+" style="fill: #f0e3cb; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_27">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="856.9224" y="343.232367" transform="rotate(-0 856.9224 343.232367)">local response through overlapping arrangements</text>
+    </g>
+    <g id="patch_29">
+     <path d="M 1001.556 354.417656
+L 1182.348 354.417656
+L 1182.348 328.617656
+L 1001.556 328.617656
+z
+" style="fill: #f0e3cb; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_28">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="1019.6352" y="343.232367" transform="rotate(-0 1019.6352 343.232367)">suitability ≠ range; surveillance ≠ abundance</text>
+    </g>
+    <g id="patch_30">
+     <path d="M 7.2 380.217656
+L 87.552 380.217656
+L 87.552 354.417656
+L 7.2 354.417656
+z
+" style="fill: #f0e3cb; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_29">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="15.2352" y="369.032109" transform="rotate(-0 15.2352 369.032109)">B2075</text>
+    </g>
+    <g id="patch_31">
+     <path d="M 87.552 380.217656
+L 258.3 380.217656
+L 258.3 354.417656
+L 87.552 354.417656
+z
+" style="fill: #f0e3cb; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_30">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="104.6268" y="369.032367" transform="rotate(-0 104.6268 369.032367)">persistent local divergence</text>
+    </g>
+    <g id="patch_32">
+     <path d="M 258.3 380.217656
+L 479.268 380.217656
+L 479.268 354.417656
+L 258.3 354.417656
+z
+" style="fill: #f0e3cb; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_31">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="280.3968" y="369.032367" transform="rotate(-0 280.3968 369.032367)">durable local differences; durable heterogeneous mosaic</text>
+    </g>
+    <g id="patch_33">
+     <path d="M 479.268 380.217656
+L 660.06 380.217656
+L 660.06 354.417656
+L 479.268 354.417656
+z
+" style="fill: #f0e3cb; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_32">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="497.3472" y="369.032367" transform="rotate(-0 497.3472 369.032367)">persistent humid/dry edge patchwork; host context remains locally unresolved</text>
+    </g>
+    <g id="patch_34">
+     <path d="M 660.06 380.217656
+L 840.852 380.217656
+L 840.852 354.417656
+L 660.06 354.417656
+z
+" style="fill: #f0e3cb; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_33">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="678.1392" y="369.032367" transform="rotate(-0 678.1392 369.032367)">durable but nonuniform networks; some early and some delayed detection</text>
+    </g>
+    <g id="patch_35">
+     <path d="M 840.852 380.217656
+L 1001.556 380.217656
+L 1001.556 354.417656
+L 840.852 354.417656
+z
+" style="fill: #f0e3cb; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_34">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="856.9224" y="369.032367" transform="rotate(-0 856.9224 369.032367)">distributed response with negotiation friction</text>
+    </g>
+    <g id="patch_36">
+     <path d="M 1001.556 380.217656
+L 1182.348 380.217656
+L 1182.348 354.417656
+L 1001.556 354.417656
+z
+" style="fill: #f0e3cb; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_35">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="1019.6352" y="369.032367" transform="rotate(-0 1019.6352 369.032367)">suitability ≠ range; surveillance ≠ abundance</text>
+    </g>
+    <g id="patch_37">
+     <path d="M 7.2 406.017656
+L 87.552 406.017656
+L 87.552 380.217656
+L 7.2 380.217656
+z
+" style="fill: #efd9d5; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_36">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="15.2352" y="394.832109" transform="rotate(-0 15.2352 394.832109)">C2050</text>
+    </g>
+    <g id="patch_38">
+     <path d="M 87.552 406.017656
+L 258.3 406.017656
+L 258.3 380.217656
+L 87.552 380.217656
+z
+" style="fill: #efd9d5; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_37">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="104.6268" y="394.832367" transform="rotate(-0 104.6268 394.832367)">selected longer windows amid variability</text>
+    </g>
+    <g id="patch_39">
+     <path d="M 258.3 406.017656
+L 479.268 406.017656
+L 479.268 380.217656
+L 258.3 380.217656
+z
+" style="fill: #efd9d5; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_38">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="280.3968" y="394.832367" transform="rotate(-0 280.3968 394.832367)">selected container opportunity where maintenance lags; episodic opportunity and interruption</text>
+    </g>
+    <g id="patch_40">
+     <path d="M 479.268 406.017656
+L 660.06 406.017656
+L 660.06 380.217656
+L 479.268 380.217656
+z
+" style="fill: #efd9d5; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_39">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="497.3472" y="394.832367" transform="rotate(-0 497.3472 394.832367)">variable humidity and edge conditions; host relationships change uncertainly</text>
+    </g>
+    <g id="patch_41">
+     <path d="M 660.06 406.017656
+L 840.852 406.017656
+L 840.852 380.217656
+L 660.06 380.217656
+z
+" style="fill: #efd9d5; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_40">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="678.1392" y="394.832367" transform="rotate(-0 678.1392 394.832367)">selected surveillance lag; delayed in selected locations</text>
+    </g>
+    <g id="patch_42">
+     <path d="M 840.852 406.017656
+L 1001.556 406.017656
+L 1001.556 380.217656
+L 840.852 380.217656
+z
+" style="fill: #efd9d5; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_41">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="856.9224" y="394.832367" transform="rotate(-0 856.9224 394.832367)">uneven response at selected seams</text>
+    </g>
+    <g id="patch_43">
+     <path d="M 1001.556 406.017656
+L 1182.348 406.017656
+L 1182.348 380.217656
+L 1001.556 380.217656
+z
+" style="fill: #efd9d5; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_42">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="1019.6352" y="394.832367" transform="rotate(-0 1019.6352 394.832367)">suitability ≠ range; surveillance ≠ abundance</text>
+    </g>
+    <g id="patch_44">
+     <path d="M 7.2 431.817656
+L 87.552 431.817656
+L 87.552 406.017656
+L 7.2 406.017656
+z
+" style="fill: #efd9d5; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_43">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="15.2352" y="420.632109" transform="rotate(-0 15.2352 420.632109)">C2075</text>
+    </g>
+    <g id="patch_45">
+     <path d="M 87.552 431.817656
+L 258.3 431.817656
+L 258.3 406.017656
+L 87.552 406.017656
+z
+" style="fill: #efd9d5; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_44">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="104.6268" y="420.632367" transform="rotate(-0 104.6268 420.632367)">longer or less predictable selected windows</text>
+    </g>
+    <g id="patch_46">
+     <path d="M 258.3 431.817656
+L 479.268 431.817656
+L 479.268 406.017656
+L 258.3 406.017656
+z
+" style="fill: #efd9d5; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_45">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="280.3968" y="420.632367" transform="rotate(-0 280.3968 420.632367)">more consequential selected container opportunity; strong dry/wet and infrastructure patchiness</text>
+    </g>
+    <g id="patch_47">
+     <path d="M 479.268 431.817656
+L 660.06 431.817656
+L 660.06 406.017656
+L 479.268 406.017656
+z
+" style="fill: #efd9d5; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_46">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="497.3472" y="420.632367" transform="rotate(-0 497.3472 420.632367)">shifting humid refugia and fragmented edges; host and humidity controls remain unresolved</text>
+    </g>
+    <g id="patch_48">
+     <path d="M 660.06 431.817656
+L 840.852 431.817656
+L 840.852 406.017656
+L 660.06 406.017656
+z
+" style="fill: #efd9d5; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_47">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="678.1392" y="420.632367" transform="rotate(-0 678.1392 420.632367)">patchy capacity relative to change; persistent selected detection lag</text>
+    </g>
+    <g id="patch_49">
+     <path d="M 840.852 431.817656
+L 1001.556 431.817656
+L 1001.556 406.017656
+L 840.852 406.017656
+z
+" style="fill: #efd9d5; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_48">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="856.9224" y="420.632367" transform="rotate(-0 856.9224 420.632367)">management struggles at selected seams</text>
+    </g>
+    <g id="patch_50">
+     <path d="M 1001.556 431.817656
+L 1182.348 431.817656
+L 1182.348 406.017656
+L 1001.556 406.017656
+z
+" style="fill: #efd9d5; stroke: #c6bda8; stroke-linejoin: miter"/>
+    </g>
+    <g id="text_49">
+     <text style="font-size: 6.6px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="1019.6352" y="420.632367" transform="rotate(-0 1019.6352 420.632367)">suitability ≠ range; surveillance ≠ abundance</text>
+    </g>
+   </g>
+   <g id="text_50">
+    <text style="font-size: 7.4px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="92.574" y="63.5649" transform="rotate(-0 92.574 63.5649)">2050 is an intermediate trajectory; 2075 is a matured or diverged ecological state. Rows are not scores, rankings, forecasts, or disease-risk estimates.</text>
+   </g>
+   <g id="text_51">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #17384b" x="92.574" y="18.597656" transform="rotate(-0 92.574 18.597656)">Phase 12C — Qualitative Vector Ecology Futures Comparison</text>
+   </g>
+  </g>
+ </g>
+</svg>
