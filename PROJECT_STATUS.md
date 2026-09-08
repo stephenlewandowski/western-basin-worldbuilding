@@ -510,7 +510,7 @@ history remains preserved in Git: `ec37108371d51ccdecd9fafcbde58463d79911d7`,
 `dc231c3e5c371050482c9cf8f4f938b4ec55a624`, `326fbd7`, `0853f8b`, and
 `e158740aa35f31d2155a9906a3bc2c5529fb5147`.
 
-## PHASE 12C — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE
+## PHASE 12C — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
 
 **Vector Ecology Futures, 2050 / 2075**
 
@@ -533,8 +533,8 @@ The corrected package is protected by `reports/vector_ecology_future_manifest.js
 and `reports/vector_ecology_future_artifact_check.json`. Deterministic Python and
 independent R validation passed; strict citation/provenance validation passed;
 the first failed review is preserved as correction lineage and the fresh bounded
-independent review passed. Feature-branch delivery and normal integration remain
-the next operational step. Phase 12A/12B remain immutable.
+independent review passed. The feature branch was pushed and integrated normally
+into `main`; Phase 12A/12B remain immutable.
 Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate
 discrepancy remains UNRESOLVED. Phase 13 is not implemented.
 

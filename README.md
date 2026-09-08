@@ -542,9 +542,8 @@ human-vector contact, infection, and clinical disease separate. Sampling effort
 is not abundance; detection is not establishment; non-detection and CDC
 no-records are not absence; county detections are not precise local
 distributions; and positive vector pools or human cases are not local
-transmission proof. Phase 12C is implemented and validated as a separate
-qualitative scenario layer awaiting Sol acceptance; feature-branch delivery and
-normal integration are pending. It creates no
+transmission proof. Phase 12C is implemented, validated, and integrated as a
+separate qualitative scenario layer awaiting Sol acceptance. It creates no
 individual risk, exposure estimate, disease-risk score, vulnerability/EJ score,
 unsupported abundance or range surface, Phase 13, release, or tag. Active phase
 is NONE; the next analytical phase is NOT APPROVED.

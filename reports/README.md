@@ -354,9 +354,8 @@ The package preserves presence != abundance, pathogen detection != human
 infection, sampling effort != abundance, detection != establishment, county
 record != precise local distribution, non-detection/CDC no-records != absence,
 and positive vector pool or human case != local transmission. Phase 12C is
-implemented and validated as a separate qualitative 2050/2075 scenario layer
-awaiting Sol acceptance; feature-branch delivery and normal integration are
-pending. It creates no individual risk or
+implemented, validated, and integrated as a separate qualitative 2050/2075
+scenario layer awaiting Sol acceptance. It creates no individual risk or
 exposure estimate, disease-risk or vulnerability/EJ score, unsupported
 abundance/range surface, Phase 13, release, or tag. Active phase is NONE; the
 next analytical phase is NOT APPROVED. Deferred maintenance is limited to the

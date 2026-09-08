@@ -117,9 +117,9 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 11C Population & Settlement Futures:** accepted and frozen as separate qualitative 2050/2075 scenario content; Maps 37/37b; `reports/phase11c_population_settlement_futures_freeze_manifest.json`.
 - **Phase 12A Vector Ecology Baseline:** accepted and frozen as a factual 2026 vector ecology/surveillance layer; Map 38; `reports/phase12a_vector_ecology_freeze_manifest.json`.
 - **Phase 12B Vector / Environment / Human-System Dependencies:** accepted and frozen as a separate qualitative 2026 dependency layer; Map 39; `reports/phase12b_vector_environment_human_dependencies_freeze_manifest.json`.
-- **Phase 12C Vector Ecology Futures:** implemented and validated as a separate qualitative 2050/2075 scenario layer; awaiting Sol acceptance and feature-branch delivery; Maps 40/40b.
+- **Phase 12C Vector Ecology Futures:** implemented, validated, and integrated as a separate qualitative 2050/2075 scenario layer; awaiting Sol acceptance; Maps 40/40b.
 
-Final subphase status: Phase 9A is **ACCEPTED / FROZEN**; Phase 9B is **ACCEPTED / FROZEN**; Phase 9C is **ACCEPTED / FROZEN**; Phase 10A is **ACCEPTED / FROZEN**; Phase 10B is **ACCEPTED / FROZEN**; Phase 10C is **ACCEPTED / FROZEN**; Phase 11A is **ACCEPTED / FROZEN**; Phase 11B is **ACCEPTED / FROZEN**; Phase 11C is **ACCEPTED / FROZEN**; Phase 12A is **ACCEPTED / FROZEN**; Phase 12B is **ACCEPTED / FROZEN**; and Phase 12C is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE**. Active phase: **NONE**. Next analytical phase: **NOT APPROVED**.
+Final subphase status: Phase 9A is **ACCEPTED / FROZEN**; Phase 9B is **ACCEPTED / FROZEN**; Phase 9C is **ACCEPTED / FROZEN**; Phase 10A is **ACCEPTED / FROZEN**; Phase 10B is **ACCEPTED / FROZEN**; Phase 10C is **ACCEPTED / FROZEN**; Phase 11A is **ACCEPTED / FROZEN**; Phase 11B is **ACCEPTED / FROZEN**; Phase 11C is **ACCEPTED / FROZEN**; Phase 12A is **ACCEPTED / FROZEN**; Phase 12B is **ACCEPTED / FROZEN**; and Phase 12C is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Active phase: **NONE**. Next analytical phase: **NOT APPROVED**.
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without
