@@ -319,8 +319,7 @@ The complete package preserves Census/ACS/PEP/LODES vintages and geography scale
 
 ## Phase 12 vector ecology and dependencies
 
-Phase 12A and 12B are implemented, validated, and integrated working layers
-awaiting Sol acceptance. Phase 12A contains 20 nodes, 26 ecology
+Phase 12A and 12B are **ACCEPTED / FROZEN**. Phase 12A contains 20 nodes, 26 ecology
 relationships, 36 surveillance/context records, 15 habitat associations, 27
 sources, 10 uncertainties, and Map 38. Phase 12B contains 28 dependency rows,
 28 dependency edges, eight matrix rows, eight evidence-crosswalk rows, 27 reused
@@ -334,9 +333,12 @@ sources, and Map 39.
 - `../outputs/maps/systems/39_vector_environment_human_dependencies_2026.png` and `.svg`
 - `vector_ecology_sources.md`, `vector_ecology_assumptions.md`, `vector_ecology_findings.md`, `vector_ecology_qa.md`
 - `vector_dependency_sources.md`, `vector_dependency_assumptions.md`, `vector_dependency_findings.md`, `vector_dependency_qa.md`
-- `vector_ecology_baseline_manifest.json`, `vector_dependency_manifest.json`, and `phase12_working_manifest.json`
+- `vector_ecology_baseline_manifest.json`, `vector_dependency_manifest.json`, and `phase12_working_manifest.json` — pre-acceptance working manifests retained for lineage
+- `phase12a_vector_ecology_freeze_manifest.json` and `phase12b_vector_environment_human_dependencies_freeze_manifest.json` — final Sol-acceptance freeze manifests
+- `phase12_independent_review.md` — fresh bounded review; `passed: true` with all blocking arrays empty
 - `../src/python/systems/build_vector_ecology.py`, `validate_vector_ecology_baseline.py`, and `validate_vector_dependencies.py`
 - `../src/R/systems/validate_vector_ecology_baseline.R` and `validate_vector_dependencies.R`
+- `../src/python/systems/validate_phase12_freezes.py` and `../src/R/systems/validate_phase12_freezes.R` — final Python/R freeze validators
 - `../docs/phase_briefs/phase12a_vector_ecology_baseline.md`, `phase12b_vector_environment_human_dependencies.md`, and `phase12c_vector_ecology_futures.md`
 
 The package preserves presence != abundance, pathogen detection != human
@@ -345,4 +347,6 @@ record != precise local distribution, non-detection/CDC no-records != absence,
 and positive vector pool or human case != local transmission. It creates no
 individual risk or exposure estimate, disease-risk or vulnerability/EJ score,
 unsupported abundance/range surface, Phase 12C, Phase 13, release, or tag. Active
-phase is NONE; the next analytical phase is NOT APPROVED.
+phase is NONE; the next analytical phase is NOT APPROVED. Deferred maintenance
+is limited to the Phase 6B manifest status wording mismatch and the Phase 3A
+missing manifest status; neither was altered during the Phase 12 freeze.

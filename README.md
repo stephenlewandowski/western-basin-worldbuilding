@@ -485,8 +485,7 @@ The package preserves person/household/housing-unit/density/worker/job/commuter 
 
 ## Phase 12 Vector Ecology & Dependencies
 
-Phase 12A and 12B are implemented, validated, and integrated working layers
-awaiting Sol acceptance. Map 38 is the factual 2026 Vector Ecology
+Phase 12A and 12B are **ACCEPTED / FROZEN**. Map 38 is the factual 2026 Vector Ecology
 Baseline; Map 39 is the separate qualitative Vector / Environment / Human-System
 Dependencies layer.
 
@@ -510,11 +509,16 @@ Dependencies layer.
 - [Phase 12B QA](reports/vector_dependency_qa.md)
 - [Phase 12A manifest](reports/vector_ecology_baseline_manifest.json)
 - [Phase 12B manifest](reports/vector_dependency_manifest.json)
+- [Phase 12A freeze manifest](reports/phase12a_vector_ecology_freeze_manifest.json)
+- [Phase 12B freeze manifest](reports/phase12b_vector_environment_human_dependencies_freeze_manifest.json)
 - [Phase 12 working manifest](reports/phase12_working_manifest.json)
+- [Phase 12 independent review](reports/phase12_independent_review.md)
 - [Phase 12A Python validator](src/python/systems/validate_vector_ecology_baseline.py)
 - [Phase 12B Python validator](src/python/systems/validate_vector_dependencies.py)
 - [Phase 12A independent R validator](src/R/systems/validate_vector_ecology_baseline.R)
 - [Phase 12B independent R validator](src/R/systems/validate_vector_dependencies.R)
+- [Phase 12 Python freeze validator](src/python/systems/validate_phase12_freezes.py)
+- [Phase 12 independent R freeze validator](src/R/systems/validate_phase12_freezes.R)
 - [Phase 12C approved-scope brief](docs/phase_briefs/phase12c_vector_ecology_futures.md)
 
 The package keeps vector presence, abundance, pathogen-in-vector detection,
@@ -524,8 +528,8 @@ no-records are not absence; county detections are not precise local
 distributions; and positive vector pools or human cases are not local
 transmission proof. No individual risk, exposure estimate, disease-risk score,
 vulnerability/EJ score, unsupported abundance or range surface, Phase 12C,
-Phase 13, release, or tag is included. Active phase is NONE; the next analytical
-phase is NOT APPROVED.
+Phase 13, release, or tag is included. Phase 12C is approved scope only and is
+not implemented. Active phase is NONE; the next analytical phase is NOT APPROVED.
 
 ```text
 assets/                 exploratory concept art and archived generated maps

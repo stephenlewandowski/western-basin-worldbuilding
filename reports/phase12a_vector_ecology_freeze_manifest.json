@@ -1,0 +1,112 @@
+{
+  "accepted_phase": "12A",
+  "baseline": "Vector Ecology Baseline, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-08",
+  "source_commit": "e158740aa35f31d2155a9906a3bc2c5529fb5147",
+  "acceptance_basis": "Sol formally accepted and froze the corrected, validated Phase 12A vector ecology/surveillance baseline after Python validation, independent R validation, strict provenance checks, prior-system immutability verification, and the fresh bounded independent review passing with all blocking arrays empty.",
+  "counts": {
+    "nodes": 20,
+    "edges": 26,
+    "surveillance_records": 36,
+    "habitat_associations": 15,
+    "sources": 27,
+    "uncertainties": 10
+  },
+  "artifacts": {
+    "data/processed/networks/vector_ecology_nodes.csv": {
+      "sha256": "b9eadf78c3c37874c7748923244179b160619c6ac811e18ed5ab4ef289dbc572",
+      "bytes": 8857,
+      "role": "Phase 12A analytical artifact"
+    },
+    "data/processed/networks/vector_ecology_edges.csv": {
+      "sha256": "a01d39095ad2306ee8edf028e4a29faf205df00f414607c30f51307b76c96b2b",
+      "bytes": 6548,
+      "role": "Phase 12A analytical artifact"
+    },
+    "data/processed/analysis/vector_surveillance_records.csv": {
+      "sha256": "93d6b107fa1a5a76409eed6706d5ee3d74799f9e5f80c7b7874993a17604fa95",
+      "bytes": 19982,
+      "role": "Phase 12A surveillance/context table"
+    },
+    "data/processed/analysis/vector_habitat_associations.csv": {
+      "sha256": "9c5a925443acef73e16b14dbcf31f28758735ba0383d4ff702a344f6fc1a1606",
+      "bytes": 5048,
+      "role": "Phase 12A habitat association register"
+    },
+    "data/processed/analysis/vector_ecology_sources.csv": {
+      "sha256": "6f2d2cc60f4308930abd4b82dab8e1b7ae423648cf4150118a24ffe99e744ce9",
+      "bytes": 12540,
+      "role": "Phase 12A source registry"
+    },
+    "data/processed/analysis/vector_ecology_uncertainty.csv": {
+      "sha256": "8eecd87457f4258cb6a0c5d795c6ce4eaf73d0c36e48ccbabe1b95630dcfb9f9",
+      "bytes": 2090,
+      "role": "Phase 12A uncertainty register"
+    },
+    "outputs/maps/systems/38_vector_ecology_baseline_2026.png": {
+      "sha256": "2904b2ef4a0f82b7a287f7cdce77665e7b62ad11f45c23fbd113efacd2c035aa",
+      "bytes": 1234063,
+      "role": "Map 38 raster"
+    },
+    "outputs/maps/systems/38_vector_ecology_baseline_2026.svg": {
+      "sha256": "7bab3e914cecedd01269bf57adf5c064bf6a3f8029e789703c43a4466feed28a",
+      "bytes": 17274448,
+      "role": "Map 38 vector"
+    },
+    "reports/vector_ecology_sources.md": {
+      "sha256": "dc4973fabe848ae778747df7713fb2466ea3a792fe4a231826907a959e9dd105",
+      "bytes": 4006,
+      "role": "source report"
+    },
+    "reports/vector_ecology_assumptions.md": {
+      "sha256": "129efa5c1bf92d3a96406ba73b7419b9d2415e162e385925dbf5d9a5ad107ed1",
+      "bytes": 2307,
+      "role": "assumptions and scope report"
+    },
+    "reports/vector_ecology_findings.md": {
+      "sha256": "7825372b46d114790fef60359154331b548baa0ec5ca9adb38c4b36754c56cd2",
+      "bytes": 6549,
+      "role": "findings report"
+    },
+    "reports/vector_ecology_qa.md": {
+      "sha256": "ee62dae22d047d786a04bd5c1cb739275dd4c49e8c123f304a73b551aca0302c",
+      "bytes": 1177,
+      "role": "QA report"
+    },
+    "data/raw/vector_ecology/Public_Use_Ixodes_County_Table_2024_summary.xlsx": {
+      "sha256": "5a244c7d73818b1f868cc9794251911971bf8236dd73b873380988f55a0703b4",
+      "bytes": 142475,
+      "role": "preserved raw source extract"
+    },
+    "reports/phase12_citation_ledger.json": {
+      "sha256": "9fbf00975fbb1ac202d208d7ddf59d63b97edae34692de77c0315a7349fabb71",
+      "bytes": 3452,
+      "role": "phase-local citation ledger"
+    },
+    "reports/phase12_working_manifest.json": {
+      "sha256": "87739e12a77f0dc31dae61cc03b5163da671621ffadf7a00f3a3a6ff5b5df1a9",
+      "bytes": 705,
+      "role": "pre-acceptance working manifest retained for lineage"
+    },
+    "reports/vector_ecology_artifact_check.json": {
+      "sha256": "f46f1d5d6dd46dfc0e353cc46ba50140f5e60b12f8c50ba3a24cdcc67007aa0d",
+      "bytes": 2835,
+      "role": "machine validation result"
+    },
+    "reports/phase12_independent_review.md": {
+      "sha256": "4bc201347df1381876af1e48e37971bd9ae0a00238a1dfb1fb40a606875ec9b0",
+      "bytes": 2145,
+      "role": "final independent-review record"
+    }
+  },
+  "protected_scope": "Accepted Phase 12A factual 2026 vector ecology and surveillance baseline; Phase 1–11 accepted/frozen artifacts unchanged",
+  "phase12b_implemented": true,
+  "phase12c_implemented": false,
+  "phase13_implemented": false,
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  }
+}

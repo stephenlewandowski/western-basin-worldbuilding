@@ -467,7 +467,7 @@ phase is **NONE**; next analytical phase is **NOT APPROVED**. The fresh Phase
 and review history remain preserved in Git and
 `reports/population_settlement_future_independent_review.md`.
 
-## PHASE 12A — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 12A — ACCEPTED / FROZEN
 
 **Vector Ecology Baseline, 2026**
 
@@ -485,7 +485,7 @@ workbook provenance retains the original CDC source-page URL and the actual
 `restoredcdc.org` mirror/retrieval URL, explicitly not CDC-hosted, after the
 direct CDC binary returned HTTP 403.
 
-## PHASE 12B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 12B — ACCEPTED / FROZEN
 
 **Vector / Environment / Human-System Dependencies, 2026**
 
@@ -497,9 +497,21 @@ monitoring is not control; and positive vector pools or reported human cases do
 not establish local transmission without supporting evidence.
 
 The Phase 12A working baseline remains immutable during 12B. Phase 12C is
-approved scope only and is not implemented. The Phase 12A/12B package was
-integrated after the fresh bounded review passed. Active phase is **NONE** and
-the next analytical phase is **NOT APPROVED**.
+approved scope only and is not implemented. Sol formally accepted and froze
+Phase 12A and Phase 12B after Python and independent R freeze validation,
+strict provenance checks, verification of 298 prior manifest entries / 293
+unique protected artifacts, and the fresh bounded independent review passed
+with all blocking arrays empty. Final freeze protection is recorded in
+`reports/phase12a_vector_ecology_freeze_manifest.json` (17 artifacts) and
+`reports/phase12b_vector_environment_human_dependencies_freeze_manifest.json`
+(15 artifacts). The implementation, correction, review, merge, and delivery
+history remains preserved in Git: `ec37108371d51ccdecd9fafcbde58463d79911d7`,
+`dc231c3e5c371050482c9cf8f4f938b4ec55a624`, `326fbd7`, `0853f8b`, and
+`e158740aa35f31d2155a9906a3bc2c5529fb5147`.
+
+Historical maintenance is deferred and unchanged: Phase 6B manifest status
+wording mismatch and Phase 3A missing manifest status. Active phase is
+**NONE** and the next analytical phase is **NOT APPROVED**.
 
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry

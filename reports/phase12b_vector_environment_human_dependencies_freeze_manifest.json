@@ -1,0 +1,109 @@
+{
+  "accepted_phase": "12B",
+  "baseline": "Vector / Environment / Human-System Dependencies, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-08",
+  "source_commit": "e158740aa35f31d2155a9906a3bc2c5529fb5147",
+  "acceptance_basis": "Sol formally accepted and froze the separate qualitative Phase 12B dependency layer after Python validation, independent R validation, strict provenance checks, Phase 12A immutability verification, prior-system immutability verification, and the fresh bounded independent review passing with all blocking arrays empty.",
+  "counts": {
+    "dependency_register": 28,
+    "dependency_edges": 28,
+    "matrix_rows": 8,
+    "evidence_rows": 8,
+    "sources_reused": 27
+  },
+  "phase12a_freeze_manifest": {
+    "path": "reports/phase12a_vector_ecology_freeze_manifest.json",
+    "sha256": "df3e303094e1f0c6b42914559eab581688217497dafaf7e17ad5a4ccf359e3e0",
+    "bytes": 4771
+  },
+  "artifacts": {
+    "data/processed/analysis/vector_system_dependency_register.csv": {
+      "sha256": "4fde609ae924f9e4d7b39f97adbd79e7887f4864d736ed8ad4249f6ccdbae8d3",
+      "bytes": 8068,
+      "role": "Phase 12B dependency register"
+    },
+    "data/processed/networks/vector_system_dependency_edges.csv": {
+      "sha256": "4fde609ae924f9e4d7b39f97adbd79e7887f4864d736ed8ad4249f6ccdbae8d3",
+      "bytes": 8068,
+      "role": "Phase 12B dependency edges"
+    },
+    "data/processed/analysis/vector_system_dependency_matrix.csv": {
+      "sha256": "639842c75027d9e812391afb4d3a22bb7f2fa112393cebb04b428755f8126f01",
+      "bytes": 2293,
+      "role": "Phase 12B qualitative dependency matrix"
+    },
+    "data/processed/analysis/vector_dependency_evidence.csv": {
+      "sha256": "1e4ce699168c2b8bee22b8809bd97224c8c2e920811d74ae25ab36cd5e404cf4",
+      "bytes": 2150,
+      "role": "Phase 12B evidence crosswalk"
+    },
+    "outputs/maps/systems/39_vector_environment_human_dependencies_2026.png": {
+      "sha256": "9e15babcd3e39d8bd6b8631ac7d9a2f6a26f6eab1daa2f26e9d684388a369c81",
+      "bytes": 1277924,
+      "role": "Map 39 raster"
+    },
+    "outputs/maps/systems/39_vector_environment_human_dependencies_2026.svg": {
+      "sha256": "0783e35afa3ff0f614d620ae239356fafd26567ec2adc8f7409cba24fe3a9a03",
+      "bytes": 17194865,
+      "role": "Map 39 vector"
+    },
+    "reports/vector_dependency_sources.md": {
+      "sha256": "702e93a3e971c834c571352bd0ed2d4e6d76f3ee4313f5404e2280f62df6f4f3",
+      "bytes": 2948,
+      "role": "source report"
+    },
+    "reports/vector_dependency_assumptions.md": {
+      "sha256": "432616b440ef35c819d9479e0cbf2cf877ff2832c62a4d6ba2b5b84d571e878b",
+      "bytes": 1394,
+      "role": "assumptions and scope report"
+    },
+    "reports/vector_dependency_findings.md": {
+      "sha256": "a86eb57a2ede3cdb1e8d95a5d9d187551977850663d19d82c7b9b94152c0c7b4",
+      "bytes": 4682,
+      "role": "findings report"
+    },
+    "reports/vector_dependency_qa.md": {
+      "sha256": "9902c4d7734537093dd0ab41f0aa4cedeb4bb7b18f7d391320ded7b7ca8125a4",
+      "bytes": 1021,
+      "role": "QA report"
+    },
+    "reports/vector_dependency_artifact_check.json": {
+      "sha256": "66eadca8cf6a020e607a3dafc6cf441667d29eaa91facf1ec08cdd6653f839aa",
+      "bytes": 906,
+      "role": "machine validation result"
+    },
+    "reports/phase12_working_manifest.json": {
+      "sha256": "87739e12a77f0dc31dae61cc03b5163da671621ffadf7a00f3a3a6ff5b5df1a9",
+      "bytes": 705,
+      "role": "pre-acceptance working manifest retained for lineage"
+    },
+    "reports/phase12_independent_review.md": {
+      "sha256": "4bc201347df1381876af1e48e37971bd9ae0a00238a1dfb1fb40a606875ec9b0",
+      "bytes": 2145,
+      "role": "final independent-review record"
+    },
+    "src/python/systems/validate_phase12_freezes.py": {
+      "sha256": "51e61578f8398688294f6ce7e6d3179051ac9247fc061e5bc83ff0cb9b6d2eaa",
+      "bytes": 14325,
+      "role": "Python independent freeze validator"
+    },
+    "src/R/systems/validate_phase12_freezes.R": {
+      "sha256": "a4bc1de7ca4a79bf2842e9a65b6ae202e9225e926facc80902930759936292e9",
+      "bytes": 16878,
+      "role": "independent R freeze validator"
+    }
+  },
+  "protected_inputs": [
+    "reports/phase12a_vector_ecology_freeze_manifest.json"
+  ],
+  "phase12a_immutable": true,
+  "phase1_11_immutable": true,
+  "phase12c_implemented": false,
+  "phase13_implemented": false,
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  }
+}

@@ -806,3 +806,16 @@ Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; 
 - Fresh review `deleg_3199d624` passed with empty blocking arrays and is preserved at `reports/phase12_independent_review.md`.
 - Active phase: **NONE**. Next analytical phase: **NOT APPROVED**. Phase 12C and Phase 13 are not implemented. No release or tag was created.
 - Final main and origin/main SHAs are verified by Git after this handoff commit rather than embedded self-referentially here.
+
+## Phase 12 final acceptance / freeze handoff — 2026-09-08
+
+- Starting acceptance-run SHA: `e158740aa35f31d2155a9906a3bc2c5529fb5147`; local `main` and `origin/main` were clean and synchronized before freeze bookkeeping.
+- Sol formally accepted and froze Phase 12A — Vector Ecology Baseline, 2026 — and Phase 12B — Vector / Environment / Human-System Dependencies, 2026.
+- Phase 12A: **ACCEPTED / FROZEN**; 20 nodes, 26 ecology edges, 36 surveillance/context records, 15 habitat associations, 27 sources, 10 uncertainties, Map 38. Final freeze manifest: `reports/phase12a_vector_ecology_freeze_manifest.json`; protected count: 17 artifacts. The pre-acceptance working manifest contains 14 package artifacts.
+- Phase 12B: **ACCEPTED / FROZEN**; 28 dependency-register rows, 28 dependency edges, eight matrix rows, eight evidence-crosswalk rows, 27 reused sources, Map 39. Final freeze manifest: `reports/phase12b_vector_environment_human_dependencies_freeze_manifest.json`; protected count: 15 artifacts. The pre-acceptance working manifest contains 10 package artifacts.
+- Python freeze validation: `src/python/systems/validate_phase12_freezes.py` passed. Independent R freeze validation: `src/R/systems/validate_phase12_freezes.R` passed. Both verified 298 prior manifest entries / 293 unique Phase 1–11 protected artifacts, Phase 12A immutability, final manifest hashes, maps, provenance, boundaries, holds, and Phase 12C/13 absence.
+- The existing Phase 12A and 12B Python and independent R validators also passed before final manifest creation with the accepted counts and 298/293 prior-system inventory.
+- Fresh independent review `deleg_3199d624` remains preserved at `reports/phase12_independent_review.md` with `passed: true` and all blocking arrays empty. Implementation/correction/merge/delivery history remains unrevised: `ec37108371d51ccdecd9fafcbde58463d79911d7`, `dc231c3e5c371050482c9cf8f4f938b4ec55a624`, `326fbd7`, `0853f8b`, and `e158740aa35f31d2155a9906a3bc2c5529fb5147`.
+- Deferred maintenance, intentionally unchanged: Phase 6B manifest status wording mismatch; Phase 3A missing manifest status.
+- Final state: Phase 12A **ACCEPTED / FROZEN**; Phase 12B **ACCEPTED / FROZEN**; Phase 12C **APPROVED SCOPE / NOT IMPLEMENTED**; Active phase **NONE**. Do not begin Phase 12C or Phase 13.
+- Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. No release or tag was created.
