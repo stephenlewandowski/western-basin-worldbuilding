@@ -302,7 +302,7 @@ def check_future_manifest(require_review: bool = False) -> dict:
             assert term in review_text, term
     for relative, metadata in payload["artifacts"].items():
         path = ROOT / relative
-        assert path.exists() and path.stat().st_size > 0 and hashlib.sha256(path.read_bytes()).hexdigest() == metadata["sha256"], relative
+        assert path.exists() and path.stat().st_size > 0 and portable_manifest_match(relative, metadata["sha256"]), relative
     return payload
 
 

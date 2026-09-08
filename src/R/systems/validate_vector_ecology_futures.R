@@ -205,7 +205,7 @@ if (require_review) {
   review_text <- tolower(json_text(file.path(reports, "vector_ecology_future_independent_review.md")))
   for (term in c('"passed": true','"security_concerns": []','"logic_errors": []','"provenance_errors": []','"ecological_errors": []','"scenario_boundary_errors": []','"spatial_scale_errors": []','"health_boundary_errors": []')) stop_if(grepl(term, review_text, fixed=TRUE), paste("independent review", term))
 }
-for (i in seq_len(nrow(future_artifacts))) stop_if(file.exists(file.path(root,future_artifacts$rel[[i]])) && sha256_file(file.path(root,future_artifacts$rel[[i]])) == future_artifacts$sha256[[i]], paste("future manifest hash",future_artifacts$rel[[i]]))
+for (i in seq_len(nrow(future_artifacts))) stop_if(file.exists(file.path(root,future_artifacts$rel[[i]])) && portable_match(file.path(root,future_artifacts$rel[[i]]), future_artifacts$sha256[[i]]), paste("future manifest hash",future_artifacts$rel[[i]]))
 
 prior_files <- list.files(reports, pattern="^phase.*_freeze_manifest[.]json$", full.names=TRUE)
 prior_files <- prior_files[!(basename(prior_files) %in% c("phase12a_vector_ecology_freeze_manifest.json","phase12b_vector_environment_human_dependencies_freeze_manifest.json"))]
