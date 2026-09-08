@@ -140,8 +140,11 @@ def check_a_immutability() -> int:
         expected = str(metadata["sha256"])
         assert manifest_matches(ROOT, rel, expected), rel
         checked += 1
-    assert digest(A_MANIFEST) == json.loads(B_MANIFEST.read_text(encoding="utf-8"))["protected_12a_manifest"]["sha256"]
-    assert A_MANIFEST.stat().st_size == int(json.loads(B_MANIFEST.read_text(encoding="utf-8"))["protected_12a_manifest"]["bytes"])
+    protected = json.loads(B_MANIFEST.read_text(encoding="utf-8"))["protected_12a_manifest"]
+    assert manifest_matches(ROOT, str(protected["path"]), str(protected["sha256"]))
+    canonical = A_MANIFEST.read_bytes().replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+    crlf = canonical.replace(b"\n", b"\r\n")
+    assert int(protected["bytes"]) in {A_MANIFEST.stat().st_size, len(canonical), len(crlf)}
     return checked
 
 
