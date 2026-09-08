@@ -446,6 +446,27 @@ Rscript src\\R\\systems\\validate_governance_dependencies.R .
 ```
 
 
+## Phase 11 Population & Settlement Dynamics
+
+Phase 11A and 11B are implemented and validated on the feature branch, awaiting independent review, integration, and Sol acceptance. Phase 11C is approved scope only and is not implemented.
+
+- [35 — Population & settlement system, 2026](outputs/maps/systems/35_population_settlement_2026.png)
+- [36 — Population, mobility & system dependencies, 2026](outputs/maps/systems/36_population_mobility_dependencies_2026.png)
+- [Population and settlement nodes](data/processed/analysis/population_settlement_nodes.csv)
+- [Population and settlement observations](data/processed/analysis/population_settlement_observations.csv)
+- [Population and settlement relationships](data/processed/networks/population_settlement_relationships.csv)
+- [Population mobility observations](data/processed/analysis/population_mobility_observations.csv)
+- [Population mobility relationships](data/processed/networks/population_mobility_relationships.csv)
+- [Population system dependency register](data/processed/analysis/population_system_dependency_register.csv)
+- [Population system dependency matrix](data/processed/analysis/population_system_dependency_matrix.csv)
+- [Phase 11A baseline manifest](reports/population_settlement_baseline_manifest.json)
+- [Phase 11 working manifest](reports/phase11_working_manifest.json)
+- [Phase 11A brief](docs/phase_briefs/phase11a_population_settlement_baseline.md)
+- [Phase 11B brief](docs/phase_briefs/phase11b_population_mobility_dependencies.md)
+- [Phase 11C approved-scope brief](docs/phase_briefs/phase11c_population_settlement_futures.md)
+
+The package preserves person/household/housing-unit/density/worker/job/commuter distinctions, residence/workplace and commuting/migration boundaries, mixed Census/ACS/PEP/LODES vintages, and generalized service/dependency interfaces. It creates no vulnerability or environmental-justice score, protected-class ranking, individual movement model, health outcome, exact utility territory, unsupported forecast, or future population layer.
+
 ```text
 assets/                 exploratory concept art and archived generated maps
 data/raw/               cached public-source responses; large reproducible extracts may be ignored

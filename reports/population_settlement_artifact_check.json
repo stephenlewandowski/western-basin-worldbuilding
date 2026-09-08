@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "phase": "11A",
+  "map_number": 35,
+  "settlement_nodes": 62,
+  "population_observations": 918,
+  "relationships": 44,
+  "sources": 34,
+  "uncertainties": 9,
+  "map35_valid": true,
+  "image_size": [
+    6084,
+    1892
+  ],
+  "manifest_artifacts_checked": 11,
+  "phase10_manifest_entries": 53,
+  "phase10_unique_artifacts": 49,
+  "prior_phase1_9_protected_artifacts": 196,
+  "vintage_scale_quantity_checks": true,
+  "negative_scope_checks": true,
+  "holds_preserved": true,
+  "phase11c_absent": true
+}

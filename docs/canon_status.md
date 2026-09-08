@@ -112,8 +112,11 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 10A Governance & Jurisdiction Baseline:** accepted and frozen as a factual 2026 institutional layer; Map 32; `reports/phase10a_governance_jurisdiction_freeze_manifest.json`
 - **Phase 10B Cross-System Authority, Dependencies & Coordination:** accepted and frozen as a qualitative 2026 dependency layer; Map 33; `reports/phase10b_governance_dependencies_coordination_freeze_manifest.json`
 - **Phase 10C Governance Futures:** accepted and frozen as separate qualitative 2050/2075 scenario content; Maps 34/34b; `reports/phase10c_governance_futures_freeze_manifest.json`
+- **Phase 11A Population & Settlement Baseline:** implemented and validated on the feature branch, awaiting independent review/integration and Sol acceptance; Map 35; `reports/population_settlement_baseline_manifest.json`
+- **Phase 11B Population, Mobility & System Dependencies:** implemented and validated on the feature branch, awaiting independent review/integration and Sol acceptance; Map 36; `reports/phase11_working_manifest.json`
+- **Phase 11C Population & Settlement Futures:** approved scope only; not implemented.
 
-Final subphase status: Phase 9A is **ACCEPTED / FROZEN**; Phase 9B is **ACCEPTED / FROZEN**; Phase 9C is **ACCEPTED / FROZEN**; Phase 10A is **ACCEPTED / FROZEN**; Phase 10B is **ACCEPTED / FROZEN**; and Phase 10C is **ACCEPTED / FROZEN**. Active phase: **NONE**. Next analytical phase: **NOT APPROVED**.
+Final subphase status: Phase 9A is **ACCEPTED / FROZEN**; Phase 9B is **ACCEPTED / FROZEN**; Phase 9C is **ACCEPTED / FROZEN**; Phase 10A is **ACCEPTED / FROZEN**; Phase 10B is **ACCEPTED / FROZEN**; Phase 10C is **ACCEPTED / FROZEN**; Phase 11A is **IMPLEMENTED / VALIDATED / AWAITING INTEGRATION AND SOL ACCEPTANCE**; and Phase 11B is **IMPLEMENTED / VALIDATED / AWAITING INTEGRATION AND SOL ACCEPTANCE**. Active phase: **Phase 11 delivery**. Next action: independent review and integration.
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without
@@ -201,3 +204,7 @@ Phase 10A and 10B are accepted/frozen institutional layers, not new physical jur
 The transparent Phase 10 correction lineage is preserved: original implementation `e7d421c7c1a43a335e1e2faef2bca009c4427712`, provenance correction `d25d4394c265fcc68ed4b5a89cf2901f70910fad`, handoff `f613d3ff1f4193444d1f01560806cbf2d6b8fc9b`, and post-correction review commit `e1f233cc89e3694d2f08dfd81fde6f9194f57a65` remain visible and unrevised. The review records are `reports/governance_independent_review.md`, `reports/governance_post_correction_independent_review.md` (`deleg_2e8d515e`), and `reports/governance_additional_post_correction_independent_review.md` (`deleg_eedc4116`).
 
 Great Black Swamp remains **C — HOLD / noncanonical**. The Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Neither hold was resolved or treated as a prerequisite for Phase 10 acceptance. Phase 10C is **ACCEPTED / FROZEN** under `reports/phase10c_governance_futures_freeze_manifest.json` as a separate qualitative scenario layer; it does not alter the factual 2026 institutional baseline.
+
+## Phase 11 acceptance boundary
+
+Phase 11A is a factual 2026 population/settlement layer using 2020 Census enumeration, 2024 PEP estimates, ACS 2024 5-year estimates, Census geography, and bounded LODES employment context. Phase 11B is a qualitative 2026 mobility/dependency layer using ACS journey-to-work and LODES aggregates plus accepted Phase 6–10 interfaces. Both remain awaiting Sol acceptance. They do not create a canonical population boundary, utility service territories, individual movement model, vulnerability/EJ score, protected-class ranking, health outcome, unsupported demographic forecast, Indigenous-history/HGIS layer, or future population scenario. Phase 11C is approved scope only and is not implemented.

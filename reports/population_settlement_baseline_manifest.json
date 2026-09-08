@@ -1,0 +1,59 @@
+{
+  "phase": "11A",
+  "status": "implemented_validated_pending_sol_acceptance",
+  "map_number": 35,
+  "counts": {
+    "nodes": 62,
+    "population_observations": 918,
+    "relationships": 44,
+    "sources": 34
+  },
+  "artifacts": {
+    "data/processed/analysis/population_settlement_nodes.csv": {
+      "bytes": 18217,
+      "sha256": "b2455857a70ae568af2c75a44608ce926b7064cdf3a9667811dd9b66f175aa6c"
+    },
+    "data/processed/analysis/population_settlement_observations.csv": {
+      "bytes": 249423,
+      "sha256": "a96da77e66b41677b55a9e91026d31b249805b009d932bd0160a0b399dee55af"
+    },
+    "data/processed/networks/population_settlement_relationships.csv": {
+      "bytes": 13924,
+      "sha256": "bb02fd10b11cd8cd35fb18840838b66bf5e23615a87dd9775fcfb9bb584ff7bb"
+    },
+    "data/processed/analysis/population_settlement_sources.csv": {
+      "bytes": 13313,
+      "sha256": "db2917e133f9ba2c7de03cda27fd065991e0dbdbe6c7efa9fcd1b222cd7817b5"
+    },
+    "data/processed/analysis/population_settlement_uncertainty.csv": {
+      "bytes": 2320,
+      "sha256": "61177a6d097477c6b605e7c2091e091d58304a3f81e164e92b43b90138ed9e4a"
+    },
+    "outputs/maps/systems/35_population_settlement_2026.png": {
+      "bytes": 269355,
+      "sha256": "6d210fbc8685d78e3169f4910d0a20f4361c4b20d06b7159b1024396d55f51f1"
+    },
+    "outputs/maps/systems/35_population_settlement_2026.svg": {
+      "bytes": 599454,
+      "sha256": "6b5d5a11f9446e096acaeece1b15468fe743128a68f4c2153df3077f9c12fe4d"
+    },
+    "reports/population_settlement_sources.md": {
+      "bytes": 4382,
+      "sha256": "57730994bc882788ddeae848e9b0a9917ea4abe4564266e85baf96232aa596c3"
+    },
+    "reports/population_settlement_assumptions.md": {
+      "bytes": 1745,
+      "sha256": "b91c4833af88b847557d4e132ea6df944cbbe8a239b03ec2bdcc64aa6843b62e"
+    },
+    "reports/population_settlement_findings.md": {
+      "bytes": 7746,
+      "sha256": "ec2b9712a6105aa53cb61386653c2ef0736bca51a1b71dc52dac3e825c056d49"
+    },
+    "reports/population_settlement_qa.md": {
+      "bytes": 970,
+      "sha256": "99464b1a7e2475e8d61de10cda789cda2e9905ee1199024f9dc52bbdebae7c0d"
+    }
+  },
+  "protected_scope": "Phase 11A working baseline; Phase 1-10 accepted/frozen artifacts unchanged",
+  "phase11c_implemented": false
+}

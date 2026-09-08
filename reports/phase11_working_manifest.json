@@ -1,0 +1,64 @@
+{
+  "phase": "11A/11B",
+  "status": "implemented_validated_pending_sol_acceptance",
+  "maps": [
+    35,
+    36
+  ],
+  "counts": {
+    "settlement_nodes": 62,
+    "population_observations": 918,
+    "settlement_relationships": 44,
+    "mobility_observations": 302,
+    "mobility_relationships": 142,
+    "dependencies": 520,
+    "matrix_rows": 52,
+    "sources": 34
+  },
+  "baseline_manifest": "reports/population_settlement_baseline_manifest.json",
+  "artifacts": {
+    "data/processed/analysis/population_mobility_observations.csv": {
+      "bytes": 84466,
+      "sha256": "d7f8e43d092b78ae597a0b33a711d06d4c508b544b7943d5545ab28c07f215fc"
+    },
+    "data/processed/networks/population_mobility_relationships.csv": {
+      "bytes": 43627,
+      "sha256": "331ff3858e3f4a8604f27f011b7dc0c0b7a365ef098e7ba459895ae0a42a9a72"
+    },
+    "data/processed/analysis/population_system_dependency_register.csv": {
+      "bytes": 147673,
+      "sha256": "d096adf7aef94d37053035e52190c39147b4002a81332107403a14b77dc91935"
+    },
+    "data/processed/analysis/population_system_dependency_matrix.csv": {
+      "bytes": 27072,
+      "sha256": "89ab26383113f5266b9b84b19ffffedb34757f6f029315064ccd518f546bef0e"
+    },
+    "outputs/maps/systems/36_population_mobility_dependencies_2026.png": {
+      "bytes": 307371,
+      "sha256": "0a18a447ef7c11b61af86efc0c0779eda11539333536cb04a245c4c04896fd94"
+    },
+    "outputs/maps/systems/36_population_mobility_dependencies_2026.svg": {
+      "bytes": 617076,
+      "sha256": "7b5cce6391ce9141f163fe7e5a938e690e47cf4023005bd4a9cb018a184e1e53"
+    },
+    "reports/population_mobility_sources.md": {
+      "bytes": 4044,
+      "sha256": "fec114a5a755951f22a6a005ddd25ce4c1bb42bfbf5366770ebc1a8da0a1b8d4"
+    },
+    "reports/population_mobility_assumptions.md": {
+      "bytes": 2045,
+      "sha256": "a275df2f2aa37362949f101c73c84bfd854181f502c47dd9ea0d2f0fec9a2018"
+    },
+    "reports/population_mobility_findings.md": {
+      "bytes": 7852,
+      "sha256": "9eabf2bb8c9981bf842455d70f3b2be55e7888edb7a9f4bc75382aa5b82a9e67"
+    },
+    "reports/population_mobility_qa.md": {
+      "bytes": 979,
+      "sha256": "165eacfcb0d5bcddd4c5c35f92682bbc840bdaeaaef550a47f5fd2c235925e58"
+    }
+  },
+  "phase10_protected": true,
+  "phase11c_implemented": false,
+  "active_holds_preserved": true
+}

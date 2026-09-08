@@ -690,3 +690,14 @@ Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; 
 - Final state: Phase 10A **ACCEPTED / FROZEN**; Phase 10B **ACCEPTED / FROZEN**; Phase 10C **ACCEPTED / FROZEN**; Active phase **NONE**; Next analytical phase **NOT APPROVED**.
 - Active holds remain preserved: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**.
 - No release or tag was created. Do not begin Phase 11.
+
+## Phase 11 startup checkpoint — approved 11A/11B only
+
+- Starting local `main`, `origin/main`, and remote `origin/main`: `399ede9606f4f4c900d38dc9e9d74842e98d0b52`; repository state was clean and synchronized.
+- Phase 10A, 10B, and 10C final freeze manifests were independently verified in Python and R before Phase 11 work: 30 Phase 10A/10B manifest entries, 26 unique Phase 10A/10B artifacts, 23 Phase 10C artifacts, 196 prior Phase 1–9 protected artifacts, and eight newline-only prior matches.
+- Isolated worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase11`; branch: `phase-11-population-settlement-dynamics`; base SHA: `399ede9606f4f4c900d38dc9e9d74842e98d0b52`.
+- Durable briefs persisted: `docs/phase_briefs/phase11a_population_settlement_baseline.md`, `phase11b_population_mobility_dependencies.md`, and `phase11c_population_settlement_futures.md`.
+- Approved implementation scope: Phase 11A and 11B only. Phase 11C is approved scope only and remains not implemented.
+- Protected boundaries: no Phase 1–10 changes; Great Black Swamp remains `C — HOLD / noncanonical`; Toledo intake-coordinate discrepancy remains `UNRESOLVED`; no vulnerability/EJ score, protected-class ranking, individual movement, health outcome, unsupported utility assignment, unsupported demographic forecast, Phase 12, vector ecology, infectious disease, biosecurity, AI/convergence expansion, release, or tag.
+- Current active phase: **Phase 11A — Population & Settlement Baseline, 2026**.
+- Next exact action: complete independent review, stage the validated package, commit/push the feature branch, then fast-forward integrate into `main` and verify remote synchronization.

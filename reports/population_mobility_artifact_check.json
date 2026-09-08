@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "phase": "11B",
+  "map_numbers": [
+    35,
+    36
+  ],
+  "mobility_observations": 302,
+  "mobility_relationships": 142,
+  "dependencies": 520,
+  "matrix_rows": 52,
+  "baseline_artifacts_checked": 11,
+  "working_artifacts_checked": 10,
+  "phase10_manifest_entries": 53,
+  "phase10_unique_artifacts": 49,
+  "prior_phase1_9_protected_artifacts": 196,
+  "residence_workplace_checks": true,
+  "commuting_migration_checks": true,
+  "utility_assignment_boundary": true,
+  "negative_scope_checks": true,
+  "maps_valid": true,
+  "phase11c_absent": true,
+  "holds_preserved": true
+}

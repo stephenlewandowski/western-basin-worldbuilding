@@ -276,3 +276,23 @@ The package explicitly separates regulation, operation, ownership, monitoring, f
 - `governance_additional_post_correction_independent_review.md` — additional review (`deleg_eedc4116`)
 
 The package explicitly separates regulation, operation, ownership, monitoring, funding, advisory, permitting, scientific information, public/private control, mandatory/voluntary status, and jurisdictional scale. It makes no composite governance score or generalized governance-gap ranking.
+
+## Phase 11 population, settlement, mobility, and dependencies
+
+Phase 11A and 11B are implemented and validated on the feature branch, awaiting independent review, integration, and Sol acceptance. Phase 11C is approved scope only and is not implemented.
+
+- `../data/processed/analysis/population_settlement_nodes.csv` — 62 population, municipality, and employment-center nodes
+- `../data/processed/analysis/population_settlement_observations.csv` — 918 population/settlement observations
+- `../data/processed/networks/population_settlement_relationships.csv` — 44 structural/employment relationships
+- `../data/processed/analysis/population_mobility_observations.csv` — 302 mobility observations
+- `../data/processed/networks/population_mobility_relationships.csv` — 142 generalized commuting relationships
+- `../data/processed/analysis/population_system_dependency_register.csv` — 520 qualitative dependency rows
+- `../data/processed/analysis/population_system_dependency_matrix.csv` — 52 qualitative matrix rows
+- `../outputs/maps/systems/35_population_settlement_2026.png` and `.svg` — Map 35
+- `../outputs/maps/systems/36_population_mobility_dependencies_2026.png` and `.svg` — Map 36
+- `population_settlement_sources.md`, `population_settlement_assumptions.md`, `population_settlement_findings.md`, `population_settlement_qa.md`
+- `population_mobility_sources.md`, `population_mobility_assumptions.md`, `population_mobility_findings.md`, `population_mobility_qa.md`
+- `population_settlement_baseline_manifest.json` and `phase11_working_manifest.json`
+- `population_settlement_artifact_check.json` and `population_mobility_artifact_check.json`
+
+The package preserves Census/ACS/PEP/LODES vintages and geography scales, distinguishes residence/workplace and commuting/migration, and keeps accepted water, energy, transport, climate, environmental-health, ecology, nutrient, housing, and governance interfaces qualitative. It creates no vulnerability/EJ score, protected-class ranking, individual movement model, health outcome, exact utility territory, unsupported forecast, Phase 11C content, or Phase 12 content.

@@ -409,6 +409,28 @@ Final subphase status:
 - Active phase: **NONE**
 - Next analytical phase: **NOT APPROVED**
 
+## PHASE 11A — IMPLEMENTED / VALIDATED / AWAITING INTEGRATION AND SOL ACCEPTANCE
+
+**Population & Settlement Baseline, 2026**
+
+Phase 11A adds 62 settlement/employment nodes, 918 population and settlement observations, 44 structural/employment relationships, 34 source records, nine uncertainty records, and Map 35. It combines 2020 Decennial Census P.L. 94-171 enumeration, 2024 Vintage Population Estimates Program July 1 estimates, ACS 2024 5-year estimates for the 2020–2024 period, Census TIGER geography, and bounded LODES workplace context.
+
+The package distinguishes person counts, household counts, housing-unit counts, density, jobs, workers, and commuter flows. County, place, and generalized employment-center scales remain separate. Age and household composition are descriptive aggregate context only. No individual profiles, protected-class ranking, vulnerability/EJ score, health outcome, dose, utility-territory assignment, or future demographic forecast is included.
+
+Map 35 and the Phase 11A working baseline are protected by `reports/population_settlement_baseline_manifest.json` and the Phase 11A Python/R validators. Great Black Swamp remains C — HOLD / noncanonical; the Toledo intake-coordinate discrepancy remains unresolved.
+
+## PHASE 11B — IMPLEMENTED / VALIDATED / AWAITING INTEGRATION AND SOL ACCEPTANCE
+
+**Population, Mobility & System Dependencies, 2026**
+
+Phase 11B adds 302 mobility observations, 142 generalized residence/workplace relationships, 520 qualitative dependency-register rows, 52 qualitative matrix rows, and Map 36. It uses ACS 2024 5-year journey-to-work context and LODES 8.4 aggregates: Ohio and Indiana WAC/RAC/OD products are 2023; Michigan WAC/OD products are 2021 and RAC is 2023 because those are the current public files available. Michigan workplace/residence differences are not calculated across mismatched WAC/RAC vintages.
+
+LODES records are modeled/tabulated administrative products aggregated to county interfaces. Commuting is kept distinct from migration; workplace is kept distinct from residence; passenger movement is kept distinct from freight. The dependency matrix uses qualitative labels only and creates no composite vulnerability, service-access, governance, environmental-justice, or community-risk score. Population presence does not assign residents to exact utility service territories.
+
+Map 36 and the complete Phase 11 working package are protected by `reports/phase11_working_manifest.json`, `reports/population_mobility_artifact_check.json`, and the Phase 11B Python/R validators. Phase 11C remains approved scope only and is not implemented.
+
+Final Phase 11 status: 11A and 11B are implemented and validated on the feature branch, awaiting independent-review closure and integration; active phase is **Phase 11 delivery**; next action is independent-review and delivery gates.
+
 1. Toledo intake coordinate reconciliation
 2. authoritative historical Great Black Swamp geometry
 
