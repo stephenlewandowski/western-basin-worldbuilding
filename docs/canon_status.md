@@ -112,11 +112,11 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 10A Governance & Jurisdiction Baseline:** accepted and frozen as a factual 2026 institutional layer; Map 32; `reports/phase10a_governance_jurisdiction_freeze_manifest.json`
 - **Phase 10B Cross-System Authority, Dependencies & Coordination:** accepted and frozen as a qualitative 2026 dependency layer; Map 33; `reports/phase10b_governance_dependencies_coordination_freeze_manifest.json`
 - **Phase 10C Governance Futures:** accepted and frozen as separate qualitative 2050/2075 scenario content; Maps 34/34b; `reports/phase10c_governance_futures_freeze_manifest.json`
-- **Phase 11A Population & Settlement Baseline:** implemented and validated on the feature branch, awaiting independent review/integration and Sol acceptance; Map 35; `reports/population_settlement_baseline_manifest.json`
-- **Phase 11B Population, Mobility & System Dependencies:** implemented and validated on the feature branch, awaiting independent review/integration and Sol acceptance; Map 36; `reports/phase11_working_manifest.json`
+- **Phase 11A Population & Settlement Baseline:** implemented, validated, and integrated, awaiting Sol acceptance; Map 35; `reports/population_settlement_baseline_manifest.json`
+- **Phase 11B Population, Mobility & System Dependencies:** implemented, validated, and integrated, awaiting Sol acceptance; Map 36; `reports/phase11_working_manifest.json`
 - **Phase 11C Population & Settlement Futures:** approved scope only; not implemented.
 
-Final subphase status: Phase 9A is **ACCEPTED / FROZEN**; Phase 9B is **ACCEPTED / FROZEN**; Phase 9C is **ACCEPTED / FROZEN**; Phase 10A is **ACCEPTED / FROZEN**; Phase 10B is **ACCEPTED / FROZEN**; Phase 10C is **ACCEPTED / FROZEN**; Phase 11A is **IMPLEMENTED / VALIDATED / AWAITING INTEGRATION AND SOL ACCEPTANCE**; and Phase 11B is **IMPLEMENTED / VALIDATED / AWAITING INTEGRATION AND SOL ACCEPTANCE**. Active phase: **Phase 11 delivery**. Next action: independent review and integration.
+Final subphase status: Phase 9A is **ACCEPTED / FROZEN**; Phase 9B is **ACCEPTED / FROZEN**; Phase 9C is **ACCEPTED / FROZEN**; Phase 10A is **ACCEPTED / FROZEN**; Phase 10B is **ACCEPTED / FROZEN**; Phase 10C is **ACCEPTED / FROZEN**; Phase 11A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; and Phase 11B is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Active phase: **NONE**. Next analytical phase: **NOT APPROVED**.
 
 Phase 2D does not change factual canon. Its continuity/resilience, circular
 basin, and high-convergence families are exploratory alternatives without

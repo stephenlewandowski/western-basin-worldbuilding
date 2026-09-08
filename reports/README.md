@@ -279,7 +279,7 @@ The package explicitly separates regulation, operation, ownership, monitoring, f
 
 ## Phase 11 population, settlement, mobility, and dependencies
 
-Phase 11A and 11B are implemented and validated on the feature branch, awaiting independent review, integration, and Sol acceptance. Phase 11C is approved scope only and is not implemented.
+Phase 11A and 11B are implemented, validated, and integrated, awaiting formal Sol acceptance. Phase 11C is approved scope only and is not implemented.
 
 - `../data/processed/analysis/population_settlement_nodes.csv` — 62 population, municipality, and employment-center nodes
 - `../data/processed/analysis/population_settlement_observations.csv` — 918 population/settlement observations

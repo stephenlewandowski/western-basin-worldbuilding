@@ -448,7 +448,7 @@ Rscript src\\R\\systems\\validate_governance_dependencies.R .
 
 ## Phase 11 Population & Settlement Dynamics
 
-Phase 11A and 11B are implemented and validated on the feature branch, awaiting independent review, integration, and Sol acceptance. Phase 11C is approved scope only and is not implemented.
+Phase 11A and 11B are implemented, validated, and integrated, awaiting formal Sol acceptance. Phase 11C is approved scope only and is not implemented.
 
 - [35 — Population & settlement system, 2026](outputs/maps/systems/35_population_settlement_2026.png)
 - [36 — Population, mobility & system dependencies, 2026](outputs/maps/systems/36_population_mobility_dependencies_2026.png)
