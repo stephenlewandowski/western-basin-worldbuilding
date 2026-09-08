@@ -496,8 +496,9 @@ potential contact interfaces are not exposure, dose, infection, or disease;
 monitoring is not control; and positive vector pools or reported human cases do
 not establish local transmission without supporting evidence.
 
-The Phase 12A working baseline remains immutable during 12B. Phase 12C is
-approved scope only and is not implemented. Sol formally accepted and froze
+The Phase 12A working baseline remains immutable during 12B. Phase 12C is a
+separate qualitative future-scenario layer and does not modify Phase 12A/12B.
+Sol formally accepted and froze
 Phase 12A and Phase 12B after Python and independent R freeze validation,
 strict provenance checks, verification of 298 prior manifest entries / 293
 unique protected artifacts, and the fresh bounded independent review passed
@@ -508,6 +509,34 @@ with all blocking arrays empty. Final freeze protection is recorded in
 history remains preserved in Git: `ec37108371d51ccdecd9fafcbde58463d79911d7`,
 `dc231c3e5c371050482c9cf8f4f938b4ec55a624`, `326fbd7`, `0853f8b`, and
 `e158740aa35f31d2155a9906a3bc2c5529fb5147`.
+
+## PHASE 12C — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE
+
+**Vector Ecology Futures, 2050 / 2075**
+
+Phase 12C adds a separate qualitative scenario layer with 36 assumptions, 36
+vector states, 48 habitat states, 30 surveillance states, 168 dependency
+states, 60 uncertainty states, 28 scenario-source records, six comparison rows,
+and Maps 40/40b. The three alternatives are A — Managed Ecological Adaptation,
+B — Heterogeneous Adaptive Basin, and C — Warmer / More Variable Vector
+Landscape.
+
+2050 is an intermediate ecological trajectory. 2075 is a matured or diverged
+state with substantive horizon-specific changes in all state tables and maps.
+Future suitability/opportunity is not observed distribution or guaranteed
+establishment. Surveillance intensity is not abundance. The package contains no
+future range polygon, abundance estimate, pathogen-prevalence forecast, human
+contact/infection model, disease-incidence forecast, exposure/dose model,
+vulnerability/EJ score, or individual-risk surface.
+
+The corrected package is protected by `reports/vector_ecology_future_manifest.json`
+and `reports/vector_ecology_future_artifact_check.json`. Deterministic Python and
+independent R validation passed; strict citation/provenance validation passed;
+the first failed review is preserved as correction lineage and the fresh bounded
+independent review passed. Feature-branch delivery and normal integration remain
+the next operational step. Phase 12A/12B remain immutable.
+Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate
+discrepancy remains UNRESOLVED. Phase 13 is not implemented.
 
 Historical maintenance is deferred and unchanged: Phase 6B manifest status
 wording mismatch and Phase 3A missing manifest status. Active phase is

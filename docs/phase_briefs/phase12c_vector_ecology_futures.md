@@ -1,6 +1,6 @@
 # Phase 12C — Vector Ecology Futures, 2050 / 2075
 
-Status: APPROVED SCOPE / NOT IMPLEMENTED.
+Status: IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE.
 
 ## Approved scope
 
@@ -44,5 +44,19 @@ review, and explicit comparison of baseline versus future layers.
 ## Holds
 
 Preserve Great Black Swamp `C — HOLD / noncanonical` and the unresolved Toledo
-intake-coordinate discrepancy. This brief records approved scope only; no 12C
-artifacts are to be created in the current Phase 12A/12B implementation.
+intake-coordinate discrepancy. Phase 12C is implemented as a separate
+qualitative scenario layer and does not modify the accepted Phase 12A/12B
+artifacts or earlier frozen artifacts.
+
+## Implementation result
+
+The package contains 36 scenario assumptions, 36 vector states, 48 habitat
+states, 30 surveillance states, 168 dependency states, 60 uncertainty states,
+28 scenario-source records, six comparison rows, Maps 40/40b, reproducible
+Python/R validators, strict citation/provenance reports, and an initial-review
+correction record. 2050 is an intermediate ecological trajectory; 2075 is a
+substantively matured or diverged state. Future suitability/opportunity is not
+observed distribution or guaranteed establishment. No abundance, pathogen
+prevalence, human contact/infection, disease incidence, individual-risk,
+vulnerability/EJ, or precise future-range product is included. The final bounded
+independent review and delivery state are recorded in the Phase 12C reports.

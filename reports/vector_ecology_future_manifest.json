@@ -1,0 +1,144 @@
+{
+  "phase": "12C",
+  "status": "implemented_validated_pending_sol_acceptance",
+  "scope": "qualitative vector ecology futures, 2050 / 2075",
+  "scenario_ids": [
+    "A2050",
+    "A2075",
+    "B2050",
+    "B2075",
+    "C2050",
+    "C2075"
+  ],
+  "map_numbers": [
+    40,
+    "40b"
+  ],
+  "counts": {
+    "scenario_assumptions": 36,
+    "vector_states": 36,
+    "habitat_states": 48,
+    "surveillance_states": 30,
+    "dependency_states": 168,
+    "uncertainty_states": 60,
+    "scenario_sources": 28,
+    "comparison_rows": 6
+  },
+  "numeric_future_values_adopted": false,
+  "future_range_polygons": false,
+  "disease_incidence_forecast": false,
+  "human_risk_model": false,
+  "protected_inputs": [
+    "reports/phase12a_vector_ecology_freeze_manifest.json",
+    "reports/phase12b_vector_environment_human_dependencies_freeze_manifest.json"
+  ],
+  "artifacts": {
+    "data/processed/scenarios/vector_ecology_scenario_assumptions.csv": {
+      "bytes": 35630,
+      "sha256": "90a553105d9959aa7c8e612e54e81342987cdc855218584fbad05defed7a78df"
+    },
+    "data/processed/scenarios/vector_ecology_vector_states_scenario.csv": {
+      "bytes": 80635,
+      "sha256": "33c9fd37169dbb6080ca24ae3c50e190fb9f36ab2881a9cece3ed86984f282c8"
+    },
+    "data/processed/scenarios/vector_ecology_habitat_states_scenario.csv": {
+      "bytes": 37777,
+      "sha256": "110fbdf3317f074d48cc213b9f2fab3ed3067f11de75bee4e9294ce156f63bc8"
+    },
+    "data/processed/scenarios/vector_ecology_surveillance_states_scenario.csv": {
+      "bytes": 28091,
+      "sha256": "95f9be42ccf3baa188ac83ab9c54039d968be70fac7e2799951581c0a4c76247"
+    },
+    "data/processed/scenarios/vector_ecology_dependency_states_scenario.csv": {
+      "bytes": 247490,
+      "sha256": "16bee9fc3d58a60b303d61fc77e2a4ec152e6d15b3fc13466e55c74555ec4316"
+    },
+    "data/processed/scenarios/vector_ecology_uncertainty_states_scenario.csv": {
+      "bytes": 74530,
+      "sha256": "f99cdd9bbf4c62b5d43e2d19785ea3befea5b86566624c928890b9e8427f68da"
+    },
+    "data/processed/analysis/vector_ecology_future_sources.csv": {
+      "bytes": 10266,
+      "sha256": "9e9d7d3536fb965ced26f3c53140296d9a95fb8122a516b5ec9094e7402a7d77"
+    },
+    "outputs/figures/vector_ecology_future_comparison.csv": {
+      "bytes": 5507,
+      "sha256": "fc7f6f3107b2ea1c51e3f512a1f8afa375e6035f22728ffc25871ba9b8599f35"
+    },
+    "outputs/figures/vector_ecology_future_comparison.png": {
+      "bytes": 198629,
+      "sha256": "19ba3863dbd6f6128db55a2ee87ca5e2a5ea9a78a616ad050b08efcf3721b682"
+    },
+    "outputs/figures/vector_ecology_future_comparison.svg": {
+      "bytes": 32055,
+      "sha256": "297ef555cb79daee7c1fce6a8c5f15e8aa81d3afe057602c2d7d214338358346"
+    },
+    "outputs/maps/systems/40_vector_ecology_futures_2050.png": {
+      "bytes": 237958,
+      "sha256": "92b04c4c2807f7ecfc2af2296a3ef372b2503efe6cc0622ad6722649d0f1ca1c"
+    },
+    "outputs/maps/systems/40_vector_ecology_futures_2050.svg": {
+      "bytes": 20629,
+      "sha256": "6aaeb2e280e318a2602c69a21fa03dafa4b331aee334c23e33f8912bc8a887fc"
+    },
+    "outputs/maps/systems/40b_vector_ecology_futures_2075.png": {
+      "bytes": 243402,
+      "sha256": "467cd4d555b54a47cf23eff389ce8dda04391800e87f90de591afb8ba25bb62f"
+    },
+    "outputs/maps/systems/40b_vector_ecology_futures_2075.svg": {
+      "bytes": 20623,
+      "sha256": "6d5772ed38b4794cc76cbce769133ac3ee5a75ff728e925c0d67bdbea74f35fa"
+    },
+    "reports/phase12c_citation_ledger.json": {
+      "bytes": 3984,
+      "sha256": "6556b80e91c56045ad9095bf93ae635fa764c6dbb3e43e00925651403cc380dc"
+    },
+    "reports/vector_ecology_future_sources.md": {
+      "bytes": 4148,
+      "sha256": "e5fe985a21a1f25f8677962da8358123d066257284ce0b283d0772bb55a00e0f"
+    },
+    "reports/vector_ecology_future_assumptions.md": {
+      "bytes": 4449,
+      "sha256": "d684b2672bb75fd4c40ace413da07ce69652cfc196367a0b2f5e250a7fb48160"
+    },
+    "reports/vector_ecology_future_findings.md": {
+      "bytes": 6640,
+      "sha256": "7128c4a2dfc46bf73e85c1426537131ff01aa538aab35c88d36634d351029112"
+    },
+    "reports/vector_ecology_future_consistency.md": {
+      "bytes": 1831,
+      "sha256": "86b5d00903801d436edf279d8219c42d95eed9259ba2b598ba57448cc1d5e4d7"
+    },
+    "reports/vector_ecology_future_qa.md": {
+      "bytes": 1720,
+      "sha256": "a901ee50b4c46749c0495caec3121d8d87bfae86c62cbebab01070a3c9b5b10e"
+    },
+    "reports/vector_ecology_future_worldbuilding.md": {
+      "bytes": 1062,
+      "sha256": "a2cf4ce70bd3e3cd17696dd792f2c3d6aabca2de4a6f1728be12625bf58b70e0"
+    },
+    "src/python/systems/validate_vector_ecology_futures.py": {
+      "bytes": 27352,
+      "sha256": "ab8de8eec8c804b182baecd592dda170128d73305b4a69f1ee2a7ee2418b675e"
+    },
+    "src/R/systems/validate_vector_ecology_futures.R": {
+      "bytes": 24503,
+      "sha256": "2bc9f9f9147912fd30f149ad37aac0985d3410dae34b2c193e30ce41a923a13f"
+    },
+    "reports/vector_ecology_future_independent_review.md": {
+      "bytes": 1204,
+      "sha256": "59f1fd62c2ce830ea8ef50d2a8bfdb47d0342a54e596fc75e6ac4697ae0174e7"
+    },
+    "reports/vector_ecology_future_independent_review_initial.md": {
+      "bytes": 2272,
+      "sha256": "807f0ea97ac941d8d252ed5460f47835197fd0d2f0cb9e1ad249e00c5e27ed8b"
+    }
+  },
+  "phase12a_12b_immutable": true,
+  "phase1_11_immutable": true,
+  "phase13_implemented": false,
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  }
+}

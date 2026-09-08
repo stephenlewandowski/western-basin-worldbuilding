@@ -520,16 +520,34 @@ Dependencies layer.
 - [Phase 12 Python freeze validator](src/python/systems/validate_phase12_freezes.py)
 - [Phase 12 independent R freeze validator](src/R/systems/validate_phase12_freezes.R)
 - [Phase 12C approved-scope brief](docs/phase_briefs/phase12c_vector_ecology_futures.md)
+- [40 — Vector Ecology Futures, 2050](outputs/maps/systems/40_vector_ecology_futures_2050.png)
+- [40b — Vector Ecology Futures, 2075](outputs/maps/systems/40b_vector_ecology_futures_2075.png)
+- [Phase 12C scenario assumptions](data/processed/scenarios/vector_ecology_scenario_assumptions.csv)
+- [Phase 12C vector states](data/processed/scenarios/vector_ecology_vector_states_scenario.csv)
+- [Phase 12C habitat states](data/processed/scenarios/vector_ecology_habitat_states_scenario.csv)
+- [Phase 12C surveillance states](data/processed/scenarios/vector_ecology_surveillance_states_scenario.csv)
+- [Phase 12C dependency states](data/processed/scenarios/vector_ecology_dependency_states_scenario.csv)
+- [Phase 12C uncertainty states](data/processed/scenarios/vector_ecology_uncertainty_states_scenario.csv)
+- [Phase 12C comparison](outputs/figures/vector_ecology_future_comparison.csv)
+- [Phase 12C future sources](data/processed/analysis/vector_ecology_future_sources.csv)
+- [Phase 12C working manifest](reports/vector_ecology_future_manifest.json)
+- [Phase 12C artifact check](reports/vector_ecology_future_artifact_check.json)
+- [Phase 12C initial review correction lineage](reports/vector_ecology_future_independent_review_initial.md)
+- [Phase 12C independent review](reports/vector_ecology_future_independent_review.md)
+- [Phase 12C Python validator](src/python/systems/validate_vector_ecology_futures.py)
+- [Phase 12C independent R validator](src/R/systems/validate_vector_ecology_futures.R)
 
 The package keeps vector presence, abundance, pathogen-in-vector detection,
 human-vector contact, infection, and clinical disease separate. Sampling effort
 is not abundance; detection is not establishment; non-detection and CDC
 no-records are not absence; county detections are not precise local
 distributions; and positive vector pools or human cases are not local
-transmission proof. No individual risk, exposure estimate, disease-risk score,
-vulnerability/EJ score, unsupported abundance or range surface, Phase 12C,
-Phase 13, release, or tag is included. Phase 12C is approved scope only and is
-not implemented. Active phase is NONE; the next analytical phase is NOT APPROVED.
+transmission proof. Phase 12C is implemented and validated as a separate
+qualitative scenario layer awaiting Sol acceptance; feature-branch delivery and
+normal integration are pending. It creates no
+individual risk, exposure estimate, disease-risk score, vulnerability/EJ score,
+unsupported abundance or range surface, Phase 13, release, or tag. Active phase
+is NONE; the next analytical phase is NOT APPROVED.
 
 ```text
 assets/                 exploratory concept art and archived generated maps

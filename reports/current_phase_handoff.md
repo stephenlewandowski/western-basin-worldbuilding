@@ -819,3 +819,30 @@ Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; 
 - Deferred maintenance, intentionally unchanged: Phase 6B manifest status wording mismatch; Phase 3A missing manifest status.
 - Final state: Phase 12A **ACCEPTED / FROZEN**; Phase 12B **ACCEPTED / FROZEN**; Phase 12C **APPROVED SCOPE / NOT IMPLEMENTED**; Active phase **NONE**. Do not begin Phase 12C or Phase 13.
 - Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. No release or tag was created.
+
+## Phase 12C startup checkpoint — vector ecology futures, 2050 / 2075
+
+- Starting local `main`, `origin/main`, and remote `origin/main`: `e3d5226dcd1f334a41f83bdd10dc5382bd5a0f80`; the working tree was clean and synchronized.
+- Phase 12A and Phase 12B are **ACCEPTED / FROZEN** under `reports/phase12a_vector_ecology_freeze_manifest.json` and `reports/phase12b_vector_environment_human_dependencies_freeze_manifest.json`.
+- Isolated worktree: `C:\Projects\Public_Github\western-basin-worldbuilding-phase12c`; branch: `phase-12c-vector-ecology-futures-2050-2075`; base SHA: `e3d5226dcd1f334a41f83bdd10dc5382bd5a0f80`.
+- Approved scope: separate qualitative vector-ecology futures for A — Managed Ecological Adaptation, B — Heterogeneous Adaptive Basin, and C — Warmer / More Variable Vector Landscape at 2050 and 2075.
+- Expected products: separate assumptions, future-state, habitat, surveillance, dependency, uncertainty, comparison, source, and QA products; Maps 40/40b; deterministic Python and independent R validators; one fresh bounded independent review; manifest and artifact check.
+- Protected boundaries: no disease forecast, disease-risk surface, human infection model, exposure/dose model, vulnerability/EJ score, precise future range polygon, unsupported exact abundance/range value, Phase 13, release, or tag.
+- Active holds preserved: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred maintenance remains unchanged: Phase 6B manifest status wording mismatch and Phase 3A missing manifest status.
+- Next exact action: inspect accepted source/brief conventions and implement the Phase 12C scenario package without modifying Phase 12A/12B or earlier protected artifacts.
+
+## Phase 12C correction checkpoint — post-review revalidation
+
+- The first bounded independent review returned `passed: false` and identified three legitimate issues: silent unrelated-source fallbacks, an incorrect forest-edge habitat current-fact crosswalk, and insufficient substantive 2050/2075 distinction in the habitat states and maps.
+- The failed review is preserved at `reports/vector_ecology_future_independent_review_initial.md` as correction lineage; it is not the delivery verdict.
+- Corrections applied only to the unaccepted Phase 12C package: all accepted Phase 12 source IDs now map explicitly to source records; habitat states carry baseline association IDs with exact current-fact matches; all six state-table families have substantive horizon checks; A2050/A2075 habitat content diverges; Maps 40/40b have horizon-specific content; and future suitability language is qualified as non-observed opportunity.
+- Corrected package counts: 36 assumptions, 36 vector states, 48 habitat states, 30 surveillance states, 168 dependency states, 60 uncertainty states, 28 scenario sources, and six comparison rows.
+- Corrected Python Phase 12C validation passed. Corrected independent R Phase 12C validation passed. Strict citation validation passed for the three cited reports. Phase 12A/12B freeze integrity and the 298-entry/293-artifact Phase 1–11 inventory remain valid.
+- New bounded independent review dispatched after correction; no commit, push, or integration is permitted until its structured verdict returns `passed: true`.
+
+## Phase 12C final review checkpoint — ready for delivery
+
+- New bounded independent review `deleg_8c342c98` returned `passed: true`; security, logic, provenance, ecological, scenario-boundary, spatial-scale, and health-boundary arrays are empty.
+- The reviewer confirmed exact counts, source mappings, habitat crosswalks, substantive 2050/2075 distinctions across all state tables, substantive Map 40/40b distinction, Scenario B structure, vector/surveillance/health boundaries, active holds, and frozen-artifact protection. The initial failed review remains preserved at `reports/vector_ecology_future_independent_review_initial.md`; the passed review is at `reports/vector_ecology_future_independent_review.md`.
+- Final corrected-package validation passed with `python src/python/systems/validate_vector_ecology_futures.py --require-review` and `Rscript src/R/systems/validate_vector_ecology_futures.R . --require-review`. Strict grounded-citation validation passed. NPM tests/build, Markdown links, Git/LFS, and whitespace checks passed before final documentation alignment.
+- Current branch remains uncommitted at the Phase 12C base; status/navigation surfaces accurately describe the package as implemented and validated with feature-branch delivery pending. Next exact action: inspect the complete diff, commit, push the feature branch, integrate normally into `main`, update the final integrated handoff/status wording, and verify local/remote synchronization.

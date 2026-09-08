@@ -340,13 +340,25 @@ sources, and Map 39.
 - `../src/R/systems/validate_vector_ecology_baseline.R` and `validate_vector_dependencies.R`
 - `../src/python/systems/validate_phase12_freezes.py` and `../src/R/systems/validate_phase12_freezes.R` — final Python/R freeze validators
 - `../docs/phase_briefs/phase12a_vector_ecology_baseline.md`, `phase12b_vector_environment_human_dependencies.md`, and `phase12c_vector_ecology_futures.md`
+- `../outputs/maps/systems/40_vector_ecology_futures_2050.png` and `.svg` — Map 40
+- `../outputs/maps/systems/40b_vector_ecology_futures_2075.png` and `.svg` — Map 40b
+- `../data/processed/scenarios/vector_ecology_scenario_assumptions.csv`, `vector_ecology_vector_states_scenario.csv`, `vector_ecology_habitat_states_scenario.csv`, `vector_ecology_surveillance_states_scenario.csv`, `vector_ecology_dependency_states_scenario.csv`, and `vector_ecology_uncertainty_states_scenario.csv`
+- `../data/processed/analysis/vector_ecology_future_sources.csv` and `../outputs/figures/vector_ecology_future_comparison.csv`, `.png`, and `.svg`
+- `vector_ecology_future_sources.md`, `vector_ecology_future_assumptions.md`, `vector_ecology_future_findings.md`, `vector_ecology_future_consistency.md`, `vector_ecology_future_qa.md`, and `vector_ecology_future_worldbuilding.md`
+- `vector_ecology_future_manifest.json`, `vector_ecology_future_artifact_check.json`, and `phase12c_citation_ledger.json`
+- `vector_ecology_future_independent_review_initial.md` — failed initial review retained as correction lineage
+- `vector_ecology_future_independent_review.md` — fresh corrected-package review; `passed: true` with all blocking arrays empty
+- `../src/python/systems/build_vector_ecology_futures.py`, `validate_vector_ecology_futures.py`, and `../src/R/systems/validate_vector_ecology_futures.R`
 
 The package preserves presence != abundance, pathogen detection != human
 infection, sampling effort != abundance, detection != establishment, county
 record != precise local distribution, non-detection/CDC no-records != absence,
-and positive vector pool or human case != local transmission. It creates no
-individual risk or exposure estimate, disease-risk or vulnerability/EJ score,
-unsupported abundance/range surface, Phase 12C, Phase 13, release, or tag. Active
-phase is NONE; the next analytical phase is NOT APPROVED. Deferred maintenance
-is limited to the Phase 6B manifest status wording mismatch and the Phase 3A
-missing manifest status; neither was altered during the Phase 12 freeze.
+and positive vector pool or human case != local transmission. Phase 12C is
+implemented and validated as a separate qualitative 2050/2075 scenario layer
+awaiting Sol acceptance; feature-branch delivery and normal integration are
+pending. It creates no individual risk or
+exposure estimate, disease-risk or vulnerability/EJ score, unsupported
+abundance/range surface, Phase 13, release, or tag. Active phase is NONE; the
+next analytical phase is NOT APPROVED. Deferred maintenance is limited to the
+Phase 6B manifest status wording mismatch and the Phase 3A missing manifest
+status; neither was altered during the Phase 12 freeze.
