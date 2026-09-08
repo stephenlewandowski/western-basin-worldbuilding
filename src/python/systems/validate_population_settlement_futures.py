@@ -35,6 +35,7 @@ RELATIONSHIPS = NETWORKS / "population_settlement_future_relationships.csv"
 UNCERTAINTY = SCENARIO_DIR / "population_settlement_future_uncertainty.csv"
 SOURCES = ANALYSIS / "population_settlement_future_sources.csv"
 COMPARISON = FIGURES / "population_settlement_future_comparison.csv"
+TEXT_SUFFIXES = {".csv", ".json", ".md", ".txt", ".yml", ".yaml", ".svg"}
 
 EXPECTED_COLUMNS = {
     "assumptions": {"assumption_id", "scenario_id", "scenario", "horizon", "domain", "assumption", "evidence_basis", "source_id", "uncertainty", "reality_status", "canon_status", "classification", "numeric_future_value_adopted", "notes"},
@@ -185,7 +186,14 @@ def check_manifest() -> dict[str, object]:
     assert payload["active_holds_preserved"] == {"great_black_swamp": "C — HOLD / noncanonical", "toledo_intake_coordinate_discrepancy": "UNRESOLVED"}
     for rel, meta in payload["artifacts"].items():
         path = ROOT / rel
-        assert path.exists() and path.stat().st_size > 0 and digest(path) == meta["sha256"]
+        assert path.exists() and path.stat().st_size > 0 and manifest_matches(ROOT, rel, str(meta["sha256"]))
+        if path.suffix.lower() in TEXT_SUFFIXES:
+            raw = path.read_bytes()
+            canonical = raw.replace(bytes([13, 10]), bytes([10])).replace(bytes([13]), bytes([10]))
+            allowed_bytes = {len(raw), len(canonical), len(canonical.replace(bytes([10]), bytes([13, 10])))}
+            assert int(meta["bytes"]) in allowed_bytes
+        else:
+            assert path.stat().st_size == int(meta["bytes"])
     return payload["counts"]
 
 

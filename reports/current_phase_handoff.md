@@ -743,3 +743,15 @@ Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; 
 - The stale canonical sentence was corrected to state that Phase 11C is implemented as a separate qualitative 2050/2075 layer awaiting Sol acceptance and is not accepted or frozen. No analytical artifact or protected baseline was changed by the correction.
 - Python Phase 11C validation, independent R Phase 11C validation, both Phase 11 freeze validators, Markdown-link validation, and the application tests/build passed after correction.
 - A fresh bounded post-correction reviewer was dispatched; no commit, push, or integration is permitted until its complete structured verdict returns `passed: true`.
+
+## Phase 11C final integrated handoff — 2026-09-08
+
+- Phase 11C fresh post-correction independent review `deleg_74c3b7aa` returned `passed: true`; all required security, logic, provenance, statistical, scenario-boundary, spatial-scale, and demographic-boundary arrays were empty. The one historical-wording suggestion is non-blocking.
+- Final Phase 11C package: 36 scenario assumptions, six projection-evidence records, 108 future settlement states, 108 qualitative spatial relationships, 36 uncertainty states, 11 scenario sources, six comparison rows, comparison figure, and Maps 37/37b.
+- Feature commit `e34324fb19c5cf3c9af2afd08bd805cc60e3d504` was pushed to `origin/phase-11c-population-settlement-futures` and fast-forward integrated into `main`.
+- Local `main`, `origin/main`, and remote `origin/main` were read back at `e34324fb19c5cf3c9af2afd08bd805cc60e3d504` before this handoff update.
+- Phase 11A and 11B remain **ACCEPTED / FROZEN**. Phase 11C is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Active phase: **NONE**. Next analytical phase: **NOT APPROVED**.
+- Python and independent R Phase 11C validation passed. Python and independent R Phase 11A/11B freeze validation passed with Phase 10 integrity and 196 Phase 1–9 protected artifacts verified. Markdown links, npm tests/build, Git LFS, citations, maps, and staged whitespace checks passed.
+- Official Ohio, Michigan, and Indiana county projection products remain 2050 reference evidence without deterministic scenario totals. 2075 remains explicit scenario content. Climate migration remains a high-uncertainty scenario mechanism, not a population-growth assumption.
+- Active holds remain unchanged: Great Black Swamp `C — HOLD / noncanonical`; Toledo intake-coordinate discrepancy `UNRESOLVED`.
+- No Phase 12 work, release, or tag was created.
