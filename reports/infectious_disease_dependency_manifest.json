@@ -13,8 +13,8 @@
   },
   "phase13a_freeze_manifest": {
     "path": "reports/phase13a_infectious_disease_freeze_manifest.json",
-    "sha256": "a3e5c229be9ce569df1587c9fe13390056e158d4c1df1304ed0f40f8378f69b8",
-    "bytes": 7119
+    "sha256": "052688bfae824711ba31cd6f41a4afa5789fffc1842b56ee1b35cc11a9bd0db0",
+    "bytes": 6956
   },
   "protected_inputs": [
     "reports/phase13a_infectious_disease_freeze_manifest.json",
@@ -36,68 +36,68 @@
   ],
   "artifacts": {
     "data/processed/analysis/infectious_disease_dependency_register.csv": {
-      "sha256": "908f0d95d4149e0d9c45e1700302d6610ecfff55a4da6fefc38cd6e322917dc0",
-      "bytes": 21592
+      "sha256": "217ec7047b4ad22e89c8fdf4491447c0f8ad446aac3e3f106638a4d97ea67c73",
+      "bytes": 21629
     },
     "data/processed/networks/infectious_disease_dependency_edges.csv": {
-      "sha256": "c7995c84acd8d5f46602bc8aa063a22d6b452d487cab903f90c631f7cbd2a4c4",
-      "bytes": 21924
+      "sha256": "f42276934d684ee8f4f67af1678d3808aede034ed92f30a4a4c600941d16e45f",
+      "bytes": 21961
     },
     "data/processed/analysis/infectious_disease_dependency_matrix.csv": {
-      "sha256": "6651e1f7f198d8c448b52ae94b630cf97fa2820f0a2bddaaa53556e36038767f",
-      "bytes": 2426
+      "sha256": "b35c67706c443cef4caa498dccfbbbc2562e44b880c5d70fef1cfbb5605a084e",
+      "bytes": 2433
     },
     "data/processed/analysis/infectious_disease_evidence_crosswalk.csv": {
-      "sha256": "76382627d2d55602e98093bb82fddd4b4fa3125d9ecc16cfffd6137f7f995bdd",
-      "bytes": 14128
+      "sha256": "96019aa297b40a171b057ca5010bf417c9480801e8a854d11deb281d88703354",
+      "bytes": 14165
     },
     "data/processed/analysis/infectious_disease_dependency_sources.csv": {
-      "sha256": "bbcff51188316b85df010694ba50a446c1aa328cd2d29530dc425c43a5ba7cfa",
-      "bytes": 19785
+      "sha256": "8da30f01b4d766141057053839a37a0b87261a622a8dd86928fb3df7c3c83e0b",
+      "bytes": 19819
     },
     "data/processed/analysis/infectious_disease_dependency_uncertainties.csv": {
-      "sha256": "1d74bd87fab86bb7130440886e1671de0e144c23f041b90f5dcb2c5b451364eb",
-      "bytes": 3457
+      "sha256": "262bb9f6feaf4808bdb0034a7cb0bcecf650388a9f36ffedcc4f61266455b119",
+      "bytes": 3472
     },
     "outputs/maps/systems/42_infectious_disease_transmission_dependencies_2026.png": {
       "sha256": "22d1db9f42dfbbc0bebf7cabbbe2639516423dd90fb919c17fc84ba825453ade",
       "bytes": 1292064
     },
     "outputs/maps/systems/42_infectious_disease_transmission_dependencies_2026.svg": {
-      "sha256": "eff40cc205c269ffc2fe42f7e610d0af7e0f2acf4b13ef230944f9d6f962aed6",
-      "bytes": 17478200
+      "sha256": "0d0d1728b6c7048b0613c94a2f9e6b19e241f861a5b7bef978c6faf848f3054d",
+      "bytes": 17851576
     },
     "reports/infectious_disease_dependency_sources.md": {
-      "sha256": "a30d9667afbfac15effd6f9d20b644862eedbb0a04fded2d6ea44d807deac70f",
-      "bytes": 7955
+      "sha256": "a547bf2e9e7ea247b195a1048ca8cf0d68f59084c2cf6c61d68cb2763ead492b",
+      "bytes": 8040
     },
     "reports/infectious_disease_dependency_assumptions.md": {
-      "sha256": "6d6bf023e4bc3ea665186fbd750806ffeb390e8135112512bfce1bbc2d87bbcd",
-      "bytes": 11401
+      "sha256": "4f27287c1ea5b5bc74d8fb3d983b09eb4fcd366b85da28d5715795e5729fb7df",
+      "bytes": 11518
     },
     "reports/infectious_disease_dependency_findings.md": {
-      "sha256": "84ae866f97da86d882fde361f03d67ba50caa14cef42f843b78671e8c7adfc11",
-      "bytes": 6729
+      "sha256": "deb670755d824872991b22a65f2ebc987c10c97fe24f135e4496474e9975e18e",
+      "bytes": 6808
     },
     "reports/infectious_disease_dependency_qa.md": {
-      "sha256": "29db816c21099ceac5746513a2776c19f41e261230412d02408ee587089be1d8",
-      "bytes": 9691
+      "sha256": "a0b9425c688be0ec692580a7f1bb9837fcd11ec0345982dd549cb5eee9e7df0a",
+      "bytes": 9788
     },
     "reports/phase13b_citation_ledger.json": {
-      "sha256": "6ff52a433a476ca9fdf6d565580b4c2e7f46088215860d7324aec1dc573f8771",
-      "bytes": 6459
+      "sha256": "ba512961f8f12854404e2f8bfb719d75161627d48b8e8d0027d41be4c45ecfaa",
+      "bytes": 6662
     },
     "src/python/systems/build_infectious_disease_dependencies.py": {
-      "sha256": "e8c7f19c43e67ee4eba48a6453f971d06ab9bb29f34437b2d8f771265d51f79a",
-      "bytes": 62738
+      "sha256": "3b62c7e01229747d8814a1913adc4822fa18f1180f3fd6852a558dc3a0b4d9e4",
+      "bytes": 63391
     },
     "src/python/systems/validate_infectious_disease_dependencies.py": {
-      "sha256": "30cc51a6ecabf84fb7b7a7f8af066624ef0db04b75bbc246ebc6c52276b4dd98",
-      "bytes": 25970
+      "sha256": "f1ee801c8af3ad58e2d486d779f5b77851a4cfe2a37cca4f9a42a49f2a832d69",
+      "bytes": 26377
     },
     "src/R/systems/validate_infectious_disease_dependencies.R": {
-      "sha256": "e81d6c97fa986a92c6a7826aaae90e76d9c01ab02b5e263408a848c24e6175de",
-      "bytes": 20343
+      "sha256": "e6774d3d90347805e91fc8a690cce2468d4990d5dba1728290d98727fa1b6dae",
+      "bytes": 20545
     },
     "reports/infectious_disease_dependency_artifact_check.json": {
       "sha256": "3e1b3b484f64dbb54e3a3b065b06b8a360657cb665982eef40f6dc0b069fdf86",
@@ -105,8 +105,8 @@
       "role": "machine validation result"
     },
     "reports/infectious_disease_dependency_independent_review.md": {
-      "sha256": "7826665e8bc49aea1d16decf0a840c3e23ea4a552eb68fec1a8d5c9cbe57502f",
-      "bytes": 1526,
+      "sha256": "d5938038ef2045575c1e20680367364d8dbebf342795e7d607a6b10db0c25f6b",
+      "bytes": 1551,
       "role": "independent review record"
     }
   },
