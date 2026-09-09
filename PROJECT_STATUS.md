@@ -541,7 +541,7 @@ independent R freeze validators are `src/python/systems/validate_phase12c_freeze
 and `src/R/systems/validate_phase12c_freeze.R`. Phase 12A/12B remain immutable.
 
 Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate
-discrepancy remains UNRESOLVED. Phase 13 is not implemented.
+discrepancy remains UNRESOLVED. At the earlier Phase 12C acceptance checkpoint, Phase 13 was not implemented.
 
 Historical maintenance is deferred and unchanged: Phase 6B manifest status
 wording mismatch and Phase 3A missing manifest status. Active phase is
@@ -561,3 +561,15 @@ Physical hydrography replacement: Phase 1 QA and integration are complete. Human
 The current working canon uses five overlapping interpretive macroregions: Glass City Core, Maumee River Commons, Lake Erie Energy & Security Coast, Black Swamp Country, and Great Lakes Industrial Belt. Frontier Arc is superseded in v0.1.
 
 See [docs/canon_status.md](docs/canon_status.md) for scope and interpretation rules.
+
+## PHASE 13A — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+
+**Infectious Disease System Baseline, 2026**
+
+Phase 13A adds a compact multi-archetype infectious-disease systems baseline: 38 system/surveillance/interface/reference nodes, 40 transmission and system relationships, 25 observations, 17 surveillance records, 27 sources, 18 uncertainty records, and Map 41. Included systems are West Nile virus, Lyme disease, Legionellosis, waterborne enteric disease, Salmonella, Campylobacter, STEC, influenza, SARS-CoV-2 wastewater surveillance, rabies, generalized healthcare-associated-infection surveillance, and generalized antimicrobial-resistance surveillance. HAB is retained only as a noninfectious toxic/environmental boundary. The fresh bounded independent review passed with all blocking arrays empty.
+
+The package preserves pathogen presence != exposure != infection != reported case != local transmission != outbreak != disease burden; surveillance intensity != incidence; reported residence != exposure location; county surveillance != neighborhood risk; vector detection != pathogen-positive vector != human infection; and water contamination != treatment failure != exposure != infection != illness. It creates no composite disease-risk index, vulnerability ranking, outbreak forecast, individual case/risk map, unsupported local downscaling, or future inference. Phase 12A/B/C remain accepted/frozen and immutable.
+
+Map 41 and the Phase 13A tables, reports, manifest, artifact check, Python validator, independent R validator, and phase-local citation ledger are documented in the Phase 13A brief and reports. Phase 13B and Phase 13C are **APPROVED SCOPE / NOT IMPLEMENTED**. Active phase is **NONE**. Next analytical phase is **NOT APPROVED**.
+
+Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred maintenance remains unchanged: Phase 6B manifest status wording mismatch and Phase 3A missing manifest status. No release or tag was created.

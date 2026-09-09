@@ -247,3 +247,11 @@ Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordina
 discrepancy remains **UNRESOLVED**. Deferred maintenance is limited to the Phase
 6B manifest status wording mismatch and the Phase 3A missing manifest status;
 neither was altered in this freeze run.
+
+## Phase 13A boundary
+
+Phase 13A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** as a factual 2026 infectious-disease systems baseline under Map 41. It contains separate vector-borne, waterborne/environmental, foodborne/enteric, respiratory, zoonotic, and healthcare/institutional surveillance archetypes. The package does not create a disease-risk index, vulnerability ranking, outbreak forecast, individual case map, neighborhood downscaling, or future inference.
+
+The package preserves pathogen presence != exposure != infection != reported case != local transmission != outbreak != disease burden; surveillance intensity != incidence; residence != exposure location; county != neighborhood; vector detection != pathogen-positive vector != human infection; and water contamination != treatment failure != exposure != infection != illness. Accepted Phase 7, 9, 11, 12, 4, and 10 layers are referenced without modifying their artifacts. Phase 13B and Phase 13C are **APPROVED SCOPE / NOT IMPLEMENTED**. Active phase is **NONE**.
+
+Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Phase 6B manifest status wording mismatch and Phase 3A missing manifest status remain deferred and unchanged. No release or tag was created.

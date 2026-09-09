@@ -362,3 +362,34 @@ vulnerability/EJ score, unsupported abundance/range surface, Phase 13, release,
 or tag. Active phase is NONE; the next analytical phase is NOT APPROVED.
 Deferred maintenance is limited to the Phase 6B manifest status wording mismatch
 and the Phase 3A missing manifest status; neither was altered during this freeze.
+
+## Phase 13A infectious disease system baseline
+
+Phase 13A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**.
+Map 41 is a generalized surveillance-geography and system-interface view, not a
+case map, continuous disease surface, or risk ranking.
+
+- `../data/processed/networks/infectious_disease_nodes.csv` — 38 nodes
+- `../data/processed/networks/infectious_disease_transmission_relationships.csv` — 40 relationships
+- `../data/processed/analysis/infectious_disease_observations.csv` — 25 observations
+- `../data/processed/analysis/infectious_disease_surveillance.csv` — 17 surveillance records
+- `../data/processed/analysis/infectious_disease_sources.csv` — 27 sources
+- `../data/processed/analysis/infectious_disease_uncertainties.csv` — 18 uncertainties
+- `../outputs/maps/systems/41_infectious_disease_system_baseline_2026.png` and `.svg` — Map 41
+- `infectious_disease_sources.md`, `infectious_disease_assumptions.md`, `infectious_disease_findings.md`, `infectious_disease_qa.md`
+- `infectious_disease_baseline_manifest.json` and `infectious_disease_artifact_check.json`
+- `infectious_disease_independent_review_initial.md` — failed review correction lineage
+- `infectious_disease_independent_review.md` — fresh passed review with all blocking arrays empty
+- `phase13a_citation_ledger.json`
+- `../src/python/systems/build_infectious_disease_baseline.py` and `validate_infectious_disease_baseline.py`
+- `../src/R/systems/validate_infectious_disease_baseline.R`
+- `../docs/phase_briefs/phase13a_infectious_disease_baseline.md`
+- `../docs/phase_briefs/phase13b_infectious_disease_dependencies.md` — approved scope only; not implemented
+- `../docs/phase_briefs/phase13c_infectious_disease_futures.md` — approved scope only; not implemented
+
+The package preserves pathogen presence != exposure != infection != reported
+case != local transmission != outbreak != disease burden; surveillance intensity
+!= incidence; residence != exposure location; county != neighborhood; vector
+detection != human infection; and water contamination != illness. No composite
+disease-risk index, vulnerability ranking, individual case map, outbreak
+forecast, unsupported local downscaling, or future inference is included.

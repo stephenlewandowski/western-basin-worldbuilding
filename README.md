@@ -680,6 +680,29 @@ The original ChatGPT Project exports are preserved as received. They may contain
 
 Three sketchbook sheets are preserved under [assets/concept_art](assets/concept_art). Generated regional-map experiments are archived under [assets/concept_maps/archive](assets/concept_maps/archive) and explicitly marked non-authoritative. They must not be used to derive coordinates or geometry.
 
+## Phase 13A Infectious Disease System Baseline
+
+Phase 13A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** as a factual 2026 infectious-disease systems baseline. Map 41 and the package include separate vector-borne, waterborne/environmental, foodborne/enteric, respiratory, zoonotic, and healthcare/institutional surveillance archetypes.
+
+- [41 — Infectious Disease System Baseline, 2026](outputs/maps/systems/41_infectious_disease_system_baseline_2026.png)
+- [Infectious-disease nodes](data/processed/networks/infectious_disease_nodes.csv)
+- [Transmission/system relationships](data/processed/networks/infectious_disease_transmission_relationships.csv)
+- [Observations](data/processed/analysis/infectious_disease_observations.csv)
+- [Surveillance metadata](data/processed/analysis/infectious_disease_surveillance.csv)
+- [Sources](data/processed/analysis/infectious_disease_sources.csv)
+- [Uncertainties](data/processed/analysis/infectious_disease_uncertainties.csv)
+- [Sources report](reports/infectious_disease_sources.md)
+- [Findings report](reports/infectious_disease_findings.md)
+- [QA report](reports/infectious_disease_qa.md)
+- [Phase 13A manifest](reports/infectious_disease_baseline_manifest.json)
+- [Phase 13A Python validator](src/python/systems/validate_infectious_disease_baseline.py)
+- [Phase 13A independent R validator](src/R/systems/validate_infectious_disease_baseline.R)
+- [Phase 13A brief](docs/phase_briefs/phase13a_infectious_disease_baseline.md)
+- [Phase 13B approved-scope brief — not implemented](docs/phase_briefs/phase13b_infectious_disease_dependencies.md)
+- [Phase 13C approved-scope brief — not implemented](docs/phase_briefs/phase13c_infectious_disease_futures.md)
+
+The baseline explicitly avoids a composite disease-risk index, individual case/risk mapping, unsupported local downscaling, outbreak forecasting, and future inference. Pathogen presence, exposure, infection, reported case, local transmission, outbreak, and disease burden remain separate states. Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains unresolved.
+
 ## Roadmap
 
 1. Maintain the accepted project packages while preserving Phase 3A and Phase 3B as accepted/validated/frozen factual 2026 baselines and Phase 3C as separate accepted/validated future-scenario work

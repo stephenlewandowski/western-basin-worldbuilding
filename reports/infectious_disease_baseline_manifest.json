@@ -1,0 +1,122 @@
+{
+  "phase": "13A",
+  "baseline": "Infectious Disease System Baseline, 2026",
+  "status": "implemented_validated_pending_sol_acceptance",
+  "map_number": 41,
+  "counts": {
+    "nodes": 38,
+    "relationships": 40,
+    "observations": 25,
+    "surveillance_records": 17,
+    "sources": 27,
+    "uncertainties": 18
+  },
+  "artifacts": {
+    "data/processed/networks/infectious_disease_nodes.csv": {
+      "sha256": "d17fda1017e3e85ef6e5852990a16735118bf0545befeb8588146a6a985f3cd5",
+      "bytes": 17696
+    },
+    "data/processed/networks/infectious_disease_transmission_relationships.csv": {
+      "sha256": "47c0d292a5a9db631fd0e8af160ec9ebc72c24d78cbba6a0e833838b0cf93cfe",
+      "bytes": 9732
+    },
+    "data/processed/analysis/infectious_disease_observations.csv": {
+      "sha256": "7c8ee503acba6fb007d575ce8fe1730107c5431fd6c0bab326581d45b2042053",
+      "bytes": 15272
+    },
+    "data/processed/analysis/infectious_disease_surveillance.csv": {
+      "sha256": "feb03eeb82f46016c1adc2e2eaedefc5f6b83118c0bfcad2dfb3f4e2291717d0",
+      "bytes": 9896
+    },
+    "data/processed/analysis/infectious_disease_sources.csv": {
+      "sha256": "613595f757102f660794bece722246032e2cebec4043cd0d0ed68337a882fe7a",
+      "bytes": 15710
+    },
+    "data/processed/analysis/infectious_disease_uncertainties.csv": {
+      "sha256": "12b974a61d865d10e26b4c6dcfee62799eb5570160134ef49ad393123393d6cc",
+      "bytes": 4281
+    },
+    "outputs/maps/systems/41_infectious_disease_system_baseline_2026.png": {
+      "sha256": "0647ffc1472e0263f6b77974768315ac801434a8527b1fd4951835aaa3972d60",
+      "bytes": 1272117
+    },
+    "outputs/maps/systems/41_infectious_disease_system_baseline_2026.svg": {
+      "sha256": "99728ef21be26d0efd594f4d1bcc91a9892098944f951f703aacf4c1368b410f",
+      "bytes": 17376470
+    },
+    "reports/infectious_disease_sources.md": {
+      "sha256": "19943511b6a26a70f42e47d3f22f1b69257b459baa1845b85248c77986aaac1c",
+      "bytes": 4500
+    },
+    "reports/infectious_disease_assumptions.md": {
+      "sha256": "dbdb47b2707e04fcadf733a3ff757a0749e0f0f177c414f421fb6b2637ac1f3b",
+      "bytes": 5749
+    },
+    "reports/infectious_disease_findings.md": {
+      "sha256": "fc543d873e15649bb8f18b4f107997c4dfa7b43e2075c57dc83f9f3a7e4ebe30",
+      "bytes": 9035
+    },
+    "reports/infectious_disease_qa.md": {
+      "sha256": "997c10ab1f267ab4f62c5a96fc27deebe57c0d1011b5ab7391175b5a6ebbf8f9",
+      "bytes": 4551
+    },
+    "docs/phase_briefs/phase13a_infectious_disease_baseline.md": {
+      "sha256": "70f84e2baf54d2ceafea218b610b521c8304deb9cabc3f84382a1740832daf50",
+      "bytes": 7239
+    },
+    "docs/phase_briefs/phase13b_infectious_disease_dependencies.md": {
+      "sha256": "c7955557af403afc2e67b05518781d56080ccc0d515f87d2aa109cb9a199db6c",
+      "bytes": 1286
+    },
+    "docs/phase_briefs/phase13c_infectious_disease_futures.md": {
+      "sha256": "00d93fd55ce4158e9efbd78d56cc1be43188a77796150ae8e59eddc6fb418c1a",
+      "bytes": 1388
+    },
+    "reports/infectious_disease_independent_review_initial.md": {
+      "sha256": "d3f7e38e230f2d8f5afb9497b98f0739326209323d0a1e50050b13dd7278a3b4",
+      "bytes": 1821
+    },
+    "reports/infectious_disease_independent_review.md": {
+      "sha256": "b24c74d968d4e5b3bb28844fb3d771a062ddfdf8eaac2e351c7661e0ceb9954f",
+      "bytes": 1819
+    },
+    "reports/phase13a_citation_ledger.json": {
+      "sha256": "147c9e3884133be9116c4e18a2aff8fb8871010df7ff0449aae238d9611e821d",
+      "bytes": 5351
+    },
+    "src/python/systems/build_infectious_disease_baseline.py": {
+      "sha256": "08831f93d4ed0eda658705c3376d547ccf43d3c2ed773e586834668e6e4908b0",
+      "bytes": 107175
+    },
+    "src/python/systems/validate_infectious_disease_baseline.py": {
+      "sha256": "55e99f9f1e79cc34cb46bb6e6f4a07f8fd5e6b1df4abcb9348f0458ff5c4a1f7",
+      "bytes": 20042
+    },
+    "src/R/systems/validate_infectious_disease_baseline.R": {
+      "sha256": "0ea9adf4123be632069c4495f7736a2d7bd2d416ba19cf7db6bedfd951e8ed6e",
+      "bytes": 16598
+    }
+  },
+  "protected_inputs": [
+    "reports/phase7a_exposure_environmental_health_freeze_manifest.json",
+    "reports/phase9a_climate_natural_hazards_freeze_manifest.json",
+    "reports/phase11a_population_settlement_freeze_manifest.json",
+    "reports/phase12a_vector_ecology_freeze_manifest.json",
+    "reports/phase12b_vector_environment_human_dependencies_freeze_manifest.json",
+    "reports/phase12c_vector_ecology_futures_freeze_manifest.json"
+  ],
+  "phase12abc_accepted_frozen": true,
+  "phase1_12_immutable": true,
+  "phase13b_implemented": false,
+  "phase13c_implemented": false,
+  "composite_disease_risk_index": false,
+  "individual_case_or_risk_map": false,
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  },
+  "deferred_maintenance_preserved": [
+    "Phase 6B manifest status wording mismatch",
+    "Phase 3A missing manifest status"
+  ]
+}

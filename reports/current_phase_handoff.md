@@ -868,3 +868,45 @@ Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; 
 - Phase 12A, 12B, and 12C are **ACCEPTED / FROZEN**. Active phase: **NONE**. Next analytical phase: **NOT APPROVED**.
 - Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred maintenance remains limited to the Phase 6B manifest status wording mismatch and the Phase 3A missing manifest status.
 - No Phase 13 implementation, release, or tag was created. Final main/origin synchronization and all-worktree cleanliness are verified after the acceptance commit rather than embedded self-referentially here.
+
+## Phase 13A startup checkpoint — 2026-09-09
+
+Repository: `C:\\Projects\\Public_GitHub\\western-basin-worldbuilding`
+Canonical branch: `main`
+Feature branch: `phase-13a-infectious-disease-baseline`
+Feature worktree: `C:\\Projects\\Public_GitHub\\western-basin-worldbuilding-phase13a`
+Starting main SHA: `66794f16790541ccea2728443967831b3078941a`
+Starting origin/main SHA: `66794f16790541ccea2728443967831b3078941a`
+
+Working tree at startup: clean. Phase 12A, 12B, and 12C are confirmed `ACCEPTED / FROZEN` in `PROJECT_STATUS.md`, `docs/canon_status.md`, and their final freeze manifests. Phase 1–12 accepted/frozen artifacts are protected. Phase 13A is the only implementation phase in progress.
+
+## Scope
+
+Implement only Phase 13A — Infectious Disease System Baseline, 2026. Create Map 41, source-grounded system nodes/relationships/observations/surveillance/uncertainty products, reports, Python validator, independent R validator, manifest, artifact check, strict citation validation, and one bounded independent review. Create the approved-scope Phase 13B and Phase 13C briefs only; do not implement either phase.
+
+Protected boundaries: no composite infectious-disease risk index, disease-risk ranking, vulnerability ranking, outbreak forecast, individual case or risk map, unsupported local downscaling, causal inference from coincidence, or future inference. Preserve all distinctions in the Phase 13A brief. Reuse Phase 7, 9, 11, and 12 at native scales; use explicit relationship tables. Preserve Great Black Swamp `C — HOLD / noncanonical`, Toledo intake-coordinate discrepancy `UNRESOLVED`, Phase 6B manifest status mismatch, and Phase 3A missing manifest status.
+
+## Created early
+
+- `docs/phase_briefs/phase13a_infectious_disease_baseline.md`
+- `docs/phase_briefs/phase13b_infectious_disease_dependencies.md` — approved scope only
+- `docs/phase_briefs/phase13c_infectious_disease_futures.md` — approved scope only
+
+## Next exact action
+
+Acquire and verify a compact public source set, implement deterministic Phase 13A builder/data/map/reports, then run Python/R/provenance and prior-freeze validation before the independent review gate. Do not begin 13B or 13C.
+
+## Phase 13A implementation checkpoint — validated working package
+
+- Package generated on `phase-13a-infectious-disease-baseline` in `C:\\Projects\\Public_GitHub\\western-basin-worldbuilding-phase13a`.
+- Products: 38 nodes, 40 relationships, 25 observations, 17 surveillance records, 27 sources, 18 uncertainties, Map 41 PNG/SVG, four reports, working manifest, artifact check, phase-local citation ledger, builder, Python validator, and independent R validator.
+- Included systems: West Nile virus; Lyme disease; Legionellosis; waterborne enteric disease; Salmonella; Campylobacter; STEC; influenza; SARS-CoV-2 wastewater surveillance; rabies; generalized HAI surveillance; and generalized antimicrobial-resistance surveillance. HAB is a noninfectious toxic/environmental boundary only.
+- Deterministic Python and independent R validation passed; strict grounded-citation verification passed for all four Phase 13A reports; deterministic regeneration, Markdown-link validation, npm tests/build, Git/LFS, map, and whitespace checks passed. The fresh bounded independent review passed with all blocking arrays empty.
+- Phase 12A/B/C are accepted/frozen and immutable. Phase 13B/C briefs exist as approved scope only; neither is implemented. Active holds and deferred maintenance remain unchanged. No release/tag.
+
+## Phase 13A correction checkpoint — 2026-09-09
+
+- Initial bounded reviewer `deleg_725c0349` returned `passed: false` with source-identity blockers for exact 2025 Ohio values tied to a live page that had advanced to later data, and exact Indiana 2026 values tied to a general CDC page.
+- Corrections added exact Indiana source `s13_ind_wnv_2026` and fixed accepted Phase 12A findings source `phase12_vector_findings`; affected rows and reports were regenerated. Counts are now 38 nodes, 40 relationships, 25 observations, 17 surveillance records, 27 sources, and 18 uncertainties.
+- Python/R validation, deterministic regeneration, strict citations, links, npm tests/build, Git/LFS, and whitespace checks passed after correction. The initial failed review is preserved at `reports/infectious_disease_independent_review_initial.md`.
+- Fresh bounded independent review `deleg_b6db3488` returned `passed: true` with all blocking arrays empty. The exact structured verdict is preserved at `reports/infectious_disease_independent_review.md`; its two optional suggestions were not applied. The package is ready for final diff review, commit, push, integration, and synchronization readback.
