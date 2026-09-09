@@ -1,0 +1,55 @@
+{
+  "status": "passed",
+  "phase": "13B",
+  "map_number": 42,
+  "dependency_register": 36,
+  "dependency_edges": 36,
+  "matrix_rows": 6,
+  "evidence_crosswalk": 36,
+  "sources": 33,
+  "uncertainties": 14,
+  "map42_valid": true,
+  "image_size": [
+    5628,
+    2033
+  ],
+  "phase13a_freeze_artifacts_checked": 25,
+  "prior_freeze_manifest_entries_checked": 358,
+  "prior_unique_protected_artifacts_checked": 351,
+  "manifest_artifacts_checked": 18,
+  "review_present": true,
+  "phase13a_accepted_frozen": true,
+  "phase1_12_immutable": true,
+  "phase13a_immutable": true,
+  "context_manifests": {
+    "accepted_context_manifests_checked": true,
+    "phase1_water_context_checked": true,
+    "phase4_observation_context_checked": true
+  },
+  "table_checks": {
+    "schemas": true,
+    "referential_integrity": true,
+    "documented_vs_inferred": true,
+    "edge_attributes": true,
+    "matrix_qualitative_only": true,
+    "evidence_crosswalk": true,
+    "source_registry": true,
+    "uncertainty_registry": true
+  },
+  "boundary_checks": {
+    "driver_cause_boundary": true,
+    "ecology_disease_boundary": true,
+    "water_illness_boundary": true,
+    "food_outbreak_boundary": true,
+    "mobility_transmission_boundary": true,
+    "surveillance_incidence_boundary": true,
+    "healthcare_prevalence_boundary": true,
+    "no_composite_risk_score": true,
+    "no_individual_risk": true,
+    "no_unsupported_local_downscaling": true
+  },
+  "active_holds_preserved": true,
+  "deferred_maintenance_preserved": true,
+  "phase13c_not_implemented": true,
+  "phase14_not_implemented": true
+}

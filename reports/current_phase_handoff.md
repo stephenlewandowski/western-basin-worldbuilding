@@ -932,3 +932,29 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Phase 13B and Phase 13C: **APPROVED SCOPE / NOT IMPLEMENTED**. Active phase: **NONE**. Next analytical phase: **NOT APPROVED**.
 - Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred Phase 6B manifest wording mismatch and Phase 3A missing manifest status remain unchanged. No release or tag was created.
 - Final local `main`, `origin/main`, all relevant worktrees, Git/LFS, Markdown links, tests, build, and whitespace checks are read back after the acceptance commit rather than embedded self-referentially here.
+
+## Phase 13B startup checkpoint — 2026-09-09
+
+- Starting local `main`, `origin/main`, and remote `origin/main`: `abb189e2d5d2e65f28fd9d54e48c4d7802709d1c`; the canonical checkout was clean and synchronized.
+- Phase 13A is **ACCEPTED / FROZEN** under `reports/phase13a_infectious_disease_freeze_manifest.json`; its 25 protected artifacts and all Phase 1–12 accepted/frozen artifacts are immutable inputs.
+- Isolated worktree: `C:\\Projects\\Public_GitHub\\western-basin-worldbuilding-phase13b`; branch: `phase-13b-infectious-disease-dependencies`; base SHA: `abb189e2d5d2e65f28fd9d54e48c4d7802709d1c`.
+- Approved scope: Phase 13B environmental and human-system transmission dependencies, Map 42, qualitative register/matrix/evidence products, reports, reproducible Python/R validators, strict provenance checks, and one fresh bounded independent review.
+- Protected boundaries: no new disease catalog; no disease-risk, incidence, outbreak, burden, vulnerability, individual-risk, local-downscaling, or composite score; driver ≠ deterministic cause; mobility ≠ transmission; surveillance ≠ incidence; contamination ≠ illness; vector ecology ≠ human disease; healthcare presence ≠ disease prevalence; food/freight connectivity ≠ outbreak.
+- Active holds: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred maintenance remains Phase 6B manifest status wording mismatch and Phase 3A missing manifest status. Phase 13C and Phase 14 are not in scope.
+- Next exact action: implement the reproducible Phase 13B package without modifying Phase 13A or prior protected artifacts.
+
+## Phase 13B correction checkpoint — 2026-09-10
+
+- The first fresh bounded independent review is preserved at `reports/infectious_disease_dependency_independent_review_initial.md`; it returned `passed: false` for one legitimate blocker only.
+- Blocker corrected: `IDB-036` now references `IDBU-014`, whose subject is `IDB-036` and whose statement preserves native spatial scales and the no-local-downscaling boundary. The builder and the dependency register/edge artifacts were corrected together.
+- Reviewer-confirmed non-blockers remain unchanged: no frozen-artifact modification, provenance error, epidemiological error, composite score, local downscaling, incidence/outbreak forecast, Phase 13C, or Phase 14 content.
+- Current package remains 36 dependency rows/edges, six matrix rows, 36 evidence rows, 33 sources, 14 uncertainties, and Map 42. Python/R validation, provenance, Map 42, prior-freeze, Markdown, LFS, tests, and build must be rerun after this correction.
+- Phase 13B is implemented and validated pending a new fresh `passed: true` review, normal delivery, and Sol acceptance. Phase 13C and Phase 14 remain unimplemented.
+
+## Phase 13B final review checkpoint — 2026-09-10
+
+- Final fresh bounded independent review passed with all blocking arrays empty; the verdict is preserved at `reports/infectious_disease_dependency_independent_review.md`.
+- The first and second failed reviews remain preserved as correction lineage at `reports/infectious_disease_dependency_independent_review_initial.md` and `reports/infectious_disease_dependency_independent_review_second.md`.
+- Post-correction Python and authoritative foreground R validation passed: 36 dependency rows/edges, six matrix rows, 36 evidence rows, 33 sources, 14 uncertainties, 25 Phase 13A freeze artifacts, and 358 prior freeze entries / 351 unique protected artifacts.
+- Post-correction provenance, Map 42 QA, Markdown links, `git diff --check`, Git LFS status/fsck, npm tests, and build passed. The working manifest is ready for review-required artifact-check regeneration and normal delivery.
+- Phase 13B remains **IMPLEMENTED / VALIDATED / AWAITING NORMAL DELIVERY / SOL ACCEPTANCE**. Phase 13C and Phase 14 remain unimplemented; no release or tag is authorized.

@@ -706,10 +706,30 @@ surveillance archetypes.
 - [Phase 13A independent R validator](src/R/systems/validate_infectious_disease_baseline.R)
 - [Phase 13A independent R freeze validator](src/R/systems/validate_phase13a_freeze.R)
 - [Phase 13A brief](docs/phase_briefs/phase13a_infectious_disease_baseline.md)
-- [Phase 13B approved-scope brief — not implemented](docs/phase_briefs/phase13b_infectious_disease_dependencies.md)
-- [Phase 13C approved-scope brief — not implemented](docs/phase_briefs/phase13c_infectious_disease_futures.md)
+- [Phase 13B original approved-scope brief (protected Phase 13A input)](docs/phase_briefs/phase13b_infectious_disease_dependencies.md)
+- [Map 42 — Infectious Disease Transmission Dependencies, 2026](outputs/maps/systems/42_infectious_disease_transmission_dependencies_2026.png)
+- [Map 42 SVG](outputs/maps/systems/42_infectious_disease_transmission_dependencies_2026.svg)
+- [Phase 13B dependency register](data/processed/analysis/infectious_disease_dependency_register.csv)
+- [Phase 13B dependency edges](data/processed/networks/infectious_disease_dependency_edges.csv)
+- [Phase 13B qualitative matrix](data/processed/analysis/infectious_disease_dependency_matrix.csv)
+- [Phase 13B evidence crosswalk](data/processed/analysis/infectious_disease_evidence_crosswalk.csv)
+- [Phase 13B source registry](data/processed/analysis/infectious_disease_dependency_sources.csv)
+- [Phase 13B uncertainty register](data/processed/analysis/infectious_disease_dependency_uncertainties.csv)
+- [Phase 13B sources report](reports/infectious_disease_dependency_sources.md)
+- [Phase 13B findings report](reports/infectious_disease_dependency_findings.md)
+- [Phase 13B QA report](reports/infectious_disease_dependency_qa.md)
+- [Phase 13B assumptions report](reports/infectious_disease_dependency_assumptions.md)
+- [Phase 13B working manifest](reports/infectious_disease_dependency_manifest.json)
+- [Phase 13B artifact check](reports/infectious_disease_dependency_artifact_check.json)
+- [Phase 13B citation ledger](reports/phase13b_citation_ledger.json)
+- [Phase 13B initial independent review](reports/infectious_disease_dependency_independent_review_initial.md)
+- [Phase 13B second failed independent review](reports/infectious_disease_dependency_independent_review_second.md)
+- [Phase 13B final independent review](reports/infectious_disease_dependency_independent_review.md)
+- [Phase 13B Python validator](src/python/systems/validate_infectious_disease_dependencies.py)
+- [Phase 13B independent R validator](src/R/systems/validate_infectious_disease_dependencies.R)
 
-The baseline explicitly avoids a composite disease-risk index, individual case/risk mapping, unsupported local downscaling, outbreak forecasting, and future inference. Pathogen presence, exposure, infection, reported case, local transmission, outbreak, and disease burden remain separate states. The final Python/R freeze checks verify Phase 12A/B/C integrity and 358 prior freeze-manifest entries / 351 unique protected artifacts. Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains unresolved. Phase 13B and Phase 13C remain approved-scope briefs only and are not implemented.
+
+The Phase 13A baseline and Phase 13B dependency layer explicitly avoid a composite disease-risk index, individual case/risk mapping, unsupported local downscaling, incidence or outbreak forecasting, and future inference. Pathogen presence, exposure, infection, reported case, local transmission, outbreak, and disease burden remain separate states. Phase 13B adds qualitative environmental, ecological, infrastructure, population/mobility, food/freight, surveillance, healthcare, and governance interfaces with documented-versus-inferred status. Its Python/R checks verify Phase 13A freeze integrity and the 358 prior Phase 1–12 freeze-manifest entries / 351 unique protected artifacts. Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains unresolved. Phase 13C remains approved-scope only and is not implemented.
 
 ## Roadmap
 

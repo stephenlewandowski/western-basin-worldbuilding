@@ -572,6 +572,20 @@ The package preserves pathogen presence != exposure != infection != reported cas
 
 Sol formally accepted and froze Phase 13A under `reports/phase13a_infectious_disease_freeze_manifest.json` (25 protected artifacts). The Python and independent R freeze validators passed, verifying the Phase 13A final and working manifests, Phase 12A/B/C freeze integrity, 358 prior manifest entries / 351 unique protected artifacts, the passed review, and all active boundaries. The implementation commit `28f752d83814b153601d7553bc8c17647dbe5219`, correction commit `d1484ffadf4087836aebff18619111ce0c322dfe`, initial failed review, and final passed review remain preserved.
 
-Map 41 and the Phase 13A tables, reports, manifest, artifact check, Python validators, independent R validators, and phase-local citation ledger are documented in the Phase 13A brief and reports. Phase 13B and Phase 13C are **APPROVED SCOPE / NOT IMPLEMENTED**. Active phase is **NONE**. Next analytical phase is **NOT APPROVED**.
+Map 41 and the Phase 13A tables, reports, manifest, artifact check, Python validators, independent R validators, and phase-local citation ledger are documented in the Phase 13A brief and reports. Phase 13B is implemented below as a separate qualitative dependency layer; Phase 13C remains **APPROVED SCOPE / NOT IMPLEMENTED**. Active phase is **NONE**.
 
 Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred maintenance remains unchanged: Phase 6B manifest status wording mismatch and Phase 3A missing manifest status. No release or tag was created.
+
+## PHASE 13B — IMPLEMENTED / VALIDATED / AWAITING NORMAL DELIVERY / SOL ACCEPTANCE
+
+**Environmental & Human-System Transmission Dependencies, 2026**
+
+Phase 13B adds a separate qualitative dependency layer over the accepted/frozen Phase 13A infectious-disease baseline. It contains 36 dependency-register rows and edges, six archetype matrix rows, 36 claim-level evidence crosswalk rows, 33 source references, 14 uncertainty rows, and Map 42. The six archetypes are vector-borne, waterborne/environmental, foodborne/enteric, respiratory, zoonotic, and healthcare/AMR. No new disease catalog is created.
+
+Each dependency carries a relationship class, documented-versus-inferred status, source/evidence basis, direction, native spatial scale, temporal scope, uncertainty, confidence, and relevant Phase 13A disease-system IDs. The package distinguishes environmental drivers, ecological mediators, infrastructure, surveillance, institutional response, population/contact, mobility, food/freight, and healthcare interfaces. It does not convert drivers into deterministic causes, vector ecology into human disease, contamination into illness, mobility into transmission, surveillance into incidence, healthcare presence into disease burden, or food/freight connectivity into outbreak.
+
+The qualitative matrix is not summed, ranked, or converted to a disease-risk, vulnerability, service-access, incidence, outbreak, or burden index. County, sewershed, facility, program, watershed, and generalized regional scales remain distinct. No individual cases, individual risk, local downscaling, predicted incidence, outbreak probability, disease burden estimate, or Phase 13C content is included. The accepted Phase 13A and prior protected artifacts remain unchanged.
+
+Python and independent R validation, strict grounded-citation/provenance validation, Map 42 raster/SVG QA, Phase 13A freeze integrity, and Phase 1–12 immutability checks passed before the fresh bounded review and normal delivery. Phase 13B remains awaiting normal delivery and Sol acceptance; it is not accepted/frozen by this implementation. Phase 13C remains **APPROVED SCOPE / NOT IMPLEMENTED**. Active phase is **NONE**.
+
+Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest status wording mismatch and Phase 3A missing manifest status remain unchanged. No release or tag was created.

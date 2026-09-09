@@ -386,7 +386,7 @@ disease surface, or risk ranking.
 - `../src/python/systems/build_infectious_disease_baseline.py`, `validate_infectious_disease_baseline.py`, and `validate_phase13a_freeze.py`
 - `../src/R/systems/validate_infectious_disease_baseline.R` and `validate_phase13a_freeze.R`
 - `../docs/phase_briefs/phase13a_infectious_disease_baseline.md`
-- `../docs/phase_briefs/phase13b_infectious_disease_dependencies.md` — approved scope only; not implemented
+- `../docs/phase_briefs/phase13b_infectious_disease_dependencies.md` — original approved-scope brief, protected Phase 13A input
 - `../docs/phase_briefs/phase13c_infectious_disease_futures.md` — approved scope only; not implemented
 
 The package preserves pathogen presence != exposure != infection != reported
@@ -396,5 +396,30 @@ detection != human infection; and water contamination != illness. No composite
 disease-risk index, vulnerability ranking, individual case map, outbreak
 forecast, unsupported local downscaling, or future inference is included.
 The final Python/R freeze checks verify Phase 12A/B/C integrity and 358 prior
-freeze-manifest entries / 351 unique protected artifacts. Phase 13B and Phase
-13C remain approved-scope briefs only and are not implemented.
+freeze-manifest entries / 351 unique protected artifacts. Phase 13B is
+implemented and validated as a separate qualitative dependency layer awaiting
+Sol acceptance; Phase 13C remains an approved-scope brief only and is not
+implemented.
+
+## Phase 13B infectious disease transmission dependencies
+
+Phase 13B is implemented and validated as a separate qualitative 2026 layer
+over the accepted/frozen Phase 13A baseline. It contains 36 dependency-register
+rows/edges, six archetype matrix rows, 36 evidence-crosswalk rows, 33 source
+references, 14 uncertainties, and Map 42. It is awaiting normal delivery and
+Sol acceptance; it does not alter Phase 13A or prior protected artifacts.
+
+- `../data/processed/analysis/infectious_disease_dependency_register.csv` — 36 dependency rows
+- `../data/processed/networks/infectious_disease_dependency_edges.csv` — 36 dependency edges
+- `../data/processed/analysis/infectious_disease_dependency_matrix.csv` — six qualitative archetype rows
+- `../data/processed/analysis/infectious_disease_evidence_crosswalk.csv` — 36 claim-level evidence rows
+- `../data/processed/analysis/infectious_disease_dependency_sources.csv` — 33 sources
+- `../data/processed/analysis/infectious_disease_dependency_uncertainties.csv` — 14 uncertainties
+- `../outputs/maps/systems/42_infectious_disease_transmission_dependencies_2026.png` and `.svg` — Map 42
+- `infectious_disease_dependency_sources.md`, `infectious_disease_dependency_assumptions.md`, `infectious_disease_dependency_findings.md`, `infectious_disease_dependency_qa.md`
+- `infectious_disease_dependency_manifest.json`, `infectious_disease_dependency_artifact_check.json`, and `phase13b_citation_ledger.json`
+- `infectious_disease_dependency_independent_review_initial.md` — failed-review correction lineage
+- `infectious_disease_dependency_independent_review_second.md` — second failed-review correction lineage
+- `infectious_disease_dependency_independent_review.md` — final passed review with all blocking arrays empty
+- `../src/python/systems/build_infectious_disease_dependencies.py` and `validate_infectious_disease_dependencies.py`
+- `../src/R/systems/validate_infectious_disease_dependencies.R`
