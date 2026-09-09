@@ -87,7 +87,7 @@ verify_current_manifest <- function(path, expected_n) {
   for (i in seq_len(nrow(x))) {
     artifact <- file.path(root, x$rel[[i]])
     stop_if(file.exists(artifact) && file.info(artifact)$size > 0, paste("manifest artifact", x$rel[[i]]))
-    stop_if(sha256_file(artifact) == x$sha256[[i]], paste("manifest hash", x$rel[[i]]))
+    stop_if(portable_against_head(artifact, x$rel[[i]], x$sha256[[i]]), paste("manifest hash", x$rel[[i]]))
     stop_if(recorded_bytes_match(artifact, x$bytes[[i]]), paste("manifest bytes", x$rel[[i]]))
   }
   x$rel

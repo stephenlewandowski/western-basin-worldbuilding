@@ -93,8 +93,8 @@
       "bytes": 20042
     },
     "src/R/systems/validate_infectious_disease_baseline.R": {
-      "sha256": "0ea9adf4123be632069c4495f7736a2d7bd2d416ba19cf7db6bedfd951e8ed6e",
-      "bytes": 16598
+      "sha256": "22cac1b5f3934d0b7a4f3ef38896ce3d728749253ec1c2b41237eb9fe213d46c",
+      "bytes": 16618
     }
   },
   "protected_inputs": [
