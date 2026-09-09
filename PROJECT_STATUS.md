@@ -576,7 +576,7 @@ Map 41 and the Phase 13A tables, reports, manifest, artifact check, Python valid
 
 Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred maintenance remains unchanged: Phase 6B manifest status wording mismatch and Phase 3A missing manifest status. No release or tag was created.
 
-## PHASE 13B — IMPLEMENTED / VALIDATED / AWAITING NORMAL DELIVERY / SOL ACCEPTANCE
+## PHASE 13B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
 
 **Environmental & Human-System Transmission Dependencies, 2026**
 
@@ -586,6 +586,6 @@ Each dependency carries a relationship class, documented-versus-inferred status,
 
 The qualitative matrix is not summed, ranked, or converted to a disease-risk, vulnerability, service-access, incidence, outbreak, or burden index. County, sewershed, facility, program, watershed, and generalized regional scales remain distinct. No individual cases, individual risk, local downscaling, predicted incidence, outbreak probability, disease burden estimate, or Phase 13C content is included. The accepted Phase 13A and prior protected artifacts remain unchanged.
 
-Python and independent R validation, strict grounded-citation/provenance validation, Map 42 raster/SVG QA, Phase 13A freeze integrity, and Phase 1–12 immutability checks passed before the fresh bounded review and normal delivery. Phase 13B remains awaiting normal delivery and Sol acceptance; it is not accepted/frozen by this implementation. Phase 13C remains **APPROVED SCOPE / NOT IMPLEMENTED**. Active phase is **NONE**.
+Python and independent R validation, strict grounded-citation/provenance validation, Map 42 raster/SVG QA, Phase 13A freeze integrity, and Phase 1–12 immutability checks passed before the fresh bounded review and normal delivery. Phase 13B is integrated and awaits Sol acceptance; it is not accepted/frozen by this implementation. Phase 13C remains **APPROVED SCOPE / NOT IMPLEMENTED**. Active phase is **NONE**.
 
 Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest status wording mismatch and Phase 3A missing manifest status remain unchanged. No release or tag was created.

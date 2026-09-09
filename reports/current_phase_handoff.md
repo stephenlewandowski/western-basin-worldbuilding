@@ -958,3 +958,13 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Post-correction Python and authoritative foreground R validation passed: 36 dependency rows/edges, six matrix rows, 36 evidence rows, 33 sources, 14 uncertainties, 25 Phase 13A freeze artifacts, and 358 prior freeze entries / 351 unique protected artifacts.
 - Post-correction provenance, Map 42 QA, Markdown links, `git diff --check`, Git LFS status/fsck, npm tests, and build passed. The working manifest is ready for review-required artifact-check regeneration and normal delivery.
 - Phase 13B remains **IMPLEMENTED / VALIDATED / AWAITING NORMAL DELIVERY / SOL ACCEPTANCE**. Phase 13C and Phase 14 remain unimplemented; no release or tag is authorized.
+
+## Phase 13B integrated handoff — 2026-09-10
+
+- Feature commit: `12bb6be64be1da5b3b47a7e4f22781f802b47413`; feature branch `phase-13b-infectious-disease-dependencies` was pushed and read back at that SHA.
+- The feature commit was fast-forward integrated into local `main` from the synchronized base `abb189e2d5d2e65f28fd9d54e48c4d7802709d1c`.
+- Final package: 36 dependency-register rows/edges, six qualitative matrix rows, 36 evidence-crosswalk rows, 33 sources, 14 uncertainties, Map 42, working manifest, artifact check, builder, Python/R validators, final passed independent review, and preserved failed-review lineage.
+- Review-required Python and authoritative R validation passed with 18 manifest artifacts, 25 Phase 13A freeze artifacts, and 358 prior freeze entries / 351 unique protected artifacts. Provenance, Map 42, Markdown, whitespace, LFS, tests, and build gates passed.
+- Final status: Phase 13A **ACCEPTED / FROZEN**; Phase 13B **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; Phase 13C **APPROVED SCOPE / NOT IMPLEMENTED**; Active phase **NONE**.
+- Great Black Swamp remains **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest wording mismatch and Phase 3A missing manifest status remain unchanged. No release or tag was created.
+- Final local `main`, `origin/main`, and relevant worktree cleanliness are verified after this handoff bookkeeping commit rather than embedded self-referentially here.

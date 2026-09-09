@@ -406,8 +406,8 @@ implemented.
 Phase 13B is implemented and validated as a separate qualitative 2026 layer
 over the accepted/frozen Phase 13A baseline. It contains 36 dependency-register
 rows/edges, six archetype matrix rows, 36 evidence-crosswalk rows, 33 source
-references, 14 uncertainties, and Map 42. It is awaiting normal delivery and
-Sol acceptance; it does not alter Phase 13A or prior protected artifacts.
+references, 14 uncertainties, and Map 42. It is integrated and awaiting Sol
+acceptance; it does not alter Phase 13A or prior protected artifacts.
 
 - `../data/processed/analysis/infectious_disease_dependency_register.csv` — 36 dependency rows
 - `../data/processed/networks/infectious_disease_dependency_edges.csv` — 36 dependency edges
