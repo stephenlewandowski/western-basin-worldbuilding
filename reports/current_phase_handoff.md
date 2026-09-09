@@ -910,3 +910,13 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Corrections added exact Indiana source `s13_ind_wnv_2026` and fixed accepted Phase 12A findings source `phase12_vector_findings`; affected rows and reports were regenerated. Counts are now 38 nodes, 40 relationships, 25 observations, 17 surveillance records, 27 sources, and 18 uncertainties.
 - Python/R validation, deterministic regeneration, strict citations, links, npm tests/build, Git/LFS, and whitespace checks passed after correction. The initial failed review is preserved at `reports/infectious_disease_independent_review_initial.md`.
 - Fresh bounded independent review `deleg_b6db3488` returned `passed: true` with all blocking arrays empty. The exact structured verdict is preserved at `reports/infectious_disease_independent_review.md`; its two optional suggestions were not applied. The package is ready for final diff review, commit, push, integration, and synchronization readback.
+
+## Phase 13A final integrated handoff — 2026-09-09
+
+- Phase 13A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Feature implementation commit: `28f752d83814b153601d7553bc8c17647dbe5219`. Correction commit: `d1484ffadf4087836aebff18619111ce0c322dfe`.
+- The feature branch was pushed and read back at `d1484ffadf4087836aebff18619111ce0c322dfe`. It was fast-forward integrated into `main`; local `main`, `origin/main`, and remote `origin/main` were read back at the same SHA before this handoff-only update.
+- Final package: 38 nodes, 40 relationships, 25 observations, 17 surveillance records, 27 sources, 18 uncertainties, Map 41, Python/R validators, strict citation/provenance reports, initial failed-review lineage, and fresh passed independent review.
+- Python and independent R Phase 13A validation passed; 358 prior freeze manifest entries and 351 unique protected artifacts were verified. Deterministic regeneration, Map 41, Markdown links, npm tests/build, Git LFS, and whitespace checks passed.
+- Active phase: **NONE**. Phase 13B and Phase 13C: **APPROVED SCOPE / NOT IMPLEMENTED**. Phase 12A/B/C remain **ACCEPTED / FROZEN** and immutable.
+- Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred Phase 6B manifest wording mismatch and Phase 3A missing manifest status remain unchanged. No release or tag was created.
+- Next exact action: Sol acceptance review of Phase 13A; do not implement Phase 13B or 13C.
