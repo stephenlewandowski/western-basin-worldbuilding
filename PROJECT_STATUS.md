@@ -562,7 +562,7 @@ The current working canon uses five overlapping interpretive macroregions: Glass
 
 See [docs/canon_status.md](docs/canon_status.md) for scope and interpretation rules.
 
-## PHASE 13A — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 13A — ACCEPTED / FROZEN
 
 **Infectious Disease System Baseline, 2026**
 
@@ -570,6 +570,8 @@ Phase 13A adds a compact multi-archetype infectious-disease systems baseline: 38
 
 The package preserves pathogen presence != exposure != infection != reported case != local transmission != outbreak != disease burden; surveillance intensity != incidence; reported residence != exposure location; county surveillance != neighborhood risk; vector detection != pathogen-positive vector != human infection; and water contamination != treatment failure != exposure != infection != illness. It creates no composite disease-risk index, vulnerability ranking, outbreak forecast, individual case/risk map, unsupported local downscaling, or future inference. Phase 12A/B/C remain accepted/frozen and immutable.
 
-Map 41 and the Phase 13A tables, reports, manifest, artifact check, Python validator, independent R validator, and phase-local citation ledger are documented in the Phase 13A brief and reports. Phase 13B and Phase 13C are **APPROVED SCOPE / NOT IMPLEMENTED**. Active phase is **NONE**. Next analytical phase is **NOT APPROVED**.
+Sol formally accepted and froze Phase 13A under `reports/phase13a_infectious_disease_freeze_manifest.json` (25 protected artifacts). The Python and independent R freeze validators passed, verifying the Phase 13A final and working manifests, Phase 12A/B/C freeze integrity, 358 prior manifest entries / 351 unique protected artifacts, the passed review, and all active boundaries. The implementation commit `28f752d83814b153601d7553bc8c17647dbe5219`, correction commit `d1484ffadf4087836aebff18619111ce0c322dfe`, initial failed review, and final passed review remain preserved.
+
+Map 41 and the Phase 13A tables, reports, manifest, artifact check, Python validators, independent R validators, and phase-local citation ledger are documented in the Phase 13A brief and reports. Phase 13B and Phase 13C are **APPROVED SCOPE / NOT IMPLEMENTED**. Active phase is **NONE**. Next analytical phase is **NOT APPROVED**.
 
 Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred maintenance remains unchanged: Phase 6B manifest status wording mismatch and Phase 3A missing manifest status. No release or tag was created.

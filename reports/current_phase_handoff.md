@@ -920,3 +920,15 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Active phase: **NONE**. Phase 13B and Phase 13C: **APPROVED SCOPE / NOT IMPLEMENTED**. Phase 12A/B/C remain **ACCEPTED / FROZEN** and immutable.
 - Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred Phase 6B manifest wording mismatch and Phase 3A missing manifest status remain unchanged. No release or tag was created.
 - Next exact action: Sol acceptance review of Phase 13A; do not implement Phase 13B or 13C.
+
+## Phase 13A final acceptance / freeze handoff — 2026-09-09
+
+- Starting acceptance-run SHA: `c07be966e5058e299be21d181754920e41e5321b`; local `main` and `origin/main` were clean and synchronized before freeze bookkeeping.
+- Sol formally accepted and froze Phase 13A — Infectious Disease System Baseline, 2026.
+- Final freeze manifest: `reports/phase13a_infectious_disease_freeze_manifest.json`; protected count: 25 artifacts. It protects the accepted package, working manifest, artifact check, reports, both review records, citation ledger, Phase 13A implementation validators, and independent Python/R freeze validators.
+- Accepted package: 38 nodes, 40 relationships, 25 observations, 17 surveillance records, 27 sources, 18 uncertainties, and Map 41. The required pathogen/exposure/infection/case/transmission/outbreak/burden, surveillance/incidence, residence/exposure, county/neighborhood, vector/human-disease, and water/illness boundaries remain explicit.
+- Python and independent R freeze validation passed. Phase 12A/B/C final freeze integrity passed; actual prior-system inventory is 358 manifest entries / 351 unique protected artifacts. The passed final independent review and initial failed-review correction lineage remain preserved.
+- Implementation commit `28f752d83814b153601d7553bc8c17647dbe5219`, correction commit `d1484ffadf4087836aebff18619111ce0c322dfe`, and prior review history remain visible and unrevised.
+- Phase 13B and Phase 13C: **APPROVED SCOPE / NOT IMPLEMENTED**. Active phase: **NONE**. Next analytical phase: **NOT APPROVED**.
+- Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred Phase 6B manifest wording mismatch and Phase 3A missing manifest status remain unchanged. No release or tag was created.
+- Final local `main`, `origin/main`, all relevant worktrees, Git/LFS, Markdown links, tests, build, and whitespace checks are read back after the acceptance commit rather than embedded self-referentially here.

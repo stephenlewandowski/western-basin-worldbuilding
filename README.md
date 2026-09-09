@@ -682,7 +682,12 @@ Three sketchbook sheets are preserved under [assets/concept_art](assets/concept_
 
 ## Phase 13A Infectious Disease System Baseline
 
-Phase 13A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** as a factual 2026 infectious-disease systems baseline. Map 41 and the package include separate vector-borne, waterborne/environmental, foodborne/enteric, respiratory, zoonotic, and healthcare/institutional surveillance archetypes.
+Phase 13A is **ACCEPTED / FROZEN** under
+`reports/phase13a_infectious_disease_freeze_manifest.json` (25 protected
+artifacts) as a factual 2026 infectious-disease systems baseline. Map 41 and
+the package include separate vector-borne, waterborne/environmental,
+foodborne/enteric, respiratory, zoonotic, and healthcare/institutional
+surveillance archetypes.
 
 - [41 — Infectious Disease System Baseline, 2026](outputs/maps/systems/41_infectious_disease_system_baseline_2026.png)
 - [Infectious-disease nodes](data/processed/networks/infectious_disease_nodes.csv)
@@ -695,13 +700,16 @@ Phase 13A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** 
 - [Findings report](reports/infectious_disease_findings.md)
 - [QA report](reports/infectious_disease_qa.md)
 - [Phase 13A manifest](reports/infectious_disease_baseline_manifest.json)
+- [Phase 13A freeze manifest](reports/phase13a_infectious_disease_freeze_manifest.json)
 - [Phase 13A Python validator](src/python/systems/validate_infectious_disease_baseline.py)
+- [Phase 13A Python freeze validator](src/python/systems/validate_phase13a_freeze.py)
 - [Phase 13A independent R validator](src/R/systems/validate_infectious_disease_baseline.R)
+- [Phase 13A independent R freeze validator](src/R/systems/validate_phase13a_freeze.R)
 - [Phase 13A brief](docs/phase_briefs/phase13a_infectious_disease_baseline.md)
 - [Phase 13B approved-scope brief — not implemented](docs/phase_briefs/phase13b_infectious_disease_dependencies.md)
 - [Phase 13C approved-scope brief — not implemented](docs/phase_briefs/phase13c_infectious_disease_futures.md)
 
-The baseline explicitly avoids a composite disease-risk index, individual case/risk mapping, unsupported local downscaling, outbreak forecasting, and future inference. Pathogen presence, exposure, infection, reported case, local transmission, outbreak, and disease burden remain separate states. Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains unresolved.
+The baseline explicitly avoids a composite disease-risk index, individual case/risk mapping, unsupported local downscaling, outbreak forecasting, and future inference. Pathogen presence, exposure, infection, reported case, local transmission, outbreak, and disease burden remain separate states. The final Python/R freeze checks verify Phase 12A/B/C integrity and 358 prior freeze-manifest entries / 351 unique protected artifacts. Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains unresolved. Phase 13B and Phase 13C remain approved-scope briefs only and are not implemented.
 
 ## Roadmap
 
