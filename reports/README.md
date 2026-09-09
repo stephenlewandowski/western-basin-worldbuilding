@@ -432,3 +432,38 @@ final review passed with all blocking arrays empty. Phase 13C remains approved
 scope only and is not implemented; Phase 14 is not implemented. Active phase is
 NONE. Great Black Swamp remains C — HOLD / noncanonical and the Toledo
 intake-coordinate discrepancy remains UNRESOLVED.
+
+## Phase 13C infectious disease system futures
+
+Phase 13C is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+as a separate qualitative 2050/2075 scenario layer. It contains 36 assumptions,
+36 transmission states, 36 surveillance states, 36 response states, 36
+dependency states, 36 uncertainty states, 33 scenario sources, six comparison
+rows, Maps 43/43b, reports, a working manifest, an artifact check, a citation
+ledger, and the fresh independent review.
+
+- `../data/processed/scenarios/infectious_disease_scenario_assumptions.csv`
+- `../data/processed/scenarios/infectious_disease_transmission_states_scenario.csv`
+- `../data/processed/scenarios/infectious_disease_surveillance_states_scenario.csv`
+- `../data/processed/scenarios/infectious_disease_response_states_scenario.csv`
+- `../data/processed/scenarios/infectious_disease_dependency_states_scenario.csv`
+- `../data/processed/scenarios/infectious_disease_uncertainty_states_scenario.csv`
+- `../data/processed/analysis/infectious_disease_scenario_sources.csv`
+- `../outputs/figures/infectious_disease_scenario_comparison.csv` and comparison PNG/SVG
+- `../outputs/maps/systems/43_infectious_disease_system_futures_2050.png` and `.svg`
+- `../outputs/maps/systems/43b_infectious_disease_system_futures_2075.png` and `.svg`
+- `infectious_disease_scenario_sources.md`, `infectious_disease_scenario_assumptions.md`, `infectious_disease_scenario_findings.md`, and `infectious_disease_scenario_qa.md`
+- `infectious_disease_scenario_manifest.json`, `infectious_disease_scenario_artifact_check.json`, and `phase13c_citation_ledger.json`
+- `infectious_disease_scenario_independent_review.md`
+- `../src/python/systems/build_infectious_disease_futures.py`, `validate_infectious_disease_futures.py`, and `../src/R/systems/validate_infectious_disease_futures.R`
+
+The package preserves the distinction between transmission opportunity and
+future incidence, environmental/vector suitability and disease burden,
+surveillance sensitivity and disease intensity, infrastructure stress and
+illness, mobility/connectivity and outbreak certainty, and response capacity
+and disease absence. No future case totals, incidence surface, outbreak
+probability, disease-burden or individual-risk product, vulnerability/EJ score,
+unsupported local downscaling, or Phase 14 implementation is included. Active
+phase is NONE; next analytical phase is NOT APPROVED. Great Black Swamp remains
+C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains
+UNRESOLVED.

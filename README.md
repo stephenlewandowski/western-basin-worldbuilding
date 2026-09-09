@@ -731,8 +731,54 @@ surveillance archetypes.
 - [Phase 13B Python freeze validator](src/python/systems/validate_phase13b_freeze.py)
 - [Phase 13B independent R freeze validator](src/R/systems/validate_phase13b_freeze.R)
 
+## Phase 13C Infectious Disease System Futures, 2050 / 2075
 
-The Phase 13A baseline and Phase 13B dependency layer are **ACCEPTED / FROZEN** and explicitly avoid a composite disease-risk index, individual case/risk mapping, unsupported local downscaling, incidence or outbreak forecasting, and future inference. Pathogen presence, exposure, infection, reported case, local transmission, outbreak, and disease burden remain separate states. Phase 13B adds qualitative environmental, ecological, infrastructure, population/mobility, food/freight, surveillance, healthcare, and governance interfaces with documented-versus-inferred status. Its Python/R checks verify Phase 13A freeze integrity and the 358 prior Phase 1–12 freeze-manifest entries / 351 unique protected artifacts. Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains unresolved. Phase 13C remains approved-scope only and is not implemented.
+Phase 13C is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+as a separate qualitative scenario layer over the accepted/frozen Phase 13A
+and Phase 13B packages. It contains 36 assumptions, 36 transmission states, 36
+surveillance states, 36 response states, 36 dependency states, 36 uncertainty
+states, 33 scenario sources, six comparison rows, and Maps 43/43b.
+
+- [Map 43 — Infectious Disease System Futures, 2050](outputs/maps/systems/43_infectious_disease_system_futures_2050.png)
+- [Map 43 SVG](outputs/maps/systems/43_infectious_disease_system_futures_2050.svg)
+- [Map 43b — Infectious Disease System Futures, 2075](outputs/maps/systems/43b_infectious_disease_system_futures_2075.png)
+- [Map 43b SVG](outputs/maps/systems/43b_infectious_disease_system_futures_2075.svg)
+- [Scenario assumptions](data/processed/scenarios/infectious_disease_scenario_assumptions.csv)
+- [Transmission states](data/processed/scenarios/infectious_disease_transmission_states_scenario.csv)
+- [Surveillance/detection states](data/processed/scenarios/infectious_disease_surveillance_states_scenario.csv)
+- [Response states](data/processed/scenarios/infectious_disease_response_states_scenario.csv)
+- [Dependency states](data/processed/scenarios/infectious_disease_dependency_states_scenario.csv)
+- [Uncertainty states](data/processed/scenarios/infectious_disease_uncertainty_states_scenario.csv)
+- [Scenario source registry](data/processed/analysis/infectious_disease_scenario_sources.csv)
+- [Scenario comparison](outputs/figures/infectious_disease_scenario_comparison.csv)
+- [Scenario comparison figure](outputs/figures/infectious_disease_scenario_comparison.png)
+- [Scenario sources report](reports/infectious_disease_scenario_sources.md)
+- [Scenario assumptions report](reports/infectious_disease_scenario_assumptions.md)
+- [Scenario findings report](reports/infectious_disease_scenario_findings.md)
+- [Scenario QA report](reports/infectious_disease_scenario_qa.md)
+- [Working manifest](reports/infectious_disease_scenario_manifest.json)
+- [Artifact check](reports/infectious_disease_scenario_artifact_check.json)
+- [Citation ledger](reports/phase13c_citation_ledger.json)
+- [Independent review](reports/infectious_disease_scenario_independent_review.md)
+- [Python builder](src/python/systems/build_infectious_disease_futures.py)
+- [Python validator](src/python/systems/validate_infectious_disease_futures.py)
+- [Independent R validator](src/R/systems/validate_infectious_disease_futures.R)
+- [Phase 13C brief](docs/phase_briefs/phase13c_infectious_disease_futures.md)
+
+The three alternatives are A — Coordinated Prevention & Detection, B —
+Networked but Uneven Adaptation, and C — Higher Transmission Opportunity /
+Response Strain. 2050 is an intermediate trajectory; 2075 is a matured or
+diverged state. Transmission opportunity is not future incidence, environmental
+or vector suitability is not disease burden, surveillance sensitivity is not
+disease intensity, infrastructure stress is not illness, and mobility is not
+outbreak certainty. No future case totals, incidence surface, outbreak
+probability, disease-burden or individual-risk product, vulnerability/EJ score,
+or unsupported local downscaling is included. Phase 13A/13B remain immutable;
+Phase 14 is not implemented. Great Black Swamp remains C — HOLD /
+noncanonical and the Toledo intake-coordinate discrepancy remains unresolved.
+
+
+The Phase 13A baseline and Phase 13B dependency layer are **ACCEPTED / FROZEN** and explicitly avoid a composite disease-risk index, individual case/risk mapping, unsupported local downscaling, incidence or outbreak forecasting, and future inference. Pathogen presence, exposure, infection, reported case, local transmission, outbreak, and disease burden remain separate states. Phase 13B adds qualitative environmental, ecological, infrastructure, population/mobility, food/freight, surveillance, healthcare, and governance interfaces with documented-versus-inferred status. Phase 13C is implemented as a separate qualitative 2050/2075 system-futures layer and awaits Sol acceptance. Its Python/R checks verify Phase 13A/13B freeze integrity and the prior protected-artifact boundary. Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains unresolved.
 
 ## Roadmap
 

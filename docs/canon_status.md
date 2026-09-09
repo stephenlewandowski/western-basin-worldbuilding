@@ -263,3 +263,29 @@ Phase 13B is **ACCEPTED / FROZEN** as a separate qualitative environmental and h
 The layer distinguishes documented relationships from project inference and preserves driver != deterministic cause, association != attribution, vector ecology != human disease, contamination != illness, mobility != transmission, surveillance != incidence, healthcare presence != disease burden, and food/freight connectivity != outbreak. It creates no disease-risk ranking, incidence or outbreak model, burden/vulnerability index, individual risk, local downscaling, case map, or future scenario. Phase 13C remains **APPROVED SCOPE / NOT IMPLEMENTED**. Active phase is **NONE**.
 
 Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Phase 6B manifest status wording mismatch and Phase 3A missing manifest status remain deferred and unchanged. No release or tag was created.
+
+## Phase 13C boundary
+
+Phase 13C is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+as a separate qualitative infectious-disease futures layer for 2050 and 2075.
+It does not alter the accepted/frozen Phase 13A baseline or Phase 13B dependency
+layer. The package uses six scenario states across three distinct families and
+six transmission archetypes, with separate transmission-opportunity,
+surveillance/detection, response, dependency, uncertainty, and comparison
+products plus Maps 43/43b.
+
+2050 is an intermediate system trajectory; 2075 is a matured or diverged state.
+The package does not forecast incidence, cases, outbreaks, disease burden,
+individual risk, vulnerability/EJ, or local disease risk. Transmission
+opportunity is not future incidence; climate or vector suitability is not
+disease burden; contamination or infrastructure stress is not illness;
+mobility is not outbreak certainty; and surveillance sensitivity is not disease
+intensity. Better detection may increase reported observations without implying
+more underlying disease. Response capacity is not absence of disease.
+
+Phase 13A and Phase 13B remain **ACCEPTED / FROZEN** and immutable. Active phase
+is **NONE** and next analytical phase is **NOT APPROVED**. Phase 14 is not
+implemented. Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo
+intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B
+manifest-status wording and Phase 3A missing-manifest-status maintenance remain
+unchanged. No release or tag was created.

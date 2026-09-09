@@ -1010,3 +1010,14 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Fresh independent review passed with all blocking arrays empty; record: `reports/infectious_disease_scenario_independent_review.md`. The optional copy-editing suggestion is deferred.
 - Phase 13A and Phase 13B remain **ACCEPTED / FROZEN** and immutable. Phase 13C remains qualitative scenario content awaiting normal delivery and Sol acceptance.
 - Current worktree is uncommitted. Next exact action: inspect and stage the complete intended diff, commit and push the feature branch, integrate normally into `main`, update final status surfaces, and verify synchronization and all-worktree cleanliness.
+
+## Phase 13C final integrated handoff — 2026-09-10
+
+- Starting main SHA: `769909604caf7596d3736fd07e616ad5f3f1cba1`; Phase 13A and Phase 13B were confirmed **ACCEPTED / FROZEN** before implementation.
+- Fresh bounded independent review returned `passed: true` with empty security, logic, provenance, epidemiological, scenario-boundary, surveillance, spatial-scale, and health-boundary arrays. The optional copy-editing suggestion remains deferred.
+- Feature commit: `1c56cc552f688e73074a3596196eae5e5c282666`; feature branch was pushed and its remote ref was read back at the same SHA.
+- The feature branch was fast-forward integrated into `main`. Phase 13C is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**.
+- Final package: 36 assumptions, 36 transmission states, 36 surveillance states, 36 response states, 36 dependency states, 36 uncertainty states, 33 scenario sources, six comparisons, comparison figure, Maps 43/43b, reports, working manifest, artifact check, citation ledger, validators, and independent-review record.
+- Python/R review-required validation passed. Strict grounded-citation validation passed. NPM tests passed (22 tests), the TypeScript/Vite build passed, Markdown links passed (285 links), Map 43/43b raster/SVG and OCR checks passed, Git LFS status/fsck passed, and `git diff --check` passed.
+- Phase 13A/13B freeze integrity passed with 25 and 24 protected artifacts; prior Phase 1–12 integrity passed with 358 manifest entries / 351 unique protected artifacts. No accepted/frozen Phase 1–13B artifact changed.
+- Active phase: **NONE**. Next analytical phase: **NOT APPROVED**. Phase 14 is not implemented. Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording and Phase 3A missing-manifest-status maintenance remain unchanged. No release or tag was created.

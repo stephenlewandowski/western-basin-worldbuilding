@@ -31,13 +31,13 @@
   },
   "phase13a_freeze_manifest": {
     "path": "reports/phase13a_infectious_disease_freeze_manifest.json",
-    "sha256": "a3e5c229be9ce569df1587c9fe13390056e158d4c1df1304ed0f40f8378f69b8",
-    "bytes": 7119
+    "sha256": "052688bfae824711ba31cd6f41a4afa5789fffc1842b56ee1b35cc11a9bd0db0",
+    "bytes": 6956
   },
   "phase13b_freeze_manifest": {
     "path": "reports/phase13b_infectious_disease_dependencies_freeze_manifest.json",
-    "sha256": "73c539f7bb959b200fdfe1c87c3a1fb736e630c40d5436bb0885467a33944606",
-    "bytes": 7130
+    "sha256": "6da9d87d242203f34dd8b457de3acff3eb88405aed2811ae3c77827dfcb8bf4b",
+    "bytes": 6978
   },
   "protected_inputs": [
     "reports/phase13a_infectious_disease_freeze_manifest.json",
@@ -121,16 +121,16 @@
       "bytes": 6459
     },
     "src/python/systems/build_infectious_disease_futures.py": {
-      "sha256": "2c0aea2bdbe5e15256e4844b4c12924affc64d2ead9c83b0010ec699e3c4cb76",
-      "bytes": 64655
+      "sha256": "5e555318e4df5c91a43b845fbc0609ace0e75b4622f384b5a1298d6307e4a33f",
+      "bytes": 65384
     },
     "src/python/systems/validate_infectious_disease_futures.py": {
-      "sha256": "ca51579e50a6cc902afdedf901f449f9093717bc8429efe63620acbe3c8df6d4",
-      "bytes": 31184
+      "sha256": "0bdfe5beb23b657901d3fad0d526a3b646886dc1926b55eecc44406ab8902f3b",
+      "bytes": 31599
     },
     "src/R/systems/validate_infectious_disease_futures.R": {
-      "sha256": "809202cc03bfb01f70665564ddf995243bb8956c466ba01c3ec2cbb448fab4ea",
-      "bytes": 24026
+      "sha256": "0f36b4682dcbdaa613e74cf7f67c07a9710f5f45c5e46077e46786310ebdd70e",
+      "bytes": 24248
     },
     "reports/infectious_disease_scenario_artifact_check.json": {
       "sha256": "440c0c2c2b211f487396c60430332bf9875a2441ed61b790c77ec69226641500",
@@ -138,8 +138,8 @@
       "role": "machine validation result"
     },
     "reports/infectious_disease_scenario_independent_review.md": {
-      "sha256": "029c1dd3556a90115d251a7e32c1507ace24156ad266c7ff2d3f7f5d3f32a850",
-      "bytes": 1993,
+      "sha256": "545c0a4624be73634ddc3348f53bddd0bb26d890c73e62ebc33350a9b7b77a8c",
+      "bytes": 2020,
       "role": "independent review record"
     }
   },

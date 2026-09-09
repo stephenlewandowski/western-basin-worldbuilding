@@ -589,3 +589,42 @@ The qualitative matrix is not summed, ranked, or converted to a disease-risk, vu
 Python and independent R freeze validation, authoritative foreground R validation, strict grounded-citation/provenance validation, Map 42 raster/SVG QA, Phase 13A freeze integrity, and Phase 1–12 immutability checks passed. The initial, second, and final independent-review records remain preserved; the final review passed with all blocking arrays empty. Phase 13C remains **APPROVED SCOPE / NOT IMPLEMENTED**. Active phase is **NONE**.
 
 Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest status wording mismatch and Phase 3A missing manifest status remain unchanged. No release or tag was created.
+
+## PHASE 13C — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+
+**Infectious Disease System Futures, 2050 / 2075**
+
+Phase 13C adds a separate qualitative scenario layer over the accepted/frozen
+Phase 13A and Phase 13B infectious-disease systems. The package contains 36
+scenario assumptions, 36 transmission states, 36 surveillance states, 36
+response states, 36 dependency states, 36 uncertainty states, 33 scenario
+source records, six comparison rows, a comparison figure, and Maps 43/43b.
+
+The three structurally distinct families are A — Coordinated Prevention &
+Detection; B — Networked but Uneven Adaptation; and C — Higher Transmission
+Opportunity / Response Strain. 2050 is an intermediate system trajectory;
+2075 is a matured or diverged system state rather than a simple intensification
+of 2050 values. All six transmission archetypes remain separate: vector-borne,
+waterborne/environmental, foodborne/enteric, respiratory, zoonotic, and
+healthcare/AMR.
+
+The layer models transmission opportunity, environmental interfaces,
+surveillance/detection, healthcare/public-health response, governance,
+mobility/connectivity, infrastructure dependencies, and uncertainty. It does
+not forecast incidence, case totals, outbreak probability, disease burden,
+individual risk, vulnerability/EJ, or neighborhood/facility disease risk.
+Transmission opportunity is not future incidence; environmental suitability is
+not disease burden; surveillance sensitivity is not disease intensity; and
+response capacity is not absence of disease.
+
+Phase 13C was independently reviewed with `passed: true` and all blocking
+arrays empty. The working manifest is `reports/infectious_disease_scenario_manifest.json`;
+the independent-review record is `reports/infectious_disease_scenario_independent_review.md`.
+Phase 13A and Phase 13B remain **ACCEPTED / FROZEN** and immutable. Active phase
+is **NONE**; next analytical phase is **NOT APPROVED**. Phase 14 is not
+implemented.
+
+Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo
+intake-coordinate discrepancy remains **UNRESOLVED**. Deferred maintenance
+remains limited to the Phase 6B manifest status wording mismatch and the Phase
+3A missing manifest status. No release or tag was created.
