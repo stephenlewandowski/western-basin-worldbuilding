@@ -989,3 +989,24 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Final state: Phase 13A **ACCEPTED / FROZEN**; Phase 13B **ACCEPTED / FROZEN**; Phase 13C **APPROVED SCOPE / NOT IMPLEMENTED**; Active phase **NONE**. Phase 14 is not implemented.
 - Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred maintenance remains limited to the Phase 6B manifest status wording mismatch and the Phase 3A missing manifest status.
 - No release or tag was created. Final `main`, `origin/main`, remote `main`, and all relevant worktrees are verified after the acceptance commit rather than embedded self-referentially here.
+
+## Phase 13C startup checkpoint — 2026-09-10
+
+- Starting local `main`, `origin/main`, and remote `origin/main`: `769909604caf7596d3736fd07e616ad5f3f1cba1`; the canonical checkout was clean and synchronized.
+- Phase 13A and Phase 13B are confirmed **ACCEPTED / FROZEN** under `reports/phase13a_infectious_disease_freeze_manifest.json` and `reports/phase13b_infectious_disease_dependencies_freeze_manifest.json`.
+- Isolated worktree: `C:\\Projects\\Public_GitHub\\western-basin-worldbuilding-phase13c`; branch: `phase-13c-infectious-disease-futures-2050-2075`; base SHA: `769909604caf7596d3736fd07e616ad5f3f1cba1`.
+- Approved scope: Phase 13C infectious-disease system futures for 2050 and 2075, scenario assumptions/states/comparison/source reports, Maps 43/43b, deterministic Python and independent R validators, strict provenance checks, one fresh bounded independent review, normal delivery, and integration.
+- Protected inputs: Phase 13A/13B and all accepted/frozen prior artifacts. No accepted/frozen Phase 1–13B artifact may change.
+- Required boundaries: no future incidence/case totals/outbreak probability, disease-burden or individual-risk surface, vulnerability/EJ score, unsupported local downscaling, surveillance = incidence, climate/vector suitability = disease, contamination = illness, mobility = transmission certainty, or Phase 14 implementation.
+- Active holds preserved: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred maintenance remains Phase 6B manifest status wording mismatch and Phase 3A missing manifest status.
+- Next exact action: inspect Phase 13A/13B scenario conventions and relevant accepted/frozen source/manifest inputs, then implement the separate qualitative Phase 13C package without modifying protected artifacts.
+
+## Phase 13C validated-package checkpoint — 2026-09-10
+
+- Package generated on `phase-13c-infectious-disease-futures-2050-2075` in `C:\\Projects\\Public_GitHub\\western-basin-worldbuilding-phase13c`.
+- Products: 36 scenario assumptions; 36 transmission states; 36 surveillance states; 36 response states; 36 dependency states; 36 uncertainty states; 33 scenario-source records; six comparison rows; comparison figure; Maps 43/43b; reports; working manifest; artifact check; citation ledger; and Python/R validators.
+- Python and independent R validation passed with review required: Phase 13A 25-artifact and Phase 13B 24-artifact freeze integrity; 358 prior manifest entries / 351 unique protected artifacts; 19 accepted/frozen contextual manifests; schema, assumption-reference, scenario-boundary, map, provenance, active-hold, and Phase 14 exclusion checks.
+- Strict grounded-citation validation passed for all four Phase 13C reports. NPM tests passed (22 tests), TypeScript/Vite build passed, Markdown links passed (285 links), Git LFS status/fsck passed, and `git diff --check` passed.
+- Fresh independent review passed with all blocking arrays empty; record: `reports/infectious_disease_scenario_independent_review.md`. The optional copy-editing suggestion is deferred.
+- Phase 13A and Phase 13B remain **ACCEPTED / FROZEN** and immutable. Phase 13C remains qualitative scenario content awaiting normal delivery and Sol acceptance.
+- Current worktree is uncommitted. Next exact action: inspect and stage the complete intended diff, commit and push the feature branch, integrate normally into `main`, update final status surfaces, and verify synchronization and all-worktree cleanliness.

@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.cdc.gov/nndss/about/index.html",
+      "title": "CDC National Notifiable Diseases Surveillance System",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 2,
+      "url": "https://wonder.cdc.gov/nndss.html",
+      "title": "CDC WONDER NNDSS Data",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 3,
+      "url": "https://www.cdc.gov/west-nile-virus/data-maps",
+      "title": "CDC West Nile Data and Maps",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 4,
+      "url": "https://www.cdc.gov/lyme/data-research/facts-stats/index.html",
+      "title": "CDC Lyme Disease Surveillance and Data",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 5,
+      "url": "https://www.cdc.gov/legionella/php/surveillance/index.html",
+      "title": "CDC Legionellosis Surveillance and Trends",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 6,
+      "url": "https://www.cdc.gov/legionella/about/index.html",
+      "title": "CDC About Legionnaires' Disease",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 7,
+      "url": "https://www.cdc.gov/healthy-water-data/about/index.html",
+      "title": "CDC Waterborne Disease Surveillance",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 8,
+      "url": "https://www.cdc.gov/nors/about/index.html",
+      "title": "CDC National Outbreak Reporting System",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 9,
+      "url": "https://www.cdc.gov/national-enteric-surveillance/about/index.html",
+      "title": "CDC National Enteric Disease Surveillance",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 10,
+      "url": "https://www.cdc.gov/foodnet/about/index.html",
+      "title": "CDC FoodNet",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 11,
+      "url": "https://www.cdc.gov/fluview/index.html",
+      "title": "CDC FluView",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 12,
+      "url": "https://www.cdc.gov/fluview/overview/index.html",
+      "title": "CDC U.S. Influenza Surveillance Purpose and Methods",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 13,
+      "url": "https://www.cdc.gov/wastewater/about-data",
+      "title": "CDC About Wastewater Data",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 14,
+      "url": "https://www.cdc.gov/rabies/about/index.html",
+      "title": "CDC About Rabies",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 15,
+      "url": "https://www.cdc.gov/nhsn/about-nhsn/index.html",
+      "title": "CDC National Healthcare Safety Network",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 16,
+      "url": "https://www.cdc.gov/antimicrobial-resistance/data-research/threats/index.html",
+      "title": "CDC Antibiotic Resistance Threats Report",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 17,
+      "url": "https://www.in.gov/health/idepd/communicable-disease-reporting",
+      "title": "Indiana Communicable Disease Reporting",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 18,
+      "url": "https://odh.ohio.gov/know-our-programs/zoonotic-disease-program/news/vectorborne-disease-update",
+      "title": "Ohio Vector-borne Disease Surveillance Update",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 19,
+      "url": "https://www.michigan.gov/emergingdiseases/-/media/Project/Websites/emergingdiseases/EZID_Annual_Surveillance_Summary.pdf",
+      "title": "Michigan EZID Annual Surveillance Summary",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 20,
+      "url": "reports/phase7a_exposure_environmental_health_freeze_manifest.json",
+      "title": "Accepted Phase 7A exposure/environmental-health layer",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 21,
+      "url": "reports/phase9a_climate_natural_hazards_freeze_manifest.json",
+      "title": "Accepted Phase 9 climate/natural-hazard layer",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 22,
+      "url": "reports/phase11a_population_settlement_freeze_manifest.json",
+      "title": "Accepted Phase 11 population/settlement layer",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 23,
+      "url": "reports/phase12a_vector_ecology_freeze_manifest.json",
+      "title": "Accepted Phase 12 vector-ecology layer",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 24,
+      "url": "reports/phase4b_information_freeze_manifest.json",
+      "title": "Accepted Phase 4 observation/information layer",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 25,
+      "url": "reports/phase10a_governance_jurisdiction_freeze_manifest.json",
+      "title": "Accepted Phase 10 governance/jurisdiction layer",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 26,
+      "url": "reports/water_system_manifest.json",
+      "title": "Validated Phase 1 water-system and hydrography context",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 27,
+      "url": "reports/phase3b_freeze_manifest.json",
+      "title": "Accepted Phase 3B energy dependency and reliability context",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 28,
+      "url": "reports/phase5c_freight_dependency_freeze_manifest.json",
+      "title": "Accepted Phase 5C freight dependency and critical-interface context",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 29,
+      "url": "reports/phase6a_ecology_freeze_manifest.json",
+      "title": "Accepted Phase 6A ecology and biodiversity context",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 30,
+      "url": "reports/phase9b_climate_hazard_dependencies_resilience_freeze_manifest.json",
+      "title": "Accepted Phase 9B climate/hazard dependency context",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 31,
+      "url": "reports/phase11b_population_mobility_dependencies_freeze_manifest.json",
+      "title": "Accepted Phase 11B population, mobility, and system-dependency context",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 32,
+      "url": "reports/phase12b_vector_environment_human_dependencies_freeze_manifest.json",
+      "title": "Accepted Phase 12B vector/environment/human dependency context",
+      "accessed": "2026-09-09"
+    },
+    {
+      "id": 33,
+      "url": "reports/phase10b_governance_dependencies_coordination_freeze_manifest.json",
+      "title": "Accepted Phase 10B governance dependency and coordination context",
+      "accessed": "2026-09-09"
+    }
+  ]
+}

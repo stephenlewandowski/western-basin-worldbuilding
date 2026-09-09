@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "phase": "13C",
+  "map_numbers": [
+    43,
+    "43b"
+  ],
+  "assumptions": 36,
+  "transmission_states": 36,
+  "surveillance_states": 36,
+  "response_states": 36,
+  "dependency_states": 36,
+  "uncertainty_states": 36,
+  "scenario_sources": 33,
+  "comparison_rows": 6,
+  "maps_valid": true,
+  "map_sizes": {
+    "map 43": [
+      4508,
+      3085
+    ],
+    "map 43b": [
+      4508,
+      3085
+    ],
+    "comparison": [
+      3283,
+      1738
+    ]
+  },
+  "comparison_figure_valid": true,
+  "provenance_strict": true,
+  "assumption_references": true,
+  "scenario_fact_separation": true,
+  "horizon_distinction": true,
+  "scenario_b_structurally_distinct": true,
+  "transmission_opportunity_not_incidence": true,
+  "climate_vector_suitability_not_disease": true,
+  "water_infrastructure_not_illness": true,
+  "mobility_not_outbreak_certainty": true,
+  "surveillance_not_incidence": true,
+  "detection_not_more_disease": true,
+  "response_capacity_not_disease_absence": true,
+  "no_future_case_counts": true,
+  "no_outbreak_probability": true,
+  "no_individual_risk": true,
+  "no_vulnerability_ej_scoring": true,
+  "no_unsupported_local_downscaling": true,
+  "phase13a_13b_freeze_integrity": true,
+  "context_manifests_checked": 19,
+  "prior_freeze_manifest_entries_checked": 358,
+  "prior_unique_protected_artifacts_checked": 351,
+  "phase13a_artifacts_checked": 25,
+  "phase13b_artifacts_checked": 24,
+  "prior_artifacts_unchanged": true,
+  "active_holds_preserved": true,
+  "deferred_maintenance_preserved": true,
+  "phase14_not_implemented": true,
+  "review_present": true,
+  "manifest_artifacts_checked": 24
+}

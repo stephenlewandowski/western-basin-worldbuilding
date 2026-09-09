@@ -1,0 +1,498 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1477.294527pt" height="1009.813488pt" viewBox="0 0 1477.294527 1009.813488" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1009.813488
+L 1477.294527 1009.813488
+L 1477.294527 0
+L 0 0
+z
+" style="fill: #f3eee4"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 170.182059 307.76544
+L 536.328529 307.76544
+Q 538.593353 307.76544 538.593353 303.10848
+L 538.593353 219.2832
+Q 538.593353 214.62624 536.328529 214.62624
+L 170.182059 214.62624
+Q 167.917235 214.62624 167.917235 219.2832
+L 167.917235 303.10848
+Q 167.917235 307.76544 170.182059 307.76544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #2f7f73; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 170.182059 404.78544
+L 536.328529 404.78544
+Q 538.593353 404.78544 538.593353 400.12848
+L 538.593353 316.3032
+Q 538.593353 311.64624 536.328529 311.64624
+L 170.182059 311.64624
+Q 167.917235 311.64624 167.917235 316.3032
+L 167.917235 400.12848
+Q 167.917235 404.78544 170.182059 404.78544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #2f7f73; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 170.182059 501.80544
+L 536.328529 501.80544
+Q 538.593353 501.80544 538.593353 497.14848
+L 538.593353 413.3232
+Q 538.593353 408.66624 536.328529 408.66624
+L 170.182059 408.66624
+Q 167.917235 408.66624 167.917235 413.3232
+L 167.917235 497.14848
+Q 167.917235 501.80544 170.182059 501.80544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #2f7f73; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 170.182059 598.82544
+L 536.328529 598.82544
+Q 538.593353 598.82544 538.593353 594.16848
+L 538.593353 510.3432
+Q 538.593353 505.68624 536.328529 505.68624
+L 170.182059 505.68624
+Q 167.917235 505.68624 167.917235 510.3432
+L 167.917235 594.16848
+Q 167.917235 598.82544 170.182059 598.82544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #2f7f73; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 170.182059 695.84544
+L 536.328529 695.84544
+Q 538.593353 695.84544 538.593353 691.18848
+L 538.593353 607.3632
+Q 538.593353 602.70624 536.328529 602.70624
+L 170.182059 602.70624
+Q 167.917235 602.70624 167.917235 607.3632
+L 167.917235 691.18848
+Q 167.917235 695.84544 170.182059 695.84544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #2f7f73; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 170.182059 792.86544
+L 536.328529 792.86544
+Q 538.593353 792.86544 538.593353 788.20848
+L 538.593353 704.3832
+Q 538.593353 699.72624 536.328529 699.72624
+L 170.182059 699.72624
+Q 167.917235 699.72624 167.917235 704.3832
+L 167.917235 788.20848
+Q 167.917235 792.86544 170.182059 792.86544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #2f7f73; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #2f7f73" x="172.069412" y="147.284447" transform="rotate(-0 172.069412 147.284447)">A — Coordinated Prevention &amp; Detection</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #41505b" x="172.069412" y="168.8328" transform="rotate(-0 172.069412 168.8328)">GENERALIZED SYSTEM STATES</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="175.844118" y="237.796279" transform="rotate(-0 175.844118 237.796279)">VECTOR-BORNE</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 254.209124)">OPPORTUNITY: selected seasonal vector, host,… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 259.900862)">surveillance coverage and…; detection latency improves in… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 265.833362)">coordination is more connected…; response margin is wider in… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 271.692854)">selected_dependency_buffered; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 277.698362)">trajectory in which…</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="175.844118" y="334.816279" transform="rotate(-0 175.844118 334.816279)">WATERBORNE / ENVIRONMENTAL</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 351.290647)">OPPORTUNITY: selected water-associated… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 356.920862)">surveillance coverage and…; detection latency improves in… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 362.853362)">coordination is more connected…; response margin is wider in… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 368.712854)">selected_dependency_buffered; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 374.718362)">trajectory in which…</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="175.844118" y="431.836279" transform="rotate(-0 175.844118 431.836279)">FOODBORNE / ENTERIC</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 448.310647)">OPPORTUNITY: selected food-chain and enteric… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 453.940862)">surveillance coverage and…; detection latency improves in… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 459.873362)">coordination is more connected…; response margin is wider in… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 465.732854)">selected_dependency_buffered; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 471.738362)">trajectory in which…</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="175.844118" y="528.856279" transform="rotate(-0 175.844118 528.856279)">RESPIRATORY</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 545.028362)">OPPORTUNITY: selected respiratory contact and… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 550.960862)">surveillance coverage and…; detection latency improves in… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 556.893362)">coordination is more connected…; response margin is wider in… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 562.752854)">selected_dependency_buffered; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 568.758362)">trajectory in which…</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="175.844118" y="625.876279" transform="rotate(-0 175.844118 625.876279)">ZOONOTIC</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 642.350647)">OPPORTUNITY: selected animal-human interface… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 647.980862)">surveillance coverage and…; detection latency improves in… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 653.913362)">coordination is more connected…; response margin is wider in… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 659.772854)">selected_dependency_buffered; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 665.778362)">trajectory in which…</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="175.844118" y="722.896279" transform="rotate(-0 175.844118 722.896279)">HEALTHCARE / AMR</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 739.370647)">OPPORTUNITY: selected healthcare and… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 745.000862)">surveillance coverage and…; detection latency improves in… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 750.933362)">coordination is more connected…; response margin is wider in… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 756.792854)">selected_dependency_buffered; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(175.844118 762.798362)">trajectory in which…</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 6.1px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #41505b" x="172.069412" y="875.1384" transform="rotate(-0 172.069412 875.1384)">Scenario state only; not a geographic risk surface.</text>
+   </g>
+  </g>
+  <g id="axes_2">
+   <g id="patch_8">
+    <path d="M 623.146765 307.76544
+L 989.293235 307.76544
+Q 991.558059 307.76544 991.558059 303.10848
+L 991.558059 219.2832
+Q 991.558059 214.62624 989.293235 214.62624
+L 623.146765 214.62624
+Q 620.881941 214.62624 620.881941 219.2832
+L 620.881941 303.10848
+Q 620.881941 307.76544 623.146765 307.76544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #b47b32; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 623.146765 404.78544
+L 989.293235 404.78544
+Q 991.558059 404.78544 991.558059 400.12848
+L 991.558059 316.3032
+Q 991.558059 311.64624 989.293235 311.64624
+L 623.146765 311.64624
+Q 620.881941 311.64624 620.881941 316.3032
+L 620.881941 400.12848
+Q 620.881941 404.78544 623.146765 404.78544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #b47b32; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 623.146765 501.80544
+L 989.293235 501.80544
+Q 991.558059 501.80544 991.558059 497.14848
+L 991.558059 413.3232
+Q 991.558059 408.66624 989.293235 408.66624
+L 623.146765 408.66624
+Q 620.881941 408.66624 620.881941 413.3232
+L 620.881941 497.14848
+Q 620.881941 501.80544 623.146765 501.80544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #b47b32; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 623.146765 598.82544
+L 989.293235 598.82544
+Q 991.558059 598.82544 991.558059 594.16848
+L 991.558059 510.3432
+Q 991.558059 505.68624 989.293235 505.68624
+L 623.146765 505.68624
+Q 620.881941 505.68624 620.881941 510.3432
+L 620.881941 594.16848
+Q 620.881941 598.82544 623.146765 598.82544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #b47b32; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 623.146765 695.84544
+L 989.293235 695.84544
+Q 991.558059 695.84544 991.558059 691.18848
+L 991.558059 607.3632
+Q 991.558059 602.70624 989.293235 602.70624
+L 623.146765 602.70624
+Q 620.881941 602.70624 620.881941 607.3632
+L 620.881941 691.18848
+Q 620.881941 695.84544 623.146765 695.84544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #b47b32; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 623.146765 792.86544
+L 989.293235 792.86544
+Q 991.558059 792.86544 991.558059 788.20848
+L 991.558059 704.3832
+Q 991.558059 699.72624 989.293235 699.72624
+L 623.146765 699.72624
+Q 620.881941 699.72624 620.881941 704.3832
+L 620.881941 788.20848
+Q 620.881941 792.86544 623.146765 792.86544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #b47b32; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #b47b32" x="625.034118" y="147.284447" transform="rotate(-0 625.034118 147.284447)">B — Networked but Uneven Adaptation</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #41505b" x="625.034118" y="168.8328" transform="rotate(-0 625.034118 168.8328)">GENERALIZED SYSTEM STATES</text>
+   </g>
+   <g id="text_18">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="628.808824" y="237.796279" transform="rotate(-0 628.808824 237.796279)">VECTOR-BORNE</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 254.209124)">OPPORTUNITY: seasonal vector, host, and human-… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 259.900862)">surveillance coverage is…; detection latency varies by… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 265.833362)">coordination uses overlapping…; response margin varies by… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 271.692854)">node_specific_dependency_mosaic; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 277.698362)">trajectory in which…</text>
+   </g>
+   <g id="text_20">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="628.808824" y="334.816279" transform="rotate(-0 628.808824 334.816279)">WATERBORNE / ENVIRONMENTAL</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 351.290647)">OPPORTUNITY: water-associated environmental… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 356.920862)">surveillance coverage is…; detection latency varies by… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 362.853362)">coordination uses overlapping…; response margin varies by… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 368.712854)">node_specific_dependency_mosaic; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 374.718362)">trajectory in which…</text>
+   </g>
+   <g id="text_22">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="628.808824" y="431.836279" transform="rotate(-0 628.808824 431.836279)">FOODBORNE / ENTERIC</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 448.310647)">OPPORTUNITY: food-chain and enteric interface… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 453.940862)">surveillance coverage is…; detection latency varies by… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 459.873362)">coordination uses overlapping…; response margin varies by… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 465.732854)">node_specific_dependency_mosaic; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 471.738362)">trajectory in which…</text>
+   </g>
+   <g id="text_24">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="628.808824" y="528.856279" transform="rotate(-0 628.808824 528.856279)">RESPIRATORY</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 545.028362)">OPPORTUNITY: respiratory contact and setting… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 550.960862)">surveillance coverage is…; detection latency varies by… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 556.893362)">coordination uses overlapping…; response margin varies by… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 562.752854)">node_specific_dependency_mosaic; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 568.758362)">trajectory in which…</text>
+   </g>
+   <g id="text_26">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="628.808824" y="625.876279" transform="rotate(-0 628.808824 625.876279)">ZOONOTIC</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 642.350647)">OPPORTUNITY: animal-human interface… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 647.980862)">surveillance coverage is…; detection latency varies by… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 653.913362)">coordination uses overlapping…; response margin varies by… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 659.772854)">node_specific_dependency_mosaic; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 665.778362)">trajectory in which…</text>
+   </g>
+   <g id="text_28">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="628.808824" y="722.896279" transform="rotate(-0 628.808824 722.896279)">HEALTHCARE / AMR</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 739.068362)">OPPORTUNITY: healthcare and laboratory… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 745.000862)">surveillance coverage is…; detection latency varies by… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 750.933362)">coordination uses overlapping…; response margin varies by… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 756.792854)">node_specific_dependency_mosaic; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(628.808824 762.798362)">trajectory in which…</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 6.1px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #41505b" x="625.034118" y="875.1384" transform="rotate(-0 625.034118 875.1384)">Scenario state only; not a geographic risk surface.</text>
+   </g>
+  </g>
+  <g id="axes_3">
+   <g id="patch_14">
+    <path d="M 1076.111471 307.76544
+L 1442.257941 307.76544
+Q 1444.522765 307.76544 1444.522765 303.10848
+L 1444.522765 219.2832
+Q 1444.522765 214.62624 1442.257941 214.62624
+L 1076.111471 214.62624
+Q 1073.846647 214.62624 1073.846647 219.2832
+L 1073.846647 303.10848
+Q 1073.846647 307.76544 1076.111471 307.76544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #a04f55; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 1076.111471 404.78544
+L 1442.257941 404.78544
+Q 1444.522765 404.78544 1444.522765 400.12848
+L 1444.522765 316.3032
+Q 1444.522765 311.64624 1442.257941 311.64624
+L 1076.111471 311.64624
+Q 1073.846647 311.64624 1073.846647 316.3032
+L 1073.846647 400.12848
+Q 1073.846647 404.78544 1076.111471 404.78544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #a04f55; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 1076.111471 501.80544
+L 1442.257941 501.80544
+Q 1444.522765 501.80544 1444.522765 497.14848
+L 1444.522765 413.3232
+Q 1444.522765 408.66624 1442.257941 408.66624
+L 1076.111471 408.66624
+Q 1073.846647 408.66624 1073.846647 413.3232
+L 1073.846647 497.14848
+Q 1073.846647 501.80544 1076.111471 501.80544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #a04f55; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 1076.111471 598.82544
+L 1442.257941 598.82544
+Q 1444.522765 598.82544 1444.522765 594.16848
+L 1444.522765 510.3432
+Q 1444.522765 505.68624 1442.257941 505.68624
+L 1076.111471 505.68624
+Q 1073.846647 505.68624 1073.846647 510.3432
+L 1073.846647 594.16848
+Q 1073.846647 598.82544 1076.111471 598.82544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #a04f55; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 1076.111471 695.84544
+L 1442.257941 695.84544
+Q 1444.522765 695.84544 1444.522765 691.18848
+L 1444.522765 607.3632
+Q 1444.522765 602.70624 1442.257941 602.70624
+L 1076.111471 602.70624
+Q 1073.846647 602.70624 1073.846647 607.3632
+L 1073.846647 691.18848
+Q 1073.846647 695.84544 1076.111471 695.84544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #a04f55; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 1076.111471 792.86544
+L 1442.257941 792.86544
+Q 1444.522765 792.86544 1444.522765 788.20848
+L 1444.522765 704.3832
+Q 1444.522765 699.72624 1442.257941 699.72624
+L 1076.111471 699.72624
+Q 1073.846647 699.72624 1073.846647 704.3832
+L 1073.846647 788.20848
+Q 1073.846647 792.86544 1076.111471 792.86544
+z
+" clip-path="url(#p13cfuture)" style="fill: #fbf8f0; opacity: 0.97; stroke: #a04f55; stroke-width: 0.8; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_31">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #a04f55" x="1077.998824" y="147.284447" transform="rotate(-0 1077.998824 147.284447)">C — Higher Transmission Opportunity / Response Strain</text>
+   </g>
+   <g id="text_32">
+    <text style="font-weight: 700; font-size: 7.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #41505b" x="1077.998824" y="168.8328" transform="rotate(-0 1077.998824 168.8328)">GENERALIZED SYSTEM STATES</text>
+   </g>
+   <g id="text_33">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="1081.773529" y="237.796279" transform="rotate(-0 1081.773529 237.796279)">VECTOR-BORNE</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 254.209124)">OPPORTUNITY: seasonal vector, host, and human-… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 259.900862)">selected surveillance programs…; detection latency worsens at… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 265.833362)">response handoffs are slower or…; response margin narrows at… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 271.692854)">selected_dependency_strained; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 277.698362)">trajectory in which…</text>
+   </g>
+   <g id="text_35">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="1081.773529" y="334.816279" transform="rotate(-0 1081.773529 334.816279)">WATERBORNE / ENVIRONMENTAL</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 351.290647)">OPPORTUNITY: water-associated environmental… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 356.920862)">selected surveillance programs…; detection latency worsens at… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 362.853362)">response handoffs are slower or…; response margin narrows at… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 368.712854)">selected_dependency_strained; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 374.718362)">trajectory in which…</text>
+   </g>
+   <g id="text_37">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="1081.773529" y="431.836279" transform="rotate(-0 1081.773529 431.836279)">FOODBORNE / ENTERIC</text>
+   </g>
+   <g id="text_38">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 448.310647)">OPPORTUNITY: food-chain and enteric interface… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 453.940862)">selected surveillance programs…; detection latency worsens at… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 459.873362)">response handoffs are slower or…; response margin narrows at… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 465.732854)">selected_dependency_strained; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 471.738362)">trajectory in which…</text>
+   </g>
+   <g id="text_39">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="1081.773529" y="528.856279" transform="rotate(-0 1081.773529 528.856279)">RESPIRATORY</text>
+   </g>
+   <g id="text_40">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 545.028362)">OPPORTUNITY: respiratory contact and setting… SURVEILLANCE / DETECTION:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 550.960862)">selected surveillance programs…; detection latency worsens at… RESPONSE:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 556.893362)">response handoffs are slower or…; response margin narrows at… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 562.752854)">selected_dependency_strained; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 568.758362)">trajectory in which…</text>
+   </g>
+   <g id="text_41">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="1081.773529" y="625.876279" transform="rotate(-0 1081.773529 625.876279)">ZOONOTIC</text>
+   </g>
+   <g id="text_42">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 642.350647)">OPPORTUNITY: animal-human interface… SURVEILLANCE / DETECTION: selected</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 647.980862)">surveillance programs…; detection latency worsens at… RESPONSE: response</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 653.913362)">handoffs are slower or…; response margin narrows at… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 659.772854)">selected_dependency_strained; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 665.778362)">trajectory in which…</text>
+   </g>
+   <g id="text_43">
+    <text style="font-weight: 700; font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #263d4b" x="1081.773529" y="722.896279" transform="rotate(-0 1081.773529 722.896279)">HEALTHCARE / AMR</text>
+   </g>
+   <g id="text_44">
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 739.068362)">OPPORTUNITY: healthcare and laboratory… SURVEILLANCE / DETECTION: selected</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 745.000862)">surveillance programs…; detection latency worsens at… RESPONSE: response</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 750.933362)">handoffs are slower or…; response margin narrows at… DEPENDENCY:</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 756.792854)">selected_dependency_strained; UNCERTAINTY: 2050 is an intermediate</text>
+    <text style="font-size: 5.25px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3d4a4d" transform="translate(1081.773529 762.798362)">trajectory in which…</text>
+   </g>
+   <g id="text_45">
+    <text style="font-size: 6.1px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #41505b" x="1077.998824" y="875.1384" transform="rotate(-0 1077.998824 875.1384)">Scenario state only; not a geographic risk surface.</text>
+   </g>
+  </g>
+  <g id="text_46">
+   <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #17384b" x="7.2" y="19.35625" transform="rotate(-0 7.2 19.35625)">MAP 43 — INFECTIOUS DISEASE SYSTEM FUTURES, 2050</text>
+  </g>
+  <g id="text_47">
+   <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="7.2" y="37.44" transform="rotate(-0 7.2 37.44)">2050 intermediate trajectory. Generalized Western Basin interfaces across vector-borne, waterborne/environmental, foodborne/enteric, respiratory, zoonotic, and healthcare/AMR systems.</text>
+  </g>
+  <g id="text_48">
+   <text style="font-size: 6.35px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="7.2" y="1001.088" transform="rotate(-0 7.2 1001.088)">QUALITATIVE FUTURES — transmission opportunity ≠ future incidence; environmental suitability ≠ disease burden; surveillance sensitivity ≠ disease intensity; infrastructure stress ≠ illness; mobility/connectivity ≠ outbreak. No future case totals, incidence surfaces, neighborhood risk, facility burden, outbreak hotspots, or individual exposure. Great Black Swamp: C — HOLD / noncanonical. Toledo intake-coordinate discrepancy: UNRESOLVED.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p13cfuture">
+   <rect x="164.52" y="126.144" width="377.470588" height="776.16"/>
+  </clipPath>
+  <clipPath id="p13cfuture">
+   <rect x="617.484706" y="126.144" width="377.470588" height="776.16"/>
+  </clipPath>
+  <clipPath id="p13cfuture">
+   <rect x="1070.449412" y="126.144" width="377.470588" height="776.16"/>
+  </clipPath>
+ </defs>
+</svg>

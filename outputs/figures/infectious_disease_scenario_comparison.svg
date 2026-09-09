@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1074.6pt" height="568.8pt" viewBox="0 0 1074.6 568.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 568.8
+L 1074.6 568.8
+L 1074.6 0
+L 0 0
+z
+" style="fill: #f3eee4"/>
+  </g>
+  <g id="axes_1">
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #17384b" x="17.802" y="28.924719" transform="rotate(-0 17.802 28.924719)">QUALITATIVE INFECTIOUS DISEASE SYSTEM FUTURES COMPARISON</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="17.802" y="39.3552" transform="rotate(-0 17.802 39.3552)">A/B/C alternatives across 2050 and 2075; no numerical score, incidence forecast, case total, or outbreak probability.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #2f7f73" x="17.802" y="74.414719" transform="rotate(-0 17.802 74.414719)">A2050  Coordinated Prevention &amp; Detection</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 73.831305)">Opportunity: selected opportunities constrained; residual seasonal/event interfaces remain; emerging and selective system interfaces | Surveillance:</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 81.611805)">integrated observation with stronger selected detection; more reports do not mean more disease; emerging and selective system interfaces | Response:</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 89.392305)">clearer public-health/healthcare handoffs and wider selected response margin; emerging and selective system interfaces | Dependencies: selected</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 97.172805)">treatment, laboratory, cold-chain, energy, and communications dependencies buffered; emerging and selective system interfaces | Uncertainty:</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 105.031234)">moderate; residual ecological, ascertainment, and system uncertainty remains; emerging and selective system interfaces</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #2f7f73" x="17.802" y="143.714719" transform="rotate(-0 17.802 143.714719)">A2075  Coordinated Prevention &amp; Detection</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 143.131305)">Opportunity: selected opportunities constrained; residual seasonal/event interfaces remain; matured or diverged system interfaces | Surveillance:</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 150.911805)">integrated observation with stronger selected detection; more reports do not mean more disease; matured or diverged system interfaces | Response:</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 158.692305)">clearer public-health/healthcare handoffs and wider selected response margin; matured or diverged system interfaces | Dependencies: selected</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 166.472805)">treatment, laboratory, cold-chain, energy, and communications dependencies buffered; matured or diverged system interfaces | Uncertainty: moderate;</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 174.331234)">residual ecological, ascertainment, and system uncertainty remains; matured or diverged system interfaces</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #b47b32" x="17.802" y="213.014719" transform="rotate(-0 17.802 213.014719)">B2050  Networked but Uneven Adaptation</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 212.431305)">Opportunity: varies by archetype and node; constrained, permissive, and episodic interfaces coexist; emerging and selective system interfaces |</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 220.211805)">Surveillance: coverage and latency are uneven; reporting differences are structural; emerging and selective system interfaces | Response: strong</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 227.992305)">response in some nodes and slower or less connected response elsewhere; emerging and selective system interfaces | Dependencies: redundancy and</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 235.772805)">fallback capacity are uneven across treatment, laboratory, energy, and communications; emerging and selective system interfaces | Uncertainty: high;</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 243.631234)">methods, denominators, coverage, and attribution remain heterogeneous; emerging and selective system interfaces</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #b47b32" x="17.802" y="282.314719" transform="rotate(-0 17.802 282.314719)">B2075  Networked but Uneven Adaptation</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 281.731305)">Opportunity: varies by archetype and node; constrained, permissive, and episodic interfaces coexist; matured or diverged system interfaces |</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 289.511805)">Surveillance: coverage and latency are uneven; reporting differences are structural; matured or diverged system interfaces | Response: strong</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 297.292305)">response in some nodes and slower or less connected response elsewhere; matured or diverged system interfaces | Dependencies: redundancy and</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 305.072805)">fallback capacity are uneven across treatment, laboratory, energy, and communications; matured or diverged system interfaces | Uncertainty: high;</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 312.931234)">methods, denominators, coverage, and attribution remain heterogeneous; matured or diverged system interfaces</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #a04f55" x="17.802" y="351.614719" transform="rotate(-0 17.802 351.614719)">C2050  Higher Transmission Opportunity / Response Strain</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 351.031305)">Opportunity: more permissive in selected systems, with episodic interruptions and no uniform change; emerging and selective system interfaces |</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 358.811805)">Surveillance: selected coverage and reporting lag while capable programs persist elsewhere; emerging and selective system interfaces | Response:</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 366.592305)">coordination strain narrows selected response margins without implying prevalence; emerging and selective system interfaces | Dependencies:</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 374.372805)">infrastructure dependencies become more consequential where continuity and maintenance lag; emerging and selective system interfaces | Uncertainty:</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 382.231234)">high; ecological mediation, ascertainment, and response interactions remain unresolved; emerging and selective system interfaces</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #a04f55" x="17.802" y="420.914719" transform="rotate(-0 17.802 420.914719)">C2075  Higher Transmission Opportunity / Response Strain</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 420.331305)">Opportunity: more permissive in selected systems, with episodic interruptions and no uniform change; matured or diverged system interfaces |</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 428.111805)">Surveillance: selected coverage and reporting lag while capable programs persist elsewhere; matured or diverged system interfaces | Response:</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 435.892305)">coordination strain narrows selected response margins without implying prevalence; matured or diverged system interfaces | Dependencies:</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 443.672805)">infrastructure dependencies become more consequential where continuity and maintenance lag; matured or diverged system interfaces | Uncertainty:</text>
+    <text style="font-size: 6.65px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; fill: #3f4645" transform="translate(240.444 451.531234)">high; ecological mediation, ascertainment, and response interactions remain unresolved; matured or diverged system interfaces</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="17.802" y="528.336" transform="rotate(-0 17.802 528.336)">BOUNDARY: pathogen presence ≠ exposure ≠ infection ≠ reported case ≠ local transmission ≠ outbreak ≠ disease burden. Better detection may increase reported observations without implying more underlying disease.</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 7px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #3f4645" x="17.802" y="547.74" transform="rotate(-0 17.802 547.74)">HOLD: Great Black Swamp C — HOLD / noncanonical. UNRESOLVED: Toledo intake-coordinate discrepancy.</text>
+   </g>
+  </g>
+ </g>
+</svg>
