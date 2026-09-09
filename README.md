@@ -706,7 +706,7 @@ surveillance archetypes.
 - [Phase 13A independent R validator](src/R/systems/validate_infectious_disease_baseline.R)
 - [Phase 13A independent R freeze validator](src/R/systems/validate_phase13a_freeze.R)
 - [Phase 13A brief](docs/phase_briefs/phase13a_infectious_disease_baseline.md)
-- [Phase 13B original approved-scope brief (protected Phase 13A input)](docs/phase_briefs/phase13b_infectious_disease_dependencies.md)
+- [Phase 13B protected brief](docs/phase_briefs/phase13b_infectious_disease_dependencies.md)
 - [Map 42 — Infectious Disease Transmission Dependencies, 2026](outputs/maps/systems/42_infectious_disease_transmission_dependencies_2026.png)
 - [Map 42 SVG](outputs/maps/systems/42_infectious_disease_transmission_dependencies_2026.svg)
 - [Phase 13B dependency register](data/processed/analysis/infectious_disease_dependency_register.csv)
@@ -727,9 +727,12 @@ surveillance archetypes.
 - [Phase 13B final independent review](reports/infectious_disease_dependency_independent_review.md)
 - [Phase 13B Python validator](src/python/systems/validate_infectious_disease_dependencies.py)
 - [Phase 13B independent R validator](src/R/systems/validate_infectious_disease_dependencies.R)
+- [Phase 13B freeze manifest](reports/phase13b_infectious_disease_dependencies_freeze_manifest.json) — 24 protected artifacts
+- [Phase 13B Python freeze validator](src/python/systems/validate_phase13b_freeze.py)
+- [Phase 13B independent R freeze validator](src/R/systems/validate_phase13b_freeze.R)
 
 
-The Phase 13A baseline and Phase 13B dependency layer explicitly avoid a composite disease-risk index, individual case/risk mapping, unsupported local downscaling, incidence or outbreak forecasting, and future inference. Pathogen presence, exposure, infection, reported case, local transmission, outbreak, and disease burden remain separate states. Phase 13B adds qualitative environmental, ecological, infrastructure, population/mobility, food/freight, surveillance, healthcare, and governance interfaces with documented-versus-inferred status. Its Python/R checks verify Phase 13A freeze integrity and the 358 prior Phase 1–12 freeze-manifest entries / 351 unique protected artifacts. Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains unresolved. Phase 13C remains approved-scope only and is not implemented.
+The Phase 13A baseline and Phase 13B dependency layer are **ACCEPTED / FROZEN** and explicitly avoid a composite disease-risk index, individual case/risk mapping, unsupported local downscaling, incidence or outbreak forecasting, and future inference. Pathogen presence, exposure, infection, reported case, local transmission, outbreak, and disease burden remain separate states. Phase 13B adds qualitative environmental, ecological, infrastructure, population/mobility, food/freight, surveillance, healthcare, and governance interfaces with documented-versus-inferred status. Its Python/R checks verify Phase 13A freeze integrity and the 358 prior Phase 1–12 freeze-manifest entries / 351 unique protected artifacts. Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains unresolved. Phase 13C remains approved-scope only and is not implemented.
 
 ## Roadmap
 

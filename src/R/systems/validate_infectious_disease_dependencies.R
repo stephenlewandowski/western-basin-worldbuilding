@@ -88,7 +88,7 @@ phase13a_x <- verify_manifest(phase13a_path, 25L)
 
 
 prior_paths <- list.files(R, pattern="^phase.*_freeze_manifest[.]json$", full.names=TRUE)
-prior_paths <- prior_paths[basename(prior_paths) != "phase13a_infectious_disease_freeze_manifest.json"]
+prior_paths <- prior_paths[!basename(prior_paths) %in% c("phase13a_infectious_disease_freeze_manifest.json", "phase13b_infectious_disease_dependencies_freeze_manifest.json")]
 prior_hashes <- character(); prior_total <- 0L
 for (path in sort(prior_paths)) {
   x <- artifact_entries(path)

@@ -1,8 +1,11 @@
 {
-  "phase": "13B",
-  "baseline": "Infectious Disease Transmission Dependencies, 2026",
-  "map_number": 42,
-  "status": "implemented_validated_pending_sol_acceptance",
+  "accepted_phase": "13B",
+  "baseline": "Environmental & Human-System Transmission Dependencies, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-10",
+  "source_commit": "cd974019ddf6b5cae8ee98138cb917de343b009b",
+  "acceptance_basis": "Sol formally accepted and froze the validated Phase 13B qualitative environmental and human-system transmission-dependency layer after deterministic Python/R validation, strict grounded-citation/provenance checks, Phase 13A and prior freeze-integrity verification, and the final independent review passing with all blocking arrays empty.",
   "counts": {
     "dependency_register": 36,
     "dependency_edges": 36,
@@ -99,20 +102,43 @@
       "sha256": "742814fd4b71fb07a133e83913021a96356ecc93c028a77967f64daf7d7af92e",
       "bytes": 20616
     },
+    "reports/infectious_disease_dependency_manifest.json": {
+      "sha256": "27b39b12db6aeb2df0ced850e8c330c5c48cadec247df0cfb636aaf5ccc785b8",
+      "bytes": 5467
+    },
     "reports/infectious_disease_dependency_artifact_check.json": {
       "sha256": "3e1b3b484f64dbb54e3a3b065b06b8a360657cb665982eef40f6dc0b069fdf86",
-      "bytes": 1583,
-      "role": "machine validation result"
+      "bytes": 1583
+    },
+    "reports/infectious_disease_dependency_independent_review_initial.md": {
+      "sha256": "f1136efcd14296ede25048c0e58b4652a6558809cb459d22950e3f173e8d9c49",
+      "bytes": 1730
+    },
+    "reports/infectious_disease_dependency_independent_review_second.md": {
+      "sha256": "67b3e6ca3c3ac8b6869fd623b91d497d281cc810e57dd99ad7df927fdc361186",
+      "bytes": 2315
     },
     "reports/infectious_disease_dependency_independent_review.md": {
       "sha256": "d5938038ef2045575c1e20680367364d8dbebf342795e7d607a6b10db0c25f6b",
-      "bytes": 1551,
-      "role": "independent review record"
+      "bytes": 1551
+    },
+    "docs/phase_briefs/phase13b_infectious_disease_dependencies.md": {
+      "sha256": "c7955557af403afc2e67b05518781d56080ccc0d515f87d2aa109cb9a199db6c",
+      "bytes": 1286
+    },
+    "src/python/systems/validate_phase13b_freeze.py": {
+      "sha256": "e3f020331d1f79217d5b69063b9e690e31cb2ef29e6eeb562bc5c0003d67957d",
+      "bytes": 13650
+    },
+    "src/R/systems/validate_phase13b_freeze.R": {
+      "sha256": "fcf2904d52f61ec92d19e8ab0321de7b7af7f90900e527c744610ea1633b1472",
+      "bytes": 13401
     }
   },
   "phase13a_accepted_frozen": true,
   "phase1_12_immutable": true,
   "phase13c_implemented": false,
+  "phase14_implemented": false,
   "composite_disease_risk_index": false,
   "individual_case_or_risk_map": false,
   "active_holds_preserved": {

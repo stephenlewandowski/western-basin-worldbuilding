@@ -403,11 +403,12 @@ implemented.
 
 ## Phase 13B infectious disease transmission dependencies
 
-Phase 13B is implemented and validated as a separate qualitative 2026 layer
-over the accepted/frozen Phase 13A baseline. It contains 36 dependency-register
-rows/edges, six archetype matrix rows, 36 evidence-crosswalk rows, 33 source
-references, 14 uncertainties, and Map 42. It is integrated and awaiting Sol
-acceptance; it does not alter Phase 13A or prior protected artifacts.
+Phase 13B is **ACCEPTED / FROZEN** as a separate qualitative 2026 layer under
+`phase13b_infectious_disease_dependencies_freeze_manifest.json` (24 protected
+artifacts) over the accepted/frozen Phase 13A baseline. It contains 36
+dependency-register rows/edges, six archetype matrix rows, 36 evidence-crosswalk
+rows, 33 source references, 14 uncertainties, and Map 42. It does not alter
+Phase 13A or prior protected artifacts.
 
 - `../data/processed/analysis/infectious_disease_dependency_register.csv` — 36 dependency rows
 - `../data/processed/networks/infectious_disease_dependency_edges.csv` — 36 dependency edges
@@ -423,3 +424,11 @@ acceptance; it does not alter Phase 13A or prior protected artifacts.
 - `infectious_disease_dependency_independent_review.md` — final passed review with all blocking arrays empty
 - `../src/python/systems/build_infectious_disease_dependencies.py` and `validate_infectious_disease_dependencies.py`
 - `../src/R/systems/validate_infectious_disease_dependencies.R`
+- `phase13b_infectious_disease_dependencies_freeze_manifest.json` — final Sol-acceptance freeze manifest protecting 24 artifacts
+- `../src/python/systems/validate_phase13b_freeze.py` and `../src/R/systems/validate_phase13b_freeze.R` — independent final freeze validators
+
+The initial, second, and final independent-review records remain preserved. The
+final review passed with all blocking arrays empty. Phase 13C remains approved
+scope only and is not implemented; Phase 14 is not implemented. Active phase is
+NONE. Great Black Swamp remains C — HOLD / noncanonical and the Toledo
+intake-coordinate discrepancy remains UNRESOLVED.

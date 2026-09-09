@@ -976,3 +976,16 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Markdown links, whitespace, Git LFS status/fsck, Map 42, provenance, tests, and build gates remain passed. The final independent-review record and both failed-review lineage records are preserved.
 - Phase 13B is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Active phase is **NONE**; Phase 13C is **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 14, release, and tag remain absent.
 - Final local `main`, `origin/main`, remote `origin/main`, and all relevant worktree cleanliness are read back after this final handoff commit rather than embedded self-referentially here.
+
+## Phase 13B final acceptance / freeze handoff — 2026-09-10
+
+- Starting acceptance-run SHA: `cd974019ddf6b5cae8ee98138cb917de343b009b`; local `main` and `origin/main` were clean and synchronized before freeze bookkeeping.
+- Sol formally accepted and froze Phase 13B — Environmental & Human-System Transmission Dependencies, 2026.
+- Accepted package: 36 dependency-register rows, 36 dependency edges, six qualitative matrix rows, 36 evidence-crosswalk rows, 33 sources, 14 uncertainties, and Map 42.
+- Final freeze manifest: `reports/phase13b_infectious_disease_dependencies_freeze_manifest.json`; protected count: 24 artifacts. It protects the accepted package, working manifest, artifact check, protected Phase 13B brief reference, all three independent-review records, citation ledger, implementation validators, and independent Python/R freeze validators.
+- The Phase 13B brief remains byte-identical because it is a protected Phase 13A input; acceptance wording is recorded in the mutable project status, canon, README/report navigation, and this handoff.
+- Python freeze validation and independent R freeze validation passed. Authoritative foreground Python/R Phase 13B validation passed with 18 working-manifest artifacts, 25 Phase 13A artifacts, and 358 prior Phase 1–12 manifest entries / 351 unique protected artifacts. Strict grounded-citation/provenance validation, Map 42 QA, Markdown links, Git/LFS, tests, build, and whitespace checks passed.
+- Phase 13A remains **ACCEPTED / FROZEN**. All prior Phase 1–12 protected artifacts remain immutable. The initial, second, and final independent-review history remains preserved; the final review passed with all blocking arrays empty.
+- Final state: Phase 13A **ACCEPTED / FROZEN**; Phase 13B **ACCEPTED / FROZEN**; Phase 13C **APPROVED SCOPE / NOT IMPLEMENTED**; Active phase **NONE**. Phase 14 is not implemented.
+- Active holds remain unchanged: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred maintenance remains limited to the Phase 6B manifest status wording mismatch and the Phase 3A missing manifest status.
+- No release or tag was created. Final `main`, `origin/main`, remote `main`, and all relevant worktrees are verified after the acceptance commit rather than embedded self-referentially here.
