@@ -1,0 +1,195 @@
+{
+  "accepted_phase": "13C",
+  "baseline": "Infectious Disease System Futures, 2050 / 2075",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-10",
+  "source_commit": "c746e361e052e979227e40140c6d923557911524",
+  "acceptance_basis": "Sol formally accepted and froze the validated Phase 13C qualitative infectious-disease futures package after deterministic Python/R validation, strict grounded-citation/provenance checks, Phase 13A/13B and prior freeze-integrity verification, prior-artifact immutability verification, and the fresh independent review passing with all blocking arrays empty.",
+  "counts": {
+    "assumptions": 36,
+    "transmission_states": 36,
+    "surveillance_states": 36,
+    "response_states": 36,
+    "dependency_states": 36,
+    "uncertainty_states": 36,
+    "scenario_sources": 33,
+    "comparison_rows": 6
+  },
+  "phase13a_freeze_manifest": {
+    "path": "reports/phase13a_infectious_disease_freeze_manifest.json",
+    "sha256": "052688bfae824711ba31cd6f41a4afa5789fffc1842b56ee1b35cc11a9bd0db0",
+    "bytes": 6956
+  },
+  "phase13b_freeze_manifest": {
+    "path": "reports/phase13b_infectious_disease_dependencies_freeze_manifest.json",
+    "sha256": "6da9d87d242203f34dd8b457de3acff3eb88405aed2811ae3c77827dfcb8bf4b",
+    "bytes": 6978
+  },
+  "protected_inputs": [
+    "reports/phase13a_infectious_disease_freeze_manifest.json",
+    "reports/phase13b_infectious_disease_dependencies_freeze_manifest.json",
+    "reports/infectious_disease_scenario_manifest.json"
+  ],
+  "artifacts": {
+    "data/processed/scenarios/infectious_disease_scenario_assumptions.csv": {
+      "sha256": "3aace95e77e97329deca5f8f4f42337b4918529e74d61781b64bd938c237b0dc",
+      "bytes": 44610,
+      "role": "accepted Phase 13C analytical artifact"
+    },
+    "data/processed/scenarios/infectious_disease_transmission_states_scenario.csv": {
+      "sha256": "30edcab393dbc4e17d0b1f7bde18f92a487f7c6bf3d57346fa3beab0d7b832e8",
+      "bytes": 81095,
+      "role": "accepted Phase 13C analytical artifact"
+    },
+    "data/processed/scenarios/infectious_disease_surveillance_states_scenario.csv": {
+      "sha256": "59c98d9666a5e3af2691f9324dca420fa0d73fdaf3e152fe1af518ebd9557946",
+      "bytes": 68358,
+      "role": "accepted Phase 13C analytical artifact"
+    },
+    "data/processed/scenarios/infectious_disease_response_states_scenario.csv": {
+      "sha256": "261e7c681a08a92aafed2a19bca45623281b8fda205c2493b2e7ed108146e6b9",
+      "bytes": 73208,
+      "role": "accepted Phase 13C analytical artifact"
+    },
+    "data/processed/scenarios/infectious_disease_dependency_states_scenario.csv": {
+      "sha256": "55526de629e6a4af4fa0066635d4a0ec39e0b10d906d2bd895d69a20dde346c5",
+      "bytes": 49062,
+      "role": "accepted Phase 13C analytical artifact"
+    },
+    "data/processed/scenarios/infectious_disease_uncertainty_states_scenario.csv": {
+      "sha256": "5024fba5924a941e0c15eb3b2abbff3bbc506a3272ff4928fb402039cc7418c3",
+      "bytes": 47614,
+      "role": "accepted Phase 13C analytical artifact"
+    },
+    "data/processed/analysis/infectious_disease_scenario_sources.csv": {
+      "sha256": "e81043953262286dc4d641028fb958c986b96b74e58c6adf7bba14f4a1086ad9",
+      "bytes": 24424,
+      "role": "accepted Phase 13C analytical artifact"
+    },
+    "outputs/figures/infectious_disease_scenario_comparison.csv": {
+      "sha256": "55a7effb62892348116230c5f68dd167dbe8d7fd3566104f02f383c2a0012f9a",
+      "bytes": 10750,
+      "role": "accepted Phase 13C analytical artifact"
+    },
+    "outputs/maps/systems/43_infectious_disease_system_futures_2050.png": {
+      "sha256": "a25ab643bb144d851f29ad357f37c3cb45189bbe6994060af9c7615f7d92741f",
+      "bytes": 805117,
+      "role": "accepted Phase 13C visual artifact"
+    },
+    "outputs/maps/systems/43_infectious_disease_system_futures_2050.svg": {
+      "sha256": "c69a8ae2ab06fa85e1ddc15c9874554cc701f8641e33aa54470a30b6f748f96c",
+      "bytes": 53674,
+      "role": "accepted Phase 13C visual artifact"
+    },
+    "outputs/maps/systems/43b_infectious_disease_system_futures_2075.png": {
+      "sha256": "d449e9b6c1ed38d41f9701a765d28a58ce4b42a348aff0ba04508a75d039c864",
+      "bytes": 799971,
+      "role": "accepted Phase 13C visual artifact"
+    },
+    "outputs/maps/systems/43b_infectious_disease_system_futures_2075.svg": {
+      "sha256": "f0d7dfa149b8be95f07f6915b55e086b94151a9d2fced5bec07913e379bb5740",
+      "bytes": 51797,
+      "role": "accepted Phase 13C visual artifact"
+    },
+    "outputs/figures/infectious_disease_scenario_comparison.png": {
+      "sha256": "7821359d4c7ec1c92e4b754f8f02c828d9331288ca79a04267126fe6b0f21460",
+      "bytes": 601820,
+      "role": "accepted Phase 13C visual artifact"
+    },
+    "outputs/figures/infectious_disease_scenario_comparison.svg": {
+      "sha256": "1bc1137789fcb5f5923fb36c804708b26b7a96a8b141c3021045e43c9a215a52",
+      "bytes": 18038,
+      "role": "accepted Phase 13C visual artifact"
+    },
+    "reports/infectious_disease_scenario_sources.md": {
+      "sha256": "85ebb27541bade5b1e71cbd07e409c812bbc7987014a31447ac3b9c48329a4fe",
+      "bytes": 7944,
+      "role": "accepted Phase 13C report or provenance artifact"
+    },
+    "reports/infectious_disease_scenario_assumptions.md": {
+      "sha256": "58be20211402be1ce1e71af4494cab70052638e54561a5dba23159d8c5882558",
+      "bytes": 7169,
+      "role": "accepted Phase 13C report or provenance artifact"
+    },
+    "reports/infectious_disease_scenario_findings.md": {
+      "sha256": "37a147ef60ebd1cf5225e41604d225b1fa3727e7e69abc599ee2507156a0b16c",
+      "bytes": 8315,
+      "role": "accepted Phase 13C report or provenance artifact"
+    },
+    "reports/infectious_disease_scenario_qa.md": {
+      "sha256": "9e448a37c75b76b0b214119dace3e5c1f3b39e60a0619fa2af95b822a72564ce",
+      "bytes": 6483,
+      "role": "accepted Phase 13C report or provenance artifact"
+    },
+    "reports/phase13c_citation_ledger.json": {
+      "sha256": "6ff52a433a476ca9fdf6d565580b4c2e7f46088215860d7324aec1dc573f8771",
+      "bytes": 6459,
+      "role": "accepted Phase 13C report or provenance artifact"
+    },
+    "src/python/systems/build_infectious_disease_futures.py": {
+      "sha256": "5e555318e4df5c91a43b845fbc0609ace0e75b4622f384b5a1298d6307e4a33f",
+      "bytes": 65384,
+      "role": "Phase 13C reproducibility validator/builder"
+    },
+    "src/python/systems/validate_infectious_disease_futures.py": {
+      "sha256": "0bdfe5beb23b657901d3fad0d526a3b646886dc1926b55eecc44406ab8902f3b",
+      "bytes": 31599,
+      "role": "Phase 13C reproducibility validator/builder"
+    },
+    "src/R/systems/validate_infectious_disease_futures.R": {
+      "sha256": "0f36b4682dcbdaa613e74cf7f67c07a9710f5f45c5e46077e46786310ebdd70e",
+      "bytes": 24248,
+      "role": "Phase 13C reproducibility validator/builder"
+    },
+    "reports/infectious_disease_scenario_artifact_check.json": {
+      "sha256": "440c0c2c2b211f487396c60430332bf9875a2441ed61b790c77ec69226641500",
+      "bytes": 1638,
+      "role": "machine validation result"
+    },
+    "reports/infectious_disease_scenario_independent_review.md": {
+      "sha256": "545c0a4624be73634ddc3348f53bddd0bb26d890c73e62ebc33350a9b7b77a8c",
+      "bytes": 2020,
+      "role": "independent review record"
+    },
+    "reports/infectious_disease_scenario_manifest.json": {
+      "sha256": "53aa8fb4afbcc15b3ddc7cc058b67e44cad1e31c99e2c9615ed7e620d7bcc1ba",
+      "bytes": 6454,
+      "role": "validated working manifest"
+    },
+    "docs/phase_briefs/phase13c_infectious_disease_futures.md": {
+      "sha256": "b9d3e87d7aa8c3f6a429e030afc443f5536915431332e431db9b56ab63c25b47",
+      "bytes": 1397,
+      "role": "protected Phase 13C approved-scope brief"
+    },
+    "src/python/systems/validate_phase13c_freeze.py": {
+      "sha256": "f2af9924bea1d9cacf78df42681bfe333451ccdbcfdc35d98a1ee501de1a12ab",
+      "bytes": 14782,
+      "role": "Python independent freeze validator"
+    },
+    "src/R/systems/validate_phase13c_freeze.R": {
+      "sha256": "beac368cfccdc58335ed5c5de19dffdae27bdfccdbc1ca8f91c92645fa7bb0e5",
+      "bytes": 14206,
+      "role": "independent R freeze validator"
+    }
+  },
+  "numeric_future_values_adopted": false,
+  "future_case_counts": false,
+  "future_incidence_forecast": false,
+  "outbreak_probability": false,
+  "disease_burden_forecast": false,
+  "individual_risk_model": false,
+  "vulnerability_ej_scoring": false,
+  "unsupported_local_downscaling": false,
+  "phase13a_13b_accepted_frozen": true,
+  "phase1_12_immutable": true,
+  "phase14_implemented": false,
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  },
+  "deferred_maintenance_preserved": [
+    "Phase 6B manifest status wording mismatch",
+    "Phase 3A missing manifest status"
+  ]
+}

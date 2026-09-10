@@ -590,7 +590,7 @@ Python and independent R freeze validation, authoritative foreground R validatio
 
 Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest status wording mismatch and Phase 3A missing manifest status remain unchanged. No release or tag was created.
 
-## PHASE 13C — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 13C — ACCEPTED / FROZEN
 
 **Infectious Disease System Futures, 2050 / 2075**
 
@@ -626,5 +626,29 @@ implemented.
 
 Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo
 intake-coordinate discrepancy remains **UNRESOLVED**. Deferred maintenance
-remains limited to the Phase 6B manifest status wording mismatch and the Phase
-3A missing manifest status. No release or tag was created.
+remains limited to the Phase 6B manifest-status wording mismatch and the Phase
+3A missing-manifest-status. No release or tag was created.
+
+Sol formally accepted and froze Phase 13C under
+`reports/phase13c_infectious_disease_futures_freeze_manifest.json` (28 protected
+artifacts). The final freeze manifest protects the six qualitative scenario
+tables, 33 scenario sources, comparison outputs, Maps 43/43b, reports, the
+working manifest, artifact check, independent-review record, Phase 13C brief,
+and Python/R package and freeze validators. Python and independent R freeze
+validation passed; Phase 13A/13B and all prior protected artifacts remain
+immutable. The fresh independent review passed with all blocking arrays empty;
+the optional copy-editing suggestion remains deferred.
+
+Final subphase status:
+
+- Phase 13A: **ACCEPTED / FROZEN**
+- Phase 13B: **ACCEPTED / FROZEN**
+- Phase 13C: **ACCEPTED / FROZEN**
+- Active phase: **NONE**
+- Next analytical phase: **NOT APPROVED**
+
+Phase 14 is not implemented. Great Black Swamp remains **C — HOLD /
+noncanonical** and the Toledo intake-coordinate discrepancy remains
+**UNRESOLVED**. Deferred Phase 6B manifest-status wording and Phase 3A
+missing-manifest-status maintenance remain unchanged. No release or tag was
+created.

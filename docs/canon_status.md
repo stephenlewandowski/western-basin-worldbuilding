@@ -266,8 +266,9 @@ Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-co
 
 ## Phase 13C boundary
 
-Phase 13C is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
-as a separate qualitative infectious-disease futures layer for 2050 and 2075.
+Phase 13C is **ACCEPTED / FROZEN** as a separate qualitative infectious-disease
+futures layer for 2050 and 2075 under
+`reports/phase13c_infectious_disease_futures_freeze_manifest.json`.
 It does not alter the accepted/frozen Phase 13A baseline or Phase 13B dependency
 layer. The package uses six scenario states across three distinct families and
 six transmission archetypes, with separate transmission-opportunity,
@@ -288,4 +289,10 @@ is **NONE** and next analytical phase is **NOT APPROVED**. Phase 14 is not
 implemented. Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo
 intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B
 manifest-status wording and Phase 3A missing-manifest-status maintenance remain
-unchanged. No release or tag was created.
+unchanged. Phase 14 is not implemented. No release or tag was created.
+
+Sol formally accepted and froze Phase 13C after the fresh bounded independent
+review passed with all blocking arrays empty and independent Python/R freeze
+validation passed. The final manifest protects 28 Phase 13C artifacts. The
+optional copy-editing suggestion remains deferred; no accepted/frozen artifact
+was changed.
