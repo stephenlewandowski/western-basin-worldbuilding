@@ -104,6 +104,8 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 7A Exposure & Environmental Health Baseline:** accepted and frozen as a bounded factual 2026 exposure-context layer; Map 23
 - **Phase 7B Exposure Dependencies, Evidence Strength & Controls:** implemented, validated, and integrated; awaiting Sol acceptance; Map 24
 - **Phase 7C Environmental Health Futures:** implemented, validated, and integrated as separate qualitative 2050/2075 scenario content; awaiting Sol acceptance; Maps 25/25b
+
+Phase 7B's `5 × 10` wording means five pathway rows by ten qualitative dimensions; its CSV has one additional `pathway_family` identifier column and therefore has physical shape `5 × 11`. This convention is documented without rewriting historical working-manifest wording. Fresh corrected-package independent reviews passed for both Phase 7B and 7C; both remain awaiting Sol acceptance and are not frozen.
 - **Phase 8A Biogeochemical & Nutrient Flux Baseline:** accepted and frozen as a separate factual 2026 layer; Map 26; `reports/phase8a_biogeochemical_nutrient_flux_freeze_manifest.json`
 - **Phase 8B Biogeochemical Dependencies & Controls:** accepted and frozen as a separate qualitative 2026 layer; Map 27; `reports/phase8b_biogeochemical_dependencies_controls_freeze_manifest.json`
 - **Phase 8C Biogeochemical & Nutrient Flux Futures:** accepted and frozen as separate qualitative 2050/2075 scenario content; Maps 28/28b; `reports/phase8c_biogeochemical_futures_freeze_manifest.json`

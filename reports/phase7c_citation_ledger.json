@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://www.ncei.noaa.gov",
+      "title": "NOAA climate data and information",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 2,
+      "url": "https://www.weather.gov/safety/heat",
+      "title": "National Weather Service heat safety and warning products",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 3,
+      "url": "https://epa.ohio.gov/monitor-pollution/blue-green-algae-blooms",
+      "title": "Ohio EPA Harmful Algal Bloom advisories and monitoring",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 4,
+      "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control",
+      "title": "Ohio EPA Division of Air Pollution Control monitoring",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 5,
+      "url": "https://epa.ohio.gov/monitor-pollution/monitoring-and-assessment/recreational-water",
+      "title": "Ohio EPA recreational water monitoring",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 6,
+      "url": "https://www.lrd.usace.army.mil/Missions/Projects/Article/3613204/luckey-site",
+      "title": "U.S. Army Corps of Engineers — Luckey Site",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 7,
+      "url": "https://toledo.oh.gov/departments/public-works/water/water-treatment",
+      "title": "City of Toledo Water Treatment",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 8,
+      "url": "https://odh.ohio.gov/know-our-programs/seafood-safety/fish-advisories",
+      "title": "Ohio fish consumption advisories",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 9,
+      "url": "reports/phase7a_exposure_environmental_health_freeze_manifest.json",
+      "title": "Accepted Phase 7A exposure/environmental-health layer",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 10,
+      "url": "reports/exposure_dependency_manifest.json",
+      "title": "Phase 7B validated working package manifest",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 11,
+      "url": "reports/environmental_health_scenario_manifest.json",
+      "title": "Phase 7C validated working package manifest",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 12,
+      "url": "docs/phase_briefs/phase7c_environmental_health_futures.md",
+      "title": "Phase 7C approved scenario execution brief",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 13,
+      "url": "reports/environmental_health_scenario_artifact_check.json",
+      "title": "Phase 7C machine artifact check",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 14,
+      "url": "docs/canon_status.md",
+      "title": "Current Western Basin canon/status record",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 15,
+      "url": "metadata/sources.yml",
+      "title": "Repository registered source catalog",
+      "accessed": "2026-09-10"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
-scenario_id,scenario,scenario_year,monitoring_capacity,treatment_capacity,remediation_capacity,advisory_capacity,pathway_control,institutional_capacity,data_integration,public_information,heat_adaptation,water_resilience,uncertainty,control_dependence
-A2050,Preventive Environmental Health Infrastructure,2050,high,high,high,high,high,high,high,high,high,high,high,high
-A2075,Preventive Environmental Health Infrastructure,2075,high,high,high,high,high,high,high,high,high,high,high,high
-B2050,Managed Exposure Landscape,2050,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate
-B2075,Managed Exposure Landscape,2075,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate
-C2050,Compound Environmental Stress,2050,low,low,low,low,low,low,low,low,low,low,low,low
-C2075,Compound Environmental Stress,2075,low,low,low,low,low,low,low,low,low,low,low,low
+scenario_id,scenario,scenario_year,pathway_family,change_type,assumption_id,plausibility,uncertainty,monitoring_capacity,treatment_capacity,remediation_capacity,advisory_capacity,pathway_control,institutional_capacity,data_integration,public_information,heat_adaptation,water_resilience,control_dependence
+A2050,Preventive Environmental Health Infrastructure,2050,All pathways,scenario_comparison,EA-01-06,high,high,high,high,high,high,high,high,high,high,high,high,high
+A2075,Preventive Environmental Health Infrastructure,2075,All pathways,scenario_comparison,EA-02-06,high,high,high,high,high,high,high,high,high,high,high,high,high
+B2050,Managed Exposure Landscape,2050,All pathways,scenario_comparison,EA-03-06,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate
+B2075,Managed Exposure Landscape,2075,All pathways,scenario_comparison,EA-04-06,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate,moderate
+C2050,Compound Environmental Stress,2050,All pathways,scenario_comparison,EA-05-06,exploratory,low,low,low,low,low,low,low,low,low,low,low,low
+C2075,Compound Environmental Stress,2075,All pathways,scenario_comparison,EA-06-06,exploratory,low,low,low,low,low,low,low,low,low,low,low,low

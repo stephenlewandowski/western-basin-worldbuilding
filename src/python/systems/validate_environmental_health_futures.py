@@ -9,6 +9,13 @@ def main():
  a=pd.read_csv(s/'environmental_health_scenario_assumptions.csv',dtype=str).fillna(''); n=pd.read_csv(s/'exposure_nodes_scenario.csv',dtype=str).fillna('');e=pd.read_csv(s/'exposure_edges_scenario.csv',dtype=str).fillna('');c=pd.read_csv(s/'exposure_controls_scenario.csv',dtype=str).fillna('');u=pd.read_csv(s/'exposure_uncertainty_scenario.csv',dtype=str).fillna('');x=pd.read_csv(f/'environmental_health_scenarios_comparison.csv',dtype=str).fillna('')
  assert (len(a),len(n),len(e),len(c),len(u),len(x))==(36,30,30,30,30,6)
  assert set(a.scenario_id)=={'A','B','C'} and set(a.scenario_year)=={'2050','2075'}
+ expected_family={'P-01':'Drinking Water / HAB','P-02':'Ambient Air','P-03':'Soil / Groundwater / Legacy Contamination','P-04':'Food / Fish / Recreational Water','P-05':'Heat'}
+ expected_control={'Drinking Water / HAB':'CTL-001','Ambient Air':'CTL-003','Soil / Groundwater / Legacy Contamination':'CTL-004','Food / Fish / Recreational Water':'CTL-005','Heat':'CTL-007'}
+ assert n.apply(lambda row: expected_family[row.baseline_object_id]==row.pathway_family and row.uncertainty=='moderate',axis=1).all()
+ assert e.apply(lambda row: expected_family[row.baseline_object_id]==row.pathway_family and row.uncertainty=='moderate',axis=1).all()
+ assert c.apply(lambda row: expected_control[row.pathway_family]==row.baseline_control_id and row.uncertainty=='moderate',axis=1).all()
+ assert u.uncertainty.eq('moderate').all()
+ assert x.pathway_family.eq('All pathways').all() and x.change_type.eq('scenario_comparison').all() and x.assumption_id.str.endswith('-06').all() and x.uncertainty.isin({'high','moderate','low'}).all()
  assert n.scenario_id.notna().all() and n.scenario_year.notna().all() and n.reality_status.eq('fictional').all()
  text=' '.join(' '.join(map(str,row)) for df in [a,n,e,c,u,x] for row in df.to_numpy()).lower()
  for bad in ['exposure score','dose score','mortality','hospitalization','cancer','epidemiology','mosquito','west nile']: assert bad not in text,bad

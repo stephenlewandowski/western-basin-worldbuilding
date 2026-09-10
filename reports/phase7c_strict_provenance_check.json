@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "phase": "7C",
+  "scope": "strict provenance and scenario-boundary closure; no new scientific claims",
+  "source_registry": "metadata/sources.yml",
+  "source_ids_checked": 1,
+  "source_ids_resolve": true,
+  "evidence_rows_checked": 0,
+  "evidence_rows_resolve": true,
+  "scenario_assumption_references": true,
+  "working_manifest_hashes_match": true,
+  "claim_level_citations": true,
+  "citation_reports": {
+    "environmental_health_scenario_sources.md": {
+      "passed": true,
+      "output": [
+        "info: stats: 5 prose sentence(s), 5 with declared provenance (100%) — 5 cited, 0 marked [unverified] (a sentence may be both); 13 distinct source(s) cited, 15 in ledger (0 with evidence quotes)",
+        "warn: registered in the ledger but not cited in this draft: [14], [15]",
+        "citations OK"
+      ]
+    },
+    "environmental_health_scenario_assumptions.md": {
+      "passed": true,
+      "output": [
+        "info: stats: 2 prose sentence(s), 2 with declared provenance (100%) — 2 cited, 0 marked [unverified] (a sentence may be both); 4 distinct source(s) cited, 15 in ledger (0 with evidence quotes)",
+        "warn: registered in the ledger but not cited in this draft: [1], [2], [3], [4], [5], [6], [7], [8], [13], [14], [15]",
+        "citations OK"
+      ]
+    },
+    "environmental_health_scenario_consistency.md": {
+      "passed": true,
+      "output": [
+        "info: stats: 3 prose sentence(s), 3 with declared provenance (100%) — 3 cited, 0 marked [unverified] (a sentence may be both); 5 distinct source(s) cited, 15 in ledger (0 with evidence quotes)",
+        "warn: registered in the ledger but not cited in this draft: [1], [2], [3], [4], [5], [6], [7], [8], [13], [15]",
+        "citations OK"
+      ]
+    },
+    "environmental_health_future_worldbuilding.md": {
+      "passed": true,
+      "output": [
+        "info: stats: 2 prose sentence(s), 2 with declared provenance (100%) — 2 cited, 0 marked [unverified] (a sentence may be both); 2 distinct source(s) cited, 15 in ledger (0 with evidence quotes)",
+        "warn: registered in the ledger but not cited in this draft: [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [14], [15]",
+        "citations OK"
+      ]
+    },
+    "environmental_health_scenario_qa.md": {
+      "passed": true,
+      "output": [
+        "info: stats: 2 prose sentence(s), 2 with declared provenance (100%) — 2 cited, 0 marked [unverified] (a sentence may be both); 2 distinct source(s) cited, 15 in ledger (0 with evidence quotes)",
+        "warn: registered in the ledger but not cited in this draft: [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [14], [15]",
+        "citations OK"
+      ]
+    }
+  },
+  "scenario_assumption_classification": true,
+  "unsupported_exact_health_outcome_claims": false,
+  "unsupported_future_exposure_predictions": false,
+  "unsupported_risk_scoring": false,
+  "scenario_presented_as_forecast": false,
+  "historical_claim_gaps": [],
+  "correction_applied": "canonicalized P-03 pathway identity, corrected Phase 7B control references, and added explicit uncertainty and comparison provenance fields"
+}

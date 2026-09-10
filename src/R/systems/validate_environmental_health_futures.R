@@ -4,5 +4,8 @@ a<-r('data/processed/scenarios/environmental_health_scenario_assumptions.csv');n
 stopifnot(nrow(a)==36,nrow(n)==30,nrow(e)==30,nrow(c)==30,nrow(u)==30,nrow(x)==6)
 stopifnot(all(nzchar(a$scenario_id)),all(nzchar(n$scenario_year)),all(n$reality_status=='fictional'))
 stopifnot(setequal(unique(a$scenario_id),c('A','B','C')),setequal(unique(a$scenario_year),c(2050,2075)))
+family_map <- c('P-01'='Drinking Water / HAB','P-02'='Ambient Air','P-03'='Soil / Groundwater / Legacy Contamination','P-04'='Food / Fish / Recreational Water','P-05'='Heat')
+control_map <- c('Drinking Water / HAB'='CTL-001','Ambient Air'='CTL-003','Soil / Groundwater / Legacy Contamination'='CTL-004','Food / Fish / Recreational Water'='CTL-005','Heat'='CTL-007')
+stopifnot(all(family_map[n$baseline_object_id] == n$pathway_family),all(n$uncertainty=='moderate'),all(family_map[e$baseline_object_id] == e$pathway_family),all(e$uncertainty=='moderate'),all(control_map[c$pathway_family] == c$baseline_control_id),all(c$uncertainty=='moderate'),all(u$uncertainty=='moderate'),all(x$pathway_family=='All pathways'),all(x$change_type=='scenario_comparison'),all(grepl('-06$',x$assumption_id)),all(x$uncertainty %in% c('high','moderate','low')))
 text<-tolower(paste(capture.output(write.csv(a,'')),collapse=' '));stopifnot(!grepl('dose score|exposure score|mortality|epidemiology|mosquito',text))
 cat('status=passed\nphase=7C\nassumptions=36\nscenario_nodes=30\nscenario_edges=30\ncontrol_states=30\nuncertainty_states=30\ncomparison_rows=6\nqualitative_only=TRUE\n')

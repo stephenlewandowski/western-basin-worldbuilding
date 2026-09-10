@@ -1046,3 +1046,19 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 
 - Read-only audit recorded at `reports/pre_phase14_legacy_closure_audit.md` against synchronized `main` / `origin/main` SHA `574b97c9dd3ec52b80cb0a4ce32bf541a4f391d3`.
 - No scientific artifact, freeze manifest, acceptance status, Phase 14 material, branch, or worktree was changed, merged, deleted, or rewritten. Great Black Swamp and Toledo intake-coordinate holds remain unchanged.
+
+## Phase 7B/7C corrected-package review checkpoint — 2026-09-10
+
+- The first fresh independent reviews are preserved at `reports/phase7b_exposure_dependencies_independent_review_initial.md` and `reports/phase7c_exposure_futures_independent_review_initial.md`; both returned `passed: false`.
+- Legitimate blockers were corrected only in the unaccepted Phase 7B/7C working packages and their validators: Phase 7B endpoint families/directed roles; Phase 7C canonical P-03 family, control references, explicit uncertainty fields, and comparison-row provenance.
+- Phase 7A frozen artifacts remain protected. Phase 7B and 7C remain **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** and are not frozen.
+- The Phase 7B matrix convention is five pathway rows × ten qualitative dimensions plus the `pathway_family` identifier column, yielding a stored CSV shape of 5 × 11.
+- Python/R deterministic validators and strict provenance checks now pass for the corrected packages. Fresh corrected-package independent reviews passed at `reports/phase7b_exposure_dependencies_independent_review.md` and `reports/phase7c_exposure_futures_independent_review.md`; optional reviewer suggestions remain deferred. Do not create freeze manifests or begin Phase 14.
+
+## Phase 7B/7C fresh review closure — 2026-09-10
+
+- Phase 7B fresh independent review: **PASSED**; no blocking security, logic, provenance, exposure-boundary, dependency, spatial-scale, or schema findings.
+- Phase 7C fresh independent review: **PASSED**; no blocking security, logic, provenance, scenario-boundary, exposure-boundary, spatial-scale, or schema findings.
+- Strict provenance checks pass for both packages; Python/R deterministic validators pass for 7A, 7B, and 7C; Phase 7A and all current accepted/frozen prior artifacts remain immutable.
+- Phase 7B and 7C remain **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. No final freeze manifest was created.
+- Active holds remain Great Black Swamp **C — HOLD / noncanonical** and Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred Phase 6B/3A maintenance remains unchanged. Phase 14 is not implemented.

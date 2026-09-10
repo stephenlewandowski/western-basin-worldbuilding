@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "phase": "7B",
+  "scope": "strict provenance and boundary closure; no new scientific claims",
+  "source_registry": "metadata/sources.yml",
+  "source_ids_checked": 11,
+  "source_ids_resolve": true,
+  "evidence_rows_checked": 5,
+  "evidence_rows_resolve": true,
+  "control_register_schema": true,
+  "working_manifest_hashes_match": true,
+  "claim_level_citations": true,
+  "citation_reports": {
+    "exposure_dependency_sources.md": {
+      "passed": true,
+      "output": [
+        "info: stats: 6 prose sentence(s), 6 with declared provenance (100%) — 6 cited, 0 marked [unverified] (a sentence may be both); 13 distinct source(s) cited, 16 in ledger (0 with evidence quotes)",
+        "warn: registered in the ledger but not cited in this draft: [4], [13], [16]",
+        "citations OK"
+      ]
+    },
+    "exposure_dependency_assumptions.md": {
+      "passed": true,
+      "output": [
+        "info: stats: 4 prose sentence(s), 4 with declared provenance (100%) — 4 cited, 0 marked [unverified] (a sentence may be both); 7 distinct source(s) cited, 16 in ledger (0 with evidence quotes)",
+        "warn: registered in the ledger but not cited in this draft: [1], [2], [5], [6], [10], [11], [12], [13], [16]",
+        "citations OK"
+      ]
+    },
+    "exposure_dependency_findings.md": {
+      "passed": true,
+      "output": [
+        "info: stats: 7 prose sentence(s), 7 with declared provenance (100%) — 7 cited, 0 marked [unverified] (a sentence may be both); 12 distinct source(s) cited, 16 in ledger (0 with evidence quotes)",
+        "warn: registered in the ledger but not cited in this draft: [4], [12], [13], [16]",
+        "citations OK"
+      ]
+    },
+    "exposure_evidence_limits.md": {
+      "passed": true,
+      "output": [
+        "info: stats: 2 prose sentence(s), 2 with declared provenance (100%) — 2 cited, 0 marked [unverified] (a sentence may be both); 2 distinct source(s) cited, 16 in ledger (0 with evidence quotes)",
+        "warn: registered in the ledger but not cited in this draft: [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [16]",
+        "citations OK"
+      ]
+    },
+    "exposure_dependency_qa.md": {
+      "passed": true,
+      "output": [
+        "info: stats: 3 prose sentence(s), 3 with declared provenance (100%) — 3 cited, 0 marked [unverified] (a sentence may be both); 3 distinct source(s) cited, 16 in ledger (0 with evidence quotes)",
+        "warn: registered in the ledger but not cited in this draft: [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [13], [16]",
+        "citations OK"
+      ]
+    }
+  },
+  "scenario_assumption_classification": "not_applicable_to_factual_2026_package",
+  "unsupported_exact_health_outcome_claims": false,
+  "unsupported_exposure_dose_illness_claims": false,
+  "scenario_presented_as_forecast": false,
+  "historical_claim_gaps": [],
+  "correction_applied": "corrected the omitted 7B control-register pathway-family field, repaired dependency endpoint families and directed roles, and strengthened Python/R schema and boundary checks"
+}

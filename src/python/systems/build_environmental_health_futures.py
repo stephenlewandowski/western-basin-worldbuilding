@@ -2,7 +2,8 @@
 from pathlib import Path
 import csv,json,hashlib
 ROOT=Path(__file__).resolve().parents[3]; S=ROOT/'data/processed/scenarios'; M=ROOT/'outputs/maps/systems'; F=ROOT/'outputs/figures'; R=ROOT/'reports'
-P=[('P-01','Drinking Water / HAB'),('P-02','Ambient Air'),('P-03','Legacy Contamination'),('P-04','Food / Fish / Recreational Water'),('P-05','Heat')]
+P=[('P-01','Drinking Water / HAB'),('P-02','Ambient Air'),('P-03','Soil / Groundwater / Legacy Contamination'),('P-04','Food / Fish / Recreational Water'),('P-05','Heat')]
+CONTROL_IDS=['CTL-001','CTL-003','CTL-004','CTL-005','CTL-007']
 ST=[('A',2050,'Preventive Environmental Health Infrastructure'),('A',2075,'Preventive Environmental Health Infrastructure'),('B',2050,'Managed Exposure Landscape'),('B',2075,'Managed Exposure Landscape'),('C',2050,'Compound Environmental Stress'),('C',2075,'Compound Environmental Stress')]
 def wr(path,fields,rows):
  path.parent.mkdir(parents=True,exist_ok=True)
@@ -14,24 +15,24 @@ def main():
   for j,(pid,p) in enumerate(P,1): assumptions.append(dict(zip(af,[f'EA-{si:02}-{j:02}',sc,y,p,f'{p} follows the {sc} institutional pathway at {y}; monitoring and control states evolve qualitatively.','environmental conditions and institutional capacity',drivers[sc],'noaa_climate','high' if sc=='A' else 'moderate' if sc=='B' else 'exploratory','moderate','monitoring/control capacity','scenario','No exposure, dose, or illness is implied.'])))
  for si,(sc,y,name) in enumerate(ST,1): assumptions.append(dict(zip(af,[f'EA-{si:02}-06',sc,y,'All pathways','Institutional data integration and public information evolve with the scenario.','institutional capacity',drivers[sc],'noaa_climate','moderate','moderate','data and maintenance','scenario','Qualitative scenario premise; no probability.'])))
  wr(S/'environmental_health_scenario_assumptions.csv',af,assumptions)
- nf=['scenario_id','scenario_year','pathway_family','baseline_object_id','change_type','state','reality_status','relationship_basis','assumption_id','plausibility','source_or_basis','notes']; nodes=[]
+ nf=['scenario_id','scenario_year','pathway_family','baseline_object_id','change_type','state','reality_status','relationship_basis','assumption_id','plausibility','uncertainty','source_or_basis','notes']; nodes=[]
  for si,(sc,y,name) in enumerate(ST,1):
   for j,(pid,p) in enumerate(P,1):
-   ct='monitoring_expanded' if sc=='A' else 'persist' if sc=='B' else 'monitoring_reduced'; state='monitoring and control capacity is strengthened' if sc=='A' else 'managed controls persist with heterogeneous capacity' if sc=='B' else 'control dependence and evidence gaps increase'; nodes.append(dict(zip(nf,[sc,y,p,pid,ct,state,'fictional','scenario delta over validated 2026 baseline',f'EA-{si:02}-{j:02}','high' if sc=='A' else 'moderate' if sc=='B' else 'exploratory','Phase 7C scenario basis','Does not assert exposure or dose.'])))
+   ct='monitoring_expanded' if sc=='A' else 'persist' if sc=='B' else 'monitoring_reduced'; state='monitoring and control capacity is strengthened' if sc=='A' else 'managed controls persist with heterogeneous capacity' if sc=='B' else 'control dependence and evidence gaps increase'; nodes.append(dict(zip(nf,[sc,y,p,pid,ct,state,'fictional','scenario delta over validated 2026 baseline',f'EA-{si:02}-{j:02}','high' if sc=='A' else 'moderate' if sc=='B' else 'exploratory','moderate','Phase 7C scenario basis','Does not assert exposure or dose.'])))
  wr(S/'exposure_nodes_scenario.csv',nf,nodes)
- ef=['scenario_id','scenario_year','pathway_family','baseline_object_id','change_type','state','assumption_id','plausibility','relationship_basis','notes']; edges=[]
+ ef=['scenario_id','scenario_year','pathway_family','baseline_object_id','change_type','state','assumption_id','plausibility','uncertainty','relationship_basis','notes']; edges=[]
  for si,(sc,y,name) in enumerate(ST,1):
-  for j,(pid,p) in enumerate(P,1): edges.append(dict(zip(ef,[sc,y,p,pid,'control_strengthened' if sc=='A' else 'persist' if sc=='B' else 'uncertainty_increased','condition → monitoring → control remains a qualitative dependency chain',f'EA-{si:02}-{j:02}','high' if sc=='A' else 'moderate' if sc=='B' else 'exploratory','scenario relationship; not an exact route','No exposure magnitude or disease outcome.'])))
+  for j,(pid,p) in enumerate(P,1): edges.append(dict(zip(ef,[sc,y,p,pid,'control_strengthened' if sc=='A' else 'persist' if sc=='B' else 'uncertainty_increased','condition → monitoring → control remains a qualitative dependency chain',f'EA-{si:02}-{j:02}','high' if sc=='A' else 'moderate' if sc=='B' else 'exploratory','moderate','scenario relationship; not an exact route','No exposure magnitude or disease outcome.'])))
  wr(S/'exposure_edges_scenario.csv',ef,edges)
- cf=['scenario_id','scenario_year','pathway_family','baseline_control_id','change_type','state','assumption_id','plausibility','notes']; ctr=[]; uf=['scenario_id','scenario_year','pathway_family','baseline_uncertainty','change_type','state','assumption_id','plausibility','notes']; unc=[]
+ cf=['scenario_id','scenario_year','pathway_family','baseline_control_id','change_type','state','assumption_id','plausibility','uncertainty','notes']; ctr=[]; uf=['scenario_id','scenario_year','pathway_family','baseline_uncertainty','change_type','state','assumption_id','plausibility','uncertainty','notes']; unc=[]
  for si,(sc,y,name) in enumerate(ST,1):
   for j,(pid,p) in enumerate(P,1):
-   ctr.append(dict(zip(cf,[sc,y,p,f'CTL-{((j-1)%7)+1:03}','strengthened' if sc=='A' else 'persists' if sc=='B' else 'weakened', 'preventive capacity expands' if sc=='A' else 'targeted management continues' if sc=='B' else 'reliance and burden increase',f'EA-{si:02}-{j:02}','high' if sc=='A' else 'moderate' if sc=='B' else 'exploratory','Qualitative control evolution; no efficiency claim.'])))
-   unc.append(dict(zip(uf,[sc,y,p,'receptor contact, spatial coverage, and temporal evidence', 'reduced' if sc=='A' else 'persists' if sc=='B' else 'increased','uncertainty is reduced through integration' if sc=='A' else 'uncertainty remains heterogeneous' if sc=='B' else 'evidence gaps and burden expand',f'EA-{si:02}-{j:02}','high' if sc=='A' else 'moderate' if sc=='B' else 'exploratory','Does not create documented exposure.'])))
+   ctr.append(dict(zip(cf,[sc,y,p,CONTROL_IDS[j-1],'strengthened' if sc=='A' else 'persists' if sc=='B' else 'weakened', 'preventive capacity expands' if sc=='A' else 'targeted management continues' if sc=='B' else 'reliance and burden increase',f'EA-{si:02}-{j:02}','high' if sc=='A' else 'moderate' if sc=='B' else 'exploratory','moderate','Qualitative control evolution; no efficiency claim.'])))
+   unc.append(dict(zip(uf,[sc,y,p,'receptor contact, spatial coverage, and temporal evidence', 'reduced' if sc=='A' else 'persists' if sc=='B' else 'increased','uncertainty is reduced through integration' if sc=='A' else 'uncertainty remains heterogeneous' if sc=='B' else 'evidence gaps and burden expand',f'EA-{si:02}-{j:02}','high' if sc=='A' else 'moderate' if sc=='B' else 'exploratory','moderate','Does not create documented exposure.'])))
  wr(S/'exposure_controls_scenario.csv',cf,ctr);wr(S/'exposure_uncertainty_scenario.csv',uf,unc)
  dims=['monitoring_capacity','treatment_capacity','remediation_capacity','advisory_capacity','pathway_control','institutional_capacity','data_integration','public_information','heat_adaptation','water_resilience','uncertainty','control_dependence']; comp=[]
  for sc,y,name in ST:
-  level='high' if sc=='A' else 'moderate' if sc=='B' else 'low'; comp.append({'scenario_id':sc+str(y),'scenario':name,'scenario_year':y,**{d:level for d in dims}})
+  level='high' if sc=='A' else 'moderate' if sc=='B' else 'low'; comp.append({'scenario_id':sc+str(y),'scenario':name,'scenario_year':y,'pathway_family':'All pathways','change_type':'scenario_comparison','assumption_id':f'EA-{ST.index((sc,y,name))+1:02}-06','plausibility':'high' if sc=='A' else 'moderate' if sc=='B' else 'exploratory','uncertainty':'moderate',**{d:level for d in dims}})
  wr(F/'environmental_health_scenarios_comparison.csv',list(comp[0]),comp)
  for title,year,file in [('25_environmental_health_futures_2050',2050,'25_environmental_health_futures_2050'),('25b_environmental_health_futures_2075',2075,'25b_environmental_health_futures_2075')]: mapit(file,year)
  import matplotlib; matplotlib.use('Agg'); import matplotlib.pyplot as plt

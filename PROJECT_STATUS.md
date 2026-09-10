@@ -286,11 +286,25 @@ individual exposure, dose, illness, plume, or cumulative-risk score.
 
 Phase 7B adds 20 dependency edges, seven controls, five evidence-strength rows, a 5 × 10 qualitative matrix, and Map 24. It preserves the Phase 7A evidence ladder and zero documented individual exposures. It contains no dose, illness, plume, risk score, or future content.
 
+The matrix convention is five pathway rows by ten qualitative dimensions; the
+CSV includes `pathway_family` as an identifier column, so its physical shape is
+5 × 11. This is documented wording, not a change to the historical working
+manifest. Strict provenance closure and the initial failed independent review
+are preserved in the Phase 7B closure records. The fresh corrected-package
+independent review passed at `reports/phase7b_exposure_dependencies_independent_review.md`.
+
 ## PHASE 7C — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
 
 **Environmental Health Futures, 2050 / 2075**
 
 Phase 7C adds 36 assumptions, 30 scenario node states, 30 edge states, 30 control states, 30 uncertainty states, six comparison rows, and Maps 25/25b. It is qualitative scenario content separate from factual 2026 layers; it contains no probabilities, exposure/dose/illness outcomes, or vector/infectious-disease work.
+
+The current corrected package carries explicit uncertainty and provenance fields
+on future state tables and comparison rows, uses canonical Phase 7A pathway
+families and Phase 7B control references, and links the six all-pathways
+assumptions through comparison rows. The initial failed independent review is
+preserved. The fresh corrected-package independent review passed at
+`reports/phase7c_exposure_futures_independent_review.md`.
 
 ## Open Phase 1 QA gates
 

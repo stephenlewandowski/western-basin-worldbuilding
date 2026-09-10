@@ -1,0 +1,101 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": 1,
+      "url": "https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/lake-erie",
+      "title": "NOAA NCCOS Lake Erie HAB Forecast",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 2,
+      "url": "https://epa.ohio.gov/monitor-pollution/blue-green-algae-blooms",
+      "title": "Ohio EPA Harmful Algal Bloom advisories and monitoring",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 3,
+      "url": "https://toledo.oh.gov/departments/public-works/water/water-treatment",
+      "title": "City of Toledo Water Treatment",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 4,
+      "url": "https://erddap.sensors.axds.co/erddap/tabledap/glos_crib.html",
+      "title": "GLOS / IOOS City of Toledo Water Intake Crib station",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 5,
+      "url": "https://www.epa.gov/aqs",
+      "title": "US EPA Air Quality System / AirData",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 6,
+      "url": "https://epa.ohio.gov/divisions-and-offices/air-pollution-control",
+      "title": "Ohio EPA Division of Air Pollution Control monitoring",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 7,
+      "url": "https://www.lrd.usace.army.mil/Missions/Projects/Article/3613204/luckey-site",
+      "title": "U.S. Army Corps of Engineers — Luckey Site",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 8,
+      "url": "https://d34w7g4gy10iej.cloudfront.net/pubs/pdf_76367.pdf",
+      "title": "USACE Fall 2025 Luckey groundwater monitoring data release",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 9,
+      "url": "https://odh.ohio.gov/know-our-programs/seafood-safety/fish-advisories",
+      "title": "Ohio fish consumption advisories",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 10,
+      "url": "https://epa.ohio.gov/monitor-pollution/monitoring-and-assessment/recreational-water",
+      "title": "Ohio EPA recreational water monitoring",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 11,
+      "url": "https://www.weather.gov/safety/heat",
+      "title": "National Weather Service heat safety and warning products",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 12,
+      "url": "reports/phase7a_exposure_environmental_health_freeze_manifest.json",
+      "title": "Accepted Phase 7A exposure/environmental-health layer",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 13,
+      "url": "reports/exposure_dependency_manifest.json",
+      "title": "Phase 7B validated working package manifest",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 14,
+      "url": "docs/phase_briefs/phase7b_exposure_dependencies_controls.md",
+      "title": "Phase 7B approved execution brief",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 15,
+      "url": "reports/exposure_dependency_artifact_check.json",
+      "title": "Phase 7B machine artifact check",
+      "accessed": "2026-09-10"
+    },
+    {
+      "id": 16,
+      "url": "metadata/sources.yml",
+      "title": "Repository registered source catalog",
+      "accessed": "2026-09-10"
+    }
+  ]
+}
