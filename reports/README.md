@@ -471,7 +471,25 @@ surveillance sensitivity and disease intensity, infrastructure stress and
 illness, mobility/connectivity and outbreak certainty, and response capacity
 and disease absence. No future case totals, incidence surface, outbreak
 probability, disease-burden or individual-risk product, vulnerability/EJ score,
-unsupported local downscaling, or Phase 14 implementation is included. Active
-phase is NONE; next analytical phase is NOT APPROVED. Great Black Swamp remains
+unsupported local downscaling is included. Phase 14B remains approved scope
+only and is not implemented. Active phase is NONE; next analytical phase is
+NOT APPROVED. Great Black Swamp remains
 C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains
 UNRESOLVED.
+
+## Phase 14A Systems Atlas Integration
+
+Phase 14A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. The additive package is indexed by `phase14a_systems_ontology.md`, `phase14a_identity_crosswalk.md`, `phase14a_evidence_crosswalk.md`, `phase14a_relationship_taxonomy.md`, and `phase14a_integration_qa.md`.
+
+- `../metadata/atlas_systems.yml` — 13-system Atlas ontology
+- `../metadata/atlas_evidence_vocabulary.yml` — eight-class evidence/status vocabulary
+- `../data/processed/integration/system_identity_crosswalk.csv` — 456 exact local-entity identity rows
+- `../data/processed/integration/external_endpoint_crosswalk.csv` — 36 Phase 13B conceptual endpoint occurrences across 25 dependency rows
+- `../data/processed/integration/relationship_taxonomy_inventory.csv` — 367 local relation-term inventory rows; Phase 14B normalization deferred
+- `phase14a_manifest.json` and `phase14a_artifact_check.json` — working manifest and deterministic QA
+- `phase14a_independent_review.md` — fresh bounded independent review; `passed: true`, blocking arrays empty
+- `../outputs/figures/western_basin_systems_architecture.png` and `.svg` — conceptual, non-geographic system architecture
+- `../src/python/systems/build_phase14a_integration.py` and `validate_phase14a_integration.py`
+- `../src/R/systems/validate_phase14a_integration.R`
+
+Phase 14B is **APPROVED SCOPE / NOT IMPLEMENTED**. Phase 15 is **NOT IMPLEMENTED**. Accepted/frozen artifacts, local identifiers, the Great Black Swamp hold, and the unresolved Toledo intake-coordinate discrepancy remain unchanged.

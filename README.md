@@ -54,7 +54,7 @@ Phase 7B contains 20 qualitative dependency edges, seven controls, five evidence
 
 Phase 7C is **ACCEPTED / FROZEN** under `reports/phase7c_environmental_health_futures_freeze_manifest.json`.
 
-Phase 7C is a separate qualitative scenario layer with 36 assumptions, 30 node states, 30 edge states, 30 control states, 30 uncertainty states, six comparison rows, and Maps 25/25b. Its final freeze manifest is `reports/phase7c_environmental_health_futures_freeze_manifest.json` (29 protected artifacts). No exposure prediction, dose, illness, health-risk score, vulnerability/EJ ranking, or service-territory precision is modeled. Phase 14 is not implemented; the next target is planning only.
+Phase 7C is a separate qualitative scenario layer with 36 assumptions, 30 node states, 30 edge states, 30 control states, 30 uncertainty states, six comparison rows, and Maps 25/25b. Its final freeze manifest is `reports/phase7c_environmental_health_futures_freeze_manifest.json` (29 protected artifacts). No exposure prediction, dose, illness, health-risk score, vulnerability/EJ ranking, or service-territory precision is modeled.
 
 **Phase 8A — ACCEPTED / FROZEN (BIOGEOCHEMICAL & NUTRIENT FLUX BASELINE, 2026)**
 
@@ -788,12 +788,19 @@ or vector suitability is not disease burden, surveillance sensitivity is not
 disease intensity, infrastructure stress is not illness, and mobility is not
 outbreak certainty. No future case totals, incidence surface, outbreak
 probability, disease-burden or individual-risk product, vulnerability/EJ score,
-or unsupported local downscaling is included. Phase 13A/13B remain immutable;
-Phase 14 is not implemented. Great Black Swamp remains C — HOLD /
+or unsupported local downscaling is included. Phase 13A/13B remain immutable.
+Phase 14A is implemented as the additive ontology/crosswalk layer; Phase 14B
+remains approved scope only. Great Black Swamp remains C — HOLD /
 noncanonical and the Toledo intake-coordinate discrepancy remains unresolved.
 
 
-The Phase 13A baseline and Phase 13B dependency layer are **ACCEPTED / FROZEN** and explicitly avoid a composite disease-risk index, individual case/risk mapping, unsupported local downscaling, incidence or outbreak forecasting, and future inference. Pathogen presence, exposure, infection, reported case, local transmission, outbreak, and disease burden remain separate states. Phase 13B adds qualitative environmental, ecological, infrastructure, population/mobility, food/freight, surveillance, healthcare, and governance interfaces with documented-versus-inferred status. Phase 13C is **ACCEPTED / FROZEN** as a separate qualitative 2050/2075 system-futures layer under `reports/phase13c_infectious_disease_futures_freeze_manifest.json`. Its Python/R checks verify Phase 13A/13B freeze integrity and the prior protected-artifact boundary. Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains unresolved; Phase 14 is not implemented.
+The Phase 13A baseline and Phase 13B dependency layer are **ACCEPTED / FROZEN** and explicitly avoid a composite disease-risk index, individual case/risk mapping, unsupported local downscaling, incidence or outbreak forecasting, and future inference. Pathogen presence, exposure, infection, reported case, local transmission, outbreak, and disease burden remain separate states. Phase 13B adds qualitative environmental, ecological, infrastructure, population/mobility, food/freight, surveillance, healthcare, and governance interfaces with documented-versus-inferred status. Phase 13C is **ACCEPTED / FROZEN** as a separate qualitative 2050/2075 system-futures layer under `reports/phase13c_infectious_disease_futures_freeze_manifest.json`. Its Python/R checks verify Phase 13A/13B freeze integrity and the prior protected-artifact boundary. Great Black Swamp remains C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains unresolved.
+
+## Phase 14A Systems Atlas Integration
+
+Phase 14A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. It adds the [Atlas systems ontology](metadata/atlas_systems.yml), [evidence vocabulary](metadata/atlas_evidence_vocabulary.yml), [identity crosswalk](data/processed/integration/system_identity_crosswalk.csv), [conceptual endpoint audit](data/processed/integration/external_endpoint_crosswalk.csv), [relationship taxonomy inventory](data/processed/integration/relationship_taxonomy_inventory.csv), and [Western Basin Systems Architecture figure](outputs/figures/western_basin_systems_architecture.svg).
+
+The package represents 13 systems, 456 exact local-entity mappings, 34 system-level and two retained conceptual Phase 13B endpoint resolutions across 36 conceptual endpoint occurrences, and 367 relationship inventory rows. It does not replace local IDs, rewrite Phase 13B, normalize all edges, or create a monolithic GeoPackage. Python and independent R validation passed; Phase 14B is **APPROVED SCOPE / NOT IMPLEMENTED** and Phase 15 is **NOT IMPLEMENTED**. Active phase: **NONE**.
 
 ## Roadmap
 

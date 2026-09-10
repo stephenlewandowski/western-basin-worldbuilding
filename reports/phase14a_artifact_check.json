@@ -1,0 +1,350 @@
+{
+  "checks": {
+    "active_holds_retained": {
+      "detail": "active hold text missing",
+      "passed": true
+    },
+    "all_local_ids_resolve_to_source_artifacts": {
+      "detail": [],
+      "passed": true
+    },
+    "architecture_png_qa": {
+      "detail": [
+        1892,
+        1414
+      ],
+      "passed": true
+    },
+    "architecture_svg_qa": {
+      "detail": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xli",
+      "passed": true
+    },
+    "endpoint_conceptual_dependency_rows_reconcile": {
+      "detail": {
+        "actual": 25,
+        "expected": 25
+      },
+      "passed": true
+    },
+    "endpoint_dependency_ids_resolve": {
+      "detail": [],
+      "passed": true
+    },
+    "endpoint_exact_identity_not_invented": {
+      "detail": "conceptual endpoint marked exact",
+      "passed": true
+    },
+    "endpoint_local_ids_match_source_rows": {
+      "detail": [],
+      "passed": true
+    },
+    "endpoint_mapping_status_valid": {
+      "detail": {
+        "resolved_system_level": 34,
+        "retained_conceptual": 2
+      },
+      "passed": true
+    },
+    "endpoint_provenance_complete": {
+      "detail": "endpoint lineage incomplete",
+      "passed": true
+    },
+    "endpoint_register_source_exists": {
+      "detail": "C:\\Projects\\Public_GitHub\\western-basin-worldbuilding-phase14a\\data\\processed\\analysis\\infectious_disease_dependency_register.csv",
+      "passed": true
+    },
+    "endpoint_required_fields": {
+      "detail": [
+        "endpoint_crosswalk_id",
+        "dependency_id",
+        "endpoint_position",
+        "local_endpoint_id",
+        "local_namespace",
+        "source_phase",
+        "source_artifact",
+        "entity_type",
+        "canonical_name",
+        "atlas_entity_id",
+        "canonical_system_id",
+        "mapping_type",
+        "mapping_status",
+        "evidence_basis",
+        "notes"
+      ],
+      "passed": true
+    },
+    "endpoint_resolution_totals_reconcile": {
+      "detail": {
+        "resolved_system_level": 34,
+        "retained_conceptual": 2
+      },
+      "passed": true
+    },
+    "endpoint_system_mappings_known": {
+      "detail": [],
+      "passed": true
+    },
+    "endpoint_unresolved_explicit": {
+      "detail": "unresolved endpoint not explicit",
+      "passed": true
+    },
+    "evidence_local_terms_are_explicit": {
+      "detail": 17,
+      "passed": true
+    },
+    "evidence_mappings_have_loss_notes": {
+      "detail": "mapping without information-loss caveat",
+      "passed": true
+    },
+    "evidence_mappings_reference_known_classes": {
+      "detail": [],
+      "passed": true
+    },
+    "evidence_non_equivalences_retained": {
+      "detail": [],
+      "passed": true
+    },
+    "evidence_vocabulary_complete": {
+      "detail": [
+        "CONTEXT_REUSED",
+        "DERIVED_CALCULATED",
+        "INFERRED",
+        "NONCANONICAL_HOLD",
+        "OBSERVED_DOCUMENTED",
+        "SCENARIO_ASSUMPTION",
+        "SCENARIO_STATE",
+        "UNRESOLVED"
+      ],
+      "passed": true
+    },
+    "existing_systems_registry_untouched": {
+      "detail": [
+        "PROJECT_STATUS.md",
+        "README.md",
+        "data/processed/integration/external_endpoint_crosswalk.csv",
+        "data/processed/integration/relationship_taxonomy_inventory.csv",
+        "data/processed/integration/system_identity_crosswalk.csv",
+        "docs/agent_workflow.md",
+        "docs/canon_status.md",
+        "docs/phase_briefs/phase14_systems_atlas_integration.md",
+        "docs/phase_briefs/phase14a_common_systems_ontology_identity_evidence_crosswalk.md",
+        "docs/phase_briefs/phase14b_atlas_layer_registry_cross_system_dependency_normalization.md",
+        "metadata/atlas_evidence_vocabulary.yml",
+        "metadata/atlas_systems.yml",
+        "outputs/figures/western_basin_systems_architecture.png",
+        "outputs/figures/western_basin_systems_architecture.svg",
+        "reports/README.md",
+        "reports/current_phase_handoff.md",
+        "reports/phase14a_artifact_check.json",
+        "reports/phase14a_build_summary.json",
+        "reports/phase14a_evidence_crosswalk.md",
+        "reports/phase14a_identity_crosswalk.md",
+        "reports/phase14a_independent_review.md",
+        "reports/phase14a_integration_qa.md",
+        "reports/phase14a_manifest.json",
+        "reports/phase14a_relationship_taxonomy.md",
+        "reports/phase14a_systems_ontology.md",
+        "src/R/systems/validate_phase14a_integration.R",
+        "src/python/systems/build_phase14a_integration.py",
+        "src/python/systems/validate_phase14a_integration.py"
+      ],
+      "passed": true
+    },
+    "identity_atlas_ids_unique": {
+      "detail": 456,
+      "passed": true
+    },
+    "identity_local_namespace_pairs_unique": {
+      "detail": 456,
+      "passed": true
+    },
+    "identity_mapping_status_valid": {
+      "detail": [
+        "resolved"
+      ],
+      "passed": true
+    },
+    "identity_mapping_types_valid": {
+      "detail": [
+        "exact identity"
+      ],
+      "passed": true
+    },
+    "identity_provenance_complete": {
+      "detail": "blank provenance field",
+      "passed": true
+    },
+    "identity_required_fields": {
+      "detail": [
+        "atlas_entity_id",
+        "local_id",
+        "local_namespace",
+        "source_phase",
+        "source_artifact",
+        "entity_type",
+        "canonical_name",
+        "system_id",
+        "mapping_type",
+        "mapping_status",
+        "evidence_basis",
+        "reality_status",
+        "canon_status",
+        "temporal_basis",
+        "notes"
+      ],
+      "passed": true
+    },
+    "identity_scenario_labels_retained": {
+      "detail": [],
+      "passed": true
+    },
+    "identity_system_ids_known": {
+      "detail": [],
+      "passed": true
+    },
+    "no_conflicting_exact_identity_mappings": {
+      "detail": "conflicting exact identity rows",
+      "passed": true
+    },
+    "no_frozen_or_historical_artifact_modification": {
+      "detail": [],
+      "passed": true
+    },
+    "no_monolithic_geopackage_added": {
+      "detail": [],
+      "passed": true
+    },
+    "ontology_primary_tables_exist": {
+      "detail": [],
+      "passed": true
+    },
+    "ontology_principal_maps_exist": {
+      "detail": [],
+      "passed": true
+    },
+    "ontology_required_fields": {
+      "detail": [
+        "aliases",
+        "atlas_display_label",
+        "baseline_scenario_distinction",
+        "broad_system_family",
+        "canonical_status",
+        "originating_phases",
+        "preferred_label",
+        "primary_tables",
+        "principal_maps",
+        "provenance_pointer",
+        "system_id",
+        "temporal_basis"
+      ],
+      "passed": true
+    },
+    "ontology_system_count": {
+      "detail": 13,
+      "passed": true
+    },
+    "ontology_system_ids_unique": {
+      "detail": [
+        "SYS-WATER",
+        "SYS-MATERIALS",
+        "SYS-ENERGY",
+        "SYS-DATA",
+        "SYS-FREIGHT",
+        "SYS-ECOLOGY",
+        "SYS-EXPOSURE",
+        "SYS-BIOGEOCHEMISTRY",
+        "SYS-CLIMATE",
+        "SYS-GOVERNANCE",
+        "SYS-POPULATION",
+        "SYS-VECTOR-ECOLOGY",
+        "SYS-INFECTIOUS-DISEASE"
+      ],
+      "passed": true
+    },
+    "phase14a_manifest_integrity": {
+      "detail": {
+        "artifacts": 19,
+        "errors": []
+      },
+      "passed": true
+    },
+    "phase14a_reports_present": {
+      "detail": [
+        "reports/phase14a_systems_ontology.md",
+        "reports/phase14a_identity_crosswalk.md",
+        "reports/phase14a_evidence_crosswalk.md",
+        "reports/phase14a_relationship_taxonomy.md",
+        "reports/phase14a_integration_qa.md",
+        "reports/phase14a_build_summary.json"
+      ],
+      "passed": true
+    },
+    "phase14b_and_phase15_not_implemented": {
+      "detail": [],
+      "passed": true
+    },
+    "prior_freeze_integrity": {
+      "detail": {
+        "entries": 488,
+        "errors": [],
+        "unique_paths": 479
+      },
+      "passed": true
+    },
+    "relationship_caveats_present": {
+      "detail": "missing relationship caveat",
+      "passed": true
+    },
+    "relationship_classes_allowed": {
+      "detail": [],
+      "passed": true
+    },
+    "relationship_inventory_not_claimed_as_14B_normalization": {
+      "detail": [
+        "inventory_only_14A"
+      ],
+      "passed": true
+    },
+    "relationship_required_fields": {
+      "detail": [
+        "taxonomy_id",
+        "source_phase",
+        "source_artifact",
+        "local_field",
+        "local_term",
+        "local_term_count",
+        "proposed_high_level_class",
+        "normalization_status",
+        "semantic_compatibility",
+        "information_preserved",
+        "information_lost_or_caveat"
+      ],
+      "passed": true
+    },
+    "relationship_rows_resolve_and_counts_match": {
+      "detail": [],
+      "passed": true
+    },
+    "relationship_taxonomy_ids_unique": {
+      "detail": 367,
+      "passed": true
+    }
+  },
+  "counts": {
+    "conceptual_dependency_rows": 25,
+    "endpoint_rows": 36,
+    "evidence_classes": 8,
+    "exact_resolved": 0,
+    "freeze_manifest_entries": 488,
+    "freeze_unique_paths": 479,
+    "identity_rows": 456,
+    "relationship_rows": 367,
+    "retained_conceptual": 2,
+    "system_level_resolved": 34,
+    "systems": 13,
+    "total_dependencies": 36,
+    "unresolved": 0
+  },
+  "errors": [],
+  "passed": true
+}

@@ -325,3 +325,11 @@ intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B
 manifest-status wording and Phase 3A missing-manifest-status maintenance remain
 unchanged; the Phase 2A legacy worktree remains a superseded cleanup candidate.
 No release or tag was created.
+
+## Phase 14A integration boundary
+
+Phase 14A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** as an additive Atlas ontology, identity crosswalk, evidence vocabulary, conceptual endpoint audit, and relationship-term inventory. It represents 13 systems across Phases 1–13 without changing local identifiers or accepted/frozen scientific artifacts. `metadata/systems.yml` remains the historically scoped original water/materials registry and was not modified.
+
+The Phase 13B conceptual endpoint audit records 0 exact, 34 system-level, 2 retained generalized-interface, and 0 unresolved endpoint occurrences across 25 of 36 dependency rows. A system-level mapping is interpretive and does not replace an `EXT-*` or `REF-*` token. Relationship terms remain an inventory only; detailed edge normalization is deferred to Phase 14B.
+
+Phase 14B is **APPROVED SCOPE / NOT IMPLEMENTED** and Phase 15 is **NOT IMPLEMENTED**. Active phase: **NONE**. Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording and Phase 3A missing-manifest-status maintenance remain unchanged. No release or tag was created.

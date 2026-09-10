@@ -1,0 +1,362 @@
+version: "0.1"
+registry_id: atlas_systems_phase14a
+registry_status: additive_atlas_facing_registry
+source_metadata:
+  existing_registry: metadata/systems.yml
+  disposition: historically_scoped_original_water_materials_registry_not_modified
+  reason: The existing registry is useful source context but does not represent the later Phase 3–13 system packages.
+namespace_rules:
+  system_id_prefix: SYS-
+  entity_id_prefix: ENT-
+  retained_external_prefix: EXT-
+  retained_reference_prefix: REF-
+  relationship_id_prefix: REL-
+  source_phase_namespace: phase<phase>.<artifact_stem>
+  generation: deterministic_uppercase_slug_of_system_and_local_id
+  local_ids: never_renumbered_or_replaced
+  exact_identity: source_artifact_and_local_identifier_must_match
+  system_mapping: interpretive_system_level_mapping_must_be_labelled
+  external_mapping: retained_EXT_or_REF_identifier_is_not_a_physical_node
+systems:
+  - system_id: SYS-WATER
+    preferred_label: Water / Hydrology
+    atlas_display_label: Water & Hydrology
+    aliases: [water, hydrology, hydrography, drinking water, watershed, Maumee–Lake Erie water system]
+    broad_system_family: natural_environment
+    originating_phases: ["1"]
+    canonical_status: COMPLETE / VALIDATED
+    primary_tables:
+      - data/processed/networks/water_system_nodes.csv
+      - data/processed/networks/water_system_edges.csv
+      - data/processed/networks/huc12_routing_current.csv
+      - data/processed/glasspunk_base.gpkg
+    principal_maps: [01_water_baseline_2026, 02_maumee_nutrient_network, 03_black_swamp_drainage_system, 04_lake_erie_hab_intake_dependency, 05_water_system_2050_scenario]
+    temporal_basis: 2026 factual/qualified water and hydrography context with earlier v0.1 and separate 2050 scenario products
+    baseline_scenario_distinction: Historical v0.1 and current qualified hydrography remain distinct; fictional future objects remain separate.
+    provenance_pointer: PROJECT_STATUS.md; docs/canon_status.md; reports/water_system_phase1_handoff.md
+  - system_id: SYS-MATERIALS
+    preferred_label: Geology / Minerals / Strategic Materials
+    atlas_display_label: Geology, Minerals & Materials
+    aliases: [materials, geology, minerals, carbonate, beryllium, remediation, industrial materials]
+    broad_system_family: production_resources
+    originating_phases: [2A, 2B, 2C, 2D]
+    canonical_status: COMPLETE / VALIDATED
+    primary_tables:
+      - data/processed/networks/materials_system_nodes.csv
+      - data/processed/networks/materials_system_edges.csv
+      - data/processed/networks/materials_system_sources.csv
+      - data/processed/history/materials_exposure_events.csv
+      - data/processed/scenarios/materials_nodes_scenario.csv
+      - data/processed/scenarios/materials_edges_scenario.csv
+    principal_maps: [06_geology_resources_2026, 07_carbonate_materials_system, 08_beryllium_strategic_supply_chain, 09_luckey_elmore_materials_exposure_history, 10_materials_system_2050, 10b_materials_system_2075]
+    temporal_basis: 2026 factual/qualified resource, processing, historical/remediation, and separate 2050/2075 qualitative futures
+    baseline_scenario_distinction: Local extraction, nonlocal processing, legacy remediation, and future deltas remain distinct.
+    provenance_pointer: PROJECT_STATUS.md; docs/canon_status.md; reports/materials_system_qa.md
+  - system_id: SYS-ENERGY
+    preferred_label: Energy / Grid / Compute
+    atlas_display_label: Energy, Grid & Compute
+    aliases: [energy, electricity, grid, generation, storage, compute, critical loads]
+    broad_system_family: infrastructure_technology
+    originating_phases: [3A, 3B, 3C]
+    canonical_status: ACCEPTED / FROZEN baseline; ACCEPTED / VALIDATED futures
+    primary_tables:
+      - data/processed/networks/energy_system_nodes.csv
+      - data/processed/networks/energy_system_edges.csv
+      - data/processed/networks/energy_dependency_nodes.csv
+      - data/processed/networks/energy_dependency_edges.csv
+      - data/processed/scenarios/energy_nodes_scenario.csv
+      - data/processed/scenarios/energy_edges_scenario.csv
+    principal_maps: [11_energy_grid_compute_baseline_2026, 12_critical_energy_dependencies_2026, 13_energy_grid_compute_futures_2050, 13b_energy_grid_compute_futures_2075]
+    temporal_basis: 2026 accepted/frozen baseline and qualitative 2050/2075 scenario deltas
+    baseline_scenario_distinction: No power-flow, outage probability, route, or precise future capacity is represented.
+    provenance_pointer: PROJECT_STATUS.md; reports/phase3a_freeze_manifest.json; reports/phase3b_freeze_manifest.json
+  - system_id: SYS-DATA
+    preferred_label: Data / Sensors / Observation & Decision Infrastructure
+    atlas_display_label: Data, Sensors & Decision
+    aliases: [data, sensors, observation, information, decision infrastructure, public information]
+    broad_system_family: infrastructure_technology
+    originating_phases: [4A, 4B, 4C]
+    canonical_status: ACCEPTED / FROZEN
+    primary_tables:
+      - data/processed/networks/observation_system_nodes.csv
+      - data/processed/networks/observation_system_edges.csv
+      - data/processed/networks/information_dependency_edges.csv
+      - data/processed/analysis/information_blind_spots.csv
+      - data/processed/analysis/decision_authority_matrix.csv
+    principal_maps: [14_observation_decision_system_2026, 15_information_dependencies_governance_2026, 16_information_governance_futures_2050, 16b_information_governance_futures_2075]
+    temporal_basis: 2026 accepted/frozen observation and information layers with separate 2050/2075 scenario deltas
+    baseline_scenario_distinction: Public observation and decision interfaces remain distinct from automated control, cyber topology, and legal authority.
+    provenance_pointer: PROJECT_STATUS.md; reports/phase4b_information_freeze_manifest.json; reports/phase4c_information_freeze_manifest.json
+  - system_id: SYS-FREIGHT
+    preferred_label: Freight / Industry / Material Flows
+    atlas_display_label: Freight, Industry & Material Flows
+    aliases: [freight, industry, logistics, transport corridors, port, rail, highway, food system interface]
+    broad_system_family: production_logistics
+    originating_phases: [5A, 5B, 5C]
+    canonical_status: ACCEPTED / FROZEN
+    primary_tables:
+      - data/processed/networks/freight_system_nodes.csv
+      - data/processed/networks/freight_system_edges.csv
+      - data/processed/networks/freight_evidence_relationships.csv
+      - data/processed/networks/freight_dependency_edges.csv
+      - data/processed/analysis/freight_evidence_crosswalk.csv
+      - data/processed/analysis/freight_dependency_register.csv
+    principal_maps: [17_freight_industry_material_flows_2026, 18_freight_evidence_interchange_2026, 19_freight_dependencies_critical_interfaces_2026]
+    temporal_basis: 2026 factual/qualified freight, industrial, interchange, and dependency context
+    baseline_scenario_distinction: Documented corridors and generalized interfaces are not shipment quantities, exact routes, or future flows.
+    provenance_pointer: PROJECT_STATUS.md; reports/phase5a_freight_freeze_manifest.json; reports/phase5c_freight_dependency_freeze_manifest.json
+  - system_id: SYS-ECOLOGY
+    preferred_label: Ecology / Biodiversity
+    atlas_display_label: Ecology & Biodiversity
+    aliases: [ecology, biodiversity, wetlands, floodplain, habitat, migratory function, disturbance]
+    broad_system_family: natural_environment
+    originating_phases: [6A, 6B, 6C]
+    canonical_status: ACCEPTED / FROZEN in current status surfaces; Phase 6B manifest wording mismatch retained
+    primary_tables:
+      - data/processed/networks/ecology_system_nodes.csv
+      - data/processed/networks/ecology_system_edges.csv
+      - data/processed/networks/ecology_dependency_edges.csv
+      - data/processed/analysis/ecological_indicators_2026.csv
+      - data/processed/analysis/ecological_disturbance_register.csv
+      - data/processed/scenarios/ecology_nodes_scenario.csv
+    principal_maps: [20_ecological_system_2026, 21_ecological_dependencies_disturbances_2026, 22_ecological_futures_2050, 22b_ecological_futures_2075]
+    temporal_basis: 2026 factual/qualitative ecology and separate 2050/2075 scenarios
+    baseline_scenario_distinction: Great Black Swamp candidate geometry remains held and noncanonical; no future species range or abundance surface is created.
+    provenance_pointer: PROJECT_STATUS.md; docs/canon_status.md; reports/phase6b_ecological_dependency_freeze_manifest.json
+  - system_id: SYS-EXPOSURE
+    preferred_label: Exposure / Environmental Health
+    atlas_display_label: Exposure & Environmental Health
+    aliases: [exposure, environmental health, pathways, monitoring, controls, receptor context]
+    broad_system_family: health_environment
+    originating_phases: [7A, 7B, 7C]
+    canonical_status: ACCEPTED / FROZEN
+    primary_tables:
+      - data/processed/networks/exposure_context_nodes.csv
+      - data/processed/networks/exposure_pathway_edges.csv
+      - data/processed/networks/exposure_dependency_edges.csv
+      - data/processed/analysis/exposure_pathway_register.csv
+      - data/processed/analysis/exposure_evidence_crosswalk.csv
+      - data/processed/analysis/exposure_control_register.csv
+    principal_maps: [23_environmental_exposure_context_2026, 24_exposure_dependencies_controls_2026, 25_environmental_health_futures_2050, 25b_environmental_health_futures_2075]
+    temporal_basis: 2026 bounded exposure context and separate qualitative 2050/2075 scenario layer
+    baseline_scenario_distinction: Environmental presence, potential pathway, documented exposure, dose, and health outcome remain separate; no individual exposure or dose is asserted.
+    provenance_pointer: PROJECT_STATUS.md; reports/phase7b_exposure_dependencies_controls_freeze_manifest.json; reports/phase7c_environmental_health_futures_freeze_manifest.json
+  - system_id: SYS-BIOGEOCHEMISTRY
+    preferred_label: Nutrients / Biogeochemistry
+    atlas_display_label: Nutrients & Biogeochemistry
+    aliases: [biogeochemistry, nutrients, phosphorus, nitrogen, carbon, runoff, wastewater, HAB context]
+    broad_system_family: natural_environment
+    originating_phases: [8A, 8B, 8C]
+    canonical_status: ACCEPTED / FROZEN
+    primary_tables:
+      - data/processed/networks/biogeochemical_system_nodes.csv
+      - data/processed/networks/biogeochemical_flux_edges.csv
+      - data/processed/networks/biogeochemical_dependency_edges.csv
+      - data/processed/analysis/biogeochemical_quantitative_fluxes.csv
+      - data/processed/analysis/biogeochemical_control_register.csv
+      - data/processed/scenarios/biogeochemical_nodes_scenario.csv
+    principal_maps: [26_biogeochemical_nutrient_flux_system_2026, 27_biogeochemical_dependencies_controls_2026, 28_biogeochemical_futures_2050, 28b_biogeochemical_futures_2075]
+    temporal_basis: 2026 factual/contextual nutrient layer and separate qualitative 2050/2075 futures
+    baseline_scenario_distinction: Observed/contextual records, controls, targets, and qualitative scenarios are not combined into predicted loads or HAB forecasts.
+    provenance_pointer: PROJECT_STATUS.md; reports/phase8a_biogeochemical_nutrient_flux_freeze_manifest.json
+  - system_id: SYS-CLIMATE
+    preferred_label: Climate / Natural Hazards
+    atlas_display_label: Climate & Natural Hazards
+    aliases: [climate, hazards, heat, precipitation, drought, lake level, flooding, storms, winter hazards]
+    broad_system_family: natural_environment
+    originating_phases: [9A, 9B, 9C]
+    canonical_status: ACCEPTED / FROZEN
+    primary_tables:
+      - data/processed/networks/climate_hazard_nodes.csv
+      - data/processed/networks/climate_hazard_edges.csv
+      - data/processed/networks/climate_hazard_dependency_edges.csv
+      - data/processed/analysis/climate_hazard_observations.csv
+      - data/processed/analysis/climate_hazard_dependency_register.csv
+      - data/processed/scenarios/climate_scenario_hazard_states.csv
+    principal_maps: [29_climate_natural_hazards_2026, 30_climate_hazard_dependencies_resilience_2026, 31_climate_hazard_futures_2050, 31b_climate_hazard_futures_2075]
+    temporal_basis: 2026 factual observations/context and qualitative 2050/2075 projection/scenario envelopes
+    baseline_scenario_distinction: Station, county, watershed, shoreline, and regional scales remain distinct; no composite hazard score or deterministic surface is created.
+    provenance_pointer: PROJECT_STATUS.md; reports/phase9a_climate_natural_hazards_freeze_manifest.json; reports/phase9c_climate_hazard_futures_freeze_manifest.json
+  - system_id: SYS-GOVERNANCE
+    preferred_label: Governance / Jurisdiction
+    atlas_display_label: Governance & Jurisdiction
+    aliases: [governance, jurisdiction, authority, coordination, regulation, ownership, public/private roles]
+    broad_system_family: institutional_human
+    originating_phases: [10A, 10B, 10C]
+    canonical_status: ACCEPTED / FROZEN
+    primary_tables:
+      - data/processed/analysis/governance_actors.csv
+      - data/processed/analysis/governance_authorities.csv
+      - data/processed/networks/governance_relationships.csv
+      - data/processed/networks/governance_dependency_edges.csv
+      - data/processed/analysis/governance_dependency_register.csv
+      - data/processed/scenarios/governance_actor_states_scenario.csv
+    principal_maps: [32_governance_jurisdiction_2026, 33_cross_system_governance_dependencies_2026, 34_governance_futures_2050, 34b_governance_futures_2075]
+    temporal_basis: 2026 factual/qualitative institutional layer and separate qualitative 2050/2075 futures
+    baseline_scenario_distinction: Regulation, operation, ownership, monitoring, funding, advice, and science remain distinct; future coordination is not a legal forecast.
+    provenance_pointer: PROJECT_STATUS.md; reports/phase10a_governance_jurisdiction_freeze_manifest.json; reports/phase10c_governance_futures_freeze_manifest.json
+  - system_id: SYS-POPULATION
+    preferred_label: Population / Settlement / Mobility
+    atlas_display_label: Population, Settlement & Mobility
+    aliases: [population, settlement, housing, employment, commuting, mobility, residence, workplace]
+    broad_system_family: institutional_human
+    originating_phases: [11A, 11B, 11C]
+    canonical_status: ACCEPTED / FROZEN
+    primary_tables:
+      - data/processed/analysis/population_settlement_nodes.csv
+      - data/processed/analysis/population_settlement_observations.csv
+      - data/processed/networks/population_settlement_relationships.csv
+      - data/processed/analysis/population_mobility_observations.csv
+      - data/processed/networks/population_mobility_relationships.csv
+      - data/processed/analysis/population_system_dependency_register.csv
+      - data/processed/scenarios/population_settlement_future_states.csv
+    principal_maps: [35_population_settlement_2026, 36_population_mobility_dependencies_2026, 37_population_settlement_futures_2050, 37b_population_settlement_futures_2075]
+    temporal_basis: 2020 enumeration, 2024 estimates/ACS, mixed-vintage LODES context, and separate qualitative 2050/2075 scenarios
+    baseline_scenario_distinction: Population, households, housing units, workers, jobs, commuting, and migration remain distinct; no individual movement or utility territory is inferred.
+    provenance_pointer: PROJECT_STATUS.md; reports/phase11a_population_settlement_freeze_manifest.json; reports/phase11c_population_settlement_futures_freeze_manifest.json
+  - system_id: SYS-VECTOR-ECOLOGY
+    preferred_label: Vector Ecology
+    atlas_display_label: Vector Ecology
+    aliases: [vectors, mosquitoes, ticks, host ecology, standing water, vector surveillance]
+    broad_system_family: health_environment
+    originating_phases: [12A, 12B, 12C]
+    canonical_status: ACCEPTED / FROZEN
+    primary_tables:
+      - data/processed/networks/vector_ecology_nodes.csv
+      - data/processed/networks/vector_ecology_edges.csv
+      - data/processed/networks/vector_system_dependency_edges.csv
+      - data/processed/analysis/vector_surveillance_records.csv
+      - data/processed/analysis/vector_habitat_associations.csv
+      - data/processed/analysis/vector_system_dependency_register.csv
+      - data/processed/scenarios/vector_ecology_vector_states_scenario.csv
+    principal_maps: [38_vector_ecology_baseline_2026, 39_vector_environment_human_dependencies_2026, 40_vector_ecology_futures_2050, 40b_vector_ecology_futures_2075]
+    temporal_basis: 2026 surveillance/ecology context and separate qualitative 2050/2075 scenario states
+    baseline_scenario_distinction: Presence, abundance, pathogen detection, human contact, infection, and disease remain distinct; suitability is not future disease burden.
+    provenance_pointer: PROJECT_STATUS.md; reports/phase12a_vector_ecology_freeze_manifest.json; reports/phase12c_vector_ecology_futures_freeze_manifest.json
+  - system_id: SYS-INFECTIOUS-DISEASE
+    preferred_label: Infectious Disease Systems
+    atlas_display_label: Infectious Disease Systems
+    aliases: [infectious disease, disease surveillance, transmission interfaces, laboratory/reporting, healthcare/AMR]
+    broad_system_family: health_environment
+    originating_phases: [13A, 13B, 13C]
+    canonical_status: ACCEPTED / FROZEN
+    primary_tables:
+      - data/processed/networks/infectious_disease_nodes.csv
+      - data/processed/networks/infectious_disease_transmission_relationships.csv
+      - data/processed/networks/infectious_disease_dependency_edges.csv
+      - data/processed/analysis/infectious_disease_observations.csv
+      - data/processed/analysis/infectious_disease_surveillance.csv
+      - data/processed/analysis/infectious_disease_dependency_register.csv
+      - data/processed/scenarios/infectious_disease_transmission_states_scenario.csv
+    principal_maps: [41_infectious_disease_system_baseline_2026, 42_infectious_disease_transmission_dependencies_2026, 43_infectious_disease_system_futures_2050, 43b_infectious_disease_system_futures_2075]
+    temporal_basis: 2026 baseline/dependency layers and separate qualitative 2050/2075 scenario states
+    baseline_scenario_distinction: Pathogen presence, exposure, infection, reported case, local transmission, outbreak, and burden remain distinct; no future incidence or disease-risk score is created.
+    provenance_pointer: PROJECT_STATUS.md; reports/phase13a_infectious_disease_freeze_manifest.json; reports/phase13b_infectious_disease_dependencies_freeze_manifest.json; reports/phase13c_infectious_disease_futures_freeze_manifest.json
+identity_sources:
+  - system_id: SYS-WATER
+    source_phase: "1"
+    source_artifact: data/processed/networks/water_system_nodes.csv
+    id_field: feature_id
+    name_field: feature_name
+    entity_type: water_feature
+  - system_id: SYS-MATERIALS
+    source_phase: 2A-2C
+    source_artifact: data/processed/networks/materials_system_nodes.csv
+    id_field: node_id
+    name_field: name
+    entity_type: materials_node
+  - system_id: SYS-ENERGY
+    source_phase: 3A
+    source_artifact: data/processed/networks/energy_system_nodes.csv
+    id_field: node_id
+    name_field: name
+    entity_type: energy_node
+  - system_id: SYS-ENERGY
+    source_phase: 3B
+    source_artifact: data/processed/networks/energy_dependency_nodes.csv
+    id_field: node_id
+    name_field: name
+    entity_type: energy_dependency_interface
+  - system_id: SYS-DATA
+    source_phase: 4A
+    source_artifact: data/processed/networks/observation_system_nodes.csv
+    id_field: node_id
+    name_field: name
+    entity_type: observation_node
+  - system_id: SYS-FREIGHT
+    source_phase: 5A
+    source_artifact: data/processed/networks/freight_system_nodes.csv
+    id_field: node_id
+    name_field: name
+    entity_type: freight_node
+  - system_id: SYS-ECOLOGY
+    source_phase: 6A
+    source_artifact: data/processed/networks/ecology_system_nodes.csv
+    id_field: node_id
+    name_field: name
+    entity_type: ecology_node
+  - system_id: SYS-EXPOSURE
+    source_phase: 7A
+    source_artifact: data/processed/networks/exposure_context_nodes.csv
+    id_field: node_id
+    name_field: name
+    entity_type: exposure_context_node
+  - system_id: SYS-BIOGEOCHEMISTRY
+    source_phase: 8A
+    source_artifact: data/processed/networks/biogeochemical_system_nodes.csv
+    id_field: node_id
+    name_field: name
+    entity_type: biogeochemical_node
+  - system_id: SYS-CLIMATE
+    source_phase: 9A
+    source_artifact: data/processed/networks/climate_hazard_nodes.csv
+    id_field: node_id
+    name_field: name
+    entity_type: climate_hazard_node
+  - system_id: SYS-GOVERNANCE
+    source_phase: 10A
+    source_artifact: data/processed/analysis/governance_actors.csv
+    id_field: actor_id
+    name_field: name
+    entity_type: governance_actor
+  - system_id: SYS-GOVERNANCE
+    source_phase: 10A
+    source_artifact: data/processed/analysis/governance_authorities.csv
+    id_field: authority_id
+    name_field: authority_or_role
+    entity_type: governance_authority_role
+  - system_id: SYS-POPULATION
+    source_phase: 11A
+    source_artifact: data/processed/analysis/population_settlement_nodes.csv
+    id_field: node_id
+    name_field: name
+    entity_type: population_settlement_node
+  - system_id: SYS-VECTOR-ECOLOGY
+    source_phase: 12A
+    source_artifact: data/processed/networks/vector_ecology_nodes.csv
+    id_field: node_id
+    name_field: name
+    entity_type: vector_ecology_node
+  - system_id: SYS-INFECTIOUS-DISEASE
+    source_phase: 13A
+    source_artifact: data/processed/networks/infectious_disease_nodes.csv
+    id_field: node_id
+    name_field: name
+    entity_type: infectious_disease_node
+architecture:
+  figure_title: Western Basin Systems Architecture
+  figure_kind: conceptual_system_network_not_geographic_map
+  note: System-level interfaces are qualitative and non-proportional; line presence does not imply causal effect, measured flow, or risk.
+  interfaces:
+    - [SYS-CLIMATE, SYS-WATER, physical_environment_context, documented_plus_inferred]
+    - [SYS-WATER, SYS-BIOGEOCHEMISTRY, material_and_hydrologic_interface, documented_plus_inferred]
+    - [SYS-BIOGEOCHEMISTRY, SYS-ECOLOGY, ecological_condition_interface, documented_plus_inferred]
+    - [SYS-ECOLOGY, SYS-VECTOR-ECOLOGY, habitat_and_host_interface, documented_plus_inferred]
+    - [SYS-VECTOR-ECOLOGY, SYS-INFECTIOUS-DISEASE, transmission_opportunity_interface, inferred]
+    - [SYS-POPULATION, SYS-INFECTIOUS-DISEASE, aggregate_contact_and_surveillance_context, inferred]
+    - [SYS-DATA, SYS-GOVERNANCE, observation_to_decision_interface, documented_plus_inferred]
+    - [SYS-MATERIALS, SYS-FREIGHT, processing_and_logistics_interface, documented_plus_inferred]
+    - [SYS-FREIGHT, SYS-ENERGY, industrial_and_gateway_dependency, inferred]
+    - [SYS-ENERGY, SYS-DATA, continuity_and_operating_information, inferred]
+    - [SYS-GOVERNANCE, SYS-EXPOSURE, role_and_control_interface, documented_plus_inferred]
+    - [SYS-EXPOSURE, SYS-INFECTIOUS-DISEASE, environmental_health_boundary_context, intentionally_distinct]

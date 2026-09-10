@@ -1072,3 +1072,23 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Python and independent R package/freeze validation, strict provenance, Markdown, application tests/build, Git/LFS, and whitespace checks are acceptance gates for this run. No accepted artifact was regenerated or changed.
 - Final state: Phase 7A, 7B, and 7C are **ACCEPTED / FROZEN**; active phase: **NONE**; next analytical phase: **NOT APPROVED**. Next approved planning target: **Phase 14 — Systems Atlas Integration, Ontology, and Evidence Crosswalk**; Phase 14 is not implemented.
 - Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest status wording mismatch, Phase 3A missing manifest status, and the Phase 2A legacy worktree superseded cleanup candidate remain unchanged. No release or tag was created.
+
+## Phase 14A startup checkpoint — 2026-09-10
+
+- Starting synchronized `main` / `origin/main` SHA: `8e22300d32d30a489db38ac4bfadb5573a8eba34`.
+- Isolated worktree: `C:\\Projects\\Public_GitHub\\western-basin-worldbuilding-phase14a`; branch: `phase-14a-systems-atlas-integration`.
+- Approved scope: **MODIFIED PHASE 14A — Common Systems Ontology, Identity & Evidence Crosswalk** only.
+- Phase 14 overall and 14A/14B briefs are to be created early. Phase 14B is **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 15 is **NOT IMPLEMENTED**.
+- Protected boundary: accepted/frozen Phase 1–13 artifacts remain immutable; `metadata/systems.yml` is treated as the historically scoped original water/materials registry and will not be rewritten.
+- Confirmed current authoritative status: Phase 7A/7B/7C and Phase 13A/13B/13C are **ACCEPTED / FROZEN**; Active phase was **NONE** before this startup checkpoint.
+- Active holds: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing-manifest-status, and the Phase 2A legacy worktree remain untouched.
+- Next exact action: create the additive Phase 14 ontology, evidence vocabulary, identity/endpoint/relationship crosswalks, architecture figure, reports, deterministic builders, and Python/R validators without modifying prior packages.
+
+## Phase 14A final package and independent review checkpoint — 2026-09-10
+
+- Final builder regeneration completed after the post-validation builder/documentation edits. Two consecutive builder runs produced byte-identical Phase 14A outputs after the SVG text, family-legend, timestamp, and clip-path determinism corrections.
+- Final package counts: 13 ontology systems; 456 exact identity rows; 36 conceptual endpoint occurrences across 25 of 36 Phase 13B dependency rows; 0 exact, 34 system-level, 2 retained generalized/conceptual, and 0 unresolved endpoint occurrences; 367 relationship-inventory rows; eight evidence classes; and 17 local evidence mappings.
+- Final architecture figure QA passed: PNG signature valid at 1892 × 1414 pixels; SVG XML parsed; title, conceptual/non-geographic caveat, all 13 system labels, six family labels, and relationship caveats are present as readable SVG text.
+- Authoritative Python validation passed; independent base-R validation passed; prior freeze integrity passed with 488 manifest entries / 479 unique protected paths. Markdown links passed (324 links), Git LFS status/fsck passed, npm tests passed (22 tests), and the TypeScript/Vite build passed.
+- Fresh bounded independent review `deleg_aa6daf99` returned **passed: true** with all blocking arrays empty. The exact preserved review record is `reports/phase14a_independent_review.md`; its nonblocking suggestions were not applied.
+- Phase 14A is ready for the normal feature commit, feature push, main integration, and synchronization readback. Phase 14B remains **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 15 remains **NOT IMPLEMENTED**; Active phase: **NONE**.

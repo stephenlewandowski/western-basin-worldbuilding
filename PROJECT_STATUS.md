@@ -687,4 +687,16 @@ Independent Python and R freeze validation is required for both new manifests. P
 
 Final state: Phase 7A, 7B, and 7C are **ACCEPTED / FROZEN**; Active phase: **NONE**; next analytical phase: **NOT APPROVED**. Next approved planning target: **Phase 14 — Systems Atlas Integration, Ontology, and Evidence Crosswalk** (planning target only; not implemented). The contamination/exposure, exposure/dose, dose/illness, dependency/risk, monitoring/regulation, and scenario/forecast boundaries remain unchanged.
 
-Great Black Swamp remains **C — HOLD / noncanonical**. The Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred maintenance remains unchanged: Phase 6B manifest status wording mismatch, Phase 3A missing manifest status, and the Phase 2A legacy worktree remains a superseded cleanup candidate. No release or tag was created.
+- Great Black Swamp remains **C — HOLD / noncanonical**. The Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred maintenance remains unchanged: Phase 6B manifest status wording mismatch, Phase 3A missing manifest status, and the Phase 2A legacy worktree remains a superseded cleanup candidate. No release or tag was created.
+
+## PHASE 14A — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+
+**Common Systems Ontology, Identity & Evidence Crosswalk**
+
+Phase 14A is the additive interoperability layer for the accepted Phases 1–13. It does not add a new environmental or health domain, rewrite local phase identifiers, normalize all edges, or consolidate the repository into a monolithic GeoPackage. The historically scoped `metadata/systems.yml` registry remains unchanged.
+
+The package contains an Atlas-facing ontology for **13 represented systems**, **456** exact local-entity identity rows, **36** Phase 13B conceptual endpoint occurrences across **25 of 36** dependency rows, **367** relationship-vocabulary inventory rows, an eight-class evidence vocabulary, and the conceptual `Western Basin Systems Architecture` figure. Phase 13B `EXT-*`/`REF-*` endpoints remain visible: **0** exact resolutions, **34** system-level mappings, **2** retained generalized interfaces, and **0** unresolved occurrences. These are endpoint-occurrence counts, not replacement or merge counts.
+
+Python and independent base-R validation passed. The fresh bounded independent review is preserved at `reports/phase14a_independent_review.md` with `passed: true` and all blocking arrays empty. Prior freeze-manifest integrity passed with **488** manifest entries covering **479** unique protected paths under text newline-portable and binary raw-byte checks. No accepted/frozen artifact or prior manifest was modified. Phase 14B remains **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 15 remains **NOT IMPLEMENTED**. Active phase: **NONE**.
+
+Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing-manifest-status, and the Phase 2A legacy worktree remain unchanged. No release or tag was created.

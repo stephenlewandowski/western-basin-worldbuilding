@@ -1,0 +1,110 @@
+{
+  "artifacts": {
+    "data/processed/integration/external_endpoint_crosswalk.csv": {
+      "bytes": 19040,
+      "sha256": "e18d231b73c84a9945a7394bd78ebb56e45d9e34d33593e94b52c05820816079"
+    },
+    "data/processed/integration/relationship_taxonomy_inventory.csv": {
+      "bytes": 123148,
+      "sha256": "928bf96759b16d82b8d838b5be13c6c9de43a60d0af70c818dc671e7a3d6ecce"
+    },
+    "data/processed/integration/system_identity_crosswalk.csv": {
+      "bytes": 146044,
+      "sha256": "c3dfae325af83bca9cc5a251df6a80f8b7b7f48b93c62ae173fb64f235841b16"
+    },
+    "docs/phase_briefs/phase14_systems_atlas_integration.md": {
+      "bytes": 2526,
+      "sha256": "0d4bb8339a314990eee5b96a577d740486c24074e327758a25558b578a73ae31"
+    },
+    "docs/phase_briefs/phase14a_common_systems_ontology_identity_evidence_crosswalk.md": {
+      "bytes": 2508,
+      "sha256": "a78f10ba1a735c41c7b648ab91d030b11c259f0d21ac6ab2e59c220ba982ac65"
+    },
+    "docs/phase_briefs/phase14b_atlas_layer_registry_cross_system_dependency_normalization.md": {
+      "bytes": 1039,
+      "sha256": "556d277f9a7a2c3e13430c701908e472e585e1ad749917c4055373bafe8dfc1e"
+    },
+    "metadata/atlas_evidence_vocabulary.yml": {
+      "bytes": 8823,
+      "sha256": "24bf15c799234f785ef94cf374f921eed0327211e56caedee9b1fe244a1050df"
+    },
+    "metadata/atlas_systems.yml": {
+      "bytes": 23057,
+      "sha256": "ca668ad427fbe990ee15d1d729e28e4b0e170a9bfc6b8404ea93313e4e4f5ef2"
+    },
+    "outputs/figures/western_basin_systems_architecture.png": {
+      "bytes": 181919,
+      "sha256": "1ee8daa04ca1b413346e316d1f4112eb1ba32ccdf1de68a5846996e1488c1adb"
+    },
+    "outputs/figures/western_basin_systems_architecture.svg": {
+      "bytes": 25245,
+      "sha256": "08ca6dc05fff078cbdb90cb5a458210ad724d80d3e89115e762e71eb61c38147"
+    },
+    "reports/phase14a_build_summary.json": {
+      "bytes": 529,
+      "sha256": "430e1be05e596a2372757fba9f29738bc36ccc97d8054d3c44ee9e19ecc8c8a2"
+    },
+    "reports/phase14a_evidence_crosswalk.md": {
+      "bytes": 2924,
+      "sha256": "60f277ceb31054bafdee907a84a052251fb20365150fcb43993cf52389623c4c"
+    },
+    "reports/phase14a_identity_crosswalk.md": {
+      "bytes": 838,
+      "sha256": "383f3cd7c2b981e23be83a0d4a0f7bfdf998bbce0deff53a09642b17a62d4faa"
+    },
+    "reports/phase14a_integration_qa.md": {
+      "bytes": 1108,
+      "sha256": "5707bd5d7602e702bc879832a3959214e046265086885474c0a7e40ce6d5639f"
+    },
+    "reports/phase14a_relationship_taxonomy.md": {
+      "bytes": 1513,
+      "sha256": "db0d60fec8857e8fbddd05e40957cdae27752b9fe30bcdf6e8bae02a7d3aafc8"
+    },
+    "reports/phase14a_systems_ontology.md": {
+      "bytes": 2238,
+      "sha256": "701891a6a4dad201f631a9a5ae9fab5f78958aba73be004bd3d15f102ba7e4b1"
+    },
+    "src/R/systems/validate_phase14a_integration.R": {
+      "bytes": 15951,
+      "sha256": "4853ffd967be2d94ba8017a1e0ea37bf5c04a31b551deaf0fa23b8d07b2527ce"
+    },
+    "src/python/systems/build_phase14a_integration.py": {
+      "bytes": 29612,
+      "sha256": "45543d7a28cdd47ae5cdc71c9ecf8baacf40574a0c6294c04c3899973e592ab4"
+    },
+    "src/python/systems/validate_phase14a_integration.py": {
+      "bytes": 18919,
+      "sha256": "6efae9f1e16648debbe5ec4633c3074bc072fbb6ed2577e9c69a067845f86374"
+    }
+  },
+  "counts": {
+    "conceptual_dependency_rows": 25,
+    "endpoint_rows": 36,
+    "evidence_classes": 8,
+    "evidence_mappings": 17,
+    "figure": {
+      "interfaces": 12,
+      "png": "outputs/figures/western_basin_systems_architecture.png",
+      "svg": "outputs/figures/western_basin_systems_architecture.svg",
+      "systems": 13
+    },
+    "identity_rows": 456,
+    "relationship_rows": 367,
+    "resolved_exact": 0,
+    "resolved_system_level": 34,
+    "retained_conceptual": 2,
+    "systems": 13,
+    "total_dependencies": 36,
+    "unresolved": 0
+  },
+  "exclusions": [
+    "Phase 14B",
+    "Phase 15",
+    "monolithic GeoPackage",
+    "accepted/frozen artifact modification"
+  ],
+  "phase": "14A",
+  "scope": "Common Systems Ontology, Identity & Evidence Crosswalk",
+  "source_commit": "8e22300d32d30a489db38ac4bfadb5573a8eba34",
+  "status": "IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE"
+}

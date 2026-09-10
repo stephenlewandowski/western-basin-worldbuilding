@@ -1,0 +1,158 @@
+version: "0.1"
+registry_id: atlas_evidence_vocabulary_phase14a
+purpose: Atlas-facing evidence/status crosswalk; local terms remain visible and are not treated as synonyms by default.
+normalized_classes:
+  - class_id: OBSERVED_DOCUMENTED
+    preferred_label: Observed / documented
+    meaning: Direct observation, documented record, authoritative program record, or explicitly documented relationship at the source scale.
+    preserves: [source observation, documented fact, native scale, temporal basis]
+    lost_or_caveat: A single class does not distinguish a measurement from a legal/program record; local evidence field and source role must remain visible.
+  - class_id: DERIVED_CALCULATED
+    preferred_label: Derived / calculated
+    meaning: Value calculated or transformed from documented observations or administrative inputs.
+    preserves: [derivation status, input provenance, method requirement]
+    lost_or_caveat: The normalized class does not encode formula, denominator, completeness, or uncertainty; those remain in the local artifact.
+  - class_id: INFERRED
+    preferred_label: Inferred
+    meaning: Project interpretation or system relationship not directly documented as the full local claim.
+    preserves: [interpretive status, source/basis pointer, uncertainty requirement]
+    lost_or_caveat: The class does not distinguish physical plausibility, accepted-layer reuse, or analytical reasoning; basis and notes remain required.
+  - class_id: CONTEXT_REUSED
+    preferred_label: Reused context
+    meaning: Accepted or documented context reused from another system or phase without importing its claim as a new observation.
+    preserves: [source phase, source artifact, reuse boundary]
+    lost_or_caveat: Reuse can look like independent evidence if source identity is hidden; duplicate-evidence inflation is prohibited.
+  - class_id: SCENARIO_ASSUMPTION
+    preferred_label: Scenario assumption
+    meaning: Explicit premise used to construct a qualitative future state.
+    preserves: [horizon, scenario family, assumption identity, fictional/qualitative status]
+    lost_or_caveat: Normalization cannot express plausibility or scenario mechanics; assumption and horizon fields remain mandatory.
+  - class_id: SCENARIO_STATE
+    preferred_label: Scenario consequence / state
+    meaning: Qualitative future state or consequence produced within a named scenario, not an observation or forecast.
+    preserves: [scenario family, horizon, consequence/state distinction, basis]
+    lost_or_caveat: The class can conceal whether the row is a delta, state, or comparison unless local field names remain available.
+  - class_id: UNRESOLVED
+    preferred_label: Unresolved
+    meaning: Evidence or identity question remains open; absence of resolution is not absence of the entity or effect.
+    preserves: [open question, uncertainty, source gap, required follow-up]
+    lost_or_caveat: Normalization does not indicate whether the issue is geographic, provenance, status, or substantive evidence uncertainty.
+  - class_id: NONCANONICAL_HOLD
+    preferred_label: Noncanonical / hold
+    meaning: Candidate or interpretation is explicitly retained outside current canon pending a human or source decision.
+    preserves: [hold decision, candidate status, noncanonical boundary]
+    lost_or_caveat: A compact class can hide the reason for the hold; the exact hold text and artifact pointer remain mandatory.
+mappings:
+  - local_field: observed_or_modeled
+    local_term: observed
+    normalized_class: OBSERVED_DOCUMENTED
+    status_dimension: evidence_status
+    preserves: Observed record remains distinct from derived or modeled value.
+    information_lost_or_caveat: Method, completeness, and unit remain local fields.
+  - local_field: relationship_basis
+    local_term: documented
+    normalized_class: OBSERVED_DOCUMENTED
+    status_dimension: evidence_basis
+    preserves: Relationship is represented as documented at its stated scale.
+    information_lost_or_caveat: Does not make every endpoint or consequence documented.
+  - local_field: evidence_status
+    local_term: documented_program
+    normalized_class: OBSERVED_DOCUMENTED
+    status_dimension: evidence_status
+    preserves: Program record is documented.
+    information_lost_or_caveat: Program authority and outcome are not implied.
+  - local_field: evidence_status
+    local_term: documented_surveillance
+    normalized_class: OBSERVED_DOCUMENTED
+    status_dimension: evidence_status
+    preserves: Surveillance record is documented.
+    information_lost_or_caveat: Surveillance is not incidence, absence, or disease burden.
+  - local_field: canon_status
+    local_term: verified
+    normalized_class: OBSERVED_DOCUMENTED
+    status_dimension: canon_status
+    preserves: Canonical acceptance/verification label remains separately identifiable.
+    information_lost_or_caveat: Verified is not synonymous with a direct observation; source and evidence fields remain required.
+  - local_field: observed_or_modeled
+    local_term: derived from observed
+    normalized_class: DERIVED_CALCULATED
+    status_dimension: evidence_status
+    preserves: Derived value retains observed inputs as lineage.
+    information_lost_or_caveat: Formula and aggregation are not carried by the class alone.
+  - local_field: notes
+    local_term: derived ratio
+    normalized_class: DERIVED_CALCULATED
+    status_dimension: derivation_note
+    preserves: Derived value is not a block-level observation.
+    information_lost_or_caveat: Exact numerator, denominator, and geography remain in the source artifact.
+  - local_field: canon_status
+    local_term: inferred
+    normalized_class: INFERRED
+    status_dimension: canon_status
+    preserves: Interpretation is not promoted to verified fact.
+    information_lost_or_caveat: Inference basis and confidence remain local fields.
+  - local_field: documented_or_inferred
+    local_term: inferred
+    normalized_class: INFERRED
+    status_dimension: evidence_status
+    preserves: Inferred relationship remains distinct from documented relationship.
+    information_lost_or_caveat: No causal or risk meaning is added.
+  - local_field: documented_or_inferred
+    local_term: reused_context
+    normalized_class: CONTEXT_REUSED
+    status_dimension: evidence_status
+    preserves: Reused context is not counted as a new observation.
+    information_lost_or_caveat: Exact inherited source role must remain in provenance.
+  - local_field: relationship_basis
+    local_term: accepted_layer_plus_project_inference
+    normalized_class: INFERRED
+    status_dimension: evidence_basis
+    preserves: Accepted input and project interpretation remain conceptually separate.
+    information_lost_or_caveat: The normalized class is not a direct fact or causal estimate.
+  - local_field: classification
+    local_term: SCENARIO ASSUMPTION
+    normalized_class: SCENARIO_ASSUMPTION
+    status_dimension: reality_status
+    preserves: Future premise remains separate from factual baseline.
+    information_lost_or_caveat: Scenario family, horizon, and assumption ID remain mandatory.
+  - local_field: classification
+    local_term: SCENARIO CONSEQUENCE
+    normalized_class: SCENARIO_STATE
+    status_dimension: reality_status
+    preserves: Future consequence/state is not treated as observation.
+    information_lost_or_caveat: Consequence mechanism and uncertainty remain local.
+  - local_field: status
+    local_term: scenario
+    normalized_class: SCENARIO_STATE
+    status_dimension: reality_status
+    preserves: Scenario row remains separate from factual row.
+    information_lost_or_caveat: A generic scenario label does not identify assumption versus state.
+  - local_field: evidence_class
+    local_term: unresolved
+    normalized_class: UNRESOLVED
+    status_dimension: evidence_status
+    preserves: Open evidence question remains open.
+    information_lost_or_caveat: The reason and requested resolution remain local notes.
+  - local_field: uncertainty_category
+    local_term: existing_hold
+    normalized_class: NONCANONICAL_HOLD
+    status_dimension: canon_status
+    preserves: Existing hold remains active.
+    information_lost_or_caveat: Hold text and candidate geometry/reference remain required.
+  - local_field: notes
+    local_term: C — HOLD / noncanonical
+    normalized_class: NONCANONICAL_HOLD
+    status_dimension: canon_status
+    preserves: Great Black Swamp hold remains visible.
+    information_lost_or_caveat: Exact human decision and geometry disposition must remain in the source canon record.
+explicit_non_equivalences:
+  - [fact, inference]
+  - [fact, scenario_assumption]
+  - [fact, scenario_state]
+  - [observation, derived_value]
+  - [dependency, risk]
+  - [association, causation]
+  - [surveillance, incidence]
+  - [contamination, exposure]
+  - [exposure, dose]
+  - [dose, illness]

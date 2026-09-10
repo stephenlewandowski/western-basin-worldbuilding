@@ -1,0 +1,20 @@
+{
+  "conceptual_dependency_rows": 25,
+  "endpoint_rows": 36,
+  "evidence_classes": 8,
+  "evidence_mappings": 17,
+  "figure": {
+    "interfaces": 12,
+    "png": "outputs/figures/western_basin_systems_architecture.png",
+    "svg": "outputs/figures/western_basin_systems_architecture.svg",
+    "systems": 13
+  },
+  "identity_rows": 456,
+  "relationship_rows": 367,
+  "resolved_exact": 0,
+  "resolved_system_level": 34,
+  "retained_conceptual": 2,
+  "systems": 13,
+  "total_dependencies": 36,
+  "unresolved": 0
+}
