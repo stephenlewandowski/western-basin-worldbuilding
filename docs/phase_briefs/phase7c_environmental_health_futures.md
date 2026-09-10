@@ -1,6 +1,6 @@
 # Phase 7C — Environmental Health Futures, 2050 / 2075
 
-Status: approved scenario execution brief; separate qualitative future layer over validated Phase 7B working baseline.
+Status: ACCEPTED / FROZEN; final freeze manifest: `reports/phase7c_environmental_health_futures_freeze_manifest.json`.
 
 Model six states: A2050, A2075, B2050, B2075, C2050, C2075. 2026 remains factual anchor. Scenario A is Preventive Environmental Health Infrastructure; B is Managed Exposure Landscape; C is Compound Environmental Stress. Model environmental conditions, pathway opportunity, monitoring, treatment, controls, advisories, institutional capacity, data integration, and uncertainty only.
 

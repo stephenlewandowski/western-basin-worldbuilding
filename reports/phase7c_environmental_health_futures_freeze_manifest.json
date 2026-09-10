@@ -1,0 +1,195 @@
+{
+  "accepted_phase": "7C",
+  "baseline": "Environmental Health Futures, 2050 / 2075",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-10",
+  "source_commit": "39d9c97ebab0dad736188a320dc037a602e5f594",
+  "acceptance_basis": "Sol formally accepted and froze the validated Phase 7C qualitative environmental-health futures package after independent Python/R validation, Phase 7A and Phase 7B freeze-integrity verification, prior-system immutability verification, and the final bounded independent review passing with all blocking arrays empty.",
+  "counts": {
+    "assumptions": 36,
+    "scenario_nodes": 30,
+    "scenario_edges": 30,
+    "control_states": 30,
+    "uncertainty_states": 30,
+    "comparison_rows": 6
+  },
+  "phase7a_freeze_manifest": {
+    "path": "reports/phase7a_exposure_environmental_health_freeze_manifest.json",
+    "sha256": "40be9755bdd87ae08f74bd2eb9d05a6ac0096be826318461fac9e9c52be76cc6",
+    "bytes": 1358,
+    "role": "protected final freeze input manifest"
+  },
+  "phase7b_freeze_manifest": {
+    "path": "reports/phase7b_exposure_dependencies_controls_freeze_manifest.json",
+    "sha256": "a655316714bbe3a6a7d9beac5596664d8f71d58be2b70eecc643b1e582e5e385",
+    "bytes": 7019,
+    "role": "protected final freeze input manifest"
+  },
+  "protected_inputs": [
+    "reports/phase7a_exposure_environmental_health_freeze_manifest.json",
+    "reports/phase7b_exposure_dependencies_controls_freeze_manifest.json"
+  ],
+  "artifacts": {
+    "data/processed/scenarios/environmental_health_scenario_assumptions.csv": {
+      "sha256": "cf3aec098a5d10bc03329cffcb3063f61fb9c069716e8157cc7ebdab1dd8cfdd",
+      "bytes": 12956,
+      "role": "Phase 7C accepted analytical artifact"
+    },
+    "data/processed/scenarios/exposure_nodes_scenario.csv": {
+      "sha256": "5ec56769eeb90cfa48ec145719b0e74efac23e8bd0b7a5beb008055134feee07",
+      "bytes": 7311,
+      "role": "Phase 7C accepted analytical artifact"
+    },
+    "data/processed/scenarios/exposure_edges_scenario.csv": {
+      "sha256": "b489bb53104a985917109b523847b52779c12bf491421ec1458b8143cd83a216",
+      "bytes": 7290,
+      "role": "Phase 7C accepted analytical artifact"
+    },
+    "data/processed/scenarios/exposure_controls_scenario.csv": {
+      "sha256": "4f8d7b16ac9e1458862a4d803b54038c77d13addf85e33fce2f2917c46bd6ecf",
+      "bytes": 4792,
+      "role": "Phase 7C accepted analytical artifact"
+    },
+    "data/processed/scenarios/exposure_uncertainty_scenario.csv": {
+      "sha256": "e25f61cecb6f966d159f4c17b7390f7e5aa7e6a1076034a9bc8671066d1cd259",
+      "bytes": 6083,
+      "role": "Phase 7C accepted analytical artifact"
+    },
+    "outputs/figures/environmental_health_scenarios_comparison.csv": {
+      "sha256": "7b955c22fd3518f2f86f8b07c25bd5a618b68909f80124c3dbe879d6b9e771f0",
+      "bytes": 1316,
+      "role": "Phase 7C accepted analytical artifact"
+    },
+    "outputs/figures/environmental_health_scenarios_comparison.png": {
+      "sha256": "201020669e58ba525191f0732c77049635d7cb75fe4207d1da40c4b78bc81da5",
+      "bytes": 36415,
+      "role": "Map or figure raster"
+    },
+    "outputs/maps/systems/25_environmental_health_futures_2050.png": {
+      "sha256": "68ef140e293db9c4f1130ed4b67aea9ea51a708eda9a69a1107a9b7e5b768b18",
+      "bytes": 124775,
+      "role": "Map or figure raster"
+    },
+    "outputs/maps/systems/25_environmental_health_futures_2050.svg": {
+      "sha256": "b138db6b49cd7278503160e4526fc551aa824059832a7e4d1dfd133925bdf7d3",
+      "bytes": 13419,
+      "role": "Map or figure vector"
+    },
+    "outputs/maps/systems/25b_environmental_health_futures_2075.png": {
+      "sha256": "6daf65d256b291ccdbe3f013f76bc6469f51890b4f2e204fbc6cc9586c2c7428",
+      "bytes": 125512,
+      "role": "Map or figure raster"
+    },
+    "outputs/maps/systems/25b_environmental_health_futures_2075.svg": {
+      "sha256": "260f917e3e2ed9fe5eadc1d93513e0b32a58faaf2ac93dd995d885b17eeb2234",
+      "bytes": 13418,
+      "role": "Map or figure vector"
+    },
+    "reports/environmental_health_scenario_sources.md": {
+      "sha256": "25d071a544729c510d7c613ca8eabeed7c2312d2d13a1849afcbe85c04f82bf2",
+      "bytes": 1976,
+      "role": "scenario source report"
+    },
+    "reports/environmental_health_scenario_assumptions.md": {
+      "sha256": "42c4b137134c8c5396fcc975172af734697a0b2459512586008357a9b896e774",
+      "bytes": 730,
+      "role": "scenario assumptions report"
+    },
+    "reports/environmental_health_scenario_consistency.md": {
+      "sha256": "2d6921f4b5abccf5ab148084eb148db8fe2bb542db035a6daadd76175ca66851",
+      "bytes": 868,
+      "role": "scenario consistency report"
+    },
+    "reports/environmental_health_future_worldbuilding.md": {
+      "sha256": "76337ca1b99c3bcedf75780ba3230d085340bedd8ad8d7099186d601cba190ea",
+      "bytes": 559,
+      "role": "scenario worldbuilding report"
+    },
+    "reports/environmental_health_scenario_qa.md": {
+      "sha256": "fa682931538572bba719b1e13f199fea57f5895ce65ce376dfa25ec15c12b6d8",
+      "bytes": 450,
+      "role": "scenario QA report"
+    },
+    "reports/phase7c_citation_ledger.json": {
+      "sha256": "bd3bfa3e0b0bba8a120f58cb2e19ebb93cd216401b9731c12424695603f32692",
+      "bytes": 2893,
+      "role": "phase-local citation ledger"
+    },
+    "reports/phase7c_strict_provenance.md": {
+      "sha256": "028fd265a061e8cedbd2c8c8459536001a6a782b7418ca53724218743b73bdf6",
+      "bytes": 2875,
+      "role": "strict provenance report"
+    },
+    "reports/phase7c_strict_provenance_check.json": {
+      "sha256": "c5c38661cd76718bf8afc490c72d32cce7fc37526b351dd08b6bbb04bbd8a486",
+      "bytes": 3155,
+      "role": "strict provenance machine result"
+    },
+    "src/python/systems/build_environmental_health_futures.py": {
+      "sha256": "af47435c60870d0219e500f02e1dbf53879f6a41e7aa06804b84faed0c0dd669",
+      "bytes": 10802,
+      "role": "reproducible Phase 7C builder"
+    },
+    "src/python/systems/validate_environmental_health_futures.py": {
+      "sha256": "83770553e0d47fe8016d34b987ce4147fe71b1f93c543350410d535416c91df9",
+      "bytes": 3208,
+      "role": "Python Phase 7C validator"
+    },
+    "src/R/systems/validate_environmental_health_futures.R": {
+      "sha256": "dad508d53780df9f1fd63b4900c113cf5c0fd7091dc717fa2eec05a57724b391",
+      "bytes": 2036,
+      "role": "independent R Phase 7C validator"
+    },
+    "reports/environmental_health_scenario_manifest.json": {
+      "sha256": "e1c80b7389a578f6ac2a34ab54184edd1906b777af041b9871ad8a37600f9cc8",
+      "bytes": 1707,
+      "role": "validated working scenario manifest"
+    },
+    "reports/environmental_health_scenario_artifact_check.json": {
+      "sha256": "d523dea9590fd46871c56f936eb9b00a44eb8c5cb896aaec4344b5b2a13ae5c5",
+      "bytes": 275,
+      "role": "machine validation result"
+    },
+    "reports/phase7c_exposure_futures_independent_review_initial.md": {
+      "sha256": "186f224bb118acfebc4e3bfcdfae28bd1a2ff64e20eca3aff4e25afbdee77e6e",
+      "bytes": 3442,
+      "role": "initial failed independent-review record"
+    },
+    "reports/phase7c_exposure_futures_independent_review.md": {
+      "sha256": "dc627b09cdf2a4e425a2cee27f79b8e0b49d8df5882c13a331224f75859b70ac",
+      "bytes": 1738,
+      "role": "final independent-review record"
+    },
+    "docs/phase_briefs/phase7c_environmental_health_futures.md": {
+      "sha256": "e52bf587f9d3394056f84c3bccc0252fc6ae3f8c28966664f6c67ad370cb8a52",
+      "bytes": 1934,
+      "role": "Phase 7C accepted analytical artifact"
+    },
+    "src/python/systems/validate_phase7c_freeze.py": {
+      "sha256": "d0b2bbbb72b29775f4bc5f88db1bb9bcd9a0bfa5988548cce11e69870ca6c666",
+      "bytes": 19144,
+      "role": "Python independent freeze validator"
+    },
+    "src/R/systems/validate_phase7c_freeze.R": {
+      "sha256": "8e638d198ae55a656e27af72d4e1bcc61ace1e6ee8d85abf7da996eabaaa3018",
+      "bytes": 17328,
+      "role": "independent R freeze validator"
+    }
+  },
+  "phase7a_7b_immutable": true,
+  "qualitative_only": true,
+  "unsupported_future_exposure_predictions": false,
+  "unsupported_future_health_outcomes": false,
+  "unsupported_risk_scoring": false,
+  "phase14_implemented": false,
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  },
+  "deferred_maintenance_preserved": [
+    "Phase 6B manifest status wording mismatch",
+    "Phase 3A missing manifest status",
+    "Phase 2A legacy worktree superseded cleanup candidate"
+  ]
+}

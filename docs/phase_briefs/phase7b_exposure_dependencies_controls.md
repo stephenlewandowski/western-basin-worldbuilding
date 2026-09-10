@@ -1,6 +1,6 @@
 # Phase 7B — Exposure Dependencies, Evidence Strength & Controls, 2026
 
-Status: approved execution brief; factual 2026 analytical layer over frozen Phase 7A.
+Status: ACCEPTED / FROZEN; final freeze manifest: `reports/phase7b_exposure_dependencies_controls_freeze_manifest.json`.
 Primary product: Map 24 — Exposure Dependencies & Controls, 2026.
 Secondary product: Exposure Evidence / Control Matrix.
 

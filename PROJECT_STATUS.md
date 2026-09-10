@@ -280,7 +280,7 @@ The layer preserves environmental presence, potential pathway, documented
 exposure, dose, and health-outcome distinctions. It asserts no documented
 individual exposure, dose, illness, plume, or cumulative-risk score.
 
-## PHASE 7B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 7B — ACCEPTED / FROZEN
 
 **Exposure Dependencies, Evidence Strength & Controls, 2026**
 
@@ -292,8 +292,12 @@ CSV includes `pathway_family` as an identifier column, so its physical shape is
 manifest. Strict provenance closure and the initial failed independent review
 are preserved in the Phase 7B closure records. The fresh corrected-package
 independent review passed at `reports/phase7b_exposure_dependencies_independent_review.md`.
+Sol formally accepted and froze Phase 7B under
+`reports/phase7b_exposure_dependencies_controls_freeze_manifest.json` (24
+protected artifacts). The working manifest and both initial and final review
+records remain preserved.
 
-## PHASE 7C — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 7C — ACCEPTED / FROZEN
 
 **Environmental Health Futures, 2050 / 2075**
 
@@ -305,6 +309,10 @@ families and Phase 7B control references, and links the six all-pathways
 assumptions through comparison rows. The initial failed independent review is
 preserved. The fresh corrected-package independent review passed at
 `reports/phase7c_exposure_futures_independent_review.md`.
+Sol formally accepted and froze Phase 7C under
+`reports/phase7c_environmental_health_futures_freeze_manifest.json` (29
+protected artifacts). The working manifest and both initial and final review
+records remain preserved.
 
 ## Open Phase 1 QA gates
 
@@ -666,3 +674,17 @@ noncanonical** and the Toledo intake-coordinate discrepancy remains
 **UNRESOLVED**. Deferred Phase 6B manifest-status wording and Phase 3A
 missing-manifest-status maintenance remain unchanged. No release or tag was
 created.
+
+## FINAL PHASE 7B/7C ACCEPTANCE / FREEZE — 2026-09-10
+
+Sol formally accepted and froze both completed Phase 7 packages:
+
+- Phase 7A: **ACCEPTED / FROZEN** under `reports/phase7a_exposure_environmental_health_freeze_manifest.json`.
+- Phase 7B: **ACCEPTED / FROZEN** under `reports/phase7b_exposure_dependencies_controls_freeze_manifest.json` (24 protected artifacts); 20 dependency edges, seven controls, five evidence rows, and a 5 × 10 semantic matrix stored as 5 × 11 CSV columns including `pathway_family`.
+- Phase 7C: **ACCEPTED / FROZEN** under `reports/phase7c_environmental_health_futures_freeze_manifest.json` (29 protected artifacts); 36 assumptions, 30 node states, 30 edge states, 30 control states, 30 uncertainty states, six comparison rows, and Maps 25/25b.
+
+Independent Python and R freeze validation is required for both new manifests. Phase 7A integrity and all other accepted/frozen artifact manifests remain protected and unchanged. Initial failed and final passed Phase 7B/7C independent-review records remain preserved; final reviews passed with all blocking arrays empty.
+
+Final state: Phase 7A, 7B, and 7C are **ACCEPTED / FROZEN**; Active phase: **NONE**; next analytical phase: **NOT APPROVED**. Next approved planning target: **Phase 14 — Systems Atlas Integration, Ontology, and Evidence Crosswalk** (planning target only; not implemented). The contamination/exposure, exposure/dose, dose/illness, dependency/risk, monitoring/regulation, and scenario/forecast boundaries remain unchanged.
+
+Great Black Swamp remains **C — HOLD / noncanonical**. The Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred maintenance remains unchanged: Phase 6B manifest status wording mismatch, Phase 3A missing manifest status, and the Phase 2A legacy worktree remains a superseded cleanup candidate. No release or tag was created.

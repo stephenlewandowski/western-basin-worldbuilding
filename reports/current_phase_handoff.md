@@ -1062,3 +1062,13 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Strict provenance checks pass for both packages; Python/R deterministic validators pass for 7A, 7B, and 7C; Phase 7A and all current accepted/frozen prior artifacts remain immutable.
 - Phase 7B and 7C remain **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. No final freeze manifest was created.
 - Active holds remain Great Black Swamp **C — HOLD / noncanonical** and Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred Phase 6B/3A maintenance remains unchanged. Phase 14 is not implemented.
+
+## Phase 7B/7C final acceptance / freeze handoff — 2026-09-10
+
+- Starting acceptance-run SHA: `39d9c97ebab0dad736188a320dc037a602e5f594`; local `main`, tracking `origin/main`, and remote `origin/main` were clean and synchronized before bookkeeping.
+- Sol formally accepted and froze Phase 7B and Phase 7C. Phase 7B: **ACCEPTED / FROZEN** under `reports/phase7b_exposure_dependencies_controls_freeze_manifest.json` (24 protected artifacts). Phase 7C: **ACCEPTED / FROZEN** under `reports/phase7c_environmental_health_futures_freeze_manifest.json` (29 protected artifacts).
+- Accepted Phase 7B package: 20 dependency edges, seven controls, five evidence rows, Map 24, and a five-row × ten-dimension semantic matrix stored as 5 × 11 CSV columns including `pathway_family`. Accepted Phase 7C package: 36 assumptions, 30 node states, 30 edge states, 30 control states, 30 uncertainty states, six comparison rows, and Maps 25/25b.
+- Phase 7A final freeze integrity and all other accepted/frozen prior-artifact manifests remain protected. Prior manifest inventory for this run is 435 entries covering 426 unique protected artifacts; initial failed and final passed Phase 7B/7C review records remain preserved, with final reviews `passed: true` and all blocking arrays empty.
+- Python and independent R package/freeze validation, strict provenance, Markdown, application tests/build, Git/LFS, and whitespace checks are acceptance gates for this run. No accepted artifact was regenerated or changed.
+- Final state: Phase 7A, 7B, and 7C are **ACCEPTED / FROZEN**; active phase: **NONE**; next analytical phase: **NOT APPROVED**. Next approved planning target: **Phase 14 — Systems Atlas Integration, Ontology, and Evidence Crosswalk**; Phase 14 is not implemented.
+- Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest status wording mismatch, Phase 3A missing manifest status, and the Phase 2A legacy worktree superseded cleanup candidate remain unchanged. No release or tag was created.

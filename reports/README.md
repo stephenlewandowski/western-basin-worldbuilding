@@ -7,11 +7,11 @@
 
 ## Phase 7B/7C Exposure Dependencies and Futures
 
-- Phase 7B is `IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE` with 20 dependency edges, seven controls, five evidence-strength rows, and Map 24.
-- Phase 7C is `IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE` with 36 assumptions, 30 scenario node states, 30 edge states, 30 control states, 30 uncertainty states, six comparison rows, and Maps 25/25b.
+- Phase 7B is **ACCEPTED / FROZEN** with 20 dependency edges, seven controls, five evidence-strength rows, and Map 24. Final freeze manifest: `phase7b_exposure_dependencies_controls_freeze_manifest.json` (24 protected artifacts).
+- Phase 7C is **ACCEPTED / FROZEN** with 36 assumptions, 30 scenario node states, 30 edge states, 30 control states, 30 uncertainty states, six comparison rows, and Maps 25/25b. Final freeze manifest: `phase7c_environmental_health_futures_freeze_manifest.json` (29 protected artifacts).
 - `phase7b_strict_provenance.md` and `phase7c_strict_provenance.md` record bounded strict provenance closure; the corresponding JSON checks and phase-local citation ledgers preserve machine-readable evidence.
 - Fresh corrected-package independent reviews passed at `phase7b_exposure_dependencies_independent_review.md` and `phase7c_exposure_futures_independent_review.md`; initial failed verdicts remain preserved in the corresponding `_initial.md` records.
-- Phase 7B's matrix convention is five pathway rows by ten qualitative dimensions, plus one pathway-identifier column in the CSV (5 × 11 stored shape). Neither package is accepted/frozen; no final freeze manifest is present.
+- Phase 7B's matrix convention is five pathway rows by ten qualitative dimensions, plus one pathway-identifier column in the CSV (5 × 11 stored shape). Phase 7A and all other accepted/frozen artifacts remain immutable. Phase 14 is not implemented; active phase is NONE and the next analytical phase is NOT APPROVED.
 
 
 The historical v0.1 release builds the Phase 1 Water System only. Current development also includes the validated Phase 2A–2C materials and historical-exposure baseline. Existing TypeScript prototype files are untouched.

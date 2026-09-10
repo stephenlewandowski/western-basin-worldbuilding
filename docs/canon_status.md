@@ -102,10 +102,10 @@ The historical `water_flowlines_order3` and `water_huc12_routing_inferred` layer
 - **Phase 6B Ecological Dependencies, Disturbances & Resilience:** accepted and frozen as a factual 2026 qualitative dependency layer; Map 21
 - **Phase 6C Ecological Futures:** accepted and frozen as separate qualitative 2050/2075 scenario content; Maps 22/22b
 - **Phase 7A Exposure & Environmental Health Baseline:** accepted and frozen as a bounded factual 2026 exposure-context layer; Map 23
-- **Phase 7B Exposure Dependencies, Evidence Strength & Controls:** implemented, validated, and integrated; awaiting Sol acceptance; Map 24
-- **Phase 7C Environmental Health Futures:** implemented, validated, and integrated as separate qualitative 2050/2075 scenario content; awaiting Sol acceptance; Maps 25/25b
+- **Phase 7B Exposure Dependencies, Evidence Strength & Controls:** accepted and frozen; Map 24; `reports/phase7b_exposure_dependencies_controls_freeze_manifest.json`
+- **Phase 7C Environmental Health Futures:** accepted and frozen as separate qualitative 2050/2075 scenario content; Maps 25/25b; `reports/phase7c_environmental_health_futures_freeze_manifest.json`
 
-Phase 7B's `5 × 10` wording means five pathway rows by ten qualitative dimensions; its CSV has one additional `pathway_family` identifier column and therefore has physical shape `5 × 11`. This convention is documented without rewriting historical working-manifest wording. Fresh corrected-package independent reviews passed for both Phase 7B and 7C; both remain awaiting Sol acceptance and are not frozen.
+Phase 7B's `5 × 10` wording means five pathway rows by ten qualitative dimensions; its CSV has one additional `pathway_family` identifier column and therefore has physical shape `5 × 11`. This convention is documented without rewriting historical working-manifest wording. Fresh corrected-package independent reviews passed for both Phase 7B and 7C; both are now **ACCEPTED / FROZEN** under their phase-specific final freeze manifests.
 - **Phase 8A Biogeochemical & Nutrient Flux Baseline:** accepted and frozen as a separate factual 2026 layer; Map 26; `reports/phase8a_biogeochemical_nutrient_flux_freeze_manifest.json`
 - **Phase 8B Biogeochemical Dependencies & Controls:** accepted and frozen as a separate qualitative 2026 layer; Map 27; `reports/phase8b_biogeochemical_dependencies_controls_freeze_manifest.json`
 - **Phase 8C Biogeochemical & Nutrient Flux Futures:** accepted and frozen as separate qualitative 2050/2075 scenario content; Maps 28/28b; `reports/phase8c_biogeochemical_futures_freeze_manifest.json`
@@ -298,3 +298,30 @@ review passed with all blocking arrays empty and independent Python/R freeze
 validation passed. The final manifest protects 28 Phase 13C artifacts. The
 optional copy-editing suggestion remains deferred; no accepted/frozen artifact
 was changed.
+
+## Phase 7B/7C acceptance boundary — 2026-09-10
+
+Phase 7B is **ACCEPTED / FROZEN** under
+`reports/phase7b_exposure_dependencies_controls_freeze_manifest.json`; Phase 7C is **ACCEPTED / FROZEN** under
+`reports/phase7c_environmental_health_futures_freeze_manifest.json`.
+Phase 7B remains a qualitative 2026 dependency/control layer with 20 edges,
+seven controls, five evidence rows, and the documented 5 × 10 semantic matrix
+stored as 5 × 11 CSV columns including `pathway_family`. Phase 7C remains a
+separate qualitative 2050/2075 scenario layer with 36 assumptions, 30 node
+states, 30 edge states, 30 control states, 30 uncertainty states, six
+comparison rows, and Maps 25/25b.
+
+Contamination is not exposure; exposure is not dose; dose is not illness;
+dependency is not risk; monitoring is not regulation; and scenario is not a
+forecast. No health-risk score, vulnerability/EJ ranking, unsupported exposure
+prediction, unsupported future health outcome, or unsupported service-territory
+precision was introduced. Phase 7A and all other accepted/frozen artifacts
+remain immutable. Active phase: **NONE**. Next analytical phase:
+**NOT APPROVED**. Next approved planning target: **Phase 14 — Systems Atlas
+Integration, Ontology, and Evidence Crosswalk**; Phase 14 is not implemented.
+
+Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo
+intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B
+manifest-status wording and Phase 3A missing-manifest-status maintenance remain
+unchanged; the Phase 2A legacy worktree remains a superseded cleanup candidate.
+No release or tag was created.

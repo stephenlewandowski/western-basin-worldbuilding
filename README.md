@@ -40,9 +40,21 @@ The repository is named **Western Basin Worldbuilding** so the long-term project
 
 **Phase 6C — ACCEPTED / FROZEN (ECOLOGICAL FUTURES, 2050 / 2075)**
 
-**Phase 7A — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE (EXPOSURE & ENVIRONMENTAL HEALTH BASELINE, 2026)**
+**Phase 7A — ACCEPTED / FROZEN (EXPOSURE & ENVIRONMENTAL HEALTH BASELINE, 2026)**
 
 Map 23 is a bounded exposure-context layer covering drinking water/HAB, ambient air, Luckey legacy contamination, fish/recreational water, and heat. It does not infer individual exposure, dose, illness, causation, a plume, or a health-risk score.
+
+**Phase 7B — ACCEPTED / FROZEN (EXPOSURE DEPENDENCIES, EVIDENCE STRENGTH & CONTROLS, 2026)**
+
+Phase 7B is **ACCEPTED / FROZEN** under `reports/phase7b_exposure_dependencies_controls_freeze_manifest.json`.
+
+Phase 7B contains 20 qualitative dependency edges, seven controls, five evidence rows, Map 24, and a five-row matrix with ten semantic dimensions stored in 11 CSV columns including `pathway_family`. Its final freeze manifest is `reports/phase7b_exposure_dependencies_controls_freeze_manifest.json` (24 protected artifacts).
+
+**Phase 7C — ACCEPTED / FROZEN (ENVIRONMENTAL HEALTH FUTURES, 2050 / 2075)**
+
+Phase 7C is **ACCEPTED / FROZEN** under `reports/phase7c_environmental_health_futures_freeze_manifest.json`.
+
+Phase 7C is a separate qualitative scenario layer with 36 assumptions, 30 node states, 30 edge states, 30 control states, 30 uncertainty states, six comparison rows, and Maps 25/25b. Its final freeze manifest is `reports/phase7c_environmental_health_futures_freeze_manifest.json` (29 protected artifacts). No exposure prediction, dose, illness, health-risk score, vulnerability/EJ ranking, or service-territory precision is modeled. Phase 14 is not implemented; the next target is planning only.
 
 **Phase 8A — ACCEPTED / FROZEN (BIOGEOCHEMICAL & NUTRIENT FLUX BASELINE, 2026)**
 

@@ -1,0 +1,169 @@
+{
+  "accepted_phase": "7B",
+  "baseline": "Exposure Dependencies, Evidence Strength & Controls, 2026",
+  "status": "ACCEPTED / FROZEN",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-10",
+  "source_commit": "39d9c97ebab0dad736188a320dc037a602e5f594",
+  "acceptance_basis": "Sol formally accepted and froze the validated Phase 7B qualitative exposure-dependency, evidence-strength, and control package after independent Python/R validation, Phase 7A freeze-integrity verification, prior-system immutability verification, and the final bounded independent review passing with all blocking arrays empty.",
+  "counts": {
+    "dependency_edges": 20,
+    "controls": 7,
+    "evidence_rows": 5,
+    "matrix_semantic_shape": [
+      5,
+      10
+    ],
+    "matrix_stored_shape": [
+      5,
+      11
+    ]
+  },
+  "phase7a_freeze_manifest": {
+    "path": "reports/phase7a_exposure_environmental_health_freeze_manifest.json",
+    "sha256": "40be9755bdd87ae08f74bd2eb9d05a6ac0096be826318461fac9e9c52be76cc6",
+    "bytes": 1358,
+    "role": "protected final freeze input manifest"
+  },
+  "protected_inputs": [
+    "reports/phase7a_exposure_environmental_health_freeze_manifest.json"
+  ],
+  "artifacts": {
+    "data/processed/networks/exposure_dependency_edges.csv": {
+      "sha256": "6cba62a2d95c1d4993072cc7f5eea4f298c15b34ec6060286e404752d7c2c3bb",
+      "bytes": 5546,
+      "role": "Phase 7B accepted analytical artifact"
+    },
+    "data/processed/analysis/exposure_control_register.csv": {
+      "sha256": "bd8562e1c8b6a8765ed4cba8a76f210d87c56e2c37bc77f5bcf4b9835f173335",
+      "bytes": 1998,
+      "role": "Phase 7B accepted analytical artifact"
+    },
+    "data/processed/analysis/exposure_evidence_strength_register.csv": {
+      "sha256": "87715aa229b3a697bb14bcfe45c7adbf2cbbff469e5577b3b3e851f3c828099c",
+      "bytes": 1370,
+      "role": "Phase 7B accepted analytical artifact"
+    },
+    "data/processed/analysis/exposure_dependency_control_matrix.csv": {
+      "sha256": "a9ff78c0760b5e9feea6ccc34b4999fb14a13ba71cb2771a21f0bcac05a82dc0",
+      "bytes": 733,
+      "role": "Phase 7B accepted analytical artifact"
+    },
+    "outputs/maps/systems/24_exposure_dependencies_controls_2026.png": {
+      "sha256": "7ce3525c4e6b8bedd08cff09abfe28500fcf2267007eb743792913575e8067ea",
+      "bytes": 205686,
+      "role": "Map 24 raster"
+    },
+    "outputs/maps/systems/24_exposure_dependencies_controls_2026.svg": {
+      "sha256": "770d3d407b64bfa450407a42f242e3e9d7dfd544b5e3b8a3823acb2b2b67a4a4",
+      "bytes": 42790,
+      "role": "Map 24 vector"
+    },
+    "reports/exposure_dependency_sources.md": {
+      "sha256": "072e16f092a147e11dbafe02d86fdd4544d70e6b96c9d91bbe3d031485b5c51d",
+      "bytes": 2194,
+      "role": "source report"
+    },
+    "reports/exposure_dependency_assumptions.md": {
+      "sha256": "90d474495a7465082914d4a4191560e11a3af3682818cfa7c30e498ec0e08d19",
+      "bytes": 1376,
+      "role": "assumptions and scope report"
+    },
+    "reports/exposure_dependency_findings.md": {
+      "sha256": "d50e8ed93e24e5e6de7d00fe9a311cdbd7934ac9d5eadec3b39ab292888c37e6",
+      "bytes": 2461,
+      "role": "findings report"
+    },
+    "reports/exposure_evidence_limits.md": {
+      "sha256": "85bf6ac58b414d6c05961fdd34c9b037860e10d65c7ce98585db67bf7811e73f",
+      "bytes": 520,
+      "role": "QA or evidence-limits report"
+    },
+    "reports/exposure_dependency_qa.md": {
+      "sha256": "3359e4bef0aefe8e3b28b515f62dcbe922f46da90b7dba025bf634708d9d670b",
+      "bytes": 682,
+      "role": "QA or evidence-limits report"
+    },
+    "reports/phase7b_citation_ledger.json": {
+      "sha256": "82d2938a833a0afab4a653384bcf9a5c277893e7a7a5b89d4f9ae31663b8cd1d",
+      "bytes": 3151,
+      "role": "phase-local citation ledger"
+    },
+    "reports/phase7b_strict_provenance.md": {
+      "sha256": "f4d2b05469b0808347ad25c0f2a247f98077b09ddbbb190cbc61c45fd1950fcf",
+      "bytes": 2837,
+      "role": "strict provenance report"
+    },
+    "reports/phase7b_strict_provenance_check.json": {
+      "sha256": "cc790f78a9f7f42fe194b5313a778a5f2b5292d59141bf30e7b8a5df0b805033",
+      "bytes": 3090,
+      "role": "strict provenance machine result"
+    },
+    "src/python/systems/build_exposure_dependencies.py": {
+      "sha256": "b6ad7dd2cb2f076318486293d4efe3a9ebf3b9c7013f79a6d35379a232a0c2cb",
+      "bytes": 17651,
+      "role": "reproducible Phase 7B builder"
+    },
+    "src/python/systems/validate_exposure_dependencies.py": {
+      "sha256": "719c997ed031e890649e15f6265dfb746b119022df1859878cdde70911309e3f",
+      "bytes": 3450,
+      "role": "Python Phase 7B validator"
+    },
+    "src/R/systems/validate_exposure_dependencies.R": {
+      "sha256": "b615e1dae0a6f067aeb8a587cff59c6e9ecbbbde286257cc6ccfc9cc0ea6649b",
+      "bytes": 2293,
+      "role": "independent R Phase 7B validator"
+    },
+    "reports/exposure_dependency_manifest.json": {
+      "sha256": "bed6edc0802dfa112aca49233e70159c5b9e6aea3547210ed0e82510c1700dcc",
+      "bytes": 1037,
+      "role": "validated working manifest"
+    },
+    "reports/exposure_dependency_artifact_check.json": {
+      "sha256": "c5daf977d7deeeb62dc5f70565d059d92e834b445de307379d91f00138e73ae4",
+      "bytes": 279,
+      "role": "machine validation result"
+    },
+    "reports/phase7b_exposure_dependencies_independent_review_initial.md": {
+      "sha256": "16b8f6737ce2574fafaa019ffca3527c2533937469f35134bcdba4981e52cedf",
+      "bytes": 3190,
+      "role": "initial failed independent-review record"
+    },
+    "reports/phase7b_exposure_dependencies_independent_review.md": {
+      "sha256": "1c502865ffe159de8a360de804ead6c07b17e5586e02214139da6e19f0f6d975",
+      "bytes": 1952,
+      "role": "final independent-review record"
+    },
+    "docs/phase_briefs/phase7b_exposure_dependencies_controls.md": {
+      "sha256": "d4aee35b3123f437b258df821549d55717347bbd388bcd246d542514c0418d95",
+      "bytes": 2907,
+      "role": "Phase 7B accepted analytical artifact"
+    },
+    "src/python/systems/validate_phase7b_freeze.py": {
+      "sha256": "1340262028551e2e5a4c455d52aa5ec571a09bffd00cf6addf539afd39d86d28",
+      "bytes": 17010,
+      "role": "Python independent freeze validator"
+    },
+    "src/R/systems/validate_phase7b_freeze.R": {
+      "sha256": "bd1f086cac7829b1be06afb3281d95efb56e5147ec93398005602c1cb1aee4f4",
+      "bytes": 16972,
+      "role": "independent R freeze validator"
+    }
+  },
+  "phase7a_immutable": true,
+  "qualitative_only": true,
+  "unsupported_exposure_predictions": false,
+  "unsupported_dose_or_health_claims": false,
+  "health_risk_score": false,
+  "vulnerability_ej_ranking": false,
+  "phase14_implemented": false,
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  },
+  "deferred_maintenance_preserved": [
+    "Phase 6B manifest status wording mismatch",
+    "Phase 3A missing manifest status",
+    "Phase 2A legacy worktree superseded cleanup candidate"
+  ]
+}
