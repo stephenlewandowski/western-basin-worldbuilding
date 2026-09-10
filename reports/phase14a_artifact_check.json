@@ -119,7 +119,21 @@
     },
     "existing_systems_registry_untouched": {
       "detail": [
-        "reports/current_phase_handoff.md"
+        "CHANGELOG.md",
+        "PROJECT_STATUS.md",
+        "README.md",
+        "data/processed/integration/external_endpoint_crosswalk.csv",
+        "data/processed/integration/relationship_taxonomy_inventory.csv",
+        "data/processed/integration/system_identity_crosswalk.csv",
+        "docs/agent_workflow.md",
+        "docs/canon_status.md",
+        "outputs/figures/western_basin_systems_architecture.svg",
+        "reports/README.md",
+        "reports/current_phase_handoff.md",
+        "reports/phase14a_artifact_check.json",
+        "reports/phase14a_manifest.json",
+        "src/R/systems/validate_phase14a_freeze.R",
+        "src/python/systems/validate_phase14a_freeze.py"
       ],
       "passed": true
     },

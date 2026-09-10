@@ -689,7 +689,7 @@ Final state: Phase 7A, 7B, and 7C are **ACCEPTED / FROZEN**; Active phase: **NON
 
 - Great Black Swamp remains **C — HOLD / noncanonical**. The Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred maintenance remains unchanged: Phase 6B manifest status wording mismatch, Phase 3A missing manifest status, and the Phase 2A legacy worktree remains a superseded cleanup candidate. No release or tag was created.
 
-## PHASE 14A — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 14A — ACCEPTED / FROZEN
 
 **Common Systems Ontology, Identity & Evidence Crosswalk**
 
@@ -697,6 +697,6 @@ Phase 14A is the additive interoperability layer for the accepted Phases 1–13.
 
 The package contains an Atlas-facing ontology for **13 represented systems**, **456** exact local-entity identity rows, **36** Phase 13B conceptual endpoint occurrences across **25 of 36** dependency rows, **367** relationship-vocabulary inventory rows, an eight-class evidence vocabulary, and the conceptual `Western Basin Systems Architecture` figure. Phase 13B `EXT-*`/`REF-*` endpoints remain visible: **0** exact resolutions, **34** system-level mappings, **2** retained generalized interfaces, and **0** unresolved occurrences. These are endpoint-occurrence counts, not replacement or merge counts.
 
-Python and independent base-R validation passed. The fresh bounded independent review is preserved at `reports/phase14a_independent_review.md` with `passed: true` and all blocking arrays empty. Prior freeze-manifest integrity passed with **488** manifest entries covering **479** unique protected paths under text newline-portable and binary raw-byte checks. No accepted/frozen artifact or prior manifest was modified. Phase 14B remains **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 15 remains **NOT IMPLEMENTED**. Active phase: **NONE**.
+Sol formally accepted and froze Phase 14A under `reports/phase14a_common_systems_ontology_identity_evidence_crosswalk_freeze_manifest.json` (**24 protected artifacts**). Deterministic builder output was reproduced; authoritative Python validation and independent base-R validation passed. The fresh bounded independent review is preserved at `reports/phase14a_independent_review.md` with `passed: true` and all blocking arrays empty. Prior freeze-manifest integrity passed with **488** manifest entries covering **479** unique protected paths under text newline-portable and binary raw-byte checks. Phase 1–13 frozen artifacts and local identifiers remain immutable.
 
-Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing-manifest-status, and the Phase 2A legacy worktree remain unchanged. No release or tag was created.
+The package preserves interoperability ≠ homogenization, Atlas identity ≠ replacement of local ID, system-level mapping ≠ exact identity, conceptual endpoint ≠ physical entity, fact ≠ inference ≠ scenario, dependency ≠ risk, and association ≠ causation. Phase 14B remains **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 15 remains **NOT IMPLEMENTED**; Active phase: **NONE**; Next target: **Phase 14B — Atlas Layer Registry & Cross-System Dependency Normalization**. Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing-manifest-status, and the Phase 2A legacy worktree remain unchanged. No release or tag was created.

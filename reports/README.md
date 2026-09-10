@@ -479,7 +479,7 @@ UNRESOLVED.
 
 ## Phase 14A Systems Atlas Integration
 
-Phase 14A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. The additive package is indexed by `phase14a_systems_ontology.md`, `phase14a_identity_crosswalk.md`, `phase14a_evidence_crosswalk.md`, `phase14a_relationship_taxonomy.md`, and `phase14a_integration_qa.md`.
+Phase 14A is **ACCEPTED / FROZEN** under `reports/phase14a_common_systems_ontology_identity_evidence_crosswalk_freeze_manifest.json` (24 protected artifacts). The additive package is indexed by `phase14a_systems_ontology.md`, `phase14a_identity_crosswalk.md`, `phase14a_evidence_crosswalk.md`, `phase14a_relationship_taxonomy.md`, and `phase14a_integration_qa.md`.
 
 - `../metadata/atlas_systems.yml` — 13-system Atlas ontology
 - `../metadata/atlas_evidence_vocabulary.yml` — eight-class evidence/status vocabulary
@@ -488,8 +488,10 @@ Phase 14A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**.
 - `../data/processed/integration/relationship_taxonomy_inventory.csv` — 367 local relation-term inventory rows; Phase 14B normalization deferred
 - `phase14a_manifest.json` and `phase14a_artifact_check.json` — working manifest and deterministic QA
 - `phase14a_independent_review.md` — fresh bounded independent review; `passed: true`, blocking arrays empty
+- `phase14a_common_systems_ontology_identity_evidence_crosswalk_freeze_manifest.json` — final acceptance/freeze manifest
 - `../outputs/figures/western_basin_systems_architecture.png` and `.svg` — conceptual, non-geographic system architecture
 - `../src/python/systems/build_phase14a_integration.py` and `validate_phase14a_integration.py`
 - `../src/R/systems/validate_phase14a_integration.R`
+- `../src/python/systems/validate_phase14a_freeze.py` and `../src/R/systems/validate_phase14a_freeze.R` — independent final freeze validators
 
-Phase 14B is **APPROVED SCOPE / NOT IMPLEMENTED**. Phase 15 is **NOT IMPLEMENTED**. Accepted/frozen artifacts, local identifiers, the Great Black Swamp hold, and the unresolved Toledo intake-coordinate discrepancy remain unchanged.
+Phase 14B is **APPROVED SCOPE / NOT IMPLEMENTED** and is the next target. Phase 15 is **NOT IMPLEMENTED**. Accepted/frozen artifacts, local identifiers, the Great Black Swamp hold, the unresolved Toledo intake-coordinate discrepancy, and deferred Phase 6B/3A/2A maintenance remain unchanged. No release or tag was created.

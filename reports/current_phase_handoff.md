@@ -1099,3 +1099,16 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Phase 14A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Active phase: **NONE**.
 - The feature worktree `C:\\Projects\\Public_GitHub\\western-basin-worldbuilding-phase14a` remains registered and clean at the implementation commit. The canonical `main` worktree is the only checkout receiving this handoff-only update.
 - Phase 14B remains **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 15 remains **NOT IMPLEMENTED**. Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing-manifest-status, and the Phase 2A legacy worktree remain unchanged. No release or tag was created.
+
+## Phase 14A acceptance / freeze transaction — 2026-09-10
+
+- Recovered starting state at integrated `main` SHA `d89a80f6dd883f2cc9d89e3c89396e1b5f468700`; local `main` and `origin/main` matched, and no Phase 14A final freeze manifest or freeze validators existed.
+- Sol decision applied: Phase 14A — Common Systems Ontology, Identity & Evidence Crosswalk — **ACCEPTED / FROZEN**.
+- Final freeze manifest: `reports/phase14a_common_systems_ontology_identity_evidence_crosswalk_freeze_manifest.json` with **24 protected artifacts**. Working manifest and artifact check remain preserved.
+- Deterministic final builder output reproduced on two consecutive runs. Python and independent base-R package validation passed; Python and independent base-R freeze validation passed.
+- Counts: 13 Atlas-facing systems; 456 exact local-entity mappings; 456 identity-crosswalk rows; 367 relationship-taxonomy rows; eight normalized evidence classes; 17 local evidence-term mappings; 36 endpoint occurrences across 25 of 36 dependency rows.
+- EXT-/REF- disposition: 0 exact; 34 system-level; 2 retained conceptual/generalized; 0 unresolved. Local endpoint tokens remain visible and are not replaced.
+- Prior Phase 1–13 freeze integrity passed: 488 manifest entries covering 479 unique protected paths. No accepted/frozen artifact, prior manifest, local identifier, or `metadata/systems.yml` was modified.
+- Final independent review `deleg_aa6daf99` remains preserved with `passed: true` and all blocking arrays empty. Markdown links, Git LFS status/fsck, npm tests, TypeScript/Vite build, and whitespace validation passed.
+- Final state: Phase 14A **ACCEPTED / FROZEN**; Phase 14B **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 15 **NOT IMPLEMENTED**; Active phase **NONE**; Next target **Phase 14B — Atlas Layer Registry & Cross-System Dependency Normalization**.
+- Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing-manifest-status, and the Phase 2A legacy worktree remain unchanged. No release or tag was created.
