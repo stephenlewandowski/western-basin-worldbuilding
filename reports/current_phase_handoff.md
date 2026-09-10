@@ -1138,3 +1138,16 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Phase 14B is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Phase 14A remains **ACCEPTED / FROZEN**. Active phase: **NONE**; Phase 15 is **NOT IMPLEMENTED**.
 - Active holds and deferred maintenance remain unchanged. No release or tag was created.
 - Next exact action: commit and push this final integrated-status/handoff readback, then verify local/remote synchronization and worktree cleanliness.
+
+## Phase 14B final acceptance / freeze handoff — 2026-09-11
+
+- Starting acceptance-run SHA: `adac6c5dc072b1a61a1474c5f6dad74c5e65278f`; local `main` and `origin/main` were clean and synchronized before freeze bookkeeping.
+- Sol formally accepted and froze Phase 14B — Atlas Layer Registry & Cross-System Dependency Normalization.
+- Final freeze manifest: `reports/phase14b_atlas_layer_registry_cross_system_dependency_normalization_freeze_manifest.json`; protected count: 23 artifacts. The preserved working manifest, artifact check, persisted R result, initial failed review, final passed review, package reports, and Python/R freeze validators are included in the final protection set.
+- Accepted package counts: 213 registry entries (CSV 81, GeoJSON 2, GeoPackage 16, JSON 1, PNG 55, SVG 55, YAML 3); 367 one-to-one relationship-normalization rows; 36 endpoint-role occurrences; 761 dependency-crosswalk rows across 11 canonical dependency artifacts; and 78 joinability-matrix rows.
+- Energy taxonomy remains 3 energy-flow terms, 5 operational-dependency terms, and 1 information/control term; fuel remains a material input, weather remains ecological/contextual, and information/control edges are not energy flow. Phase 14A endpoint disposition remains 0 exact, 34 system-level, 2 retained conceptual/generalized, and 0 unresolved.
+- The Phase 11B high-inference population network remains exactly 520 total / 468 inferred / 52 reused context, with evidence and uncertainty retained and quantitative aggregation prohibited. The joinability matrix remains interoperability metadata, not a risk/connectivity score.
+- Python and independent base-R freeze validators, Phase 14A integrity, all prior freeze integrity, integration-figure checks, Markdown, Git/LFS, npm tests, TypeScript/Vite build, and whitespace checks are required readbacks for this transaction. The initial failed review `deleg_1c35baf2` and final passed review `deleg_9df50f46` remain preserved.
+- Final state: Phase 14A **ACCEPTED / FROZEN**; Phase 14B **ACCEPTED / FROZEN**; Phase 14 **COMPLETE / ACCEPTED / FROZEN**; Active phase **NONE**; next planning target **Phase 15 — Technology and Strategic-Systems Convergence**; Phase 15 **NOT IMPLEMENTED**.
+- Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing manifest status, and the Phase 2A superseded legacy worktree remain unchanged. No release or tag was created.
+- Final local `main`, tracking `origin/main`, remote `origin/main`, and all relevant worktree cleanliness are read back after the acceptance commit rather than embedded self-referentially here.

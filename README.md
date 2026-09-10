@@ -790,8 +790,9 @@ outbreak certainty. No future case totals, incidence surface, outbreak
 probability, disease-burden or individual-risk product, vulnerability/EJ score,
 or unsupported local downscaling is included. Phase 13A/13B remain immutable.
 Phase 14A is implemented as the additive ontology/crosswalk layer; Phase 14B
-is implemented, validated, and integrated as an additive Atlas registry/crosswalk package,
-awaiting Sol acceptance. Great Black Swamp remains C — HOLD /
+is **ACCEPTED / FROZEN** as an additive Atlas registry/crosswalk package under
+`reports/phase14b_atlas_layer_registry_cross_system_dependency_normalization_freeze_manifest.json`.
+Great Black Swamp remains C — HOLD /
 noncanonical and the Toledo intake-coordinate discrepancy remains unresolved.
 
 
@@ -801,11 +802,13 @@ The Phase 13A baseline and Phase 13B dependency layer are **ACCEPTED / FROZEN** 
 
 Phase 14A is **ACCEPTED / FROZEN** under `reports/phase14a_common_systems_ontology_identity_evidence_crosswalk_freeze_manifest.json` (24 protected artifacts). It adds the [Atlas systems ontology](metadata/atlas_systems.yml), [evidence vocabulary](metadata/atlas_evidence_vocabulary.yml), [identity crosswalk](data/processed/integration/system_identity_crosswalk.csv), [conceptual endpoint audit](data/processed/integration/external_endpoint_crosswalk.csv), [relationship taxonomy inventory](data/processed/integration/relationship_taxonomy_inventory.csv), and [Western Basin Systems Architecture figure](outputs/figures/western_basin_systems_architecture.svg).
 
-The package represents 13 systems, 456 exact local-entity mappings, 34 system-level and two retained conceptual Phase 13B endpoint resolutions across 36 conceptual endpoint occurrences, 367 relationship inventory rows, eight normalized evidence classes, and 17 local evidence-term mappings. It does not replace local IDs, rewrite Phase 13B, normalize all edges, or create a monolithic GeoPackage. Deterministic builder output, Python and independent R validation, prior freeze integrity, and the final independent review passed. Phase 14B is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** and Phase 15 is **NOT IMPLEMENTED**. Active phase: **NONE**.
+The package represents 13 systems, 456 exact local-entity mappings, 34 system-level and two retained conceptual Phase 13B endpoint resolutions across 36 conceptual endpoint occurrences, 367 relationship inventory rows, eight normalized evidence classes, and 17 local evidence-term mappings. It does not replace local IDs, rewrite Phase 13B, normalize all edges, or create a monolithic GeoPackage. Deterministic builder output, Python and independent R validation, prior freeze integrity, and the final independent review passed. Phase 14B is **ACCEPTED / FROZEN** and Phase 15 is **NOT IMPLEMENTED**. Active phase: **NONE**.
 
 ## Phase 14B Atlas Layer Registry & Dependency Normalization
 
-Phase 14B adds `metadata/atlas_layers.yml`, `metadata/atlas_relationship_vocabulary.yml`, a 367-row relationship normalization crosswalk, a 36-row endpoint-role crosswalk, a 761-row dependency crosswalk, a 78-row system joinability matrix, and a non-geographic integration architecture figure. It preserves local source tables, source IDs, evidence strength, qualitative confidence, uncertainty IDs, baseline/scenario separation, and the Phase 14A 0/34/2/0 endpoint disposition. Phase 11B population rows remain 468 inferred and 52 reused context. No composite risk or connectivity score is created.
+Phase 14B is **ACCEPTED / FROZEN** under `reports/phase14b_atlas_layer_registry_cross_system_dependency_normalization_freeze_manifest.json` (23 protected artifacts). It adds `metadata/atlas_layers.yml`, `metadata/atlas_relationship_vocabulary.yml`, a 367-row relationship normalization crosswalk, a 36-row endpoint-role crosswalk, a 761-row dependency crosswalk, a 78-row system joinability matrix, and a non-geographic integration architecture figure. The registry has 213 entries across CSV/GeoJSON/GeoPackage/JSON/PNG/SVG/YAML. It preserves local source tables, source IDs, evidence strength, qualitative confidence, uncertainty IDs, baseline/scenario separation, and the Phase 14A 0/34/2/0 endpoint disposition. Phase 11B population rows remain 520 total, 468 inferred, and 52 reused context; they are not quantitatively aggregatable. No composite risk or connectivity score is created.
+
+Phase 14 is **COMPLETE / ACCEPTED / FROZEN**. Active phase: **NONE**. Next planning target: **Phase 15 — Technology and Strategic-Systems Convergence**, which is **NOT IMPLEMENTED**. Great Black Swamp remains C — HOLD / noncanonical; the Toledo intake-coordinate discrepancy remains unresolved; deferred Phase 6B/3A/2A maintenance is unchanged. No release or tag was created.
 
 ## Roadmap
 

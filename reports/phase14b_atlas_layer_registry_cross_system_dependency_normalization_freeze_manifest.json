@@ -1,0 +1,226 @@
+{
+  "acceptance_basis": "Sol formally accepted and froze the validated Phase 14B additive Atlas layer registry and cross-system dependency normalization package after deterministic Python and independent base-R validation, Phase 14A and prior freeze-integrity verification, preserved failed and passed review lineage, integration-figure QA, and repository delivery checks. The package preserves interface normalization without scientific-content normalization.",
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-11",
+  "accepted_phase": "14B",
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  },
+  "artifacts": {
+    "data/processed/integration/atlas_dependency_crosswalk.csv": {
+      "bytes": 624577,
+      "role": "accepted Phase 14B Atlas analytical artifact",
+      "sha256": "a76206bb5662357b4dceaf3c56b6d6d90daa6b163a1743ccd8560f4ef34d091d"
+    },
+    "data/processed/integration/endpoint_role_crosswalk.csv": {
+      "bytes": 15590,
+      "role": "accepted Phase 14B Atlas analytical artifact",
+      "sha256": "d22148eb550afc1a8c639dc9888f5bf472540baf742f4a5aa8a3f962368c9730"
+    },
+    "data/processed/integration/relationship_normalization_crosswalk.csv": {
+      "bytes": 150999,
+      "role": "accepted Phase 14B Atlas analytical artifact",
+      "sha256": "c04cdbce836cfa63e7bbbfff60a0d4dfd325d97b3840da54252ed874c2a6a1a3"
+    },
+    "data/processed/integration/system_joinability_matrix.csv": {
+      "bytes": 22086,
+      "role": "accepted Phase 14B Atlas analytical artifact",
+      "sha256": "de1e57448708841856201dfe3641689a73ca7ab5db53bc2f4562eaa58bc62696"
+    },
+    "metadata/atlas_layers.yml": {
+      "bytes": 249936,
+      "role": "accepted Phase 14B Atlas analytical artifact",
+      "sha256": "e82937f6636fefed5117ddf152eafc8cd02f429f92e12c5fd6809a7e64f8e469"
+    },
+    "metadata/atlas_relationship_vocabulary.yml": {
+      "bytes": 10535,
+      "role": "accepted Phase 14B Atlas analytical artifact",
+      "sha256": "b58329eb07c8d4d001bbc662bf7e60a4324535a0d689479e5c8580d13d41cec3"
+    },
+    "outputs/figures/atlas_cross_system_joinability_dependency_architecture.png": {
+      "bytes": 166697,
+      "role": "accepted Phase 14B visual artifact",
+      "sha256": "f65c9eb5185c5395cfa59c98dd9ebd0b0f4dd10486b9107b664594c3f47d37c0"
+    },
+    "outputs/figures/atlas_cross_system_joinability_dependency_architecture.svg": {
+      "bytes": 20961,
+      "role": "accepted Phase 14B visual artifact",
+      "sha256": "adece6f8cd26adfeb98bc960ca931623ad5436d147b55254fab4e06b7f90dc2b"
+    },
+    "reports/phase14b_artifact_check.json": {
+      "bytes": 11983,
+      "role": "machine validation result",
+      "sha256": "db5e42423069e8de5a679c4fde0431d9e5e51a15dfb1262dbadb993e9a9678ed"
+    },
+    "reports/phase14b_atlas_layer_registry.md": {
+      "bytes": 621,
+      "role": "accepted Phase 14B report or reproducibility artifact",
+      "sha256": "f3bb9d084b4ba294743ecb9d0e5f20b9df162593a8082c2ab233076a8e56a8a5"
+    },
+    "reports/phase14b_build_summary.json": {
+      "bytes": 2751,
+      "role": "Phase 14B reproducibility artifact",
+      "sha256": "aadc4a60f4392bdce15580c178c6033a3f11f4b2ea370cffb09af643ebdfd3c0"
+    },
+    "reports/phase14b_dependency_integration.md": {
+      "bytes": 1616,
+      "role": "accepted Phase 14B report or reproducibility artifact",
+      "sha256": "05d15aef2fe3b9a4ae30f636af8c6a24705260a55ab6d51c9deed4ab18a4c5fd"
+    },
+    "reports/phase14b_independent_review.md": {
+      "bytes": 1295,
+      "role": "independent review record",
+      "sha256": "a81cba3239e935e0aff1574c94380018bfe8487372bf70a2780c836222d789e6"
+    },
+    "reports/phase14b_independent_review_initial.md": {
+      "bytes": 2766,
+      "role": "initial failed independent review lineage",
+      "sha256": "06221ccda2765552504f1383732964ba7c439d63df2fbe114d33614b5614f7ea"
+    },
+    "reports/phase14b_integration_qa.md": {
+      "bytes": 1122,
+      "role": "accepted Phase 14B report or reproducibility artifact",
+      "sha256": "a4fcd6cef47d46cb41f12b3fc3868f0f24191b5df877852d9f8643f23e5458b4"
+    },
+    "reports/phase14b_manifest.json": {
+      "bytes": 7270,
+      "role": "validated Phase 14B working manifest",
+      "sha256": "e6c91c85dca99bf4592d9837c01a895d64bc3a339f85d516d08cfda59d03b8b9"
+    },
+    "reports/phase14b_r_validation_result.json": {
+      "bytes": 85,
+      "role": "machine validation result",
+      "sha256": "e2ac92216899b9ce22342e3a368c4e4d9c16ade8c482eab7497a4129b53571c0"
+    },
+    "reports/phase14b_relationship_normalization.md": {
+      "bytes": 1486,
+      "role": "accepted Phase 14B report or reproducibility artifact",
+      "sha256": "10d49b1c4257da32c5a494749be93b61fbc502d5db0f07f875aa82ca7aa9a698"
+    },
+    "src/R/systems/validate_phase14b_freeze.R": {
+      "bytes": 15627,
+      "role": "independent Phase 14B freeze validator",
+      "sha256": "9984408fdf387a4849aa024426b0dc5def90e0acad1c85e79435013e453ef990"
+    },
+    "src/R/systems/validate_phase14b_integration.R": {
+      "bytes": 16265,
+      "role": "accepted Phase 14B report or reproducibility artifact",
+      "sha256": "8c0f1a9b8caff455ee160e854c9b3b12ab5bd1bf6264c69a4f306dc4b33676dc"
+    },
+    "src/python/systems/build_phase14b_integration.py": {
+      "bytes": 65420,
+      "role": "accepted Phase 14B report or reproducibility artifact",
+      "sha256": "32e94b43afab227ed518abc5fac90ef1df03e635fbad02eccca28c118d7ddd20"
+    },
+    "src/python/systems/validate_phase14b_freeze.py": {
+      "bytes": 19666,
+      "role": "independent Phase 14B freeze validator",
+      "sha256": "7f5020eb5b458dd5e8fda9fc8191be3e1cfc0b1804e4c95f777f355368dbcc66"
+    },
+    "src/python/systems/validate_phase14b_integration.py": {
+      "bytes": 21776,
+      "role": "accepted Phase 14B report or reproducibility artifact",
+      "sha256": "52b845f4b16fda17d6873dc8d64854d1cb40fce30c9c9b39875ee31930779b13"
+    }
+  },
+  "baseline": "Atlas Layer Registry & Cross-System Dependency Normalization",
+  "counts": {
+    "dependency_rows": 761,
+    "endpoint_role_rows": 36,
+    "joinability_rows": 78,
+    "phase14a_endpoint_occurrences": 36,
+    "phase14a_exact": 0,
+    "phase14a_retained_conceptual": 2,
+    "phase14a_system_level": 34,
+    "phase14a_unresolved": 0,
+    "population_context_reused": 52,
+    "population_inferred": 468,
+    "population_total": 520,
+    "registry_entries": 213,
+    "relationship_rows": 367
+  },
+  "deferred_maintenance_preserved": [
+    "Phase 6B manifest status wording mismatch",
+    "Phase 3A missing manifest status",
+    "Phase 2A superseded legacy worktree"
+  ],
+  "energy_taxonomy": {
+    "energy_flow": 3,
+    "fuel_material_input": true,
+    "information_control": 1,
+    "operational_dependency": 5,
+    "weather_ecological_context": true
+  },
+  "final_manifest_path": "reports/phase14b_atlas_layer_registry_cross_system_dependency_normalization_freeze_manifest.json",
+  "independent_review": {
+    "passed": true,
+    "record": "reports/phase14b_independent_review.md",
+    "review_id": "deleg_9df50f46"
+  },
+  "initial_independent_review": {
+    "passed": false,
+    "record": "reports/phase14b_independent_review_initial.md",
+    "review_id": "deleg_1c35baf2"
+  },
+  "integration_figure": {
+    "conceptual": true,
+    "geographic_map": false,
+    "png": "outputs/figures/atlas_cross_system_joinability_dependency_architecture.png",
+    "svg": "outputs/figures/atlas_cross_system_joinability_dependency_architecture.svg"
+  },
+  "joinability_matrix": {
+    "colocation_only_joins": 0,
+    "dependency_joins": 29,
+    "exact_cross_system_joins": 0,
+    "exclusive_scenario_only_links": 0,
+    "metadata_only": true,
+    "pairs": 78,
+    "scenario_layer_references": 9,
+    "system_level_conceptual_joins": 29,
+    "without_selected_defensible_current_join": 49
+  },
+  "next_planning_target": "Phase 15 — Technology and Strategic-Systems Convergence",
+  "phase14_overall_status": "COMPLETE / ACCEPTED / FROZEN",
+  "phase14a_accepted_frozen": true,
+  "phase14a_final_manifest": {
+    "bytes": 7428,
+    "path": "reports/phase14a_common_systems_ontology_identity_evidence_crosswalk_freeze_manifest.json",
+    "sha256": "eca4acb7c271e817fdd82abc1cf06ea6215348c8eb2dbf66d2b9f714ac679fea"
+  },
+  "phase14a_endpoint_disposition": {
+    "exact": 0,
+    "retained_conceptual": 2,
+    "system_level": 34,
+    "unresolved": 0
+  },
+  "phase14a_immutability_verified": true,
+  "phase14b_implemented": true,
+  "phase15_implemented": false,
+  "phase1_13_immutable": true,
+  "registry_formats": {
+    "CSV": 81,
+    "GeoJSON": 2,
+    "GeoPackage": 16,
+    "JSON": 1,
+    "PNG": 55,
+    "SVG": 55,
+    "YAML": 3
+  },
+  "population_high_inference": {
+    "inferred": 468,
+    "quantitative_aggregation_allowed": false,
+    "reused_context": 52,
+    "total": 520
+  },
+  "protected_inputs": [
+    "reports/phase14a_common_systems_ontology_identity_evidence_crosswalk_freeze_manifest.json",
+    "reports/phase14b_manifest.json",
+    "reports/phase14b_independent_review_initial.md",
+    "reports/phase14b_independent_review.md"
+  ],
+  "release_created": false,
+  "source_commit": "adac6c5dc072b1a61a1474c5f6dad74c5e65278f",
+  "status": "ACCEPTED / FROZEN",
+  "tag_created": false
+}

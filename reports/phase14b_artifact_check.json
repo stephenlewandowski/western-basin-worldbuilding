@@ -224,6 +224,7 @@
     },
     "original_system_registry_untouched": {
       "detail": [
+        "CHANGELOG.md",
         "PROJECT_STATUS.md",
         "README.md",
         "data/processed/integration/atlas_dependency_crosswalk.csv",
