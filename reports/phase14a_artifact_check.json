@@ -50,7 +50,7 @@
       "passed": true
     },
     "endpoint_register_source_exists": {
-      "detail": "C:\\Projects\\Public_GitHub\\western-basin-worldbuilding-phase14a\\data\\processed\\analysis\\infectious_disease_dependency_register.csv",
+      "detail": "C:\\Projects\\Public_GitHub\\western-basin-worldbuilding\\data\\processed\\analysis\\infectious_disease_dependency_register.csv",
       "passed": true
     },
     "endpoint_required_fields": {
@@ -119,9 +119,7 @@
     },
     "existing_systems_registry_untouched": {
       "detail": [
-        "reports/phase14a_manifest.json",
-        "src/R/systems/validate_phase14a_integration.R",
-        "src/python/systems/validate_phase14a_integration.py"
+        "reports/current_phase_handoff.md"
       ],
       "passed": true
     },
