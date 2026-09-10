@@ -1,0 +1,190 @@
+{
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  },
+  "artifacts": {
+    "data/processed/integration/atlas_dependency_crosswalk.csv": {
+      "bytes": 623815,
+      "sha256": "a17fc2b33d951d5a843c30bf6d066f845be3d18c7aa8f7c4a5f01d6dd834908f"
+    },
+    "data/processed/integration/endpoint_role_crosswalk.csv": {
+      "bytes": 15553,
+      "sha256": "21f37cd8c26e3eb80a224f55c49e28da10f9a3f752e282d8077feeb062d57976"
+    },
+    "data/processed/integration/relationship_normalization_crosswalk.csv": {
+      "bytes": 150631,
+      "sha256": "1f9c6489f0427858d78b0ee8af2662407263796b1cfa485b8195f04dbf079371"
+    },
+    "data/processed/integration/system_joinability_matrix.csv": {
+      "bytes": 22007,
+      "sha256": "e6d9d311fd1d5d251bfc9397a75db9fc84b95e7d6c1ecce174c201fffe847ff5"
+    },
+    "metadata/atlas_layers.yml": {
+      "bytes": 245787,
+      "sha256": "5bd003d2ff19728682a9dfaf805b8bf5cd11da5b6a7536fda74dad33ef2d46cc"
+    },
+    "metadata/atlas_relationship_vocabulary.yml": {
+      "bytes": 10335,
+      "sha256": "09864bca52d3091ac8345218ff7fbb7195bcec593e40b2eb4a558d3b73b71140"
+    },
+    "outputs/figures/atlas_cross_system_joinability_dependency_architecture.png": {
+      "bytes": 166697,
+      "sha256": "f65c9eb5185c5395cfa59c98dd9ebd0b0f4dd10486b9107b664594c3f47d37c0"
+    },
+    "outputs/figures/atlas_cross_system_joinability_dependency_architecture.svg": {
+      "bytes": 20624,
+      "sha256": "f07053eab3482968ab334f1e2c374c0ad9ca6326e440793f855274aaf815eae7"
+    },
+    "reports/phase14b_artifact_check.json": {
+      "bytes": 11958,
+      "sha256": "e760580b848f0c544d2a59ec5609526f02a99b5eac769052d283359be340058f"
+    },
+    "reports/phase14b_atlas_layer_registry.md": {
+      "bytes": 621,
+      "sha256": "f3bb9d084b4ba294743ecb9d0e5f20b9df162593a8082c2ab233076a8e56a8a5"
+    },
+    "reports/phase14b_build_summary.json": {
+      "bytes": 2751,
+      "sha256": "aadc4a60f4392bdce15580c178c6033a3f11f4b2ea370cffb09af643ebdfd3c0"
+    },
+    "reports/phase14b_dependency_integration.md": {
+      "bytes": 1616,
+      "sha256": "05d15aef2fe3b9a4ae30f636af8c6a24705260a55ab6d51c9deed4ab18a4c5fd"
+    },
+    "reports/phase14b_independent_review.md": {
+      "bytes": 1271,
+      "sha256": "7d228d2ba620521f2a58b83c77abfbc8d3c4cf276c010f98a40b43370f0e581d"
+    },
+    "reports/phase14b_independent_review_initial.md": {
+      "bytes": 2721,
+      "sha256": "cbcdc0224f3e86b20495ba4868ab13e68754cbddcb287a2269697fa3db43d034"
+    },
+    "reports/phase14b_integration_qa.md": {
+      "bytes": 1122,
+      "sha256": "a4fcd6cef47d46cb41f12b3fc3868f0f24191b5df877852d9f8643f23e5458b4"
+    },
+    "reports/phase14b_r_validation_result.json": {
+      "bytes": 85,
+      "sha256": "e2ac92216899b9ce22342e3a368c4e4d9c16ade8c482eab7497a4129b53571c0"
+    },
+    "reports/phase14b_relationship_normalization.md": {
+      "bytes": 1486,
+      "sha256": "10d49b1c4257da32c5a494749be93b61fbc502d5db0f07f875aa82ca7aa9a698"
+    },
+    "src/R/systems/validate_phase14b_integration.R": {
+      "bytes": 16095,
+      "sha256": "6da64c65b4333acefe8895291499dada02f305674a3aff5284ffaefa0bfe057e"
+    },
+    "src/python/systems/build_phase14b_integration.py": {
+      "bytes": 64635,
+      "sha256": "b7ea527261c03c3e963536fd25c7d3722e903fa3e765f84c88fc988de05dc4fb"
+    },
+    "src/python/systems/validate_phase14b_integration.py": {
+      "bytes": 21545,
+      "sha256": "8da89ad58f7400166a6f1d83802e105948f425b4972adf548f8b829648beb2f6"
+    }
+  },
+  "counts": {
+    "dependency_counts": {
+      "evidence_classes": {
+        "CONTEXT_REUSED": 52,
+        "INFERRED": 515,
+        "OBSERVED_DOCUMENTED": 194
+      },
+      "exact_entity_rows": 110,
+      "population_context_reused": 52,
+      "population_inferred": 468,
+      "population_total": 520,
+      "scenario_pair_count": 9,
+      "source_artifact_counts": {
+        "data/processed/analysis/climate_hazard_dependency_register.csv": 24,
+        "data/processed/analysis/governance_dependency_register.csv": 25,
+        "data/processed/analysis/infectious_disease_dependency_register.csv": 36,
+        "data/processed/analysis/population_system_dependency_register.csv": 520,
+        "data/processed/analysis/vector_system_dependency_register.csv": 28,
+        "data/processed/networks/biogeochemical_dependency_edges.csv": 22,
+        "data/processed/networks/ecology_dependency_edges.csv": 18,
+        "data/processed/networks/energy_dependency_edges.csv": 28,
+        "data/processed/networks/exposure_dependency_edges.csv": 20,
+        "data/processed/networks/freight_dependency_edges.csv": 20,
+        "data/processed/networks/information_dependency_edges.csv": 20
+      },
+      "source_artifacts": 11,
+      "system_level_or_conceptual_rows": 481,
+      "total_rows": 761
+    },
+    "dependency_rows": 761,
+    "endpoint_role_counts": {
+      "ecological entity": 8,
+      "generalized external interface": 7,
+      "geographic unit": 4,
+      "institutional actor": 5,
+      "monitoring/surveillance interface": 6,
+      "physical asset": 1,
+      "population/settlement entity": 5
+    },
+    "endpoint_role_rows": 36,
+    "energy_taxonomy": {
+      "generation_transmission_storage_energy_flow": 3,
+      "non_energy_information_control": 1,
+      "operational_energy_dependency": 5
+    },
+    "figure": {
+      "exact_cross_system_examples": 0,
+      "examples": 4,
+      "png": "outputs/figures/atlas_cross_system_joinability_dependency_architecture.png",
+      "svg": "outputs/figures/atlas_cross_system_joinability_dependency_architecture.svg"
+    },
+    "joinability_rows": 78,
+    "registry_entries": 213,
+    "registry_formats": {
+      "CSV": 81,
+      "GeoJSON": 2,
+      "GeoPackage": 16,
+      "JSON": 1,
+      "PNG": 55,
+      "SVG": 55,
+      "YAML": 3
+    },
+    "relationship_class_counts": {
+      "ecological relationship": 64,
+      "energy flow": 3,
+      "exposure pathway": 21,
+      "governance / authority": 36,
+      "high-level association": 16,
+      "information / observation": 31,
+      "material flow": 16,
+      "operational dependency": 58,
+      "physical flow": 9,
+      "population / mobility interface": 7,
+      "scenario influence": 47,
+      "surveillance / detection": 20,
+      "unresolved / unclassified": 39
+    },
+    "relationship_rows": 367,
+    "scenario_pair_count": 9
+  },
+  "exclusions": [
+    "Phase 14A source table modification",
+    "monolithic GeoPackage",
+    "composite risk score",
+    "Phase 15",
+    "release",
+    "tag"
+  ],
+  "independent_review": {
+    "passed": true,
+    "record": "reports/phase14b_independent_review.md",
+    "review_id": "deleg_9df50f46"
+  },
+  "initial_independent_review": {
+    "passed": false,
+    "record": "reports/phase14b_independent_review_initial.md",
+    "review_id": "deleg_1c35baf2"
+  },
+  "phase": "14B",
+  "scope": "Atlas Layer Registry & Cross-System Dependency Normalization",
+  "source_commit": "dd2c0706f8d1f6b73974a530e64de8a82aff2eb1",
+  "status": "IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE"
+}

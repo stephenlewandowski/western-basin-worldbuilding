@@ -1,0 +1,200 @@
+version: "0.1"
+registry_id: atlas_relationship_vocabulary_phase14b
+status: additive_atlas_facing_normalization
+purpose: >-
+  Normalize interfaces for Atlas joins without rewriting local relationship terms,
+  local edge tables, or scientific content.
+normalized_relationship_classes:
+  - class_id: physical flow
+    preferred_label: Physical flow
+    scope: Mapped or explicitly directional physical movement such as hydrologic exchange.
+    non_equivalences: [co-location, association, dependency, risk]
+  - class_id: material flow
+    preferred_label: Material / freight flow
+    scope: Material, commodity, fuel-input, food, or logistics movement/interface.
+    non_equivalences: [shipment quantity, exact route, capacity, causation]
+  - class_id: energy flow
+    preferred_label: Energy generation / transmission / storage interface
+    scope: Generation, grid, transmission, distribution, storage, or electricity interface when the local term names an energy-system connection.
+    non_equivalences: [power-flow solution, outage probability, capacity, control authority]
+  - class_id: information / observation
+    preferred_label: Information / observation
+    scope: Observation, data, reporting, decision-support, or information transfer.
+    non_equivalences: [authority, control, incidence, physical flow]
+  - class_id: governance / authority
+    preferred_label: Governance / authority
+    scope: Role, mandate, regulation, ownership, funding, permitting, coordination, or institutional relationship.
+    non_equivalences: [operational control, performance, causation]
+  - class_id: operational dependency
+    preferred_label: Operational dependency
+    scope: Functional service, continuity, reliability, cooling, infrastructure, or compute dependency.
+    non_equivalences: [risk, failure probability, causal effect]
+  - class_id: ecological relationship
+    preferred_label: Ecological relationship
+    scope: Habitat, host, landscape, seasonal, or ecological-function interface.
+    non_equivalences: [abundance, disease, exposure, risk]
+  - class_id: exposure pathway
+    preferred_label: Exposure pathway / contact opportunity
+    scope: Environmental condition, potential pathway, receptor, or contact opportunity.
+    non_equivalences: [documented exposure, dose, illness, risk]
+  - class_id: population / mobility interface
+    preferred_label: Population / mobility interface
+    scope: Aggregate residence, workplace, settlement, commuting, or mobility relationship.
+    non_equivalences: [individual movement, migration, transmission]
+  - class_id: surveillance / detection
+    preferred_label: Surveillance / detection
+    scope: Monitoring, laboratory, detection, case-reporting, or surveillance interface.
+    non_equivalences: [incidence, absence, disease burden, authority]
+  - class_id: scenario influence
+    preferred_label: Scenario influence
+    scope: Qualitative future assumption, state, consequence, or scenario-only relationship.
+    non_equivalences: [observed dependency, forecast, probability, baseline fact]
+  - class_id: high-level association
+    preferred_label: High-level association / interface
+    scope: Retained generic association where the local record does not support a narrower shared class.
+    non_equivalences: [causation, risk, exact join]
+  - class_id: unresolved / unclassified
+    preferred_label: Unresolved / unclassified
+    scope: Local term retained without a defensible shared-class interpretation.
+    non_equivalences: [absence, low risk, causation]
+energy_terminology_crosswalk:
+  - local_term: generation_grid_interface
+    normalized_relationship_class: energy flow
+    energy_role: generation
+    atlas_join_role: energy-system interface
+    disposition: retain_local_term_and_direction; no power-flow claim
+  - local_term: regional_grid_interface
+    normalized_relationship_class: energy flow
+    energy_role: transmission / regional interface
+    atlas_join_role: energy-system interface
+    disposition: retain_local_term_and_scale; not a mapped feeder or transfer limit
+  - local_term: bidirectional_storage_interface
+    normalized_relationship_class: energy flow
+    energy_role: storage
+    atlas_join_role: energy-system interface
+    disposition: retain bidirectionality; no dispatch or capacity inference
+  - local_term: electricity
+    normalized_relationship_class: operational dependency
+    energy_role: electricity service dependency
+    atlas_join_role: dependency join
+    disposition: dependency term, not a measured flow
+  - local_term: grid_serves_load
+    normalized_relationship_class: operational dependency
+    energy_role: distribution / load service
+    atlas_join_role: dependency join
+    disposition: no feeder, service territory, capacity, or outage claim
+  - local_term: grid_serves_planned_compute
+    normalized_relationship_class: operational dependency
+    energy_role: compute dependency
+    atlas_join_role: dependency join
+    disposition: planned/unverified compute remains qualified
+  - local_term: fuel
+    normalized_relationship_class: material flow
+    energy_role: fuel / material input
+    atlas_join_role: material-input join
+    disposition: fuel input is not electricity flow or pipeline geometry
+  - local_term: cooling_water
+    normalized_relationship_class: operational dependency
+    energy_role: thermal / water dependency
+    atlas_join_role: cross-system dependency join
+    disposition: water interface is not an energy flow
+  - local_term: thermal_dependency
+    normalized_relationship_class: operational dependency
+    energy_role: thermal operating dependency
+    atlas_join_role: dependency join
+    disposition: no demand, heat-rate, or outage probability
+  - local_term: storage_support
+    normalized_relationship_class: operational dependency
+    energy_role: storage-support dependency
+    atlas_join_role: dependency join
+    disposition: not a quantified storage-flow record
+  - local_term: communications
+    normalized_relationship_class: information / observation
+    energy_role: information / control interface
+    atlas_join_role: information join
+    disposition: never reinterpret as energy flow
+  - local_term: weather
+    normalized_relationship_class: ecological relationship
+    energy_role: external physical context
+    atlas_join_role: context join
+    disposition: weather context is not an energy transfer or causal risk claim
+endpoint_roles:
+  valid_roles:
+    - physical asset
+    - geographic unit
+    - system node
+    - institutional actor
+    - ecological entity
+    - population/settlement entity
+    - monitoring/surveillance interface
+    - generalized external interface
+    - conceptual interface
+    - scenario-only entity
+  rules:
+    - local EXT-OCCUPATIONAL-CONTACT and EXT-INFRASTRUCTURE remain generalized external interfaces; role normalization does not localize them.
+    - system-level mappings retain the local EXT-* or REF-* token and are not exact entity identity.
+    - REF-4 is a monitoring/surveillance interface and REF-10 is an institutional actor.
+    - mobility is not transmission; surveillance is not incidence; observation is not authority.
+evidence_and_display_rules:
+  classes:
+    - OBSERVED_DOCUMENTED
+    - DERIVED_CALCULATED
+    - INFERRED
+    - CONTEXT_REUSED
+    - SCENARIO_ASSUMPTION
+    - SCENARIO_STATE
+    - UNRESOLVED
+    - NONCANONICAL_HOLD
+  visual_semantics:
+    - status: OBSERVED_DOCUMENTED
+      line_style: solid
+      symbol_treatment: standard node or edge; source-scale badge required
+      annotation: observed or documented at native scale
+    - status: DERIVED_CALCULATED
+      line_style: solid with derived annotation
+      symbol_treatment: standard geometry or node with derived marker
+      annotation: calculated from named inputs; method and denominator remain local
+    - status: INFERRED
+      line_style: dotted
+      symbol_treatment: open or outlined symbol
+      annotation: inferred relationship; basis and uncertainty required
+    - status: CONTEXT_REUSED
+      line_style: dashed with reuse annotation
+      symbol_treatment: muted/context symbol
+      annotation: reused context; not independent evidence
+    - status: SCENARIO_ASSUMPTION
+      line_style: dash-dot
+      symbol_treatment: assumption marker
+      annotation: scenario assumption; not a baseline observation
+    - status: SCENARIO_STATE
+      line_style: dash-dot with horizon label
+      symbol_treatment: scenario-state marker
+      annotation: scenario state or consequence; not a forecast
+    - status: UNRESOLVED
+      line_style: dotted with question annotation
+      symbol_treatment: open marker with unresolved badge
+      annotation: unresolved; absence of resolution is not absence of entity/effect
+    - status: NONCANONICAL_HOLD
+      line_style: muted dotted outline
+      symbol_treatment: hold marker
+      annotation: noncanonical hold; do not use as current fact
+  cautions:
+    - Exact/entity-level joins must be visually distinct from system-level conceptual joins.
+    - Co-location alone must never be drawn as a causal or dependency edge.
+    - Line width must not encode quantity, probability, risk, or effect size unless a future accepted methodology supplies compatible units.
+    - Static, web, Python/R, and print Atlas products should reuse these status labels and legend language.
+high_inference_population_rules:
+  source_artifact: data/processed/analysis/population_system_dependency_register.csv
+  total_rows: 520
+  inferred_rows: 468
+  reused_context_rows: 52
+  rules:
+    - retain documented_or_inferred and source evidence class on every row
+    - inferred rows may support visualization and qualitative reasoning with an explicit inferred label
+    - inferred rows may support qualitative stress-test propagation only; they are not quantitative aggregation inputs
+    - reused context is not independent evidence and is not promoted to documented
+    - no numeric confidence score is added; local qualitative confidence and uncertainty remain visible
+compatibility_matrix_rules:
+  interpretation: interoperability matrix, not risk matrix
+  valid_findings: [direct_exact_identity, system_level_conceptual, dependency_relationship, spatial_colocation_only, scenario_only, no_defensible_current_join]
+  prohibited: [summed_connectivity_score, composite_risk_score, causal_meaning_from_colocation]

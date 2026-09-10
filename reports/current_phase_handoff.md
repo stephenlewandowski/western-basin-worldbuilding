@@ -1112,3 +1112,21 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Final independent review `deleg_aa6daf99` remains preserved with `passed: true` and all blocking arrays empty. Markdown links, Git LFS status/fsck, npm tests, TypeScript/Vite build, and whitespace validation passed.
 - Final state: Phase 14A **ACCEPTED / FROZEN**; Phase 14B **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 15 **NOT IMPLEMENTED**; Active phase **NONE**; Next target **Phase 14B — Atlas Layer Registry & Cross-System Dependency Normalization**.
 - Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing-manifest-status, and the Phase 2A legacy worktree remain unchanged. No release or tag was created.
+
+## Phase 14B startup checkpoint — 2026-09-10
+
+- Starting synchronized `main`, `origin/main`, and remote `origin/main` SHA: `dd2c0706f8d1f6b73974a530e64de8a82aff2eb1`.
+- Isolated worktree: `C:\\Projects\\Public_GitHub\\western-basin-worldbuilding-phase14b`; branch: `phase-14b-atlas-layer-registry-dependency-normalization`.
+- Approved scope: **PHASE 14B — ATLAS LAYER REGISTRY & CROSS-SYSTEM DEPENDENCY NORMALIZATION** only.
+- Phase 14A confirmed **ACCEPTED / FROZEN**. Its final manifest and Phase 1–13 frozen artifacts are protected and must remain unchanged. Phase 14B's protected scope brief remains the accepted Phase 14A input and is not rewritten.
+- Initial Phase 14A freeze-integrity preflight passed: 24 Phase 14A final-manifest artifacts; 488 prior manifest entries; 479 unique protected paths. Initial Phase 14A Python integration validation passed before Phase 14B output generation.
+- Active holds: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing-manifest-status, and the Phase 2A legacy worktree remain untouched.
+- Next exact action: complete deterministic Phase 14B builder and independent Python/R validation, then dispatch one bounded independent reviewer before commit/integration. Do not begin Phase 15; no release or tag.
+
+## Phase 14B corrected-package review and delivery checkpoint — 2026-09-10
+
+- Initial Phase 14B review `deleg_1c35baf2` returned `passed: false`; the preserved record is `reports/phase14b_independent_review_initial.md`. Legitimate blockers were corrected only in the unaccepted Phase 14B package.
+- Final fresh corrected-package review `deleg_9df50f46` returned `passed: true` with all required blocking arrays empty; the durable record is `reports/phase14b_independent_review.md`.
+- Corrected package counts: 213 registry entries across CSV/GeoJSON/GeoPackage/JSON/PNG/SVG/YAML; 367 relationship-normalization rows; 36 endpoint roles; 761 dependency rows; 78 joinability rows; population 520 total / 468 inferred / 52 reused context.
+- Final deterministic Python and independent R validation passed after review-record and manifest bookkeeping. Phase 14A/prior freeze readback passed at 512 entries / 503 unique paths. NPM tests/build and whitespace validation passed.
+- Phase 14B is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE** in the isolated feature worktree. Next exact action: stage and inspect the complete intended diff, commit, push the feature branch, fast-forward integrate into `main`, update integrated status surfaces, push `main`, and verify all refs/worktrees. No Phase 15, release, or tag.

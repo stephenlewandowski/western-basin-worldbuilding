@@ -1,0 +1,405 @@
+{
+  "checks": {
+    "active_holds_retained": {
+      "detail": "active hold missing",
+      "passed": true
+    },
+    "atlas_entity_and_system_join_keys_are_typed": {
+      "detail": [],
+      "passed": true
+    },
+    "conceptual_endpoints_preserved": {
+      "detail": "conceptual endpoint role changed to identity",
+      "passed": true
+    },
+    "dependency_evidence_classes_resolve": {
+      "detail": [],
+      "passed": true
+    },
+    "dependency_ids_unique": {
+      "detail": 761,
+      "passed": true
+    },
+    "dependency_lineage_complete": {
+      "detail": "dependency lineage/caveat incomplete",
+      "passed": true
+    },
+    "dependency_local_relationship_ids_resolve": {
+      "detail": [],
+      "passed": true
+    },
+    "dependency_required_fields": {
+      "detail": [],
+      "passed": true
+    },
+    "dependency_roles_valid": {
+      "detail": "invalid dependency endpoint role",
+      "passed": true
+    },
+    "dependency_scenario_baseline_retained": {
+      "detail": [
+        "BASELINE_DEPENDENCY"
+      ],
+      "passed": true
+    },
+    "dependency_source_artifacts_exist": {
+      "detail": [],
+      "passed": true
+    },
+    "dependency_source_ids_retained": {
+      "detail": "blank source_id",
+      "passed": true
+    },
+    "dependency_system_ids_resolve": {
+      "detail": [],
+      "passed": true
+    },
+    "documented_inferred_distinction_retained": {
+      "detail": [
+        "accepted_context_plus_inferred",
+        "documented",
+        "documented_boundary",
+        "documented_plus_inferred",
+        "inferred",
+        "reused_context"
+      ],
+      "passed": true
+    },
+    "endpoint_result_preserved": {
+      "detail": {
+        "resolved_system_level": 34,
+        "retained_conceptual": 2
+      },
+      "passed": true
+    },
+    "endpoint_role_rows_and_ids": {
+      "detail": 36,
+      "passed": true
+    },
+    "endpoint_roles_valid": {
+      "detail": [],
+      "passed": true
+    },
+    "energy_control_information_not_energy_flow": {
+      "detail": "information / observation",
+      "passed": true
+    },
+    "energy_fuel_is_material_input": {
+      "detail": "material flow",
+      "passed": true
+    },
+    "energy_generation_interfaces_preserved": {
+      "detail": {
+        "bidirectional_storage_interface": "energy flow",
+        "communications": "information / observation",
+        "cooling_water": "operational dependency",
+        "electricity": "operational dependency",
+        "fuel": "material flow",
+        "generation_grid_interface": "energy flow",
+        "grid_serves_load": "operational dependency",
+        "grid_serves_planned_compute": "operational dependency",
+        "regional_grid_interface": "energy flow",
+        "storage_support": "operational dependency",
+        "weather": "ecological relationship"
+      },
+      "passed": true
+    },
+    "energy_operational_dependencies_preserved": {
+      "detail": {
+        "bidirectional_storage_interface": "energy flow",
+        "communications": "information / observation",
+        "cooling_water": "operational dependency",
+        "electricity": "operational dependency",
+        "fuel": "material flow",
+        "generation_grid_interface": "energy flow",
+        "grid_serves_load": "operational dependency",
+        "grid_serves_planned_compute": "operational dependency",
+        "regional_grid_interface": "energy flow",
+        "storage_support": "operational dependency",
+        "weather": "ecological relationship"
+      },
+      "passed": true
+    },
+    "exact_and_system_level_joins_distinct": {
+      "detail": "system ID used as exact entity",
+      "passed": true
+    },
+    "generalized_and_context_roles_not_exact": {
+      "detail": "generalized/context endpoint marked exact",
+      "passed": true
+    },
+    "generalized_endpoints_not_localized": {
+      "detail": "retained endpoint localized",
+      "passed": true
+    },
+    "independent_r_result_persisted": {
+      "detail": {
+        "failure_count": 0,
+        "failures": [],
+        "passed": true,
+        "phase": "14B"
+      },
+      "passed": true
+    },
+    "integration_figure_png_qa": {
+      "detail": [
+        1892,
+        1414
+      ],
+      "passed": true
+    },
+    "integration_figure_svg_qa": {
+      "detail": "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"no\"?>\n<!DOCTYPE svg PUBLIC \"-//W3C//DTD SVG 1.1//EN\"\n  \"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd\">\n<svg xmlns:xlink=\"http://www.w3.org/1999/xlink\" width=\"851.4pt\" height=\"636.548578pt\" viewBox=\"0 0 851.4 636.548578\" xmlns=\"http://www.w3.org/20",
+      "passed": true
+    },
+    "joinability_findings_are_boolean": {
+      "detail": "non-boolean matrix status",
+      "passed": true
+    },
+    "joinability_has_no_score": {
+      "detail": [
+        "matrix_id",
+        "source_system_id",
+        "target_system_id",
+        "direct_exact_identity_join",
+        "system_level_conceptual_join",
+        "dependency_relationship_join",
+        "spatial_colocation_only",
+        "scenario_layer_reference",
+        "scenario_only_link",
+        "no_defensible_current_join",
+        "join_basis",
+        "caveat"
+      ],
+      "passed": true
+    },
+    "joinability_no_colocation_causation": {
+      "detail": "co-location rule missing",
+      "passed": true
+    },
+    "joinability_pair_count": {
+      "detail": 78,
+      "passed": true
+    },
+    "layer_ids_unique": {
+      "detail": 213,
+      "passed": true
+    },
+    "layer_registry_nonempty": {
+      "detail": 213,
+      "passed": true
+    },
+    "matrix_not_risk_matrix": {
+      "detail": [
+        "matrix_id",
+        "source_system_id",
+        "target_system_id",
+        "direct_exact_identity_join",
+        "system_level_conceptual_join",
+        "dependency_relationship_join",
+        "spatial_colocation_only",
+        "scenario_layer_reference",
+        "scenario_only_link",
+        "no_defensible_current_join",
+        "join_basis",
+        "caveat"
+      ],
+      "passed": true
+    },
+    "no_composite_risk_artifact": {
+      "detail": [],
+      "passed": true
+    },
+    "no_numeric_confidence_added": {
+      "detail": "numeric confidence claim",
+      "passed": true
+    },
+    "no_phase1_13_freeze_manifest_modified": {
+      "detail": [],
+      "passed": true
+    },
+    "ontology_system_count": {
+      "detail": 13,
+      "passed": true
+    },
+    "original_system_registry_untouched": {
+      "detail": [
+        "PROJECT_STATUS.md",
+        "README.md",
+        "data/processed/integration/atlas_dependency_crosswalk.csv",
+        "data/processed/integration/endpoint_role_crosswalk.csv",
+        "data/processed/integration/relationship_normalization_crosswalk.csv",
+        "data/processed/integration/system_joinability_matrix.csv",
+        "docs/agent_workflow.md",
+        "docs/canon_status.md",
+        "metadata/atlas_layers.yml",
+        "metadata/atlas_relationship_vocabulary.yml",
+        "outputs/figures/atlas_cross_system_joinability_dependency_architecture.png",
+        "outputs/figures/atlas_cross_system_joinability_dependency_architecture.svg",
+        "reports/README.md",
+        "reports/current_phase_handoff.md",
+        "reports/phase14b_artifact_check.json",
+        "reports/phase14b_atlas_layer_registry.md",
+        "reports/phase14b_build_summary.json",
+        "reports/phase14b_dependency_integration.md",
+        "reports/phase14b_independent_review.md",
+        "reports/phase14b_independent_review_initial.md",
+        "reports/phase14b_integration_qa.md",
+        "reports/phase14b_manifest.json",
+        "reports/phase14b_r_validation_result.json",
+        "reports/phase14b_relationship_normalization.md",
+        "src/R/systems/validate_phase14b_integration.R",
+        "src/python/systems/build_phase14b_integration.py",
+        "src/python/systems/validate_phase14b_integration.py"
+      ],
+      "passed": true
+    },
+    "phase14a_and_prior_freeze_integrity": {
+      "detail": {
+        "entries": 512,
+        "errors": [],
+        "unique_paths": 503
+      },
+      "passed": true
+    },
+    "phase14a_final_manifest_readback": {
+      "detail": [],
+      "passed": true
+    },
+    "phase14a_status_and_counts_preserved": {
+      "detail": {
+        "conceptual_dependency_rows": 25,
+        "endpoint_rows": 36,
+        "evidence_classes": 8,
+        "evidence_mappings": 17,
+        "figure": {
+          "interfaces": 12,
+          "png": "outputs/figures/western_basin_systems_architecture.png",
+          "svg": "outputs/figures/western_basin_systems_architecture.svg",
+          "systems": 13
+        },
+        "identity_rows": 456,
+        "relationship_rows": 367,
+        "resolved_exact": 0,
+        "resolved_system_level": 34,
+        "retained_conceptual": 2,
+        "systems": 13,
+        "total_dependencies": 36,
+        "unresolved": 0
+      },
+      "passed": true
+    },
+    "phase14b_working_manifest_integrity": {
+      "detail": [],
+      "passed": true
+    },
+    "phase15_release_tag_boundary": {
+      "detail": "boundary text missing",
+      "passed": true
+    },
+    "population_high_inference_counts": {
+      "detail": {
+        "context": 52,
+        "inferred": 468,
+        "total": 520
+      },
+      "passed": true
+    },
+    "population_use_rules": {
+      "detail": "population use rule missing",
+      "passed": true
+    },
+    "registered_artifacts_exist": {
+      "detail": [],
+      "passed": true
+    },
+    "registered_source_phases_valid": {
+      "detail": [],
+      "passed": true
+    },
+    "registered_system_ids_resolve": {
+      "detail": [],
+      "passed": true
+    },
+    "registry_geometry_semantics": {
+      "detail": "blank geometry/nonspatial field",
+      "passed": true
+    },
+    "registry_multiple_formats": {
+      "detail": [
+        "CSV",
+        "GeoJSON",
+        "GeoPackage",
+        "JSON",
+        "PNG",
+        "SVG",
+        "YAML"
+      ],
+      "passed": true
+    },
+    "registry_provenance_and_limits": {
+      "detail": "blank provenance or limitation",
+      "passed": true
+    },
+    "relationship_caveats_present": {
+      "detail": "blank caveat",
+      "passed": true
+    },
+    "relationship_classes_valid": {
+      "detail": [],
+      "passed": true
+    },
+    "relationship_lineage_present": {
+      "detail": "missing source lineage",
+      "passed": true
+    },
+    "relationship_normalization_ids_unique": {
+      "detail": 367,
+      "passed": true
+    },
+    "relationship_rows_retain_14A_inventory": {
+      "detail": {
+        "inventory": 367,
+        "normalized": 367
+      },
+      "passed": true
+    },
+    "relationship_semantic_fields_present": {
+      "detail": "missing normalized semantic field",
+      "passed": true
+    },
+    "scenario_reference_and_exclusive_flags_distinct": {
+      "detail": "scenario-only flag overlaps baseline dependency",
+      "passed": true
+    },
+    "valid_changed_scope": {
+      "detail": [],
+      "passed": true
+    }
+  },
+  "counts": {
+    "dependency_rows": 761,
+    "endpoint_role_rows": 36,
+    "joinability_rows": 78,
+    "phase14a_endpoint_occurrences": 36,
+    "phase14a_freeze_entries": 512,
+    "phase14a_freeze_unique_paths": 503,
+    "phase14a_identity_rows": 456,
+    "population_context_reused": 52,
+    "population_inferred": 468,
+    "population_total": 520,
+    "registry_entries": 213,
+    "registry_formats": {
+      "CSV": 81,
+      "GeoJSON": 2,
+      "GeoPackage": 16,
+      "JSON": 1,
+      "PNG": 55,
+      "SVG": 55,
+      "YAML": 3
+    },
+    "relationship_rows": 367
+  },
+  "errors": [],
+  "passed": true
+}

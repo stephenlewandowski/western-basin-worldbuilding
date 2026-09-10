@@ -1,0 +1,80 @@
+{
+  "dependency_counts": {
+    "evidence_classes": {
+      "CONTEXT_REUSED": 52,
+      "INFERRED": 515,
+      "OBSERVED_DOCUMENTED": 194
+    },
+    "exact_entity_rows": 110,
+    "population_context_reused": 52,
+    "population_inferred": 468,
+    "population_total": 520,
+    "scenario_pair_count": 9,
+    "source_artifact_counts": {
+      "data/processed/analysis/climate_hazard_dependency_register.csv": 24,
+      "data/processed/analysis/governance_dependency_register.csv": 25,
+      "data/processed/analysis/infectious_disease_dependency_register.csv": 36,
+      "data/processed/analysis/population_system_dependency_register.csv": 520,
+      "data/processed/analysis/vector_system_dependency_register.csv": 28,
+      "data/processed/networks/biogeochemical_dependency_edges.csv": 22,
+      "data/processed/networks/ecology_dependency_edges.csv": 18,
+      "data/processed/networks/energy_dependency_edges.csv": 28,
+      "data/processed/networks/exposure_dependency_edges.csv": 20,
+      "data/processed/networks/freight_dependency_edges.csv": 20,
+      "data/processed/networks/information_dependency_edges.csv": 20
+    },
+    "source_artifacts": 11,
+    "system_level_or_conceptual_rows": 481,
+    "total_rows": 761
+  },
+  "dependency_rows": 761,
+  "endpoint_role_counts": {
+    "ecological entity": 8,
+    "generalized external interface": 7,
+    "geographic unit": 4,
+    "institutional actor": 5,
+    "monitoring/surveillance interface": 6,
+    "physical asset": 1,
+    "population/settlement entity": 5
+  },
+  "endpoint_role_rows": 36,
+  "energy_taxonomy": {
+    "generation_transmission_storage_energy_flow": 3,
+    "non_energy_information_control": 1,
+    "operational_energy_dependency": 5
+  },
+  "figure": {
+    "exact_cross_system_examples": 0,
+    "examples": 4,
+    "png": "outputs/figures/atlas_cross_system_joinability_dependency_architecture.png",
+    "svg": "outputs/figures/atlas_cross_system_joinability_dependency_architecture.svg"
+  },
+  "joinability_rows": 78,
+  "registry_entries": 213,
+  "registry_formats": {
+    "CSV": 81,
+    "GeoJSON": 2,
+    "GeoPackage": 16,
+    "JSON": 1,
+    "PNG": 55,
+    "SVG": 55,
+    "YAML": 3
+  },
+  "relationship_class_counts": {
+    "ecological relationship": 64,
+    "energy flow": 3,
+    "exposure pathway": 21,
+    "governance / authority": 36,
+    "high-level association": 16,
+    "information / observation": 31,
+    "material flow": 16,
+    "operational dependency": 58,
+    "physical flow": 9,
+    "population / mobility interface": 7,
+    "scenario influence": 47,
+    "surveillance / detection": 20,
+    "unresolved / unclassified": 39
+  },
+  "relationship_rows": 367,
+  "scenario_pair_count": 9
+}
