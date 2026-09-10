@@ -1130,3 +1130,11 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Corrected package counts: 213 registry entries across CSV/GeoJSON/GeoPackage/JSON/PNG/SVG/YAML; 367 relationship-normalization rows; 36 endpoint roles; 761 dependency rows; 78 joinability rows; population 520 total / 468 inferred / 52 reused context.
 - Final deterministic Python and independent R validation passed after review-record and manifest bookkeeping. Phase 14A/prior freeze readback passed at 512 entries / 503 unique paths. NPM tests/build and whitespace validation passed.
 - Phase 14B is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE** in the isolated feature worktree. Next exact action: stage and inspect the complete intended diff, commit, push the feature branch, fast-forward integrate into `main`, update integrated status surfaces, push `main`, and verify all refs/worktrees. No Phase 15, release, or tag.
+
+## Phase 14B integration readback — 2026-09-10
+
+- Feature commit `61b5f841e36aae322694514f7f1117dd24fe6135` was committed, pushed to `origin/phase-14b-atlas-layer-registry-dependency-normalization`, and read back at the same SHA.
+- The feature was fast-forward integrated into `main`; local `main`, tracking `origin/main`, and remote `origin/main` read back at `61b5f841e36aae322694514f7f1117dd24fe6135` before this documentation readback commit.
+- Phase 14B is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. Phase 14A remains **ACCEPTED / FROZEN**. Active phase: **NONE**; Phase 15 is **NOT IMPLEMENTED**.
+- Active holds and deferred maintenance remain unchanged. No release or tag was created.
+- Next exact action: commit and push this final integrated-status/handoff readback, then verify local/remote synchronization and worktree cleanliness.

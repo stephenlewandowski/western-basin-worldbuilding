@@ -471,7 +471,7 @@ surveillance sensitivity and disease intensity, infrastructure stress and
 illness, mobility/connectivity and outbreak certainty, and response capacity
 and disease absence. No future case totals, incidence surface, outbreak
 probability, disease-burden or individual-risk product, vulnerability/EJ score,
-unsupported local downscaling is included. Phase 14B is implemented/validated and awaits Sol acceptance. Active phase is NONE; Phase 15 is not implemented. Great Black Swamp remains
+unsupported local downscaling is included. Phase 14B is implemented/validated and integrated, awaiting Sol acceptance. Active phase is NONE; Phase 15 is not implemented. Great Black Swamp remains
 C — HOLD / noncanonical and the Toledo intake-coordinate discrepancy remains
 UNRESOLVED.
 
@@ -492,4 +492,4 @@ Phase 14A is **ACCEPTED / FROZEN** under `reports/phase14a_common_systems_ontolo
 - `../src/R/systems/validate_phase14a_integration.R`
 - `../src/python/systems/validate_phase14a_freeze.py` and `../src/R/systems/validate_phase14a_freeze.R` — independent final freeze validators
 
-Phase 14B is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE**. The package is indexed by `phase14b_atlas_layer_registry.md`, `phase14b_relationship_normalization.md`, `phase14b_dependency_integration.md`, `phase14b_integration_qa.md`, and `phase14b_manifest.json`; Phase 15 is **NOT IMPLEMENTED**. Accepted/frozen artifacts, local identifiers, the Great Black Swamp hold, the unresolved Toledo intake-coordinate discrepancy, and deferred Phase 6B/3A/2A maintenance remain unchanged. No release or tag was created.
+Phase 14B is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. The package is indexed by `phase14b_atlas_layer_registry.md`, `phase14b_relationship_normalization.md`, `phase14b_dependency_integration.md`, `phase14b_integration_qa.md`, and `phase14b_manifest.json`; Phase 15 is **NOT IMPLEMENTED**. Accepted/frozen artifacts, local identifiers, the Great Black Swamp hold, the unresolved Toledo intake-coordinate discrepancy, and deferred Phase 6B/3A/2A maintenance remain unchanged. No release or tag was created.
