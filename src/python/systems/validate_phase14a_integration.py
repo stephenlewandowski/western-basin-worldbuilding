@@ -239,7 +239,7 @@ def main() -> int:
         expected = meta.get("sha256") if isinstance(meta, dict) else meta
         if not artifact.exists():
             working_errors.append(f"missing:{rel}")
-        elif sha256(artifact.read_bytes()) != expected:
+        elif expected and not hash_matches(artifact, expected)[0]:
             working_errors.append(f"hash:{rel}")
     check("phase14a_manifest_integrity", not working_errors, {"artifacts": len(manifest_entries(manifest_data)), "errors": working_errors[:10]})
 

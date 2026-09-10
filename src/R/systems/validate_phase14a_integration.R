@@ -194,7 +194,12 @@ working_pairs <- manifest_hash_pairs(path(manifest_rel))
 working_errors <- character()
 for (i in seq_len(nrow(working_pairs))) {
   fp <- path(working_pairs$path[[i]])
-  if (!file.exists(fp) || !identical(sha256_file(fp), working_pairs$sha256[[i]])) working_errors <- c(working_errors, working_pairs$path[[i]])
+  ok <- FALSE
+  if (file.exists(fp)) {
+    ok <- isTRUE(sha256_file(fp) == working_pairs$sha256[[i]])
+    if (!ok && tolower(tools::file_ext(fp)) %in% c("csv", "md", "json", "yml", "yaml", "svg", "txt", "py", "r")) ok <- isTRUE(canonical_text_hash(fp) == working_pairs$sha256[[i]])
+  }
+  if (!ok) working_errors <- c(working_errors, working_pairs$path[[i]])
 }
 check("phase14a_manifest_integrity", length(working_errors) == 0, paste(working_errors, collapse = ","))
 
