@@ -1041,3 +1041,8 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - No accepted/frozen scientific artifact, canon/status record, release, or tag was changed or created. Phase 14 was not implemented.
 - Review conclusion: the project is ready for qualitative convergence and Atlas prototyping, but not for a quantitatively coupled or composite-risk model. A narrow maintenance/status-alignment pass should precede a modified Phase 14 integration/ontology/evidence-crosswalk phase; biosecurity should not be a standalone domain trilogy.
 - Active phase remains **NONE** and next analytical phase remains **NOT APPROVED**. Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**.
+
+## Pre-Phase-14 legacy closure audit — 2026-09-10
+
+- Read-only audit recorded at `reports/pre_phase14_legacy_closure_audit.md` against synchronized `main` / `origin/main` SHA `574b97c9dd3ec52b80cb0a4ce32bf541a4f391d3`.
+- No scientific artifact, freeze manifest, acceptance status, Phase 14 material, branch, or worktree was changed, merged, deleted, or rewritten. Great Black Swamp and Toledo intake-coordinate holds remain unchanged.
