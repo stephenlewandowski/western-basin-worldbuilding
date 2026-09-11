@@ -723,7 +723,7 @@ Phase 14A and Phase 14B are **ACCEPTED / FROZEN**. Phase 14 is **COMPLETE / ACCE
 
 **Technology & Strategic-Systems Baseline and Interfaces, 2026**
 
-Phase 15A adds an additive technology capability layer over the frozen Phase 14 ontology and accepted/frozen Western Basin systems. The package contains eight technology families, 18 technology records, 21 observations, 44 technology-to-system interfaces, 32 qualitative technology dependencies, eight uncertainty records, 30 source records, a technology vocabulary, and the conceptual `Technology–System Convergence Architecture, 2026` figure.
+Phase 15A adds an additive technology capability layer over the frozen Phase 14 ontology and accepted/frozen Western Basin systems. The package contains eight technology families, 18 technology records, 21 observations, 44 technology-to-system interfaces, 32 qualitative technology dependencies, eight uncertainty records, 33 source records, a technology vocabulary, and the conceptual `Technology–System Convergence Architecture, 2026` figure.
 
 The technology records preserve established, commercially emerging, demonstration/pilot, and research-stage maturity without pseudo-precise readiness scores. Current/emerging/speculative technology relevance is distinct from node regional relevance. National capability, research trajectory, or demonstration support is not represented as Western Basin deployment or adoption. Interfaces are additive and use Phase 14 system IDs without modifying Phase 14 registries or Phase 1–14 artifacts.
 

@@ -86,7 +86,7 @@ bio_report <- paste(readLines(path("reports/phase15a_biosecurity_lens.md"), warn
 bio_terms <- c("Detection", "Attribution uncertainty", "Laboratory/diagnostic capacity", "Biological monitoring", "Supply-chain resilience", "Dual-use governance", "public communication", "no pathogen engineering")
 check("biosecurity_lens_topics", all(vapply(bio_terms, function(term) grepl(term, bio_report, fixed = TRUE), logical(1))), "biosecurity topics/boundary")
 provenance_report <- paste(readLines(path("reports/phase15a_provenance_check.md"), warn = FALSE, encoding = "UTF-8"), collapse = "\n")
-provenance_terms <- c(sprintf("[%d]", 1:14), "## Sources")
+provenance_terms <- c(sprintf("[%d]", 1:17), "## Sources")
 check("grounded_provenance_report", all(vapply(provenance_terms, function(term) grepl(term, provenance_report, fixed = TRUE), logical(1))), "ledger citations/source block")
 working_manifest <- paste(readLines(path("reports/phase15a_manifest.json"), warn = FALSE, encoding = "UTF-8"), collapse = "\n")
 check("working_manifest_identity", grepl('"phase": "15A"', working_manifest, fixed = TRUE) && grepl('"status": "generated_working_package"', working_manifest, fixed = TRUE) && grepl("d8247cf3419be6e0caf0b345f63644f2795c2ac6", working_manifest, fixed = TRUE), "working manifest identity")

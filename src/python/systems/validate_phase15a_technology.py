@@ -205,7 +205,7 @@ def main() -> int:
     check("biotech_positive_scope_safe", not re.search(r"\b(weaponization|pathogen optimization|harmful-agent enhancement|evasion tactic|wet-lab protocol)\b", biotech_positive.lower()), "unsafe positive biotechnology detail")
     check("biosecurity_lens_bounded", all(term in BIOSECURITY_REPORT.read_text(encoding="utf-8") for term in ("Detection", "Attribution uncertainty", "Laboratory/diagnostic capacity", "Biological monitoring", "Supply-chain resilience", "Dual-use governance", "public communication", "no pathogen engineering")), "biosecurity lens topic/boundary")
     provenance_text = PROVENANCE_REPORT.read_text(encoding="utf-8")
-    check("grounded_provenance_report", all(f"[{index}]" in provenance_text for index in range(1, 15)) and "## Sources" in provenance_text, "ledger citations/source block")
+    check("grounded_provenance_report", all(f"[{index}]" in provenance_text for index in range(1, 18)) and "## Sources" in provenance_text, "ledger citations/source block")
 
     figure_svg_ok = False
     figure_detail = ""

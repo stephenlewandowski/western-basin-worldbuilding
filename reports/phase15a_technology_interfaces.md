@@ -8,14 +8,15 @@ The package contains 44 additive interfaces. Their regional relevance counts are
 
 ## Capability-to-interface rules
 
-- AI recommendation and optimization remain decision support. They do not become autonomous legal authority, operational control, or enforcement.[1]
-- Sensing rows stop at measurement/detection. Measurement is not interpretation, decision, enforcement, exposure, dose, incidence, or disease.
+- AI recommendation and optimization remain decision support. They do not become autonomous legal authority, operational control, or enforcement.[1][15]
+- Sensing rows stop at measurement/detection. NOAA's glider materials support autonomous/mobile observing platforms, not interpretation, decision, enforcement, exposure, dose, incidence, or disease.[16]
 - Cybersecurity rows are defensive: authentication, trust, continuity, data integrity, communications, and recovery. CISA's goals are a voluntary baseline for critical-infrastructure protection, not an offensive technique catalogue.[2]
 - Energy rows preserve the Phase 3 distinction between energy flow, operational dependency, material/fuel input, and information/control. Advanced nuclear, hydrogen, storage, and fusion are not treated as dependable regional generation.[3][4][13]
 - DOE's energy-storage program provides general status context for long-duration storage; it does not prove regional deployment or firm dependable power.[14]
 - Quantum rows are research-stage or speculative. NIST identifies quantum sensors, networks, and computers as areas of development; laboratory capability is not operational deployment.[5]
 - Biotechnology rows remain high-level and safe. CDC's AMD program connects genomic sequencing, high-performance computing, and epidemiology to public-health response; this supports a detection/diagnostic interface, not a local incidence or threat claim.[11]
 - Privacy/data rows preserve observation ≠ authority, data availability ≠ permission, and technical capability ≠ legal authority. NIST's Privacy Framework is voluntary and intended for privacy-risk management, not a local legal finding.[6]
+- Circular-materials rows use EPA's life-cycle reuse framework as general capability context; no local recovery facility or process is asserted.[17]
 
 ## Existing systems affected
 
@@ -32,3 +33,6 @@ The matrix connects technology families to Water, Materials, Energy, Data, Freig
 [11] https://www.cdc.gov/advanced-molecular-detection/php/about/index.html — About CDC Advanced Molecular Detection | CDC
 [13] https://www.energy.gov/oced/regional-clean-hydrogen-hubs — Regional Clean Hydrogen Hubs | DOE
 [14] https://www.energy.gov/oe/energy-storage — Energy Storage | DOE
+[15] https://www.energy.gov/sites/default/files/2024-08/Artificial%20Intelligence%20at%20the%20U.S.%20Department%20of%20Energy%20Recommendations%20July%202024.pdf — Recommendations on Artificial Intelligence for the U.S. Department of Energy
+[16] https://ioos.noaa.gov/project/underwater-gliders — Underwater Gliders | NOAA IOOS
+[17] https://www.epa.gov/smm/sustainable-materials-management-basics — Sustainable Materials Management Basics | EPA

@@ -304,7 +304,7 @@
       "passed": true
     },
     "source_ids_unique": {
-      "detail": 30,
+      "detail": 33,
       "passed": true
     },
     "source_scope_values": {
@@ -406,7 +406,7 @@
         "emerging": 12,
         "interfaces": 44,
         "observations": 21,
-        "sources": 30,
+        "sources": 33,
         "speculative": 3,
         "technology_families": 8,
         "technology_nodes": 18,
@@ -439,11 +439,11 @@
     "observations": 21,
     "prior_freeze_entries": 535,
     "prior_freeze_unique_paths": 526,
-    "sources": 30,
+    "sources": 33,
     "status_counts": {
-      "commercially emerging": 8,
-      "demonstration / pilot": 4,
-      "established": 3,
+      "commercially emerging": 7,
+      "demonstration / pilot": 3,
+      "established": 5,
       "research-stage": 3
     },
     "technology_families": 8,

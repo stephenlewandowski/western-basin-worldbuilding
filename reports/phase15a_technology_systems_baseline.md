@@ -2,7 +2,7 @@
 
 ## Status and scope
 
-This is a factual/current technology capability and interface baseline, not a technology adoption forecast. NIST describes AI RMF as a voluntary framework for incorporating trustworthiness into AI design and use; it does not establish reliable deployment or authority.[1] NIST's manufacturing program connects measurement, smart manufacturing, additive manufacturing, biomanufacturing, and supply-chain resilience at national scale, but that capability is not local facility evidence.[12]
+This is a factual/current technology capability and interface baseline, not a technology adoption forecast. NIST describes AI RMF as a voluntary framework for incorporating trustworthiness into AI design and use; it does not establish reliable deployment or authority.[1] DOE's 2024 AI recommendations describe data, storage, compute, energy infrastructure, and guardrails as part of an AI capability context.[15] NIST's manufacturing program connects measurement, smart manufacturing, additive manufacturing, biomanufacturing, and supply-chain resilience at national scale, but that capability is not local facility evidence.[12]
 
 The repository contributes the regional system context. Phase 3 supplies energy/grid/compute interfaces; Phase 4 supplies observation and information governance; Phase 5 supplies freight/industry; Phase 6–8 supply ecology, exposure, and nutrients; Phase 10–13 supply governance, population, vectors, and infectious disease; and Phase 14 supplies the additive ontology and dependency contract. These are existing-system inputs, not evidence that every listed technology is deployed locally.
 
@@ -10,7 +10,7 @@ The repository contributes the regional system context. Phase 3 supplies energy/
 
 - Technology families: 8.
 - Technology records: 18.
-- Technology status: {'commercially emerging': 8, 'established': 3, 'demonstration / pilot': 4, 'research-stage': 3}.
+- Technology status: {'commercially emerging': 7, 'established': 5, 'demonstration / pilot': 3, 'research-stage': 3}.
 - Technology records by current_or_emerging: current 3, emerging 12, speculative 3.
 - Technology-node regional relevance: current 3, emerging 9, speculative 6.
 - Observations: 21; system interfaces: 44; dependencies: 32; uncertainties: 8.
@@ -20,23 +20,25 @@ The repository contributes the regional system context. Phase 3 supplies energy/
 | Family | Records | Representative status and relevance |
 |---|---:|---|
 | AI / ADVANCED COMPUTE / AUTOMATION | 2 | AI / advanced compute decision support — commercially emerging / emerging, Industrial automation and machine-assisted operations — commercially emerging / emerging |
-| ADVANCED SENSING / AUTONOMOUS SYSTEMS | 2 | Advanced environmental sensing and observing — established / current, Autonomous inspection and mobile sensing systems — demonstration / pilot / emerging |
+| ADVANCED SENSING / AUTONOMOUS SYSTEMS | 2 | Advanced environmental sensing and observing — established / current, Autonomous and mobile environmental observing — established / emerging |
 | CYBERSECURITY / DIGITAL RESILIENCE | 2 | Defensive cybersecurity and digital resilience — established / current, Post-quantum cryptographic transition — commercially emerging / emerging |
 | ADVANCED ENERGY | 5 | Advanced nuclear reactors — demonstration / pilot / speculative, Long-duration and grid-scale energy storage — demonstration / pilot / emerging, Distributed energy and microgrid coordination — commercially emerging / emerging, Hydrogen production, storage, and use — demonstration / pilot / speculative, Fusion energy research — research-stage / speculative |
-| ADVANCED MATERIALS / MANUFACTURING | 2 | Advanced materials and smart manufacturing — commercially emerging / emerging, Additive manufacturing and circular materials — commercially emerging / emerging |
+| ADVANCED MATERIALS / MANUFACTURING | 2 | Advanced materials and smart manufacturing — commercially emerging / emerging, Sustainable circular materials management — established / emerging |
 | QUANTUM TECHNOLOGIES | 2 | Quantum sensing and timing — research-stage / speculative, Quantum computing and optimization — research-stage / speculative |
 | BIOTECHNOLOGY / GENETIC ENGINEERING | 2 | Genomic diagnostics and environmental molecular monitoring — commercially emerging / emerging, Biomanufacturing and industrial biotechnology — commercially emerging / speculative |
 | PRIVACY / SURVEILLANCE / DATA GOVERNANCE | 1 | Privacy, surveillance, and data governance — established / current |
 
 ## Regional relevance findings
 
-The strongest current interfaces are established environmental observation, defensive digital resilience, and privacy/data governance over existing public-information, energy, water, ecological, population, and institutional systems. NOAA's IOOS describes integrated observation and predictive tools for the Great Lakes, which supports an observation interface but not an exhaustive Toledo technology inventory.[9] CISA's cross-sector goals support a defensive continuity lens across critical infrastructure, not proof of local implementation.[2]
+The strongest current interfaces are established environmental observation, defensive digital resilience, and privacy/data governance over existing public-information, energy, water, ecological, population, and institutional systems. NOAA's IOOS describes integrated observation and predictive tools for the Great Lakes, which supports an observation interface but not an exhaustive Toledo technology inventory.[9] Its underwater-glider page documents robotic/mobile observing platforms and applications, but not a Western Basin glider deployment.[16] CISA's cross-sector goals support a defensive continuity lens across critical infrastructure, not proof of local implementation.[2]
 
 Emerging interfaces include AI/compute decision support, autonomous inspection, storage, distributed energy, advanced manufacturing, post-quantum migration, and genomic diagnostics. The frozen Phase 3A baseline contains one documented 5 MW compute project with operating status unverified; this is regional compute context, not evidence of AI deployment. Phase 2 and Phase 5 provide materials and industry context without inventing regional advanced manufacturing capability.
 
 DOE describes advanced reactors through demonstration pathways, while its fusion program is a research program addressing foundational science and technology gaps.[3][4] DOE's hydrogen-hub page describes a national program connecting producers, consumers, and infrastructure; it does not establish a basin project.[13] NIST describes quantum sensing, networks, and computing as research and measurement directions; no operational regional deployment is asserted.[5]
 
 DOE's Energy Storage Division describes research and efforts to deploy grid-scale and long-duration storage, but this does not establish a Western Basin project, duration, or adoption.[14]
+
+EPA describes sustainable materials management as using and reusing materials across their life cycles; this supports a circular-materials interface, not a local facility or recovery rate.[17]
 
 ## Boundaries
 
@@ -53,3 +55,6 @@ Technology capability ≠ reliable deployment ≠ adoption ≠ benefit. A depend
 [12] https://www.nist.gov/manufacturing — Manufacturing | NIST
 [13] https://www.energy.gov/oced/regional-clean-hydrogen-hubs — Regional Clean Hydrogen Hubs | DOE
 [14] https://www.energy.gov/oe/energy-storage — Energy Storage | DOE
+[15] https://www.energy.gov/sites/default/files/2024-08/Artificial%20Intelligence%20at%20the%20U.S.%20Department%20of%20Energy%20Recommendations%20July%202024.pdf — Recommendations on Artificial Intelligence for the U.S. Department of Energy
+[16] https://ioos.noaa.gov/project/underwater-gliders — Underwater Gliders | NOAA IOOS
+[17] https://www.epa.gov/smm/sustainable-materials-management-basics — Sustainable Materials Management Basics | EPA

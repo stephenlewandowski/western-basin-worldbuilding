@@ -2,7 +2,7 @@
 
 ## Package checks
 
-The reproducible builder writes 18 technology records across 8 families, 21 observations, 44 technology-system interfaces, 32 dependency records, 8 uncertainty records, 30 source records, and one conceptual PNG/SVG figure. The machine result is `reports/phase15a_artifact_check.json`; Python and independent base-R validators are required before integration.
+The reproducible builder writes 18 technology records across 8 families, 21 observations, 44 technology-system interfaces, 32 dependency records, 8 uncertainty records, 33 source records, and one conceptual PNG/SVG figure. The machine result is `reports/phase15a_artifact_check.json`; Python and independent base-R validators are required before acceptance.
 
 ## Required semantic checks
 

@@ -2,7 +2,7 @@
 
 ## Phase 15A Technology & Strategic-Systems Baseline
 
-- Phase 15A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** with eight technology families, 18 technology records, 21 observations, 44 technology-system interfaces, 32 qualitative dependencies, eight uncertainty records, 30 sources, and the conceptual `technology_system_convergence_architecture_2026` PNG/SVG figure.
+- Phase 15A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** with eight technology families, 18 technology records, 21 observations, 44 technology-system interfaces, 32 qualitative dependencies, eight uncertainty records, 33 sources, and the conceptual `technology_system_convergence_architecture_2026` PNG/SVG figure.
 - Package reports: `phase15a_technology_systems_baseline.md`, `phase15a_technology_interfaces.md`, `phase15a_biosecurity_lens.md`, `phase15a_technology_qa.md`, and `phase15a_provenance_check.md`. Working manifest: `phase15a_manifest.json`; machine checks: `phase15a_artifact_check.json` and `phase15a_r_validation_result.json`.
 - Phase 15B remains **APPROVED SCOPE / NOT IMPLEMENTED**. Phase 16, composite scoring, local technology-deployment inference, offensive cyber material, and harmful-biology operational detail are absent.
 

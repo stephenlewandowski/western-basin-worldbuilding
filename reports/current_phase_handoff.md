@@ -1178,3 +1178,11 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Active holds and deferred maintenance remain unchanged. No release or tag was created.
 - Final readback before this handoff-only update: post-documentation Python/R/provenance/npm/whitespace checks passed; local `main`, tracking `origin/main`, and remote `origin/main` matched `f0cc4df1cbad3370cf4525a7470b877188766621`; all 35 registered worktrees were clean; no release or tag was created.
 - Final current state: Phase 15A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; Phase 15B is **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 16 is **NOT IMPLEMENTED**; Active phase is **NONE**. Active holds and deferred maintenance remain unchanged.
+
+## Phase 15A source-fit correction checkpoint — 2026-09-11
+
+- Delayed review reconciliation identified source-fit defects in the already integrated package. The correction narrows AI capability to DOE-supported AI/compute/energy decision-support context, uses NOAA IOOS Underwater Gliders for established autonomous/mobile environmental observing, and uses EPA Sustainable Materials Management for established life-cycle circular-materials management without combining unsupported additive-manufacturing claims.
+- Corrected package counts remain 8 technology families, 18 technology records, 21 observations, 44 interfaces, 32 dependencies, and 8 uncertainties; source records increase from 30 to 33. Node maturity counts are 5 established, 7 commercially emerging, 3 demonstration/pilot, and 3 research-stage.
+- Corrected deterministic Python/R validation, strict grounded provenance, figure QA, prior freeze integrity (`535` entries / `526` unique paths), npm tests/build, and whitespace checks passed. Working manifest closure includes the validation and review-lineage artifacts.
+- Prior review `deleg_4cd21ddf` is preserved as superseded pre-correction lineage. Final corrected-package review `deleg_486838c1` passed with all blocking arrays empty.
+- Next exact action: commit and push the source-fit correction branch, fast-forward integrate it into `main`, rerun the final post-correction gates, and verify local/remote synchronization and worktree cleanliness. No Phase 15B, Phase 16, release, or tag.

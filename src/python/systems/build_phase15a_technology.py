@@ -89,7 +89,7 @@ TECHNOLOGIES = [
         "technology_status": "commercially emerging",
         "capability_scope": "Models, optimization, forecasting, and decision-support tools for human-supervised use.",
         "current_or_emerging": "emerging", "regional_relevance": "emerging",
-        "source_id": "EXT-NIST-AI-RMF", "regional_evidence_source_id": "REG-PHASE14B-ATLAS",
+        "source_id": "EXT-DOE-AI-RECOMMENDATIONS", "regional_evidence_source_id": "REG-PHASE14B-ATLAS",
         "evidence_class": "OBSERVED_DOCUMENTED",
         "governance_interface": "Decision support only; no autonomous legal, operational, or enforcement authority.",
         "adoption_boundary": "AI capability and compute capacity do not establish reliable deployment or useful intelligence.",
@@ -127,14 +127,14 @@ TECHNOLOGIES = [
     {
         "technology_id": "TECH-SENS-AUTONOMOUS",
         "technology_family": FAMILIES[1],
-        "technology_label": "Autonomous inspection and mobile sensing systems",
-        "technology_status": "demonstration / pilot",
-        "capability_scope": "Robotic, aerial, surface, or mobile platforms that collect measurements or inspect infrastructure.",
+        "technology_label": "Autonomous and mobile environmental observing",
+        "technology_status": "established",
+        "capability_scope": "Autonomous or mobile platforms that collect environmental measurements or support bounded inspection.",
         "current_or_emerging": "emerging", "regional_relevance": "emerging",
-        "source_id": "EXT-NOAA-IOOS", "regional_evidence_source_id": "REG-PHASE3B-ENERGY-DEPENDENCIES",
+        "source_id": "EXT-NOAA-IOOS-GLIDERS", "regional_evidence_source_id": "REG-PHASE3B-ENERGY-DEPENDENCIES",
         "evidence_class": "OBSERVED_DOCUMENTED",
         "governance_interface": "Autonomous collection does not create decision authority, consent, or enforcement power.",
-        "adoption_boundary": "Pilot capability does not establish routine regional operation or reliable interpretation.",
+        "adoption_boundary": "Platform capability does not establish routine regional operation or reliable interpretation.",
         "uncertainty": "Communications, battery/energy, weather, retrieval, safety, and data-quality dependencies are unresolved.",
         "notes": "Potential interface to water, energy, freight, exposure, and infectious-disease observation systems remains qualitative.",
     },
@@ -253,11 +253,11 @@ TECHNOLOGIES = [
     {
         "technology_id": "TECH-MATERIALS-CIRCULAR",
         "technology_family": FAMILIES[4],
-        "technology_label": "Additive manufacturing and circular materials",
-        "technology_status": "commercially emerging",
-        "capability_scope": "Additive production, recovery, recycling, and circular material-process interfaces.",
+        "technology_label": "Sustainable circular materials management",
+        "technology_status": "established",
+        "capability_scope": "Life-cycle material reuse, recovery, and recycling interfaces.",
         "current_or_emerging": "emerging", "regional_relevance": "emerging",
-        "source_id": "EXT-NIST-MANUFACTURING", "regional_evidence_source_id": "REG-PHASE5A-FREIGHT",
+        "source_id": "EXT-EPA-SMM", "regional_evidence_source_id": "REG-PHASE5A-FREIGHT",
         "evidence_class": "OBSERVED_DOCUMENTED",
         "governance_interface": "Material certification, waste/recovery regulation, and production decisions remain role-bounded.",
         "adoption_boundary": "A plausible materials interface is not a documented local recycling or additive-manufacturing operation.",
@@ -457,12 +457,14 @@ def make_sources() -> list[dict[str, object]]:
             "source_scope": "general_technology_capability", "publication_or_period": "current page accessed 2026-09-11",
             "retrieval_date": "2026-09-11", "geographic_scale": scale, "method_or_product": product,
             "evidence_use": use, "regional_deployment_supported": "no", "use_limitations": limitation,
-            "retrieval_url": url, "retrieval_provenance": "URL verified by bounded web extraction; general capability/status only.",
+            "retrieval_url": url, "retrieval_provenance": "URL verified by bounded web extraction or direct public retrieval; general capability/status only.",
         })
 
     external("EXT-NIST-AI-RMF", "AI Risk Management Framework | NIST", "https://www.nist.gov/itl/ai-risk-management-framework", "United States / general", "NIST AI RMF 1.0 and critical-infrastructure profile context", "AI trustworthiness, risk management, and human-governance boundary", "Voluntary framework; not evidence of local AI deployment, reliability, or authority.")
+    external("EXT-DOE-AI-RECOMMENDATIONS", "Recommendations on Artificial Intelligence for the U.S. Department of Energy", "https://www.energy.gov/sites/default/files/2024-08/Artificial%20Intelligence%20at%20the%20U.S.%20Department%20of%20Energy%20Recommendations%20July%202024.pdf", "United States / DOE energy and research context", "July 2024 DOE advisory memorandum on AI, compute, data, storage, energy infrastructure, and guardrails", "AI/compute capability and energy-system decision-support interface", "National DOE strategy does not prove Western Basin AI deployment or adoption.")
     external("EXT-NIST-MANUFACTURING", "Manufacturing | NIST", "https://www.nist.gov/manufacturing", "United States / general", "NIST manufacturing, smart manufacturing, materials, additive, and resilience context", "Advanced materials, manufacturing innovation, biomanufacturing, and process-monitoring capability", "General national capability; no named Western Basin process or facility adoption.")
     external("EXT-NOAA-IOOS", "U.S. Integrated Ocean Observing System | NOAA", "https://ioos.noaa.gov", "United States / coasts / Great Lakes", "Integrated observing, data, and predictive-tool system context", "Environmental sensing and observation interfaces", "Great Lakes scope supports a technology class/interface, not exhaustive Toledo deployment.")
+    external("EXT-NOAA-IOOS-GLIDERS", "Underwater Gliders | NOAA IOOS", "https://ioos.noaa.gov/project/underwater-gliders", "United States / coastal and Great Lakes observing context", "IOOS underwater-glider observing platforms, data assembly, and applications", "Autonomous/mobile environmental observing status and capability", "The page supports observing platforms, not a Western Basin glider deployment or infrastructure-inspection program.")
     external("EXT-CISA-CPG", "Cross-Sector Cybersecurity Performance Goals | CISA", "https://www.cisa.gov/cross-sector-cybersecurity-performance-goals", "United States / critical infrastructure", "Cross-sector defensive cybersecurity practices", "Defensive cybersecurity, continuity, authentication, and recovery boundary", "Voluntary goals do not prove implementation or service continuity.")
     external("EXT-NIST-PQC", "Post-Quantum Cryptography | NIST", "https://www.nist.gov/pqcrypto", "United States / global standards", "PQC standards and migration context", "Cryptographic transition and digital trust dependency", "Future quantum threat timing and local migration status are not inferred.")
     external("EXT-DOE-ARDP", "Advanced Reactor Demonstration Program | DOE", "https://www.energy.gov/ne/advanced-reactor-demonstration-program", "United States / demonstration program", "Advanced reactor demonstration and risk-reduction pathways", "Advanced nuclear maturity/status", "Demonstration support is not commercial availability or regional adoption.")
@@ -471,6 +473,7 @@ def make_sources() -> list[dict[str, object]]:
     external("EXT-DOE-FUSION", "Fusion Energy Sciences | DOE", "https://www.energy.gov/science/fes/fusion-energy-sciences", "United States / research program", "Fusion research and technology foundation context", "Fusion research-stage status", "Research trajectory is not current generation, firm power, or local deployment.")
     external("EXT-NIST-QIS", "Quantum information science | NIST", "https://www.nist.gov/quantum-information-science", "United States / research and standards", "Quantum computing, sensing, networks, and measurement context", "Quantum category/status and possible sensing/timing interfaces", "Laboratory capability is not operational deployment or economic transformation.")
     external("EXT-NIST-PRIVACY", "Privacy Framework | NIST", "https://www.nist.gov/privacy-framework", "United States / general organizations", "Voluntary privacy risk-management tool", "Privacy governance and responsible data-use boundary", "Framework is not legal advice, consent evidence, or a local surveillance inventory.")
+    external("EXT-EPA-SMM", "Sustainable Materials Management Basics | EPA", "https://www.epa.gov/smm/sustainable-materials-management-basics", "United States / general materials lifecycle", "EPA sustainable materials management and life-cycle reuse context", "Circular/reuse materials-management capability and governance interface", "EPA approach does not prove a named Western Basin recycling facility, process, or rate.")
     external("EXT-NIST-CSF", "Cybersecurity Framework | NIST", "https://www.nist.gov/cyberframework", "United States / organizations", "NIST CSF 2.0", "Defensive cybersecurity governance context", "Framework does not demonstrate local implementation or operational maturity.")
     external("EXT-CDC-ONEHEALTH", "About One Health | CDC", "https://www.cdc.gov/one-health/about", "Local to global / human-animal-environment", "One Health collaboration and monitoring context", "High-level biosecurity, coordination, and shared-environment lens", "Conceptual health-system approach; not evidence of local transmission or threat.")
     external("EXT-CDC-AMD", "About CDC Advanced Molecular Detection | CDC", "https://www.cdc.gov/advanced-molecular-detection/php/about/index.html", "United States / state and local public health interfaces", "Genomic sequencing, high-performance computing, epidemiology, and diagnostics context", "Biological detection and diagnostic capability", "General public-health capacity; no local result, incidence, or harmful-biology procedure.")
@@ -621,7 +624,7 @@ No Phase 15B tables, figures, scenario states, assumptions, future dependencies,
 
 ## Status and scope
 
-This is a factual/current technology capability and interface baseline, not a technology adoption forecast. NIST describes AI RMF as a voluntary framework for incorporating trustworthiness into AI design and use; it does not establish reliable deployment or authority.[1] NIST's manufacturing program connects measurement, smart manufacturing, additive manufacturing, biomanufacturing, and supply-chain resilience at national scale, but that capability is not local facility evidence.[12]
+This is a factual/current technology capability and interface baseline, not a technology adoption forecast. NIST describes AI RMF as a voluntary framework for incorporating trustworthiness into AI design and use; it does not establish reliable deployment or authority.[1] DOE's 2024 AI recommendations describe data, storage, compute, energy infrastructure, and guardrails as part of an AI capability context.[15] NIST's manufacturing program connects measurement, smart manufacturing, additive manufacturing, biomanufacturing, and supply-chain resilience at national scale, but that capability is not local facility evidence.[12]
 
 The repository contributes the regional system context. Phase 3 supplies energy/grid/compute interfaces; Phase 4 supplies observation and information governance; Phase 5 supplies freight/industry; Phase 6–8 supply ecology, exposure, and nutrients; Phase 10–13 supply governance, population, vectors, and infectious disease; and Phase 14 supplies the additive ontology and dependency contract. These are existing-system inputs, not evidence that every listed technology is deployed locally.
 
@@ -642,13 +645,15 @@ The repository contributes the regional system context. Phase 3 supplies energy/
 
 ## Regional relevance findings
 
-The strongest current interfaces are established environmental observation, defensive digital resilience, and privacy/data governance over existing public-information, energy, water, ecological, population, and institutional systems. NOAA's IOOS describes integrated observation and predictive tools for the Great Lakes, which supports an observation interface but not an exhaustive Toledo technology inventory.[9] CISA's cross-sector goals support a defensive continuity lens across critical infrastructure, not proof of local implementation.[2]
+The strongest current interfaces are established environmental observation, defensive digital resilience, and privacy/data governance over existing public-information, energy, water, ecological, population, and institutional systems. NOAA's IOOS describes integrated observation and predictive tools for the Great Lakes, which supports an observation interface but not an exhaustive Toledo technology inventory.[9] Its underwater-glider page documents robotic/mobile observing platforms and applications, but not a Western Basin glider deployment.[16] CISA's cross-sector goals support a defensive continuity lens across critical infrastructure, not proof of local implementation.[2]
 
 Emerging interfaces include AI/compute decision support, autonomous inspection, storage, distributed energy, advanced manufacturing, post-quantum migration, and genomic diagnostics. The frozen Phase 3A baseline contains one documented 5 MW compute project with operating status unverified; this is regional compute context, not evidence of AI deployment. Phase 2 and Phase 5 provide materials and industry context without inventing regional advanced manufacturing capability.
 
 DOE describes advanced reactors through demonstration pathways, while its fusion program is a research program addressing foundational science and technology gaps.[3][4] DOE's hydrogen-hub page describes a national program connecting producers, consumers, and infrastructure; it does not establish a basin project.[13] NIST describes quantum sensing, networks, and computing as research and measurement directions; no operational regional deployment is asserted.[5]
 
 DOE's Energy Storage Division describes research and efforts to deploy grid-scale and long-duration storage, but this does not establish a Western Basin project, duration, or adoption.[14]
+
+EPA describes sustainable materials management as using and reusing materials across their life cycles; this supports a circular-materials interface, not a local facility or recovery rate.[17]
 
 ## Boundaries
 
@@ -665,14 +670,15 @@ The package contains {len(interfaces)} additive interfaces. Their regional relev
 
 ## Capability-to-interface rules
 
-- AI recommendation and optimization remain decision support. They do not become autonomous legal authority, operational control, or enforcement.[1]
-- Sensing rows stop at measurement/detection. Measurement is not interpretation, decision, enforcement, exposure, dose, incidence, or disease.
+- AI recommendation and optimization remain decision support. They do not become autonomous legal authority, operational control, or enforcement.[1][15]
+- Sensing rows stop at measurement/detection. NOAA's glider materials support autonomous/mobile observing platforms, not interpretation, decision, enforcement, exposure, dose, incidence, or disease.[16]
 - Cybersecurity rows are defensive: authentication, trust, continuity, data integrity, communications, and recovery. CISA's goals are a voluntary baseline for critical-infrastructure protection, not an offensive technique catalogue.[2]
 - Energy rows preserve the Phase 3 distinction between energy flow, operational dependency, material/fuel input, and information/control. Advanced nuclear, hydrogen, storage, and fusion are not treated as dependable regional generation.[3][4][13]
 - DOE's energy-storage program provides general status context for long-duration storage; it does not prove regional deployment or firm dependable power.[14]
 - Quantum rows are research-stage or speculative. NIST identifies quantum sensors, networks, and computers as areas of development; laboratory capability is not operational deployment.[5]
 - Biotechnology rows remain high-level and safe. CDC's AMD program connects genomic sequencing, high-performance computing, and epidemiology to public-health response; this supports a detection/diagnostic interface, not a local incidence or threat claim.[11]
 - Privacy/data rows preserve observation ≠ authority, data availability ≠ permission, and technical capability ≠ legal authority. NIST's Privacy Framework is voluntary and intended for privacy-risk management, not a local legal finding.[6]
+- Circular-materials rows use EPA's life-cycle reuse framework as general capability context; no local recovery facility or process is asserted.[17]
 
 ## Existing systems affected
 
@@ -705,7 +711,7 @@ This lens includes no pathogen engineering methods, harmful-agent enhancement, w
 
 ## Package checks
 
-The reproducible builder writes {len(nodes)} technology records across {len(FAMILIES)} families, {len(observations)} observations, {len(interfaces)} technology-system interfaces, {len(dependencies)} dependency records, {len(uncertainties)} uncertainty records, {len(make_sources())} source records, and one conceptual PNG/SVG figure. The machine result is `reports/phase15a_artifact_check.json`; Python and independent base-R validators are required before integration.
+The reproducible builder writes {len(nodes)} technology records across {len(FAMILIES)} families, {len(observations)} observations, {len(interfaces)} technology-system interfaces, {len(dependencies)} dependency records, {len(uncertainties)} uncertainty records, {len(make_sources())} source records, and one conceptual PNG/SVG figure. The machine result is `reports/phase15a_artifact_check.json`; Python and independent base-R validators are required before acceptance.
 
 ## Required semantic checks
 
@@ -748,6 +754,9 @@ This short ledger-facing report records the external capability/status claims us
 - NIST describes manufacturing measurement, smart manufacturing, additive manufacturing, biomanufacturing, and production resilience at national scale.[12]
 - DOE describes Regional Clean Hydrogen Hubs as a national network of producers, consumers, and connective infrastructure.[13]
 - DOE describes energy-storage research and deployment efforts for grid-scale and long-duration storage.[14]
+- DOE's 2024 AI memorandum describes AI capability in relation to data, storage, compute, energy infrastructure, and guardrails.[15]
+- NOAA IOOS describes underwater gliders as robotic observing platforms for subsurface missions.[16]
+- EPA describes sustainable materials management as using and reusing materials across material life cycles.[17]
 
 Each statement is used only for general technology capability/status. Regional interface claims are separately based on accepted/frozen repository artifacts and are labeled as inference or reused context; no external source is treated as proof of Western Basin deployment.
 """, encoding="utf-8")
@@ -930,6 +939,7 @@ interface_contract:
         "reports/phase15a_provenance_check.md",
         "reports/phase15a_independent_review_initial.md",
         "reports/phase15a_independent_review_second_failed.md",
+        "reports/phase15a_independent_review_third_failed.md",
         "docs/phase_briefs/phase15_technology_strategic_systems_convergence.md",
         "docs/phase_briefs/phase15a_technology_strategic_systems_baseline_2026.md",
         "docs/phase_briefs/phase15b_technology_convergence_futures.md",

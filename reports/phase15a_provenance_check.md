@@ -16,6 +16,9 @@ This short ledger-facing report records the external capability/status claims us
 - NIST describes manufacturing measurement, smart manufacturing, additive manufacturing, biomanufacturing, and production resilience at national scale.[12]
 - DOE describes Regional Clean Hydrogen Hubs as a national network of producers, consumers, and connective infrastructure.[13]
 - DOE describes energy-storage research and deployment efforts for grid-scale and long-duration storage.[14]
+- DOE's 2024 AI memorandum describes AI capability in relation to data, storage, compute, energy infrastructure, and guardrails.[15]
+- NOAA IOOS describes underwater gliders as robotic observing platforms for subsurface missions.[16]
+- EPA describes sustainable materials management as using and reusing materials across material life cycles.[17]
 
 Each statement is used only for general technology capability/status. Regional interface claims are separately based on accepted/frozen repository artifacts and are labeled as inference or reused context; no external source is treated as proof of Western Basin deployment.
 
@@ -35,3 +38,6 @@ Each statement is used only for general technology capability/status. Regional i
 [12] https://www.nist.gov/manufacturing — Manufacturing | NIST
 [13] https://www.energy.gov/oced/regional-clean-hydrogen-hubs — Regional Clean Hydrogen Hubs | DOE
 [14] https://www.energy.gov/oe/energy-storage — Energy Storage | DOE
+[15] https://www.energy.gov/sites/default/files/2024-08/Artificial%20Intelligence%20at%20the%20U.S.%20Department%20of%20Energy%20Recommendations%20July%202024.pdf — Recommendations on Artificial Intelligence for the U.S. Department of Energy
+[16] https://ioos.noaa.gov/project/underwater-gliders — Underwater Gliders | NOAA IOOS
+[17] https://www.epa.gov/smm/sustainable-materials-management-basics — Sustainable Materials Management Basics | EPA
