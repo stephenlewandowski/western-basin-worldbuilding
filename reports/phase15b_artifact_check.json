@@ -1,0 +1,344 @@
+{
+  "checks": {
+    "advanced_energy_bounded": {
+      "detail": "advanced energy boundary",
+      "passed": true
+    },
+    "ai_authority_boundary": {
+      "detail": "AI authority boundary",
+      "passed": true
+    },
+    "all_13_systems_covered": {
+      "detail": "system coverage",
+      "passed": true
+    },
+    "assumption_axes": {
+      "detail": [
+        "cyber_digital_resilience",
+        "governance_capacity",
+        "infrastructure_adequacy",
+        "interoperability",
+        "regional_adoption",
+        "technology_maturity",
+        "trust_legitimacy",
+        "workforce_energy_material_capacity"
+      ],
+      "passed": true
+    },
+    "assumption_count_and_ids": {
+      "detail": 48,
+      "passed": true
+    },
+    "assumption_scenario_horizon": {
+      "detail": "scenario/horizon",
+      "passed": true
+    },
+    "assumption_sources": {
+      "detail": "source reference",
+      "passed": true
+    },
+    "assumption_status": {
+      "detail": "scenario status",
+      "passed": true
+    },
+    "biosecurity_safe": {
+      "detail": "biosecurity scope",
+      "passed": true
+    },
+    "comparison_boundaries": {
+      "detail": "comparison ranking boundary",
+      "passed": true
+    },
+    "comparison_count_and_ids": {
+      "detail": 6,
+      "passed": true
+    },
+    "comparison_no_score": {
+      "detail": "comparison fields",
+      "passed": true
+    },
+    "convergence_family_resolution": {
+      "detail": "convergence family",
+      "passed": true
+    },
+    "convergence_required_fields": {
+      "detail": "relationship fields",
+      "passed": true
+    },
+    "convergence_system_resolution": {
+      "detail": "convergence systems",
+      "passed": true
+    },
+    "cyber_defensive": {
+      "detail": "cyber scope",
+      "passed": true
+    },
+    "dependency_boundaries": {
+      "detail": "dependency boundary",
+      "passed": true
+    },
+    "dependency_change_types": {
+      "detail": [
+        "intensified_and_brittle_dependency",
+        "intensified_existing_dependency",
+        "redistributed_across_nodes",
+        "substituted_some_dependency"
+      ],
+      "passed": true
+    },
+    "dependency_family_resolution": {
+      "detail": "dependency family",
+      "passed": true
+    },
+    "dependency_system_resolution": {
+      "detail": "dependency systems",
+      "passed": true
+    },
+    "eight_phase15a_families": {
+      "detail": [
+        "ADVANCED ENERGY",
+        "ADVANCED MATERIALS / MANUFACTURING",
+        "ADVANCED SENSING / AUTONOMOUS SYSTEMS",
+        "AI / ADVANCED COMPUTE / AUTOMATION",
+        "BIOTECHNOLOGY / GENETIC ENGINEERING",
+        "CYBERSECURITY / DIGITAL RESILIENCE",
+        "PRIVACY / SURVEILLANCE / DATA GOVERNANCE",
+        "QUANTUM TECHNOLOGIES"
+      ],
+      "passed": true
+    },
+    "expected_starting_sha": {
+      "detail": "b8baa403316e56ce7a1266e1cf37d4839536dabc",
+      "passed": true
+    },
+    "family_state_baseline_resolution": {
+      "detail": "baseline family references",
+      "passed": true
+    },
+    "family_state_coverage": {
+      "detail": "family/horizon coverage",
+      "passed": true
+    },
+    "figure_png_technology_convergence_futures.png": {
+      "detail": {
+        "bytes": 443174,
+        "dimensions": [
+          2700,
+          1530
+        ]
+      },
+      "passed": true
+    },
+    "figure_png_technology_cross_system_effects.png": {
+      "detail": {
+        "bytes": 287542,
+        "dimensions": [
+          2700,
+          1620
+        ]
+      },
+      "passed": true
+    },
+    "figure_svg_technology_convergence_futures.svg": {
+      "detail": {
+        "bytes": 90741,
+        "required": [
+          "Technology Convergence Futures",
+          "2050",
+          "2075",
+          "No score"
+        ]
+      },
+      "passed": true
+    },
+    "figure_svg_technology_cross_system_effects.svg": {
+      "detail": {
+        "bytes": 22741,
+        "required": [
+          "Cross-System Technology Effects",
+          "observability",
+          "human authority",
+          "coupling"
+        ]
+      },
+      "passed": true
+    },
+    "governance_family_resolution": {
+      "detail": "governance family",
+      "passed": true
+    },
+    "independent_review_passed": {
+      "detail": "review record",
+      "passed": true
+    },
+    "no_composite_score_fields": {
+      "detail": [],
+      "passed": true
+    },
+    "no_exact_health_outcomes": {
+      "detail": "unsupported health outcome",
+      "passed": true
+    },
+    "no_exact_percentages": {
+      "detail": "unsupported percentage",
+      "passed": true
+    },
+    "no_frozen_artifact_modified": {
+      "detail": [],
+      "passed": true
+    },
+    "no_release_or_tag": {
+      "detail": "release/tag artifacts are out of scope",
+      "passed": true
+    },
+    "phase14_complete_accepted_frozen": {
+      "detail": "COMPLETE / ACCEPTED / FROZEN",
+      "passed": true
+    },
+    "phase14_ontology_has_13_systems": {
+      "detail": 13,
+      "passed": true
+    },
+    "phase14a_and_14b_accepted_frozen": {
+      "detail": [
+        "ACCEPTED / FROZEN",
+        "ACCEPTED / FROZEN"
+      ],
+      "passed": true
+    },
+    "phase15a_accepted_frozen": {
+      "detail": "ACCEPTED / FROZEN",
+      "passed": true
+    },
+    "phase15a_protected_artifact_count": {
+      "detail": 30,
+      "passed": true
+    },
+    "phase15a_source_registry_unique": {
+      "detail": 33,
+      "passed": true
+    },
+    "phase16_absent": {
+      "detail": [],
+      "passed": true
+    },
+    "prior_freeze_integrity": {
+      "detail": {
+        "entries": 565,
+        "unique_paths": 556
+      },
+      "passed": true
+    },
+    "qualitative_system_directions": {
+      "detail": [],
+      "passed": true
+    },
+    "quantum_bounded": {
+      "detail": "quantum boundary",
+      "passed": true
+    },
+    "scenario_not_forecast": {
+      "detail": "scenario boundary language",
+      "passed": true
+    },
+    "scenario_status_not_fact": {
+      "detail": "scenario status",
+      "passed": true
+    },
+    "schema_technology_convergence_relationships.csv": {
+      "detail": [],
+      "passed": true
+    },
+    "schema_technology_dependency_states.csv": {
+      "detail": [],
+      "passed": true
+    },
+    "schema_technology_family_states.csv": {
+      "detail": [],
+      "passed": true
+    },
+    "schema_technology_governance_states.csv": {
+      "detail": [],
+      "passed": true
+    },
+    "schema_technology_scenario_assumptions.csv": {
+      "detail": [],
+      "passed": true
+    },
+    "schema_technology_scenario_comparison.csv": {
+      "detail": [],
+      "passed": true
+    },
+    "schema_technology_system_states.csv": {
+      "detail": [],
+      "passed": true
+    },
+    "schema_technology_uncertainty_states.csv": {
+      "detail": [],
+      "passed": true
+    },
+    "sensing_authority_boundary": {
+      "detail": "sensing/enforcement boundary",
+      "passed": true
+    },
+    "status_surfaces": {
+      "detail": "status/canon/handoff",
+      "passed": true
+    },
+    "system_family_resolution": {
+      "detail": "system family",
+      "passed": true
+    },
+    "uncertainty_domains": {
+      "detail": [
+        "biosecurity_attribution_and_response",
+        "cybersecurity_and_continuity",
+        "energy_and_compute",
+        "governance_and_oversight",
+        "infrastructure_and_interoperability",
+        "materials_and_supply_chain",
+        "regional_adoption",
+        "technology_maturity_and_capability",
+        "trust_and_legitimacy",
+        "workforce_and_maintenance"
+      ],
+      "passed": true
+    },
+    "uncertainty_explicit": {
+      "detail": "uncertainty language",
+      "passed": true
+    },
+    "working_manifest_artifacts": {
+      "detail": [],
+      "passed": true
+    },
+    "working_manifest_identity": {
+      "detail": {
+        "phase": "15B",
+        "source_commit": "b8baa403316e56ce7a1266e1cf37d4839536dabc",
+        "status": "implemented_validated_pending_sol_acceptance"
+      },
+      "passed": true
+    }
+  },
+  "counts": {
+    "assumptions": 48,
+    "comparison_rows": 6,
+    "convergence_relationships": 60,
+    "dependency_states": 72,
+    "governance_states": 48,
+    "phase14_systems": 13,
+    "phase14a_protected_artifacts": 24,
+    "phase14b_protected_artifacts": 23,
+    "phase15a_protected_artifacts": 30,
+    "prior_freeze_entries": 565,
+    "prior_freeze_unique_paths": 556,
+    "system_states": 78,
+    "technology_families": 8,
+    "technology_family_states": 48,
+    "uncertainty_states": 60
+  },
+  "errors": [],
+  "passed": true,
+  "phase": "15B"
+}

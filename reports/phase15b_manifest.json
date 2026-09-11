@@ -1,0 +1,168 @@
+{
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  },
+  "artifacts": {
+    "data/processed/scenarios/technology_convergence_relationships.csv": {
+      "bytes": 95329,
+      "role": "Phase 15B working artifact",
+      "sha256": "079a678ce90dc6b7de00d84a68143d9f68753cc2ed322c37a8b1834a7f143fa8"
+    },
+    "data/processed/scenarios/technology_dependency_states.csv": {
+      "bytes": 84657,
+      "role": "Phase 15B working artifact",
+      "sha256": "ac0a502bfc48539eff384f15aa1eeb1b295a847f4576beb7e2bba712b50eb1f6"
+    },
+    "data/processed/scenarios/technology_family_states.csv": {
+      "bytes": 79376,
+      "role": "Phase 15B working artifact",
+      "sha256": "6b247111d21b2ec6b27886452ac002cc9efa8b865d6a69fcd3306c17a0d8bc5f"
+    },
+    "data/processed/scenarios/technology_governance_states.csv": {
+      "bytes": 61004,
+      "role": "Phase 15B working artifact",
+      "sha256": "ba2445cec6987a3a4286f131ba91aa46d10154ee8e214852c73cfffe791bfa94"
+    },
+    "data/processed/scenarios/technology_scenario_assumptions.csv": {
+      "bytes": 31780,
+      "role": "Phase 15B working artifact",
+      "sha256": "2d301bf754435f695e9a1d76e35141fdd70d02f137a2cf48c415ab2c43a88fa5"
+    },
+    "data/processed/scenarios/technology_scenario_comparison.csv": {
+      "bytes": 7558,
+      "role": "Phase 15B working artifact",
+      "sha256": "da64f318966421c1a805a93b70feb196865e41c632d6ce871720912fe13d694e"
+    },
+    "data/processed/scenarios/technology_system_states.csv": {
+      "bytes": 87395,
+      "role": "Phase 15B working artifact",
+      "sha256": "b5537b5982ff5efcea0877da663b4e772b1f099ff767fae883f341251624b51d"
+    },
+    "data/processed/scenarios/technology_uncertainty_states.csv": {
+      "bytes": 52191,
+      "role": "Phase 15B working artifact",
+      "sha256": "5fb64db79ecaee43c0433da4499b7f176b6d71bac36d008e642511d5f5d23c63"
+    },
+    "outputs/figures/technology_convergence_futures.png": {
+      "bytes": 443174,
+      "role": "Phase 15B working artifact",
+      "sha256": "ae65a4be16556a71a5ac02066293ba1b37d20256bfd449e390b79669e194f885"
+    },
+    "outputs/figures/technology_convergence_futures.svg": {
+      "bytes": 90741,
+      "role": "Phase 15B working artifact",
+      "sha256": "45472ba00842025805c5b9954da80de002a35560f947a803506d2e54874f4b41"
+    },
+    "outputs/figures/technology_cross_system_effects.png": {
+      "bytes": 287542,
+      "role": "Phase 15B working artifact",
+      "sha256": "fa856916e4417d8b1e91acc23cc42eaf90be3b0f1ebd0dc155023f461d663081"
+    },
+    "outputs/figures/technology_cross_system_effects.svg": {
+      "bytes": 22741,
+      "role": "Phase 15B working artifact",
+      "sha256": "9c193fe45d85282085610332e7476b6c04f0f6504e4fc938157b59557dcb1e38"
+    },
+    "reports/phase15b_artifact_check.json": {
+      "bytes": 8532,
+      "role": "Phase 15B working artifact",
+      "sha256": "0e3b0a903e11982a40a7166eaaef7f87c46cd5153af06860ceb301332d90d44b"
+    },
+    "reports/phase15b_biosecurity_futures.md": {
+      "bytes": 2710,
+      "role": "Phase 15B working artifact",
+      "sha256": "e49b43ebdf472ce10106a5c65dc4bafa472cc85e07f30e0f4906f3ab6c74bcb1"
+    },
+    "reports/phase15b_provenance_check.md": {
+      "bytes": 2254,
+      "role": "Phase 15B working artifact",
+      "sha256": "a05d3b67ff79be727e9b8d1243116c5521dcae3b2c2f821989a09654c77594f7"
+    },
+    "reports/phase15b_qa.md": {
+      "bytes": 2575,
+      "role": "Phase 15B working artifact",
+      "sha256": "ab46b123dd67b7ad08c9c911bfc939f7692cbb45418917ad9f09ee8032bd2c3f"
+    },
+    "reports/phase15b_r_validation_result.json": {
+      "bytes": 502,
+      "role": "Phase 15B working artifact",
+      "sha256": "709af200f572b3e0619e9f9c5cf1590ffa63043e306faa31129d37f1fafd5d3e"
+    },
+    "reports/phase15b_scenario_comparison.md": {
+      "bytes": 2820,
+      "role": "Phase 15B working artifact",
+      "sha256": "7587cece38709a2b08d320a0a3b087a22eff7ca83d18c0dc63f641b470b43fe2"
+    },
+    "reports/phase15b_technology_convergence_futures.md": {
+      "bytes": 6693,
+      "role": "Phase 15B working artifact",
+      "sha256": "e6ad0bf3c73ef6c0e6ec023ca40c38cc260e5a02fca7c7f56ae0272499ece1bf"
+    },
+    "src/R/systems/validate_phase15b_technology.R": {
+      "bytes": 17580,
+      "role": "Phase 15B working artifact",
+      "sha256": "94a1f6dce4f184891f41fc37ddb2c576fc47eab4dec1b94ffe7762c01dcfe7dc"
+    },
+    "src/python/systems/build_phase15b_technology.py": {
+      "bytes": 85465,
+      "role": "Phase 15B working artifact",
+      "sha256": "41725e3f9f9da5201b16e6203c54e9ef87091f6226c2f7cbbe549a2d596fe324"
+    },
+    "src/python/systems/validate_phase15b_technology.py": {
+      "bytes": 24586,
+      "role": "Phase 15B working artifact",
+      "sha256": "2fdfab79f879d1f88dd6685f76f80fd0480e172cf0f4d64856b2b849e06666f8"
+    }
+  },
+  "base_sha_expected": "b8baa403316e56ce7a1266e1cf37d4839536dabc",
+  "counts": {
+    "assumptions": 48,
+    "comparison_rows": 6,
+    "convergence_relationships": 60,
+    "dependency_states": 72,
+    "governance_states": 48,
+    "system_states": 78,
+    "technology_family_states": 48,
+    "uncertainty_states": 60
+  },
+  "forecast": false,
+  "horizons": [
+    2050,
+    2075
+  ],
+  "numeric_future_values_adopted": false,
+  "phase": "15B",
+  "phase14_status": "COMPLETE / ACCEPTED / FROZEN",
+  "phase14_system_count": 13,
+  "phase15a_status": "ACCEPTED / FROZEN",
+  "phase16_status": "NOT IMPLEMENTED",
+  "qualitative_only": true,
+  "release_created": false,
+  "scenario_families": {
+    "A": "Coordinated Technological Adaptation",
+    "B": "Uneven Networked Modernization",
+    "C": "High Capability / High Friction Basin"
+  },
+  "scenario_ids": [
+    "A2050",
+    "A2075",
+    "B2050",
+    "B2075",
+    "C2050",
+    "C2075"
+  ],
+  "source_commit": "b8baa403316e56ce7a1266e1cf37d4839536dabc",
+  "status": "implemented_validated_pending_sol_acceptance",
+  "tag_created": false,
+  "technology_families": [
+    "AI / ADVANCED COMPUTE / AUTOMATION",
+    "ADVANCED SENSING / AUTONOMOUS SYSTEMS",
+    "CYBERSECURITY / DIGITAL RESILIENCE",
+    "ADVANCED ENERGY",
+    "ADVANCED MATERIALS / MANUFACTURING",
+    "QUANTUM TECHNOLOGIES",
+    "BIOTECHNOLOGY / GENETIC ENGINEERING",
+    "PRIVACY / SURVEILLANCE / DATA GOVERNANCE"
+  ]
+}

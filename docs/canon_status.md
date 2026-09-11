@@ -345,3 +345,11 @@ The accepted counts preserve current/emerging/speculative `3 / 12 / 3`, maturity
 Python and independent base-R freeze validation passed; strict provenance passed; and final corrected-package review `deleg_486838c1` passed with all blocking arrays empty. Phase 14 remains **COMPLETE / ACCEPTED / FROZEN** and all prior frozen artifacts remain immutable. Phase 15B is **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 16 is **NOT IMPLEMENTED**; Active phase is **NONE**; next planning target is **Phase 15B — Technology Convergence Futures, 2050 / 2075**.
 
 Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing-manifest-status, and the Phase 2A superseded legacy worktree remain unchanged. No release or tag was created.
+
+## Phase 15B scenario boundary
+
+Phase 15B is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** as a separate qualitative 2050/2075 technology-convergence layer. It does not modify the accepted/frozen Phase 15A technology baseline, the Phase 14 ontology, or any prior frozen artifact. The package uses three alternatives — Coordinated Technological Adaptation, Uneven Networked Modernization, and High Capability / High Friction Basin — across 2050 and 2075. These are scenarios, not forecasts, and are not ranked.
+
+All eight Phase 15A technology families and all 13 Phase 14 systems remain covered through additive state tables. Capability ≠ deployment ≠ adoption ≠ benefit; technology ≠ resilience; AI recommendation ≠ authority; sensing ≠ enforcement; cybersecurity remains defensive; biosecurity remains high-level and safe; and quantum/fusion/advanced-nuclear treatment remains conservative. No exact deployment, health outcome, probability, or composite score is canonical.
+
+Phase 15A remains **ACCEPTED / FROZEN** and Phase 14 remains **COMPLETE / ACCEPTED / FROZEN**. Active phase is **NONE** after integration; Phase 15B awaits Sol acceptance; Phase 16 remains **NOT IMPLEMENTED**. Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred maintenance is unchanged. No release or tag was created.

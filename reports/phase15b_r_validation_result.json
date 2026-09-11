@@ -1,0 +1,19 @@
+{
+  "phase": "15B",
+  "passed": true,
+  "counts": {
+    "assumptions": 48,
+    "technology_family_states": 48,
+    "convergence_relationships": 60,
+    "system_states": 78,
+    "dependency_states": 72,
+    "governance_states": 48,
+    "uncertainty_states": 60,
+    "comparison_rows": 6,
+    "phase15a_protected_artifacts": 30,
+    "phase14a_protected_artifacts": 24,
+    "phase14b_protected_artifacts": 23,
+    "prior_freeze_entries": 565,
+    "prior_freeze_unique_paths": 556
+  }
+}
