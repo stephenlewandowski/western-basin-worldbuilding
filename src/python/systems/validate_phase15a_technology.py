@@ -25,6 +25,7 @@ UNCERTAINTIES = ROOT / "data/processed/analysis/technology_uncertainties.csv"
 INTERFACES = ROOT / "data/processed/integration/technology_system_interfaces.csv"
 DEPENDENCIES = ROOT / "data/processed/integration/technology_dependencies.csv"
 MANIFEST = ROOT / "reports/phase15a_manifest.json"
+FINAL_FREEZE_MANIFEST = ROOT / "reports/phase15a_technology_strategic_systems_baseline_freeze_manifest.json"
 CHECK = ROOT / "reports/phase15a_artifact_check.json"
 FIGURE_SVG = ROOT / "outputs/figures/technology_system_convergence_architecture_2026.svg"
 FIGURE_PNG = ROOT / "outputs/figures/technology_system_convergence_architecture_2026.png"
@@ -88,6 +89,8 @@ def prior_freeze_paths() -> tuple[int, set[str], list[str]]:
     paths: set[str] = set()
     errors: list[str] = []
     for manifest_path in sorted((ROOT / "reports").glob("*freeze_manifest.json")):
+        if manifest_path.name == FINAL_FREEZE_MANIFEST.name:
+            continue
         payload = json.loads(manifest_path.read_text(encoding="utf-8"))
         for rel, value in manifest_entries(payload).items():
             total += 1

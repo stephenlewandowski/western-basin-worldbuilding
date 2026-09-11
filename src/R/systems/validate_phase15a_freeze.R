@@ -47,7 +47,7 @@ working_artifacts <- c(
   "src/python/systems/build_phase15a_technology.py",
   "src/python/systems/validate_phase15a_technology.py"
 )
-final_artifacts <- sort(c(working_artifacts, "src/R/systems/validate_phase15a_freeze.R", "src/python/systems/validate_phase15a_freeze.py"))
+final_artifacts <- sort(c(file.path("reports", working_name), working_artifacts, "src/R/systems/validate_phase15a_freeze.R", "src/python/systems/validate_phase15a_freeze.py"))
 stop_if <- function(condition, message) if (!isTRUE(condition)) stop(message, call. = FALSE)
 path <- function(rel) file.path(root, gsub("/", .Platform$file.sep, rel, fixed = TRUE))
 read_csv_rel <- function(rel) read.csv(path(rel), stringsAsFactors = FALSE, check.names = FALSE, na.strings = character())

@@ -64,7 +64,7 @@ FREEZE_VALIDATORS = [
     "src/python/systems/validate_phase15a_freeze.py",
     "src/R/systems/validate_phase15a_freeze.R",
 ]
-FINAL_ARTIFACTS = sorted(WORKING_ARTIFACTS + FREEZE_VALIDATORS)
+FINAL_ARTIFACTS = sorted([WORKING_MANIFEST] + WORKING_ARTIFACTS + FREEZE_VALIDATORS)
 
 FAMILIES = {
     "AI / ADVANCED COMPUTE / AUTOMATION",

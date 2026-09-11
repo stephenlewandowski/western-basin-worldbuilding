@@ -245,9 +245,12 @@
         "reports/phase15a_r_validation_result.json",
         "reports/phase15a_technology_interfaces.md",
         "reports/phase15a_technology_qa.md",
+        "reports/phase15a_technology_strategic_systems_baseline_freeze_manifest.json",
         "reports/phase15a_technology_systems_baseline.md",
+        "src/R/systems/validate_phase15a_freeze.R",
         "src/R/systems/validate_phase15a_technology.R",
         "src/python/systems/build_phase15a_technology.py",
+        "src/python/systems/validate_phase15a_freeze.py",
         "src/python/systems/validate_phase15a_technology.py"
       ],
       "passed": true

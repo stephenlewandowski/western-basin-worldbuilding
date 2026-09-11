@@ -10,6 +10,7 @@ check <- function(name, condition, detail) {
   cat(if (passed) "PASS " else "FAIL ", name, " — ", detail, "\n", sep = "")
 }
 path <- function(rel) file.path(root, gsub("/", .Platform$file.sep, rel, fixed = TRUE))
+final_freeze_name <- "phase15a_technology_strategic_systems_baseline_freeze_manifest.json"
 read_csv_rel <- function(rel) read.csv(path(rel), stringsAsFactors = FALSE, check.names = FALSE, na.strings = character())
 nonempty <- function(x) all(nzchar(as.character(x)))
 
@@ -147,6 +148,7 @@ verify_manifest <- function(file) {
   bad
 }
 freeze_files <- list.files(path("reports"), pattern = "freeze_manifest\\.json$", full.names = TRUE)
+freeze_files <- freeze_files[basename(freeze_files) != final_freeze_name]
 freeze_bad <- unlist(lapply(freeze_files, verify_manifest))
 freeze_counts <- sum(vapply(freeze_files, function(x) nrow(manifest_hash_pairs(x)), integer(1)))
 freeze_unique <- length(unique(unlist(lapply(freeze_files, function(x) manifest_hash_pairs(x)$path))))

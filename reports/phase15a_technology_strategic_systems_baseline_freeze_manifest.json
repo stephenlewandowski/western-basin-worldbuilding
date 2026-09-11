@@ -69,9 +69,9 @@
       "sha256": "273397e80a5164d97afe16a255f23f9d5a51808432e267368311d7fce5d66a9b"
     },
     "reports/phase15a_artifact_check.json": {
-      "bytes": 13327,
+      "bytes": 13066,
       "role": "Phase 15A accepted/frozen artifact",
-      "sha256": "1e047f8ab1a5a14d19c04ddddd3b53cd5862daeafe3a12cd19c142d1b11349fc"
+      "sha256": "2ca0706908db9f9f77dc4af3cfc87c8fdbea6054712a1030f91051090ee894f7"
     },
     "reports/phase15a_biosecurity_lens.md": {
       "bytes": 2776,
@@ -103,6 +103,11 @@
       "role": "Phase 15A accepted/frozen artifact",
       "sha256": "759266f335423c2d6a02882c50bf5831784acc4177d644ce051277ad26cd3dc2"
     },
+    "reports/phase15a_manifest.json": {
+      "bytes": 6830,
+      "role": "validated Phase 15A working manifest",
+      "sha256": "bb94a34d6e80b2f852970365afa4f51c9ef1963b1f6aec8b3ba8c5992f705eb4"
+    },
     "reports/phase15a_provenance_check.md": {
       "bytes": 4373,
       "role": "Phase 15A accepted/frozen artifact",
@@ -129,14 +134,14 @@
       "sha256": "5b1ee5cc9cc1dbad577ee5f0be00a64883af2c3b250937f01e5310ca98c17e7d"
     },
     "src/R/systems/validate_phase15a_freeze.R": {
-      "bytes": 18349,
+      "bytes": 18385,
       "role": "independent Phase 15A freeze validator",
-      "sha256": "77f81258c38596f67fdfe50fd3e79f6c49681d6e8e87c01c5b5ef2d7f7bb5ab1"
+      "sha256": "819f2933423efaeae01d01f27531ba454fe2e49d50619cb6aae34659b1cd6986"
     },
     "src/R/systems/validate_phase15a_technology.R": {
-      "bytes": 17840,
+      "bytes": 17836,
       "role": "Phase 15A accepted/frozen artifact",
-      "sha256": "c5bd8a6a76fc65ec6674cfe961cf17185a802ce09067e91f969b792ad3443982"
+      "sha256": "2ba56ab020b32e64633f654f5d60b2199ab7f33bc828892d5886e5a05e131cff"
     },
     "src/python/systems/build_phase15a_technology.py": {
       "bytes": 100890,
@@ -144,14 +149,14 @@
       "sha256": "55c022aa18ea5d51f02639db224548f0fbd932552359e04e7e4f1954f0a5c5f1"
     },
     "src/python/systems/validate_phase15a_freeze.py": {
-      "bytes": 22076,
+      "bytes": 22097,
       "role": "independent Phase 15A freeze validator",
-      "sha256": "06d296e078468aebaafad599af96140c82aaada84b68d5d43210d93ce30f417b"
+      "sha256": "b9320a6670adfde64a3916b8aaad1c7d0449c1a0312e5f2db095c335643b934a"
     },
     "src/python/systems/validate_phase15a_technology.py": {
-      "bytes": 24039,
+      "bytes": 23975,
       "role": "Phase 15A accepted/frozen artifact",
-      "sha256": "0a34a47eb2cf3d3fd47a07f22109e81c576c8ef9b8d90ef547a17c2f8d07d970"
+      "sha256": "002168ad8b15d4b4731dab4a45136f269552e3821ce5ce1420e262c66f254128"
     }
   },
   "baseline": "Technology & Strategic-Systems Baseline and Interfaces, 2026",
