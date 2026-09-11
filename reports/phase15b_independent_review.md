@@ -21,9 +21,9 @@ The fresh reviewer explicitly inspected the live R validator, confirmed that `st
   "canon_boundary_errors": [],
   "suggestions": [
     "The derived comparison CSV has no row-level source_or_basis or assumption_id fields; provenance is carried by the underlying state tables and reports, but an explicit derivation reference could improve traceability.",
-    "The reviewer noted additional non-blocking figure/QA traceability improvements; none affected the acceptance gate."
+    "The first comparison figure relies on the QA/report for its conceptual non-geographic caveat; making that caveat explicit in the figure text would improve standalone interpretation."
   ],
-  "summary": "Fresh bounded review passed after direct inspection of the corrected R percentage guard and the Phase 15B package; all requested blocking boundaries were clear and only non-blocking traceability suggestions remained."
+  "summary": "Fresh direct review passed. The live R validator defines stop_if so TRUE passes and FALSE stops; unsupported_percentage is grepl(\"^[^\\n]*[0-9]+[[:space:]]*%\", model_text, perl=TRUE), where TRUE means a forbidden percentage was found, and the direct if (unsupported_percentage) stop(...) guard rejects TRUE. Actual tables contain 48 assumptions, 48 family states, 60 convergence relationships, 78 system states, 72 dependency states, 48 governance states, 60 uncertainty states, and six comparisons; all eight Phase 15A families and all 13 Phase 14 systems are covered across A/B/C and 2050/2075. Qualitative, no-score, no-percentage, scenario-not-forecast, capability/deployment/adoption, governance/trust, AI-authority, sensing-enforcement, defensive-cyber, safe-biosecurity, conservative quantum/energy, dependency-not-risk, active-hold, figure, provenance, and Phase 16 boundaries were supported. Prior freeze integrity was 565 entries / 556 unique paths, protected artifacts were unchanged, both failed review records were preserved, and no files were modified."
 }
 ```
 
