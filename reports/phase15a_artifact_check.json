@@ -167,7 +167,9 @@
       "passed": true
     },
     "no_future_data_or_maps": {
-      "detail": [],
+      "detail": [
+        "docs/phase_briefs/phase15b_technology_convergence_futures.md"
+      ],
       "passed": true
     },
     "no_phase16_implementation": {
@@ -215,10 +217,36 @@
         "CHANGELOG.md",
         "PROJECT_STATUS.md",
         "README.md",
+        "data/processed/analysis/technology_sources.csv",
+        "data/processed/analysis/technology_system_nodes.csv",
+        "data/processed/analysis/technology_system_observations.csv",
+        "data/processed/analysis/technology_uncertainties.csv",
+        "data/processed/integration/technology_dependencies.csv",
+        "data/processed/integration/technology_system_interfaces.csv",
         "docs/agent_workflow.md",
         "docs/canon_status.md",
+        "docs/phase_briefs/phase15_technology_strategic_systems_convergence.md",
+        "docs/phase_briefs/phase15a_technology_strategic_systems_baseline_2026.md",
+        "docs/phase_briefs/phase15b_technology_convergence_futures.md",
+        "metadata/technology_vocabulary.yml",
+        "outputs/figures/technology_system_convergence_architecture_2026.png",
+        "outputs/figures/technology_system_convergence_architecture_2026.svg",
         "reports/README.md",
-        "reports/current_phase_handoff.md"
+        "reports/current_phase_handoff.md",
+        "reports/phase15a_artifact_check.json",
+        "reports/phase15a_biosecurity_lens.md",
+        "reports/phase15a_independent_review.md",
+        "reports/phase15a_independent_review_initial.md",
+        "reports/phase15a_independent_review_second_failed.md",
+        "reports/phase15a_manifest.json",
+        "reports/phase15a_provenance_check.md",
+        "reports/phase15a_r_validation_result.json",
+        "reports/phase15a_technology_interfaces.md",
+        "reports/phase15a_technology_qa.md",
+        "reports/phase15a_technology_systems_baseline.md",
+        "src/R/systems/validate_phase15a_technology.R",
+        "src/python/systems/build_phase15a_technology.py",
+        "src/python/systems/validate_phase15a_technology.py"
       ],
       "passed": true
     },
@@ -235,7 +263,9 @@
       "passed": true
     },
     "phase15b_brief_only": {
-      "detail": [],
+      "detail": [
+        "docs/phase_briefs/phase15b_technology_convergence_futures.md"
+      ],
       "passed": true
     },
     "prior_freeze_hash_integrity": {

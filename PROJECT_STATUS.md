@@ -719,7 +719,7 @@ Phase 14A and Phase 14B are **ACCEPTED / FROZEN**. Phase 14 is **COMPLETE / ACCE
 
 - Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred maintenance remains the Phase 6B manifest-status wording mismatch, Phase 3A missing manifest status, and Phase 2A superseded legacy worktree. No release or tag was created.
 
-## PHASE 15A — IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE
+## PHASE 15A — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
 
 **Technology & Strategic-Systems Baseline and Interfaces, 2026**
 
@@ -729,4 +729,4 @@ The technology records preserve established, commercially emerging, demonstratio
 
 AI remains decision support rather than autonomous authority; sensing remains distinct from interpretation, decision, and enforcement; cybersecurity remains defensive/system-resilience oriented; quantum and fusion remain conservative research/strategic watch items; and biotechnology/biosecurity remains a bounded high-level lens without harmful-biology operational detail. No composite risk, connectivity, resilience, adoption, or performance score is created.
 
-Phase 15A is implemented and validated in the isolated feature worktree and awaits normal integration and Sol acceptance. Phase 15B remains **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 16 remains **NOT IMPLEMENTED**. Active phase: **NONE**. Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing manifest status, and the Phase 2A superseded legacy worktree remain unchanged. No release or tag was created.
+Phase 15A is implemented, validated, and integrated into `main`; it awaits Sol acceptance. Phase 15B remains **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 16 remains **NOT IMPLEMENTED**. Active phase: **NONE**. Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing manifest status, and the Phase 2A superseded legacy worktree remain unchanged. No release or tag was created.

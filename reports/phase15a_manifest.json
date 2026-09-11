@@ -65,9 +65,9 @@
       "sha256": "e08ddbea86936a30ec0ce45a15edb54d11fd531503162dfc546535c340345abd"
     },
     "reports/phase15a_artifact_check.json": {
-      "bytes": 11437,
+      "bytes": 13201,
       "role": "machine validation result",
-      "sha256": "c710bdbe45becb7171038bd862a257dfacb603bdabe9199f4dca5b2db1d88679"
+      "sha256": "17076efb834a5bbe89702d5451f2aed0095f87f041f84a50548b685184c65905"
     },
     "reports/phase15a_biosecurity_lens.md": {
       "bytes": 2776,
