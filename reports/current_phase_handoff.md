@@ -1188,3 +1188,14 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - Final correction readback before this handoff-only update: correction commit `67c50980ab8334fe79be30bed446c31664b3062b` was pushed to `origin/phase-15a-source-fit-correction` and fast-forward integrated into `main`; local `main`, tracking `origin/main`, and remote `origin/main` matched `67c50980ab8334fe79be30bed446c31664b3062b`.
 - Post-correction Python/R/provenance/npm/whitespace checks passed; artifact check passed; prior freeze integrity remained `535` entries / `526` unique protected paths. All 35 registered worktrees were clean before this handoff-only update.
 - Final current state: Phase 15A is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**; Phase 15B is **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 16 is **NOT IMPLEMENTED**; Active phase is **NONE**. Active holds and deferred maintenance remain unchanged. No release or tag was created.
+
+## Phase 15A acceptance / freeze transaction — 2026-09-11
+
+- Starting synchronized `main`, tracking `origin/main`, and remote `origin/main` SHA: `87e877dc33372195a549cab5654fd6b6e6de64e9`.
+- Sol decision: Phase 15A — Technology & Strategic-Systems Baseline and Interfaces, 2026 — **ACCEPTED / FROZEN**.
+- Final freeze manifest: `reports/phase15a_technology_strategic_systems_baseline_freeze_manifest.json` with 29 protected artifacts; Python and independent base-R freeze validators are `src/python/systems/validate_phase15a_freeze.py` and `src/R/systems/validate_phase15a_freeze.R`.
+- Accepted counts: 8 technology families; 18 technology records; 21 observations; 44 inferred technology-system interfaces covering all 13 frozen Phase 14 systems; 32 qualitative dependencies across 11 classes; 8 uncertainties; and 33 source records. Current/emerging/speculative is `3 / 12 / 3`; maturity is `5 / 7 / 3 / 3`; node regional relevance is `3 / 9 / 6`; interface regional relevance is `12 / 23 / 9`.
+- Final corrected-package independent review `deleg_486838c1` passed with all blocking arrays empty. The initial, second, third, and prior passed review records remain preserved; strict provenance, convergence-figure QA, Phase 14 integrity, and prior freeze integrity (`535` entries / `526` unique protected paths) remain recorded.
+- Phase 14 remains **COMPLETE / ACCEPTED / FROZEN**; Phase 15B remains **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 16 remains **NOT IMPLEMENTED**; Active phase is **NONE**; next planning target is Phase 15B — Technology Convergence Futures, 2050 / 2075.
+- Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing-manifest-status, and the Phase 2A superseded legacy worktree remain unchanged. No release or tag was created.
+- The acceptance commit SHA will be recorded in the post-commit readback below.

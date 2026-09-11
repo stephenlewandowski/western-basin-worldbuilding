@@ -1,0 +1,297 @@
+{
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-11",
+  "accepted_phase": "15A",
+  "acceptance_basis": "Sol formally accepted and froze the validated Phase 15A additive technology capability/interface package after Python and independent base-R validation, strict grounded provenance, final corrected-package independent review, convergence-figure QA, Phase 14 freeze integrity, and prior freeze-manifest integrity. The accepted categorical distinctions and high-level biosecurity boundary are unchanged.",
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  },
+  "artifacts": {
+    "data/processed/analysis/technology_sources.csv": {
+      "bytes": 20414,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "552fab014fa559478685a8f3c2e3c0c70f60a2f1a2068a02b2e325f91407403c"
+    },
+    "data/processed/analysis/technology_system_nodes.csv": {
+      "bytes": 13006,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "43b8fce539c77382dd7fffce6aa051664cd54fb2fc09fe548b2092241e51c6bf"
+    },
+    "data/processed/analysis/technology_system_observations.csv": {
+      "bytes": 10069,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "163841b0231b4956fbdf3b21f5b376eb59e063e493a1dc3054936eda518290a4"
+    },
+    "data/processed/analysis/technology_uncertainties.csv": {
+      "bytes": 3149,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "fbdaa96d5878d8e172c3d6592b0c086238526c8e17295fc9f39b040317615740"
+    },
+    "data/processed/integration/technology_dependencies.csv": {
+      "bytes": 20144,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "c2a4687e341d3ebdf61fe694e483fd9af3d17be8c0e4db0a5a5ebd6875f8e224"
+    },
+    "data/processed/integration/technology_system_interfaces.csv": {
+      "bytes": 25999,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "a71ff8a8b76616070b384c797a73977bb5ad98b16b4e2f2dba49808168edbdd3"
+    },
+    "docs/phase_briefs/phase15_technology_strategic_systems_convergence.md": {
+      "bytes": 1086,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "b096dc15fdb0cfa5cd7d6c01802fe5e27fe40f29c761739ec258b4dde66ddeb3"
+    },
+    "docs/phase_briefs/phase15a_technology_strategic_systems_baseline_2026.md": {
+      "bytes": 1771,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "69b5605d61e5a0a8cc9a440dd2511340621a42d14e1a2ea5069f0a8c86885a33"
+    },
+    "docs/phase_briefs/phase15b_technology_convergence_futures.md": {
+      "bytes": 689,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "fb3037297291cff2fec495d0f676050a6a8207c2790f32f00500d80cdfda01ea"
+    },
+    "metadata/technology_vocabulary.yml": {
+      "bytes": 2660,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "8e1c938b75f122133c0890c54fba5a4a8bbbd6a15efa489aeb5d44ff7f805135"
+    },
+    "outputs/figures/technology_system_convergence_architecture_2026.png": {
+      "bytes": 288771,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "31060e30155c33e022f28edbacd39fd05597bb0bbd86578d24946807a1da505e"
+    },
+    "outputs/figures/technology_system_convergence_architecture_2026.svg": {
+      "bytes": 125317,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "273397e80a5164d97afe16a255f23f9d5a51808432e267368311d7fce5d66a9b"
+    },
+    "reports/phase15a_artifact_check.json": {
+      "bytes": 13327,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "1e047f8ab1a5a14d19c04ddddd3b53cd5862daeafe3a12cd19c142d1b11349fc"
+    },
+    "reports/phase15a_biosecurity_lens.md": {
+      "bytes": 2776,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "4f85a6cb6e6566f644b0f89c951fd5dcf8143f2223bc1e6adc5326e65bff8c09"
+    },
+    "reports/phase15a_independent_review.md": {
+      "bytes": 1806,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "0385ffa7260d1c009f220ec322e79d4f962fc7ea9b007c2799ea9c214a3c331b"
+    },
+    "reports/phase15a_independent_review_initial.md": {
+      "bytes": 1518,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "c127bc93e9260803b0e77ee87949c23f2dc8d2d28de5d3d637fae4d76162485d"
+    },
+    "reports/phase15a_independent_review_prior_pass.md": {
+      "bytes": 1421,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "3f79249871b289b8c9bf3772a8ba33b616e0d582d712f068b7c0b643ef8d06ac"
+    },
+    "reports/phase15a_independent_review_second_failed.md": {
+      "bytes": 1377,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "5af0d7af70b279652a2cd64a9f09269fe6e009b44e5009b8956a13acc3a5c2e8"
+    },
+    "reports/phase15a_independent_review_third_failed.md": {
+      "bytes": 1543,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "759266f335423c2d6a02882c50bf5831784acc4177d644ce051277ad26cd3dc2"
+    },
+    "reports/phase15a_provenance_check.md": {
+      "bytes": 4373,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "a1e9231899403c500b9aadd013381f93c181b848dbda338dd6386d1918c243d0"
+    },
+    "reports/phase15a_r_validation_result.json": {
+      "bytes": 85,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "e4eddefb8cf689f8953fedb1116fcb3a79660efc09248957b42bac74fd7bbdda"
+    },
+    "reports/phase15a_technology_interfaces.md": {
+      "bytes": 4656,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "be04cdca31eda945a70379ce6ac4cf0a41ae3ee9c6a91296087e0501574e677e"
+    },
+    "reports/phase15a_technology_qa.md": {
+      "bytes": 2169,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "72ac02e721ca476d1ef1c88aa83d6e0874074351a4567cd9a4e358d8efefbec8"
+    },
+    "reports/phase15a_technology_systems_baseline.md": {
+      "bytes": 7105,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "5b1ee5cc9cc1dbad577ee5f0be00a64883af2c3b250937f01e5310ca98c17e7d"
+    },
+    "src/R/systems/validate_phase15a_freeze.R": {
+      "bytes": 18349,
+      "role": "independent Phase 15A freeze validator",
+      "sha256": "77f81258c38596f67fdfe50fd3e79f6c49681d6e8e87c01c5b5ef2d7f7bb5ab1"
+    },
+    "src/R/systems/validate_phase15a_technology.R": {
+      "bytes": 17840,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "c5bd8a6a76fc65ec6674cfe961cf17185a802ce09067e91f969b792ad3443982"
+    },
+    "src/python/systems/build_phase15a_technology.py": {
+      "bytes": 100890,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "55c022aa18ea5d51f02639db224548f0fbd932552359e04e7e4f1954f0a5c5f1"
+    },
+    "src/python/systems/validate_phase15a_freeze.py": {
+      "bytes": 22076,
+      "role": "independent Phase 15A freeze validator",
+      "sha256": "06d296e078468aebaafad599af96140c82aaada84b68d5d43210d93ce30f417b"
+    },
+    "src/python/systems/validate_phase15a_technology.py": {
+      "bytes": 24039,
+      "role": "Phase 15A accepted/frozen artifact",
+      "sha256": "0a34a47eb2cf3d3fd47a07f22109e81c576c8ef9b8d90ef547a17c2f8d07d970"
+    }
+  },
+  "baseline": "Technology & Strategic-Systems Baseline and Interfaces, 2026",
+  "biosecurity_boundary": {
+    "scope": "bounded systems/governance/resilience lens",
+    "topics": [
+      "detection",
+      "attribution uncertainty",
+      "laboratory/diagnostic capacity",
+      "biological monitoring",
+      "supply-chain resilience",
+      "food/agricultural resilience",
+      "dual-use governance",
+      "coordination",
+      "public communication",
+      "response capacity"
+    ],
+    "operational_harmful_biology_detail": false
+  },
+  "counts": {
+    "technology_families": 8,
+    "technology_records": 18,
+    "observations": 21,
+    "interfaces": 44,
+    "dependencies": 32,
+    "uncertainties": 8,
+    "sources": 33,
+    "dependency_classes": 11,
+    "phase14_system_coverage": 13
+  },
+  "phase14_system_coverage": 13,
+  "current_or_emerging_counts": {
+    "current": 3,
+    "emerging": 12,
+    "speculative": 3
+  },
+  "deferred_maintenance_preserved": [
+    "Phase 6B manifest status wording mismatch",
+    "Phase 3A missing manifest status",
+    "Phase 2A superseded legacy worktree"
+  ],
+  "final_manifest_path": "reports/phase15a_technology_strategic_systems_baseline_freeze_manifest.json",
+  "figure": {
+    "conceptual": true,
+    "geographic_map": false,
+    "png": "outputs/figures/technology_system_convergence_architecture_2026.png",
+    "svg": "outputs/figures/technology_system_convergence_architecture_2026.svg"
+  },
+  "interfaces_are_inferred": true,
+  "interface_regional_relevance_counts": {
+    "current": 12,
+    "emerging": 23,
+    "speculative": 9
+  },
+  "maturity_counts": {
+    "established": 5,
+    "commercially emerging": 7,
+    "demonstration / pilot": 3,
+    "research-stage": 3
+  },
+  "next_planning_target": "Phase 15B — Technology Convergence Futures, 2050 / 2075",
+  "node_regional_relevance_counts": {
+    "current": 3,
+    "emerging": 9,
+    "speculative": 6
+  },
+  "no_new_phase14_ontology_members": true,
+  "phase14_integrity": {
+    "overall_status": "COMPLETE / ACCEPTED / FROZEN",
+    "phase14a_final_manifest": "reports/phase14a_common_systems_ontology_identity_evidence_crosswalk_freeze_manifest.json",
+    "phase14a_artifacts": 24,
+    "phase14b_final_manifest": "reports/phase14b_atlas_layer_registry_cross_system_dependency_normalization_freeze_manifest.json",
+    "phase14b_artifacts": 23,
+    "phase14_system_count": 13
+  },
+  "phase15b_status": "APPROVED SCOPE / NOT IMPLEMENTED",
+  "phase16_status": "NOT IMPLEMENTED",
+  "prior_freeze_integrity": {
+    "entries": 535,
+    "unique_paths": 526,
+    "phase1_14_artifacts_unchanged": true
+  },
+  "protected_inputs": [
+    "reports/phase15a_manifest.json",
+    "reports/phase15a_artifact_check.json",
+    "reports/phase15a_provenance_check.md",
+    "reports/phase15a_independent_review.md",
+    "reports/phase15a_independent_review_initial.md",
+    "reports/phase15a_independent_review_second_failed.md",
+    "reports/phase15a_independent_review_third_failed.md",
+    "reports/phase15a_independent_review_prior_pass.md",
+    "reports/phase14a_common_systems_ontology_identity_evidence_crosswalk_freeze_manifest.json",
+    "reports/phase14b_atlas_layer_registry_cross_system_dependency_normalization_freeze_manifest.json"
+  ],
+  "qualitative_dependencies_only": true,
+  "release_created": false,
+  "review_lineage": {
+    "final": {
+      "review_id": "deleg_486838c1",
+      "record": "reports/phase15a_independent_review.md",
+      "passed": true,
+      "blocking_arrays_empty": true
+    },
+    "preserved": [
+      {
+        "review_id": "deleg_ae5f3c71",
+        "record": "reports/phase15a_independent_review_initial.md",
+        "passed": false
+      },
+      {
+        "review_id": "deleg_6cca1617",
+        "record": "reports/phase15a_independent_review_second_failed.md",
+        "passed": false
+      },
+      {
+        "review_id": "deleg_16255f91",
+        "record": "reports/phase15a_independent_review_third_failed.md",
+        "passed": false
+      },
+      {
+        "review_id": "deleg_4cd21ddf",
+        "record": "reports/phase15a_independent_review_prior_pass.md",
+        "passed": true,
+        "superseded": true
+      }
+    ]
+  },
+  "source_commit": "87e877dc33372195a549cab5654fd6b6e6de64e9",
+  "status": "ACCEPTED / FROZEN",
+  "tag_created": false,
+  "validation": {
+    "python_package": "passed",
+    "independent_base_r_package": "passed",
+    "strict_provenance": "passed",
+    "python_freeze_validator": "src/python/systems/validate_phase15a_freeze.py",
+    "independent_base_r_freeze_validator": "src/R/systems/validate_phase15a_freeze.R"
+  },
+  "working_manifest": {
+    "path": "reports/phase15a_manifest.json",
+    "artifacts": 27,
+    "status": "generated_working_package"
+  }
+}
