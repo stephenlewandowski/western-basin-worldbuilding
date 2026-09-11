@@ -818,9 +818,9 @@ The package preserves established, commercially emerging, demonstration/pilot, a
 
 ## Phase 15B Technology Convergence Futures
 
-Phase 15B is **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**. It adds 48 assumptions, 48 technology-family states, 60 convergence relationships, 78 system states covering all 13 Phase 14 systems, 72 dependency states, 48 governance states, 60 uncertainty states, six qualitative comparisons, reports, and two conceptual figures. The three scenario families are Coordinated Technological Adaptation, Uneven Networked Modernization, and High Capability / High Friction Basin, each represented at 2050 and 2075.
+Phase 15B is **ACCEPTED / FROZEN** under `reports/phase15b_technology_convergence_futures_freeze_manifest.json` (28 protected artifacts). It adds 48 assumptions, 48 technology-family states, 60 convergence relationships, 78 system states covering all 13 Phase 14 systems, 72 dependency states, 48 governance states, 60 uncertainty states, six qualitative comparisons, reports, and two conceptual figures. The three scenario families are Coordinated Technological Adaptation, Uneven Networked Modernization, and High Capability / High Friction Basin, each represented at 2050 and 2075.
 
-The package models technology interactions rather than independent technology forecasts. It preserves maturity ≠ adoption, AI recommendation ≠ authority, sensing ≠ enforcement, defensive cyber boundaries, safe high-level biosecurity, conservative quantum/fusion/advanced-nuclear treatment, and wider 2075 uncertainty. Phase 16 remains **NOT IMPLEMENTED**; active phase is **NONE**; Phase 15B awaits Sol acceptance.
+The package models technology interactions rather than independent technology forecasts. It preserves maturity ≠ adoption, AI recommendation ≠ authority, sensing ≠ enforcement, defensive cyber boundaries, safe high-level biosecurity, conservative quantum/fusion/advanced-nuclear treatment, and wider 2075 uncertainty. Phase 15 overall is **COMPLETE / ACCEPTED / FROZEN**; Phase 16 remains **NOT IMPLEMENTED**; active phase is **NONE**; the next planning target is Phase 16 — Integrated Basin Dynamics and Cross-System Stress Tests. No composite score, scenario probability, regional deployment claim, release, or tag was created.
 
 ## Roadmap
 
