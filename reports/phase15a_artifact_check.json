@@ -1,0 +1,426 @@
+{
+  "checks": {
+    "active_holds_retained": {
+      "detail": "active hold missing",
+      "passed": true
+    },
+    "ai_decision_support_not_authority": {
+      "detail": "AI authority boundary missing",
+      "passed": true
+    },
+    "all_families_represented": {
+      "detail": [],
+      "passed": true
+    },
+    "biosecurity_lens_bounded": {
+      "detail": "biosecurity lens topic/boundary",
+      "passed": true
+    },
+    "biotech_positive_scope_safe": {
+      "detail": "unsafe positive biotechnology detail",
+      "passed": true
+    },
+    "convergence_figure_png_qa": {
+      "detail": [
+        3960,
+        2068
+      ],
+      "passed": true
+    },
+    "convergence_figure_svg_qa": {
+      "detail": {
+        "bytes": 125317,
+        "required": [
+          "Technology",
+          "Established/current interface",
+          "Emerging interface",
+          "Speculative/long-horizon interface",
+          "G = governance/data dependency",
+          "not deployment",
+          "not a geographic map"
+        ]
+      },
+      "passed": true
+    },
+    "current_emerging_speculative_preserved": {
+      "detail": [
+        "current",
+        "emerging",
+        "speculative"
+      ],
+      "passed": true
+    },
+    "cyber_defensive_scope": {
+      "detail": "cyber positive content is not bounded",
+      "passed": true
+    },
+    "dependency_boundary_fields": {
+      "detail": "dependency limitation/boundary missing",
+      "passed": true
+    },
+    "dependency_classes_valid": {
+      "detail": [],
+      "passed": true
+    },
+    "dependency_evidence_sources_resolve": {
+      "detail": "unresolved dependency evidence/source",
+      "passed": true
+    },
+    "dependency_ids_unique": {
+      "detail": 32,
+      "passed": true
+    },
+    "dependency_roles_valid": {
+      "detail": [
+        "enabling",
+        "limiting"
+      ],
+      "passed": true
+    },
+    "dependency_status_reused": {
+      "detail": "technology status drift",
+      "passed": true
+    },
+    "dependency_systems_resolve": {
+      "detail": "unresolved dependency system",
+      "passed": true
+    },
+    "dependency_technology_ids_resolve": {
+      "detail": "unresolved dependency technology",
+      "passed": true
+    },
+    "external_urls_are_https": {
+      "detail": "non-HTTPS external source",
+      "passed": true
+    },
+    "fusion_not_current_deployment": {
+      "detail": {
+        "adoption_boundary": "Research trajectory is not commercial availability, firm power, or current regional generation.",
+        "capability_scope": "Research and development toward a future fusion energy source and supporting materials/diagnostics.",
+        "current_or_emerging": "speculative",
+        "evidence_class": "OBSERVED_DOCUMENTED",
+        "governance_interface": "Research, regulation, commercialization, and operation remain distinct.",
+        "notes": "Fusion is a bounded strategic watch item only; no current Western Basin fusion facility is represented.",
+        "regional_evidence_source_id": "REG-PHASE3A-ENERGY",
+        "regional_relevance": "speculative",
+        "source_id": "EXT-DOE-FUSION",
+        "technology_family": "ADVANCED ENERGY",
+        "technology_id": "TECH-ENERGY-FUSION",
+        "technology_label": "Fusion energy research",
+        "technology_status": "research-stage",
+        "uncertainty": "Foundational science, materials, fuel cycle, cost, licensing, and deployment pathway are unresolved."
+      },
+      "passed": true
+    },
+    "general_capability_not_localized": {
+      "detail": "general claim labeled local",
+      "passed": true
+    },
+    "grounded_provenance_report": {
+      "detail": "ledger citations/source block",
+      "passed": true
+    },
+    "interface_current_value_matches_node": {
+      "detail": "relevance/status drift",
+      "passed": true
+    },
+    "interface_evidence_valid": {
+      "detail": [],
+      "passed": true
+    },
+    "interface_governance_uncertainty_present": {
+      "detail": "blank interface field",
+      "passed": true
+    },
+    "interface_ids_unique": {
+      "detail": 44,
+      "passed": true
+    },
+    "interface_is_inferred": {
+      "detail": [
+        "INFERRED"
+      ],
+      "passed": true
+    },
+    "interface_relationships_valid": {
+      "detail": [],
+      "passed": true
+    },
+    "interface_source_system_blank_by_design": {
+      "detail": "technology promoted into source system registry",
+      "passed": true
+    },
+    "interface_sources_resolve": {
+      "detail": "unresolved interface source",
+      "passed": true
+    },
+    "interface_target_systems_resolve": {
+      "detail": [],
+      "passed": true
+    },
+    "interface_technology_ids_resolve": {
+      "detail": "unresolved interface technology",
+      "passed": true
+    },
+    "interface_types_valid": {
+      "detail": [],
+      "passed": true
+    },
+    "no_future_data_or_maps": {
+      "detail": [],
+      "passed": true
+    },
+    "no_phase16_implementation": {
+      "detail": [],
+      "passed": true
+    },
+    "no_prior_frozen_artifact_modified": {
+      "detail": [],
+      "passed": true
+    },
+    "no_release_or_tag": {
+      "detail": "release/tag boundary missing",
+      "passed": true
+    },
+    "node_governance_and_uncertainty": {
+      "detail": "blank governance/boundary/uncertainty",
+      "passed": true
+    },
+    "node_regional_basis_is_regional_context": {
+      "detail": "nonregional technology basis",
+      "passed": true
+    },
+    "node_sources_resolve": {
+      "detail": "unresolved node source",
+      "passed": true
+    },
+    "observation_evidence_valid": {
+      "detail": [],
+      "passed": true
+    },
+    "observation_ids_unique": {
+      "detail": 21,
+      "passed": true
+    },
+    "observation_sources_resolve": {
+      "detail": "unresolved observation source",
+      "passed": true
+    },
+    "observation_technology_ids_resolve": {
+      "detail": "unresolved observation technology",
+      "passed": true
+    },
+    "original_phase14_registries_untouched": {
+      "detail": [
+        "CHANGELOG.md",
+        "PROJECT_STATUS.md",
+        "README.md",
+        "docs/agent_workflow.md",
+        "docs/canon_status.md",
+        "reports/README.md",
+        "reports/current_phase_handoff.md"
+      ],
+      "passed": true
+    },
+    "phase14_complete_accepted_frozen": {
+      "detail": "Phase 14 status missing",
+      "passed": true
+    },
+    "phase14_ontology_count": {
+      "detail": 13,
+      "passed": true
+    },
+    "phase15b_and_phase16_boundary": {
+      "detail": "future boundary missing",
+      "passed": true
+    },
+    "phase15b_brief_only": {
+      "detail": [],
+      "passed": true
+    },
+    "prior_freeze_hash_integrity": {
+      "detail": {
+        "entries": 535,
+        "errors": [],
+        "unique_paths": 526
+      },
+      "passed": true
+    },
+    "quantum_conservative_status": {
+      "detail": [
+        [
+          "TECH-QUANTUM-SENSING",
+          "research-stage",
+          "speculative"
+        ],
+        [
+          "TECH-QUANTUM-COMPUTING",
+          "research-stage",
+          "speculative"
+        ]
+      ],
+      "passed": true
+    },
+    "regional_context_is_not_deployment": {
+      "detail": "regional observation lacks non-deployment caveat",
+      "passed": true
+    },
+    "regional_deployment_not_claimed": {
+      "detail": [],
+      "passed": true
+    },
+    "sensing_not_enforcement": {
+      "detail": "sensing/enforcement collapse",
+      "passed": true
+    },
+    "source_ids_unique": {
+      "detail": 30,
+      "passed": true
+    },
+    "source_scope_values": {
+      "detail": [
+        "general_technology_capability",
+        "regional_system_context"
+      ],
+      "passed": true
+    },
+    "source_urls_present": {
+      "detail": "blank URL or retrieval metadata",
+      "passed": true
+    },
+    "technology_families_valid": {
+      "detail": [],
+      "passed": true
+    },
+    "technology_ids_unique": {
+      "detail": 18,
+      "passed": true
+    },
+    "technology_relevance_valid": {
+      "detail": [],
+      "passed": true
+    },
+    "technology_status_valid": {
+      "detail": [],
+      "passed": true
+    },
+    "technology_vocabulary_families": {
+      "detail": [
+        "AI / ADVANCED COMPUTE / AUTOMATION",
+        "ADVANCED SENSING / AUTONOMOUS SYSTEMS",
+        "CYBERSECURITY / DIGITAL RESILIENCE",
+        "ADVANCED ENERGY",
+        "ADVANCED MATERIALS / MANUFACTURING",
+        "QUANTUM TECHNOLOGIES",
+        "BIOTECHNOLOGY / GENETIC ENGINEERING",
+        "PRIVACY / SURVEILLANCE / DATA GOVERNANCE"
+      ],
+      "passed": true
+    },
+    "technology_vocabulary_relevance": {
+      "detail": [
+        "current",
+        "emerging",
+        "speculative"
+      ],
+      "passed": true
+    },
+    "technology_vocabulary_status": {
+      "detail": [
+        "established",
+        "commercially emerging",
+        "demonstration / pilot",
+        "research-stage",
+        "speculative / long-horizon"
+      ],
+      "passed": true
+    },
+    "uncertainty_ids_unique": {
+      "detail": 8,
+      "passed": true
+    },
+    "uncertainty_is_not_risk_score": {
+      "detail": [
+        "uncertainty_id",
+        "technology_id",
+        "technology_family",
+        "affected_system_id",
+        "uncertainty_type",
+        "uncertainty_status",
+        "uncertainty",
+        "evidence_class",
+        "source_id",
+        "regional_evidence_source_id",
+        "notes"
+      ],
+      "passed": true
+    },
+    "uncertainty_is_open": {
+      "detail": [
+        "open"
+      ],
+      "passed": true
+    },
+    "uncertainty_references_resolve": {
+      "detail": "unresolved uncertainty reference",
+      "passed": true
+    },
+    "working_manifest_artifacts": {
+      "detail": [],
+      "passed": true
+    },
+    "working_manifest_counts": {
+      "detail": {
+        "current": 3,
+        "dependencies": 32,
+        "emerging": 12,
+        "interfaces": 44,
+        "observations": 21,
+        "sources": 30,
+        "speculative": 3,
+        "technology_families": 8,
+        "technology_nodes": 18,
+        "uncertainties": 8
+      },
+      "passed": true
+    },
+    "working_manifest_identity": {
+      "detail": {
+        "phase": "15A",
+        "source_commit": "d8247cf3419be6e0caf0b345f63644f2795c2ac6",
+        "status": "generated_working_package"
+      },
+      "passed": true
+    }
+  },
+  "counts": {
+    "current_emerging_speculative_counts": {
+      "current": 3,
+      "emerging": 12,
+      "speculative": 3
+    },
+    "dependencies": 32,
+    "interface_relevance_counts": {
+      "current": 12,
+      "emerging": 23,
+      "speculative": 9
+    },
+    "interfaces": 44,
+    "observations": 21,
+    "prior_freeze_entries": 535,
+    "prior_freeze_unique_paths": 526,
+    "sources": 30,
+    "status_counts": {
+      "commercially emerging": 8,
+      "demonstration / pilot": 4,
+      "established": 3,
+      "research-stage": 3
+    },
+    "technology_families": 8,
+    "technology_nodes": 18,
+    "uncertainties": 8
+  },
+  "errors": [],
+  "passed": true,
+  "phase": "15A"
+}

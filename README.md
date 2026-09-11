@@ -810,6 +810,12 @@ Phase 14B is **ACCEPTED / FROZEN** under `reports/phase14b_atlas_layer_registry_
 
 Phase 14 is **COMPLETE / ACCEPTED / FROZEN**. Active phase: **NONE**. Next planning target: **Phase 15 — Technology and Strategic-Systems Convergence**, which is **NOT IMPLEMENTED**. Great Black Swamp remains C — HOLD / noncanonical; the Toledo intake-coordinate discrepancy remains unresolved; deferred Phase 6B/3A/2A maintenance is unchanged. No release or tag was created.
 
+## Phase 15A Technology & Strategic-Systems Baseline
+
+Phase 15A is **IMPLEMENTED / VALIDATED / AWAITING SOL ACCEPTANCE**. It adds eight technology families, 18 technology records, 21 observations, 44 additive technology-system interfaces, 32 qualitative dependencies, eight uncertainties, 30 source records, `metadata/technology_vocabulary.yml`, and the conceptual [Technology–System Convergence Architecture](outputs/figures/technology_system_convergence_architecture_2026.svg).
+
+The package distinguishes established, commercially emerging, demonstration/pilot, and research-stage technologies; current/emerging/speculative relevance; general capability from regional interface; and dependency from guaranteed bottleneck. It preserves decision support ≠ authority, measurement ≠ enforcement, defensive cybersecurity, conservative quantum/fusion treatment, and safe high-level biotechnology/biosecurity boundaries. It does not modify Phase 14 or accepted/frozen Phase 1–14 artifacts, create a composite score, or infer regional deployment from national capability. Phase 15B is **APPROVED SCOPE / NOT IMPLEMENTED**; Phase 16 is **NOT IMPLEMENTED**; active phase is **NONE**.
+
 ## Roadmap
 
 1. Maintain the accepted project packages while preserving Phase 3A and Phase 3B as accepted/validated/frozen factual 2026 baselines and Phase 3C as separate accepted/validated future-scenario work

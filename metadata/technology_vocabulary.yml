@@ -1,0 +1,70 @@
+version: '0.1'
+registry_id: phase15a_technology_vocabulary
+status: additive_phase15a_baseline
+purpose: >-
+  Bound technology families, maturity, interfaces, dependencies, evidence, and
+  governance without modifying the frozen Phase 14 ontology or Phase 1-14 artifacts.
+technology_families:
+  - AI / ADVANCED COMPUTE / AUTOMATION
+  - ADVANCED SENSING / AUTONOMOUS SYSTEMS
+  - CYBERSECURITY / DIGITAL RESILIENCE
+  - ADVANCED ENERGY
+  - ADVANCED MATERIALS / MANUFACTURING
+  - QUANTUM TECHNOLOGIES
+  - BIOTECHNOLOGY / GENETIC ENGINEERING
+  - PRIVACY / SURVEILLANCE / DATA GOVERNANCE
+technology_status:
+  - established
+  - commercially emerging
+  - demonstration / pilot
+  - research-stage
+  - speculative / long-horizon
+regional_relevance:
+  - current
+  - emerging
+  - speculative
+relationship_classes_reused_from_phase14:
+  - physical flow
+  - material flow
+  - energy flow
+  - information / observation
+  - governance / authority
+  - operational dependency
+  - ecological relationship
+  - exposure pathway
+  - population / mobility interface
+  - surveillance / detection
+  - high-level association
+  - unresolved / unclassified
+phase15a_evidence_classes:
+  - OBSERVED_DOCUMENTED
+  - DERIVED_CALCULATED
+  - INFERRED
+  - CONTEXT_REUSED
+  - UNRESOLVED
+  - NONCANONICAL_HOLD
+phase15a_exclusions:
+  - Phase 15B futures, forecasts, and scenario states
+  - Phase 16 integrated stress tests
+  - offensive cyber techniques, exploitation, attack procedures, or sensitive control topology
+  - pathogen engineering, harmful-agent enhancement, evasion, weaponization, or wet-lab protocols
+  - composite risk, resilience, vulnerability, connectivity, or performance scores
+  - local deployment inferred from national capability or research trajectory
+boundary_rules:
+  - decision support is not autonomous authority
+  - capability is not reliable deployment
+  - compute capacity is not useful intelligence
+  - measurement is not interpretation, decision, or enforcement
+  - research trajectory is not commercial availability
+  - demonstration is not regional adoption
+  - generation capacity is not firm dependable power
+  - observation is not permission or legal authority
+  - dependency is not a guaranteed bottleneck
+  - technology is not resilience
+  - biosecurity is a bounded high-level system lens, not a standalone threat or operations model
+interface_contract:
+  technology_source: technology_id
+  phase14_target: target_system_id
+  source_system_id: blank_by_design_technology_is_not_phase14_system
+  target_system_ids: frozen_phase14_atlas_system_ids_only
+  scenario_status: BASELINE_2026_ONLY

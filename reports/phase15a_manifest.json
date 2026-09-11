@@ -1,0 +1,153 @@
+{
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  },
+  "artifacts": {
+    "data/processed/analysis/technology_sources.csv": {
+      "bytes": 17704,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "e55d33cd00926281ccc6a4fbb3f7c016e0061dbad8e834c1d6be9e87068c50e8"
+    },
+    "data/processed/analysis/technology_system_nodes.csv": {
+      "bytes": 13023,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "0423dd06e31402c09dc2d3d7c0cc64c1bedb0aff16209bd0f0112d46fb677991"
+    },
+    "data/processed/analysis/technology_system_observations.csv": {
+      "bytes": 10066,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "9ba22f6267080d6b8c39795c88a6cc2888106568a749d9822ba980cbb83917f1"
+    },
+    "data/processed/analysis/technology_uncertainties.csv": {
+      "bytes": 3121,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "62a4d87dcd9e6348728936653ac0402b63d2124541ce18de73e4ef41a480f7ba"
+    },
+    "data/processed/integration/technology_dependencies.csv": {
+      "bytes": 20144,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "c2a4687e341d3ebdf61fe694e483fd9af3d17be8c0e4db0a5a5ebd6875f8e224"
+    },
+    "data/processed/integration/technology_system_interfaces.csv": {
+      "bytes": 26021,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "1e6760f641d21fa987bce40beb4ac5566f5d0723633201ce89b0a179099a6a44"
+    },
+    "docs/phase_briefs/phase15_technology_strategic_systems_convergence.md": {
+      "bytes": 1086,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "b096dc15fdb0cfa5cd7d6c01802fe5e27fe40f29c761739ec258b4dde66ddeb3"
+    },
+    "docs/phase_briefs/phase15a_technology_strategic_systems_baseline_2026.md": {
+      "bytes": 1771,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "69b5605d61e5a0a8cc9a440dd2511340621a42d14e1a2ea5069f0a8c86885a33"
+    },
+    "docs/phase_briefs/phase15b_technology_convergence_futures.md": {
+      "bytes": 689,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "fb3037297291cff2fec495d0f676050a6a8207c2790f32f00500d80cdfda01ea"
+    },
+    "metadata/technology_vocabulary.yml": {
+      "bytes": 2660,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "8e1c938b75f122133c0890c54fba5a4a8bbbd6a15efa489aeb5d44ff7f805135"
+    },
+    "outputs/figures/technology_system_convergence_architecture_2026.png": {
+      "bytes": 288771,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "31060e30155c33e022f28edbacd39fd05597bb0bbd86578d24946807a1da505e"
+    },
+    "outputs/figures/technology_system_convergence_architecture_2026.svg": {
+      "bytes": 125317,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "e08ddbea86936a30ec0ce45a15edb54d11fd531503162dfc546535c340345abd"
+    },
+    "reports/phase15a_artifact_check.json": {
+      "bytes": 11437,
+      "role": "machine validation result",
+      "sha256": "c710bdbe45becb7171038bd862a257dfacb603bdabe9199f4dca5b2db1d88679"
+    },
+    "reports/phase15a_biosecurity_lens.md": {
+      "bytes": 2776,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "4f85a6cb6e6566f644b0f89c951fd5dcf8143f2223bc1e6adc5326e65bff8c09"
+    },
+    "reports/phase15a_independent_review.md": {
+      "bytes": 1839,
+      "role": "fresh independent review record",
+      "sha256": "f15df18b1ce13300670532a4a9bcc04fec8b357583f254758e02933f85c38f14"
+    },
+    "reports/phase15a_independent_review_initial.md": {
+      "bytes": 1489,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "91c5b9957b212446054ee3d16202f35a9037a74d1f5bc6b68d412452adc77ac6"
+    },
+    "reports/phase15a_independent_review_second_failed.md": {
+      "bytes": 1350,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "51d3df64564145cd8326b3359f387e97885852d51c550bc770ea93c7f7860f41"
+    },
+    "reports/phase15a_provenance_check.md": {
+      "bytes": 3568,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "e6ab36a669fdeee9783a9630d2425eca52a9ff95c1035cf53cdd14feea7d2bdc"
+    },
+    "reports/phase15a_r_validation_result.json": {
+      "bytes": 85,
+      "role": "independent R validation result",
+      "sha256": "e4eddefb8cf689f8953fedb1116fcb3a79660efc09248957b42bac74fd7bbdda"
+    },
+    "reports/phase15a_technology_interfaces.md": {
+      "bytes": 3987,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "e3901cb6add51b65cdc5df23fa598e3d4d9663ad3451d0e928dcb8e2fde0d7e7"
+    },
+    "reports/phase15a_technology_qa.md": {
+      "bytes": 2170,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "683cd8a7ae3fbf2a3ec386b982dffc38655adf1d5840e3d4daad85826aa4d40c"
+    },
+    "reports/phase15a_technology_systems_baseline.md": {
+      "bytes": 6202,
+      "role": "Phase 15A generated package artifact",
+      "sha256": "1deb2ea8ac32b95bd117ab7aa40e69b9eca7588a3dfe0283cdb0696368a8da17"
+    },
+    "src/R/systems/validate_phase15a_technology.R": {
+      "bytes": 17671,
+      "role": "independent Phase 15A R validator",
+      "sha256": "182f0ee565ddce43f7e803daae8204d8cd9e6ae7a84b69eeda4a730522c944fd"
+    },
+    "src/python/systems/build_phase15a_technology.py": {
+      "bytes": 97372,
+      "role": "reproducible Phase 15A builder",
+      "sha256": "06177846c1b8964d04592d6e1870d7c114c58811f94b3352bb166bb79a4f92d5"
+    },
+    "src/python/systems/validate_phase15a_technology.py": {
+      "bytes": 23784,
+      "role": "Phase 15A Python validator",
+      "sha256": "7a6fae7998737329745f58268a1e63eddb0e6d799d92779e7b934e668165484e"
+    }
+  },
+  "baseline": "Technology & Strategic-Systems Baseline and Interfaces, 2026",
+  "counts": {
+    "current": 3,
+    "dependencies": 32,
+    "emerging": 12,
+    "interfaces": 44,
+    "observations": 21,
+    "sources": 30,
+    "speculative": 3,
+    "technology_families": 8,
+    "technology_nodes": 18,
+    "uncertainties": 8
+  },
+  "phase": "15A",
+  "phase15b_status": "APPROVED SCOPE / NOT IMPLEMENTED",
+  "phase16_status": "NOT IMPLEMENTED",
+  "release_created": false,
+  "source_commit": "d8247cf3419be6e0caf0b345f63644f2795c2ac6",
+  "status": "generated_working_package",
+  "tag_created": false
+}
