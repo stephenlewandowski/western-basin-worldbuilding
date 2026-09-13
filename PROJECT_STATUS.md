@@ -1,6 +1,6 @@
 # Project Status
 
-Last reviewed: 2026-09-11
+Last reviewed: 2026-09-13
 
 ## PHASE 1 — COMPLETE
 
@@ -745,12 +745,22 @@ Phase 15B is **ACCEPTED / FROZEN** under `reports/phase15b_technology_convergenc
 
 Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing manifest status, and the Phase 2A superseded legacy worktree remain unchanged. No release or tag was created.
 
-## PHASE 16A — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 16A — ACCEPTED / FROZEN
 
 **Integrated Basin Dynamics Framework & Propagation Rules**
 
-Phase 16A is an additive qualitative propagation framework over the frozen Phase 14 interoperability architecture and Phase 15 technology interfaces/convergence regimes. The integrated package contains 24 bounded stressors, 36 propagation relationships, 32 propagation rules, 13 adaptation/response mechanisms, 11 optional technology modifiers, 10 feedback/coupling inventory rows, a 24 × 13 qualitative system-stressor pathway matrix, six identified Phase 16B candidates, one conceptual non-geographic figure pair, reports, a working manifest, and independent Python/R validators. Final independent review `deleg_9fa57f45` passed with all blocking arrays empty; failed review lineage remains preserved.
+Phase 16A is an additive qualitative propagation framework over the frozen Phase 14 interoperability architecture and Phase 15 technology interfaces/convergence regimes. The accepted package contains 24 bounded stressors, 36 propagation relationships, 32 propagation rules, 13 adaptation/response mechanisms, 11 optional technology modifiers, 10 feedback/coupling inventory rows, a 24 × 13 qualitative system-stressor pathway matrix, six identified Phase 16B candidates, one conceptual non-geographic figure pair, reports, a working manifest, and independent Python/R validators.
 
 The package preserves Phase 14 relationship classes, evidence classes, direct versus inferred distinctions, scenario-conditioned status, source lineage, native scale, uncertainty, enabling/limiting conditions, reversibility, and response boundaries. It contains no numeric risk/resilience/vulnerability score, probability, forecast, calibrated dynamics, health-outcome prediction, unsupported causal claim, or co-location-derived propagation. Technology may reduce, delay, expose, couple, substitute, coordinate, or create friction; it is not automatically protective. AI remains decision support, sensing remains observation, monitoring remains distinct from control, and adaptation capacity remains distinct from successful adaptation.
 
-Phase 16B is **APPROVED SCOPE / NOT IMPLEMENTED**; candidates are identified only. Phase 17 is **NOT IMPLEMENTED**. Active phase is **NONE**. Python and independent base-R validation passed with Phase 14 24/23, Phase 15 30/28, and current prior freeze integrity of 593 entries / 584 unique protected paths; the final fresh independent review passed with all blocking arrays empty. Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing manifest status, and the Phase 2A superseded legacy worktree remain unchanged. No release or tag was created.
+Phase 16A is formally **ACCEPTED / FROZEN** under `reports/phase16a_integrated_basin_dynamics_freeze_manifest.json` (30 protected artifacts) by explicit Sol decision. Final independent review `deleg_9fa57f45` passed with all blocking arrays empty; the initial failed review `deleg_ec4d7c55`, endpoint-compatibility failed review, and `deleg_703e15ec` failed review remain preserved without rewriting. Python and independent base-R freeze validation verify Phase 14A/14B 24/23, Phase 15A/15B 30/28, prior freeze integrity of 593 entries / 584 unique protected paths, corrected propagation-chain continuity, evidence inheritance, technology lineage, and ordered endpoint compatibility. Phase 16B is **APPROVED SCOPE / NOT IMPLEMENTED**; candidates are identified only. Phase 17 is **NOT IMPLEMENTED**. Active phase is **NONE**. Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing manifest status, and the Phase 2A superseded legacy worktree remain unchanged. No release or tag was created.
+
+Final subphase status:
+
+- Phase 14: **COMPLETE / ACCEPTED / FROZEN**
+- Phase 15: **COMPLETE / ACCEPTED / FROZEN**
+- Phase 16A: **ACCEPTED / FROZEN**
+- Phase 16B: **APPROVED SCOPE / NOT IMPLEMENTED**
+- Phase 17: **NOT IMPLEMENTED**
+- Active phase: **NONE**
+- Next planning target: **Phase 16B — Compound Cross-System Stress Tests**

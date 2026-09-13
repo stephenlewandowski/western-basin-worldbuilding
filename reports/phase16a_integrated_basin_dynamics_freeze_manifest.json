@@ -1,0 +1,271 @@
+{
+  "accepted_by": "Sol explicit acceptance decision supplied for this run",
+  "accepted_date": "2026-09-13",
+  "accepted_phase": "16A",
+  "acceptance_basis": "Sol formally accepted and froze the corrected Phase 16A Integrated Basin Dynamics Framework & Propagation Rules package after the final fresh bounded independent review passed with all blocking arrays empty, the working package check passed, independent Python and base-R freeze validation, Phase 14/15 freeze-integrity verification, prior frozen-artifact immutability verification, review-lineage preservation, figure QA, and final repository delivery checks.",
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  },
+  "artifacts": {
+    "data/processed/integration/adaptation_response_catalog.csv": {
+      "sha256": "15ddc9db14c6d6e2c036f717fc77e3247807b48881e980dcc1caf49b6d412011",
+      "bytes": 5527,
+      "role": "accepted Phase 16A analytical artifact"
+    },
+    "data/processed/integration/feedback_coupling_inventory.csv": {
+      "sha256": "8ade420c7bb1821f727b425053c6449893c0590789f57fc0c4cbeb32d7709e82",
+      "bytes": 3565,
+      "role": "accepted Phase 16A analytical artifact"
+    },
+    "data/processed/integration/phase16b_candidate_stress_tests.csv": {
+      "sha256": "6f6de76e77e97124e621d6a82b9cf3032e9b5ec8abbcbc9ffdf676ba4cd25b1d",
+      "bytes": 3152,
+      "role": "accepted Phase 16A analytical artifact"
+    },
+    "data/processed/integration/propagation_relationships.csv": {
+      "sha256": "a1debb16bcd498b112c40918fc4b0e6902de74696bb50be865d12d42d907f4ed",
+      "bytes": 31592,
+      "role": "accepted Phase 16A analytical artifact"
+    },
+    "data/processed/integration/propagation_rules.csv": {
+      "sha256": "66f30f39e4eae3101be920b33f22f0a63b7b62cfa1520b5bd556277a05fc821b",
+      "bytes": 30803,
+      "role": "accepted Phase 16A analytical artifact"
+    },
+    "data/processed/integration/stressor_catalog.csv": {
+      "sha256": "3f07787ca0d6c09cf9aaf314c1d19b2d38be286b55ff4eb7b507650e4f87b087",
+      "bytes": 9432,
+      "role": "accepted Phase 16A analytical artifact"
+    },
+    "data/processed/integration/system_stressor_matrix.csv": {
+      "sha256": "c8350a9c671e8054fdf3d59379f07b303d1511fded2bd2a04000a3f97d702543",
+      "bytes": 83920,
+      "role": "accepted Phase 16A analytical artifact"
+    },
+    "data/processed/integration/technology_modifier_catalog.csv": {
+      "sha256": "7f18d3664f98c0bb55d15f39b8b236ee0587e08daf8de5e1bc107d5f855bf5e6",
+      "bytes": 5849,
+      "role": "accepted Phase 16A analytical artifact"
+    },
+    "docs/phase_briefs/phase16_integrated_basin_dynamics.md": {
+      "sha256": "e09820f81f827fc47720353c19c8ed05f17034038625ad7344b020a7b7733e3f",
+      "bytes": 1499,
+      "role": "Phase 16A approved-scope brief retained in the working package"
+    },
+    "docs/phase_briefs/phase16a_integrated_basin_dynamics_framework_propagation_rules.md": {
+      "sha256": "be52d4ae43a1866b92c2a64c8aec1e4c458c856647a1381327de70681301a712",
+      "bytes": 1751,
+      "role": "Phase 16A approved-scope brief retained in the working package"
+    },
+    "docs/phase_briefs/phase16b_compound_cross_system_stress_tests.md": {
+      "sha256": "5fe7bdbfea64b251a10bc260f345d9fc76a284038c1fa6a536a50dd933250b8d",
+      "bytes": 990,
+      "role": "Phase 16A approved-scope brief retained in the working package"
+    },
+    "metadata/basin_dynamics_vocabulary.yml": {
+      "sha256": "d875666915360fa8261eab5bb365e22bac24094abfe6e395f7e9f9409ca74b3d",
+      "bytes": 5853,
+      "role": "accepted Phase 16A vocabulary"
+    },
+    "outputs/figures/western_basin_stress_propagation_architecture.png": {
+      "sha256": "0dde195e574961d08d8e5f5ff492f76689b27a2d8ec73287b2870a28141c0680",
+      "bytes": 144575,
+      "role": "accepted Phase 16A conceptual figure"
+    },
+    "outputs/figures/western_basin_stress_propagation_architecture.svg": {
+      "sha256": "56daa566d34102b3153184a156d5c2ad32b9888a6e17221c8e7d930f40dcca84",
+      "bytes": 14572,
+      "role": "accepted Phase 16A conceptual figure"
+    },
+    "reports/phase16a_artifact_check.json": {
+      "sha256": "5f01a13ec53f6ab124a23e49f4472f3818522fcc6e968d8aba3803ee12a5e729",
+      "bytes": 10540,
+      "role": "machine validation result"
+    },
+    "reports/phase16a_candidate_stress_tests.md": {
+      "sha256": "cfcd3e8b155a099fff529fafe267f899812a1bd924273ca0896f4ebf8ec1552e",
+      "bytes": 1303,
+      "role": "accepted Phase 16A report or reproducibility artifact"
+    },
+    "reports/phase16a_independent_review.md": {
+      "sha256": "f833d35a1a24a4c9f74981513e132cb1fbfc9e2f17fb3a516631b7d53f2ad106",
+      "bytes": 1010,
+      "role": "final independent review record"
+    },
+    "reports/phase16a_independent_review_initial.md": {
+      "sha256": "87036ad471cc9c31954ccaf0dfdc87bde0b2fd0b4fcb1b41bde02f6cdfbae01f",
+      "bytes": 7640,
+      "role": "preserved failed independent-review correction lineage"
+    },
+    "reports/phase16a_independent_review_second_failed.md": {
+      "sha256": "780aaafed76f74359544d8cc79554a1b5bfe0da625dcd9f8be018e0a73a9e83a",
+      "bytes": 1814,
+      "role": "preserved failed independent-review correction lineage"
+    },
+    "reports/phase16a_independent_review_third_failed.md": {
+      "sha256": "d0c0cdfcd02ed002c3abfb6eb808e0b3702791fa8a9d0a090c2b43149d8b6015",
+      "bytes": 1666,
+      "role": "preserved failed independent-review correction lineage"
+    },
+    "reports/phase16a_integrated_basin_dynamics.md": {
+      "sha256": "0f6efcea19c446dd77e717072abdc0e8ba72ce3d6c54ae987e48e9be610f251f",
+      "bytes": 2356,
+      "role": "accepted Phase 16A report or reproducibility artifact"
+    },
+    "reports/phase16a_manifest.json": {
+      "sha256": "c8a3c3ea96dfb6664848cb0d641a5ac737cb9dd41f41cb848fc3640fbaf0dd33",
+      "bytes": 5183,
+      "role": "validated Phase 16A working manifest"
+    },
+    "reports/phase16a_propagation_framework.md": {
+      "sha256": "6c3ececbc769feef0072171acd8989c2b4bd94fdc954d9b52a1a6ac67c1407f0",
+      "bytes": 3162,
+      "role": "accepted Phase 16A report or reproducibility artifact"
+    },
+    "reports/phase16a_qa.md": {
+      "sha256": "b6b070099c1c21a9f70c04aa1282382f9a7434c3af85f3910c6c00f9d68d81a8",
+      "bytes": 2112,
+      "role": "accepted Phase 16A report or reproducibility artifact"
+    },
+    "reports/phase16a_r_validation_result.json": {
+      "sha256": "38610c2f34b40deaad904463045167e2c6bd1623987358b8c824cdb9c3434dfd",
+      "bytes": 470,
+      "role": "machine validation result"
+    },
+    "src/R/systems/validate_phase16a_dynamics.R": {
+      "sha256": "83fda6d087878bdefb05b32ba29a7410d1b7b7781ea00dc7e9802bb60493e279",
+      "bytes": 34351,
+      "role": "accepted Phase 16A package validator"
+    },
+    "src/R/systems/validate_phase16a_freeze.R": {
+      "sha256": "3755af6bd021896a8ed6d199cf71b6d23784ec04fd1e7e92c2d612ce184f2d29",
+      "bytes": 42219,
+      "role": "independent base-R freeze validator"
+    },
+    "src/python/systems/build_phase16a_dynamics.py": {
+      "sha256": "8b978bfbeb3e3ba39969a983525d4622e069db2d319e529c87f63ffb1bd8e80a",
+      "bytes": 89719,
+      "role": "accepted Phase 16A reproducibility artifact"
+    },
+    "src/python/systems/validate_phase16a_dynamics.py": {
+      "sha256": "a31fdcc78ab075c779ce48e26e2f7b5552a82ae437dab17f41990223e4a71be9",
+      "bytes": 40268,
+      "role": "accepted Phase 16A package validator"
+    },
+    "src/python/systems/validate_phase16a_freeze.py": {
+      "sha256": "0ea6ebe34a5aff462cc36c95455565bf940709fa6aec998eebf494220e9d9b8e",
+      "bytes": 39191,
+      "role": "independent Python freeze validator"
+    }
+  },
+  "baseline": "Integrated Basin Dynamics Framework & Propagation Rules",
+  "counts": {
+    "stressors": 24,
+    "relationships": 36,
+    "rules": 32,
+    "responses": 13,
+    "technology_modifiers": 11,
+    "feedback": 10,
+    "matrix_cells": 312,
+    "candidates": 6,
+    "phase14a_protected_artifacts": 24,
+    "phase14b_protected_artifacts": 23,
+    "phase15a_protected_artifacts": 30,
+    "phase15b_protected_artifacts": 28,
+    "prior_freeze_entries": 593,
+    "prior_freeze_unique_paths": 584
+  },
+  "deferred_maintenance_preserved": [
+    "Phase 6B manifest status wording mismatch",
+    "Phase 3A missing manifest status",
+    "Phase 2A superseded legacy worktree"
+  ],
+  "evidence_inheritance_invariant": "An inferred or scenario-conditioned source cannot silently produce OBSERVED_DOCUMENTED output.",
+  "endpoint_lineage_invariant": "Phase 15B system_a → system_b and Phase 14 architecture source → target endpoints are ordered; reversed endpoints are rejected unless the frozen source explicitly declares undirected semantics.",
+  "figure": {
+    "conceptual": true,
+    "geographic_map": false,
+    "png": "outputs/figures/western_basin_stress_propagation_architecture.png",
+    "svg": "outputs/figures/western_basin_stress_propagation_architecture.svg",
+    "dimensions": [
+      2259,
+      1214
+    ]
+  },
+  "final_manifest_path": "reports/phase16a_integrated_basin_dynamics_freeze_manifest.json",
+  "no_composite_scores": true,
+  "no_health_outcome_forecasts": true,
+  "no_phase16b_execution": true,
+  "no_phase17_execution": true,
+  "phase14_integrity": {
+    "overall_status": "COMPLETE / ACCEPTED / FROZEN",
+    "phase14a_manifest": "reports/phase14a_common_systems_ontology_identity_evidence_crosswalk_freeze_manifest.json",
+    "phase14a_artifacts": 24,
+    "phase14b_manifest": "reports/phase14b_atlas_layer_registry_cross_system_dependency_normalization_freeze_manifest.json",
+    "phase14b_artifacts": 23
+  },
+  "phase15_integrity": {
+    "overall_status": "COMPLETE / ACCEPTED / FROZEN",
+    "phase15a_manifest": "reports/phase15a_technology_strategic_systems_baseline_freeze_manifest.json",
+    "phase15a_artifacts": 30,
+    "phase15b_manifest": "reports/phase15b_technology_convergence_futures_freeze_manifest.json",
+    "phase15b_artifacts": 28
+  },
+  "phase16b_status": "APPROVED SCOPE / NOT IMPLEMENTED",
+  "phase17_status": "NOT IMPLEMENTED",
+  "propagation_chain_invariants": [
+    "Stage 1 source_system_id equals the stressor initial_system_id.",
+    "Later-stage source_system_id equals the valid parent/predecessor target_system_id.",
+    "Parallel fan-out is represented as branching, not false sequential propagation."
+  ],
+  "review_lineage": {
+    "final": {
+      "review_id": "deleg_9fa57f45",
+      "record": "reports/phase16a_independent_review.md",
+      "passed": true,
+      "blocking_arrays_empty": true
+    },
+    "preserved": [
+      {
+        "review_id": "deleg_ec4d7c55",
+        "record": "reports/phase16a_independent_review_initial.md",
+        "passed": false
+      },
+      {
+        "review_id": "endpoint-compatibility failed review",
+        "record": "reports/phase16a_independent_review_second_failed.md",
+        "passed": false
+      },
+      {
+        "review_id": "deleg_703e15ec",
+        "record": "reports/phase16a_independent_review_third_failed.md",
+        "passed": false
+      }
+    ]
+  },
+  "release_created": false,
+  "source_commit": "9daad68c44af9259f42837b2c90af8c8d98fb0f9",
+  "status": "ACCEPTED / FROZEN",
+  "tag_created": false,
+  "technology_lineage_invariant": "Each declared Phase 16A technology modifier identity and family matches its cited Phase 15A/15B lineage.",
+  "qualitative_only": true,
+  "prior_freeze_integrity": {
+    "entries": 593,
+    "unique_paths": 584,
+    "prior_artifacts_unchanged": true
+  },
+  "validation": {
+    "python_package": "passed",
+    "independent_base_r_package": "passed",
+    "python_freeze_validator": "src/python/systems/validate_phase16a_freeze.py",
+    "independent_base_r_freeze_validator": "src/R/systems/validate_phase16a_freeze.R",
+    "final_review": "passed: true; all blocking arrays empty",
+    "figure_integrity": "passed: conceptual non-geographic PNG/SVG pair"
+  },
+  "working_manifest": {
+    "path": "reports/phase16a_manifest.json",
+    "artifacts": 23,
+    "status": "implemented_validated_pending_sol_acceptance"
+  }
+}

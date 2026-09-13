@@ -1,16 +1,16 @@
 # Current Phase Handoff
 
-## LEADING CURRENT STATE — Phase 16A integrated awaiting Sol acceptance
+## LEADING CURRENT STATE — Phase 16A accepted/frozen
 
-- Starting synchronized main/origin/main SHA: `038669819731b2206f74a078f6b652ebafacb007`; Phase 16A package commit and fast-forward integration SHA before this handoff update: `a0a99eb6e433a4cac5eabdcdd9984ec4f4b77c13`.
+- Starting synchronized main/origin/main SHA: `038669819731b2206f74a078f6b652ebafacb007`; Phase 16A package commit and fast-forward integration SHA before this freeze transaction: `a0a99eb6e433a4cac5eabdcdd9984ec4f4b77c13`; freeze transaction starts from `9daad68c44af9259f42837b2c90af8c8d98fb0f9`.
 - Preserved active worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase16a`; branch: `phase-16a-integrated-basin-dynamics`.
-- Phase 16A — Integrated Basin Dynamics Framework & Propagation Rules: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**.
-- Final correction/review scope is closed after the current-status correction in `docs/agent_workflow.md`; only generated-SVG trailing-whitespace normalization was applied after the fresh review for `git diff --check`, with no scientific content change.
+- Phase 16A — Integrated Basin Dynamics Framework & Propagation Rules: **ACCEPTED / FROZEN** under `reports/phase16a_integrated_basin_dynamics_freeze_manifest.json` (30 protected artifacts).
+- Final correction/review scope is closed after the current-status correction in `docs/agent_workflow.md`; no scientific outputs are regenerated during this freeze transaction.
 - Phase 16B: **APPROVED SCOPE / NOT IMPLEMENTED**. Phase 17: **NOT IMPLEMENTED**.
 - Preserved failed reviews: `reports/phase16a_independent_review_initial.md` (`deleg_ec4d7c55`, `passed: false`), `reports/phase16a_independent_review_second_failed.md` (endpoint-compatibility finding, `passed: false`), and `reports/phase16a_independent_review_third_failed.md` (`deleg_703e15ec`, stale workflow-status finding, `passed: false`). Final review: `reports/phase16a_independent_review.md` (`deleg_9fa57f45`, `passed: true`).
-- Phase 14: **COMPLETE / ACCEPTED / FROZEN**. Phase 15: **COMPLETE / ACCEPTED / FROZEN**. Prior freeze integrity is required before delivery.
+- Phase 14: **COMPLETE / ACCEPTED / FROZEN**. Phase 15: **COMPLETE / ACCEPTED / FROZEN**. Prior freeze integrity: 593 manifest entries / 584 unique protected paths.
 - Frozen source-schema finding: Phase 15B scenario dependency states use ordered `system_a` → `system_b`; Phase 14 architecture interfaces use ordered `[source_system_id, target_system_id, interface_type, status]` tuples. Neither frozen source schema explicitly declares an undirected relationship.
-- Endpoint correction checkpoint: the Phase 16A builder, Python validator, and independent R validator now resolve those frozen records and reject reversed directed endpoints; the builder was run twice with no package drift, and Python/R validation plus focused ordered/reversed tests passed.
+- Freeze validation checkpoint: Python and independent base-R freeze validators verify the corrected propagation-chain, evidence-inheritance, technology-lineage, and ordered endpoint-lineage invariants; builder, Python validator, and R validator endpoint guards remain present.
 - Active holds: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**.
 - Deferred maintenance: Phase 6B manifest-status wording mismatch; Phase 3A missing manifest status; Phase 2A superseded legacy worktree.
 
