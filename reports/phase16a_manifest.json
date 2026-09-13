@@ -1,0 +1,135 @@
+{
+  "phase": "16A",
+  "accepted_phase": "16A",
+  "status": "implemented_validated_pending_sol_acceptance",
+  "source_commit": "038669819731b2206f74a078f6b652ebafacb007",
+  "scope": "Integrated Basin Dynamics Framework & Propagation Rules",
+  "phase16b_status": "APPROVED SCOPE / NOT IMPLEMENTED",
+  "phase17_status": "NOT IMPLEMENTED",
+  "qualitative_only": true,
+  "no_numeric_scores_or_probabilities": true,
+  "no_phase16b_execution": true,
+  "counts": {
+    "stressors": 24,
+    "relationships": 36,
+    "rules": 32,
+    "responses": 13,
+    "technology_modifiers": 11,
+    "feedback": 10,
+    "matrix": 312,
+    "candidates": 6
+  },
+  "evidence_classes": [
+    "OBSERVED_DOCUMENTED",
+    "DERIVED_CALCULATED",
+    "INFERRED",
+    "CONTEXT_REUSED",
+    "SCENARIO_ASSUMPTION",
+    "SCENARIO_STATE",
+    "UNRESOLVED",
+    "NONCANONICAL_HOLD"
+  ],
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate": "UNRESOLVED"
+  },
+  "deferred_maintenance_preserved": [
+    "Phase 6B historical manifest-status wording mismatch",
+    "Phase 3A missing historical manifest status",
+    "Phase 2A superseded legacy worktree"
+  ],
+  "artifacts": {
+    "metadata/basin_dynamics_vocabulary.yml": {
+      "sha256": "d875666915360fa8261eab5bb365e22bac24094abfe6e395f7e9f9409ca74b3d",
+      "bytes": 5853
+    },
+    "docs/phase_briefs/phase16_integrated_basin_dynamics.md": {
+      "sha256": "e09820f81f827fc47720353c19c8ed05f17034038625ad7344b020a7b7733e3f",
+      "bytes": 1499
+    },
+    "docs/phase_briefs/phase16a_integrated_basin_dynamics_framework_propagation_rules.md": {
+      "sha256": "be52d4ae43a1866b92c2a64c8aec1e4c458c856647a1381327de70681301a712",
+      "bytes": 1751
+    },
+    "docs/phase_briefs/phase16b_compound_cross_system_stress_tests.md": {
+      "sha256": "5fe7bdbfea64b251a10bc260f345d9fc76a284038c1fa6a536a50dd933250b8d",
+      "bytes": 990
+    },
+    "data/processed/integration/stressor_catalog.csv": {
+      "sha256": "3f07787ca0d6c09cf9aaf314c1d19b2d38be286b55ff4eb7b507650e4f87b087",
+      "bytes": 9432
+    },
+    "data/processed/integration/propagation_relationships.csv": {
+      "sha256": "a1debb16bcd498b112c40918fc4b0e6902de74696bb50be865d12d42d907f4ed",
+      "bytes": 31592
+    },
+    "data/processed/integration/propagation_rules.csv": {
+      "sha256": "66f30f39e4eae3101be920b33f22f0a63b7b62cfa1520b5bd556277a05fc821b",
+      "bytes": 30803
+    },
+    "data/processed/integration/adaptation_response_catalog.csv": {
+      "sha256": "15ddc9db14c6d6e2c036f717fc77e3247807b48881e980dcc1caf49b6d412011",
+      "bytes": 5527
+    },
+    "data/processed/integration/technology_modifier_catalog.csv": {
+      "sha256": "7f18d3664f98c0bb55d15f39b8b236ee0587e08daf8de5e1bc107d5f855bf5e6",
+      "bytes": 5849
+    },
+    "data/processed/integration/feedback_coupling_inventory.csv": {
+      "sha256": "8ade420c7bb1821f727b425053c6449893c0590789f57fc0c4cbeb32d7709e82",
+      "bytes": 3565
+    },
+    "data/processed/integration/system_stressor_matrix.csv": {
+      "sha256": "c8350a9c671e8054fdf3d59379f07b303d1511fded2bd2a04000a3f97d702543",
+      "bytes": 83920
+    },
+    "data/processed/integration/phase16b_candidate_stress_tests.csv": {
+      "sha256": "6f6de76e77e97124e621d6a82b9cf3032e9b5ec8abbcbc9ffdf676ba4cd25b1d",
+      "bytes": 3152
+    },
+    "outputs/figures/western_basin_stress_propagation_architecture.png": {
+      "sha256": "0dde195e574961d08d8e5f5ff492f76689b27a2d8ec73287b2870a28141c0680",
+      "bytes": 144575
+    },
+    "outputs/figures/western_basin_stress_propagation_architecture.svg": {
+      "sha256": "5ae5c95fa6ae1b16832c7dde8d741774a7fcab7a296c5cb76108a9ded241dd65",
+      "bytes": 14818
+    },
+    "reports/phase16a_integrated_basin_dynamics.md": {
+      "sha256": "0f6efcea19c446dd77e717072abdc0e8ba72ce3d6c54ae987e48e9be610f251f",
+      "bytes": 2356
+    },
+    "reports/phase16a_propagation_framework.md": {
+      "sha256": "6c3ececbc769feef0072171acd8989c2b4bd94fdc954d9b52a1a6ac67c1407f0",
+      "bytes": 3162
+    },
+    "reports/phase16a_candidate_stress_tests.md": {
+      "sha256": "cfcd3e8b155a099fff529fafe267f899812a1bd924273ca0896f4ebf8ec1552e",
+      "bytes": 1303
+    },
+    "reports/phase16a_qa.md": {
+      "sha256": "b6b070099c1c21a9f70c04aa1282382f9a7434c3af85f3910c6c00f9d68d81a8",
+      "bytes": 2112
+    },
+    "reports/phase16a_independent_review_initial.md": {
+      "sha256": "87036ad471cc9c31954ccaf0dfdc87bde0b2fd0b4fcb1b41bde02f6cdfbae01f",
+      "bytes": 7640
+    },
+    "reports/phase16a_independent_review_second_failed.md": {
+      "sha256": "780aaafed76f74359544d8cc79554a1b5bfe0da625dcd9f8be018e0a73a9e83a",
+      "bytes": 1814
+    },
+    "src/python/systems/build_phase16a_dynamics.py": {
+      "sha256": "8b978bfbeb3e3ba39969a983525d4622e069db2d319e529c87f63ffb1bd8e80a",
+      "bytes": 89719
+    },
+    "src/python/systems/validate_phase16a_dynamics.py": {
+      "sha256": "a31fdcc78ab075c779ce48e26e2f7b5552a82ae437dab17f41990223e4a71be9",
+      "bytes": 40268
+    },
+    "src/R/systems/validate_phase16a_dynamics.R": {
+      "sha256": "83fda6d087878bdefb05b32ba29a7410d1b7b7781ea00dc7e9802bb60493e279",
+      "bytes": 34351
+    }
+  }
+}

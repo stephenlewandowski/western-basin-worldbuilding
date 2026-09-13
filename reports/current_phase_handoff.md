@@ -1,5 +1,22 @@
 # Current Phase Handoff
 
+## LEADING CURRENT STATE — Phase 16A integrated awaiting Sol acceptance
+
+- Canonical main/origin/main starting SHA: `038669819731b2206f74a078f6b652ebafacb007`.
+- Preserved active worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase16a`; branch: `phase-16a-integrated-basin-dynamics`.
+- Phase 16A — Integrated Basin Dynamics Framework & Propagation Rules: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**.
+- Final correction/review scope is closed after the current-status correction in `docs/agent_workflow.md`; only generated-SVG trailing-whitespace normalization was applied after the fresh review for `git diff --check`, with no scientific content change.
+- Phase 16B: **APPROVED SCOPE / NOT IMPLEMENTED**. Phase 17: **NOT IMPLEMENTED**.
+- Preserved failed reviews: `reports/phase16a_independent_review_initial.md` (`deleg_ec4d7c55`, `passed: false`), `reports/phase16a_independent_review_second_failed.md` (endpoint-compatibility finding, `passed: false`), and `reports/phase16a_independent_review_third_failed.md` (`deleg_703e15ec`, stale workflow-status finding, `passed: false`). Final review: `reports/phase16a_independent_review.md` (`deleg_9fa57f45`, `passed: true`).
+- Phase 14: **COMPLETE / ACCEPTED / FROZEN**. Phase 15: **COMPLETE / ACCEPTED / FROZEN**. Prior freeze integrity is required before delivery.
+- Frozen source-schema finding: Phase 15B scenario dependency states use ordered `system_a` → `system_b`; Phase 14 architecture interfaces use ordered `[source_system_id, target_system_id, interface_type, status]` tuples. Neither frozen source schema explicitly declares an undirected relationship.
+- Endpoint correction checkpoint: the Phase 16A builder, Python validator, and independent R validator now resolve those frozen records and reject reversed directed endpoints; the builder was run twice with no package drift, and Python/R validation plus focused ordered/reversed tests passed.
+- Active holds: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**.
+- Deferred maintenance: Phase 6B manifest-status wording mismatch; Phase 3A missing manifest status; Phase 2A superseded legacy worktree.
+
+The older Phase 6C/7A and earlier handoff material below is historical continuity
+material, not the current phase or resumption target.
+
 ## Repository
 
 Repository: `C:\Projects\Public_GitHub\western-basin-worldbuilding`
@@ -1238,3 +1255,20 @@ Acquire and verify a compact public source set, implement deterministic Phase 13
 - The live R percentage guard remains direct fail-on-match: clean text passed and synthetic `35%` text failed. Biosecurity remains high-level and bounded to diagnostics, surveillance coordination, attribution uncertainty, capacity, supply-chain resilience, communication, governance, and response coordination; no harmful biological operational detail was added.
 - Phase 14 is **COMPLETE / ACCEPTED / FROZEN**; Phase 15A is **ACCEPTED / FROZEN**; Phase 15B is **ACCEPTED / FROZEN**; Phase 15 overall is **COMPLETE / ACCEPTED / FROZEN**; Active phase is **NONE**; Phase 16 is **NOT IMPLEMENTED**; next planning target is Phase 16 — Integrated Basin Dynamics and Cross-System Stress Tests.
 - Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing manifest status, and the Phase 2A superseded legacy worktree remain unchanged. No release or tag was created.
+
+## Phase 16A startup checkpoint — 2026-09-12
+
+- Starting synchronized `main` / `origin/main` SHA: `038669819731b2206f74a078f6b652ebafacb007`.
+- Isolated worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase16a`; branch: `phase-16a-integrated-basin-dynamics`.
+- Approved scope: **PHASE 16A — INTEGRATED BASIN DYNAMICS FRAMEWORK & PROPAGATION RULES** only.
+- Phase 14 overall is **COMPLETE / ACCEPTED / FROZEN**; Phase 14A and 14B remain protected. Phase 15 overall is **COMPLETE / ACCEPTED / FROZEN**; Phase 15A and 15B remain protected. No frozen Phase 1–15 artifact may be modified.
+- Created early briefs: `docs/phase_briefs/phase16_integrated_basin_dynamics.md`, `docs/phase_briefs/phase16a_integrated_basin_dynamics_framework_propagation_rules.md`, and `docs/phase_briefs/phase16b_compound_cross_system_stress_tests.md`. Phase 16B is **APPROVED SCOPE / NOT IMPLEMENTED**.
+- Active holds preserved: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing manifest status, and Phase 2A superseded legacy worktree remain untouched.
+- Next exact action: build additive Phase 16A vocabulary, propagation tables, matrix, candidate tests, conceptual figure, deterministic builder, Python/R validators, manifest/check, reports, and QA without implementing Phase 16B or Phase 17.
+
+## Phase 16A deterministic validation checkpoint — 2026-09-12
+
+- Builder regeneration completed for the additive Phase 16A package: 24 stressors, 33 relationships, 38 rules, 13 response mechanisms, 11 technology modifiers, 10 feedback rows, 312 matrix cells, six Phase 16B candidates, and one conceptual figure pair.
+- Python validator passed. Independent base-R validator passed. Phase 14A/14B and Phase 15A/15B freeze checks passed at 24/23 and 30/28 protected artifacts; current prior freeze integrity passed at 593 entries / 584 unique protected paths. No frozen artifact was modified.
+- Deterministic checks preserve source lineage, relationship/evidence status, scenario-conditioned labels, active holds, no-score/no-probability boundaries, high-level biosecurity, and Phase 16B/17 absence.
+- Next exact action: run the single bounded independent review against the frozen working package. Do not implement Phase 16B or Phase 17.

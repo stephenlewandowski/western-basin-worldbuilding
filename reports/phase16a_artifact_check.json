@@ -1,0 +1,458 @@
+{
+  "phase": "16A",
+  "passed": true,
+  "checks": {
+    "expected_starting_sha": {
+      "passed": true,
+      "detail": "038669819731b2206f74a078f6b652ebafacb007"
+    },
+    "phase14_overall_status": {
+      "passed": true,
+      "detail": "Phase 14"
+    },
+    "phase15_overall_status": {
+      "passed": true,
+      "detail": "Phase 15"
+    },
+    "freeze_artifact_counts": {
+      "passed": true,
+      "detail": [
+        24,
+        23,
+        30,
+        28
+      ]
+    },
+    "prior_freeze_integrity": {
+      "passed": true,
+      "detail": {
+        "entries": 593,
+        "unique_paths": 584
+      }
+    },
+    "no_frozen_artifact_modified": {
+      "passed": true,
+      "detail": []
+    },
+    "phase16b_candidate_only": {
+      "passed": true,
+      "detail": []
+    },
+    "phase17_absent": {
+      "passed": true,
+      "detail": []
+    },
+    "no_release_or_tag": {
+      "passed": true,
+      "detail": "release/tag out of scope"
+    },
+    "phase14_system_ontology": {
+      "passed": true,
+      "detail": [
+        "SYS-BIOGEOCHEMISTRY",
+        "SYS-CLIMATE",
+        "SYS-DATA",
+        "SYS-ECOLOGY",
+        "SYS-ENERGY",
+        "SYS-EXPOSURE",
+        "SYS-FREIGHT",
+        "SYS-GOVERNANCE",
+        "SYS-INFECTIOUS-DISEASE",
+        "SYS-MATERIALS",
+        "SYS-POPULATION",
+        "SYS-VECTOR-ECOLOGY",
+        "SYS-WATER"
+      ]
+    },
+    "relationship_vocabulary_loaded": {
+      "passed": true,
+      "detail": [
+        "ecological relationship",
+        "energy flow",
+        "exposure pathway",
+        "governance / authority",
+        "high-level association",
+        "information / observation",
+        "material flow",
+        "operational dependency",
+        "physical flow",
+        "population / mobility interface",
+        "scenario influence",
+        "surveillance / detection",
+        "unresolved / unclassified"
+      ]
+    },
+    "evidence_vocabulary_loaded": {
+      "passed": true,
+      "detail": [
+        "OBSERVED_DOCUMENTED",
+        "DERIVED_CALCULATED",
+        "INFERRED",
+        "CONTEXT_REUSED",
+        "SCENARIO_ASSUMPTION",
+        "SCENARIO_STATE",
+        "UNRESOLVED",
+        "NONCANONICAL_HOLD"
+      ]
+    },
+    "schema_stressor_catalog.csv": {
+      "passed": true,
+      "detail": []
+    },
+    "nonempty_stressor_catalog.csv": {
+      "passed": true,
+      "detail": 24
+    },
+    "schema_propagation_relationships.csv": {
+      "passed": true,
+      "detail": []
+    },
+    "nonempty_propagation_relationships.csv": {
+      "passed": true,
+      "detail": 36
+    },
+    "schema_propagation_rules.csv": {
+      "passed": true,
+      "detail": []
+    },
+    "nonempty_propagation_rules.csv": {
+      "passed": true,
+      "detail": 32
+    },
+    "schema_adaptation_response_catalog.csv": {
+      "passed": true,
+      "detail": []
+    },
+    "nonempty_adaptation_response_catalog.csv": {
+      "passed": true,
+      "detail": 13
+    },
+    "schema_technology_modifier_catalog.csv": {
+      "passed": true,
+      "detail": []
+    },
+    "nonempty_technology_modifier_catalog.csv": {
+      "passed": true,
+      "detail": 11
+    },
+    "schema_feedback_coupling_inventory.csv": {
+      "passed": true,
+      "detail": []
+    },
+    "nonempty_feedback_coupling_inventory.csv": {
+      "passed": true,
+      "detail": 10
+    },
+    "schema_system_stressor_matrix.csv": {
+      "passed": true,
+      "detail": []
+    },
+    "nonempty_system_stressor_matrix.csv": {
+      "passed": true,
+      "detail": 312
+    },
+    "schema_phase16b_candidate_stress_tests.csv": {
+      "passed": true,
+      "detail": []
+    },
+    "nonempty_phase16b_candidate_stress_tests.csv": {
+      "passed": true,
+      "detail": 6
+    },
+    "stressor_ids_unique": {
+      "passed": true,
+      "detail": 24
+    },
+    "stressor_classes_resolve": {
+      "passed": true,
+      "detail": []
+    },
+    "stressor_systems_resolve": {
+      "passed": true,
+      "detail": "initial system"
+    },
+    "stressor_evidence_resolve": {
+      "passed": true,
+      "detail": []
+    },
+    "stressor_lineage_present": {
+      "passed": true,
+      "detail": "stressor lineage"
+    },
+    "relationship_ids_unique": {
+      "passed": true,
+      "detail": 36
+    },
+    "relationship_endpoints_resolve": {
+      "passed": true,
+      "detail": "relationship endpoints"
+    },
+    "relationship_classes_resolve": {
+      "passed": true,
+      "detail": []
+    },
+    "relationship_evidence_resolve": {
+      "passed": true,
+      "detail": []
+    },
+    "relationship_lineage_present": {
+      "passed": true,
+      "detail": "relationship lineage"
+    },
+    "relationship_lineage_resolves": {
+      "passed": true,
+      "detail": []
+    },
+    "relationship_evidence_status_alignment": {
+      "passed": true,
+      "detail": []
+    },
+    "no_colocation_relationships": {
+      "passed": true,
+      "detail": "co-location is not propagation"
+    },
+    "stress_test_qualitative_only": {
+      "passed": true,
+      "detail": "relationship use"
+    },
+    "rule_ids_unique": {
+      "passed": true,
+      "detail": 32
+    },
+    "removed_unsupported_rules_absent": {
+      "passed": true,
+      "detail": []
+    },
+    "rule_stressor_resolution": {
+      "passed": true,
+      "detail": "rule stressors"
+    },
+    "rule_relationship_resolution": {
+      "passed": true,
+      "detail": "rule relationships"
+    },
+    "rule_response_resolution": {
+      "passed": true,
+      "detail": "rule responses"
+    },
+    "rule_endpoints_resolution": {
+      "passed": true,
+      "detail": "rule endpoints"
+    },
+    "rule_stages_bounded": {
+      "passed": true,
+      "detail": [
+        "1",
+        "2"
+      ]
+    },
+    "rule_required_lineage": {
+      "passed": true,
+      "detail": "rule lineage/conditions"
+    },
+    "scenario_rules_explicit": {
+      "passed": true,
+      "detail": [
+        "baseline",
+        "scenario-conditioned"
+      ]
+    },
+    "documented_inferred_distinction": {
+      "passed": true,
+      "detail": "direct/inferred"
+    },
+    "rule_source_target_and_evidence_fit": {
+      "passed": true,
+      "detail": []
+    },
+    "rule_chain_continuity": {
+      "passed": true,
+      "detail": []
+    },
+    "no_unsupported_causal_claim_fields": {
+      "passed": true,
+      "detail": "causation class"
+    },
+    "response_ids_unique": {
+      "passed": true,
+      "detail": 13
+    },
+    "response_evidence_resolve": {
+      "passed": true,
+      "detail": []
+    },
+    "response_boundaries": {
+      "passed": true,
+      "detail": "response capacity boundaries"
+    },
+    "response_evidence_inheritance": {
+      "passed": true,
+      "detail": []
+    },
+    "technology_modifier_ids_unique": {
+      "passed": true,
+      "detail": 11
+    },
+    "technology_modifier_resolution": {
+      "passed": true,
+      "detail": "Phase 15 technology IDs"
+    },
+    "technology_modifier_evidence": {
+      "passed": true,
+      "detail": []
+    },
+    "technology_modifier_lineage_identity": {
+      "passed": true,
+      "detail": []
+    },
+    "technology_not_automatically_protective": {
+      "passed": true,
+      "detail": "technology boundary"
+    },
+    "feedback_ids_unique": {
+      "passed": true,
+      "detail": 10
+    },
+    "feedback_classes": {
+      "passed": true,
+      "detail": [
+        "inferred",
+        "not currently supported",
+        "scenario-conditioned"
+      ]
+    },
+    "feedback_no_gain": {
+      "passed": true,
+      "detail": "feedback gain"
+    },
+    "feedback_boundary": {
+      "passed": true,
+      "detail": "feedback boundary"
+    },
+    "matrix_shape": {
+      "passed": true,
+      "detail": {
+        "rows": 312,
+        "expected": 312
+      }
+    },
+    "matrix_refs": {
+      "passed": true,
+      "detail": "matrix refs"
+    },
+    "matrix_cells": {
+      "passed": true,
+      "detail": []
+    },
+    "matrix_not_score": {
+      "passed": true,
+      "detail": "matrix score flags"
+    },
+    "matrix_not_ranked": {
+      "passed": true,
+      "detail": "matrix ranking"
+    },
+    "matrix_scenario_precedence": {
+      "passed": true,
+      "detail": []
+    },
+    "candidate_count": {
+      "passed": true,
+      "detail": 6
+    },
+    "candidate_status": {
+      "passed": true,
+      "detail": "candidate execution"
+    },
+    "candidate_stressor_refs": {
+      "passed": true,
+      "detail": "candidate stressors"
+    },
+    "candidate_system_refs": {
+      "passed": true,
+      "detail": "candidate systems"
+    },
+    "no_forbidden_numeric_fields": {
+      "passed": true,
+      "detail": []
+    },
+    "no_numeric_probability_or_score": {
+      "passed": true,
+      "detail": "numeric score/probability"
+    },
+    "no_health_forecast": {
+      "passed": true,
+      "detail": "numeric health outcome"
+    },
+    "biosecurity_high_level": {
+      "passed": true,
+      "detail": "biosecurity detail"
+    },
+    "figure_svg_western_basin_stress_propagation_architecture.svg": {
+      "passed": true,
+      "detail": {
+        "bytes": 14909,
+        "required": [
+          "Western Basin Stress Propagation Architecture",
+          "STRESSOR",
+          "SYSTEM EFFECT",
+          "DEPENDENCY / INTERFACE",
+          "PROPAGATION",
+          "RESPONSE / ADAPTATION",
+          "SECOND-ORDER EFFECT",
+          "direct / documented",
+          "inferred",
+          "scenario-conditioned",
+          "option ≠ capacity ≠ success"
+        ]
+      }
+    },
+    "figure_png": {
+      "passed": true,
+      "detail": {
+        "bytes": 144575,
+        "dimensions": [
+          2259,
+          1214
+        ]
+      }
+    },
+    "working_manifest_identity": {
+      "passed": true,
+      "detail": {
+        "phase": "16A",
+        "status": "implemented_validated_pending_sol_acceptance",
+        "source_commit": "038669819731b2206f74a078f6b652ebafacb007"
+      }
+    },
+    "working_manifest_artifacts": {
+      "passed": true,
+      "detail": []
+    },
+    "manifest_phase16b_not_executed": {
+      "passed": true,
+      "detail": "Phase 16B"
+    },
+    "manifest_phase17_absent": {
+      "passed": true,
+      "detail": "Phase 17"
+    }
+  },
+  "counts": {
+    "stressors": 24,
+    "relationships": 36,
+    "rules": 32,
+    "responses": 13,
+    "technology_modifiers": 11,
+    "feedback": 10,
+    "matrix_cells": 312,
+    "candidates": 6,
+    "phase14a_protected_artifacts": 24,
+    "phase14b_protected_artifacts": 23,
+    "phase15a_protected_artifacts": 30,
+    "phase15b_protected_artifacts": 28,
+    "prior_freeze_entries": 593,
+    "prior_freeze_unique_paths": 584
+  },
+  "errors": []
+}

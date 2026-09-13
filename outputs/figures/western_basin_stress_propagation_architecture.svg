@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="903.938344pt" height="485.64pt" viewBox="0 0 903.938344 485.64" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 485.64
+L 903.938344 485.64
+L 903.938344 0
+L 0 0
+z
+" style="fill: #0f172a"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 75.920344 308.7936
+L 157.946344 308.7936
+Q 162.410344 308.7936 162.410344 304.3584
+L 162.410344 203.4576
+Q 162.410344 199.0224 157.946344 199.0224
+L 75.920344 199.0224
+Q 71.456344 199.0224 71.456344 203.4576
+L 71.456344 304.3584
+Q 71.456344 308.7936 75.920344 308.7936
+z
+" clip-path="url(#p1fdaa35a2d)" style="fill: #172554; stroke: #38bdf8; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 209.840344 308.7936
+L 291.866344 308.7936
+Q 296.330344 308.7936 296.330344 304.3584
+L 296.330344 203.4576
+Q 296.330344 199.0224 291.866344 199.0224
+L 209.840344 199.0224
+Q 205.376344 199.0224 205.376344 203.4576
+L 205.376344 304.3584
+Q 205.376344 308.7936 209.840344 308.7936
+z
+" clip-path="url(#p1fdaa35a2d)" style="fill: #172554; stroke: #a78bfa; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 343.760344 308.7936
+L 425.786344 308.7936
+Q 430.250344 308.7936 430.250344 304.3584
+L 430.250344 203.4576
+Q 430.250344 199.0224 425.786344 199.0224
+L 343.760344 199.0224
+Q 339.296344 199.0224 339.296344 203.4576
+L 339.296344 304.3584
+Q 339.296344 308.7936 343.760344 308.7936
+z
+" clip-path="url(#p1fdaa35a2d)" style="fill: #172554; stroke: #fbbf24; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 477.680344 308.7936
+L 559.706344 308.7936
+Q 564.170344 308.7936 564.170344 304.3584
+L 564.170344 203.4576
+Q 564.170344 199.0224 559.706344 199.0224
+L 477.680344 199.0224
+Q 473.216344 199.0224 473.216344 203.4576
+L 473.216344 304.3584
+Q 473.216344 308.7936 477.680344 308.7936
+z
+" clip-path="url(#p1fdaa35a2d)" style="fill: #172554; stroke: #34d399; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 617.180344 308.7936
+L 699.206344 308.7936
+Q 703.670344 308.7936 703.670344 304.3584
+L 703.670344 203.4576
+Q 703.670344 199.0224 699.206344 199.0224
+L 617.180344 199.0224
+Q 612.716344 199.0224 612.716344 203.4576
+L 612.716344 304.3584
+Q 612.716344 308.7936 617.180344 308.7936
+z
+" clip-path="url(#p1fdaa35a2d)" style="fill: #172554; stroke: #fb7185; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 745.520344 308.7936
+L 827.546344 308.7936
+Q 832.010344 308.7936 832.010344 304.3584
+L 832.010344 203.4576
+Q 832.010344 199.0224 827.546344 199.0224
+L 745.520344 199.0224
+Q 741.056344 199.0224 741.056344 203.4576
+L 741.056344 304.3584
+Q 741.056344 308.7936 745.520344 308.7936
+z
+" clip-path="url(#p1fdaa35a2d)" style="fill: #172554; stroke: #94a3b8; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="line2d_1">
+    <path d="M 126.698344 414.684
+L 151.808344 414.684
+" clip-path="url(#p1fdaa35a2d)" style="fill: none; stroke: #38bdf8; stroke-width: 2.6; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 308.048344 414.684
+L 333.158344 414.684
+" clip-path="url(#p1fdaa35a2d)" style="fill: none; stroke-dasharray: 2.6,4.29; stroke-dashoffset: 0; stroke: #a78bfa; stroke-width: 2.6"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 489.398344 414.684
+L 514.508344 414.684
+" clip-path="url(#p1fdaa35a2d)" style="fill: none; stroke-dasharray: 16.64,4.16,2.6,4.16; stroke-dashoffset: 0; stroke: #fbbf24; stroke-width: 2.6"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 670.748344 414.684
+L 695.858344 414.684
+" clip-path="url(#p1fdaa35a2d)" style="fill: none; stroke: #34d399; stroke-width: 2.6; stroke-linecap: square"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #ffffff" x="115.538344" y="245.157891" transform="rotate(-0 115.538344 245.157891)">STRESSOR</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #cbd5e1" x="115.538344" y="283.394672" transform="rotate(-0 115.538344 283.394672)">climate • infrastructure • material • public health • information</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #ffffff" x="249.458344" y="245.157891" transform="rotate(-0 249.458344 245.157891)">SYSTEM EFFECT</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #cbd5e1" x="249.458344" y="283.394672" transform="rotate(-0 249.458344 283.394672)">nominal → stressed → constrained / degraded</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #ffffff" x="383.378344" y="245.157891" transform="rotate(-0 383.378344 245.157891)">DEPENDENCY / INTERFACE</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #cbd5e1" x="383.378344" y="283.394672" transform="rotate(-0 383.378344 283.394672)">Phase 14 relationship class retained</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #ffffff" x="517.298344" y="245.157891" transform="rotate(-0 517.298344 245.157891)">PROPAGATION</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #cbd5e1" x="517.298344" y="283.394672" transform="rotate(-0 517.298344 283.394672)">direct / inferred / scenario-conditioned</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #ffffff" x="656.798344" y="245.157891" transform="rotate(-0 656.798344 245.157891)">RESPONSE / ADAPTATION</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #cbd5e1" x="656.798344" y="283.394672" transform="rotate(-0 656.798344 283.394672)">option ≠ capacity ≠ success</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 9px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #ffffff" x="785.138344" y="245.157891" transform="rotate(-0 785.138344 245.157891)">SECOND-ORDER EFFECT</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 6.8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #cbd5e1" x="785.138344" y="283.394672" transform="rotate(-0 785.138344 283.394672)">residual • delayed • redistributed • indeterminate</text>
+   </g>
+   <g id="patch_8">
+    <path d="M 164.966164 253.908
+Q 182.495145 253.908 198.011666 253.908
+" style="fill: none; stroke: #e2e8f0; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 194.011666 251.908
+L 198.011666 253.908
+L 194.011666 255.908
+z
+" style="fill: #e2e8f0; stroke: #e2e8f0; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 298.886164 253.908
+Q 316.415145 253.908 331.931666 253.908
+" style="fill: none; stroke: #e2e8f0; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 327.931666 251.908
+L 331.931666 253.908
+L 327.931666 255.908
+z
+" style="fill: #e2e8f0; stroke: #e2e8f0; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 432.806164 253.908
+Q 450.335145 253.908 465.851666 253.908
+" style="fill: none; stroke: #e2e8f0; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 461.851666 251.908
+L 465.851666 253.908
+L 461.851666 255.908
+z
+" style="fill: #e2e8f0; stroke: #e2e8f0; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 566.726164 253.908
+Q 584.255145 253.908 599.771666 253.908
+" style="fill: none; stroke: #e2e8f0; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 595.771666 251.908
+L 599.771666 253.908
+L 595.771666 255.908
+z
+" style="fill: #e2e8f0; stroke: #e2e8f0; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 720.176164 253.908
+Q 737.705145 253.908 753.221666 253.908
+" style="fill: none; stroke: #e2e8f0; stroke-width: 1.8; stroke-linecap: round"/>
+    <path d="M 749.221666 251.908
+L 753.221666 253.908
+L 749.221666 255.908
+z
+" style="fill: #e2e8f0; stroke: #e2e8f0; stroke-width: 1.8; stroke-linecap: round"/>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 18px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #ffffff" x="478.238344" y="76.5" transform="rotate(-0 478.238344 76.5)">Western Basin Stress Propagation Architecture</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #cbd5e1" x="478.238344" y="105.8832" transform="rotate(-0 478.238344 105.8832)">Atlas-facing conceptual figure • system-family aggregation • non-geographic • non-proportional</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8.5px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #cbd5e1" x="478.238344" y="364.788" transform="rotate(-0 478.238344 364.788)">System families represented: natural environment • infrastructure / technology • production / logistics • health / environment • institutional / human</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #e2e8f0" x="157.388344" y="416.762437" transform="rotate(-0 157.388344 416.762437)">direct / documented</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #e2e8f0" x="338.738344" y="416.762437" transform="rotate(-0 338.738344 416.762437)">inferred</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #e2e8f0" x="520.088344" y="416.762437" transform="rotate(-0 520.088344 416.762437)">scenario-conditioned</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #e2e8f0" x="701.438344" y="416.762437" transform="rotate(-0 701.438344 416.762437)">response / adaptation</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #fbbf24" x="478.238344" y="457.3728" transform="rotate(-0 478.238344 457.3728)">Line presence does not imply causation, proportional effect, failure, probability, risk, or vulnerability. Cycles require explicit support; technology is an optional modifier, not automatic protection.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1fdaa35a2d">
+   <rect x="59.738344" y="7.2" width="837" height="471.24"/>
+  </clipPath>
+ </defs>
+</svg>

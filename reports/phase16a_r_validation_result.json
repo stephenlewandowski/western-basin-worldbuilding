@@ -1,0 +1,20 @@
+{
+  "phase": "16A",
+  "passed": true,
+  "counts": {
+    "stressors": 24,
+    "relationships": 36,
+    "rules": 32,
+    "responses": 13,
+    "technology_modifiers": 11,
+    "feedback": 10,
+    "matrix_cells": 312,
+    "candidates": 6,
+    "phase14a_protected_artifacts": 24,
+    "phase14b_protected_artifacts": 23,
+    "phase15a_protected_artifacts": 30,
+    "phase15b_protected_artifacts": 28,
+    "prior_freeze_entries": 593,
+    "prior_freeze_unique_paths": 584
+  }
+}

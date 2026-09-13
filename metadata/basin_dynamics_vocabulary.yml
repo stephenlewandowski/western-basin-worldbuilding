@@ -1,0 +1,183 @@
+version: "0.1"
+registry_id: basin_dynamics_phase16a
+status: additive_qualitative_propagation_framework
+purpose: >-
+  Define bounded qualitative stress propagation through the frozen Phase 14
+  interoperability architecture, with optional Phase 15 technology modifiers.
+  This registry is not a risk, resilience, vulnerability, probability,
+  forecasting, or calibrated system-dynamics model.
+inputs:
+  phase14_systems: metadata/atlas_systems.yml
+  phase14_layers: metadata/atlas_layers.yml
+  phase14_relationship_vocabulary: metadata/atlas_relationship_vocabulary.yml
+  phase14_evidence_vocabulary: metadata/atlas_evidence_vocabulary.yml
+  phase14_dependency_crosswalk: data/processed/integration/atlas_dependency_crosswalk.csv
+  phase14_joinability: data/processed/integration/system_joinability_matrix.csv
+  phase15a_interfaces: data/processed/integration/technology_system_interfaces.csv
+  phase15a_dependencies: data/processed/integration/technology_dependencies.csv
+  phase15b_scenario_states: data/processed/scenarios/technology_system_states.csv
+  phase15b_dependency_states: data/processed/scenarios/technology_dependency_states.csv
+  phase15b_governance_states: data/processed/scenarios/technology_governance_states.csv
+stressor_classes:
+  - class_id: CLIMATE_ENVIRONMENTAL
+    label: Climate / environmental
+  - class_id: INFRASTRUCTURE
+    label: Infrastructure
+  - class_id: MATERIAL_SUPPLY
+    label: Material / supply
+  - class_id: PUBLIC_HEALTH_BIOLOGICAL
+    label: Public health / biological
+  - class_id: INSTITUTIONAL_INFORMATION
+    label: Institutional / information
+system_state_descriptors:
+  - nominal
+  - stressed
+  - constrained
+  - degraded
+  - redistributed
+  - more dependent
+  - less observable
+  - more observable
+  - more coupled
+  - less interoperable
+  - delayed
+  - fragmented
+  - adaptive
+  - recovering
+  - indeterminate
+propagation_mechanisms:
+  - physical flow propagation
+  - material-flow propagation
+  - energy dependency
+  - information / observation degradation
+  - operational dependency
+  - governance / authority constraint
+  - workforce / mobility effect
+  - ecological pathway
+  - exposure pathway
+  - surveillance / detection pathway
+  - supply-chain propagation
+  - technology / compute dependency
+  - scenario-conditioned interaction
+relationship_class_rule:
+  preserve_phase14_class: true
+  allowed_classes:
+    - physical flow
+    - material flow
+    - energy flow
+    - information / observation
+    - governance / authority
+    - operational dependency
+    - ecological relationship
+    - exposure pathway
+    - population / mobility interface
+    - surveillance / detection
+    - scenario influence
+    - high-level association
+    - unresolved / unclassified
+  prohibition: >-
+    Do not collapse unlike Phase 14 relationships into generic causation;
+    co-location alone is not a propagation relationship.
+evidence_classes:
+  - OBSERVED_DOCUMENTED
+  - DERIVED_CALCULATED
+  - INFERRED
+  - CONTEXT_REUSED
+  - SCENARIO_ASSUMPTION
+  - SCENARIO_STATE
+  - UNRESOLVED
+  - NONCANONICAL_HOLD
+response_mechanisms:
+  - redundancy
+  - substitution
+  - load shifting
+  - conservation
+  - distributed operation
+  - alternate routing
+  - increased monitoring
+  - manual fallback
+  - institutional coordination
+  - mutual aid
+  - workforce substitution
+  - supply substitution
+  - technology-assisted decision support
+response_boundaries:
+  - adaptation capacity is not successful adaptation
+  - redundancy is not immunity
+  - monitoring is not control
+  - decision support is not authority
+technology_modifier_regimes:
+  - regime_id: A
+    label: Coordinated Technological Adaptation
+    optional: true
+  - regime_id: B
+    label: Uneven Networked Modernization
+    optional: true
+  - regime_id: C
+    label: High Capability / High Friction Basin
+    optional: true
+technology_modifier_effects:
+  - reduce propagation
+  - delay propagation
+  - increase observability
+  - increase coupling
+  - create new dependencies
+  - create substitution options
+  - improve coordination
+  - create governance / trust friction
+  - create cyber / digital exposure
+  - shift workforce requirements
+feedback_classes:
+  - documented
+  - inferred
+  - scenario-conditioned
+  - not currently supported
+feedback_rule: >-
+  A plausible loop is an inventory item, not a dynamic simulation. Cycles must
+  not be interpreted as runaway feedback, stability, instability, or gain
+  without explicit supported evidence.
+sensitivity_cells:
+  - DIRECT
+  - INDIRECT
+  - SCENARIO-CONDITIONED
+  - NO CURRENT DEFENSIBLE PATH
+  - NOT ASSESSED
+chain_template:
+  stages:
+    - chain_id
+    - stage
+    - stressor_id
+    - initial_system
+    - initial_effect
+    - relationship_id
+    - target_system
+    - propagation_mechanism
+    - evidence_class
+    - technology_modifier
+    - governance_modifier
+    - response_option
+    - second_order_effect
+    - uncertainty
+    - source_lineage
+  rules:
+    - multiple stages are allowed
+    - a repeated system is not runaway feedback by itself
+    - a cycle requires explicit feedback inventory support
+    - baseline and scenario-conditioned records remain separate
+active_holds:
+  great_black_swamp: C — HOLD / noncanonical
+  toledo_intake_coordinate: UNRESOLVED
+deferred_maintenance:
+  - Phase 6B historical manifest-status wording mismatch
+  - Phase 3A missing historical manifest status
+  - Phase 2A superseded legacy worktree
+negative_scope:
+  - numeric risk, resilience, vulnerability, or connectivity score
+  - probability estimate or calibrated forecast
+  - health-outcome forecasting or individual disease risk
+  - guaranteed failure inference from dependency
+  - co-location interpreted as causation
+  - offensive cyber or operational attack detail
+  - pathogen engineering, transmission optimization, evasion, or laboratory procedures
+  - Phase 16B execution
+  - Phase 17 implementation
