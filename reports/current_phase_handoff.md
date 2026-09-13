@@ -2,7 +2,7 @@
 
 ## LEADING CURRENT STATE — Phase 16A integrated awaiting Sol acceptance
 
-- Canonical main/origin/main starting SHA: `038669819731b2206f74a078f6b652ebafacb007`.
+- Starting synchronized main/origin/main SHA: `038669819731b2206f74a078f6b652ebafacb007`; Phase 16A package commit and fast-forward integration SHA before this handoff update: `a0a99eb6e433a4cac5eabdcdd9984ec4f4b77c13`.
 - Preserved active worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase16a`; branch: `phase-16a-integrated-basin-dynamics`.
 - Phase 16A — Integrated Basin Dynamics Framework & Propagation Rules: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**.
 - Final correction/review scope is closed after the current-status correction in `docs/agent_workflow.md`; only generated-SVG trailing-whitespace normalization was applied after the fresh review for `git diff --check`, with no scientific content change.
