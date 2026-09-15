@@ -1,0 +1,360 @@
+{
+  "phase": "16B",
+  "passed": true,
+  "checks": {
+    "expected_starting_sha": {
+      "passed": true,
+      "detail": "9308127065112d0c01c294e954ae87f44e39af3f"
+    },
+    "phase16a_accepted_frozen": {
+      "passed": true,
+      "detail": "Phase 16A"
+    },
+    "phase14_overall_status": {
+      "passed": true,
+      "detail": "COMPLETE / ACCEPTED / FROZEN"
+    },
+    "phase15_overall_status": {
+      "passed": true,
+      "detail": "COMPLETE / ACCEPTED / FROZEN"
+    },
+    "prior_freeze_integrity": {
+      "passed": true,
+      "detail": {
+        "entries": 623,
+        "unique_paths": 614
+      }
+    },
+    "no_prior_frozen_artifact_modified": {
+      "passed": true,
+      "detail": []
+    },
+    "phase16a_package_unchanged": {
+      "passed": true,
+      "detail": []
+    },
+    "phase17_not_implemented": {
+      "passed": true,
+      "detail": []
+    },
+    "no_release_or_tag": {
+      "passed": true,
+      "detail": "release/tag out of scope"
+    },
+    "phase14_system_ontology": {
+      "passed": true,
+      "detail": [
+        "SYS-BIOGEOCHEMISTRY",
+        "SYS-CLIMATE",
+        "SYS-DATA",
+        "SYS-ECOLOGY",
+        "SYS-ENERGY",
+        "SYS-EXPOSURE",
+        "SYS-FREIGHT",
+        "SYS-GOVERNANCE",
+        "SYS-INFECTIOUS-DISEASE",
+        "SYS-MATERIALS",
+        "SYS-POPULATION",
+        "SYS-VECTOR-ECOLOGY",
+        "SYS-WATER"
+      ]
+    },
+    "definition_count_and_ids": {
+      "passed": true,
+      "detail": 6
+    },
+    "exactly_four_principal_tests": {
+      "passed": true,
+      "detail": [
+        "P16B-CAND-001",
+        "P16B-CAND-002",
+        "P16B-CAND-003",
+        "P16B-CAND-004"
+      ]
+    },
+    "two_reserve_tests_unimplemented": {
+      "passed": true,
+      "detail": "reserve status"
+    },
+    "definition_lineage_and_initial_systems": {
+      "passed": true,
+      "detail": []
+    },
+    "reserve_source_rows_unchanged_semantics": {
+      "passed": true,
+      "detail": "Phase 16A candidates 005/006"
+    },
+    "authoritative_system_membership": {
+      "passed": true,
+      "detail": []
+    },
+    "chain_stage_count": {
+      "passed": true,
+      "detail": 13
+    },
+    "stage_rule_set_P16B-CAND-001": {
+      "passed": true,
+      "detail": [
+        "RULE-16A-001",
+        "RULE-16A-005",
+        "RULE-16A-006",
+        "RULE-16A-016"
+      ]
+    },
+    "stage_rule_set_P16B-CAND-002": {
+      "passed": true,
+      "detail": [
+        "RULE-16A-012",
+        "RULE-16A-014",
+        "RULE-16A-015"
+      ]
+    },
+    "stage_rule_set_P16B-CAND-003": {
+      "passed": true,
+      "detail": [
+        "RULE-16A-019",
+        "RULE-16A-020"
+      ]
+    },
+    "stage_rule_set_P16B-CAND-004": {
+      "passed": true,
+      "detail": [
+        "RULE-16A-022",
+        "RULE-16A-023",
+        "RULE-16A-026",
+        "RULE-16A-033"
+      ]
+    },
+    "no_reserve_stages": {
+      "passed": true,
+      "detail": []
+    },
+    "stage_source_relationship_response_resolution": {
+      "passed": true,
+      "detail": []
+    },
+    "explicit_fan_out_and_chain_continuity": {
+      "passed": true,
+      "detail": []
+    },
+    "no_unsupported_propagation": {
+      "passed": true,
+      "detail": "all stages are selected frozen rules"
+    },
+    "endpoint_direction": {
+      "passed": true,
+      "detail": "ordered source -> target"
+    },
+    "termination_row_count": {
+      "passed": true,
+      "detail": {
+        "rows": 14,
+        "expected": 14
+      }
+    },
+    "defensible_branch_termination": {
+      "passed": true,
+      "detail": []
+    },
+    "system_state_count_and_resolution": {
+      "passed": true,
+      "detail": []
+    },
+    "response_adaptation_count_and_resolution": {
+      "passed": true,
+      "detail": []
+    },
+    "evidence_inheritance": {
+      "passed": true,
+      "detail": "stage evidence copied from frozen rule/relationship"
+    },
+    "technology_modifier_resolution_and_regime_count": {
+      "passed": true,
+      "detail": []
+    },
+    "technology_effects_are_allowed": {
+      "passed": true,
+      "detail": "Phase 16A allowed effect vocabulary"
+    },
+    "uncertainty_resolution": {
+      "passed": true,
+      "detail": []
+    },
+    "cross_test_comparison": {
+      "passed": true,
+      "detail": []
+    },
+    "narrative_hooks_noncanonical": {
+      "passed": true,
+      "detail": []
+    },
+    "no_forbidden_score_probability_forecast_fields": {
+      "passed": true,
+      "detail": []
+    },
+    "no_numeric_score_probability_forecast_claim": {
+      "passed": true,
+      "detail": "numeric prohibited claim"
+    },
+    "no_numeric_health_outcome_claim": {
+      "passed": true,
+      "detail": "numeric health claim"
+    },
+    "qualitative_boundary_language": {
+      "passed": true,
+      "detail": "scientific boundaries"
+    },
+    "biosecurity_high_level": {
+      "passed": true,
+      "detail": "biosecurity boundary"
+    },
+    "no_phase17_content": {
+      "passed": true,
+      "detail": "Phase 17 status"
+    },
+    "figure_svg_phase16b_compound_stress_propagation.svg": {
+      "passed": true,
+      "detail": {
+        "bytes": 28665,
+        "required": [
+          "Compound Stress Propagation",
+          "QUALITATIVE",
+          "NON-GEOGRAPHIC",
+          "COMPOUND STRESSORS",
+          "INITIAL SYSTEM EFFECT",
+          "SELECTED PHASE 16A STAGES",
+          "RESPONSE / ADAPTATION",
+          "TERMINATED",
+          "NO DEFENSIBLE",
+          "Fan-out"
+        ]
+      }
+    },
+    "figure_svg_phase16b_technology_regime_effects.svg": {
+      "passed": true,
+      "detail": {
+        "bytes": 35273,
+        "required": [
+          "Technology-Regime Effects on Propagation",
+          "A — Coordinated Technological Adaptation",
+          "B — Uneven Networked Modernization",
+          "C — High Capability / High Friction Basin",
+          "modifier only; no new path",
+          "No regime creates a propagation pathway",
+          "NON-PROPORTIONAL",
+          "non-ranked"
+        ]
+      }
+    },
+    "figure_png_phase16b_compound_stress_propagation.png": {
+      "passed": true,
+      "detail": {
+        "bytes": 365538,
+        "dimensions": [
+          2268,
+          1422
+        ]
+      }
+    },
+    "figure_png_phase16b_technology_regime_effects.png": {
+      "passed": true,
+      "detail": {
+        "bytes": 765588,
+        "dimensions": [
+          4356,
+          3276
+        ]
+      }
+    },
+    "figure_geometry_qa_metadata": {
+      "passed": true,
+      "detail": []
+    },
+    "working_manifest_identity": {
+      "passed": true,
+      "detail": {
+        "phase": "16B",
+        "status": "implemented_validated_pending_sol_acceptance",
+        "source_commit": "9308127065112d0c01c294e954ae87f44e39af3f"
+      }
+    },
+    "working_manifest_counts": {
+      "passed": true,
+      "detail": {
+        "principal_tests": 4,
+        "reserve_tests": 2,
+        "chain_stages": 13,
+        "branches": 14,
+        "system_state_observations": 26,
+        "response_adaptation_states": 13,
+        "regime_effect_rows": 24,
+        "uncertainty_rows": 4,
+        "comparison_rows": 4,
+        "narrative_hooks": 4,
+        "scenario_conditioned_stages": 2,
+        "terminated_branches": 14
+      }
+    },
+    "working_manifest_artifacts": {
+      "passed": true,
+      "detail": []
+    },
+    "working_manifest_scope": {
+      "passed": true,
+      "detail": [
+        "data/processed/integration/phase16b_chain_stages.csv",
+        "data/processed/integration/phase16b_chain_terminations.csv",
+        "data/processed/integration/phase16b_cross_test_comparison.csv",
+        "data/processed/integration/phase16b_narrative_hooks.csv",
+        "data/processed/integration/phase16b_regime_effects.csv",
+        "data/processed/integration/phase16b_response_adaptation_states.csv",
+        "data/processed/integration/phase16b_stress_test_definitions.csv",
+        "data/processed/integration/phase16b_system_states.csv",
+        "data/processed/integration/phase16b_uncertainties.csv",
+        "outputs/figures/phase16b_compound_stress_propagation.png",
+        "outputs/figures/phase16b_compound_stress_propagation.svg",
+        "outputs/figures/phase16b_technology_regime_effects.png",
+        "outputs/figures/phase16b_technology_regime_effects.svg",
+        "reports/phase16b_compound_cross_system_stress_tests.md",
+        "reports/phase16b_independent_review.md",
+        "reports/phase16b_narrative_hooks.md",
+        "reports/phase16b_provenance_lineage.md",
+        "reports/phase16b_qa.md",
+        "reports/phase16b_scenario_comparison.md",
+        "src/R/systems/validate_phase16b_stress_tests.R",
+        "src/python/systems/build_phase16b_stress_tests.py",
+        "src/python/systems/validate_phase16b_stress_tests.py"
+      ]
+    },
+    "status_surfaces": {
+      "passed": true,
+      "detail": []
+    },
+    "independent_review_passed": {
+      "passed": true,
+      "detail": "passed:true; complete schema; all blocking arrays empty"
+    }
+  },
+  "counts": {
+    "principal_tests": 4,
+    "reserve_tests": 2,
+    "chain_stages": 13,
+    "branches": 14,
+    "system_state_observations": 26,
+    "response_adaptation_states": 13,
+    "regime_effect_rows": 24,
+    "uncertainty_rows": 4,
+    "comparison_rows": 4,
+    "narrative_hooks": 4,
+    "scenario_conditioned_stages": 2,
+    "terminated_branches": 14,
+    "phase16a_protected_artifacts": 30,
+    "phase14a_protected_artifacts": 24,
+    "phase14b_protected_artifacts": 23,
+    "phase15a_protected_artifacts": 30,
+    "phase15b_protected_artifacts": 28,
+    "prior_freeze_entries": 623,
+    "prior_freeze_unique_paths": 614
+  },
+  "errors": []
+}

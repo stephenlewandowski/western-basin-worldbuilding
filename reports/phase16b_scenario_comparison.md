@@ -1,0 +1,16 @@
+# Phase 16B A/B/C Scenario Comparison
+
+This comparison is a qualitative scenario-conditioned reading of the three frozen Phase 15B regimes. It does not rank A/B/C and does not calculate a score, probability, forecast, or successful-adaptation result.
+
+| Test | A — Coordinated Technological Adaptation | B — Uneven Networked Modernization | C — High Capability / High Friction Basin |
+|---|---|---|---|
+| EXTREME HEAT + LOW FLOW + GRID STRESS | may increase observability in selected interfaces; may improve coordination while human authority remains required | observability may be redistributed across strong and weak interfaces; coupling may increase at bridges, duplication points, and negotiated interfaces | capability may increase observability at selected nodes without guaranteeing interpretation; governance and trust friction may increase while authority remains human |
+| HARMFUL ALGAL BLOOM / WATER-QUALITY PRESSURE + WATER-TREATMENT DISRUPTION | may increase observability in selected interfaces; may improve coordination while human authority remains required | observability may be redistributed across strong and weak interfaces; coupling may increase at bridges, duplication points, and negotiated interfaces | capability may increase observability at selected nodes without guaranteeing interpretation; governance and trust friction may increase while authority remains human |
+| FREIGHT / MATERIAL DISRUPTION + INDUSTRIAL ENERGY CONSTRAINT | may increase observability in selected interfaces; may improve coordination while human authority remains required | observability may be redistributed across strong and weak interfaces; coupling may increase at bridges, duplication points, and negotiated interfaces | capability may increase observability at selected nodes without guaranteeing interpretation; governance and trust friction may increase while authority remains human |
+| INFECTIOUS-DISEASE PRESSURE + SURVEILLANCE / DATA-GOVERNANCE FRICTION | may increase observability in selected interfaces; may improve coordination while human authority remains required | observability may be redistributed across strong and weak interfaces; coupling may increase at bridges, duplication points, and negotiated interfaces | capability may increase observability at selected nodes without guaranteeing interpretation; governance and trust friction may increase while authority remains human |
+
+A may buffer selected interfaces through coordination, observability, and qualified substitution options while retaining dependencies. B may redistribute observability, coupling, and substitution across uneven nodes. C may combine high capability with greater coupling, governance/trust friction, and digital exposure at selected seams. None creates a Phase 16A propagation pathway or guarantees continuity.
+
+2050 and 2075 rows use the frozen Phase 15B state identifiers as regime/horizon context. The 2075 rows preserve wider structural uncertainty; they are not a precision increase or automatic intensification.
+
+AI recommendation remains advisory; sensing remains distinct from enforcement; surveillance signal remains distinct from incidence; adaptation remains distinct from elimination of stress.

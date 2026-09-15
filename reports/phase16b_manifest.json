@@ -1,0 +1,152 @@
+{
+  "phase": "16B",
+  "status": "implemented_validated_pending_sol_acceptance",
+  "source_commit": "9308127065112d0c01c294e954ae87f44e39af3f",
+  "scope": "Compound Cross-System Stress Tests",
+  "phase16a_status": "ACCEPTED / FROZEN",
+  "phase15_status": "COMPLETE / ACCEPTED / FROZEN",
+  "phase14_status": "COMPLETE / ACCEPTED / FROZEN",
+  "phase17_status": "NOT IMPLEMENTED",
+  "qualitative_only": true,
+  "no_scores_probabilities_or_forecasts": true,
+  "no_new_phase16a_propagation_rules": true,
+  "principal_test_count": 4,
+  "reserve_test_count": 2,
+  "active_holds_preserved": {
+    "great_black_swamp": "C — HOLD / noncanonical",
+    "toledo_intake_coordinate_discrepancy": "UNRESOLVED"
+  },
+  "deferred_maintenance_preserved": [
+    "Phase 6B manifest-status wording mismatch",
+    "Phase 3A missing manifest status",
+    "Phase 2A superseded legacy worktree"
+  ],
+  "counts": {
+    "principal_tests": 4,
+    "reserve_tests": 2,
+    "chain_stages": 13,
+    "branches": 14,
+    "system_state_observations": 26,
+    "response_adaptation_states": 13,
+    "regime_effect_rows": 24,
+    "uncertainty_rows": 4,
+    "comparison_rows": 4,
+    "narrative_hooks": 4,
+    "scenario_conditioned_stages": 2,
+    "terminated_branches": 14
+  },
+  "artifacts": {
+    "data/processed/integration/phase16b_stress_test_definitions.csv": {
+      "sha256": "fae87022d7795afd10e4d2140566cd2fcac554a2278e4fb18e96962cf9a3ceb1",
+      "bytes": 4110,
+      "role": "Phase 16B working package artifact"
+    },
+    "data/processed/integration/phase16b_chain_stages.csv": {
+      "sha256": "cee062c7efe84a3c1fedd8e6cd0e8167e9a17c41df859b16c9e543ea5ae989cd",
+      "bytes": 13059,
+      "role": "Phase 16B working package artifact"
+    },
+    "data/processed/integration/phase16b_chain_terminations.csv": {
+      "sha256": "0495c74f44f16753551e43abca8d698342973e5b99cc77a6bbe8a5f032d28aee",
+      "bytes": 8721,
+      "role": "Phase 16B working package artifact"
+    },
+    "data/processed/integration/phase16b_system_states.csv": {
+      "sha256": "ae390e70fc573842fb1706ebcba4aad949f1b0dc844e579e79ebc53f13fa0d8a",
+      "bytes": 10885,
+      "role": "Phase 16B working package artifact"
+    },
+    "data/processed/integration/phase16b_response_adaptation_states.csv": {
+      "sha256": "cab35e071b5acc46b8144b2b0dea456d0a00fe07f9c28ad89d85c3c319605713",
+      "bytes": 9004,
+      "role": "Phase 16B working package artifact"
+    },
+    "data/processed/integration/phase16b_regime_effects.csv": {
+      "sha256": "52d9daf239237de4beb80d1746dbc88aed5b2fa2b4ce5fc0546edbb34c59cc80",
+      "bytes": 33990,
+      "role": "Phase 16B working package artifact"
+    },
+    "data/processed/integration/phase16b_uncertainties.csv": {
+      "sha256": "92547352fc613b275f3402853bcdb1be610f451ff3d4a0eb49bf48babc5c9202",
+      "bytes": 3846,
+      "role": "Phase 16B working package artifact"
+    },
+    "data/processed/integration/phase16b_cross_test_comparison.csv": {
+      "sha256": "3c99fbcedcad83651547c5ae9a4af53f9936393686224a6e1baa5a9871d1fed6",
+      "bytes": 4681,
+      "role": "Phase 16B working package artifact"
+    },
+    "data/processed/integration/phase16b_narrative_hooks.csv": {
+      "sha256": "18fb575c3e4fdbf6c789fafcce766fa3dfc6bd214a44fac10fbb16ec9c74da9b",
+      "bytes": 5253,
+      "role": "Phase 16B working package artifact"
+    },
+    "outputs/figures/phase16b_compound_stress_propagation.png": {
+      "sha256": "044015d82fbdf3797d6ca7a53a813c18a962652d6a85931ed00c73c13c54915b",
+      "bytes": 365538,
+      "role": "Phase 16B working package artifact"
+    },
+    "outputs/figures/phase16b_compound_stress_propagation.svg": {
+      "sha256": "36e7d8f284df2bdf8ae6e541780a74ed7b6e17dad8062d8719317fa6bb7eaac9",
+      "bytes": 28665,
+      "role": "Phase 16B working package artifact"
+    },
+    "outputs/figures/phase16b_technology_regime_effects.png": {
+      "sha256": "301be6b1fc14c0e031c906ca67d42f3f786cb9c0e90cae4a1c5c865d994b0f71",
+      "bytes": 765588,
+      "role": "Phase 16B working package artifact"
+    },
+    "outputs/figures/phase16b_technology_regime_effects.svg": {
+      "sha256": "62538270361cea5a0ae62142bf35aa69ba0266369f439103801a09d717801375",
+      "bytes": 35273,
+      "role": "Phase 16B working package artifact"
+    },
+    "reports/phase16b_compound_cross_system_stress_tests.md": {
+      "sha256": "e7bdfd235adefa0b54d4240fbbc412e472a165e16c4ca2800cb84967d9693482",
+      "bytes": 6894,
+      "role": "Phase 16B working package artifact"
+    },
+    "reports/phase16b_qa.md": {
+      "sha256": "76d51780ebf12ff800fb92f44de0205baf035037898cebd09f5f5003d9b9cb58",
+      "bytes": 3662,
+      "role": "Phase 16B working package artifact"
+    },
+    "reports/phase16b_provenance_lineage.md": {
+      "sha256": "2a4c7a7ada39371472f6dd8b526e97bb550e9fe854a37ae291af69a49bb3d160",
+      "bytes": 5768,
+      "role": "Phase 16B working package artifact"
+    },
+    "reports/phase16b_scenario_comparison.md": {
+      "sha256": "0bbbc2b84e1e6296f71458af7f2080ec5be39e5de4946147b0bb9c51605dcdf9",
+      "bytes": 3221,
+      "role": "Phase 16B working package artifact"
+    },
+    "reports/phase16b_narrative_hooks.md": {
+      "sha256": "913c6149e1cde88038b8ce9f1b9cdb6057cd81056c55ebd7a1a13aa9d2b2cf6a",
+      "bytes": 3279,
+      "role": "Phase 16B working package artifact"
+    },
+    "reports/phase16b_independent_review.md": {
+      "sha256": "287773d94b8a82358870cf47a6ca6cd8ee0dd3654a3d12c588426769af30c90f",
+      "bytes": 2650,
+      "role": "independent review record"
+    },
+    "src/python/systems/build_phase16b_stress_tests.py": {
+      "sha256": "8ae8beffafe63f67822c658806e17ffd0971d170525327dbd7c7c11b631b5251",
+      "bytes": 108164,
+      "role": "Phase 16B working package artifact"
+    },
+    "src/python/systems/validate_phase16b_stress_tests.py": {
+      "sha256": "55ea314d8590be26018136fc2231b9c40ab495b3b6f48777027de1da6c3a2ea6",
+      "bytes": 54913,
+      "role": "Phase 16B working package artifact"
+    },
+    "src/R/systems/validate_phase16b_stress_tests.R": {
+      "sha256": "27b720efa938c548a91e3b35070ae1e0aa6f9d68298551ca76675fe1ecd0b8e9",
+      "bytes": 59072,
+      "role": "Phase 16B working package artifact"
+    }
+  },
+  "release_created": false,
+  "tag_created": false
+}

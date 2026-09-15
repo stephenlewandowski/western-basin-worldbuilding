@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1742.4pt" height="1310.4pt" viewBox="0 0 1742.4 1310.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.1, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 1310.4
+L 1742.4 1310.4
+L 1742.4 0
+L 0 0
+z
+" style="fill: #f7f4ed"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 60.48 185.04
+L 371.52 185.04
+Q 380.16 185.04 380.16 193.68
+L 380.16 270.72
+Q 380.16 279.36 371.52 279.36
+L 60.48 279.36
+Q 51.84 279.36 51.84 270.72
+L 51.84 193.68
+Q 51.84 185.04 60.48 185.04
+z
+" clip-path="url(#p8c56557962)" style="fill: #e8eeeb; stroke: #5d6d76; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 409.68 185.04
+L 814.32 185.04
+Q 822.96 185.04 822.96 193.68
+L 822.96 270.72
+Q 822.96 279.36 814.32 279.36
+L 409.68 279.36
+Q 401.04 279.36 401.04 270.72
+L 401.04 193.68
+Q 401.04 185.04 409.68 185.04
+z
+" clip-path="url(#p8c56557962)" style="fill: #2f7f73; opacity: 0.92; stroke: #2f7f73; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 852.48 185.04
+L 1257.12 185.04
+Q 1265.76 185.04 1265.76 193.68
+L 1265.76 270.72
+Q 1265.76 279.36 1257.12 279.36
+L 852.48 279.36
+Q 843.84 279.36 843.84 270.72
+L 843.84 193.68
+Q 843.84 185.04 852.48 185.04
+z
+" clip-path="url(#p8c56557962)" style="fill: #b47b32; opacity: 0.92; stroke: #b47b32; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 1295.28 185.04
+L 1699.92 185.04
+Q 1708.56 185.04 1708.56 193.68
+L 1708.56 270.72
+Q 1708.56 279.36 1699.92 279.36
+L 1295.28 279.36
+Q 1286.64 279.36 1286.64 270.72
+L 1286.64 193.68
+Q 1286.64 185.04 1295.28 185.04
+z
+" clip-path="url(#p8c56557962)" style="fill: #a04f55; opacity: 0.92; stroke: #a04f55; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 60.48 303.84
+L 371.52 303.84
+Q 380.16 303.84 380.16 312.48
+L 380.16 504.72
+Q 380.16 513.36 371.52 513.36
+L 60.48 513.36
+Q 51.84 513.36 51.84 504.72
+L 51.84 312.48
+Q 51.84 303.84 60.48 303.84
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #34699a; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 409.68 303.84
+L 814.32 303.84
+Q 822.96 303.84 822.96 312.48
+L 822.96 504.72
+Q 822.96 513.36 814.32 513.36
+L 409.68 513.36
+Q 401.04 513.36 401.04 504.72
+L 401.04 312.48
+Q 401.04 303.84 409.68 303.84
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #2f7f73; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 852.48 303.84
+L 1257.12 303.84
+Q 1265.76 303.84 1265.76 312.48
+L 1265.76 504.72
+Q 1265.76 513.36 1257.12 513.36
+L 852.48 513.36
+Q 843.84 513.36 843.84 504.72
+L 843.84 312.48
+Q 843.84 303.84 852.48 303.84
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #b47b32; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 1295.28 303.84
+L 1699.92 303.84
+Q 1708.56 303.84 1708.56 312.48
+L 1708.56 504.72
+Q 1708.56 513.36 1699.92 513.36
+L 1295.28 513.36
+Q 1286.64 513.36 1286.64 504.72
+L 1286.64 312.48
+Q 1286.64 303.84 1295.28 303.84
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #a04f55; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 60.48 534.24
+L 371.52 534.24
+Q 380.16 534.24 380.16 542.88
+L 380.16 735.12
+Q 380.16 743.76 371.52 743.76
+L 60.48 743.76
+Q 51.84 743.76 51.84 735.12
+L 51.84 542.88
+Q 51.84 534.24 60.48 534.24
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #758e4f; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 409.68 534.24
+L 814.32 534.24
+Q 822.96 534.24 822.96 542.88
+L 822.96 735.12
+Q 822.96 743.76 814.32 743.76
+L 409.68 743.76
+Q 401.04 743.76 401.04 735.12
+L 401.04 542.88
+Q 401.04 534.24 409.68 534.24
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #2f7f73; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 852.48 534.24
+L 1257.12 534.24
+Q 1265.76 534.24 1265.76 542.88
+L 1265.76 735.12
+Q 1265.76 743.76 1257.12 743.76
+L 852.48 743.76
+Q 843.84 743.76 843.84 735.12
+L 843.84 542.88
+Q 843.84 534.24 852.48 534.24
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #b47b32; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 1295.28 534.24
+L 1699.92 534.24
+Q 1708.56 534.24 1708.56 542.88
+L 1708.56 735.12
+Q 1708.56 743.76 1699.92 743.76
+L 1295.28 743.76
+Q 1286.64 743.76 1286.64 735.12
+L 1286.64 542.88
+Q 1286.64 534.24 1295.28 534.24
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #a04f55; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 60.48 764.64
+L 371.52 764.64
+Q 380.16 764.64 380.16 773.28
+L 380.16 965.52
+Q 380.16 974.16 371.52 974.16
+L 60.48 974.16
+Q 51.84 974.16 51.84 965.52
+L 51.84 773.28
+Q 51.84 764.64 60.48 764.64
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #8a5a83; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 409.68 764.64
+L 814.32 764.64
+Q 822.96 764.64 822.96 773.28
+L 822.96 965.52
+Q 822.96 974.16 814.32 974.16
+L 409.68 974.16
+Q 401.04 974.16 401.04 965.52
+L 401.04 773.28
+Q 401.04 764.64 409.68 764.64
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #2f7f73; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 852.48 764.64
+L 1257.12 764.64
+Q 1265.76 764.64 1265.76 773.28
+L 1265.76 965.52
+Q 1265.76 974.16 1257.12 974.16
+L 852.48 974.16
+Q 843.84 974.16 843.84 965.52
+L 843.84 773.28
+Q 843.84 764.64 852.48 764.64
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #b47b32; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 1295.28 764.64
+L 1699.92 764.64
+Q 1708.56 764.64 1708.56 773.28
+L 1708.56 965.52
+Q 1708.56 974.16 1699.92 974.16
+L 1295.28 974.16
+Q 1286.64 974.16 1286.64 965.52
+L 1286.64 773.28
+Q 1286.64 764.64 1295.28 764.64
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #a04f55; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 60.48 995.04
+L 371.52 995.04
+Q 380.16 995.04 380.16 1003.68
+L 380.16 1195.92
+Q 380.16 1204.56 371.52 1204.56
+L 60.48 1204.56
+Q 51.84 1204.56 51.84 1195.92
+L 51.84 1003.68
+Q 51.84 995.04 60.48 995.04
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #b2643b; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 409.68 995.04
+L 814.32 995.04
+Q 822.96 995.04 822.96 1003.68
+L 822.96 1195.92
+Q 822.96 1204.56 814.32 1204.56
+L 409.68 1204.56
+Q 401.04 1204.56 401.04 1195.92
+L 401.04 1003.68
+Q 401.04 995.04 409.68 995.04
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #2f7f73; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 852.48 995.04
+L 1257.12 995.04
+Q 1265.76 995.04 1265.76 1003.68
+L 1265.76 1195.92
+Q 1265.76 1204.56 1257.12 1204.56
+L 852.48 1204.56
+Q 843.84 1204.56 843.84 1195.92
+L 843.84 1003.68
+Q 843.84 995.04 852.48 995.04
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #b47b32; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_21">
+    <path d="M 1295.28 995.04
+L 1699.92 995.04
+Q 1708.56 995.04 1708.56 1003.68
+L 1708.56 1195.92
+Q 1708.56 1204.56 1699.92 1204.56
+L 1295.28 1204.56
+Q 1286.64 1204.56 1286.64 1195.92
+L 1286.64 1003.68
+Q 1286.64 995.04 1295.28 995.04
+z
+" clip-path="url(#p8c56557962)" style="fill: #fffdf8; stroke: #a04f55; stroke-width: 0.9; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 25px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #243746" x="57.6" y="65.796094" transform="rotate(-0 57.6 65.796094)">Technology-Regime Effects on Propagation</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.4px; font-family: 'DejaVu Sans'; fill: #4b5d67" transform="translate(57.6 113.50975)">A / B / C are qualitative alternatives, not rankings. Regime modifiers alter observability, coupling, dependency, redundancy, coordination,</text>
+    <text style="font-size: 10.4px; font-family: 'DejaVu Sans'; fill: #4b5d67" transform="translate(57.6 125.98975)">substitution, or friction only where Phase 16A permits.</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10.4px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #4b5d67" x="57.6" y="156.70975" transform="rotate(-0 57.6 156.70975)">No regime creates a propagation pathway; scenario state, deployment, adoption, capacity, and successful adaptation remain unresolved.</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #243746" x="216" y="236.203828" transform="rotate(-0 216 236.203828)">STRESS TESTS</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="612" y="235.192344" transform="rotate(-0 612 235.192344)">A — Coordinated Technological Adaptation</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="1054.8" y="236.300938" transform="rotate(-0 1054.8 236.300938)">B — Uneven Networked Modernization</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 11px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #ffffff" x="1497.6" y="235.192344" transform="rotate(-0 1497.6 235.192344)">C — High Capability / High Friction Basin</text>
+   </g>
+   <g id="text_8">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 10.2px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #243746" x="72" y="412.312641" transform="rotate(-0 72 412.312641)">EXTREME HEAT + LOW FLOW + GRID STRESS</text>
+    </g>
+   </g>
+   <g id="text_9">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f7f73" x="421.2" y="333.037656" transform="rotate(-0 421.2 333.037656)">TM TM-16A-009</text>
+    </g>
+   </g>
+   <g id="text_10">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 360.773438)">OBSERVABILITY: may increase observability in</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 372.625312)">selected interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 382.733437)">COUPLING: compute, energy, data, and maintenance</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 393.713437)">coupling remains visible</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 404.693437)">COORDINATION: may improve coordination while</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 415.673437)">human authority remains required</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 426.653437)">PATH: modifier only; no new path</text>
+    </g>
+   </g>
+   <g id="text_11">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b47b32" x="864" y="333.037656" transform="rotate(-0 864 333.037656)">TM TM-16A-010</text>
+    </g>
+   </g>
+   <g id="text_12">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 360.773438)">OBSERVABILITY: observability may be</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 371.753437)">redistributed across strong and weak interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 382.733437)">COUPLING: coupling may increase at bridges,</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 393.713437)">duplication points, and negotiated interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 405.565313)">COORDINATION: coordination remains uneven and</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 415.673437)">may require negotiation across interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 426.653437)">PATH: modifier only; no new path</text>
+    </g>
+   </g>
+   <g id="text_13">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #a04f55" x="1306.8" y="333.037656" transform="rotate(-0 1306.8 333.037656)">TM TM-16A-011</text>
+    </g>
+   </g>
+   <g id="text_14">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 360.773438)">OBSERVABILITY: capability may increase</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 371.753437)">observability at selected nodes without</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 382.733437)">guaranteeing interpretation</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 393.713437)">COUPLING: coupling may increase across energy,</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 404.693437)">data, maintenance, and governance seams</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 415.673437)">COORDINATION: coordination may be delayed or</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 426.653437)">contested at high-friction interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 437.633438)">PATH: modifier only; no new path</text>
+    </g>
+   </g>
+   <g id="text_15">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 10.2px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(72 636.109734)">HARMFUL ALGAL BLOOM / WATER-QUALITY</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 10.2px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(72 648.730641)">PRESSURE + WATER-TREATMENT DISRUPTION</text>
+    </g>
+   </g>
+   <g id="text_16">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f7f73" x="421.2" y="563.437656" transform="rotate(-0 421.2 563.437656)">TM TM-16A-009</text>
+    </g>
+   </g>
+   <g id="text_17">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 591.173438)">OBSERVABILITY: may increase observability in</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 603.025313)">selected interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 613.133438)">COUPLING: compute, energy, data, and maintenance</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 624.113438)">coupling remains visible</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 635.093438)">COORDINATION: may improve coordination while</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 646.073438)">human authority remains required</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 657.053438)">PATH: modifier only; no new path</text>
+    </g>
+   </g>
+   <g id="text_18">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b47b32" x="864" y="563.437656" transform="rotate(-0 864 563.437656)">TM TM-16A-010</text>
+    </g>
+   </g>
+   <g id="text_19">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 591.173438)">OBSERVABILITY: observability may be</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 602.153437)">redistributed across strong and weak interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 613.133438)">COUPLING: coupling may increase at bridges,</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 624.113438)">duplication points, and negotiated interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 635.965313)">COORDINATION: coordination remains uneven and</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 646.073438)">may require negotiation across interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 657.053438)">PATH: modifier only; no new path</text>
+    </g>
+   </g>
+   <g id="text_20">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #a04f55" x="1306.8" y="563.437656" transform="rotate(-0 1306.8 563.437656)">TM TM-16A-011</text>
+    </g>
+   </g>
+   <g id="text_21">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 591.173438)">OBSERVABILITY: capability may increase</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 602.153437)">observability at selected nodes without</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 613.133438)">guaranteeing interpretation</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 624.113438)">COUPLING: coupling may increase across energy,</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 635.093438)">data, maintenance, and governance seams</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 646.073438)">COORDINATION: coordination may be delayed or</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 657.053438)">contested at high-friction interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 668.033438)">PATH: modifier only; no new path</text>
+    </g>
+   </g>
+   <g id="text_22">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 10.2px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(72 866.693813)">FREIGHT / MATERIAL DISRUPTION +</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 10.2px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(72 879.130641)">INDUSTRIAL ENERGY CONSTRAINT</text>
+    </g>
+   </g>
+   <g id="text_23">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f7f73" x="421.2" y="793.837656" transform="rotate(-0 421.2 793.837656)">TM TM-16A-009</text>
+    </g>
+   </g>
+   <g id="text_24">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 821.573438)">OBSERVABILITY: may increase observability in</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 833.425313)">selected interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 843.533438)">COUPLING: compute, energy, data, and maintenance</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 854.513438)">coupling remains visible</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 865.493438)">COORDINATION: may improve coordination while</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 876.473438)">human authority remains required</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 887.453438)">PATH: modifier only; no new path</text>
+    </g>
+   </g>
+   <g id="text_25">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b47b32" x="864" y="793.837656" transform="rotate(-0 864 793.837656)">TM TM-16A-010</text>
+    </g>
+   </g>
+   <g id="text_26">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 821.573438)">OBSERVABILITY: observability may be</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 832.553438)">redistributed across strong and weak interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 843.533438)">COUPLING: coupling may increase at bridges,</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 854.513438)">duplication points, and negotiated interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 866.365313)">COORDINATION: coordination remains uneven and</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 876.473438)">may require negotiation across interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 887.453438)">PATH: modifier only; no new path</text>
+    </g>
+   </g>
+   <g id="text_27">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #a04f55" x="1306.8" y="793.837656" transform="rotate(-0 1306.8 793.837656)">TM TM-16A-011</text>
+    </g>
+   </g>
+   <g id="text_28">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 821.573438)">OBSERVABILITY: capability may increase</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 832.553438)">observability at selected nodes without</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 843.533438)">guaranteeing interpretation</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 854.513438)">COUPLING: coupling may increase across energy,</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 865.493438)">data, maintenance, and governance seams</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 876.473438)">COORDINATION: coordination may be delayed or</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 887.453438)">contested at high-friction interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 898.433438)">PATH: modifier only; no new path</text>
+    </g>
+   </g>
+   <g id="text_29">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 10.2px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(72 1091.476641)">INFECTIOUS-DISEASE PRESSURE +</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 10.2px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(72 1103.111813)">SURVEILLANCE / DATA-GOVERNANCE</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 10.2px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(72 1115.548641)">FRICTION</text>
+    </g>
+   </g>
+   <g id="text_30">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #2f7f73" x="421.2" y="1024.237656" transform="rotate(-0 421.2 1024.237656)">TM TM-16A-009</text>
+    </g>
+   </g>
+   <g id="text_31">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 1051.973438)">OBSERVABILITY: may increase observability in</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 1063.825313)">selected interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 1073.933438)">COUPLING: compute, energy, data, and maintenance</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 1084.913438)">coupling remains visible</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 1095.893437)">COORDINATION: may improve coordination while</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 1106.873437)">human authority remains required</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(421.2 1117.853437)">PATH: modifier only; no new path</text>
+    </g>
+   </g>
+   <g id="text_32">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #b47b32" x="864" y="1024.237656" transform="rotate(-0 864 1024.237656)">TM TM-16A-010</text>
+    </g>
+   </g>
+   <g id="text_33">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 1051.973438)">OBSERVABILITY: observability may be</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 1062.953438)">redistributed across strong and weak interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 1073.933438)">COUPLING: coupling may increase at bridges,</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 1084.913437)">duplication points, and negotiated interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 1096.765312)">COORDINATION: coordination remains uneven and</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 1106.873437)">may require negotiation across interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(864 1117.853437)">PATH: modifier only; no new path</text>
+    </g>
+   </g>
+   <g id="text_34">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-weight: 700; font-size: 10px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #a04f55" x="1306.8" y="1024.237656" transform="rotate(-0 1306.8 1024.237656)">TM TM-16A-011</text>
+    </g>
+   </g>
+   <g id="text_35">
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 1051.973438)">OBSERVABILITY: capability may increase</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 1062.953438)">observability at selected nodes without</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 1073.933438)">guaranteeing interpretation</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 1084.913437)">COUPLING: coupling may increase across energy,</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 1095.893437)">data, maintenance, and governance seams</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 1106.873437)">COORDINATION: coordination may be delayed or</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 1117.853437)">contested at high-friction interfaces</text>
+    </g>
+    <g clip-path="url(#p8c56557962)">
+     <text style="font-size: 9px; font-family: 'DejaVu Sans'; fill: #243746" transform="translate(1306.8 1128.833437)">PATH: modifier only; no new path</text>
+    </g>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans'; fill: #4b5d67" transform="translate(57.6 1242.858625)">Technology may modify observability, coupling, dependency, redundancy, coordination, substitution, governance friction, or digital dependence; it is</text>
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans'; fill: #4b5d67" transform="translate(57.6 1253.898625)">not automatically protective.</text>
+   </g>
+   <g id="text_37">
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans'; fill: #4b5d67" transform="translate(57.6 1278.858625)">AI recommendation ≠ authority. Surveillance signal ≠ incidence. Adaptation ≠ elimination of stress. NON-GEOGRAPHIC / QUALITATIVE / NON-PROPORTIONAL /</text>
+    <text style="font-size: 9.2px; font-family: 'DejaVu Sans'; fill: #4b5d67" transform="translate(57.6 1290.708656)">NON-RANKED.</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8c56557962">
+   <rect x="7.2" y="7.2" width="1728" height="1296"/>
+  </clipPath>
+ </defs>
+</svg>
