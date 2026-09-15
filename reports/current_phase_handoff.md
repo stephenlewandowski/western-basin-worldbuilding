@@ -15,7 +15,7 @@
 - Active holds: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**.
 - Deferred maintenance: Phase 6B manifest-status wording mismatch; Phase 3A missing manifest status; Phase 2A superseded legacy worktree.
 - Final local/remote SHA and all-worktree cleanliness are recorded by the final Git readback after the freeze commit. No release or tag is created.
-- 2026-09-15 pre-Phase-17 Git worktree housekeeping is complete: 29 clean registered Phase 4A–16B worktrees under `C:\Projects\Public_GitHub` were removed with `git worktree remove`, then pruned. The canonical worktree, the deferred Phase 2A legacy worktree, and all other earlier/deferred worktrees remain; all associated local branch refs were retained. See `reports/pre_phase17_worktree_housekeeping_2026-09-15.md`.
+- 2026-09-15 pre-Phase-17 Git worktree housekeeping is complete: a second pass removed 7 clean registered Phase 1 QA, Phase 2B–2D, and Phase 3A–3B worktrees with `git worktree remove`, then pruned. Only the canonical worktree and deferred Phase 2A legacy worktree remain registered; all associated local branch refs were retained. See `reports/pre_phase17_worktree_housekeeping_2026-09-15.md`.
 - No scientific/model artifacts or freeze manifests changed during this housekeeping. Phase 17 remains **NOT IMPLEMENTED**.
 - Next planning target: **PHASE 17 — ATLAS SYNTHESIS / MODEL-TO-WORLD BRIDGE**; **NOT IMPLEMENTED** and not begun here.
 

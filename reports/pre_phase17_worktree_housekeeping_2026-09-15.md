@@ -38,11 +38,24 @@ On 2026-09-15, the following 29 clean, registered Phase 4A–Phase 16B worktrees
 
 `git worktree prune` completed successfully. The registered-worktree count changed from 38 to 9.
 
+## Second cleanup pass
+
+On 2026-09-15, the following 7 clean, registered earlier/deferred worktrees were removed with `git worktree remove`:
+
+- `western-basin-gbs-qa`
+- `western-basin-hydro-qa`
+- `western-basin-phase2b`
+- `western-basin-phase2c`
+- `western-basin-phase2d`
+- `western-basin-phase3a`
+- `western-basin-phase3b`
+
+`git worktree prune` completed successfully. The registered-worktree count changed from 9 to 2. No raw recursive filesystem deletion was used.
+
 ## Retained state
 
 - Canonical repository retained: `C:\Projects\Public_GitHub\western-basin-worldbuilding`.
 - Deferred Phase 2A legacy worktree retained: `C:\Users\slewa\.codex\visualizations\2026\08\28\01a04737-05e5-7ab2-a05b-f27f9d3afa14\western-basin-phase2a`.
-- Other earlier/deferred Phase 1 QA, Phase 2B–2D, and Phase 3A–3B worktrees retained.
-- All 29 associated local phase branch refs were retained; no branches were deleted.
+- All 29 first-pass and 7 second-pass associated local branch refs were retained; no branches were deleted.
 - No scientific, model, frozen-baseline, or freeze-manifest artifacts were changed.
 - Phase 17 remains not implemented. No release or tag was created.
