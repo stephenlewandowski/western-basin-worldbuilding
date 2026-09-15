@@ -760,30 +760,31 @@ Final subphase status:
 - Phase 14: **COMPLETE / ACCEPTED / FROZEN**
 - Phase 15: **COMPLETE / ACCEPTED / FROZEN**
 - Phase 16A: **ACCEPTED / FROZEN**
-- Phase 16B: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+- Phase 16B: **ACCEPTED / FROZEN**
 - Phase 17: **NOT IMPLEMENTED**
 - Active phase: **NONE**
-- Next planning target: **NONE / NOT APPROVED**
+- Next planning target: **PHASE 17 — ATLAS SYNTHESIS / MODEL-TO-WORLD BRIDGE**
 
-## PHASE 16B — IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE
+## PHASE 16B — ACCEPTED / FROZEN
 
 **Compound Cross-System Stress Tests**
 
-Phase 16B implements exactly four principal qualitative compound stress tests using only the frozen Phase 16A propagation-rule framework: extreme heat + low flow + grid stress; HAB / water-quality pressure + water-treatment disruption; freight / material disruption + industrial-energy constraint; and infectious-disease pressure + surveillance / data-governance friction.
+Sol formally accepted and froze Phase 16B — Compound Cross-System Stress Tests — under `reports/phase16b_compound_stress_tests_freeze_manifest.json` (32 protected artifacts). The package contains exactly four principal qualitative compound stress tests using only the frozen Phase 16A propagation-rule framework: extreme heat + low flow + grid stress; HAB / water-quality pressure + water-treatment disruption; freight / material disruption + industrial-energy constraint; and infectious-disease pressure + surveillance / data-governance friction.
 
 The additive package contains 13 selected propagation-stage rows across 14 explicit fan-out branches, 26 system-state observations, 13 response/adaptation states, 24 A/B/C × 2050/2075 regime-effect rows, four uncertainty rows, four comparison rows, and four noncanonical Atlas hooks. Fourteen branches terminate as **TERMINATED — NO DEFENSIBLE CURRENT PATH** where no frozen Phase 16A continuation is defensible; no continuation was fabricated.
 
 Phase 16A stressor, rule, relationship, evidence, response, and technology-modifier IDs are retained in every stage. Scenario-conditioned stages remain scenario-conditioned. Phase 15B A/B/C regime rows are qualitative modifiers only and do not create new propagation pathways or rank regimes. Candidates 005 and 006 remain **RESERVE / UNIMPLEMENTED**. The narrative bridge is explicitly **NONCANONICAL / FUTURE ATLAS HOOK** and creates no characters or future story canon.
 
-Python and independent base-R Phase 16B validation, strict provenance/lineage checks, figure QA, Phase 16A/15/14 integrity, and prior freeze-integrity checks passed. The final fresh independent review is preserved at `reports/phase16b_independent_review.md` with all blocking arrays empty. The package is integrated; Sol acceptance remains pending. No risk, resilience, vulnerability, severity, probability, economic-loss, health-outcome, or epidemiological forecast is included. Biosecurity remains high-level only. Phase 17 remains **NOT IMPLEMENTED**.
+Python and independent base-R Phase 16B validation, both `--require-review` gates, independent Python/R freeze validation, strict provenance/lineage checks, figure QA, Phase 16A/15/14 integrity, and prior freeze-integrity checks passed. The final fresh independent review is preserved at `reports/phase16b_independent_review.md` with all blocking arrays empty; all five failed review records remain preserved as correction lineage. No risk, resilience, vulnerability, severity, probability, economic-loss, health-outcome, or epidemiological forecast is included. Biosecurity remains high-level only. Phase 17 remains **NOT IMPLEMENTED**.
 
-Phase 16A remains **ACCEPTED / FROZEN**; Phase 15 remains **COMPLETE / ACCEPTED / FROZEN**; Phase 14 remains **COMPLETE / ACCEPTED / FROZEN**. Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing manifest status, and the Phase 2A superseded legacy worktree remain unchanged. No release or tag was created.
+Phase 16A remains **ACCEPTED / FROZEN**; Phase 15 remains **COMPLETE / ACCEPTED / FROZEN**; Phase 14 remains **COMPLETE / ACCEPTED / FROZEN**. Phase 16 overall is **COMPLETE / ACCEPTED / FROZEN**. Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing manifest status, and the Phase 2A superseded legacy worktree remain unchanged. No release or tag was created.
 
 Final subphase status:
 
 - Phase 14: **COMPLETE / ACCEPTED / FROZEN**
 - Phase 15: **COMPLETE / ACCEPTED / FROZEN**
 - Phase 16A: **ACCEPTED / FROZEN**
-- Phase 16B: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE**
+- Phase 16B: **ACCEPTED / FROZEN**
 - Phase 17: **NOT IMPLEMENTED**
 - Active phase: **NONE**
+- Next planning target: **PHASE 17 — ATLAS SYNTHESIS / MODEL-TO-WORLD BRIDGE**

@@ -1,30 +1,21 @@
 # Current Phase Handoff
 
-## LEADING CURRENT STATE — Phase 16B integrated-package closure
+## LEADING CURRENT STATE — Phase 16B acceptance/freeze closure
 
-- Starting synchronized `main` / `origin/main` SHA: `9308127065112d0c01c294e954ae87f44e39af3f`.
-- Isolated worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase16b`; branch: `phase-16b-compound-cross-system-stress-tests`.
-- Approved scope: **PHASE 16B — COMPOUND CROSS-SYSTEM STRESS TESTS** only.
+- Starting synchronized `main` / `origin/main` SHA for this freeze transaction: `d19f1cd8bca54b0f0ee56343818e6978ca55db47`.
+- Canonical repository: `C:\Projects\Public_GitHub\western-basin-worldbuilding`; branch: `main`.
+- Approved scope: **PHASE 16B — COMPOUND CROSS-SYSTEM STRESS TESTS** acceptance/freeze bookkeeping only.
+- Phase 16B is **ACCEPTED / FROZEN** under `reports/phase16b_compound_stress_tests_freeze_manifest.json` (32 protected artifacts). Phase 16 overall is **COMPLETE / ACCEPTED / FROZEN**.
 - Phase 16A is **ACCEPTED / FROZEN** under `reports/phase16a_integrated_basin_dynamics_freeze_manifest.json`; Phase 15A/15B and Phase 14A/14B remain accepted/frozen and protected.
-- Implement exactly four principal tests: extreme heat + low flow + grid stress; HAB / water-quality pressure + water-treatment disruption; freight / material disruption + industrial-energy constraint; infectious-disease pressure + surveillance / data-governance friction.
-- Retain Phase 16A candidates 005 and 006 as **RESERVE / UNIMPLEMENTED**. Do not implement Phase 17.
+- Exactly four principal tests are frozen; candidates 005 and 006 remain **RESERVE / UNIMPLEMENTED**. No Phase 17 work is included.
+- Package counts: 13 propagation stages; 14 explicit branches; 26 system-state observations; 13 response/adaptation states; 24 A/B/C × 2050/2075 regime rows; four uncertainty rows; four comparison rows; four noncanonical Atlas hooks; 14 explicit terminations.
+- The final fresh passed review is preserved at `reports/phase16b_independent_review.md`; all five failed review records remain preserved as distinct `passed: false` correction lineage.
+- Python and R package validators passed with `--require-review`; independent Python and R freeze validators, Phase 16A/15/14 and prior freeze integrity, registry contract, chain/evidence invariants, figure integrity, Markdown, Git/LFS, and application checks are required for closure.
+- Accepted scientific/table outputs and figures remain unchanged from the integrated package. The Phase 16B approved-scope brief and Phase 16 overall brief remain byte-protected prior artifacts; current acceptance status is recorded on mutable status surfaces and this handoff.
 - Active holds: Great Black Swamp **C — HOLD / noncanonical**; Toledo intake-coordinate discrepancy **UNRESOLVED**.
 - Deferred maintenance: Phase 6B manifest-status wording mismatch; Phase 3A missing manifest status; Phase 2A superseded legacy worktree.
-- Phase 16B status: **IMPLEMENTED / VALIDATED / INTEGRATED / AWAITING SOL ACCEPTANCE** in the additive package. The final fresh independent review is preserved at `reports/phase16b_independent_review.md` with all blocking arrays empty. Exactly four principal tests are implemented and candidates 005/006 remain **RESERVE / UNIMPLEMENTED**.
-- Package counts: 13 propagation stages; 14 explicit branches; 26 system-state observations; 13 response/adaptation states; 24 A/B/C × 2050/2075 regime rows; four uncertainty rows; four comparison rows; four noncanonical Atlas hooks; 14 explicit terminations.
-- The initial failed review is preserved exactly at `reports/phase16b_independent_review_initial.md`: `passed: false`, with the earlier blocking technology-regime figure readability finding and one nonblocking review-schema suggestion. The latest failed review is preserved exactly at `reports/phase16b_independent_review_second_failed.md`: `passed: false`, with the two software-hardening blockers. Both are correction lineage only, not a final review.
-- The latest layout-only failed review is preserved exactly at `reports/phase16b_independent_review_third_failed.md`: `passed: false`, with the header/data-card collision and B/C text-containment finding only. All three failed Phase 16B review records remain correction lineage; none is rewritten as passed.
-- The latest system-membership failed review is preserved exactly at `reports/phase16b_independent_review_fourth_failed.md`: `passed: false`, with the single coordinated fake-system membership blocker. All four failed Phase 16B review records remain correction lineage; none is rewritten as passed.
-- The latest failed review verdict is preserved exactly as the next repository-conventional record at `reports/phase16b_independent_review_fifth_failed.md`: `passed: false`, with the single coordinated fake-system membership blocker. All five failed Phase 16B review records remain correction lineage; none is rewritten as passed.
-- The final fresh passed review is preserved exactly at `reports/phase16b_independent_review.md`; it is the sixth review record in the complete Phase 16B lineage.
-- The current correction changes only the builder's authoritative Atlas system-vocabulary loading and additive membership checks, with corresponding independent Python/R validator checks. Scientific CSV/table outputs, propagation chains, system states, response/adaptation logic, technology-regime semantics, caveats, figures, and Phase 16A/15/14 protected artifacts remain unchanged.
-- The technology-regime figure now uses a deterministic four-column grid: column 0 is the dedicated stress-test label column and columns 1–3 are A/B/C. Header top/height/bottom are 2.55 / 1.15 / 3.70; first data-row top is 4.20; minimum gap is 0.40; row height/gap are 2.75 / 0.45. Builder rendered-bounding-box checks passed for 32 card text blocks, zero card overlaps, all four labels, B→C containment, and C-card/figure containment.
-- Final PNG dimensions are 2268 × 1422 for compound propagation and 4356 × 3276 for technology-regime effects; the technology-regime SVG parses and its text remains inspectable. Rendered SVG/PNG QA confirmed distinct colored headers, a background-only separation band, readable labels, no card overlap, and no clipped/cross-column text.
-- All ten `phase16b_*.csv` scientific/table products are byte-identical to the pre-fix snapshot. Two consecutive builder runs produced identical hashes for all 23 generated Phase 16B artifact/checkpoint files; the compound-stress figure remains unchanged.
-- The `--require-review` gates require exactly the current Phase 16B schema, strict boolean `passed`, all required arrays, nonempty `summary`, and empty blocking arrays for `passed: true`; both final review-gated validators passed.
-- Final correction verification covers two deterministic builder runs, the 11-case raw-type/content/duplicate registry matrix, the 13-ID frozen registry check, the null-registry full-build exploit, the coordinated fake-system probe, six prior chain-mutation probes, Python/base-R validation, review-schema probes, strict provenance/lineage, branch-termination, narrative-hook, deterministic figure geometry, rendered figure QA, working-manifest/artifact-check, prior-freeze, Markdown, Git/LFS, and application checks. Both final `--require-review` validators passed against the preserved final review. Phase 17 remains **NOT IMPLEMENTED**.
-- Feature package commit: `bf3a409b2684525663d2dd3cb80ebc0a093a3de2`; the feature branch was pushed and fast-forward integrated into canonical `main` at the same SHA. Sol acceptance remains pending. No Phase 17 work, release, or tag is authorized.
-- Post-integration readback passed for the Python/R review-gated validators, working manifest/artifact check, prior freeze integrity, Git whitespace/LFS checks, and package counts. Next exact action: Sol acceptance decision; Phase 17 remains **NOT IMPLEMENTED**.
+- Final local/remote SHA and all-worktree cleanliness are recorded by the final Git readback after the freeze commit. No release or tag is created.
+- Next planning target: **PHASE 17 — ATLAS SYNTHESIS / MODEL-TO-WORLD BRIDGE**; **NOT IMPLEMENTED** and not begun here.
 
 ## LEADING CURRENT STATE — Phase 16A accepted/frozen
 
