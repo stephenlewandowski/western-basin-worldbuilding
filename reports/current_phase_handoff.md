@@ -23,8 +23,8 @@
 - All ten `phase16b_*.csv` scientific/table products are byte-identical to the pre-fix snapshot. Two consecutive builder runs produced identical hashes for all 23 generated Phase 16B artifact/checkpoint files; the compound-stress figure remains unchanged.
 - The `--require-review` gates require exactly the current Phase 16B schema, strict boolean `passed`, all required arrays, nonempty `summary`, and empty blocking arrays for `passed: true`; both final review-gated validators passed.
 - Final correction verification covers two deterministic builder runs, the 11-case raw-type/content/duplicate registry matrix, the 13-ID frozen registry check, the null-registry full-build exploit, the coordinated fake-system probe, six prior chain-mutation probes, Python/base-R validation, review-schema probes, strict provenance/lineage, branch-termination, narrative-hook, deterministic figure geometry, rendered figure QA, working-manifest/artifact-check, prior-freeze, Markdown, Git/LFS, and application checks. Both final `--require-review` validators passed against the preserved final review. Phase 17 remains **NOT IMPLEMENTED**.
-- The Phase 16B package is ready for the authorized feature commit and normal feature-branch push/integration; Sol acceptance remains pending. No Phase 17 work, release, or tag is authorized.
-- Next exact action: inspect the intended Phase 16B diff, commit the coherent package, push the feature branch, fast-forward integrate to `main`, and verify all remote and worktree state.
+- Feature package commit: `bf3a409b2684525663d2dd3cb80ebc0a093a3de2`; the feature branch was pushed and fast-forward integrated into canonical `main` at the same SHA. Sol acceptance remains pending. No Phase 17 work, release, or tag is authorized.
+- Post-integration readback passed for the Python/R review-gated validators, working manifest/artifact check, prior freeze integrity, Git whitespace/LFS checks, and package counts. Next exact action: Sol acceptance decision; Phase 17 remains **NOT IMPLEMENTED**.
 
 ## LEADING CURRENT STATE — Phase 16A accepted/frozen
 
