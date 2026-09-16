@@ -236,3 +236,7 @@ reports/                sources, assumptions, findings, QA, reviews, manifests, 
 src/python/             acquisition, construction, rendering, QA, and validation
 src/R/                  independent validation and rendering
 src/game/               retained Glasspunk browser-game prototype
+```
+
+Phase 17 Atlas material will receive its own repository structure when that
+phase is formally implemented.
