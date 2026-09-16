@@ -1,6 +1,30 @@
 # Project Status
 
-Last reviewed: 2026-09-13
+Last reviewed: 2026-09-16
+
+## Current physical-asset coordinate disposition
+
+The current physical Toledo Water Works Intake Crib is **RESOLVED / VERIFIED**
+at **41.699444, -83.259167** (41°41′58.000″ N, 83°15′33.000″ W). Primary
+authority: U.S. Coast Guard Light List No. 6025, which describes the feature as
+“circular building surmounting crib.” Aerial imagery visually confirms the
+physical structure at this position, and NOAA/NDBC TWCO1 provides corroborating
+nearby observation evidence.
+
+Nearby monitoring, buoy, and legacy dataset coordinates remain separate entities
+and do not supersede the physical-asset coordinate. The legacy GLOS/ERDDAP
+`glos_crib` coordinate is not used as physical crib geometry absent new evidence
+establishing what that dataset coordinate represents. Any remaining question
+about historical intake works, construction-era coordinates, submerged conduit
+alignment, or monitoring-station identity is separate research and does not
+reopen this physical-crib disposition.
+
+See the [coordinate-resolution report](reports/toledo_water_intake_crib_coordinate_resolution.md).
+
+Great Black Swamp remains **C — HOLD / noncanonical**. Phase 16 remains
+**COMPLETE / ACCEPTED / FROZEN**; Phase 17 is **NOT IMPLEMENTED**; Active phase is
+**NONE**. Earlier phase-specific entries below retain their at-the-time status
+wording as historical continuity records.
 
 ## PHASE 1 — COMPLETE
 
@@ -777,7 +801,7 @@ Phase 16A stressor, rule, relationship, evidence, response, and technology-modif
 
 Python and independent base-R Phase 16B validation, both `--require-review` gates, independent Python/R freeze validation, strict provenance/lineage checks, figure QA, Phase 16A/15/14 integrity, and prior freeze-integrity checks passed. The final fresh independent review is preserved at `reports/phase16b_independent_review.md` with all blocking arrays empty; all five failed review records remain preserved as correction lineage. No risk, resilience, vulnerability, severity, probability, economic-loss, health-outcome, or epidemiological forecast is included. Biosecurity remains high-level only. Phase 17 remains **NOT IMPLEMENTED**.
 
-Phase 16A remains **ACCEPTED / FROZEN**; Phase 15 remains **COMPLETE / ACCEPTED / FROZEN**; Phase 14 remains **COMPLETE / ACCEPTED / FROZEN**. Phase 16 overall is **COMPLETE / ACCEPTED / FROZEN**. Great Black Swamp remains **C — HOLD / noncanonical**; the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B manifest-status wording, Phase 3A missing manifest status, and the Phase 2A superseded legacy worktree remain unchanged. No release or tag was created.
+Phase 16A remains **ACCEPTED / FROZEN**; Phase 15 remains **COMPLETE / ACCEPTED / FROZEN**; Phase 14 remains **COMPLETE / ACCEPTED / FROZEN**. Phase 16 overall is **COMPLETE / ACCEPTED / FROZEN**. Great Black Swamp remains **C — HOLD / noncanonical**; the current physical Toledo Water Works Intake Crib location is **RESOLVED / VERIFIED** at **41.699444, -83.259167**. Nearby monitoring, buoy, and legacy dataset coordinates remain separate entities and do not supersede the physical-asset coordinate. Deferred Phase 6B manifest-status wording, Phase 3A missing manifest status, and the Phase 2A superseded legacy worktree remain unchanged. No release or tag was created.
 
 Final subphase status:
 

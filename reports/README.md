@@ -1,5 +1,9 @@
 # Glasspunk Systems Atlas
 
+## Toledo Water Intake Crib Coordinate Resolution
+
+- [Toledo Water Intake Crib Coordinate Resolution](toledo_water_intake_crib_coordinate_resolution.md) records the current physical Toledo Water Works Intake Crib as **RESOLVED / VERIFIED** at **41.699444, -83.259167** under U.S. Coast Guard Light List No. 6025, with NOAA/NDBC TWCO1 and aerial imagery as corroboration. Nearby monitoring, buoy, and legacy dataset coordinates remain separate entities. No frozen scientific/model artifact, map, or freeze manifest is changed by this documentation transaction.
+
 ## Phase 15A Technology & Strategic-Systems Baseline
 
 - Phase 15A is **ACCEPTED / FROZEN** under `phase15a_technology_strategic_systems_baseline_freeze_manifest.json` (30 protected artifacts) with eight technology families, 18 technology records, 21 observations, 44 technology-system interfaces, 32 qualitative dependencies across 11 classes, eight uncertainty records, 33 sources, and the conceptual `technology_system_convergence_architecture_2026` PNG/SVG figure.

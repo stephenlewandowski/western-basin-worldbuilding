@@ -1,6 +1,20 @@
 # Current Phase Handoff
 
-## LEADING CURRENT STATE — Phase 16B acceptance/freeze closure
+## LEADING CURRENT STATE — Toledo intake crib coordinate resolution
+
+- Transaction scope: documentation/evidence resolution only. No frozen scientific/model tables, maps, freeze manifests, validators, or historical review records are in scope.
+- Starting synchronized `main` / `origin/main` SHA: `097ca3f00f96a833e7afc25caef817a0ce61ef16`.
+- The pre-existing `README.md` documentation change present at transaction start was preserved; the current-state coordinate note was added without restoring the older README.
+- Phase 16 is **COMPLETE / ACCEPTED / FROZEN**. Phase 17 is **NOT IMPLEMENTED**. Active phase is **NONE**.
+- Current physical Toledo Water Works Intake Crib location: **RESOLVED / VERIFIED** at **41.699444, -83.259167** (41°41′58.000″ N, 83°15′33.000″ W).
+- Primary authority: U.S. Coast Guard Light List No. 6025, describing the feature as “circular building surmounting crib.” Corroboration: NOAA/NDBC TWCO1 and aerial imagery.
+- Nearby monitoring, buoy, and legacy dataset coordinates remain separate entities and do not supersede the physical-asset coordinate. Legacy GLOS/ERDDAP `glos_crib` remains prohibited as physical crib geometry unless new evidence establishes what that dataset coordinate represents.
+- Separate research questions remain for historical intake works, construction-era coordinates, submerged conduit alignment, and monitoring-station identity; they do not reopen this physical-crib disposition.
+- Resolution report: [toledo_water_intake_crib_coordinate_resolution.md](toledo_water_intake_crib_coordinate_resolution.md).
+- Great Black Swamp remains **C — HOLD / noncanonical**. Deferred Phase 6B manifest-status wording, Phase 3A missing manifest status, and the Phase 2A superseded legacy worktree remain unchanged.
+- Earlier phase and handoff sections below retain their at-the-time unresolved wording as historical continuity records. Final Git, Markdown, diff, and LFS readbacks are recorded externally after the documentation-only commit rather than embedded self-referentially here.
+
+## HISTORICAL CHECKPOINT — Phase 16B acceptance/freeze closure
 
 - Starting synchronized `main` / `origin/main` SHA for this freeze transaction: `d19f1cd8bca54b0f0ee56343818e6978ca55db47`.
 - Canonical repository: `C:\Projects\Public_GitHub\western-basin-worldbuilding`; branch: `main`.
@@ -19,7 +33,7 @@
 - No scientific/model artifacts or freeze manifests changed during this housekeeping. Phase 17 remains **NOT IMPLEMENTED**.
 - Next planning target: **PHASE 17 — ATLAS SYNTHESIS / MODEL-TO-WORLD BRIDGE**; **NOT IMPLEMENTED** and not begun here.
 
-## LEADING CURRENT STATE — Phase 16A accepted/frozen
+## HISTORICAL CHECKPOINT — Phase 16A accepted/frozen
 
 - Starting synchronized main/origin/main SHA: `038669819731b2206f74a078f6b652ebafacb007`; Phase 16A package commit and fast-forward integration SHA before this freeze transaction: `a0a99eb6e433a4cac5eabdcdd9984ec4f4b77c13`; freeze transaction starts from `9daad68c44af9259f42837b2c90af8c8d98fb0f9`.
 - Preserved active worktree: `C:\Projects\Public_GitHub\western-basin-worldbuilding-phase16a`; branch: `phase-16a-integrated-basin-dynamics`.

@@ -1,5 +1,29 @@
 # Current Canon Status
 
+## Current physical-asset coordinate disposition
+
+The current physical Toledo Water Works Intake Crib is **RESOLVED / VERIFIED**
+at **41.699444, -83.259167** (41°41′58.000″ N, 83°15′33.000″ W). Primary
+authority: U.S. Coast Guard Light List No. 6025, which describes the feature as
+“circular building surmounting crib.” Aerial imagery visually confirms the
+physical structure at this position, and NOAA/NDBC TWCO1 provides corroborating
+nearby observation evidence.
+
+Nearby monitoring, buoy, and legacy dataset coordinates remain separate entities
+and do not supersede the physical-asset coordinate. The legacy GLOS/ERDDAP
+`glos_crib` coordinate is not used as physical crib geometry absent new evidence
+establishing what that dataset coordinate represents. Questions about historical
+intake works, construction-era coordinates, submerged conduit alignment, or
+monitoring-station identity are separate research questions and do not reopen
+this physical-crib disposition.
+
+See the [coordinate-resolution report](../reports/toledo_water_intake_crib_coordinate_resolution.md).
+
+Great Black Swamp remains **C — HOLD / noncanonical**. Phase 16 remains
+**COMPLETE / ACCEPTED / FROZEN**; Phase 17 is **NOT IMPLEMENTED**; Active phase is
+**NONE**. Earlier phase-boundary entries below retain their at-the-time status
+wording as historical continuity records.
+
 ## Current regional canon
 
 The current working canon has five macroregions:
@@ -364,4 +388,4 @@ Phase 16A is **ACCEPTED / FROZEN** under `reports/phase16a_integrated_basin_dyna
 
 Phase 16B is **ACCEPTED / FROZEN** under `reports/phase16b_compound_stress_tests_freeze_manifest.json` as a separate additive qualitative stress-test layer. The final fresh independent review is preserved at `reports/phase16b_independent_review.md` with all blocking arrays empty; all five failed review records remain preserved as correction lineage. It implements exactly four principal tests and retains candidates 005 and 006 as **RESERVE / UNIMPLEMENTED**. All 13 propagation stages resolve to frozen Phase 16A rule, relationship, evidence, response, and optional technology-modifier records; no new propagation rule or unsupported continuation is created. Fourteen branches are explicit, and each branch has a defensible termination record; missing continuation is represented as **TERMINATED — NO DEFENSIBLE CURRENT PATH**.
 
-The 24 A/B/C × horizon regime rows resolve to frozen Phase 15B state anchors and Phase 16A regime modifiers. They compare qualitative observability, coupling, dependency, redundancy, coordination, substitution, governance friction, and digital-dependence effects without ranking. Four generalized derivative rows are labeled **NONCANONICAL / FUTURE ATLAS HOOK**; they are not characters, fiction, future story canon, geography, or baseline facts. Phase 16 overall is **COMPLETE / ACCEPTED / FROZEN**. Phase 17 remains **NOT IMPLEMENTED** and is the next planning target only; it is not implemented here. Phase 16A, Phase 15, and Phase 14 remain protected as accepted/frozen layers. Great Black Swamp remains **C — HOLD / noncanonical** and the Toledo intake-coordinate discrepancy remains **UNRESOLVED**. Deferred Phase 6B/3A/2A maintenance remains unchanged. No release or tag was created.
+The 24 A/B/C × horizon regime rows resolve to frozen Phase 15B state anchors and Phase 16A regime modifiers. They compare qualitative observability, coupling, dependency, redundancy, coordination, substitution, governance friction, and digital-dependence effects without ranking. Four generalized derivative rows are labeled **NONCANONICAL / FUTURE ATLAS HOOK**; they are not characters, fiction, future story canon, geography, or baseline facts. Phase 16 overall is **COMPLETE / ACCEPTED / FROZEN**. Phase 17 remains **NOT IMPLEMENTED** and is the next planning target only; it is not implemented here. Phase 16A, Phase 15, and Phase 14 remain protected as accepted/frozen layers. Great Black Swamp remains **C — HOLD / noncanonical**; the current physical Toledo Water Works Intake Crib location is **RESOLVED / VERIFIED** at **41.699444, -83.259167**. Nearby monitoring, buoy, and legacy dataset coordinates remain separate entities and do not supersede the physical-asset coordinate. Deferred Phase 6B/3A/2A maintenance remains unchanged. No release or tag was created.
