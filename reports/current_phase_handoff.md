@@ -1,6 +1,18 @@
 # Current Phase Handoff
 
-## LEADING CURRENT STATE — Toledo intake crib coordinate resolution
+## LEADING CURRENT STATE — Phase 17A planning/design (planning-only)
+
+- Transaction type: **PLANNING-ONLY**. Starting synchronized `main` / `origin/main` SHA: `13ce67e099ef0e0f5af2acf6c2994473141deaf1`.
+- **Phase 17A planning/design is ACTIVE.** No Phase 17 implementation code exists; Phase 17 remains **NOT IMPLEMENTED**. Active phase remains **NONE**.
+- Accepted planning brief: `docs/phase_briefs/phase17a_atlas_architecture.md`.
+- Finalized Prototype 2.1 “From Field to Lake” execution brief: `docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`.
+- Phase 17A **Visual Grammar v0.3 is ACCEPTED FOR USE** as a viable prototype visual language; it is **NOT** a frozen final style specification. Reference assets under `assets/phase17a_visual_grammar/` (SVG master + PNG proofs).
+- Prototype 2.1 source inventory is **COMPLETE** with source gate **GO**; **implementation is NOT STARTED**. Animation remains gated until Chat accepts the static figures.
+- **Codex implementation remains gated** until this planning transaction is complete and separately authorized.
+- Phase 1–16 scientific baseline remains **FROZEN** and unchanged; Great Black Swamp remains **C — HOLD / noncanonical**; no Canon-from-Scenario/Sketch; no release or tag is created.
+- This transaction authorizes no Phase 17 implementation code.
+
+## HISTORICAL CHECKPOINT — Toledo intake crib coordinate resolution
 
 - Transaction scope: documentation/evidence resolution only. No frozen scientific/model tables, maps, freeze manifests, validators, or historical review records are in scope.
 - Starting synchronized `main` / `origin/main` SHA: `097ca3f00f96a833e7afc25caef817a0ce61ef16`.

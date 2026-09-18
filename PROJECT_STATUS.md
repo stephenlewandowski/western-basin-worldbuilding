@@ -26,6 +26,27 @@ Great Black Swamp remains **C — HOLD / noncanonical**. Phase 16 remains
 **NONE**. Earlier phase-specific entries below retain their at-the-time status
 wording as historical continuity records.
 
+**Phase 17A planning has begun** as a planning/design-only transaction. The
+accepted Phase 17A planning brief is at
+`docs/phase_briefs/phase17a_atlas_architecture.md`; the finalized Prototype 2.1
+“From Field to Lake” execution brief is at
+`docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`; the accepted
+Visual Grammar v0.3 reference assets are under `assets/phase17a_visual_grammar/`.
+
+- Phase 17A Visual Grammar v0.3 is **ACCEPTED FOR USE** as a viable prototype
+  visual language. It is **NOT** a frozen final style specification. Colors,
+  fonts, precise line weights, page/grid dimensions, iconography, final map
+  projection conventions, animation timing, and final 3D rendering style remain
+  intentionally unfrozen.
+- Prototype 2.1 source inventory is **COMPLETE** with source gate **GO**; the
+  implementation remains **NOT STARTED**, and animation remains gated until the
+  static figures are accepted by Chat.
+- Codex implementation remains gated until this planning transaction is
+  complete and separately authorized.
+- Phase 1–16 scientific baselines remain **FROZEN** and unchanged. This
+  transaction adds planning artifacts and status updates only; no Phase 17
+  implementation code was created.
+
 ## PHASE 1 — COMPLETE
 
 **Water System v0.1: COMPLETE / VALIDATED**

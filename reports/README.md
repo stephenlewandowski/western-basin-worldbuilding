@@ -1,5 +1,14 @@
 # Glasspunk Systems Atlas
 
+## Phase 17A — Atlas Planning & Design (active, planning-only)
+
+- Phase 17A **planning/design is ACTIVE**; **no implementation code exists** and Phase 17 remains **NOT IMPLEMENTED**. Active phase is **NONE**. This is a planning-only state.
+- Planning brief: `../docs/phase_briefs/phase17a_atlas_architecture.md`.
+- Prototype 2.1 “From Field to Lake” execution brief: `../docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`.
+- Phase 17A **Visual Grammar v0.3 is ACCEPTED FOR USE** as a viable prototype visual language — **not** a frozen final style specification. Reference assets: `../assets/phase17a_visual_grammar/` (SVG master + PNG proofs).
+- Prototype 2.1 source inventory: **COMPLETE** with source gate **GO**; **implementation NOT STARTED**; animation gated until Chat accepts the static figures.
+- Codex implementation remains gated until this planning transaction is complete and separately authorized. Phase 1–16 baselines remain frozen; Great Black Swamp remains C — HOLD / noncanonical; no release/tag; no Canon-from-Scenario/Sketch.
+
 ## Toledo Water Intake Crib Coordinate Resolution
 
 - [Toledo Water Intake Crib Coordinate Resolution](toledo_water_intake_crib_coordinate_resolution.md) records the current physical Toledo Water Works Intake Crib as **RESOLVED / VERIFIED** at **41.699444, -83.259167** under U.S. Coast Guard Light List No. 6025, with NOAA/NDBC TWCO1 and aerial imagery as corroboration. Nearby monitoring, buoy, and legacy dataset coordinates remain separate entities. No frozen scientific/model artifact, map, or freeze manifest is changed by this documentation transaction.

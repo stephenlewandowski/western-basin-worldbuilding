@@ -1,0 +1,240 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<defs>
+  <style>
+    .title { font-family: "Arial", "Helvetica", sans-serif; font-weight: 700; fill:#1F2428; }
+    .body { font-family: "Arial", "Helvetica", sans-serif; fill:#1F2428; }
+    .muted { font-family: "Arial", "Helvetica", sans-serif; fill:#667078; }
+    .mono { font-family: "Consolas", "Courier New", monospace; fill:#1F2428; }
+  </style>
+  <pattern id="diag" width="8" height="8" patternUnits="userSpaceOnUse" patternTransform="rotate(45)">
+    <line x1="0" y1="0" x2="0" y2="8" stroke="#FFFFFF" stroke-width="2" opacity="0.45"/>
+  </pattern>
+  <pattern id="dots" width="8" height="8" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.2" fill="#FFFFFF" opacity="0.55"/>
+  </pattern>
+  <pattern id="cross" width="10" height="10" patternUnits="userSpaceOnUse">
+    <path d="M0,0 L10,10 M10,0 L0,10" stroke="#FFFFFF" stroke-width="1" opacity="0.35"/>
+  </pattern>
+  <marker id="arrow" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+    <path d="M0,0 L10,4 L0,8 z" fill="#1F2428"/>
+  </marker>
+  <marker id="arrowWater" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+    <path d="M0,0 L10,4 L0,8 z" fill="#3C6E8F"/>
+  </marker>
+  <marker id="arrowInfo" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+    <path d="M0,0 L10,4 L0,8 z" fill="#806B8E"/>
+  </marker>
+  <marker id="arrowSmall" markerWidth="5" markerHeight="4" refX="4.4" refY="2" orient="auto">
+    <path d="M0,0 L5,2 L0,4 z" fill="#1F2428"/>
+  </marker>
+  <marker id="arrowSmallWater" markerWidth="5" markerHeight="4" refX="4.4" refY="2" orient="auto">
+    <path d="M0,0 L5,2 L0,4 z" fill="#3C6E8F"/>
+  </marker>
+  <marker id="arrowSmallInfo" markerWidth="5" markerHeight="4" refX="4.4" refY="2" orient="auto">
+    <path d="M0,0 L5,2 L0,4 z" fill="#806B8E"/>
+  </marker>
+</defs>
+<rect width="1600" height="1000" fill="#F4F1E8"/>
+
+<text x="60" y="62" class="title" font-size="36">THE GLASS BASIN</text>
+<text x="60" y="98" class="title" font-size="22">Phase 17A Visual Grammar Test Sheet · v0.3</text>
+<text x="60" y="126" class="muted" font-size="16">One visual system for evidence → scenario → canon → sketch. Provisional styling; semantics are the test.</text>
+<text x="1540" y="62" class="muted" font-size="14" text-anchor="end">2026-09-17</text>
+<rect x="60" y="155" width="455" height="245" rx="12" fill="#FBFAF6" stroke="#A7A39A" stroke-width="1.4"/>
+<text x="80" y="185" class="title" font-size="18">1 · Epistemic status</text>
+<text x="80" y="206" class="muted" font-size="12">Status answers: what kind of claim is this?</text>
+<rect x="80" y="233" width="82" height="42" rx="8" fill="#355F7A" stroke="#1F2428" stroke-width="1.2"/>
+<text x="121" y="261" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#FFFFFF">E</text>
+<text x="121" y="295" text-anchor="middle" class="muted" font-size="10">Evidence / Model</text>
+<rect x="185" y="233" width="82" height="42" rx="8" fill="#A87536" stroke="#1F2428" stroke-width="1.2"/>
+<rect x="185" y="233" width="82" height="42" rx="8" fill="url(#diag)"/>
+<text x="226" y="261" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#FFFFFF">S</text>
+<text x="226" y="295" text-anchor="middle" class="muted" font-size="10">Scenario</text>
+<rect x="290" y="233" width="82" height="42" rx="8" fill="#4E756A" stroke="#1F2428" stroke-width="1.2"/>
+<rect x="290" y="233" width="82" height="42" rx="8" fill="url(#dots)"/>
+<text x="331" y="261" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#FFFFFF">C</text>
+<text x="331" y="295" text-anchor="middle" class="muted" font-size="10">World Canon</text>
+<rect x="395" y="233" width="82" height="42" rx="8" fill="#776486" stroke="#1F2428" stroke-width="1.2"/>
+<rect x="395" y="233" width="82" height="42" rx="8" fill="url(#cross)"/>
+<text x="436" y="261" text-anchor="middle" font-family="Arial" font-size="24" font-weight="700" fill="#FFFFFF">K</text>
+<text x="436" y="295" text-anchor="middle" class="muted" font-size="10">Sketch</text>
+<text x="80" y="327" class="title" font-size="13">Representation descriptor (optional)</text>
+<rect x="80" y="347" width="68.5" height="22" rx="11" fill="#EEEAE1" stroke="#A7A39A"/>
+<text x="114.25" y="362" text-anchor="middle" class="mono" font-size="10">PHOTO</text>
+<rect x="156.5" y="347" width="63.5" height="22" rx="11" fill="#EEEAE1" stroke="#A7A39A"/>
+<text x="188.25" y="362" text-anchor="middle" class="mono" font-size="10">MAP</text>
+<rect x="228.0" y="347" width="71.0" height="22" rx="11" fill="#EEEAE1" stroke="#A7A39A"/>
+<text x="263.5" y="362" text-anchor="middle" class="mono" font-size="10">FIGURE</text>
+<rect x="307.0" y="347" width="78.5" height="22" rx="11" fill="#EEEAE1" stroke="#A7A39A"/>
+<text x="346.25" y="362" text-anchor="middle" class="mono" font-size="10">SCHEMATIC</text>
+<rect x="393.5" y="347" width="68.5" height="22" rx="11" fill="#EEEAE1" stroke="#A7A39A"/>
+<text x="427.75" y="362" text-anchor="middle" class="mono" font-size="10">3D</text>
+<rect x="80" y="375" width="76.0" height="22" rx="11" fill="#EEEAE1" stroke="#A7A39A"/>
+<text x="118.0" y="390" text-anchor="middle" class="mono" font-size="10">ARTIFACT</text>
+<rect x="164.0" y="375" width="73.5" height="22" rx="11" fill="#EEEAE1" stroke="#A7A39A"/>
+<text x="200.75" y="390" text-anchor="middle" class="mono" font-size="10">CONCEPT</text>
+
+<rect x="555" y="155" width="455" height="245" rx="12" fill="#FBFAF6" stroke="#A7A39A" stroke-width="1.4"/>
+<text x="575" y="185" class="title" font-size="18">2 · Relationship semantics</text>
+<text x="575" y="206" class="muted" font-size="12">Line meaning is separate from E / S / C / K.</text>
+<text x="575" y="233" class="body" font-size="12">Physical / material flow</text>
+<line x1="760" y1="228" x2="975" y2="228" stroke="#3C6E8F" stroke-width="4" marker-end="url(#arrowWater)"/>
+<text x="575" y="271" class="body" font-size="12">Information / signal</text>
+<line x1="760" y1="266" x2="975" y2="266" stroke="#806B8E" stroke-width="3" stroke-dasharray="3 8" marker-end="url(#arrowInfo)"/>
+<circle cx="760" cy="266" r="5" fill="none" stroke="#806B8E" stroke-width="2"/>
+<text x="575" y="309" class="body" font-size="12">Dependency / requirement</text>
+<line x1="760" y1="304" x2="967" y2="304" stroke="#1F2428" stroke-width="2.5"/>
+<rect x="967" y="298" width="12" height="12" fill="#FBFAF6" stroke="#1F2428" stroke-width="2"/>
+<text x="575" y="347" class="body" font-size="12">Temporal sequence</text>
+<line x1="760" y1="342" x2="975" y2="342" stroke="#B07A37" stroke-width="2.5" marker-end="url(#arrow)"/>
+<line x1="815" y1="335" x2="815" y2="349" stroke="#B07A37" stroke-width="1.5"/>
+<line x1="870" y1="335" x2="870" y2="349" stroke="#B07A37" stroke-width="1.5"/>
+<line x1="925" y1="335" x2="925" y2="349" stroke="#B07A37" stroke-width="1.5"/>
+<text x="575" y="377" class="muted" font-size="10.5">Same relationship, different status:</text>
+<rect x="765" y="365" width="22" height="18" rx="5" fill="#355F7A"/>
+<text x="776" y="378" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#FFFFFF">E</text>
+<line x1="794" y1="374" x2="854" y2="374" stroke="#3C6E8F" stroke-width="2.4" marker-end="url(#arrowSmallWater)"/>
+<rect x="874" y="365" width="22" height="18" rx="5" fill="#A87536"/>
+<rect x="874" y="365" width="22" height="18" rx="5" fill="url(#diag)"/>
+<text x="885" y="378" text-anchor="middle" font-family="Arial" font-size="10" font-weight="700" fill="#FFFFFF">S</text>
+<line x1="903" y1="374" x2="963" y2="374" stroke="#3C6E8F" stroke-width="2.4" marker-end="url(#arrowSmallWater)"/>
+<rect x="1050" y="155" width="455" height="245" rx="12" fill="#FBFAF6" stroke="#A7A39A" stroke-width="1.4"/>
+<text x="1070" y="185" class="title" font-size="18">3 · Map vs schematic</text>
+<text x="1070" y="206" class="muted" font-size="12">Real geography and explanatory abstraction never masquerade as each other.</text>
+<text x="1075" y="232" class="mono" font-size="11">E · MAP</text>
+<path d="M1075,252 C1135,237 1200,252 1240,287 C1200,327 1130,332 1085,302 Z" fill="#DDE7EC" stroke="#3C6E8F" stroke-width="2"/>
+<path d="M1093,304 C1140,292 1187,275 1233,263" fill="none" stroke="#3C6E8F" stroke-width="2.6" marker-end="url(#arrowSmallWater)"/>
+<circle cx="1225" cy="261" r="5" fill="#1F2428"/>
+<text x="1225" y="250" class="muted" font-size="9" text-anchor="middle">Toledo / lake edge</text>
+<text x="1268" y="302" class="muted" font-size="24">→</text>
+<text x="1310" y="232" class="mono" font-size="11">E · SCHEMATIC</text>
+<rect x="1310" y="260" width="135" height="22" rx="6" fill="#F0EEE7" stroke="#A7A39A"/>
+<text x="1377.5" y="275" text-anchor="middle" class="body" font-size="10">FIELD</text>
+<line x1="1377.5" y1="283" x2="1377.5" y2="288" stroke="#3C6E8F" stroke-width="1.8" marker-end="url(#arrowSmallWater)"/>
+<rect x="1310" y="290" width="135" height="22" rx="6" fill="#F0EEE7" stroke="#A7A39A"/>
+<text x="1377.5" y="305" text-anchor="middle" class="body" font-size="10">DITCH</text>
+<line x1="1377.5" y1="313" x2="1377.5" y2="318" stroke="#3C6E8F" stroke-width="1.8" marker-end="url(#arrowSmallWater)"/>
+<rect x="1310" y="320" width="135" height="22" rx="6" fill="#F0EEE7" stroke="#A7A39A"/>
+<text x="1377.5" y="335" text-anchor="middle" class="body" font-size="10">RIVER</text>
+<line x1="1377.5" y1="343" x2="1377.5" y2="348" stroke="#3C6E8F" stroke-width="1.8" marker-end="url(#arrowSmallWater)"/>
+<rect x="1310" y="350" width="135" height="22" rx="6" fill="#F0EEE7" stroke="#A7A39A"/>
+<text x="1377.5" y="365" text-anchor="middle" class="body" font-size="10">LAKE</text>
+<text x="1070" y="379" class="muted" font-size="10.5">Map = where. Schematic = how. Pair them when process needs geographic context.</text>
+<rect x="60" y="420" width="455" height="285" rx="12" fill="#FBFAF6" stroke="#A7A39A" stroke-width="1.4"/>
+<text x="80" y="450" class="title" font-size="18">4 · Accumulated future</text>
+<text x="80" y="471" class="muted" font-size="12">Persistence silhouette: show what survives, what is modified, what is added.</text>
+<text x="95" y="531" class="mono" font-size="12">2026</text>
+<rect x="165" y="515" width="150" height="26" fill="#1F2428" opacity="0.86"/>
+<rect x="193" y="490" width="68" height="25" fill="#1F2428" opacity="0.86"/>
+<text x="95" y="589" class="mono" font-size="12">2050</text>
+<rect x="165" y="573" width="150" height="26" fill="#1F2428" opacity="0.86"/>
+<rect x="193" y="548" width="68" height="25" fill="#1F2428" opacity="0.86"/>
+<rect x="315" y="576" width="62" height="23" fill="#6E8F8A" opacity="0.82"/>
+<rect x="315" y="576" width="62" height="23" fill="url(#diag)"/>
+<rect x="252" y="535" width="22" height="13" fill="#6E8F8A" opacity="0.82"/>
+<rect x="252" y="535" width="22" height="13" fill="url(#diag)"/>
+<text x="95" y="647" class="mono" font-size="12">2075</text>
+<rect x="165" y="631" width="150" height="26" fill="#1F2428" opacity="0.86"/>
+<rect x="193" y="606" width="68" height="25" fill="#1F2428" opacity="0.86"/>
+<rect x="315" y="634" width="62" height="23" fill="#6E8F8A" opacity="0.82"/>
+<rect x="315" y="634" width="62" height="23" fill="url(#diag)"/>
+<rect x="252" y="593" width="22" height="13" fill="#6E8F8A" opacity="0.82"/>
+<rect x="252" y="593" width="22" height="13" fill="url(#diag)"/>
+<rect x="377" y="637" width="60" height="20" fill="#607A5A" opacity="0.82"/>
+<rect x="377" y="637" width="60" height="20" fill="url(#dots)"/>
+<line x1="180" y1="605" x2="180" y2="583" stroke="#B07A37" stroke-width="3"/>
+<circle cx="180" cy="579" r="5" fill="#B07A37"/>
+<rect x="86" y="670" width="17" height="12" fill="#1F2428" opacity="0.86"/>
+<text x="110" y="680" class="muted" font-size="9.5">retained</text>
+<rect x="174" y="670" width="17" height="12" fill="#6E8F8A" opacity="0.82"/>
+<rect x="174" y="670" width="17" height="12" fill="url(#diag)"/>
+<text x="198" y="680" class="muted" font-size="9.5">added ≤2050</text>
+<rect x="287" y="670" width="17" height="12" fill="#607A5A" opacity="0.82"/>
+<rect x="287" y="670" width="17" height="12" fill="url(#dots)"/>
+<text x="311" y="680" class="muted" font-size="9.5">added ≤2075</text>
+<text x="86" y="698" class="muted" font-size="10">Accrete · retrofit · repair · reuse; avoid default clean-sheet replacement.</text>
+<rect x="555" y="420" width="455" height="285" rx="12" fill="#FBFAF6" stroke="#A7A39A" stroke-width="1.4"/>
+<text x="575" y="450" class="title" font-size="18">5 · Circularity / Circular Systems</text>
+<text x="575" y="471" class="muted" font-size="12">Internal loops stay visible — and so do the boundaries.</text>
+<rect x="670" y="502" width="225" height="120" rx="18" fill="#EFF3F0" stroke="#607A5A" stroke-width="2.2"/>
+<text x="782" y="525" text-anchor="middle" class="title" font-size="12">WORKING SYSTEM</text>
+<path d="M720,570 C720,526 844,526 844,570" fill="none" stroke="#6E8F8A" stroke-width="3.1" marker-end="url(#arrowSmall)"/>
+<path d="M844,579 C844,617 720,617 720,579" fill="none" stroke="#3C6E8F" stroke-width="3.1" marker-end="url(#arrowSmallWater)"/>
+<text x="782" y="548" text-anchor="middle" class="body" font-size="10.5">recovery / reuse</text>
+<text x="782" y="607" text-anchor="middle" class="body" font-size="10.5">transformation / return</text>
+<text x="571" y="530" class="muted" font-size="10">inputs</text>
+<line x1="613" y1="537" x2="667" y2="537" stroke="#1F2428" stroke-width="2.5" marker-end="url(#arrowSmall)"/>
+<text x="905" y="530" class="muted" font-size="10">products</text>
+<line x1="895" y1="537" x2="969" y2="537" stroke="#1F2428" stroke-width="2.5" marker-end="url(#arrow)"/>
+<text x="902" y="594" class="muted" font-size="10">residuals / discharge</text>
+<line x1="895" y1="601" x2="969" y2="601" stroke="#9A5C54" stroke-width="2.4" stroke-dasharray="6 5" marker-end="url(#arrowSmall)"/>
+<text x="782" y="644" text-anchor="middle" class="title" font-size="14">CONNECTED, NOT CLOSED.</text>
+<text x="782" y="665" text-anchor="middle" class="muted" font-size="10">Do not collapse residual → resource → usable input.</text>
+<text x="782" y="683" text-anchor="middle" class="muted" font-size="10">Labor · regulation · capital · maintenance remain outside dependencies.</text>
+<rect x="1050" y="420" width="455" height="285" rx="12" fill="#FBFAF6" stroke="#A7A39A" stroke-width="1.4"/>
+<text x="1070" y="450" class="title" font-size="18">6 · Technology and maintenance</text>
+<text x="1070" y="471" class="muted" font-size="12">Function first; gadgets last. Maintenance is visible.</text>
+<rect x="1078" y="510" width="174" height="24" rx="6" fill="#F3F0E8" stroke="#1F2428" stroke-width="2"/>
+<text x="1165" y="526" text-anchor="middle" class="mono" font-size="10">SYSTEM NEED</text>
+<line x1="1165" y1="534" x2="1165" y2="544" stroke="#A7A39A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="1078" y="544" width="174" height="24" rx="6" fill="#F3F0E8" stroke="#3C6E8F" stroke-width="2"/>
+<text x="1165" y="560" text-anchor="middle" class="mono" font-size="10">FUNCTION</text>
+<line x1="1165" y1="568" x2="1165" y2="578" stroke="#A7A39A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="1078" y="578" width="174" height="24" rx="6" fill="#F3F0E8" stroke="#6E8F8A" stroke-width="2"/>
+<text x="1165" y="594" text-anchor="middle" class="mono" font-size="10">INTERFACE</text>
+<line x1="1165" y1="602" x2="1165" y2="612" stroke="#A7A39A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="1078" y="612" width="174" height="24" rx="6" fill="#F3F0E8" stroke="#B07A37" stroke-width="2"/>
+<text x="1165" y="628" text-anchor="middle" class="mono" font-size="10">DEVICE / STRUCTURE</text>
+<line x1="1165" y1="636" x2="1165" y2="646" stroke="#A7A39A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="1078" y="646" width="174" height="24" rx="6" fill="#F3F0E8" stroke="#806B8E" stroke-width="2"/>
+<text x="1165" y="662" text-anchor="middle" class="mono" font-size="10">VISUAL DESIGN</text>
+<text x="1310" y="508" class="title" font-size="12">VISIBLE MAINTENANCE</text>
+<rect x="1310" y="523" width="13" height="13" fill="#ECE9E0" stroke="#1F2428"/>
+<text x="1333" y="534" class="body" font-size="11">access</text>
+<rect x="1310" y="551" width="13" height="13" fill="#ECE9E0" stroke="#1F2428"/>
+<text x="1333" y="562" class="body" font-size="11">pumps / valves</text>
+<rect x="1310" y="579" width="13" height="13" fill="#ECE9E0" stroke="#1F2428"/>
+<text x="1333" y="590" class="body" font-size="11">cabinets / sensors</text>
+<rect x="1310" y="607" width="13" height="13" fill="#ECE9E0" stroke="#1F2428"/>
+<text x="1333" y="618" class="body" font-size="11">repair / spares</text>
+<rect x="1310" y="635" width="13" height="13" fill="#ECE9E0" stroke="#1F2428"/>
+<text x="1333" y="646" class="body" font-size="11">workers / inspection</text>
+<text x="1290" y="675" class="muted" font-size="9.8">No energy / service / repair / authority / access story?</text>
+<text x="1290" y="691" class="muted" font-size="9.8">Treat the technology as incomplete.</text>
+<rect x="60" y="725" width="1480" height="205" rx="12" fill="#FBFAF6" stroke="#A7A39A" stroke-width="1.4"/>
+<text x="80" y="755" class="title" font-size="18">7 · Prototype stress test</text>
+<text x="80" y="776" class="muted" font-size="12">The same grammar must survive four very different spreads.</text>
+<rect x="80" y="787" width="342" height="104" rx="10" fill="#F7F5EF" stroke="#A7A39A"/>
+<rect x="80" y="787" width="10" height="104" rx="5" fill="#3C6E8F"/>
+<text x="105" y="811" class="title" font-size="13">2.1  FROM FIELD TO LAKE</text>
+<text x="105" y="835" class="body" font-size="11">Motion: Directional flow</text>
+<text x="105" y="855" class="body" font-size="11">Epistemic path: E → K</text>
+<line x1="290" y1="865" x2="395" y2="865" stroke="#3C6E8F" stroke-width="4" marker-end="url(#arrowWater)"/>
+<circle cx="305" cy="865" r="7" fill="#607A5A"/><circle cx="348" cy="865" r="7" fill="#3C6E8F"/>
+<rect x="445" y="787" width="342" height="104" rx="10" fill="#F7F5EF" stroke="#A7A39A"/>
+<rect x="445" y="787" width="10" height="104" rx="5" fill="#1F2428"/>
+<text x="470" y="811" class="title" font-size="13">2.3  TOLEDO CRIB</text>
+<text x="470" y="835" class="body" font-size="11">Motion: Temporal layering</text>
+<text x="470" y="855" class="body" font-size="11">Epistemic path: E → S/K</text>
+<rect x="663" y="845" width="72" height="26" fill="#1F2428" opacity="0.8"/>
+<rect x="733" y="849" width="28" height="22" fill="#6E8F8A" opacity="0.8"/>
+<line x1="685" y1="845" x2="685" y2="829" stroke="#B07A37" stroke-width="2"/>
+<rect x="810" y="787" width="342" height="104" rx="10" fill="#F7F5EF" stroke="#A7A39A"/>
+<rect x="810" y="787" width="10" height="104" rx="5" fill="#607A5A"/>
+<text x="835" y="811" class="title" font-size="13">4.3  FARM 2075</text>
+<text x="835" y="835" class="body" font-size="11">Motion: Seasonal operation</text>
+<text x="835" y="855" class="body" font-size="11">Epistemic path: S → K</text>
+<rect x="1025" y="853" width="98" height="22" fill="#D8E1C9" stroke="#607A5A"/>
+<rect x="1040" y="832" width="35" height="21" fill="#E9F0ED" stroke="#6E8F8A"/>
+<path d="M1084,875 Q1104,857 1126,875" fill="#DDE7EC" stroke="#3C6E8F"/>
+<rect x="1175" y="787" width="342" height="104" rx="10" fill="#F7F5EF" stroke="#A7A39A"/>
+<rect x="1175" y="787" width="10" height="104" rx="5" fill="#B07A37"/>
+<text x="1200" y="811" class="title" font-size="13">5.3  OLD INDUSTRY, NEW METABOLISM</text>
+<text x="1200" y="835" class="body" font-size="11">Motion: Network orchestration</text>
+<text x="1200" y="855" class="body" font-size="11">Epistemic path: E + S → K</text>
+<rect x="1386" y="843" width="34" height="26" fill="#1F2428" opacity="0.75"/>
+<rect x="1460" y="843" width="34" height="26" fill="#1F2428" opacity="0.75"/>
+<path d="M1420,855 C1437,822 1456,822 1460,855" fill="none" stroke="#B07A37" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="80" y="915" class="muted" font-size="11">Pre-freeze tests: grayscale · small-size · 5-second hierarchy · epistemic clarity · arrow semantics · static-before-motion · reduced-motion · production cost.</text>
+<text x="1540" y="982" class="muted" font-size="10" text-anchor="end">Provisional visual language — do not treat colors, fonts, or strokes as frozen.</text>
+</svg>

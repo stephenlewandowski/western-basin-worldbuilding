@@ -24,6 +24,32 @@ Great Black Swamp remains **C — HOLD / noncanonical**. Phase 16 remains
 **NONE**. Earlier phase-boundary entries below retain their at-the-time status
 wording as historical continuity records.
 
+## Phase 17A planning status
+
+Phase 17A **planning/design is now active** as a planning-only state. No Phase
+17 implementation code exists. Phase 17 remains **NOT IMPLEMENTED** and the
+scientific/factual baseline of Phases 1–16 remains **FROZEN** and unchanged.
+
+- The accepted Phase 17A planning brief is `docs/phase_briefs/phase17a_atlas_architecture.md`.
+- The finalized Prototype 2.1 “From Field to Lake” execution brief is `docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`.
+- Phase 17A **Visual Grammar v0.3 is ACCEPTED FOR USE** as a viable prototype
+  visual language. It is **NOT** a frozen final style specification and must
+  not be promoted to final style. Colors, fonts, precise line weights,
+  page/grid dimensions, iconography, final map projection conventions,
+  animation timing, and final 3D rendering style remain intentionally unfrozen.
+- The accepted Visual Grammar v0.3 reference assets are under
+  `assets/phase17a_visual_grammar/` (SVG master + full PNG proofs).
+- Prototype 2.1 source inventory is **COMPLETE** with source gate **GO**;
+  implementation is **NOT STARTED**. Animation remains gated until Chat accepts
+  the static figures.
+- Codex implementation remains gated until this planning transaction is
+  complete and separately authorized.
+- No Canon has been created from Scenario/Sketch material. Great Black Swamp
+  geometry remains **C — HOLD / noncanonical**. No release or tag is created.
+  No Prototype 2.1 addition creates `release` as a separate process, a
+  standalone Maumee Bay polygon, physical Toledo intake geometry for 2.1, or a
+  deterministic nutrient → HAB relationship.
+
 ## Current regional canon
 
 The current working canon has five macroregions:

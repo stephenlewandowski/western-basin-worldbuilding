@@ -46,7 +46,12 @@ Phases 1–13 establish the major environmental, infrastructural, demographic, h
 
 Phase 16 is **COMPLETE / ACCEPTED / FROZEN**.
 
-Active phase: **NONE**. Phase 17 is **NOT IMPLEMENTED**.
+Active phase: **NONE**. Phase 17 is **NOT IMPLEMENTED**, but **Phase 17A
+planning/design is now active** on a planning-only basis: see the
+[Phase 17A planning brief](docs/phase_briefs/phase17a_atlas_architecture.md),
+the [Prototype 2.1 execution brief](docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md),
+and the accepted Visual Grammar v0.3 reference assets under
+`assets/phase17a_visual_grammar/`. No Phase 17 implementation code exists.
 
 ### Toledo Water Works Intake Crib
 
