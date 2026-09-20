@@ -1,0 +1,25 @@
+edge_id,material,relationship_type,atlas_process,quantity_status
+BGE-001,P,mobilized_from,mobilization,unknown quantity
+BGE-002,P;N;C;organic_matter,mobilized_by,mobilization,unknown quantity
+BGE-003,P;N;C,mobilized_by,mobilization,unknown quantity
+BGE-004,P;N;C;sediment,transported_by,transport,unknown quantity
+BGE-005,P;N;sediment,monitored_by,,unknown quantity
+BGE-006,P;N;sediment,transported_by,transport,unknown quantity
+BGE-007,P;N;sediment;organic_matter,delivered_to,delivery,unknown quantity
+BGE-008,P;N;organic_matter,delivered_to,delivery,unknown quantity
+BGE-009,P;N;sediment,retained_or_transformed_by,retention / transformation,unknown quantity
+BGE-010,P;N;sediment,retained_or_transformed_by,retention / transformation,unknown quantity
+BGE-011,P;N;organic_matter,transported_by,transport,unknown quantity
+BGE-012,P;N;organic_matter,discharged_to,discharge,unknown quantity
+BGE-013,P;N,monitored_by,,unknown quantity
+BGE-014,P;N;HAB_context,monitored_by,,unknown quantity
+BGE-015,sediment;organic_matter,transported_by,transport,unknown quantity
+BGE-016,P;N;organic_matter,delivered_to,delivery,unknown quantity
+BGE-017,P;HAB_context,ecological_interface,receiving-water response/context,unknown quantity
+BGE-018,P;N;soil_carbon,managed_by,,unknown quantity
+BGE-019,P;N;sediment,managed_by,,unknown quantity
+BGE-020,P;N,managed_by,,unknown quantity
+BGE-021,P;N,transformed_by,retention / transformation,unknown quantity
+BGE-022,water_carrier,transported_by,transport,unknown quantity
+BGE-023,water_carrier,monitored_by,,unknown quantity
+BGE-024,N;C;organic_matter,ecological_interface,receiving-water response/context,unknown quantity

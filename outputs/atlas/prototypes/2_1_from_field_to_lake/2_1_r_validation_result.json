@@ -1,0 +1,24 @@
+{
+  "result": "PASS",
+  "passed": 17,
+  "total": 17,
+  "checks": [
+    {"name": "source row counts: flux edges = 24", "passed": true},
+    {"name": "source row counts: huc12 routing = 251", "passed": true},
+    {"name": "all biogeochemical flux edges are qualitative (quantity_status=unknown quantity)", "passed": true},
+    {"name": "huc12_routing carries physical_geometry discriminator with both values", "passed": true},
+    {"name": "r-edge classification emits only approved processes (and context) — no 'release'", "passed": true},
+    {"name": "monitoring/management relationships are context (not a transport process)", "passed": true},
+    {"name": "constituent vocabulary maps to accepted source tokens", "passed": true},
+    {"name": "water_carrier present in source as carrier token", "passed": true},
+    {"name": "no HAB_context rendered as a standalone constituent track", "passed": true},
+    {"name": "no greenhouse-gas inventory framing in manifest", "passed": true},
+    {"name": "no standalone 'release' process category in manifest", "passed": true},
+    {"name": "no 'release' in approved process list", "passed": true},
+    {"name": "no Great Black Swamp geometry referenced", "passed": true},
+    {"name": "no swamp-named geographic input in manifest geography", "passed": true},
+    {"name": "Maumee Bay represented as interface, not standalone polygon", "passed": true},
+    {"name": "no physical Toledo intake geometry used", "passed": true},
+    {"name": "no deterministic nutrient->HAB edge in manifest", "passed": true}
+  ]
+}

@@ -1,16 +1,38 @@
 # Current Phase Handoff
 
-## LEADING CURRENT STATE — Phase 17A planning/design (planning-only)
+## LEADING CURRENT STATE — Phase 17A Prototype 2.1 STATIC set ACCEPTED
 
-- Transaction type: **PLANNING-ONLY**. Starting synchronized `main` / `origin/main` SHA: `13ce67e099ef0e0f5af2acf6c2994473141deaf1`.
-- **Phase 17A planning/design is ACTIVE.** No Phase 17 implementation code exists; Phase 17 remains **NOT IMPLEMENTED**. Active phase remains **NONE**.
-- Accepted planning brief: `docs/phase_briefs/phase17a_atlas_architecture.md`.
-- Finalized Prototype 2.1 “From Field to Lake” execution brief: `docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`.
-- Phase 17A **Visual Grammar v0.3 is ACCEPTED FOR USE** as a viable prototype visual language; it is **NOT** a frozen final style specification. Reference assets under `assets/phase17a_visual_grammar/` (SVG master + PNG proofs).
-- Prototype 2.1 source inventory is **COMPLETE** with source gate **GO**; **implementation is NOT STARTED**. Animation remains gated until Chat accepts the static figures.
-- **Codex implementation remains gated** until this planning transaction is complete and separately authorized.
-- Phase 1–16 scientific baseline remains **FROZEN** and unchanged; Great Black Swamp remains **C — HOLD / noncanonical**; no Canon-from-Scenario/Sketch; no release or tag is created.
-- This transaction authorizes no Phase 17 implementation code.
+- Transaction type: **ACCEPTANCE + COMMIT** of the accepted Phase 17A Prototype
+  2.1 “From Field to Lake” static analytical set. Starting synchronized
+  `main` / `origin/main` SHA: `bcb87c6d3b659aa43b2531261fa37972678047a5`.
+- **Phase 17A Prototype 2.1 STATIC analytical set is ACCEPTED.** Accepted
+  outputs: **2.1A Geographic Pathway Map** (E · MAP), **2.1B Process Schematic**
+  (E · SCHEMATIC), **2.1C Constituent Pathway Comparison** (E · FIGURE), and
+  **2.1D Receiving-Water Boundary** (E · SCHEMATIC), under
+  `outputs/atlas/prototypes/2_1_from_field_to_lake/`.
+- Acceptance basis: human visual QA completed; Python validation **PASS 29/29**;
+  independent R validation **PASS 17/17**; npm tests **PASS 22/22**;
+  qualitative-only encoding preserved; physical vs analytical geography
+  distinction preserved; no Great Black Swamp held geometry used; no physical
+  Toledo intake geometry used; Maumee Bay remains a labeled receiving-water
+  interface (no invented polygon); no unsupported release category; HAB_context
+  not treated as a constituent; no deterministic nutrient → HAB edge; no Phase
+  1–16 protected artifact modified.
+- Accepted planning brief: `docs/phase_briefs/phase17a_atlas_architecture.md`;
+  finalized Prototype 2.1 execution brief:
+  `docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`.
+- Phase 17A **Visual Grammar v0.3 remains ACCEPTED FOR USE**, not frozen final
+  styling; reference assets under `assets/phase17a_visual_grammar/`.
+- The static figures are **analytical prototype components, not final Atlas page
+  composition**. Final badge placement and page/grid conventions remain
+  **UNFROZEN**.
+- **Animation remains NOT STARTED** and is separately gated on the accepted
+  static figures.
+- Phase 17 module is **NOT COMPLETE** (only the static prototype is accepted);
+  Active phase remains **NONE**.
+- Phase 1–16 scientific baseline remains **FROZEN** and unchanged; Great Black
+  Swamp remains **C — HOLD / noncanonical**; no Canon-from-Scenario/Sketch; no
+  release or tag is created.
 
 ## HISTORICAL CHECKPOINT — Toledo intake crib coordinate resolution
 

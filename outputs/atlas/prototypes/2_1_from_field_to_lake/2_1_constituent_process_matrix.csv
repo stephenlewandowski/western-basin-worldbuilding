@@ -1,0 +1,6 @@
+constituent_track,supported_processes
+water / carrier,transport
+phosphorus (P),mobilization;transport;retention / transformation;delivery;discharge;receiving-water response/context
+nitrogen (N),mobilization;transport;retention / transformation;delivery;discharge;receiving-water response/context
+carbon / organic matter (C),mobilization;transport;delivery;discharge;receiving-water response/context
+sediment,transport;retention / transformation;delivery

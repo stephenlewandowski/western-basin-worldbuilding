@@ -1,6 +1,6 @@
 # Project Status
 
-Last reviewed: 2026-09-16
+Last reviewed: 2026-09-19
 
 ## Current physical-asset coordinate disposition
 
@@ -22,30 +22,41 @@ reopen this physical-crib disposition.
 See the [coordinate-resolution report](reports/toledo_water_intake_crib_coordinate_resolution.md).
 
 Great Black Swamp remains **C — HOLD / noncanonical**. Phase 16 remains
-**COMPLETE / ACCEPTED / FROZEN**; Phase 17 is **NOT IMPLEMENTED**; Active phase is
-**NONE**. Earlier phase-specific entries below retain their at-the-time status
-wording as historical continuity records.
+**COMPLETE / ACCEPTED / FROZEN**; Phase 17A Prototype 2.1 **static analytical
+set is ACCEPTED** (analytical prototype component, not final Atlas page
+composition); Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
+Earlier phase-specific entries below retain their at-the-time status wording as
+historical continuity records.
 
-**Phase 17A planning has begun** as a planning/design-only transaction. The
-accepted Phase 17A planning brief is at
+Phase 17A **Atlas Synthesis / model-to-world bridge** began as a
+planning/design-only transaction. The accepted planning brief is
 `docs/phase_briefs/phase17a_atlas_architecture.md`; the finalized Prototype 2.1
-“From Field to Lake” execution brief is at
-`docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`; the accepted
-Visual Grammar v0.3 reference assets are under `assets/phase17a_visual_grammar/`.
+“From Field to Lake” execution brief is
+`docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`.
 
-- Phase 17A Visual Grammar v0.3 is **ACCEPTED FOR USE** as a viable prototype
-  visual language. It is **NOT** a frozen final style specification. Colors,
-  fonts, precise line weights, page/grid dimensions, iconography, final map
-  projection conventions, animation timing, and final 3D rendering style remain
-  intentionally unfrozen.
-- Prototype 2.1 source inventory is **COMPLETE** with source gate **GO**; the
-  implementation remains **NOT STARTED**, and animation remains gated until the
-  static figures are accepted by Chat.
-- Codex implementation remains gated until this planning transaction is
-  complete and separately authorized.
-- Phase 1–16 scientific baselines remain **FROZEN** and unchanged. This
-  transaction adds planning artifacts and status updates only; no Phase 17
-  implementation code was created.
+- Phase 17A Visual Grammar v0.3 remains **ACCEPTED FOR USE** as a viable
+  prototype visual language. It is **NOT** a frozen final style specification.
+  Colors, fonts, precise line weights, page/grid dimensions, iconography, final
+  map projection conventions, animation timing, and final 3D rendering style
+  remain intentionally unfrozen.
+- **Phase 17A Prototype 2.1 STATIC analytical set is ACCEPTED** (human visual QA
+  completed; Python validation PASS 29/29; independent R validation PASS 17/17;
+  npm tests PASS 22/22). Accepted outputs: **2.1A Geographic Pathway Map**
+  (E · MAP), **2.1B Process Schematic** (E · SCHEMATIC), **2.1C Constituent
+  Pathway Comparison** (E · FIGURE), and **2.1D Receiving-Water Boundary**
+  (E · SCHEMATIC), under `outputs/atlas/prototypes/2_1_from_field_to_lake/`.
+- The static figures are **analytical prototype components, not final Atlas
+  page composition**. Final badge placement and page/grid conventions remain
+  **UNFROZEN**.
+- **Animation remains NOT STARTED** and is separately gated on the accepted
+  static figures.
+- The prototype preserves qualitative-only encoding, the physical-vs-analytical
+  geography distinction, no Great Black Swamp held geometry, no physical Toledo
+  intake geometry, Maumee Bay as a labeled receiving-water interface (no
+  invented polygon), no unsupported release category, HAB_context not treated
+  as a constituent, no deterministic nutrient → HAB edge, and no Phase 1–16
+  protected artifact modified.
+- Phase 1–16 scientific baselines remain **FROZEN** and unchanged.
 
 ## PHASE 1 — COMPLETE
 

@@ -20,14 +20,16 @@ this physical-crib disposition.
 See the [coordinate-resolution report](../reports/toledo_water_intake_crib_coordinate_resolution.md).
 
 Great Black Swamp remains **C — HOLD / noncanonical**. Phase 16 remains
-**COMPLETE / ACCEPTED / FROZEN**; Phase 17 is **NOT IMPLEMENTED**; Active phase is
-**NONE**. Earlier phase-boundary entries below retain their at-the-time status
-wording as historical continuity records.
+**COMPLETE / ACCEPTED / FROZEN**; Phase 17A Prototype 2.1 **static analytical
+set is ACCEPTED** (analytical prototype component, not final Atlas page
+composition); Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
+Earlier phase-boundary entries below retain their at-the-time status wording as
+historical continuity records.
 
-## Phase 17A planning status
+## Phase 17A status
 
-Phase 17A **planning/design is now active** as a planning-only state. No Phase
-17 implementation code exists. Phase 17 remains **NOT IMPLEMENTED** and the
+The Phase 17A **Atlas Synthesis / model-to-world bridge** was first established
+as a planning-only state. The Phase 17 module is not complete; the
 scientific/factual baseline of Phases 1–16 remains **FROZEN** and unchanged.
 
 - The accepted Phase 17A planning brief is `docs/phase_briefs/phase17a_atlas_architecture.md`.
@@ -39,11 +41,22 @@ scientific/factual baseline of Phases 1–16 remains **FROZEN** and unchanged.
   animation timing, and final 3D rendering style remain intentionally unfrozen.
 - The accepted Visual Grammar v0.3 reference assets are under
   `assets/phase17a_visual_grammar/` (SVG master + full PNG proofs).
-- Prototype 2.1 source inventory is **COMPLETE** with source gate **GO**;
-  implementation is **NOT STARTED**. Animation remains gated until Chat accepts
-  the static figures.
-- Codex implementation remains gated until this planning transaction is
-  complete and separately authorized.
+- **Phase 17A Prototype 2.1 STATIC analytical set is ACCEPTED** (human visual QA
+  completed; Python validation PASS 29/29; independent R validation PASS 17/17;
+  npm tests PASS 22/22; qualitative-only encoding preserved; physical vs
+  analytical geography preserved; no Great Black Swamp held geometry; no
+  physical Toledo intake geometry; Maumee Bay remains a labeled
+  receiving-water interface with no invented polygon; no unsupported release
+  category; HAB_context not treated as a constituent; no deterministic
+  nutrient → HAB edge; no Phase 1–16 protected artifact modified). Accepted
+  outputs: **2.1A Geographic Pathway Map** (E · MAP), **2.1B Process Schematic**
+  (E · SCHEMATIC), **2.1C Constituent Pathway Comparison** (E · FIGURE), and
+  **2.1D Receiving-Water Boundary** (E · SCHEMATIC).
+- The static figures are **analytical prototype components, not final Atlas page
+  composition**. Final badge placement and page/grid conventions remain
+  **UNFROZEN**.
+- **Animation remains NOT STARTED** and is separately gated on the accepted
+  static figures.
 - No Canon has been created from Scenario/Sketch material. Great Black Swamp
   geometry remains **C — HOLD / noncanonical**. No release or tag is created.
   No Prototype 2.1 addition creates `release` as a separate process, a

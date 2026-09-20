@@ -1,13 +1,30 @@
 # Glasspunk Systems Atlas
 
-## Phase 17A — Atlas Planning & Design (active, planning-only)
+## Phase 17A — Atlas Synthesis / Model-to-World Bridge
 
-- Phase 17A **planning/design is ACTIVE**; **no implementation code exists** and Phase 17 remains **NOT IMPLEMENTED**. Active phase is **NONE**. This is a planning-only state.
-- Planning brief: `../docs/phase_briefs/phase17a_atlas_architecture.md`.
-- Prototype 2.1 “From Field to Lake” execution brief: `../docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`.
-- Phase 17A **Visual Grammar v0.3 is ACCEPTED FOR USE** as a viable prototype visual language — **not** a frozen final style specification. Reference assets: `../assets/phase17a_visual_grammar/` (SVG master + PNG proofs).
-- Prototype 2.1 source inventory: **COMPLETE** with source gate **GO**; **implementation NOT STARTED**; animation gated until Chat accepts the static figures.
-- Codex implementation remains gated until this planning transaction is complete and separately authorized. Phase 1–16 baselines remain frozen; Great Black Swamp remains C — HOLD / noncanonical; no release/tag; no Canon-from-Scenario/Sketch.
+- Phase 17A Prototype 2.1 “From Field to Lake” **static analytical set is
+  ACCEPTED** as an analytical prototype component (human visual QA completed;
+  Python validation PASS 29/29; independent R validation PASS 17/17; npm tests
+  PASS 22/22). Accepted outputs: **2.1A Geographic Pathway Map** (E · MAP),
+  **2.1B Process Schematic** (E · SCHEMATIC), **2.1C Constituent Pathway
+  Comparison** (E · FIGURE), and **2.1D Receiving-Water Boundary**
+  (E · SCHEMATIC), under `../outputs/atlas/prototypes/2_1_from_field_to_lake/`.
+- Prototype validation report: `../outputs/atlas/prototypes/2_1_from_field_to_lake/2_1_validation_report.md`;
+  source/provenance manifest: `2_1_source_manifest.json`; constituent-process
+  matrix: `2_1_constituent_process_matrix.csv`; build/validators:
+  `../src/python/atlas/build_spread_2_1_field_to_lake.py` and
+  `../src/python/atlas/validate_spread_2_1_field_to_lake.py`; independent R
+  validator: `../src/R/atlas/validate_spread_2_1_field_to_lake.R`.
+- Phase 17A **Visual Grammar v0.3 is ACCEPTED FOR USE** as a viable prototype
+  visual language — **not** a frozen final style specification. Reference
+  assets: `../assets/phase17a_visual_grammar/` (SVG master + PNG proofs).
+- The static figures are **analytical prototype components, not final Atlas page
+  composition**; final badge placement and page/grid conventions remain
+  **UNFROZEN**. **Animation remains NOT STARTED** and is separately gated.
+- Phase 17 module is **NOT COMPLETE** (only the static prototype is accepted);
+  Active phase is **NONE**. Phase 1–16 baselines remain frozen; Great Black
+  Swamp remains C — HOLD / noncanonical; no release/tag; no
+  Canon-from-Scenario/Sketch.
 
 ## Toledo Water Intake Crib Coordinate Resolution
 
