@@ -38,6 +38,10 @@ tmp/
 temp/
 *.tmp
 
+# Rendered Phase 17A animation video (large generated output, not tracked).
+# Source keyframes, reduced-motion endpoint, manifests, and reports ARE tracked.
+outputs/atlas/prototypes/2_1_from_field_to_lake/animation/*.mp4
+
 # Local migration/import scratch
 imports/
 

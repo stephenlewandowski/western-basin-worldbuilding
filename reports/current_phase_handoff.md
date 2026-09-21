@@ -1,10 +1,37 @@
 # Current Phase Handoff
 
-## LEADING CURRENT STATE — Phase 17A Prototype 2.1 STATIC set ACCEPTED
+## LEADING CURRENT STATE — Phase 17A Prototype 2.1 animation CLOSED as DROP / CHANGE MEDIUM
 
-- Transaction type: **ACCEPTANCE + COMMIT** of the accepted Phase 17A Prototype
-  2.1 “From Field to Lake” static analytical set. Starting synchronized
-  `main` / `origin/main` SHA: `bcb87c6d3b659aa43b2531261fa37972678047a5`.
+- Transaction type: **RECORD** of the Phase 17A Prototype 2.1 “From Field to
+  Lake” animation findings. Starting synchronized `main` / `origin/main` SHA:
+  `7b589e8583a38804961ce0e8cb8738af5451a31b`.
+- **Static Prototype 2.1 remains ACCEPTED** (2.1A Geographic Pathway Map E ·
+  MAP; 2.1B Process Schematic E · SCHEMATIC; 2.1C Constituent Pathway
+  Comparison E · FIGURE; 2.1D Receiving-Water Boundary E · SCHEMATIC).
+- **Animation implementation is technically VALIDATED (Python 35/35,
+  independent R 30/30; static Python/R validators still pass) but is
+  classified DROP / CHANGE MEDIUM.** Human review found the animation behaved
+  mainly as a slideshow and did not materially improve understanding beyond
+  the accepted static figures. It is **NOT** an accepted Atlas product.
+- Committed for reproducible record:
+  - builder `src/python/atlas/animate_spread_2_1_field_to_lake.py`;
+  - Python validator `src/python/atlas/validate_animation_2_1_field_to_lake.py`;
+  - independent R validator `src/R/atlas/validate_animation_2_1_field_to_lake.R`;
+  - state & source manifests, validation report, R result, contact sheet,
+    keyframes A0–A5, and reduced-motion endpoint under
+    `outputs/atlas/prototypes/2_1_from_field_to_lake/animation/`.
+- The rendered MP4
+  `outputs/atlas/prototypes/2_1_from_field_to_lake/animation/2_1_from_field_to_lake_animation.mp4`
+  is git-ignored (not committed) so it does not enter the repository.
+- **Lesson preserved:** future animation must communicate state change,
+  branching, accumulation, feedback, spatial reconfiguration, seasonal
+  cycling, network switching, or another process that cannot be conveyed as
+  effectively in a static figure.
+- Active phase remains **NONE**; Phase 17 module remains **NOT COMPLETE**.
+  Phase 1–16 canon baselines remain **FROZEN** and unchanged; no accepted
+    static artifact changed; no release or tag; no Prototype 2.3 begun.
+
+## HISTORICAL CHECKPOINT — Phase 17A static acceptance
 - **Phase 17A Prototype 2.1 STATIC analytical set is ACCEPTED.** Accepted
   outputs: **2.1A Geographic Pathway Map** (E · MAP), **2.1B Process Schematic**
   (E · SCHEMATIC), **2.1C Constituent Pathway Comparison** (E · FIGURE), and

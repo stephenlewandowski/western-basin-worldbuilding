@@ -1,0 +1,98 @@
+{
+  "prototype": "2.1",
+  "title": "From Field to Lake",
+  "phase": "17A",
+  "kind": "guided analytical process animation (explanatory extension of accepted static figures)",
+  "static_baseline_commit": "7b589e8583a38804961ce0e8cb8738af5451a31b",
+  "accepted_static_figure_paths": {
+    "A": "2_1a_geographic_flow_map.png",
+    "B": "2_1b_process_schematic.png",
+    "C": "2_1c_constituent_pathways.png",
+    "D": "2_1d_receiving_water_boundary.png"
+  },
+  "animation_script_paths": [
+    "src/python/atlas/animate_spread_2_1_field_to_lake.py",
+    "src/python/atlas/validate_animation_2_1_field_to_lake.py",
+    "src/R/atlas/validate_animation_2_1_field_to_lake.R"
+  ],
+  "visual_grammar": "Phase 17A Visual Grammar v0.3 (accepted-for-use, not frozen)",
+  "no_new_science": true,
+  "canvas": {
+    "width": 1920,
+    "height": 1080,
+    "background": "white",
+    "fps": 30,
+    "duration_seconds": 32.0,
+    "expected_frames": 960
+  },
+  "static_native_dimensions": {
+    "A": [
+      2065,
+      1076
+    ],
+    "B": [
+      1303,
+      1062
+    ],
+    "C": [
+      1569,
+      892
+    ],
+    "D": [
+      907,
+      767
+    ]
+  },
+  "placement": "aspect-preserving, centered; no crop; no distortion",
+  "encoder": "ffmpeg 9.0.1 / libx264 (planned in encode step; not run in Step 1)",
+  "quantitative_encoding": false,
+  "audio": false,
+  "randomization": false,
+  "great_black_swamp_geometry_used": false,
+  "toledo_physical_intake_geometry_used": false,
+  "deterministic_nutrient_to_hab_edge": false,
+  "hab_context_used_as_constituent": false,
+  "release_process_introduced": false,
+  "persistent_footer": "Explanatory sequence only \u2014 timing, brightness, and motion do not encode quantity, velocity, travel time, probability, or severity.",
+  "reduced_motion_endpoint": "2_1_from_field_to_lake_reduced_motion.png",
+  "states": {
+    "A0": [
+      0.0,
+      4.0,
+      "A",
+      "MAP"
+    ],
+    "A1": [
+      4.0,
+      8.0,
+      "A",
+      "MAP"
+    ],
+    "A2": [
+      8.0,
+      15.0,
+      "B",
+      "SCHEMATIC"
+    ],
+    "A3": [
+      15.0,
+      22.0,
+      "C",
+      "FIGURE"
+    ],
+    "A4": [
+      22.0,
+      29.0,
+      "D",
+      "SCHEMATIC"
+    ],
+    "A5": [
+      29.0,
+      32.0,
+      "D",
+      "SCHEMATIC"
+    ]
+  },
+  "source_of_truth": "accepted static PNGs are the immutable visual authority; no re-render of full 2.1B/C/D",
+  "built": "2026-09-21"
+}

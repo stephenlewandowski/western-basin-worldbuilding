@@ -55,8 +55,17 @@ scientific/factual baseline of Phases 1–16 remains **FROZEN** and unchanged.
 - The static figures are **analytical prototype components, not final Atlas page
   composition**. Final badge placement and page/grid conventions remain
   **UNFROZEN**.
-- **Animation remains NOT STARTED** and is separately gated on the accepted
-  static figures.
+- **Animation implementation is technically VALIDATED but classified
+  DROP / CHANGE MEDIUM.** Human review found the Prototype 2.1 animation
+  behaved mainly as a slideshow and did not materially improve understanding
+  beyond the accepted static figures. It is **not** an accepted Atlas product.
+  Builder source, Python & R validators, state/source manifests, validation
+  report, contact sheet, keyframes, and reduced-motion endpoint are committed
+  under `outputs/atlas/prototypes/2_1_from_field_to_lake/animation/` and
+  `src/python/atlas` / `src/R/atlas` for reproducible record. The rendered MP4
+  is git-ignored (not committed). Future animation must communicate state
+  change, branching, accumulation, feedback, spatial reconfiguration, seasonal
+  cycling, network switching, or another process poorly conveyed statically.
 - No Canon has been created from Scenario/Sketch material. Great Black Swamp
   geometry remains **C — HOLD / noncanonical**. No release or tag is created.
   No Prototype 2.1 addition creates `release` as a separate process, a
