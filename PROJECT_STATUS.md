@@ -29,11 +29,12 @@ set is ACCEPTED**; Phase 17A Prototype 2.3 is **CLOSED / ACCEPTED** at commit
 correction; Phase 17A Prototype 5.3 **Industrial Exchange District is ACCEPTED**
 (all are analytical prototype components, not final Atlas page composition).
 Phase 17A is **COMPLETE / ACCEPTED** as a prototype-and-production-pattern
-phase; Phase 17B is **ACTIVE — entry / seed translation set ACCEPTED FOR
-DEVELOPMENT; lived-world condition packet set ACCEPTED FOR PHASE 17B
-DEVELOPMENT**; the 15 seed units and seven packets remain S/K
-scenario-development material, no unit or packet is canon, Phase 17C has not
-begun, and Active phase is **Phase 17B**.
+phase. Phase 17B is **COMPLETE / ACCEPTED for initial future-world translation**;
+its 15 seed units and seven lived-world packets remain S/K, not canon.
+Phase 17C is **ACTIVE**; its role/story seed architecture is **ACCEPTED FOR
+DEVELOPMENT** after one human-review correction pass: ten unnamed K roles, nine
+K relationships, and six K narrative threads; 0 new C. No final protagonist set
+is selected. No names, biographies, scenes, or Phase 17D work are included.
 Earlier phase-specific entries below retain their at-the-time status wording as
 historical continuity records.
 
@@ -43,14 +44,14 @@ as a prototype-and-production-pattern phase. The accepted planning brief is
 “From Field to Lake” execution brief is
 `docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`; and the closure
 synthesis is `reports/phase17a_prototype_findings_and_production_pattern.md`.
-Phase 17B is active as scenario-development work, and its entry / seed
-translation set is **ACCEPTED FOR DEVELOPMENT**. The lived-world condition
-packet set is **ACCEPTED FOR PHASE 17B DEVELOPMENT**: seven packets, all S/K,
-with no C status and no canon packets. Phase 17C has not begun. The production brief is
-`docs/phase_briefs/phase17b_future_world_translation.md`; the first seed matrix
-and human-review cards are in
-`reports/phase17b_future_translation_seed_matrix.md`. No future-condition seed
-is canon yet; the 15 units remain S/K material with 0 canon units; Phase 1–16
+Phase 17B is complete and accepted for initial future-world translation. Its
+production brief, seed matrix, and lived-world packets remain unchanged as
+records of that work; acceptance does not canonize their conditions. Phase 17C
+uses those packets as its immediate world basis. Its
+[production brief](docs/phase_briefs/phase17c_character_narrative_architecture.md)
+and [role / relationship / thread seeds](reports/phase17c_role_and_story_seed_matrix.md)
+are **ACCEPTED FOR DEVELOPMENT**. Every new seed is K; inherited FT-01/02/03/04/10
+conditions remain S and FT-11/12 remain K. No new E or C is created. Phase 1–16
 scientific baselines remain frozen and unchanged.
 
 - **Phase 17A Prototype 2.3 — CLOSED / ACCEPTED.** Accepted commit:

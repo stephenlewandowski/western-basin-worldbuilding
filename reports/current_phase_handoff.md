@@ -1,6 +1,57 @@
 # Current Phase Handoff
 
-## LEADING CURRENT STATE — Phase 17A COMPLETE / Phase 17B ACTIVE
+## LEADING CURRENT STATE — Phase 17B COMPLETE / Phase 17C ACTIVE
+
+- Transaction: **CHARACTER / NARRATIVE ARCHITECTURE**, after one human-review correction pass.
+  Baseline: `29e988289c8440f7751e6facf66ae9b0ecc6bcf3` (starting clean `main`,
+  matching local `origin/main`). Working branch:
+  `phase17c-character-narrative-architecture`, in the canonical repository
+  `C:\Projects\Public_GitHub\western-basin-worldbuilding`.
+- Phase 17B is **COMPLETE / ACCEPTED for initial future-world translation**.
+  Its seven accepted packets are the immediate basis; their five S / two K
+  statuses do not become canon. Prior 17B brief/seed/packet wording below is
+  retained as historical production context, not the current phase instruction.
+- Phase 17C is **ACTIVE / role and story seed architecture ACCEPTED FOR DEVELOPMENT**
+  after one human-review correction pass.
+  Created [compact brief](../docs/phase_briefs/phase17c_character_narrative_architecture.md)
+  and [role / story matrix](phase17c_role_and_story_seed_matrix.md): ten unnamed K
+  roles, nine typed K intersections and six K thread seeds. All seven packet
+  lineages are represented. All new roles, relationships and threads remain K;
+  0 new C; no Phase 17A S/K promoted to E.
+- Ordinary-life viewpoints: ROLE-04 caregiver, ROLE-08 small repair haulier,
+  ROLE-10 contract cleaner. Authority contrasts: ROLE-04 very low authority;
+  ROLE-06 technical competence without asset-isolation authority; ROLE-09
+  delegated formal authority without full technical knowledge. All six threads
+  retain conflict with normally functioning technology.
+- Mutable status surfaces: `PROJECT_STATUS.md`, `docs/canon_status.md`, and this
+  handoff only. Phase 17A/17B products and Phase 1–16 protected artifacts are
+  outside the edit scope. Great Black Swamp remains **C — HOLD / noncanonical**;
+  Black Swamp Country remains interpretive, without held geometry.
+- Validation: **PASS** for ten K roles with all 22 fields, seven packet lineages,
+  nine relationships, six K threads and all required thread fields. Thread
+  lengths including headings/labels: 300 / 324 / 332 / 333 / 350 / 346 words.
+  ROLE-09 is FT-04-focused; NT-05 uses an off-matrix authorized
+  environmental/public-health communications or review office; REL-05 and REL-11
+  are removed without replacement. Ordinary-life and authority balance,
+  normal-technology conflicts, zero new C, no unsupported probability claims,
+  no held geometry and no S/K-to-E promotion passed content review. Complete
+  tracked diff and both new documents reviewed.
+- Repository-relative Markdown links: **PASS (23)** across all five changed/new
+  documents; whitespace checks include the untracked files. `git diff --check`
+  **PASS**; `npm test` **PASS (22/22, three test files)**; `npm run build` **PASS**.
+  Verified 37 freeze manifests, 655 entries / 646 unique paths; all 646 protected
+  artifact contents match baseline (125 byte-identical; 521 text-only LF/CRLF
+  equivalent; 0 mismatches); changed-path intersection is zero. No accepted
+  Phase 17A/17B product was changed.
+- Correction pass decisions: ROLE-09 is narrowed to public-service access;
+  NT-05 retains ROLE-05 as viewpoint and uses an off-matrix authorized
+  communications/review counterpart; REL-05 and REL-11 are not replaced;
+  choice-under-pressure wording permits genuine alternatives. Names, appearance,
+  full biographies, scenes and canon decisions remain deferred. Commit/push is
+  authorized for this package; retain the Phase 17C branch and do not begin
+  Phase 17D.
+
+## HISTORICAL CHECKPOINT — Phase 17A COMPLETE / Phase 17B ACTIVE
 
 - Transaction type: **SCENARIO TRANSLATION**. Starting synchronized `main` /
   `origin/main` SHA: `50f04bf151537265fa6bfd6c2082f8d37775f692`.
