@@ -21,9 +21,11 @@ See the [coordinate-resolution report](../reports/toledo_water_intake_crib_coord
 
 Great Black Swamp remains **C — HOLD / noncanonical**. Phase 16 remains
 **COMPLETE / ACCEPTED / FROZEN**; Phase 17A Prototype 2.1 **static analytical
-set is ACCEPTED** and Prototype 2.3 **static / 3D low-fi prototype is ACCEPTED**
-(both are analytical prototype components, not final Atlas page composition);
-Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
+set is ACCEPTED**; Phase 17A Prototype 2.3 is **CLOSED / ACCEPTED** at commit
+`47725377817f6db1713b66bc0f8feb939da1b889`; Phase 17A Prototype 4.3 STATIC is
+**ACCEPTED** after human visual QA and one mechanical final-BOUNDARY text-wrap
+correction (both are analytical prototype components, not final Atlas page
+composition). Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
 Earlier phase-boundary entries below retain their at-the-time status wording as
 historical continuity records.
 
@@ -72,20 +74,23 @@ scientific/factual baseline of Phases 1–16 remains **FROZEN** and unchanged.
   No Prototype 2.1 addition creates `release` as a separate process, a
   standalone Maumee Bay polygon, physical Toledo intake geometry for 2.1, or a
   deterministic nutrient → HAB relationship.
-- **Phase 17A Prototype 2.3 STATIC / 3D LOW-FI PROTOTYPE — ACCEPTED.** Accepted
-  panels are 2.3A Existing asset / locational evidence, 2.3B Current structure,
-  2.3C 2075 retrofit concept, and 2.3D Persistence logic. Human visual QA
-  passed; the physical crib locator is verified at **41.699444, -83.259167**;
-  legacy GLOS **41.674960, -83.307900** remains context-only and is not used for
-  geometry; the reference photograph is retained; B/C share identical base crib
-  geometry; C uses additive retrofit overlays only; reconstruction is
-  approximate / inferred with no measured engineering dimensions claimed; E / S
-  / K distinctions remain visible; npm test passed 22/22; npm run build passed;
-  no Phase 1–16 protected artifact changed; and no animation was created.
-- Matplotlib/Python axonometric output was sufficient for this low-fi prototype;
-  Blender was not necessary for this stage but remains available if later
-  production-quality 3D is justified. No additional iteration is needed before
-  Prototype 4.3, which has not begun.
+- **Phase 17A Prototype 2.3 — CLOSED / ACCEPTED** at commit
+  `47725377817f6db1713b66bc0f8feb939da1b889`. Accepted products are 2.3A
+  Existing Asset / Locational Evidence, 2.3B Current Structure, 2.3C 2075
+  Retrofit Concept, and 2.3D Persistence Logic. Accepted findings: the real
+  physical crib location is distinct from the legacy monitoring/dataset
+  coordinate; reconstruction is inferred / non-engineering geometry; current
+  and future states retain the recognizable crib base; the 2075 layer is
+  additive; PERSISTS / MODIFIED / ADDED works; Visual Grammar v0.3 handles
+  evidence → inferred reconstruction → scenario/sketch retrofit; no animation
+  was needed; and no Phase 1–16 frozen artifact changed. The accepted 2.3
+  outputs are unchanged.
+- **Phase 17A Prototype 4.3 STATIC — ACCEPTED** after human visual QA. The
+  final BOUNDARY bullet in 4.3C was corrected mechanically by wrapping its
+  existing wording; no farm element, blockout geometry, scenario assumption,
+  scientific meaning, 4.3A/4.3B/4.3D output, Phase 1–16 protected artifact, or
+  accepted Prototype 2.3 output changed. It remains a synthetic farm unit, not
+  a real parcel or forecast; no Canon is created by this prototype.
 
 ## Current regional canon
 

@@ -1,6 +1,6 @@
 # Project Status
 
-Last reviewed: 2026-09-19
+Last reviewed: 2026-09-22
 
 ## Current physical-asset coordinate disposition
 
@@ -23,9 +23,11 @@ See the [coordinate-resolution report](reports/toledo_water_intake_crib_coordina
 
 Great Black Swamp remains **C — HOLD / noncanonical**. Phase 16 remains
 **COMPLETE / ACCEPTED / FROZEN**; Phase 17A Prototype 2.1 **static analytical
-set is ACCEPTED** and Prototype 2.3 **static / 3D low-fi prototype is ACCEPTED**
-(both are analytical prototype components, not final Atlas page composition);
-Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
+set is ACCEPTED**; Phase 17A Prototype 2.3 is **CLOSED / ACCEPTED** at commit
+`47725377817f6db1713b66bc0f8feb939da1b889`; Phase 17A Prototype 4.3 STATIC is
+**ACCEPTED** after human visual QA and one mechanical final-BOUNDARY text-wrap
+correction (both are analytical prototype components, not final Atlas page
+composition). Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
 Earlier phase-specific entries below retain their at-the-time status wording as
 historical continuity records.
 
@@ -35,21 +37,27 @@ planning/design-only transaction. The accepted planning brief is
 “From Field to Lake” execution brief is
 `docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`.
 
-- **Phase 17A Prototype 2.3 STATIC / 3D LOW-FI PROTOTYPE — ACCEPTED.** Accepted
-  panels: **2.3A Existing asset / locational evidence**, **2.3B Current
-  structure**, **2.3C 2075 retrofit concept**, and **2.3D Persistence logic**.
-  Human visual QA passed. The physical crib locator is corrected and verified at
-  **41.699444, -83.259167**; legacy GLOS **41.674960, -83.307900** remains
-  context-only and is not used for geometry. The reference photograph is
-  retained; B/C share identical base crib geometry; C uses additive retrofit
-  overlays only; the reconstruction is approximate / inferred; no measured
-  engineering dimensions are claimed; E / S / K distinctions remain visible;
+- **Phase 17A Prototype 2.3 — CLOSED / ACCEPTED.** Accepted commit:
+  `47725377817f6db1713b66bc0f8feb939da1b889`. Accepted products: **2.3A
+  Existing Asset / Locational Evidence**, **2.3B Current Structure**, **2.3C
+  2075 Retrofit Concept**, and **2.3D Persistence Logic**. Accepted findings:
+  the real physical crib location is distinguished from the legacy
+  monitoring/dataset coordinate; the reconstruction is clearly inferred /
+  non-engineering geometry; current and future states retain the recognizable
+  crib base; the 2075 layer is additive; **PERSISTS / MODIFIED / ADDED** works;
+  Visual Grammar v0.3 handles evidence → inferred reconstruction →
+  scenario/sketch retrofit; no animation was needed; and no Phase 1–16 frozen
+  artifact changed. Human visual QA passed; `npm test` passed 22/22; and
+  `npm run build` passed. Accepted 2.3 outputs remain unchanged.
+- **Phase 17A Prototype 4.3 STATIC — ACCEPTED.** Accepted products are 4.3A
+  Farm Unit 2075, 4.3B Water + Nutrient Management, 4.3C Farm System Assembly,
+  and 4.3D Operating Logic, with the contact sheet and validation report. Human
+  visual QA passed after one mechanical correction to wrap only the final
+  BOUNDARY bullet in 4.3C; 4.3A/4.3B/4.3D hashes and 4.3C blockout
+  geometry/data semantics remain unchanged. Builder checks passed 16/16;
   `npm test` passed 22/22; `npm run build` passed; no Phase 1–16 protected
-  artifact changed; and no animation was created.
-- Matplotlib/Python axonometric output was sufficient for this low-fi prototype;
-  Blender was not necessary for this stage and remains available if later
-  production-quality 3D is justified. No additional iteration is needed before
-  Prototype 4.3; Prototype 4.3 has not begun.
+  artifact or accepted Prototype 2.3 output changed. This is a synthetic
+  Western Basin farm unit, not a real parcel or forecast.
 
 - Phase 17A Visual Grammar v0.3 remains **ACCEPTED FOR USE** as a viable
   prototype visual language. It is **NOT** a frozen final style specification.

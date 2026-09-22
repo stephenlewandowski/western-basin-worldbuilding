@@ -1,0 +1,382 @@
+{
+  "artifact": "Phase 17A Prototype 4.3 — Farm 2075",
+  "status": "WORKING / AWAITING HUMAN VISUAL QA",
+  "builder": "src/python/atlas/build_spread_4_3_farm_2075.py",
+  "generated": "2026-09-22",
+  "epistemic_contract": {
+    "E": "Evidence / Model constraints from accepted source tables",
+    "S": "Scenario design choice for the 2075 farm arrangement",
+    "C": "World Canon; none created by this prototype",
+    "K": "Sketch / provisional spatial and interface design"
+  },
+  "panels": {
+    "4.3A": {
+      "file": "4_3a_farm_unit_2075.png",
+      "classification": "S/K · MAP / CONCEPT",
+      "purpose": "synthetic farm unit and spatial relationships"
+    },
+    "4.3B": {
+      "file": "4_3b_water_nutrient_management.png",
+      "classification": "E → S/K · SCHEMATIC / FIGURE",
+      "purpose": "qualitative water and nutrient management logic"
+    },
+    "4.3C": {
+      "file": "4_3c_farm_system_assembly.png",
+      "classification": "S/K · 3D / CONCEPT",
+      "purpose": "low-fi spatial-fit and systems-assembly test"
+    },
+    "4.3D": {
+      "file": "4_3d_operating_logic.png",
+      "classification": "E → S/K · FIGURE",
+      "purpose": "integrated but open operating logic"
+    }
+  },
+  "contact_sheet": "4_3_contact_sheet.png",
+  "synthetic_scope": {
+    "real_parcel": false,
+    "forecast": false,
+    "yield_nutrient_profitability_prediction": false,
+    "Great_Black_Swamp_held_geometry": false,
+    "quantitative_encoding": false,
+    "agriculture_primary_land_use": true,
+    "connected_not_closed": true
+  },
+  "inputs": [
+    {
+      "key": "agriculture_hydrology_context",
+      "path": "data/processed/networks/water_system_nodes.csv",
+      "role": "Agriculture/hydrology context: accepted water-system land and wetland nodes; no parcel geometry",
+      "status": "accepted source table / read-only",
+      "row_count": 14,
+      "columns": [
+        "feature_id",
+        "system_id",
+        "feature_name",
+        "feature_type",
+        "reality_status",
+        "canon_status",
+        "scenario_year",
+        "region_primary",
+        "regions_intersected",
+        "commodity_or_flow",
+        "direction",
+        "capacity",
+        "capacity_units",
+        "dependency_type",
+        "criticality",
+        "redundancy",
+        "source_name",
+        "source_url_or_identifier",
+        "retrieved_date",
+        "confidence",
+        "longitude",
+        "latitude",
+        "notes"
+      ]
+    },
+    {
+      "key": "hydrology_relationships",
+      "path": "data/processed/networks/water_system_edges.csv",
+      "role": "Accepted qualitative water movement, drainage, retention, and downstream relationships",
+      "status": "accepted source table / read-only",
+      "row_count": 15,
+      "columns": [
+        "feature_id",
+        "system_id",
+        "from_id",
+        "to_id",
+        "flow_type",
+        "flow_direction",
+        "nominal_flow",
+        "flow_units",
+        "seasonality",
+        "failure_consequence",
+        "scenario_modifier",
+        "relationship_basis",
+        "reality_status",
+        "canon_status",
+        "scenario_year",
+        "source_name",
+        "source_url_or_identifier",
+        "retrieved_date",
+        "confidence",
+        "notes"
+      ]
+    },
+    {
+      "key": "nutrient_flux_relationships",
+      "path": "data/processed/networks/biogeochemical_flux_edges.csv",
+      "role": "Accepted qualitative nutrient/material movement and retention relationships",
+      "status": "accepted source table / read-only",
+      "row_count": 24,
+      "columns": [
+        "edge_id",
+        "from_id",
+        "to_id",
+        "material",
+        "relationship_type",
+        "flux_status",
+        "relationship_basis",
+        "scale",
+        "source_id",
+        "confidence",
+        "quantity_status",
+        "notes",
+        "reality_status",
+        "canon_status"
+      ]
+    },
+    {
+      "key": "nutrient_management_controls",
+      "path": "data/processed/analysis/biogeochemical_control_register.csv",
+      "role": "Accepted nutrient-management, drainage, buffer, wetland, and monitoring control vocabulary",
+      "status": "accepted source table / read-only",
+      "row_count": 10,
+      "columns": [
+        "control_id",
+        "control_type",
+        "control_name",
+        "acts_on",
+        "evidence_support",
+        "source_id",
+        "confidence",
+        "uncertainty"
+      ]
+    },
+    {
+      "key": "ecology_components",
+      "path": "data/processed/networks/ecology_system_nodes.csv",
+      "role": "Accepted generalized ecological components and habitat context",
+      "status": "accepted source table / read-only",
+      "row_count": 16,
+      "columns": [
+        "node_id",
+        "name",
+        "ecological_component",
+        "node_type",
+        "habitat_class",
+        "taxonomic_relevance",
+        "status",
+        "latitude",
+        "longitude",
+        "spatial_role",
+        "source_id",
+        "confidence",
+        "notes"
+      ]
+    },
+    {
+      "key": "ecology_relationships",
+      "path": "data/processed/networks/ecology_system_edges.csv",
+      "role": "Accepted generalized hydro-ecological and habitat interfaces",
+      "status": "accepted source table / read-only",
+      "row_count": 20,
+      "columns": [
+        "edge_id",
+        "from_id",
+        "to_id",
+        "relationship_type",
+        "ecological_function",
+        "relationship_basis",
+        "source_id",
+        "confidence",
+        "notes"
+      ]
+    },
+    {
+      "key": "ecology_indicators",
+      "path": "data/processed/analysis/ecological_indicators_2026.csv",
+      "role": "Accepted contextual inventory indicators; not used for quantitative farm performance",
+      "status": "accepted source table / read-only",
+      "row_count": 3,
+      "columns": [
+        "indicator_id",
+        "ecological_system",
+        "taxonomic_group",
+        "indicator_type",
+        "metric",
+        "value",
+        "units",
+        "year_or_period",
+        "spatial_scope",
+        "source_id",
+        "confidence",
+        "notes"
+      ]
+    },
+    {
+      "key": "energy_assets",
+      "path": "data/processed/networks/energy_system_nodes.csv",
+      "role": "Accepted regional energy/grid/storage context; no farm capacity is inferred",
+      "status": "accepted source table / read-only",
+      "row_count": 18,
+      "columns": [
+        "node_id",
+        "name",
+        "node_type",
+        "asset_class",
+        "fuel_or_technology",
+        "status_2026",
+        "capacity_mw",
+        "capacity_basis",
+        "operator_or_owner",
+        "latitude",
+        "longitude",
+        "source_id",
+        "corroborating_source_id",
+        "confidence",
+        "reality_status",
+        "canon_status",
+        "notes"
+      ]
+    },
+    {
+      "key": "energy_relationships",
+      "path": "data/processed/networks/energy_system_edges.csv",
+      "role": "Accepted qualitative grid/storage dependency context; no power-flow geometry",
+      "status": "accepted source table / read-only",
+      "row_count": 17,
+      "columns": [
+        "edge_id",
+        "from_node_id",
+        "to_node_id",
+        "relationship_type",
+        "relationship_basis",
+        "source_id",
+        "confidence",
+        "reality_status",
+        "canon_status",
+        "notes"
+      ]
+    },
+    {
+      "key": "technology_capabilities",
+      "path": "data/processed/analysis/technology_system_nodes.csv",
+      "role": "Accepted technology capability and adoption boundaries",
+      "status": "accepted source table / read-only",
+      "row_count": 18,
+      "columns": [
+        "technology_id",
+        "technology_family",
+        "technology_label",
+        "technology_status",
+        "capability_scope",
+        "current_or_emerging",
+        "regional_relevance",
+        "source_id",
+        "regional_evidence_source_id",
+        "evidence_class",
+        "governance_interface",
+        "adoption_boundary",
+        "uncertainty",
+        "notes"
+      ]
+    },
+    {
+      "key": "technology_interfaces",
+      "path": "data/processed/integration/technology_system_interfaces.csv",
+      "role": "Accepted qualitative sensing, data, energy, and system-interface vocabulary",
+      "status": "accepted source table / read-only",
+      "row_count": 44,
+      "columns": [
+        "interface_id",
+        "technology_id",
+        "technology_family",
+        "technology_label",
+        "technology_status",
+        "source_system_id",
+        "target_system_id",
+        "interface_type",
+        "normalized_relationship_class",
+        "evidence_class",
+        "current_or_emerging",
+        "regional_relevance",
+        "dependency_basis",
+        "governance_interface",
+        "uncertainty",
+        "source_id",
+        "notes"
+      ]
+    },
+    {
+      "key": "technology_dependencies",
+      "path": "data/processed/integration/technology_dependencies.csv",
+      "role": "Accepted dependencies for energy, communications, data, maintenance, and workforce",
+      "status": "accepted source table / read-only",
+      "row_count": 32,
+      "columns": [
+        "dependency_id",
+        "technology_id",
+        "technology_family",
+        "dependency_class",
+        "dependency_role",
+        "dependency_label",
+        "affected_system_id",
+        "technology_status",
+        "evidence_class",
+        "regional_relevance",
+        "dependency_basis",
+        "limitation",
+        "governance_interface",
+        "uncertainty",
+        "source_id",
+        "notes"
+      ]
+    }
+  ],
+  "scenario_assumptions": [
+    {
+      "id": "S-K-FARM-UNIT",
+      "choice": "A synthetic farm unit at the Maumee River Commons / Black Swamp Country interface",
+      "status": "S/K",
+      "boundary": "Not a real parcel, site plan, or geographic claim"
+    },
+    {
+      "id": "S-K-PRODUCTIVE-MOSAIC",
+      "choice": "Annual fields remain the largest and visually dominant land-use blocks; perennial strips, habitat, and wetland cells are interleaved",
+      "status": "S/K",
+      "boundary": "Area is illustrative; no acreage, yield, or adoption rate is encoded"
+    },
+    {
+      "id": "S-K-WATER-INTERFACES",
+      "choice": "Controlled drainage, ditches, retention/wetland cells, storage, and supplemental reuse are connected as operating interfaces",
+      "status": "S/K",
+      "boundary": "Drainage and retention do not eliminate nutrient loss or downstream export"
+    },
+    {
+      "id": "S-K-ENERGY-STACK",
+      "choice": "Solar generation and storage supplement grid/fuel service for pumps, greenhouse, sensing, and repair work",
+      "status": "S/K",
+      "boundary": "Renewable generation is not energy independence"
+    },
+    {
+      "id": "S-K-MAINTENANCE",
+      "choice": "Repair building, staging yard, access lanes, pumps, gates, cabinets, and replaceable modules remain visible",
+      "status": "S/K",
+      "boundary": "Automation does not remove human work or service inputs"
+    },
+    {
+      "id": "S-K-CONTROL",
+      "choice": "Sensors feed records and human-supervised decisions; gates and pumps are interfaces, not autonomous authority",
+      "status": "S/K",
+      "boundary": "Monitoring is not control; sensing is not a successful response"
+    }
+  ],
+  "boundary_rules": [
+    "drainage management ≠ elimination of nutrient loss",
+    "wetland retention ≠ complete nutrient removal",
+    "monitoring ≠ control",
+    "sensing ≠ successful response",
+    "automation ≠ decision authority",
+    "renewable generation ≠ energy independence",
+    "water reuse ≠ closed-loop water system",
+    "habitat features ≠ guaranteed biodiversity recovery",
+    "greenhouse / CEA ≠ replacement for field agriculture",
+    "connected systems ≠ self-sufficient farm"
+  ],
+  "validation": {
+    "builder_checks_passed": 16,
+    "builder_checks_total": 16,
+    "human_visual_qa": "PENDING"
+  }
+}

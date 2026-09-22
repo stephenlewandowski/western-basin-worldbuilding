@@ -1,28 +1,38 @@
 # Current Phase Handoff
 
-## LEADING CURRENT STATE — Phase 17A Prototype 2.3 ACCEPTED
+## LEADING CURRENT STATE — Phase 17A Prototype 4.3 STATIC ACCEPTED; Prototype 2.3 CLOSED
 
-- Transaction type: **ACCEPTANCE / DELIVERY** of the Phase 17A Prototype 2.3
-  Toledo Water Intake Crib static / 3D low-fi prototype. Starting synchronized
-  `main` / `origin/main` SHA: `3766b87d6de0a0bb721f500f854d6a0017aaac8d`.
-- **Phase 17A Prototype 2.3 STATIC / 3D LOW-FI PROTOTYPE — ACCEPTED.** Accepted
-  panels: **2.3A Existing asset / locational evidence**, **2.3B Current
-  structure**, **2.3C 2075 retrofit concept**, and **2.3D Persistence logic**.
-- Acceptance basis: human visual QA passed; the 2.3A physical crib locator was
-  corrected and verified; physical crib coordinate is **41.699444, -83.259167**;
-  legacy GLOS coordinate **41.674960, -83.307900** remains context-only and is
-  not used for geometry; the reference photograph is retained; B/C share
-  identical base crib geometry; C uses additive retrofit overlays only; the
-  reconstruction is explicitly approximate / inferred; no measured engineering
-  dimensions are claimed; E / S / K distinctions remain visible; `npm test`
-  **PASS 22/22**; `npm run build` **PASS**; no Phase 1–16 protected artifact
-  changed; and no animation was created.
-- Matplotlib/Python axonometric output was sufficient for this low-fi prototype.
-  Blender remains available but was not necessary for this stage; future
-  production-quality 3D may use Blender if later justified.
-- No additional iteration is needed before moving to Prototype 4.3. Prototype
-  4.3 has **not begun**. Phase 17 remains **NOT COMPLETE**; Active phase remains
-  **NONE**; no release or tag.
+- Transaction type: **ACCEPTANCE / DELIVERY**. Starting clean synchronized
+  `main` / `origin/main` SHA: `47725377817f6db1713b66bc0f8feb939da1b889`.
+- **Phase 17A Prototype 2.3 — CLOSED / ACCEPTED** at commit
+  `47725377817f6db1713b66bc0f8feb939da1b889`. Accepted products: 2.3A Existing
+  Asset / Locational Evidence, 2.3B Current Structure, 2.3C 2075 Retrofit
+  Concept, and 2.3D Persistence Logic. Accepted 2.3 outputs are unchanged.
+- **Phase 17A Prototype 4.3 STATIC — ACCEPTED.** Four static panels, a contact
+  sheet, source manifest, validation report, and two compact Python source files
+  are included. Human visual QA passed after one mechanical correction wrapping
+  only the final BOUNDARY bullet in 4.3C. No animation, Prototype 5.3, Phase
+  1–16 change, or new scientific scope is included.
+- Builder semantic validation passed **16/16**; all 12 required accepted source
+  tables loaded with required schemas; renderer text-containment and collision
+  QA passed; `npm run test` passed **22/22**; `npm run build` passed; and
+  `git diff --check` passed. The 4.3A/4.3B/4.3D hashes and 4.3C blockout
+  geometry/data semantics are unchanged; the validation report records no
+  protected Phase 1–16 or accepted Prototype 2.3 changes.
+- Farm 2075 remains a **synthetic Western Basin farm unit**. E marks
+  evidence/model constraints; S/K marks scenario and sketch design choices. It
+  is not a real parcel, forecast, yield/nutrient/profitability prediction, or
+  claim about all farms.
+- Phase 17 remains **NOT COMPLETE**; Active phase is **NONE**; Great Black Swamp
+  remains **C — HOLD / noncanonical**; no release or tag. Do not begin
+  Prototype 5.3 in this transaction.
+- The source manifest remains the builder's pre-visual-QA WORKING / PENDING
+  inventory; final STATIC acceptance is recorded in the validation report and
+  the mutable project status surfaces after visual QA.
+- Exact outputs: `outputs/atlas/prototypes/4_3_farm_2075/4_3a_farm_unit_2075.png`,
+  `4_3b_water_nutrient_management.png`, `4_3c_farm_system_assembly.png`,
+  `4_3d_operating_logic.png`, `4_3_contact_sheet.png`,
+  `4_3_source_manifest.json`, and `4_3_validation_report.md`.
 
 ## HISTORICAL CHECKPOINT — Phase 17A Prototype 2.1 animation CLOSED as DROP / CHANGE MEDIUM
 
