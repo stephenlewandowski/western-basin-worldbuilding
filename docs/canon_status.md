@@ -21,8 +21,9 @@ See the [coordinate-resolution report](../reports/toledo_water_intake_crib_coord
 
 Great Black Swamp remains **C — HOLD / noncanonical**. Phase 16 remains
 **COMPLETE / ACCEPTED / FROZEN**; Phase 17A Prototype 2.1 **static analytical
-set is ACCEPTED** (analytical prototype component, not final Atlas page
-composition); Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
+set is ACCEPTED** and Prototype 2.3 **static / 3D low-fi prototype is ACCEPTED**
+(both are analytical prototype components, not final Atlas page composition);
+Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
 Earlier phase-boundary entries below retain their at-the-time status wording as
 historical continuity records.
 
@@ -71,6 +72,20 @@ scientific/factual baseline of Phases 1–16 remains **FROZEN** and unchanged.
   No Prototype 2.1 addition creates `release` as a separate process, a
   standalone Maumee Bay polygon, physical Toledo intake geometry for 2.1, or a
   deterministic nutrient → HAB relationship.
+- **Phase 17A Prototype 2.3 STATIC / 3D LOW-FI PROTOTYPE — ACCEPTED.** Accepted
+  panels are 2.3A Existing asset / locational evidence, 2.3B Current structure,
+  2.3C 2075 retrofit concept, and 2.3D Persistence logic. Human visual QA
+  passed; the physical crib locator is verified at **41.699444, -83.259167**;
+  legacy GLOS **41.674960, -83.307900** remains context-only and is not used for
+  geometry; the reference photograph is retained; B/C share identical base crib
+  geometry; C uses additive retrofit overlays only; reconstruction is
+  approximate / inferred with no measured engineering dimensions claimed; E / S
+  / K distinctions remain visible; npm test passed 22/22; npm run build passed;
+  no Phase 1–16 protected artifact changed; and no animation was created.
+- Matplotlib/Python axonometric output was sufficient for this low-fi prototype;
+  Blender was not necessary for this stage but remains available if later
+  production-quality 3D is justified. No additional iteration is needed before
+  Prototype 4.3, which has not begun.
 
 ## Current regional canon
 

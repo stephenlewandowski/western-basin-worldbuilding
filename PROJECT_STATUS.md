@@ -23,8 +23,9 @@ See the [coordinate-resolution report](reports/toledo_water_intake_crib_coordina
 
 Great Black Swamp remains **C — HOLD / noncanonical**. Phase 16 remains
 **COMPLETE / ACCEPTED / FROZEN**; Phase 17A Prototype 2.1 **static analytical
-set is ACCEPTED** (analytical prototype component, not final Atlas page
-composition); Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
+set is ACCEPTED** and Prototype 2.3 **static / 3D low-fi prototype is ACCEPTED**
+(both are analytical prototype components, not final Atlas page composition);
+Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
 Earlier phase-specific entries below retain their at-the-time status wording as
 historical continuity records.
 
@@ -33,6 +34,22 @@ planning/design-only transaction. The accepted planning brief is
 `docs/phase_briefs/phase17a_atlas_architecture.md`; the finalized Prototype 2.1
 “From Field to Lake” execution brief is
 `docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`.
+
+- **Phase 17A Prototype 2.3 STATIC / 3D LOW-FI PROTOTYPE — ACCEPTED.** Accepted
+  panels: **2.3A Existing asset / locational evidence**, **2.3B Current
+  structure**, **2.3C 2075 retrofit concept**, and **2.3D Persistence logic**.
+  Human visual QA passed. The physical crib locator is corrected and verified at
+  **41.699444, -83.259167**; legacy GLOS **41.674960, -83.307900** remains
+  context-only and is not used for geometry. The reference photograph is
+  retained; B/C share identical base crib geometry; C uses additive retrofit
+  overlays only; the reconstruction is approximate / inferred; no measured
+  engineering dimensions are claimed; E / S / K distinctions remain visible;
+  `npm test` passed 22/22; `npm run build` passed; no Phase 1–16 protected
+  artifact changed; and no animation was created.
+- Matplotlib/Python axonometric output was sufficient for this low-fi prototype;
+  Blender was not necessary for this stage and remains available if later
+  production-quality 3D is justified. No additional iteration is needed before
+  Prototype 4.3; Prototype 4.3 has not begun.
 
 - Phase 17A Visual Grammar v0.3 remains **ACCEPTED FOR USE** as a viable
   prototype visual language. It is **NOT** a frozen final style specification.

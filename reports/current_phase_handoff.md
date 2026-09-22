@@ -1,6 +1,30 @@
 # Current Phase Handoff
 
-## LEADING CURRENT STATE — Phase 17A Prototype 2.1 animation CLOSED as DROP / CHANGE MEDIUM
+## LEADING CURRENT STATE — Phase 17A Prototype 2.3 ACCEPTED
+
+- Transaction type: **ACCEPTANCE / DELIVERY** of the Phase 17A Prototype 2.3
+  Toledo Water Intake Crib static / 3D low-fi prototype. Starting synchronized
+  `main` / `origin/main` SHA: `3766b87d6de0a0bb721f500f854d6a0017aaac8d`.
+- **Phase 17A Prototype 2.3 STATIC / 3D LOW-FI PROTOTYPE — ACCEPTED.** Accepted
+  panels: **2.3A Existing asset / locational evidence**, **2.3B Current
+  structure**, **2.3C 2075 retrofit concept**, and **2.3D Persistence logic**.
+- Acceptance basis: human visual QA passed; the 2.3A physical crib locator was
+  corrected and verified; physical crib coordinate is **41.699444, -83.259167**;
+  legacy GLOS coordinate **41.674960, -83.307900** remains context-only and is
+  not used for geometry; the reference photograph is retained; B/C share
+  identical base crib geometry; C uses additive retrofit overlays only; the
+  reconstruction is explicitly approximate / inferred; no measured engineering
+  dimensions are claimed; E / S / K distinctions remain visible; `npm test`
+  **PASS 22/22**; `npm run build` **PASS**; no Phase 1–16 protected artifact
+  changed; and no animation was created.
+- Matplotlib/Python axonometric output was sufficient for this low-fi prototype.
+  Blender remains available but was not necessary for this stage; future
+  production-quality 3D may use Blender if later justified.
+- No additional iteration is needed before moving to Prototype 4.3. Prototype
+  4.3 has **not begun**. Phase 17 remains **NOT COMPLETE**; Active phase remains
+  **NONE**; no release or tag.
+
+## HISTORICAL CHECKPOINT — Phase 17A Prototype 2.1 animation CLOSED as DROP / CHANGE MEDIUM
 
 - Transaction type: **RECORD** of the Phase 17A Prototype 2.1 “From Field to
   Lake” animation findings. Starting synchronized `main` / `origin/main` SHA:
@@ -29,7 +53,8 @@
   effectively in a static figure.
 - Active phase remains **NONE**; Phase 17 module remains **NOT COMPLETE**.
   Phase 1–16 canon baselines remain **FROZEN** and unchanged; no accepted
-    static artifact changed; no release or tag; no Prototype 2.3 begun.
+    static artifact changed; no release or tag; Prototype 2.3 was not yet begun
+    at this historical checkpoint.
 
 ## HISTORICAL CHECKPOINT — Phase 17A static acceptance
 - **Phase 17A Prototype 2.1 STATIC analytical set is ACCEPTED.** Accepted

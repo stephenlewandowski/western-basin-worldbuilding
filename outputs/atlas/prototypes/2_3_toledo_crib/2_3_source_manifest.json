@@ -1,0 +1,49 @@
+{
+  "artifact": "2.3 Toledo water-intake crib spread",
+  "builder": "src/python/atlas/build_spread_2_3_toledo_crib.py",
+  "generated": "2026-09-22",
+  "panels": {
+    "A": {
+      "file": "2_3a_existing_asset.png",
+      "classification": "E \u00b7 PHOTO/MAP",
+      "content": "existing asset and locational evidence"
+    },
+    "B": {
+      "file": "2_3b_current_structure.png",
+      "classification": "E/K \u00b7 3D",
+      "content": "approximate current structure"
+    },
+    "C": {
+      "file": "2_3c_2075_retrofit.png",
+      "classification": "S/K \u00b7 3D/CONCEPT",
+      "content": "additive 2075 retrofit"
+    },
+    "D": {
+      "file": "2_3d_persistence.png",
+      "classification": "E \u2192 S/K \u00b7 FIGURE",
+      "content": "persistence logic"
+    }
+  },
+  "contact_sheet": "2_3_contact_sheet.png",
+  "coordinates": {
+    "physical_crib": {
+      "latitude": 41.699444,
+      "longitude": -83.259167,
+      "use": "physical crib location; geometry reference"
+    },
+    "legacy_GLOS": {
+      "latitude": 41.67496,
+      "longitude": -83.3079,
+      "use": "legacy context only; never used as physical crib geometry"
+    }
+  },
+  "geometry": {
+    "dimensions": "none measured",
+    "basis": "approximate/inferred from assets/reference/toledo_water_intake_crib.jpg",
+    "b_c_base_geometry": "identical drawing primitives and coordinates; panel C only adds retrofit geometry"
+  },
+  "source_files": [
+    "assets/reference/toledo_water_intake_crib.jpg",
+    "src/python/atlas/atlas_ph2_3_common.py"
+  ]
+}
