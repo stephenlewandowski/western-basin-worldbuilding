@@ -1,9 +1,9 @@
 # Current Phase Handoff
 
-## LEADING CURRENT STATE — Phase 17A Prototype 4.3 STATIC ACCEPTED; Prototype 2.3 CLOSED
+## LEADING CURRENT STATE — Phase 17A Prototype 5.3 ACCEPTED; Prototype 4.3 STATIC ACCEPTED; Prototype 2.3 CLOSED
 
-- Transaction type: **ACCEPTANCE / DELIVERY**. Starting clean synchronized
-  `main` / `origin/main` SHA: `47725377817f6db1713b66bc0f8feb939da1b889`.
+- Transaction type: **ACCEPTANCE / DELIVERY**. Starting synchronized `main` /
+  `origin/main` SHA: `8c03a47fe4b1ccb950f41c5ad46982666d53724c`.
 - **Phase 17A Prototype 2.3 — CLOSED / ACCEPTED** at commit
   `47725377817f6db1713b66bc0f8feb939da1b889`. Accepted products: 2.3A Existing
   Asset / Locational Evidence, 2.3B Current Structure, 2.3C 2075 Retrofit
@@ -11,8 +11,8 @@
 - **Phase 17A Prototype 4.3 STATIC — ACCEPTED.** Four static panels, a contact
   sheet, source manifest, validation report, and two compact Python source files
   are included. Human visual QA passed after one mechanical correction wrapping
-  only the final BOUNDARY bullet in 4.3C. No animation, Prototype 5.3, Phase
-  1–16 change, or new scientific scope is included.
+  only the final BOUNDARY bullet in 4.3C. No animation, Phase 1–16 change, or
+  new scientific scope is included.
 - Builder semantic validation passed **16/16**; all 12 required accepted source
   tables loaded with required schemas; renderer text-containment and collision
   QA passed; `npm run test` passed **22/22**; `npm run build` passed; and
@@ -23,13 +23,26 @@
   evidence/model constraints; S/K marks scenario and sketch design choices. It
   is not a real parcel, forecast, yield/nutrient/profitability prediction, or
   claim about all farms.
+- **Phase 17A Prototype 5.3 — ACCEPTED.** Accepted outputs are 5.3A Industrial
+  District 2075, 5.3B Exchange Network, 5.3C Residual to Qualified Input, and
+  5.3D Open System / Governance, with the contact sheet, source manifest, and
+  validation report. Builder semantic checks passed **18/18**. Qualitative-only
+  encoding, external system boundaries, residual ≠ recoverable resource ≠
+  qualified input, explicit institutional/governance, maintenance/replacement
+  dependence, **CONNECTED, NOT CLOSED**, and more connected ≠ self-sufficient
+  are preserved. No canon was created; no animation is required; no Phase 1–16
+  frozen artifact changed.
 - Phase 17 remains **NOT COMPLETE**; Active phase is **NONE**; Great Black Swamp
-  remains **C — HOLD / noncanonical**; no release or tag. Do not begin
-  Prototype 5.3 in this transaction.
+  remains **C — HOLD / noncanonical**; no release or tag.
 - The source manifest remains the builder's pre-visual-QA WORKING / PENDING
   inventory; final STATIC acceptance is recorded in the validation report and
-  the mutable project status surfaces after visual QA.
-- Exact outputs: `outputs/atlas/prototypes/4_3_farm_2075/4_3a_farm_unit_2075.png`,
+  the mutable project status surfaces after acceptance.
+- Exact Prototype 5.3 outputs: `outputs/atlas/prototypes/5_3_industrial_exchange/5_3a_industrial_district.png`,
+  `5_3b_exchange_network.png`, `5_3c_residual_to_input.png`,
+  `5_3d_open_system_governance.png`, `5_3_contact_sheet.png`,
+  `5_3_source_manifest.json`, and `5_3_validation_report.md`.
+- Prior accepted Prototype 4.3 outputs remain at
+  `outputs/atlas/prototypes/4_3_farm_2075/4_3a_farm_unit_2075.png`,
   `4_3b_water_nutrient_management.png`, `4_3c_farm_system_assembly.png`,
   `4_3d_operating_logic.png`, `4_3_contact_sheet.png`,
   `4_3_source_manifest.json`, and `4_3_validation_report.md`.

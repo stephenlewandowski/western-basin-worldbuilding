@@ -24,8 +24,9 @@ Great Black Swamp remains **C — HOLD / noncanonical**. Phase 16 remains
 set is ACCEPTED**; Phase 17A Prototype 2.3 is **CLOSED / ACCEPTED** at commit
 `47725377817f6db1713b66bc0f8feb939da1b889`; Phase 17A Prototype 4.3 STATIC is
 **ACCEPTED** after human visual QA and one mechanical final-BOUNDARY text-wrap
-correction (both are analytical prototype components, not final Atlas page
-composition). Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
+correction; Phase 17A Prototype 5.3 **Industrial Exchange District is ACCEPTED**
+(all are analytical prototype components, not final Atlas page composition).
+Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
 Earlier phase-boundary entries below retain their at-the-time status wording as
 historical continuity records.
 
@@ -91,6 +92,16 @@ scientific/factual baseline of Phases 1–16 remains **FROZEN** and unchanged.
   scientific meaning, 4.3A/4.3B/4.3D output, Phase 1–16 protected artifact, or
   accepted Prototype 2.3 output changed. It remains a synthetic farm unit, not
   a real parcel or forecast; no Canon is created by this prototype.
+- **Phase 17A Prototype 5.3 — ACCEPTED** under the current acceptance decision.
+  Accepted
+  outputs are 5.3A Industrial District 2075, 5.3B Exchange Network, 5.3C
+  Residual to Qualified Input, and 5.3D Open System / Governance, with the
+  contact sheet, source manifest, and validation report. Qualitative-only
+  encoding, visible external boundaries, residual ≠ recoverable resource ≠
+  qualified input, explicit institutional/governance, maintenance/replacement
+  dependence, **CONNECTED, NOT CLOSED**, and more connected ≠ self-sufficient
+  are preserved. This synthetic S/K prototype creates no canon and requires no
+  animation; Phase 1–16 frozen artifacts remain unchanged.
 
 ## Current regional canon
 

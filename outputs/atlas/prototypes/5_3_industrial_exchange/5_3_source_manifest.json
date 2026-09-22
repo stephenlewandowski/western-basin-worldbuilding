@@ -1,0 +1,738 @@
+{
+  "artifact": "Phase 17A Prototype 5.3 — Old Industry, New Metabolism / Western Basin Industrial Exchange District 2075",
+  "status": "WORKING / AWAITING HUMAN VISUAL QA",
+  "builder": "src/python/atlas/build_spread_5_3_industrial_exchange.py",
+  "generated": "2026-09-22",
+  "epistemic_contract": {
+    "E": "Accepted evidence/model constraints and dependency vocabulary inherited from frozen Phase 14–16 tables",
+    "S": "Plausible 2075 interfaces and scenario-conditioned coordination possibilities",
+    "C": "World Canon; none created by this prototype",
+    "K": "Selected synthetic district arrangement and sketch exchange network"
+  },
+  "panels": {
+    "5.3A": {
+      "file": "5_3a_industrial_district.png",
+      "classification": "S/K · MAP / 3D / CONCEPT",
+      "purpose": "synthetic accumulated industrial district plan"
+    },
+    "5.3B": {
+      "file": "5_3b_exchange_network.png",
+      "classification": "S/K · SCHEMATIC",
+      "purpose": "selected qualitative exchange network with edge-family distinctions"
+    },
+    "5.3C": {
+      "file": "5_3c_residual_to_input.png",
+      "classification": "S/K · FIGURE / SCHEMATIC",
+      "purpose": "residual-to-qualified-input gate for thermal and material examples"
+    },
+    "5.3D": {
+      "file": "5_3d_open_system_governance.png",
+      "classification": "S/K · FIGURE",
+      "purpose": "open-system boundaries and explicit institutional coordination"
+    }
+  },
+  "contact_sheet": "5_3_contact_sheet.png",
+  "synthetic_scope": {
+    "synthetic_district": true,
+    "forecast": false,
+    "real_parcel": false,
+    "quantitative_encoding": false,
+    "closed_loop_claim": false,
+    "self_sufficient_claim": false,
+    "external_boundaries_visible": true,
+    "institutional_layer_visible": true,
+    "residual_resource_input_distinction": true,
+    "animation_used": false
+  },
+  "district_nodes": [
+    {
+      "node_id": "legacy_industry",
+      "label": "LEGACY INDUSTRIAL PLANT",
+      "status": "S/K",
+      "spatial_identity": "synthetic / illustrative"
+    },
+    {
+      "node_id": "advanced_manufacturing",
+      "label": "ADVANCED MANUFACTURING / REMANUFACTURING",
+      "status": "S/K",
+      "spatial_identity": "synthetic / illustrative"
+    },
+    {
+      "node_id": "materials_recovery",
+      "label": "MATERIALS RECOVERY / SORTING",
+      "status": "S/K",
+      "spatial_identity": "synthetic / illustrative"
+    },
+    {
+      "node_id": "greenhouse_cea",
+      "label": "GREENHOUSE / CONTROLLED ENVIRONMENT",
+      "status": "S/K",
+      "spatial_identity": "synthetic / illustrative"
+    },
+    {
+      "node_id": "water_wastewater",
+      "label": "WATER / WASTEWATER TREATMENT",
+      "status": "S/K",
+      "spatial_identity": "synthetic / illustrative"
+    },
+    {
+      "node_id": "energy_storage",
+      "label": "ENERGY HUB / STORAGE",
+      "status": "S/K",
+      "spatial_identity": "synthetic / illustrative"
+    },
+    {
+      "node_id": "freight_logistics",
+      "label": "FREIGHT / LOGISTICS NODE",
+      "status": "S/K",
+      "spatial_identity": "synthetic / illustrative"
+    },
+    {
+      "node_id": "ecology_stormwater",
+      "label": "ECOLOGICAL / STORMWATER EDGE",
+      "status": "S/K",
+      "spatial_identity": "synthetic / illustrative"
+    },
+    {
+      "node_id": "data_coordination",
+      "label": "DATA / COORDINATION LAYER",
+      "status": "S/K",
+      "spatial_identity": "synthetic / illustrative"
+    },
+    {
+      "node_id": "service_maintenance",
+      "label": "SERVICE / MAINTENANCE",
+      "status": "S/K",
+      "spatial_identity": "synthetic / illustrative"
+    }
+  ],
+  "edge_families": [
+    "dependency",
+    "discharge",
+    "external_input",
+    "information",
+    "internal_use",
+    "product_output",
+    "recirculation",
+    "recovery",
+    "residual_output",
+    "scenario_interface",
+    "sketch_interface",
+    "transformation"
+  ],
+  "edge_semantics": [
+    {
+      "edge_id": "EDGE-01",
+      "family": "external_input",
+      "status": "E → S",
+      "label": "regional grid / fuel → energy hub",
+      "exchange": "electricity / energy"
+    },
+    {
+      "edge_id": "EDGE-02",
+      "family": "external_input",
+      "status": "E → S",
+      "label": "water / chemistry supply → treatment",
+      "exchange": "water"
+    },
+    {
+      "edge_id": "EDGE-03",
+      "family": "external_input",
+      "status": "E → S",
+      "label": "regional materials market → legacy plant",
+      "exchange": "materials / components"
+    },
+    {
+      "edge_id": "EDGE-04",
+      "family": "external_input",
+      "status": "E → S",
+      "label": "regional freight → logistics node",
+      "exchange": "freight / logistics"
+    },
+    {
+      "edge_id": "EDGE-05",
+      "family": "internal_use",
+      "status": "S/K",
+      "label": "energy hub → plants / greenhouse",
+      "exchange": "electricity / energy"
+    },
+    {
+      "edge_id": "EDGE-06",
+      "family": "recovery",
+      "status": "S/K",
+      "label": "legacy plant → recovery",
+      "exchange": "residual / waste heat"
+    },
+    {
+      "edge_id": "EDGE-07",
+      "family": "transformation",
+      "status": "S/K",
+      "label": "recovery → remanufacturing",
+      "exchange": "qualified material possibility"
+    },
+    {
+      "edge_id": "EDGE-08",
+      "family": "scenario_interface",
+      "status": "S",
+      "label": "legacy plant → greenhouse",
+      "exchange": "possible thermal interface"
+    },
+    {
+      "edge_id": "EDGE-09",
+      "family": "recirculation",
+      "status": "S/K",
+      "label": "treated water → greenhouse",
+      "exchange": "treated water"
+    },
+    {
+      "edge_id": "EDGE-10",
+      "family": "residual_output",
+      "status": "S/K",
+      "label": "recovery → off-site treatment",
+      "exchange": "unsuitable residual"
+    },
+    {
+      "edge_id": "EDGE-11",
+      "family": "discharge",
+      "status": "S/K",
+      "label": "treatment → watershed / ecological edge",
+      "exchange": "managed discharge"
+    },
+    {
+      "edge_id": "EDGE-12",
+      "family": "product_output",
+      "status": "S/K",
+      "label": "remanufacturing → product markets",
+      "exchange": "products / components"
+    },
+    {
+      "edge_id": "EDGE-13",
+      "family": "product_output",
+      "status": "S/K",
+      "label": "logistics → regional freight boundary",
+      "exchange": "freight / logistics"
+    },
+    {
+      "edge_id": "EDGE-14",
+      "family": "information",
+      "status": "E → S",
+      "label": "data / coordination → selected operators",
+      "exchange": "information / control"
+    },
+    {
+      "edge_id": "EDGE-15",
+      "family": "dependency",
+      "status": "E → S",
+      "label": "standards / contracts → selected exchanges",
+      "exchange": "institutional coordination"
+    },
+    {
+      "edge_id": "EDGE-16",
+      "family": "sketch_interface",
+      "status": "K",
+      "label": "service / maintenance → district nodes",
+      "exchange": "maintenance / replacement"
+    }
+  ],
+  "encoding_contract": {
+    "material_energy_edges": "qualitative constant-width line treatment",
+    "line_width_quantity_encoding": false,
+    "brightness_quantity_encoding": false,
+    "particle_count_quantity_encoding": false,
+    "color_intensity_quantity_encoding": false,
+    "network_scope": "selected sketch relationships only; not exhaustive"
+  },
+  "inputs": [
+    {
+      "key": "phase14b_atlas_dependency_crosswalk",
+      "path": "data/processed/integration/atlas_dependency_crosswalk.csv",
+      "role": "Accepted Phase 14B Atlas dependency crosswalk; system-level dependency context with documented/inferred status and caveats preserved",
+      "status": "accepted/frozen source table / read-only",
+      "row_count": 761,
+      "columns": [
+        "atlas_relationship_id",
+        "source_phase",
+        "source_artifact",
+        "local_relationship_id",
+        "source_local_endpoint_id",
+        "target_local_endpoint_id",
+        "source_atlas_entity_id",
+        "target_atlas_entity_id",
+        "source_system_id",
+        "target_system_id",
+        "native_source_system_label",
+        "native_target_system_label",
+        "normalized_relationship_class",
+        "endpoint_role_source",
+        "endpoint_role_target",
+        "source_join_level",
+        "target_join_level",
+        "evidence_class",
+        "documented_or_inferred",
+        "source_id",
+        "evidence_strength",
+        "confidence",
+        "uncertainty_id",
+        "directionality",
+        "spatial_scale",
+        "temporal_basis",
+        "scenario_status",
+        "inference_basis",
+        "uncertainty",
+        "suitable_for_visualization",
+        "suitable_for_qualitative_reasoning",
+        "suitable_for_stress_test_propagation",
+        "suitable_for_quantitative_aggregation",
+        "Atlas_use",
+        "caveat"
+      ]
+    },
+    {
+      "key": "phase14b_relationship_normalization",
+      "path": "data/processed/integration/relationship_normalization_crosswalk.csv",
+      "role": "Accepted Phase 14B relationship vocabulary and flow/governance distinctions; no quantity is imported",
+      "status": "accepted/frozen source table / read-only",
+      "row_count": 367,
+      "columns": [
+        "atlas_normalization_id",
+        "local_taxonomy_id",
+        "local_term",
+        "local_field",
+        "local_term_count",
+        "source_phase",
+        "source_artifact",
+        "normalized_relationship_class",
+        "directionality",
+        "causal_semantics",
+        "flow_semantics",
+        "Atlas_join_role",
+        "mapping_status",
+        "information_loss_or_caveat"
+      ]
+    },
+    {
+      "key": "phase15a_technology_interfaces",
+      "path": "data/processed/integration/technology_system_interfaces.csv",
+      "role": "Accepted Phase 15A technology-system interface vocabulary; records are inferred interfaces, not proof of district deployment",
+      "status": "accepted/frozen source table / read-only",
+      "row_count": 44,
+      "columns": [
+        "interface_id",
+        "technology_id",
+        "technology_family",
+        "technology_label",
+        "technology_status",
+        "source_system_id",
+        "target_system_id",
+        "interface_type",
+        "normalized_relationship_class",
+        "evidence_class",
+        "current_or_emerging",
+        "regional_relevance",
+        "dependency_basis",
+        "governance_interface",
+        "uncertainty",
+        "source_id",
+        "notes"
+      ]
+    },
+    {
+      "key": "phase15a_technology_dependencies",
+      "path": "data/processed/integration/technology_dependencies.csv",
+      "role": "Accepted Phase 15A technology dependency classes for data, communications, energy, materials, workforce, water, and regulatory coordination",
+      "status": "accepted/frozen source table / read-only",
+      "row_count": 32,
+      "columns": [
+        "dependency_id",
+        "technology_id",
+        "technology_family",
+        "dependency_class",
+        "dependency_role",
+        "dependency_label",
+        "affected_system_id",
+        "technology_status",
+        "evidence_class",
+        "regional_relevance",
+        "dependency_basis",
+        "limitation",
+        "governance_interface",
+        "uncertainty",
+        "source_id",
+        "notes"
+      ]
+    },
+    {
+      "key": "phase16a_propagation_relationships",
+      "path": "data/processed/integration/propagation_relationships.csv",
+      "role": "Accepted Phase 16A qualitative dependency/propagation semantics; dependency is not risk, failure, or guaranteed effect",
+      "status": "accepted/frozen source table / read-only",
+      "row_count": 36,
+      "columns": [
+        "relationship_id",
+        "source_system_id",
+        "target_system_id",
+        "relationship_class",
+        "propagation_mechanism",
+        "evidence_class",
+        "direct_or_inferred",
+        "baseline_or_scenario",
+        "relationship_basis",
+        "source_artifact",
+        "source_relationship_id",
+        "source_id",
+        "source_lineage",
+        "limitation",
+        "spatial_character",
+        "temporal_character",
+        "reversibility",
+        "uncertainty",
+        "suitable_for_stress_test_propagation",
+        "notes"
+      ]
+    },
+    {
+      "key": "phase16b_regime_effects",
+      "path": "data/processed/integration/phase16b_regime_effects.csv",
+      "role": "Accepted Phase 16B scenario-conditioned coordination, substitution, and digital-dependence caveats; no scenario is treated as a forecast",
+      "status": "accepted/frozen source table / read-only",
+      "row_count": 24,
+      "columns": [
+        "regime_effect_id",
+        "test_id",
+        "regime_id",
+        "scenario_id",
+        "horizon",
+        "scenario_family",
+        "phase16a_technology_modifier_id",
+        "phase16a_rule_ids",
+        "phase15_modifier_lineage_ids",
+        "phase15_anchor_state_ids",
+        "phase15_state_evidence_class",
+        "observability_effect",
+        "coupling_effect",
+        "dependency_effect",
+        "redundancy_effect",
+        "coordination_effect",
+        "substitution_effect",
+        "governance_friction_effect",
+        "digital_dependence_effect",
+        "phase16a_allowed_effects",
+        "relationship_status",
+        "uncertainty",
+        "source_lineage",
+        "notes"
+      ]
+    }
+  ],
+  "direct_inherited_or_interface_provenance": [
+    {
+      "source": "data/processed/integration/atlas_dependency_crosswalk.csv",
+      "relationship_basis": "Phase 14B accepted Atlas dependency crosswalk; source evidence and documented/inferred status retained",
+      "selected_system_pairs": [
+        {
+          "source_system_id": "SYS-DATA",
+          "target_system_id": "SYS-DATA",
+          "row_count": 20,
+          "example_atlas_relationship_ids": [
+            "AR-4B-IDE-A-001-1873f355",
+            "AR-4B-IDE-A-002-b59c96ac",
+            "AR-4B-IDE-A-003-d733abb9",
+            "AR-4B-IDE-A-004-92930ed8"
+          ]
+        },
+        {
+          "source_system_id": "SYS-DATA",
+          "target_system_id": "SYS-ENERGY",
+          "row_count": 2,
+          "example_atlas_relationship_ids": [
+            "AR-3B-DEP-027-60a602d4",
+            "AR-3B-DEP-028-5a097c3f"
+          ]
+        },
+        {
+          "source_system_id": "SYS-DATA",
+          "target_system_id": "SYS-GOVERNANCE",
+          "row_count": 2,
+          "example_atlas_relationship_ids": [
+            "AR-13B-IDB-012-50ef95ce",
+            "AR-13B-IDB-024-2fcd7455"
+          ]
+        },
+        {
+          "source_system_id": "SYS-ENERGY",
+          "target_system_id": "",
+          "row_count": 4,
+          "example_atlas_relationship_ids": [
+            "AR-3B-DEP-001-f576ba86",
+            "AR-3B-DEP-002-ad5631e4",
+            "AR-3B-DEP-003-d0ce251d",
+            "AR-3B-DEP-004-03623fca"
+          ]
+        },
+        {
+          "source_system_id": "SYS-ENERGY",
+          "target_system_id": "SYS-ENERGY",
+          "row_count": 13,
+          "example_atlas_relationship_ids": [
+            "AR-3B-DEP-005-3fbfe0ce",
+            "AR-3B-DEP-006-030c24e4",
+            "AR-3B-DEP-007-7b459595",
+            "AR-3B-DEP-008-f0f1e3d3"
+          ]
+        },
+        {
+          "source_system_id": "SYS-FREIGHT",
+          "target_system_id": "SYS-ENERGY",
+          "row_count": 1,
+          "example_atlas_relationship_ids": [
+            "AR-5C-FDE-013-a496499f"
+          ]
+        },
+        {
+          "source_system_id": "SYS-FREIGHT",
+          "target_system_id": "SYS-FREIGHT",
+          "row_count": 16,
+          "example_atlas_relationship_ids": [
+            "AR-5C-FDE-001-7feb31ca",
+            "AR-5C-FDE-002-fec56d21",
+            "AR-5C-FDE-003-188a2b76",
+            "AR-5C-FDE-004-4ac3be5f"
+          ]
+        },
+        {
+          "source_system_id": "SYS-FREIGHT",
+          "target_system_id": "SYS-INFECTIOUS-DISEASE",
+          "row_count": 1,
+          "example_atlas_relationship_ids": [
+            "AR-13B-IDB-015-291c716f"
+          ]
+        },
+        {
+          "source_system_id": "SYS-GOVERNANCE",
+          "target_system_id": "",
+          "row_count": 1,
+          "example_atlas_relationship_ids": [
+            "AR-12B-VDE-027-b74ce8a9"
+          ]
+        },
+        {
+          "source_system_id": "SYS-GOVERNANCE",
+          "target_system_id": "SYS-GOVERNANCE",
+          "row_count": 14,
+          "example_atlas_relationship_ids": [
+            "AR-10B-GDEP-006-c366a062",
+            "AR-10B-GDEP-007-ab4adc56",
+            "AR-10B-GDEP-008-0c18b4ec",
+            "AR-10B-GDEP-009-d1da76a2"
+          ]
+        },
+        {
+          "source_system_id": "SYS-GOVERNANCE",
+          "target_system_id": "SYS-WATER",
+          "row_count": 5,
+          "example_atlas_relationship_ids": [
+            "AR-10B-GDEP-001-f50f412f",
+            "AR-10B-GDEP-018-20c52bbc",
+            "AR-10B-GDEP-019-1bdecb34",
+            "AR-10B-GDEP-020-6bc2d4d5"
+          ]
+        },
+        {
+          "source_system_id": "SYS-WATER",
+          "target_system_id": "SYS-ENERGY",
+          "row_count": 6,
+          "example_atlas_relationship_ids": [
+            "AR-3B-DEP-016-95a609bc",
+            "AR-3B-DEP-017-084c747c",
+            "AR-3B-DEP-018-5d98cd4b",
+            "AR-3B-DEP-019-f529a891"
+          ]
+        },
+        {
+          "source_system_id": "SYS-WATER",
+          "target_system_id": "SYS-INFECTIOUS-DISEASE",
+          "row_count": 2,
+          "example_atlas_relationship_ids": [
+            "AR-13B-IDB-007-c8da7d06",
+            "AR-13B-IDB-009-0b36d503"
+          ]
+        },
+        {
+          "source_system_id": "SYS-WATER",
+          "target_system_id": "SYS-VECTOR-ECOLOGY",
+          "row_count": 3,
+          "example_atlas_relationship_ids": [
+            "AR-13B-IDB-002-eb173fa7",
+            "AR-12B-VDE-005-d114c1f5",
+            "AR-12B-VDE-020-e09ba0bf"
+          ]
+        },
+        {
+          "source_system_id": "SYS-WATER",
+          "target_system_id": "SYS-WATER",
+          "row_count": 6,
+          "example_atlas_relationship_ids": [
+            "AR-10B-GDEP-002-5ec5f5dd",
+            "AR-10B-GDEP-003-116307bf",
+            "AR-10B-GDEP-004-85e19398",
+            "AR-10B-GDEP-005-53cbe3df"
+          ]
+        }
+      ],
+      "use_boundary": "System-level dependency context only; not exact facility identity, route, shipment, quantity, capacity, or continuous operation."
+    },
+    {
+      "source": "data/processed/integration/technology_system_interfaces.csv",
+      "relationship_basis": "Phase 15A accepted technology interface catalog",
+      "selected_interface_ids": [
+        "TSI-001",
+        "TSI-002",
+        "TSI-003",
+        "TSI-005",
+        "TSI-006",
+        "TSI-008",
+        "TSI-011",
+        "TSI-012",
+        "TSI-014",
+        "TSI-015"
+      ],
+      "use_boundary": "All selected records retain INFERRED status; plausible interface vocabulary is not district deployment evidence."
+    },
+    {
+      "source": "data/processed/integration/technology_dependencies.csv",
+      "relationship_basis": "Phase 15A accepted technology dependency catalog",
+      "selected_dependency_ids": [
+        "TDEP-002",
+        "TDEP-003",
+        "TDEP-004",
+        "TDEP-005",
+        "TDEP-006",
+        "TDEP-007",
+        "TDEP-009",
+        "TDEP-010",
+        "TDEP-011",
+        "TDEP-013",
+        "TDEP-014",
+        "TDEP-015",
+        "TDEP-017",
+        "TDEP-018",
+        "TDEP-019",
+        "TDEP-022",
+        "TDEP-023",
+        "TDEP-024",
+        "TDEP-025",
+        "TDEP-026",
+        "TDEP-027",
+        "TDEP-028",
+        "TDEP-029",
+        "TDEP-030",
+        "TDEP-031"
+      ],
+      "use_boundary": "Dependencies remain qualitative requirements and limitations; they are not failure probabilities or resilience claims."
+    },
+    {
+      "source": "data/processed/integration/propagation_relationships.csv",
+      "relationship_basis": "Phase 16A accepted qualitative propagation/dependency semantics",
+      "selected_relationship_ids": [
+        "REL-16A-001",
+        "REL-16A-002",
+        "REL-16A-003",
+        "REL-16A-007",
+        "REL-16A-008",
+        "REL-16A-009",
+        "REL-16A-010",
+        "REL-16A-011",
+        "REL-16A-012",
+        "REL-16A-013",
+        "REL-16A-014",
+        "REL-16A-015",
+        "REL-16A-016",
+        "REL-16A-017",
+        "REL-16A-018",
+        "REL-16A-019",
+        "REL-16A-020",
+        "REL-16A-021",
+        "REL-16A-024",
+        "REL-16A-029",
+        "REL-16A-030",
+        "REL-16A-031",
+        "REL-16A-032",
+        "REL-16A-034",
+        "REL-16A-035",
+        "REL-16A-036"
+      ],
+      "use_boundary": "Preserves dependency != risk, propagation != guaranteed failure, and coordination != automatic control."
+    },
+    {
+      "source": "data/processed/integration/phase16b_regime_effects.csv",
+      "relationship_basis": "Phase 16B accepted scenario-conditioned regime modifiers",
+      "selected_regime_effect_ids": [
+        "REGIME-EFFECT-16B-002",
+        "REGIME-EFFECT-16B-004",
+        "REGIME-EFFECT-16B-006",
+        "REGIME-EFFECT-16B-008",
+        "REGIME-EFFECT-16B-010",
+        "REGIME-EFFECT-16B-012",
+        "REGIME-EFFECT-16B-014",
+        "REGIME-EFFECT-16B-016",
+        "REGIME-EFFECT-16B-018",
+        "REGIME-EFFECT-16B-020",
+        "REGIME-EFFECT-16B-022",
+        "REGIME-EFFECT-16B-024"
+      ],
+      "use_boundary": "2075 scenario context keeps coordination, substitution, governance friction, and digital dependence visible; it is not a forecast or guarantee."
+    }
+  ],
+  "scenario_sketch_assumptions": [
+    {
+      "id": "S-K-DISTRICT",
+      "choice": "A synthetic Western Basin Industrial Exchange District at the Great Lakes Industrial Belt / Glass City Core interface",
+      "status": "S/K",
+      "boundary": "Not a real parcel, company, facility plan, forecast, or canonical geography"
+    },
+    {
+      "id": "S-K-ACCUMULATED-FABRIC",
+      "choice": "Legacy brick, concrete, steel, freight access, weathering, retrofit envelopes, and newer service infrastructure coexist",
+      "status": "S/K",
+      "boundary": "Block shapes and adjacency are illustrative; no dimensions, capacity, throughput, or land value is encoded"
+    },
+    {
+      "id": "S-K-SELECTED-EXCHANGE",
+      "choice": "Only a restrained subset of energy, thermal, water, materials, nutrient/residual, freight, and information interfaces is drawn",
+      "status": "S/K",
+      "boundary": "A visible edge is a selected interface sketch, not a guaranteed operating relationship"
+    },
+    {
+      "id": "S-K-THERMAL-SIGNATURE",
+      "choice": "Waste heat is used as one visible signature interface between industrial process, qualification, and greenhouse/process heat",
+      "status": "S/K",
+      "boundary": "Temperature, distance, timing, ownership, maintenance, economics, and compatibility are not resolved"
+    },
+    {
+      "id": "S-K-INSTITUTIONAL-COORDINATION",
+      "choice": "Contracts, standards, monitoring, quality assurance, operating agreements, regulation/permitting, and data sharing are explicit layer elements",
+      "status": "S/K",
+      "boundary": "Coordination is required but does not guarantee viability, environmental benefit, resilience, or continuity"
+    }
+  ],
+  "boundary_rules": [
+    "connected != closed",
+    "more connected != self-sufficient",
+    "residual != recoverable resource != qualified usable input",
+    "recovery != guaranteed compatibility",
+    "scenario interface != operating facility relationship",
+    "sketch network != forecast",
+    "dependency != risk or guaranteed failure",
+    "coordination != automatic control",
+    "greater connectivity != automatic resilience",
+    "potential reuse != guaranteed economic viability or environmental benefit"
+  ],
+  "validation": {
+    "builder_checks_passed": 18,
+    "builder_checks_total": 18,
+    "human_visual_qa": "PENDING",
+    "npm_test": "PENDING_EXTERNAL_COMMAND",
+    "npm_build": "PENDING_EXTERNAL_COMMAND",
+    "git_diff_check": "PENDING_EXTERNAL_COMMAND"
+  }
+}

@@ -26,8 +26,9 @@ Great Black Swamp remains **C — HOLD / noncanonical**. Phase 16 remains
 set is ACCEPTED**; Phase 17A Prototype 2.3 is **CLOSED / ACCEPTED** at commit
 `47725377817f6db1713b66bc0f8feb939da1b889`; Phase 17A Prototype 4.3 STATIC is
 **ACCEPTED** after human visual QA and one mechanical final-BOUNDARY text-wrap
-correction (both are analytical prototype components, not final Atlas page
-composition). Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
+correction; Phase 17A Prototype 5.3 **Industrial Exchange District is ACCEPTED**
+(all are analytical prototype components, not final Atlas page composition).
+Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
 Earlier phase-specific entries below retain their at-the-time status wording as
 historical continuity records.
 
@@ -58,6 +59,15 @@ planning/design-only transaction. The accepted planning brief is
   `npm test` passed 22/22; `npm run build` passed; no Phase 1–16 protected
   artifact or accepted Prototype 2.3 output changed. This is a synthetic
   Western Basin farm unit, not a real parcel or forecast.
+- **Phase 17A Prototype 5.3 — ACCEPTED.** Accepted products are **5.3A
+  Industrial District 2075**, **5.3B Exchange Network**, **5.3C Residual to
+  Qualified Input**, and **5.3D Open System / Governance**, with the contact
+  sheet, source manifest, and validation report. Qualitative-only encoding is
+  preserved; external system boundaries remain visible; residual ≠ recoverable
+  resource ≠ qualified input; institutional/governance and
+  maintenance/replacement layers are explicit; **CONNECTED, NOT CLOSED** and
+  more connected ≠ self-sufficient remain explicit. No canon was created, no
+  animation is required, and no Phase 1–16 frozen artifact changed.
 
 - Phase 17A Visual Grammar v0.3 remains **ACCEPTED FOR USE** as a viable
   prototype visual language. It is **NOT** a frozen final style specification.
