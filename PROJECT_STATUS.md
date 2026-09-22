@@ -29,7 +29,9 @@ set is ACCEPTED**; Phase 17A Prototype 2.3 is **CLOSED / ACCEPTED** at commit
 correction; Phase 17A Prototype 5.3 **Industrial Exchange District is ACCEPTED**
 (all are analytical prototype components, not final Atlas page composition).
 Phase 17A is **COMPLETE / ACCEPTED** as a prototype-and-production-pattern
-phase; Phase 17B is **NOT STARTED**; Active phase is **NONE**.
+phase; Phase 17B is **ACTIVE — entry / seed translation set ACCEPTED FOR
+DEVELOPMENT**; 15 seed units remain S/K scenario-development material, no unit
+is canon, and Active phase is **Phase 17B**.
 Earlier phase-specific entries below retain their at-the-time status wording as
 historical continuity records.
 
@@ -39,7 +41,13 @@ as a prototype-and-production-pattern phase. The accepted planning brief is
 “From Field to Lake” execution brief is
 `docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`; and the closure
 synthesis is `reports/phase17a_prototype_findings_and_production_pattern.md`.
-Phase 17B is not started and no Phase 17B content is included here.
+Phase 17B is active as scenario-development work, and its entry / seed
+translation set is **ACCEPTED FOR DEVELOPMENT**. The production brief is
+`docs/phase_briefs/phase17b_future_world_translation.md`; the first seed matrix
+and human-review cards are in
+`reports/phase17b_future_translation_seed_matrix.md`. No future-condition seed
+is canon yet; the 15 units remain S/K material with 0 canon units; Phase 1–16
+scientific baselines remain frozen and unchanged.
 
 - **Phase 17A Prototype 2.3 — CLOSED / ACCEPTED.** Accepted commit:
   `47725377817f6db1713b66bc0f8feb939da1b889`. Accepted products: **2.3A

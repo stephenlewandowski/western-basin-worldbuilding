@@ -1,13 +1,16 @@
 # Current Phase Handoff
 
-## LEADING CURRENT STATE — Phase 17A COMPLETE / ACCEPTED; production pattern recorded
+## LEADING CURRENT STATE — Phase 17A COMPLETE / Phase 17B ACTIVE
 
-- Transaction type: **CLOSURE / SYNTHESIS**. Starting synchronized `main` /
-  `origin/main` SHA: `59802c95d4e2de43e1fb9399d681954a4b26a569`.
+- Transaction type: **SCENARIO TRANSLATION**. Starting synchronized `main` /
+  `origin/main` SHA: `df11cbd8f85dddf4f3b12507a01db7d7f81a7f9a`.
 - **Phase 17A is COMPLETE / ACCEPTED** as a prototype-and-production-pattern
   phase. Closure synthesis: `reports/phase17a_prototype_findings_and_production_pattern.md`.
-- Phase 17B is **NOT STARTED**; no Phase 17B content is included in this
-  transaction. Final Atlas styling remains unfrozen.
+- Phase 17B is **ACTIVE — entry / seed translation set ACCEPTED FOR DEVELOPMENT**.
+  Production brief:
+  `docs/phase_briefs/phase17b_future_world_translation.md`. Seed matrix and
+  human-review cards: `reports/phase17b_future_translation_seed_matrix.md`.
+  No future-condition seed is canon yet; final Atlas styling remains unfrozen.
 - **Phase 17A Prototype 2.3 — CLOSED / ACCEPTED** at commit
   `47725377817f6db1713b66bc0f8feb939da1b889`. Accepted products: 2.3A Existing
   Asset / Locational Evidence, 2.3B Current Structure, 2.3C 2075 Retrofit
@@ -36,8 +39,26 @@
   dependence, **CONNECTED, NOT CLOSED**, and more connected ≠ self-sufficient
   are preserved. No canon was created; no animation is required; no Phase 1–16
   frozen artifact changed.
-- Active phase is **NONE**; Great Black Swamp remains **C — HOLD / noncanonical**;
-  no release or tag.
+- Active phase is **Phase 17B**; Great Black Swamp remains **C — HOLD /
+  noncanonical**; no release or tag.
+- Seed package: **15** translation units across all five macroregions and all 13
+  Atlas systems; statuses are **12 S / 3 K / 0 C**; envelope disposition is **5
+  robust across A/B/C / 7 regime-sensitive / 3 unresolved**; seven condition
+  cards are included for human review.
+- No `C` future status is used. No future-condition seed is canon; no characters,
+  Phase 17C, polished spreads, animation, new scientific modeling, probabilities,
+  rankings, or external research were added.
+- Source gaps remain for exact future deployment, adoption, capacity, throughput,
+  routes, facilities, service territories, material performance, successful
+  response, future disease incidence/transmission, exposure/dose/illness, and
+  Great Black Swamp historical geometry.
+- Validation: seed/card lineage and boundary checks **PASS**; repository-relative
+  Markdown links **PASS (70)**; `git diff --check` **PASS**; `npm run test`
+  **PASS (22/22)**; `npm run build` **PASS**; all 37 Phase 1–16 freeze manifests
+  verified (**655** entries / **646** unique protected paths), with changed-path
+  intersection **0**.
+- Entry / seed translation set is **ACCEPTED FOR DEVELOPMENT** after human
+  review. Do not canonize a seed or begin characters or Phase 17C.
 - The source manifest remains the builder's pre-visual-QA WORKING / PENDING
   inventory; final STATIC acceptance is recorded in the validation report and
   the mutable project status surfaces after acceptance.
