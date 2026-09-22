@@ -46,12 +46,13 @@ Phases 1–13 establish the major environmental, infrastructural, demographic, h
 
 Phase 16 is **COMPLETE / ACCEPTED / FROZEN**.
 
-Active phase: **NONE**. Phase 17 is **NOT IMPLEMENTED**, but **Phase 17A
-planning/design is now active** on a planning-only basis: see the
+Active phase: **NONE**. **Phase 17A is COMPLETE / ACCEPTED** as a
+prototype-and-production-pattern phase; **Phase 17B is NOT STARTED**. See the
 [Phase 17A planning brief](docs/phase_briefs/phase17a_atlas_architecture.md),
-the [Prototype 2.1 execution brief](docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md),
+the [prototype findings and production-pattern report](reports/phase17a_prototype_findings_and_production_pattern.md),
 and the accepted Visual Grammar v0.3 reference assets under
-`assets/phase17a_visual_grammar/`. No Phase 17 implementation code exists.
+`assets/phase17a_visual_grammar/`. The prototype outputs remain analytical
+components, not a frozen final Atlas style or completed Phase 17B world layer.
 
 ### Toledo Water Works Intake Crib
 

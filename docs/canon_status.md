@@ -26,15 +26,18 @@ set is ACCEPTED**; Phase 17A Prototype 2.3 is **CLOSED / ACCEPTED** at commit
 **ACCEPTED** after human visual QA and one mechanical final-BOUNDARY text-wrap
 correction; Phase 17A Prototype 5.3 **Industrial Exchange District is ACCEPTED**
 (all are analytical prototype components, not final Atlas page composition).
-Phase 17 module is **NOT COMPLETE**; Active phase is **NONE**.
+Phase 17A is **COMPLETE / ACCEPTED** as a prototype-and-production-pattern
+phase; Phase 17B is **NOT STARTED**; Active phase is **NONE**.
 Earlier phase-boundary entries below retain their at-the-time status wording as
 historical continuity records.
 
 ## Phase 17A status
 
-The Phase 17A **Atlas Synthesis / model-to-world bridge** was first established
-as a planning-only state. The Phase 17 module is not complete; the
-scientific/factual baseline of Phases 1–16 remains **FROZEN** and unchanged.
+The Phase 17A **Atlas Synthesis / model-to-world bridge** is **COMPLETE / ACCEPTED**
+as a prototype-and-production-pattern phase; the scientific/factual baseline of
+Phases 1–16 remains **FROZEN** and unchanged. The closure synthesis is
+`../reports/phase17a_prototype_findings_and_production_pattern.md`. Phase 17B is
+not started and no Phase 17B content is included here.
 
 - The accepted Phase 17A planning brief is `docs/phase_briefs/phase17a_atlas_architecture.md`.
 - The finalized Prototype 2.1 “From Field to Lake” execution brief is `docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`.

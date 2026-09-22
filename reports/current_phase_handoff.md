@@ -1,9 +1,13 @@
 # Current Phase Handoff
 
-## LEADING CURRENT STATE — Phase 17A Prototype 5.3 ACCEPTED; Prototype 4.3 STATIC ACCEPTED; Prototype 2.3 CLOSED
+## LEADING CURRENT STATE — Phase 17A COMPLETE / ACCEPTED; production pattern recorded
 
-- Transaction type: **ACCEPTANCE / DELIVERY**. Starting synchronized `main` /
-  `origin/main` SHA: `8c03a47fe4b1ccb950f41c5ad46982666d53724c`.
+- Transaction type: **CLOSURE / SYNTHESIS**. Starting synchronized `main` /
+  `origin/main` SHA: `59802c95d4e2de43e1fb9399d681954a4b26a569`.
+- **Phase 17A is COMPLETE / ACCEPTED** as a prototype-and-production-pattern
+  phase. Closure synthesis: `reports/phase17a_prototype_findings_and_production_pattern.md`.
+- Phase 17B is **NOT STARTED**; no Phase 17B content is included in this
+  transaction. Final Atlas styling remains unfrozen.
 - **Phase 17A Prototype 2.3 — CLOSED / ACCEPTED** at commit
   `47725377817f6db1713b66bc0f8feb939da1b889`. Accepted products: 2.3A Existing
   Asset / Locational Evidence, 2.3B Current Structure, 2.3C 2075 Retrofit
@@ -32,8 +36,8 @@
   dependence, **CONNECTED, NOT CLOSED**, and more connected ≠ self-sufficient
   are preserved. No canon was created; no animation is required; no Phase 1–16
   frozen artifact changed.
-- Phase 17 remains **NOT COMPLETE**; Active phase is **NONE**; Great Black Swamp
-  remains **C — HOLD / noncanonical**; no release or tag.
+- Active phase is **NONE**; Great Black Swamp remains **C — HOLD / noncanonical**;
+  no release or tag.
 - The source manifest remains the builder's pre-visual-QA WORKING / PENDING
   inventory; final STATIC acceptance is recorded in the validation report and
   the mutable project status surfaces after acceptance.

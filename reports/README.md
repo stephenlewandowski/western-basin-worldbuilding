@@ -20,11 +20,14 @@
   assets: `../assets/phase17a_visual_grammar/` (SVG master + PNG proofs).
 - The static figures are **analytical prototype components, not final Atlas page
   composition**; final badge placement and page/grid conventions remain
-  **UNFROZEN**. **Animation remains NOT STARTED** and is separately gated.
-- Phase 17 module is **NOT COMPLETE** (only the static prototype is accepted);
-  Active phase is **NONE**. Phase 1–16 baselines remain frozen; Great Black
-  Swamp remains C — HOLD / noncanonical; no release/tag; no
-  Canon-from-Scenario/Sketch.
+  **UNFROZEN**. The 2.1 animation implementation is technically validated but
+  classified **DROP / CHANGE MEDIUM**, not an accepted Atlas product.
+- Phase 17A is **COMPLETE / ACCEPTED** as a prototype-and-production-pattern
+  phase. The closure synthesis is
+  [`phase17a_prototype_findings_and_production_pattern.md`](phase17a_prototype_findings_and_production_pattern.md).
+  Phase 17B is **NOT STARTED**; Active phase is **NONE**. Phase 1–16 baselines
+  remain frozen; Great Black Swamp remains C — HOLD / noncanonical; no
+  release/tag; no Canon-from-Scenario/Sketch.
 
 ## Toledo Water Intake Crib Coordinate Resolution
 
