@@ -30,8 +30,10 @@ correction; Phase 17A Prototype 5.3 **Industrial Exchange District is ACCEPTED**
 (all are analytical prototype components, not final Atlas page composition).
 Phase 17A is **COMPLETE / ACCEPTED** as a prototype-and-production-pattern
 phase; Phase 17B is **ACTIVE — entry / seed translation set ACCEPTED FOR
-DEVELOPMENT**; 15 seed units remain S/K scenario-development material, no unit
-is canon, and Active phase is **Phase 17B**.
+DEVELOPMENT; lived-world condition packet set ACCEPTED FOR PHASE 17B
+DEVELOPMENT**; the 15 seed units and seven packets remain S/K
+scenario-development material, no unit or packet is canon, Phase 17C has not
+begun, and Active phase is **Phase 17B**.
 Earlier phase-specific entries below retain their at-the-time status wording as
 historical continuity records.
 
@@ -42,7 +44,9 @@ as a prototype-and-production-pattern phase. The accepted planning brief is
 `docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`; and the closure
 synthesis is `reports/phase17a_prototype_findings_and_production_pattern.md`.
 Phase 17B is active as scenario-development work, and its entry / seed
-translation set is **ACCEPTED FOR DEVELOPMENT**. The production brief is
+translation set is **ACCEPTED FOR DEVELOPMENT**. The lived-world condition
+packet set is **ACCEPTED FOR PHASE 17B DEVELOPMENT**: seven packets, all S/K,
+with no C status and no canon packets. Phase 17C has not begun. The production brief is
 `docs/phase_briefs/phase17b_future_world_translation.md`; the first seed matrix
 and human-review cards are in
 `reports/phase17b_future_translation_seed_matrix.md`. No future-condition seed

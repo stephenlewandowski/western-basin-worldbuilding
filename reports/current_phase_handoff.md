@@ -3,14 +3,19 @@
 ## LEADING CURRENT STATE — Phase 17A COMPLETE / Phase 17B ACTIVE
 
 - Transaction type: **SCENARIO TRANSLATION**. Starting synchronized `main` /
-  `origin/main` SHA: `df11cbd8f85dddf4f3b12507a01db7d7f81a7f9a`.
+  `origin/main` SHA: `50f04bf151537265fa6bfd6c2082f8d37775f692`.
 - **Phase 17A is COMPLETE / ACCEPTED** as a prototype-and-production-pattern
   phase. Closure synthesis: `reports/phase17a_prototype_findings_and_production_pattern.md`.
-- Phase 17B is **ACTIVE — entry / seed translation set ACCEPTED FOR DEVELOPMENT**.
+- Phase 17B is **ACTIVE — entry / seed translation set ACCEPTED FOR DEVELOPMENT**;
+  the lived-world condition packet set is **ACCEPTED FOR PHASE 17B DEVELOPMENT**.
   Production brief:
   `docs/phase_briefs/phase17b_future_world_translation.md`. Seed matrix and
   human-review cards: `reports/phase17b_future_translation_seed_matrix.md`.
-  No future-condition seed is canon yet; final Atlas styling remains unfrozen.
+  Lived-world condition packets:
+  `reports/phase17b_lived_world_condition_packets.md`.
+  Seven packets remain S/K scenario-development material, no future-condition
+  seed or packet is canon, final Atlas styling remains unfrozen, and Phase 17C
+  has not begun.
 - **Phase 17A Prototype 2.3 — CLOSED / ACCEPTED** at commit
   `47725377817f6db1713b66bc0f8feb939da1b889`. Accepted products: 2.3A Existing
   Asset / Locational Evidence, 2.3B Current Structure, 2.3C 2075 Retrofit
@@ -45,6 +50,8 @@
   Atlas systems; statuses are **12 S / 3 K / 0 C**; envelope disposition is **5
   robust across A/B/C / 7 regime-sensitive / 3 unresolved**; seven condition
   cards are included for human review.
+- Lived-world condition packet set: **7 packets**, statuses **5 S / 2 K / 0 C**;
+  **ACCEPTED FOR PHASE 17B DEVELOPMENT**. All packets remain noncanonical.
 - No `C` future status is used. No future-condition seed is canon; no characters,
   Phase 17C, polished spreads, animation, new scientific modeling, probabilities,
   rankings, or external research were added.
@@ -52,13 +59,17 @@
   routes, facilities, service territories, material performance, successful
   response, future disease incidence/transmission, exposure/dose/illness, and
   Great Black Swamp historical geometry.
-- Validation: seed/card lineage and boundary checks **PASS**; repository-relative
-  Markdown links **PASS (70)**; `git diff --check` **PASS**; `npm run test`
+- Validation: seed/card lineage and boundary checks **PASS**; lived-world packet
+  count/status check **PASS (7 packets; 5 S / 2 K / 0 C; no C status)**;
+  Great Black Swamp hold, Phase 17A S/K evidence-boundary, and Phase 17C-not-begun
+  checks **PASS**; repository-relative Markdown links **PASS (70)**;
+  `git diff --check` **PASS**; `npm run test`
   **PASS (22/22)**; `npm run build` **PASS**; all 37 Phase 1–16 freeze manifests
   verified (**655** entries / **646** unique protected paths), with changed-path
   intersection **0**.
-- Entry / seed translation set is **ACCEPTED FOR DEVELOPMENT** after human
-  review. Do not canonize a seed or begin characters or Phase 17C.
+- Entry / seed translation set and lived-world condition packet set are
+  **ACCEPTED FOR PHASE 17B DEVELOPMENT** after human review. Do not canonize a
+  seed or packet, begin characters, or begin Phase 17C.
 - The source manifest remains the builder's pre-visual-QA WORKING / PENDING
   inventory; final STATIC acceptance is recorded in the validation report and
   the mutable project status surfaces after acceptance.
