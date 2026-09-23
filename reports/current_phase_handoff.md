@@ -1,10 +1,21 @@
 # Current Phase Handoff
 
+## RECOVERY TRANSACTION — CURRENT
+
+- Integration worktree/branch used: `temp/phase17c-integration` /
+  `phase17c-integration`, based on `main` / `origin/main` at
+  `815aa582b102ec003c58419241bef95991f6ecb1`.
+- The repository storage audit is complete; no Git history rewrite is warranted.
+- Six recurring-cast prototypes exist as K material under review; their names
+  remain provisional. No final cast or canon is selected.
+- Ordinary-day tests remain in the separate worktree and uncommitted. Phase 17D
+  has not begun.
+
 ## LEADING CURRENT STATE — Phase 17B COMPLETE / Phase 17C ACTIVE
 
-- Transaction: **CHARACTER / NARRATIVE ARCHITECTURE**, after one human-review correction pass.
+- Original Phase 17C authoring transaction: **CHARACTER / NARRATIVE ARCHITECTURE**, after one human-review correction pass.
   Baseline: `29e988289c8440f7751e6facf66ae9b0ecc6bcf3` (starting clean `main`,
-  matching local `origin/main`). Working branch:
+  matching local `origin/main`). Original authoring branch:
   `phase17c-character-narrative-architecture`, in the canonical repository
   `C:\Projects\Public_GitHub\western-basin-worldbuilding`.
 - Phase 17B is **COMPLETE / ACCEPTED for initial future-world translation**.
@@ -46,10 +57,10 @@
 - Correction pass decisions: ROLE-09 is narrowed to public-service access;
   NT-05 retains ROLE-05 as viewpoint and uses an off-matrix authorized
   communications/review counterpart; REL-05 and REL-11 are not replaced;
-  choice-under-pressure wording permits genuine alternatives. Names, appearance,
-  full biographies, scenes and canon decisions remain deferred. Commit/push is
-  authorized for this package; retain the Phase 17C branch and do not begin
-  Phase 17D.
+  choice-under-pressure wording permits genuine alternatives. The recurring-cast
+  prototypes add provisional names and character details as K material under
+  review; no final cast or canon decisions have been made. Ordinary-day tests
+  remain separate and uncommitted. Phase 17D has not begun.
 
 ## HISTORICAL CHECKPOINT — Phase 17A COMPLETE / Phase 17B ACTIVE
 

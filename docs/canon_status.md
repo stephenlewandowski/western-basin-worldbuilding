@@ -30,9 +30,10 @@ Phase 17A is **COMPLETE / ACCEPTED** as a prototype-and-production-pattern
 phase. Phase 17B is **COMPLETE / ACCEPTED for initial future-world translation**;
 the 15 seed units and seven lived-world packets remain S/K, not canon.
 Phase 17C is **ACTIVE**; its role/story seed architecture is **ACCEPTED FOR
-DEVELOPMENT** after one human-review correction pass. Its ten unnamed roles,
-nine relationships, and six narrative-thread seeds remain K; 0 new C.
-No final protagonist set, names, biographies, scenes, or world canon is created.
+DEVELOPMENT** after one human-review correction pass. Its ten role seeds, nine
+relationships, six narrative-thread seeds, and [six recurring-cast prototypes](../reports/phase17c_recurring_cast_prototypes.md)
+remain K; the prototypes are under review and their names remain provisional.
+No final protagonist set or world canon is created; 0 new C.
 Active phase is **Phase 17C**; Phase 17D has not begun.
 Earlier phase-boundary entries below retain their at-the-time status wording as
 historical continuity records.
@@ -48,9 +49,11 @@ its conditions. Its production documents remain unchanged as historical records.
 The [Phase 17C brief](phase_briefs/phase17c_character_narrative_architecture.md)
 and [role / story seed matrix](../reports/phase17c_role_and_story_seed_matrix.md)
 translate the accepted lived-world packets into K viewpoints, pressures and
-choices. Inherited FT-01/02/03/04/10 conditions retain S; FT-11/12 retain K.
-Character use does not promote either status to E or C. No exact future sites,
-intervening historical events, personal names, biographies, or scenes are added.
+choices. The [six recurring-cast prototypes](../reports/phase17c_recurring_cast_prototypes.md)
+are K material under review; their names and profiles remain provisional and
+noncanonical. Inherited FT-01/02/03/04/10 conditions remain S and FT-11/12
+remain K. Character use does not promote either status to E or C. No exact
+future sites, intervening historical events, or scenes are added.
 
 - The accepted Phase 17A planning brief is `docs/phase_briefs/phase17a_atlas_architecture.md`.
 - The finalized Prototype 2.1 “From Field to Lake” execution brief is `docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md`.

@@ -32,9 +32,12 @@ Phase 17A is **COMPLETE / ACCEPTED** as a prototype-and-production-pattern
 phase. Phase 17B is **COMPLETE / ACCEPTED for initial future-world translation**;
 its 15 seed units and seven lived-world packets remain S/K, not canon.
 Phase 17C is **ACTIVE**; its role/story seed architecture is **ACCEPTED FOR
-DEVELOPMENT** after one human-review correction pass: ten unnamed K roles, nine
-K relationships, and six K narrative threads; 0 new C. No final protagonist set
-is selected. No names, biographies, scenes, or Phase 17D work are included.
+DEVELOPMENT** after one human-review correction pass: ten K roles, nine K
+relationships, and six K narrative threads. Six [recurring-cast prototypes](reports/phase17c_recurring_cast_prototypes.md)
+exist as K material under review; their names remain provisional. No final cast
+is selected; 0 new C. Ordinary-day tests remain separate and uncommitted.
+Phase 17D has not begun. The repository storage audit is complete; no Git
+history rewrite is warranted.
 Earlier phase-specific entries below retain their at-the-time status wording as
 historical continuity records.
 
