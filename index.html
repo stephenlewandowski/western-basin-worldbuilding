@@ -3,36 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#000000" />
-    <title>Glasspunk: Blackout at Vesper Station</title>
+    <meta name="theme-color" content="#10212b" />
+    <meta name="description" content="An illustrated preview of the Western Basin Worldbuilding atlas: real geography, connected systems, and possible futures around Toledo and western Lake Erie." />
+    <title>Western Basin Worldbuilding — Atlas Preview</title>
   </head>
-  <body>
-    <main id="app" aria-label="Glasspunk: Blackout at Vesper Station">
-      <section class="game-shell">
-        <div class="screen-wrap">
-          <canvas id="game" width="640" height="400" aria-label="Game screen"></canvas>
-        </div>
-        <aside class="hud" aria-label="Game controls and notes">
-          <div class="hud-block">
-            <h2>INVENTORY</h2>
-            <div id="inventory" class="item-list" aria-live="polite"></div>
-          </div>
-          <div class="hud-block">
-            <h2>EVIDENCE LOG</h2>
-            <div id="evidence" class="evidence-list" aria-live="polite"></div>
-          </div>
-          <div id="case-review" class="hud-block case-review" aria-live="polite" hidden></div>
-          <div class="hud-block controls">
-            <button id="save" type="button">SAVE</button>
-            <button id="load" type="button">LOAD</button>
-            <button id="restart" type="button">RESTART</button>
-            <button id="mute" type="button">MUTE</button>
-          </div>
-          <p class="help">Arrows / WASD: choose hotspot<br />Enter / Space: inspect<br />Tab: cycle items<br />Y / N: answer Niko<br />F: open Case Review after repair</p>
-        </aside>
-      </section>
-      <p id="status" class="sr-only" aria-live="polite"></p>
-    </main>
-    <script type="module" src="/src/main.ts"></script>
+  <body data-page="home">
+    <div id="app"></div>
+    <script type="module" src="/src/atlas/main.ts"></script>
   </body>
 </html>

@@ -46,13 +46,14 @@ Phases 1–13 establish the major environmental, infrastructural, demographic, h
 
 Phase 16 is **COMPLETE / ACCEPTED / FROZEN**.
 
-Active phase: **NONE**. **Phase 17A is COMPLETE / ACCEPTED** as a
-prototype-and-production-pattern phase; **Phase 17B is NOT STARTED**. See the
-[Phase 17A planning brief](docs/phase_briefs/phase17a_atlas_architecture.md),
-the [prototype findings and production-pattern report](reports/phase17a_prototype_findings_and_production_pattern.md),
-and the accepted Visual Grammar v0.3 reference assets under
-`assets/phase17a_visual_grammar/`. The prototype outputs remain analytical
-components, not a frozen final Atlas style or completed Phase 17B world layer.
+**Phase 17A is COMPLETE / ACCEPTED** as a prototype-and-production-pattern
+phase. **Phase 17B is COMPLETE / ACCEPTED for initial future-world translation**;
+its future conditions remain scenario/sketch material. **Phase 17C is ACTIVE**;
+ten unnamed roles, nine relationships, and six narrative-thread seeds are
+accepted for development, with no new canon. See the [Phase 17A synthesis](reports/phase17a_prototype_findings_and_production_pattern.md),
+the [Phase 17B lived-world packets](reports/phase17b_lived_world_condition_packets.md),
+and the [Phase 17C role/story seeds](reports/phase17c_role_and_story_seed_matrix.md).
+The visual prototypes are analytical components, not a frozen final Atlas style.
 
 ### Toledo Water Works Intake Crib
 
@@ -76,6 +77,25 @@ Phase 17 shifts the project from building additional scientific machinery toward
 For detailed project state, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 For authoritative canon status, see [docs/canon_status.md](docs/canon_status.md).
+
+---
+
+## Atlas Preview v0.1
+
+The repository now contains a curated website with a landing page, four visual
+essays, methods and credits, and a current roadmap. It presents the accepted
+Phase 17A prototype figures with their evidence status and limitations. The
+older Vesper Station browser game remains available at `/game/` within the site.
+
+Run the preview locally with `npm ci` and `npm run dev`; open the URL printed by
+Vite. `npm run build` produces the static site in `dist/`. The build uses the
+GitHub Pages project path `/western-basin-worldbuilding/`. A manual deployment
+workflow is prepared in `.github/workflows/deploy-pages.yml`. The publication
+target is [the Western Basin Atlas Preview](https://stephenlewandowski.github.io/western-basin-worldbuilding/).
+The Pages source uses GitHub Actions; run the workflow manually to publish updates.
+
+The preview omits the third-party Toledo crib reference photograph and held
+Great Black Swamp reference imagery. See the [data and asset licensing notes](docs/references/DATA_AND_ASSET_LICENSING.md).
 
 ---
 
@@ -231,6 +251,7 @@ Detailed validation and freeze records are indexed in [reports/README.md](report
 
 ```text
 assets/                 concept art and exploratory visual material
+atlas/                  four visual-essay page entries
 data/raw/               cached public-source material and reproducible inputs
 data/processed/         validated scientific, network, scenario, and integration products
 docs/                   canon, research, references, phase briefs, and architecture
@@ -241,8 +262,11 @@ outputs/qa/             review and QA graphics
 reports/                sources, assumptions, findings, QA, reviews, manifests, and handoffs
 src/python/             acquisition, construction, rendering, QA, and validation
 src/R/                  independent validation and rendering
+src/atlas/              Atlas Preview site, content, and styling
 src/game/               retained Glasspunk browser-game prototype
+game/                   browser-game page entry
+methods/, roadmap/      Atlas Preview supporting pages
 ```
 
-Phase 17 Atlas material will receive its own repository structure when that
-phase is formally implemented.
+The Preview site is a curated publication layer; source material, validation,
+and authoritative status remain in the research folders above.
