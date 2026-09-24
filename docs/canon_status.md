@@ -29,12 +29,17 @@ correction; Phase 17A Prototype 5.3 **Industrial Exchange District is ACCEPTED**
 Phase 17A is **COMPLETE / ACCEPTED** as a prototype-and-production-pattern
 phase. Phase 17B is **COMPLETE / ACCEPTED for initial future-world translation**;
 the 15 seed units and seven lived-world packets remain S/K, not canon.
-Phase 17C is **ACTIVE**; its role/story seed architecture is **ACCEPTED FOR
-DEVELOPMENT** after one human-review correction pass. Its ten role seeds, nine
-relationships, six narrative-thread seeds, and [six recurring-cast prototypes](../reports/phase17c_recurring_cast_prototypes.md)
+Phase 17C role/story seed architecture remains **ACCEPTED FOR DEVELOPMENT**;
+its ordinary-day tests remain separate, provisional, and uncommitted. Its ten
+role seeds, nine relationships, six narrative-thread seeds, and [six
+recurring-cast prototypes](../reports/phase17c_recurring_cast_prototypes.md)
 remain K; the prototypes are under review and their names remain provisional.
-No final protagonist set or world canon is created; 0 new C.
-Active phase is **Phase 17C**; Phase 17D has not begun.
+Phase 17D is **ACTIVE**. Its five hero futurescape concepts, HF-01 through
+HF-05, are **ACCEPTED FOR DEVELOPMENT** and remain S/K; no new C is created.
+HF-01 Glass City 2075 is the next approved production experiment. HF-04
+Industrial Metabolism 2075 is the likely second visual prototype, subject to
+HF-01 review. Phase 1–16 scientific baselines remain frozen and unchanged.
+Active phase is **Phase 17D**. The Phase 17D concepts do not create canon.
 Earlier phase-boundary entries below retain their at-the-time status wording as
 historical continuity records.
 

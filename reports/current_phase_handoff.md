@@ -1,6 +1,17 @@
 # Current Phase Handoff
 
-## RECOVERY TRANSACTION — CURRENT
+## Phase 17D current handoff — 2026-09-24
+
+- Active phase: **Phase 17D**. The [hero futurescape concept synthesis](phase17d_hero_futurescape_concepts.md)
+  is **ACCEPTED FOR DEVELOPMENT**; HF-01 through HF-05 remain S/K, with no new C.
+- HF-01 Glass City 2075 is the next approved production experiment. HF-04
+  Industrial Metabolism 2075 is the likely second visual prototype, subject to
+  HF-01 review. This sequence does not rank the futures.
+- Phase 17C ordinary-day tests remain separate, provisional, and uncommitted.
+- Phase 1–16 scientific baselines remain frozen and unchanged. Great Black
+  Swamp remains **C — HOLD / noncanonical**, with no held geometry introduced.
+
+## Phase 17C integration recovery transaction — historical context
 
 - Integration worktree/branch used: `temp/phase17c-integration` /
   `phase17c-integration`, based on `main` / `origin/main` at
@@ -8,10 +19,10 @@
 - The repository storage audit is complete; no Git history rewrite is warranted.
 - Six recurring-cast prototypes exist as K material under review; their names
   remain provisional. No final cast or canon is selected.
-- Ordinary-day tests remain in the separate worktree and uncommitted. Phase 17D
-  has not begun.
+- At this earlier checkpoint, Phase 17C ordinary-day tests remained in a
+  separate worktree and uncommitted; Phase 17D had not begun.
 
-## LEADING CURRENT STATE — Phase 17B COMPLETE / Phase 17C ACTIVE
+## Prior status snapshot — Phase 17B COMPLETE / Phase 17C ACTIVE
 
 - Original Phase 17C authoring transaction: **CHARACTER / NARRATIVE ARCHITECTURE**, after one human-review correction pass.
   Baseline: `29e988289c8440f7751e6facf66ae9b0ecc6bcf3` (starting clean `main`,

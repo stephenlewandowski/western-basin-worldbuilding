@@ -1,6 +1,6 @@
 # Project Status
 
-Last reviewed: 2026-09-22
+Last reviewed: 2026-09-24
 
 ## Current physical-asset coordinate disposition
 
@@ -31,13 +31,17 @@ correction; Phase 17A Prototype 5.3 **Industrial Exchange District is ACCEPTED**
 Phase 17A is **COMPLETE / ACCEPTED** as a prototype-and-production-pattern
 phase. Phase 17B is **COMPLETE / ACCEPTED for initial future-world translation**;
 its 15 seed units and seven lived-world packets remain S/K, not canon.
-Phase 17C is **ACTIVE**; its role/story seed architecture is **ACCEPTED FOR
-DEVELOPMENT** after one human-review correction pass: ten K roles, nine K
-relationships, and six K narrative threads. Six [recurring-cast prototypes](reports/phase17c_recurring_cast_prototypes.md)
-exist as K material under review; their names remain provisional. No final cast
-is selected; 0 new C. Ordinary-day tests remain separate and uncommitted.
-Phase 17D has not begun. The repository storage audit is complete; no Git
-history rewrite is warranted.
+Phase 17C role/story seed architecture remains **ACCEPTED FOR DEVELOPMENT**
+(ten K roles, nine K relationships, and six K narrative threads);
+its ordinary-day tests remain separate, provisional, and uncommitted. Six
+[recurring-cast prototypes](reports/phase17c_recurring_cast_prototypes.md)
+remain K material under review; their names are provisional. Phase 17D is
+**ACTIVE**. The hero futurescape concept synthesis is **ACCEPTED FOR
+DEVELOPMENT**: five concepts, HF-01 through HF-05, remain S/K, with no new C.
+HF-01 Glass City 2075 is the next approved production experiment; HF-04
+Industrial Metabolism 2075 is the likely second visual prototype, subject to
+HF-01 review. Phase 1–16 scientific baselines remain frozen and unchanged.
+The repository storage audit is complete; no Git history rewrite is warranted.
 Earlier phase-specific entries below retain their at-the-time status wording as
 historical continuity records.
 
