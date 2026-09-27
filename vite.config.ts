@@ -15,6 +15,7 @@ export default defineConfig({
         industry: page('./atlas/industrial-exchange/index.html'),
         methods: page('./methods/index.html'),
         roadmap: page('./roadmap/index.html'),
+        updates: page('./updates/index.html'),
         game: page('./game/index.html'),
       },
     },

@@ -1,15 +1,37 @@
 # Current Phase Handoff
 
-## Phase 17D current handoff — 2026-09-24
+## Phase 17D public-site milestone 1 handoff — 2026-09-27
 
-- Active phase: **Phase 17D**. The [hero futurescape concept synthesis](phase17d_hero_futurescape_concepts.md)
-  is **ACCEPTED FOR DEVELOPMENT**; HF-01 through HF-05 remain S/K, with no new C.
-- HF-01 Glass City 2075 is the next approved production experiment. HF-04
-  Industrial Metabolism 2075 is the likely second visual prototype, subject to
-  HF-01 review. This sequence does not rank the futures.
+- Active phase: **Phase 17D**. Its hero futurescape concept synthesis is
+  **ACCEPTED FOR DEVELOPMENT**; the five concepts, HF-01 through HF-05, remain
+  S/K, with no new C. Public visual style guidance is established in
+  `docs/phase_briefs/phase17d_public_visual_style_guide.md`.
+- The approved `docs/phase_briefs/phase17d_hf01_hf04_production_plan.md` and
+  `docs/phase_briefs/phase17d_public_site_update_plan.md` define the production
+  sequence and public-site milestone boundary.
+- HF-01 Glass City 2075 is first in visual development. Its current procedural
+  study is useful development lineage, not the accepted public hero; composition
+  and visual acceptance remain pending. No final hero image or HF-01 route is
+  published.
+- HF-04 Industrial Metabolism 2075 is second in the production sequence only
+  after HF-01 acceptance. No HF-04 route is published.
+- Public-site milestone 1 aligns the home page, methods, and roadmap with the
+  hero futurescape → system explanation → evidence/methods hierarchy and adds
+  `/updates/` with dated development entries. Existing Phase 17A studies remain
+  the scientific/system-support layer; no Phase 17A study is removed.
 - Phase 17C ordinary-day tests remain separate, provisional, and uncommitted.
 - Phase 1–16 scientific baselines remain frozen and unchanged. Great Black
   Swamp remains **C — HOLD / noncanonical**, with no held geometry introduced.
+- Integration base: synchronized `main` / `origin/main` at
+  `9fcc67ffda5c9ed6249e8c76efe01bc67660539a`.
+- Validation: Markdown links PASS (118); `npm test` PASS (22/22);
+  `npm run build` PASS with `/updates/` and all existing Atlas routes; all 20
+  emitted local asset references resolve; no HF-01/HF-04 final routes exist;
+  `git diff --check` and `git lfs fsck` PASS. The 37 freeze manifests protect
+  646 unique paths; no changed path intersects that set.
+- This milestone creates no hero art and does not deploy the manually published
+  site. HF-01 composition/visual acceptance remains pending; no further rendering
+  or publication is authorized by this transaction.
 
 ## Phase 17C integration recovery transaction — historical context
 

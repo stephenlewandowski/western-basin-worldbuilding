@@ -34,11 +34,18 @@ its ordinary-day tests remain separate, provisional, and uncommitted. Its ten
 role seeds, nine relationships, six narrative-thread seeds, and [six
 recurring-cast prototypes](../reports/phase17c_recurring_cast_prototypes.md)
 remain K; the prototypes are under review and their names remain provisional.
-Phase 17D is **ACTIVE**. Its five hero futurescape concepts, HF-01 through
-HF-05, are **ACCEPTED FOR DEVELOPMENT** and remain S/K; no new C is created.
-HF-01 Glass City 2075 is the next approved production experiment. HF-04
-Industrial Metabolism 2075 is the likely second visual prototype, subject to
-HF-01 review. Phase 1–16 scientific baselines remain frozen and unchanged.
+Phase 17D is **ACTIVE**. Its hero futurescape concept synthesis remains
+**ACCEPTED FOR DEVELOPMENT**; the five concepts, HF-01 through HF-05, remain
+S/K, and no new C is created. Public visual style guidance is established in
+the [Phase 17D style guide](phase_briefs/phase17d_public_visual_style_guide.md).
+The [HF-01 / HF-04 production plan](phase_briefs/phase17d_hf01_hf04_production_plan.md)
+starts with HF-01 Glass City 2075. Its current procedural study is useful
+development lineage, not the accepted public hero; HF-01 composition and visual
+acceptance remain pending. HF-04 Industrial Metabolism 2075 is second in the
+production sequence only after HF-01 acceptance. The
+[public-site update plan](phase_briefs/phase17d_public_site_update_plan.md)
+guides the current text/status milestone; no final hero is accepted or
+published. Phase 1–16 scientific baselines remain frozen and unchanged.
 Active phase is **Phase 17D**. The Phase 17D concepts do not create canon.
 Earlier phase-boundary entries below retain their at-the-time status wording as
 historical continuity records.

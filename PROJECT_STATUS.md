@@ -1,6 +1,6 @@
 # Project Status
 
-Last reviewed: 2026-09-24
+Last reviewed: 2026-09-27
 
 ## Current physical-asset coordinate disposition
 
@@ -32,15 +32,22 @@ Phase 17A is **COMPLETE / ACCEPTED** as a prototype-and-production-pattern
 phase. Phase 17B is **COMPLETE / ACCEPTED for initial future-world translation**;
 its 15 seed units and seven lived-world packets remain S/K, not canon.
 Phase 17C role/story seed architecture remains **ACCEPTED FOR DEVELOPMENT**
-(ten K roles, nine K relationships, and six K narrative threads);
-its ordinary-day tests remain separate, provisional, and uncommitted. Six
+(ten K roles, nine K relationships, and six K narrative threads); its
+ordinary-day tests remain separate, provisional, and uncommitted. Six
 [recurring-cast prototypes](reports/phase17c_recurring_cast_prototypes.md)
 remain K material under review; their names are provisional. Phase 17D is
-**ACTIVE**. The hero futurescape concept synthesis is **ACCEPTED FOR
-DEVELOPMENT**: five concepts, HF-01 through HF-05, remain S/K, with no new C.
-HF-01 Glass City 2075 is the next approved production experiment; HF-04
-Industrial Metabolism 2075 is the likely second visual prototype, subject to
-HF-01 review. Phase 1–16 scientific baselines remain frozen and unchanged.
+**ACTIVE**. The hero futurescape concept synthesis remains **ACCEPTED FOR
+DEVELOPMENT**; its five concepts, HF-01 through HF-05, remain S/K, and no new C
+is created. Public visual style guidance is established in the
+[Phase 17D style guide](docs/phase_briefs/phase17d_public_visual_style_guide.md).
+The [HF-01 / HF-04 production plan](docs/phase_briefs/phase17d_hf01_hf04_production_plan.md)
+starts with HF-01 Glass City 2075. Its current procedural study is useful
+development lineage, not the accepted public hero; HF-01 composition and visual
+acceptance remain pending. HF-04 Industrial Metabolism 2075 is second in the
+production sequence only after HF-01 acceptance. The
+[public-site update plan](docs/phase_briefs/phase17d_public_site_update_plan.md)
+guides the current text/status milestone; no final hero is accepted or
+published. Phase 1–16 scientific baselines remain frozen and unchanged.
 The repository storage audit is complete; no Git history rewrite is warranted.
 Earlier phase-specific entries below retain their at-the-time status wording as
 historical continuity records.
