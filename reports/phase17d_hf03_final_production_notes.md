@@ -4,11 +4,18 @@
 
 ## Final set and source lineage
 
-| Final deliverable | Display size | Bytes | SHA-256 |
+| Final deliverable | Display size | Committed bytes (LF) | SHA-256 (Git / deployed LF) |
 | --- | ---: | ---: | --- |
 | `assets/phase17d/hf03/hf03_maumee_bio_ag_2075_hero_wide.webp` | 2400 × 1350 px | 724,488 | `322c3018cbd71da60d0d8b5cfb3e421d54ce149373e3e7482f551a6d2e6fae42` |
 | `assets/phase17d/hf03/hf03_maumee_bio_ag_2075_maintenance.webp` | 1600 × 1200 px | 551,006 | `b6bae05fa9741c9088ce8000bf7d16efc5428a1e411fb1e7cebf31bdb16e645c` |
-| `assets/phase17d/hf03/hf03_field_seam_drainage_section.svg` | 1440 × 900 viewBox | 7,514 | `c7a63048918062abb8964a212e6aeba4158cb5e801cd5c6bddaca01a2f2c474e` |
+| `assets/phase17d/hf03/hf03_field_seam_drainage_section.svg` | 1440 × 900 viewBox | 7,424 | `5212468de90b0a8ae95826c6169e2fe1f723003c6eba41d452f8d2b14f378c5b` |
+
+The existing Windows `core.autocrlf` checkout policy represents the SVG in the
+working tree as CRLF: 7,514 bytes with SHA-256
+`c7a63048918062abb8964a212e6aeba4158cb5e801cd5c6bddaca01a2f2c474e`. Git and
+GitHub Pages store/serve its LF form shown in the table. The files are
+byte-equivalent after newline canonicalization; no repository line-ending
+policy or `.gitattributes` change was made.
 
 Human-approved primary scene/style reference: `temp/phase17d-hf03-reference/hf03_c-l1_approved_reference.png` (1672 × 941, 3,036,570 bytes, SHA-256 `4b0d76b91781bf73834a2ba93d18657b1796dc75e828bcc3c3cc4d8ca789a952`). It was opened and visually inspected before generation. The accepted lineage is **C bio-ag seam dominant / C-L1 bright broken cloud** in `phase17d_hf03_composition_studies.md`. The generated wide was directly composed from that study, then received **one focused correction pass** to separate opaque contained/service bays and an open segment from translucent cultivation and to remove any apparent water-treatment spectacle. No further correction pass was made. The maintenance image was generated as a **separate close gate-level composition**, never cropped from the wide.
 
