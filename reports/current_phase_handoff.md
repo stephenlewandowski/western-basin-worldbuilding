@@ -45,9 +45,11 @@
   paths; changed-path overlap **ZERO**. Nineteen pre-existing hash mismatches
   remain only in untouched protected validator/builder files; no attempt was
   made to repair them.
-- The only follow-up after site deployment is this handoff-only documentation
-  update; it changes no public-site source or asset. The delivery is complete.
-  Keep other registered worktrees untouched. No HF-02/HF-05 work or further GBI
+- The production-note SVG LF/CRLF byte-accounting correction and this handoff
+  update are documentation-only; no public-site source or asset changed after
+  Pages run `36398622725` successfully deployed main commit
+  `e4fcbb511fa762bcadfb4d213b06a31134904b3c`. The delivery is complete. Keep
+  other registered worktrees untouched. No HF-02/HF-05 work or further GBI
   entry is authorized.
 
 ## Historical checkpoint: two-hero retrospective before HF-03 production — 2026-09-28
