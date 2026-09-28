@@ -53,16 +53,35 @@ earlier HF-01 procedural study remains development lineage. The
 [public-site update plan](phase_briefs/phase17d_public_site_update_plan.md)
 guides the site integration. Phase 1–16 scientific baselines remain frozen and
 unchanged.
-The [two-hero visual retrospective](../reports/phase17d_two_hero_visual_retrospective.md)
-is accepted as the current visual-learning record; HF-01, HF-04, and HF-03 are
-the three accepted/published Phase 17D hero sets. The [Glass Basin invention
+The [three-hero visual retrospective](../reports/phase17d_three_hero_visual_retrospective.md)
+is accepted as the current Phase 17D visual-learning synthesis following the
+accepted/published HF-01, HF-03, and HF-04 hero sets. The [Glass Basin invention
 catalog v0.1](phase_briefs/phase17d_glass_basin_invention_catalog.md) is
 established: GBI-01 Optical civic canopy / replaceable leaf system, GBI-02
 Qualified modular industrial process cell, and GBI-03 Adaptive Crop /
 Propagation Envelope. The Bio-Ag Edge Processing Module remains provisional.
 The accepted HF-03 visual choices are composition C — Bio-Ag Seam Dominant and
 C-L1 — Bright Broken Cloud; these do not create canon or rank futures. No new C
-is created. Phase 17D remains **ACTIVE**; HF-02 and HF-05 remain future work.
+is created. Phase 17D remains **ACTIVE**.
+
+HF-02 — Lake Erie Energy & Security Coast 2075 is the next approved
+final-production experiment. Human review accepted the corrected low-resolution
+study for final-production planning: **B — Service Terrace / Coast Section
+Dominant**, **L1 — Clear, Windy Lake Day**, and the corrected civilian
+environmental survey / observation craft interpretation. The recovery cradle
+reads as a maintenance interface; weather-screen replacement, instrument
+comparison/calibration, ordinary utility/quay work, and human responsibility
+for recovery, servicing, calibration and access remain visible. The [composition
+study](../reports/phase17d_hf02_composition_studies.md) records zebra-mussel /
+dreissenid fouling and seasonal mayflies as optional, qualified visual cues.
+The Lake instrument recovery cradle and Weather-screened inspection gallery
+both passed the low-resolution concept test strongly enough to continue into
+final HF-02 production; they remain **unnumbered K candidates**. Final GBI
+promotion waits for human review of the hero wide, maintenance/detail and
+explanatory inset. Final HF-02 production has **not begun**: no final assets or
+publication exist, and HF-02 is not a published hero. The next public-site
+change must wait until the final HF-02 set passes human review. HF-05 remains
+future work; no new C is created.
 Active phase is **Phase 17D**. The Phase 17D concepts do not create canon.
 Earlier phase-boundary entries below retain their at-the-time status wording as
 historical continuity records.

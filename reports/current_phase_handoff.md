@@ -1,6 +1,47 @@
 # Current Phase Handoff
 
-## Phase 17D HF-03 publication and integration — 2026-09-28
+## Phase 17D HF-02 visual direction and status alignment
+
+- Starting baseline: synchronized `main` / `origin/main` at
+  `e86b6449d9bd2f4fbd89f6670581161a7990a8f5`. This update aligns the accepted
+  Phase 17D visual direction and current status; the exact transaction paths
+  are the style guide, two visual reports, `PROJECT_STATUS.md`,
+  `docs/canon_status.md`, and this handoff.
+- Phase 17D remains **ACTIVE**. HF-01 Glass City, HF-03 Maumee Bio-Ag Landscape,
+  and HF-04 Industrial Metabolism remain accepted/published. The accepted
+  [three-hero retrospective](phase17d_three_hero_visual_retrospective.md) is the
+  current visual-learning synthesis; house visual style v1.0 is established.
+- HF-02 is the next approved final-production experiment. Human review accepted
+  the corrected low-resolution study for final-production planning: **B —
+  Service Terrace / Coast Section Dominant**, **L1 — Clear, Windy Lake Day**,
+  and the clearly civilian environmental-survey / observation-craft reading.
+  The service sequence runs land/service approach → weather-protected terrace →
+  recovery/instrument/energy interfaces → working quay → open Lake Erie. The
+  accepted work cues include reachable-height weather-screen replacement, a
+  returned craft secured in a dry maintenance cradle, instrument comparison /
+  calibration, ordinary utility/quay work, and human responsibility for
+  recovery, servicing, calibration, and access.
+- Zebra-mussel/dreissenid fouling and subtle seasonally appropriate mayflies are
+  optional cues only, with abundance, distribution, control, seasonality, and
+  decorative-shorthand limits recorded in the HF-02 study. The Lake instrument
+  recovery cradle and Weather-screened inspection gallery remain unnumbered K
+  candidates; both passed the low-resolution concept test strongly enough to
+  continue into final HF-02 production. Final GBI promotion waits for human
+  review of the hero wide, maintenance/detail, and explanatory inset.
+- Final HF-02 production has **not begun**; no final assets exist and HF-02 is
+  not published. No public-site path changed, no new C was created, and HF-05
+  remains future work. The next public-site change must wait for human review of
+  the final HF-02 set. No further composition exploration is requested before
+  final-production planning.
+- Validation: Markdown links passed (160); `npm test` passed (3 files, 22
+  tests); `npm run build` passed; `git diff --check` passed; and `git lfs fsck`
+  passed. Protected-path inventory covered 37 manifests, 655 entries and 646
+  unique paths; changed-path overlap was **ZERO**. This was a path-overlap check,
+  not a protected-file content/hash audit. The prior HF-03 handoff recorded 19
+  older untouched protected validator/builder mismatches; they were not
+  re-audited or repaired in this transaction.
+
+## Historical checkpoint: Phase 17D HF-03 publication and integration — 2026-09-28
 
 - Starting baseline: synchronized `main` / `origin/main` at
   `a5e437e6f910da9f7b959be15c28728663e4d4e1`. Feature commit
