@@ -8,7 +8,7 @@
 | --- | ---: | ---: | --- |
 | `assets/phase17d/hf02/hf02_lake_erie_energy_security_coast_2075_hero_wide.webp` | 2400 × 1350 | 596,458 | `d59707bdb273deb3c20ffbd70d57ad5e03bec7e9d6198fc9265eaf2a73867a42` |
 | `assets/phase17d/hf02/hf02_lake_erie_energy_security_coast_2075_maintenance.webp` | 1600 × 1200 | 364,988 | `fec4e85359e53c614b8075c203538baadb14934ca282a6a665add7da793bd6a6` |
-| `assets/phase17d/hf02/hf02_service_terrace_recovery_section.svg` | 1440 × 900 viewBox | 10,427 | `4285a1fcdf393b5d9fe9d4b8ef913895c94735ca3a5791b98ac00affd506783d` |
+| `assets/phase17d/hf02/hf02_service_terrace_recovery_section.svg` | 1440 × 900 viewBox | 10,307 Git/Pages LF bytes; 10,427 Windows CRLF working-copy bytes | `8077e27dbe0d5f3b7253ee00a05b16baeb0478958f09cf6fa1cce7d7b3fa49df` Git/Pages LF; `4285a1fcdf393b5d9fe9d4b8ef913895c94735ca3a5791b98ac00affd506783d` CRLF working copy |
 
 Both rasters came from **separate built-in image-generator compositions**; the maintenance view is not a crop. Source PNGs stay in the production host's Codex generated-images store outside the repository. No exposed seed or pixel-reproducible image-generation setting exists; the SHA-identified selected sources are needed to reproduce these exact WebPs.
 
