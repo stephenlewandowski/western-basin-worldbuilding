@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">HF-04 qualification cell and old crane hall section</title>
+<desc id="desc">Qualitative section of a proposed vertical industrial exchange frontage inside retained brick and crane structure. An old crane lifts an opaque cell toward an empty berth. A protected optical qualification gallery and staffed acceptance desk sit above separate incoming, held, qualified, and outgoing residual bays. Heat and water services remain accessible, and outside freight is visible. This composite Toledo-derived 2075 architectural form is K, without measured dimensions or validated performance.</desc>
+<defs>
+ <pattern id="brick" width="44" height="24" patternUnits="userSpaceOnUse"><rect width="44" height="24" fill="#765747"/><path d="M0 0H44M0 12H44M0 0V12M22 12V24" stroke="#b69b82" stroke-width="1.4"/></pattern>
+ <pattern id="screen" width="10" height="10" patternUnits="userSpaceOnUse"><rect width="10" height="10" fill="#c2d4ce"/><path d="M0 0V10" stroke="#6e928e" stroke-width="1"/></pattern>
+ <pattern id="steel" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#b2b6ad"/><path d="M0 12L12 0" stroke="#88918b" stroke-width="1"/></pattern>
+ <style>text{font-family:Arial,Helvetica,sans-serif;fill:#263f44}.eyebrow{font-size:17px;letter-spacing:2px}.heading{font-size:34px;font-weight:600}.label{font-size:19px;font-weight:600}.small{font-size:16px}.note{font-size:15px;fill:#53686a}.leader{fill:none;stroke:#617673;stroke-width:1.5}.frame{fill:none;stroke:#455c5e;stroke-width:8}.dashed{fill:none;stroke:#9a7850;stroke-width:2.5;stroke-dasharray:8 6}.heat{fill:none;stroke:#ae7141;stroke-width:4}.water{fill:none;stroke:#3d8194;stroke-width:4}</style>
+</defs>
+<rect width="1440" height="900" fill="#f0f0e7"/>
+<text x="52" y="50" class="eyebrow">GLASS BASIN / HF-04 / SUPPORTING SYSTEM EXPLANATION</text>
+<text x="52" y="99" class="heading">Qualification cell / old-hall section</text>
+<text x="52" y="130" class="small">Acceptance, rejection and replacement take space and human work.</text>
+<path d="M52 154H1388" stroke="#879992"/>
+
+<!-- Old hall and crane remain visible rather than dissolving into the new frontage. -->
+<rect x="102" y="226" width="71" height="461" fill="url(#brick)"/>
+<rect x="100" y="211" width="75" height="23" fill="#aca99b" stroke="#68736e"/>
+<path d="M172 226H1093" stroke="#574f46" stroke-width="24"/>
+<path d="M172 242H1093" stroke="#b37b39" stroke-width="13"/>
+<path d="M180 228L243 276L302 228L361 276L420 228L479 276L538 228L597 276L656 228L715 276L774 228L833 276L892 228L951 276L1010 228" fill="none" stroke="#4b5653" stroke-width="4"/>
+<text x="92" y="191" class="label">Retained brick + crane rail</text>
+<path d="M315 196L307 227" class="leader"/>
+
+<!-- The old crane holds one opaque replacement cell. -->
+<rect x="437" y="215" width="96" height="28" rx="4" fill="#b17d36" stroke="#5c604f" stroke-width="3"/>
+<path d="M483 243V290M476 243V290" stroke="#394b4d" stroke-width="3"/>
+<path d="M479 290l-9 14h18z" fill="#394b4d"/>
+<path d="M479 304L398 355M479 304L560 355" stroke="#394b4d" stroke-width="3"/>
+<rect x="385" y="348" width="190" height="232" rx="5" fill="#c6c3b8" stroke="#40565a" stroke-width="9"/>
+<rect x="402" y="365" width="156" height="196" fill="url(#steel)" stroke="#7c8982" stroke-width="2"/>
+<path d="M418 394H543M418 503H543" stroke="#6f7d78" stroke-width="6"/>
+<circle cx="402" cy="403" r="9" fill="#aa7538"/><circle cx="558" cy="403" r="9" fill="#aa7538"/>
+<circle cx="402" cy="530" r="9" fill="#aa7538"/><circle cx="558" cy="530" r="9" fill="#aa7538"/>
+<rect x="412" y="573" width="28" height="12" fill="#6f7772"/><rect x="520" y="573" width="28" height="12" fill="#6f7772"/>
+<text x="238" y="311" class="label">Removable opaque cell</text>
+<text x="238" y="335" class="note">Human-guided lift</text>
+<path d="M400 321L419 350" class="leader"/>
+<path d="M350 623l17-33 17 33M367 590v-30M338 654l29-31 28 31" fill="none" stroke="#4e625e" stroke-width="5"/>
+<circle cx="367" cy="549" r="12" fill="#cc9a62" stroke="#4e625e" stroke-width="2"/>
+<path d="M591 623l17-33 17 33M608 590v-30M579 654l29-31 28 31" fill="none" stroke="#4e625e" stroke-width="5"/>
+<circle cx="608" cy="549" r="12" fill="#cc9a62" stroke="#4e625e" stroke-width="2"/>
+
+<!-- Tall modular frontage: protected observation above an empty berth. -->
+<path d="M684 245V686M1068 245V686M684 378H1068M684 574H1068M684 686H1068" class="frame"/>
+<rect x="704" y="261" width="346" height="101" fill="url(#screen)" stroke="#516a6b" stroke-width="3"/>
+<rect x="723" y="314" width="117" height="11" fill="#687b78"/>
+<circle cx="756" cy="296" r="9" fill="#916f58"/><path d="M756 305v13" stroke="#4f6263" stroke-width="5"/>
+<circle cx="804" cy="296" r="9" fill="#916f58"/><path d="M804 305v13" stroke="#4f6263" stroke-width="5"/>
+<rect x="884" y="296" width="100" height="35" fill="#e3e1d6" stroke="#69827e" stroke-width="2"/>
+<text x="715" y="282" class="small">PROTECTED OPTICAL QUALIFICATION</text>
+<text x="786" y="351" class="note">Staffed acceptance desk</text>
+<rect x="704" y="394" width="346" height="165" fill="#e7e3d8" stroke="#ad8451" stroke-width="3" stroke-dasharray="9 6"/>
+<path d="M730 423V536M1024 423V536" stroke="#697f7c" stroke-width="7"/>
+<rect x="724" y="421" width="14" height="19" rx="2" fill="#a97637"/>
+<rect x="1016" y="421" width="14" height="19" rx="2" fill="#a97637"/>
+<circle cx="769" cy="508" r="14" fill="#5e6f6d"/>
+<rect x="794" y="492" width="45" height="31" fill="#bbb9ab" stroke="#667773"/>
+<text x="776" y="446" class="label">Empty isolated berth</text>
+<text x="776" y="472" class="note">Attachment + service clearance</text>
+<rect x="709" y="587" width="337" height="84" fill="#b5b9ae" stroke="#42585a" stroke-width="5"/>
+<path d="M780 587V671M980 587V671" stroke="#71817d" stroke-width="6"/>
+<text x="800" y="628" class="small">IN-PLACE CELL</text>
+<text x="800" y="649" class="note">Separate service access</text>
+<text x="1115" y="278" class="label">Tall exchange frontage</text>
+<path d="M1112 285L1068 304" class="leader"/>
+
+<!-- Utilities connect at accessible but still conditional interfaces. -->
+<path d="M1069 454H1168V629H1108" class="heat"/>
+<path d="M1069 474H1194V650H1108" class="water"/>
+<circle cx="1168" cy="551" r="12" fill="#f0f0e7" stroke="#ae7141" stroke-width="3"/>
+<path d="M1158 551h20M1168 541v20" stroke="#ae7141" stroke-width="2"/>
+<circle cx="1194" cy="572" r="12" fill="#f0f0e7" stroke="#3d8194" stroke-width="3"/>
+<path d="M1184 572h20M1194 562v20" stroke="#3d8194" stroke-width="2"/>
+<text x="1107" y="379" class="small">Accessible heat / water</text>
+<text x="1107" y="402" class="note">Valves + outside dependencies</text>
+<path d="M1168 410V448" class="leader"/>
+
+<!-- Old concrete floor and four visibly distinct material dispositions. -->
+<path d="M75 686H1362" stroke="#727e77" stroke-width="9"/>
+<text x="90" y="720" class="small">SEPARATE MATERIAL BAYS / HUMAN QUALIFICATION GATE</text>
+<rect x="90" y="735" width="252" height="79" fill="#d2dcd9" stroke="#718e8a" stroke-width="2"/>
+<rect x="356" y="735" width="252" height="79" fill="#ead6cb" stroke="#b27459" stroke-width="2"/>
+<rect x="622" y="735" width="252" height="79" fill="#d9e1d6" stroke="#819b80" stroke-width="2"/>
+<rect x="888" y="735" width="252" height="79" fill="#ded8cd" stroke="#96826c" stroke-width="2"/>
+<text x="108" y="769" class="label">Incoming feedstock</text><text x="108" y="794" class="note">External input</text>
+<text x="374" y="769" class="label">Hold / reject</text><text x="374" y="794" class="note">Ambiguous stream waits</text>
+<text x="640" y="769" class="label">Qualified input</text><text x="640" y="794" class="note">Conditional handoff</text>
+<text x="906" y="769" class="label">Outgoing residual</text><text x="906" y="794" class="note">External handling</text>
+<path d="M1155 775H1300" stroke="#71817b" stroke-width="4"/>
+<rect x="1237" y="754" width="70" height="35" fill="#9c9381" stroke="#57645f" stroke-width="2"/>
+<circle cx="1253" cy="795" r="8" fill="#495c5c"/><circle cx="1293" cy="795" r="8" fill="#495c5c"/>
+<text x="1162" y="743" class="small">Outside freight</text>
+
+<path d="M52 841H1388" stroke="#879992"/>
+<text x="52" y="868" class="note">Composite Toledo-derived 2075 scenario / K architectural form. Qualitative relationships only; no dimensions, compatibility, throughput or environmental result.</text>
+</svg>

@@ -12,6 +12,7 @@ export default defineConfig({
         field: page('./atlas/field-to-lake/index.html'),
         crib: page('./atlas/toledo-crib/index.html'),
         glassCity: page('./atlas/glass-city-2075/index.html'),
+        industrialMetabolism: page('./atlas/industrial-metabolism-2075/index.html'),
         farm: page('./atlas/farm-2075/index.html'),
         industry: page('./atlas/industrial-exchange/index.html'),
         methods: page('./methods/index.html'),

@@ -1,5 +1,35 @@
 # Current Phase Handoff
 
+## Phase 17D HF-04 Industrial Metabolism hero set — 2026-09-28
+
+- On `main` from the accepted HF-01 reference commit
+  `9fc72e08bbe1b17e6650f18405561ff75fd520b1`, the second public
+  futurescape now has a 2400 × 1350 wide WebP (592,934 bytes), a separately
+  composed 1600 × 1200 maintenance WebP (367,148 bytes), and a qualitative
+  1440 × 900 SVG section (8,596 bytes). The assets are in
+  `assets/phase17d/hf04/`; builders are in `src/python/phase17d/`; source
+  hashes, production choices, and limits are in
+  `reports/phase17d_hf04_final_production_notes.md`.
+- The Atlas build adds `/atlas/industrial-metabolism-2075/`, a second home
+  futurescape card, a dated `/updates/` entry, and cross-links among HF-01,
+  Industrial Exchange, methods, roadmap, Phase 17D records, and FT-03.
+  GitHub Pages deployment remains a separate manual workflow.
+- The retained crane hall, suspended replacement cell, protected qualification,
+  distinct hold/reject and outgoing material bays, human decisions, and external
+  freight are composite S/K design. The public caption reads “Composite
+  Toledo-derived 2075 scenario / K architectural form.” No named plant,
+  successful exchange, measured performance, environmental outcome, or new C
+  is asserted. HF-01 remains the accepted visual calibration; no later hero or
+  unrelated phase was started.
+- Visual QA passed at full size and site/card widths; both WebPs decoded at
+  target dimensions, the SVG parsed and rendered, and all three assets remained
+  below their weight targets. The home, HF-04, and related routes rendered in
+  the local site. `npm test` passed 22/22, `npm run build` passed, 118 Markdown
+  links passed, `git diff --check` passed, and `git lfs fsck` passed. Build
+  asset references resolve. Across 37 freeze manifests, 655 entries protect
+  646 unique paths; no changed path intersects them and no protected content
+  mismatch was found (allowing established LF/CRLF equivalence).
+
 ## Phase 17D HF-01 accepted production set — 2026-09-28
 
 - The accepted **C — Glasspunk Promotional Hero** direction has produced a
@@ -14,7 +44,7 @@
 - The composite street, canopy, repair, and depicted activities remain S/K;
   no new C or measured performance claim is created. The public caption reads
   “Composite Toledo-derived 2075 scenario / K architectural form.”
-- HF-04 has no produced image or route. Phase 1–16 frozen artifacts and
+- At that HF-01 checkpoint, HF-04 had no produced image or route. Phase 1–16 frozen artifacts and
   accepted Phase 17A/B products remain outside this edit scope. Phase 17C
   ordinary-day tests remain separate and provisional.
 - Local QA: both WebPs decoded at target dimensions and remained below their

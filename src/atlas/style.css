@@ -141,6 +141,7 @@ p{line-height:1.7}
 .future-intro{padding-block:65px 100px}
 .future-intro .back-link{margin-bottom:45px}
 .future-intro h1{font-size:clamp(65px,8vw,119px);margin:18px 0 45px}
+.future-intro .future-long-title{font-size:clamp(54px,6vw,92px)}
 .future-intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:9%}
 .future-question{font-family:'Fraunces',Georgia,serif;font-size:clamp(26px,2.8vw,41px);line-height:1.23}
 .future-detail,.future-section{padding-block:90px;border-top:1px solid #c9cabf}
@@ -170,6 +171,7 @@ p{line-height:1.7}
 .reading-order-grid h3{font-family:'Fraunces',Georgia,serif;font-size:27px;font-weight:400;margin-bottom:10px}
 .reading-order-grid p:last-child{font-size:15px;color:#526167;margin-bottom:0}
 .method-boundary{margin:30px 0 0;padding:18px 20px;background:#e9dcd0;border-left:4px solid #bf6a4e;color:#33464a}
+.method-boundary a{color:#865035;text-underline-offset:3px;font-weight:700}
 .end-cta{text-align:center}.end-cta h2{margin:14px auto 25px}.end-cta .button{margin:auto}
 .roadmap-section{padding-top:75px}.timeline{border-top:1px solid #c9cabf}
 .timeline-item{display:grid;grid-template-columns:175px 1fr;gap:35px;border-bottom:1px solid #c9cabf;padding:31px 0}

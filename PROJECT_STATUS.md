@@ -41,13 +41,14 @@ DEVELOPMENT**; its five concepts, HF-01 through HF-05, remain S/K, and no new C
 is created. Public visual style guidance is established in the
 [Phase 17D style guide](docs/phase_briefs/phase17d_public_visual_style_guide.md).
 The [HF-01 / HF-04 production plan](docs/phase_briefs/phase17d_hf01_hf04_production_plan.md)
-starts with HF-01 Glass City 2075. The C Glasspunk Promotional Hero direction
-has produced an accepted wide image, a separately composed maintenance view,
-and a qualitative canopy section in the Atlas build. The follow-on HF-04
-instruction establishes HF-01 as its style and production calibration. The earlier
-procedural study remains development lineage. HF-04 Industrial Metabolism 2075
-is second in the production sequence; no HF-04 visual production had begun at
-this HF-01 checkpoint. The
+has produced two public-facing futurescape sets in the Atlas build. HF-01 Glass
+City 2075 remains the accepted C Glasspunk Promotional Hero calibration: wide
+image, separate maintenance view, and qualitative canopy section. HF-04
+Industrial Metabolism 2075 adds a distinct old-crane-hall wide image, separate
+maintenance view, and qualitative qualification-cell section. Its staffed
+acceptance, held/rejected material, external flows, and replaceable cell remain
+S/K propositions, without a named plant or asserted process performance. The
+earlier HF-01 procedural study remains development lineage. The
 [public-site update plan](docs/phase_briefs/phase17d_public_site_update_plan.md)
 guides the site integration. Phase 1–16 scientific baselines remain frozen and
 unchanged.

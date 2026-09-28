@@ -59,7 +59,7 @@ def export_webp(
         check.load()
         if check.format != "WEBP" or check.size != size:
             raise RuntimeError("Final WebP did not decode at the requested dimensions")
-    print(f"HF-01 WebP PASS: {output} | {size[0]} x {size[1]} | {output.stat().st_size:,} bytes")
+    print(f"Phase 17D WebP PASS: {output} | {size[0]} x {size[1]} | {output.stat().st_size:,} bytes")
     print(f"source_sha256={digest(source)}")
     print(f"output_sha256={digest(output)}")
 
