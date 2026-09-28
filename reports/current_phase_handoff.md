@@ -1,6 +1,60 @@
 # Current Phase Handoff
 
-## Phase 17D HF-02 visual direction and status alignment
+## Phase 17D HF-02 acceptance, publication, and site integration — 2026-09-28
+
+- Starting baseline and candidate branch base: synchronized `main`, `origin/main`,
+  and remote `main` at `90be6992f83d757c348a59ef9c6a599340a0e2ec`. The production
+  branch is `phase17d-hf02-final-production`.
+- HF-02 Lake Erie Energy & Security Coast 2075 is the fourth accepted/published
+  Phase 17D futurescape. Human acceptance fixed composition **B — Service
+  Terrace / Coast Section Dominant**, **L1 — Clear, Windy Lake Day**, and the
+  civilian environmental-survey interpretation. Phase 17D remains **ACTIVE**;
+  HF-05 remains future work.
+- Accepted assets (unchanged after packaging):
+  - `assets/phase17d/hf02/hf02_lake_erie_energy_security_coast_2075_hero_wide.webp`
+    — 2400 × 1350, 596,458 bytes, SHA-256
+    `d59707bdb273deb3c20ffbd70d57ad5e03bec7e9d6198fc9265eaf2a73867a42`.
+  - `assets/phase17d/hf02/hf02_lake_erie_energy_security_coast_2075_maintenance.webp`
+    — 1600 × 1200, 364,988 bytes, SHA-256
+    `fec4e85359e53c614b8075c203538baadb14934ca282a6a665add7da793bd6a6`.
+  - `assets/phase17d/hf02/hf02_service_terrace_recovery_section.svg`
+    — 1440 × 900 viewBox, 10,427 bytes, SHA-256
+    `4285a1fcdf393b5d9fe9d4b8ef913895c94735ca3a5791b98ac00affd506783d`;
+    XML parse passed and the built SVG loaded in the page.
+- Option C is accepted for HF-02 as the Atlas system-inset style v1.0 candidate,
+  limited to HF-02. Six numbered HTML callouts follow the SVG; the mobile
+  layout is a single readable column. HF-01/HF-03/HF-04 inset migration remains
+  future work. The Lake instrument recovery cradle and Weather-screened
+  inspection gallery survived visual production but remain provisional K
+  candidates pending cross-scene/reuse evaluation. No GBI number and no new C.
+- The public route follows lead image → premise/question → working detail →
+  “How it works” inset → six callouts → scenario/evidence boundary → related
+  links. Its caption is “Composite Lake Erie / Toledo-derived 2075 scenario and
+  design concept.” Home lists four published futurescapes; Updates records the
+  2026-09-28 milestone; Methods explains the HF-02 inset's mobile callouts;
+  Roadmap keeps Phase 17D active and HF-05 future work. No broader terminology
+  cleanup was performed.
+- Verification on the finalized local package: Markdown links PASS (166);
+  `npm test` PASS (3 files / 22 tests); `npm run build` PASS (53 modules,
+  including the HF-02 route and three assets); `git diff --check` PASS;
+  `git lfs fsck` PASS; style-study builder emitted and XML-parsed A/B/C study
+  SVGs under ignored `temp/` only. The protected-path audit covered 37 freeze
+  manifests, 655 entries / 646 unique paths; changed-path overlap **ZERO**.
+- Local production preview returned HTTP 200 for home, Updates, HF-01, HF-03,
+  HF-04, HF-02, Methods, Roadmap, and all four supporting-study routes plus
+  `/game/`. Edge QA at 390 px found no horizontal overflow, all three HF-02
+  assets decoded, the six callouts in one column, and the expected reading
+  order; desktop at 1440 px also had no overflow. The public build scan found
+  no Windows paths or localhost URLs; the clean headless browser session had
+  no page exceptions or failed site requests.
+- The final production notes are
+  `reports/phase17d_hf02_final_production_notes.md`; the durable style record is
+  `reports/phase17d_atlas_system_inset_style_study.md`, with its A/B/C graphic
+  generator at `src/python/phase17d/build_atlas_system_inset_style_study.py`.
+  No temporary A/B/C study outputs are staged. No Phase 1–16 protected path
+  changed.
+
+## Historical checkpoint: Phase 17D HF-02 accepted visual direction and status alignment — 2026-09-28
 
 - Starting baseline: synchronized `main` / `origin/main` at
   `e86b6449d9bd2f4fbd89f6670581161a7990a8f5`. This update aligns the accepted

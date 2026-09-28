@@ -62,11 +62,11 @@ a farm-wide greenhouse or a crop-performance claim.
 
 ## Candidate inventions for later concept tests
 
-The remaining rows are **unselected K candidates**, not new hero approvals or fully specified designs. A later brief should test need, interfaces, maintenance, authority, and claim boundary before assigning an invention ID.
+The remaining rows are **provisional K candidates**, not fully specified designs. The Lake instrument recovery cradle and Weather-screened inspection gallery have now survived HF-02 visual production, but remain provisional pending later cross-scene/reuse evaluation. A later brief should test need, interfaces, maintenance, authority, and claim boundary before assigning an invention ID. Neither receives a GBI number in this transaction.
 
 | Candidate | Concept source and reason to test |
 | --- | --- |
-| Lake instrument recovery cradle | HF-02: the shore-side service berth and crew recovery path give autonomous observation a weather-exposed, repairable physical home. No inspection continuity or lake performance claim. |
+| Lake instrument recovery cradle | HF-02: the shore-side service berth and crew recovery path give environmental survey work a weather-exposed, repairable physical home. No observation continuity or lake performance claim. |
 | Weather-screened inspection gallery | HF-02: replaceable sacrificial screens and protected instrument access could make corrosion, fouling, and seasonal service visible. Not an asserted real shoreline facility. |
 | Bio-ag edge processing module | HF-03: enclosed processing and segregated recovery beside productive fields could expose qualification and external inputs. No nutrient-removal, containment-success, or environmental-release claim. |
 | Environmental instrument-room cassette | HF-05: a withdrawn room with distinct optical, power, cooling, and sample interfaces could show that observation has mass and service cycles. No automatic truth or basin-wide coverage claim. |

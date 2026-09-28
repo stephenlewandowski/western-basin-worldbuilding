@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">How the lake-edge service terrace works</title>
+<desc id="desc">Qualitative composite Lake Erie working-coast section, from landward service and staffed access through external utility and an isolated-capable energy bay, a protected comparison gallery with a removable sacrificial weather screen, a dry cradle holding a stopped civilian environmental survey craft, an exposed working quay with biological fouling, and open Lake Erie. Workers service the screen and craft; a returned sensor case reaches a comparison bench. This is a scenario and design concept, not surveyed geometry or proof of observation, calibration, security, energy, treatment, capacity, or continuity. No new canon.</desc>
+<defs>
+ <pattern id="concrete" width="30" height="26" patternUnits="userSpaceOnUse"><rect width="30" height="26" fill="#d4d1c6"/><path d="M0 15l7-2m11 9l8-2" stroke="#b5b1a7" stroke-width="1" opacity=".55"/></pattern>
+ <pattern id="screen" width="15" height="15" patternUnits="userSpaceOnUse"><rect width="15" height="15" fill="#d8e9e6" fill-opacity=".7"/><path d="M3 0V15" stroke="#8eb9bb" stroke-width="2" opacity=".7"/></pattern>
+ <pattern id="unavailable" width="13" height="13" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V13" stroke="#a58d68" stroke-width="3" opacity=".65"/></pattern>
+ <pattern id="water" width="56" height="24" patternUnits="userSpaceOnUse"><rect width="56" height="24" fill="#8baeb9"/><path d="M0 9q14-10 28 0t28 0M0 21q14-10 28 0t28 0" fill="none" stroke="#e7f0ed" stroke-width="2" opacity=".75"/></pattern>
+ <style>
+  text{fill:#23383b;font-family:Arial,Helvetica,sans-serif}
+  .kicker{font-size:15px;letter-spacing:2.5px;font-weight:700;fill:#547276}
+  .title{font-family:Georgia,serif;font-size:44px;letter-spacing:-1.1px}
+  .subtitle{font-size:18px;fill:#56676a}
+  .label{font-size:19px;font-weight:700}
+  .micro{font-size:16px;fill:#4e6468}
+  .footer{font-size:15px;fill:#54676a}
+  .leader{fill:none;stroke:#71898b;stroke-width:1.5}
+  .major{fill:none;stroke:#3e5357;stroke-width:6;stroke-linejoin:round;stroke-linecap:round}
+  .middle{fill:none;stroke:#52696d;stroke-width:3;stroke-linejoin:round;stroke-linecap:round}
+  .fine{fill:none;stroke:#789194;stroke-width:1.5;stroke-linejoin:round}
+  .num{font-size:30px;font-weight:700;fill:#fff;text-anchor:middle;dominant-baseline:central}
+ </style>
+</defs>
+<rect width="1440" height="900" fill="#f3f1e9"/>
+<text x="70" y="54" class="kicker">WESTERN BASIN ATLAS  /  SYSTEM INSET</text>
+<text x="70" y="108" class="title">How the lake-edge service terrace works</text>
+<text x="70" y="141" class="subtitle">A composite 2075 working-coast scenario, drawn from service approach to open lake.</text>
+<path d="M70 163H1370" stroke="#9baaaa" stroke-width="1"/>
+<g transform="translate(0 -70)"><g id="coast-section">
+<!-- Air and lake exposure remain visibly separate from the protected gallery. -->
+<path d="M1218 444H1370V728H1218Z" fill="#e7edeb"/>
+<path d="M1248 614H1370V728H1248Z" fill="url(#water)"/>
+<path d="M1250 609q28-10 52 0t68-3" stroke="#5c8b99" stroke-width="4" fill="none"/>
+<path d="M1265 405l22 13m13-26l22 12m7 26l24 12" stroke="#c6dce1" stroke-width="3" opacity=".7"/>
+
+<!-- Principal retained and added coast section; textured mass, not a stack of cards. -->
+<path d="M74 590H850V675H1087V617H1248V728H74Z" fill="url(#concrete)" stroke="#526268" stroke-width="5" stroke-linejoin="round"/>
+<path d="M74 590H850V675H1087V617H1248" class="major"/>
+<path d="M85 662H780M89 695H780M1114 685H1212" stroke="#b5b1a7" stroke-width="2" opacity=".65"/>
+<path d="M90 590l-15-14h164M260 590l18-13h133" class="middle"/>
+<path d="M930 682l-20 20m35-19l-20 20m35-19l-20 20m35-19l-20 20" stroke="#aaa79c" stroke-width="1.5"/>
+
+<!-- A long weather roof, with depth and separate working rooms below. -->
+<path d="M228 361H845l25 21H228Z" fill="#aeb9b5" stroke="#40565a" stroke-width="4"/>
+<path d="M234 388H843" stroke="#6d8284" stroke-width="4"/>
+<path d="M244 382V590M408 382V590M611 382V590M845 382V590" class="middle"/>
+<path d="M244 398H843" stroke="#8da3a1" stroke-width="2"/>
+<path d="M258 399H403V590H258Z" fill="#e5e3d9"/>
+<path d="M420 400H606V590H420Z" fill="#aeb8b4"/>
+<path d="M618 400H840V590H618Z" fill="#d8e8e4" fill-opacity=".86"/>
+<path d="M404 400V590M610 400V590" stroke="#4f666a" stroke-width="4"/>
+
+<!-- Staffed boundary and external utility: no directional or capacity claim. -->
+<path d="M94 553h112v-28h39" stroke="#a78c56" stroke-width="4" fill="none"/>
+<circle cx="94" cy="553" r="5" fill="#a78c56"/><circle cx="207" cy="553" r="5" fill="#a78c56"/>
+<rect x="286" y="435" width="75" height="155" fill="#d0d8d1"/>
+<path d="M290 438h71v152" class="middle"/>
+<path d="M370 407V594" stroke="#ac8e59" stroke-width="2.5" stroke-dasharray="8 7"/>
+<path d="M311 496h28v20h-28Z" fill="#f0ede3" stroke="#79918e" stroke-width="1.5"/>
+<g transform="translate(351 585) scale(0.88)" aria-hidden="true">
+ <circle cx="0" cy="-57" r="9" fill="#a47a5b"/><path d="M-14-45Q0-52 14-45L17-17H-17Z" fill="#394f52"/>
+ <path d="M-12-16l-4 22h9l8-20m11-2l4 22H7L0-14" fill="#34494d"/>
+ <path d="M-12-36l-17 15 6 7 17-13M11-36l15 17-5 6-17-13" fill="#394f52"/><path d="M-17-43h34" stroke="#d7a465" stroke-width="4" opacity=".75"/>
+ </g>
+
+<!-- Opaque utility service; one hatched, unavailable/isolated bay. -->
+<path d="M430 428h167M430 442h167" stroke="#dae1db" stroke-width="4"/>
+<path d="M441 474h61v116h-61Z" fill="#d0d2c9" stroke="#546a6c" stroke-width="2"/>
+<path d="M513 474h74v116h-74Z" fill="url(#unavailable)" stroke="#546a6c" stroke-width="2"/>
+<path d="M526 490h48m-48 10h48" stroke="#66817f" stroke-width="2"/>
+<path d="M443 416h146" stroke="#7c9694" stroke-width="5"/>
+
+<!-- Sacrificial outer screen and protected comparison bench. -->
+<rect x="627" y="409" width="42" height="181" fill="url(#screen)" stroke="#7faaaa" stroke-width="2"/>
+<path d="M637 426l17 23m-13 7l14 19m-17 15l16 20" stroke="#a5babb" stroke-width="1" opacity=".7"/>
+<path d="M678 545h143m-135-11h128" class="middle"/>
+<path d="M716 511h50v23h-50Z" fill="#859da0" stroke="#526d70" stroke-width="2"/>
+<circle cx="731" cy="520" r="5" fill="#d4e5e2"/><circle cx="748" cy="520" r="5" fill="#d4e5e2"/>
+<path d="M794 530v60m-65-45v45" class="fine"/>
+<path d="M813 552h35v24h-35Z" fill="#a7b9b5" stroke="#526d70" stroke-width="2"/>
+<circle cx="820" cy="581" r="4" fill="#586e6f"/><circle cx="843" cy="581" r="4" fill="#586e6f"/>
+<g transform="translate(690 587) scale(1.0)" aria-hidden="true">
+ <circle cx="0" cy="-57" r="9" fill="#a47a5b"/><path d="M-14-45Q0-52 14-45L17-17H-17Z" fill="#394f52"/>
+ <path d="M-12-16l-4 22h9l8-20m11-2l4 22H7L0-14" fill="#34494d"/>
+ <path d="M-11-36L-30-55l-5 6 24 24M10-37l14-9 5 7-19 18" fill="#394f52"/><path d="M-17-43h34" stroke="#d7a465" stroke-width="4" opacity=".75"/>
+ </g>
+
+<!-- Dry U-cut and blunt civilian survey craft on chocks; no hanging object. -->
+<path d="M865 600V667H1072V600" stroke="#496369" stroke-width="3" fill="none"/>
+<path d="M887 635h166m-153 18h140" class="middle"/>
+<path d="M920 585q4-15 21-17h86q18 0 22 17l-8 23H926Z" fill="#e3e8df" stroke="#4c696c" stroke-width="3"/>
+<path d="M940 569v-11h75v11M1022 570v-21m-10 0h21" class="fine"/>
+<circle cx="949" cy="590" r="9" fill="#9dbbc0" stroke="#5e8186" stroke-width="2"/>
+<circle cx="980" cy="590" r="9" fill="#9dbbc0" stroke="#5e8186" stroke-width="2"/>
+<rect x="920" y="612" width="29" height="17" fill="#758d8c"/><rect x="1029" y="612" width="29" height="17" fill="#758d8c"/>
+<path d="M961 608v7m42-7v7" class="fine"/>
+<g transform="translate(1082 613) scale(0.88)" aria-hidden="true">
+ <circle cx="0" cy="-57" r="9" fill="#a47a5b"/><path d="M-14-45Q0-52 14-45L17-17H-17Z" fill="#394f52"/>
+ <path d="M-12-16l-4 22h9l8-20m11-2l4 22H7L0-14" fill="#34494d"/>
+ <path d="M-12-36l-17 15 6 7 17-13M11-36l15 17-5 6-17-13" fill="#394f52"/><path d="M-17-43h34" stroke="#d7a465" stroke-width="4" opacity=".75"/>
+ </g>
+
+<!-- Exposed quay, old hardware and restrained biological/weathering marks. -->
+<path d="M1112 617h119m-109 0v-44m82 44v-44" class="fine"/>
+<path d="M1136 616v-26h34v26m-31-25h28" class="middle"/>
+<path d="M1193 651q8-7 16 0t17 0m-22 12q8-7 16 0t17 0" stroke="#688b88" stroke-width="2" fill="none"/>
+<circle cx="1210" cy="677" r="4" fill="#536e6b"/><circle cx="1223" cy="682" r="3" fill="#536e6b"/>
+<circle cx="1237" cy="665" r="3" fill="#536e6b"/><circle cx="1218" cy="696" r="3" fill="#536e6b"/>
+<path d="M1170 556l13 17m6-23l11 16m11-27l10 16" stroke="#9db8bd" stroke-width="2" opacity=".55"/>
+</g></g><g class="callout"><circle cx="330" cy="399" r="27" fill="#426d76"/><text x="330" y="400" class="num">1</text></g><g class="callout"><circle cx="505" cy="380" r="27" fill="#426d76"/><text x="505" y="381" class="num">2</text></g><g class="callout"><circle cx="750" cy="386" r="27" fill="#426d76"/><text x="750" y="387" class="num">3</text></g><g class="callout"><circle cx="975" cy="460" r="27" fill="#426d76"/><text x="975" y="461" class="num">4</text></g><g class="callout"><circle cx="1185" cy="509" r="27" fill="#426d76"/><text x="1185" y="510" class="num">5</text></g><g class="callout"><circle cx="1325" cy="463" r="27" fill="#426d76"/><text x="1325" y="464" class="num">6</text></g><path d="M70 705H1370M70 770H1370" stroke="#9aa9a8" stroke-width="1"/>
+<text x="80" y="745" class="micro"><tspan font-weight="700">01</tspan> Access + supply</text>
+<text x="296" y="745" class="micro"><tspan font-weight="700">02</tspan> Utility / isolation</text>
+<text x="532" y="745" class="micro"><tspan font-weight="700">03</tspan> Screen + comparison</text>
+<text x="818" y="745" class="micro"><tspan font-weight="700">04</tspan> Survey recovery</text>
+<text x="1070" y="745" class="micro"><tspan font-weight="700">05</tspan> Quay + fouling</text>
+<text x="1252" y="745" class="micro"><tspan font-weight="700">06</tspan> Lake</text>
+<path d="M70 833H1370" stroke="#a8b2af" stroke-width="1"/>
+<text x="70" y="860" class="footer">Scenario / design concept · qualitative relationships only · no measured dimensions or performance.</text>
+<text x="1370" y="860" class="footer" text-anchor="end">Composite coast; not a real facility or crib retrofit.</text>
+</svg>

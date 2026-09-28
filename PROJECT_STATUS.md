@@ -58,39 +58,38 @@ is established in the [Glass Basin invention catalog
 v0.1](docs/phase_briefs/phase17d_glass_basin_invention_catalog.md); the Bio-Ag
 Edge Processing Module remains provisional. No yield, nutrient-removal,
 ecological-benefit, containment-success, adoption, or new-C claim is made.
-Phase 17D remains **ACTIVE**; HF-02 is the next approved final-production
-experiment, but final production has not begun. HF-05 remains future work. The
-earlier HF-01 procedural study remains development lineage.
-The [public-site update plan](docs/phase_briefs/phase17d_public_site_update_plan.md)
-guides the site integration. Phase 1–16 scientific baselines remain frozen and
-unchanged.
-The [three-hero visual retrospective](reports/phase17d_three_hero_visual_retrospective.md)
-is accepted as the current Phase 17D visual-learning synthesis following the
-accepted/published HF-01, HF-03, and HF-04 hero sets. The [Glass Basin invention
-catalog v0.1](docs/phase_briefs/phase17d_glass_basin_invention_catalog.md) is
-established: GBI-01 Optical civic canopy / replaceable leaf system, GBI-02
-Qualified modular industrial process cell, and GBI-03 Adaptive Crop /
-Propagation Envelope. The Bio-Ag Edge Processing Module remains provisional.
-The accepted HF-03 visual choices are composition C — Bio-Ag Seam Dominant and
-C-L1 — Bright Broken Cloud; these do not create canon or rank futures. HF-03
-demonstrates the Glass Basin style beyond brick/steel industrial Toledo. No new
-C is created. Phase 17D remains **ACTIVE**; HF-02 is the next approved
-final-production experiment, but production has not begun. HF-05 remains future
-work.
-Human review accepted the corrected HF-02 low-resolution study for
-final-production planning: **B — Service Terrace / Coast Section Dominant**,
-**L1 — Clear, Windy Lake Day**, and the clearly civilian environmental survey /
-observation craft interpretation. The [HF-02 composition study](reports/phase17d_hf02_composition_studies.md)
-records the reachable-height screen replacement, dry maintenance cradle,
-comparison/calibration, ordinary utility/quay work, and optional qualified
-zebra-mussel/dreissenid and seasonal-mayfly cues.
+Phase 17D remains **ACTIVE**. HF-01 Glass City, HF-03 Maumee Bio-Ag Landscape,
+HF-04 Industrial Metabolism, and HF-02 Lake Erie Energy & Security Coast are the
+four accepted/published Phase 17D futurescapes. HF-02 was accepted and published
+on **2026-09-28**. Human review accepted **B — Service Terrace / Coast Section
+Dominant**, **L1 — Clear, Windy Lake Day**, and the civilian environmental-survey
+interpretation. Its lead image, working detail, and Option-C system inset are
+accepted; six matching semantic HTML callouts support narrow-screen reading.
+The public caption is “Composite Lake Erie / Toledo-derived 2075 scenario and
+design concept.”
+
+The [HF-02 composition study](reports/phase17d_hf02_composition_studies.md)
+records the reachable-height screen replacement, dry recovery cradle,
+comparison/calibration, ordinary utility/quay work, and the qualified
+dreissenid-style fouling cue; mayflies were omitted. The [system-inset style
+study](reports/phase17d_atlas_system_inset_style_study.md) records Option C as
+the accepted HF-02 production standard / Atlas system-inset style v1.0
+candidate. This transaction does not migrate the HF-01, HF-03, or HF-04 insets.
+
 The Lake instrument recovery cradle and Weather-screened inspection gallery
-both passed the low-resolution concept test strongly enough to continue into
-final HF-02 production; they remain unnumbered K candidates. GBI promotion waits
-for human review of the hero wide, maintenance/detail and explanatory inset.
-HF-02 final assets have not been produced and it is not published. The next
-public-site change must wait until the final HF-02 set passes human review. No
-new C is created.
+survived HF-02 visual production and remain provisional K invention candidates
+pending later cross-scene/reuse evaluation. No GBI number is assigned and no
+new C is created. Phase 17D remains **ACTIVE**; HF-05 remains future work. The
+[public-site update plan](docs/phase_briefs/phase17d_public_site_update_plan.md)
+guides the site integration. Phase 1–16 scientific baselines remain frozen and
+unchanged. The earlier HF-01 procedural study remains development lineage.
+The [three-hero visual retrospective](reports/phase17d_three_hero_visual_retrospective.md)
+remains the learning synthesis from the first three published futurescapes.
+The [Glass Basin invention catalog v0.1](docs/phase_briefs/phase17d_glass_basin_invention_catalog.md)
+retains GBI-01, GBI-02, and GBI-03; the Bio-Ag Edge Processing Module remains
+provisional. HF-03 composition C and C-L1 remain accepted visual choices, not
+canon. No yield, nutrient-removal, ecological-benefit, containment-success,
+adoption, or new-C claim is made.
 The repository storage audit is complete; no Git history rewrite is warranted.
 Earlier phase-specific entries below retain their at-the-time status wording as
 historical continuity records.
