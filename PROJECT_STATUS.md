@@ -48,10 +48,19 @@ Industrial Metabolism 2075 adds a distinct old-crane-hall wide image, separate
 maintenance view, and qualitative qualification-cell section. Its staffed
 acceptance, held/rejected material, external flows, and replaceable cell remain
 S/K propositions, without a named plant or asserted process performance. The
-earlier HF-01 procedural study remains development lineage. The
-[public-site update plan](docs/phase_briefs/phase17d_public_site_update_plan.md)
+earlier HF-01 procedural study remains development lineage.
+The [public-site update plan](docs/phase_briefs/phase17d_public_site_update_plan.md)
 guides the site integration. Phase 1–16 scientific baselines remain frozen and
 unchanged.
+The [two-hero visual retrospective](reports/phase17d_two_hero_visual_retrospective.md)
+is accepted as the current visual-learning record; HF-01 and HF-04 are the first
+two accepted/published Phase 17D hero sets. The [Glass Basin invention catalog
+v0.1](docs/phase_briefs/phase17d_glass_basin_invention_catalog.md) is established:
+GBI-01 Optical civic canopy / replaceable leaf system and GBI-02 Qualified
+modular industrial process cell. HF-03 Maumee Bio-Ag Landscape is the next
+approved **VISUAL COMPOSITION EXPERIMENT**. This is a production-order decision,
+not canon or a ranking of futures; HF-03 final production has not begun. HF-02
+remains a strong fallback; HF-05 remains later. No new C is created.
 The repository storage audit is complete; no Git history rewrite is warranted.
 Earlier phase-specific entries below retain their at-the-time status wording as
 historical continuity records.

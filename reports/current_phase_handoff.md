@@ -1,5 +1,31 @@
 # Current Phase Handoff
 
+## Phase 17D visual retrospective and invention catalog — 2026-09-28
+
+- The accepted [two-hero visual retrospective](phase17d_two_hero_visual_retrospective.md)
+  is the current visual-learning record; HF-01 and HF-04 are the first two
+  accepted/published Phase 17D hero sets.
+- [Glass Basin invention catalog v0.1](../docs/phase_briefs/phase17d_glass_basin_invention_catalog.md)
+  is established with GBI-01 Optical civic canopy / replaceable leaf system and
+  GBI-02 Qualified modular industrial process cell. Both remain S/K, not canon.
+- HF-03 Maumee Bio-Ag Landscape is the next approved **VISUAL COMPOSITION
+  EXPERIMENT**. This is production order, not canon or a ranking of futures;
+  HF-03 final production has not begun. HF-02 remains a strong fallback and
+  HF-05 remains later. No new C is created.
+- The `/updates/` log records the retrospective and HF-03 selection. No home-page
+  hero promotion, new hero route, artwork change, render, or low-priority mobile
+  polish was made.
+- Integration base: synchronized `main` / `origin/main` at
+  `0aab3063e3d3e763c091a72d12558c92466423ca`. The two approved documents are
+  included unchanged.
+- Validation passed: `python src/python/qa/validate_markdown_links.py` (140
+  links); `npm test` (3 files, 22 tests); `npm run build` (`tsc --noEmit` and
+  Vite build); `git diff --check`; and `git lfs fsck`. The prior-artifact audit
+  found 37 freeze manifests with 655 entries / 646 unique protected paths and
+  no changed-path overlap.
+- An additional untracked `reports/phase17d_hf03_composition_studies.md` was
+  observed outside this integration scope; it was not staged or modified.
+
 ## Phase 17D HF-04 Industrial Metabolism hero set — 2026-09-28
 
 - On `main` from the accepted HF-01 reference commit
