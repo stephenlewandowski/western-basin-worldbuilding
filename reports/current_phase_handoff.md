@@ -1,6 +1,47 @@
 # Current Phase Handoff
 
-## Phase 17D visual retrospective and invention catalog — 2026-09-28
+## Phase 17D HF-03 acceptance and local publication QA — 2026-09-28
+
+- Starting baseline: synchronized `main` / `origin/main` at
+  `a5e437e6f910da9f7b959be15c28728663e4d4e1`; active branch is
+  `phase17d-hf03-final-production`.
+- HF-03 Maumee Bio-Ag Landscape is accepted as the third published Phase 17D
+  hero set. Hero wide, maintenance view, explanatory SVG, and public claims
+  **PASS**; publication is authorized. Composition **C — Bio-Ag Seam Dominant**
+  and light/weather **C-L1 — Bright Broken Cloud** are accepted visual choices.
+  No new canon is created. HF-03 demonstrates the Glass Basin visual language
+  outside brick/steel industrial Toledo.
+- **GBI-03 — Adaptive Crop / Propagation Envelope** is established in the
+  invention catalog. The Bio-Ag Edge Processing Module remains provisional.
+  Phase 17D remains **ACTIVE**; HF-02 and HF-05 remain future work. Neither has
+  been started.
+- The public route `/atlas/maumee-bio-ag-2075/` reads hero wide → short
+  premise/question → maintenance view → explanatory SVG → E/S/K boundary →
+  related links. Required caption: “Composite Maumee-derived 2075 scenario / K
+  architectural form.” Home preserves HF-01, HF-04, and the four Phase 17A
+  supporting studies; updates, methods, and roadmap reflect HF-03 publication
+  and GBI-03.
+- HF-03 assets: hero 2400 × 1350 / 724,488 bytes; maintenance 1600 × 1200 /
+  551,006 bytes; explanatory SVG 1440 × 900 viewBox / 7,514 bytes.
+- Local validation: Markdown links PASS (142); `npm test` PASS (22/22);
+  `npm run build` PASS; `git diff --check` PASS; `git lfs fsck` PASS. Production
+  preview checked required and supporting routes at desktop and 390 px: no
+  horizontal overflow, failed image loads, JavaScript exceptions, or failed
+  network requests. The mobile header stays on one row and its CTA is layered
+  above the decorative circle.
+- Protected audit: 37 freeze manifests, 655 entries, 646 unique protected
+  paths; changed-path overlap **ZERO**. Nineteen existing hash mismatches are
+  confined to untouched protected files and remain technical debt.
+- Mutable status, canon, catalog, site, and HF-03 records are updated. All
+  pre-existing HF-03 production assets/builders and accepted visual-direction
+  work remain intact. No unrelated paths are present in this worktree.
+- Current delivery checkpoint: local acceptance and validation are complete;
+  explicit-path staging and the requested commit are next, followed by a
+  fast-forward to `main`, push, manual Pages deployment, and live-route check.
+  Do not reset/discard HF-03 work. Preserve unrelated untracked files in other
+  registered worktrees. No HF-02/HF-05 work or new GBI entry is authorized.
+
+## Historical checkpoint: two-hero retrospective before HF-03 production — 2026-09-28
 
 - The accepted [two-hero visual retrospective](phase17d_two_hero_visual_retrospective.md)
   is the current visual-learning record; HF-01 and HF-04 are the first two
@@ -23,8 +64,9 @@
   Vite build); `git diff --check`; and `git lfs fsck`. The prior-artifact audit
   found 37 freeze manifests with 655 entries / 646 unique protected paths and
   no changed-path overlap.
-- An additional untracked `reports/phase17d_hf03_composition_studies.md` was
-  observed outside this integration scope; it was not staged or modified.
+- At this earlier checkpoint, the then-untracked
+  `reports/phase17d_hf03_composition_studies.md` was outside that integration
+  scope and was not staged or modified.
 
 ## Phase 17D HF-04 Industrial Metabolism hero set — 2026-09-28
 

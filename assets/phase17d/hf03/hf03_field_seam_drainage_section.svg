@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">HF-03 field, bio-ag seam, drainage and wetland qualitative section</title>
+<desc id="desc">A composite Maumee-derived 2075 scenario and K architectural form. From left to right are an unroofed productive field; selective propagation bay; stopped field machine at an open service berth; opaque contained processing and qualification; separate hold, reject and outward access; old drainage control and ordinary ditch water; and a distinct reed wetland edge. External supplies enter by road. A farmer maintains the gate, and an empty seam segment remains isolated. The diagram has display coordinates only and claims no measured geometry, treatment, nutrient capture, yield or ecological improvement.</desc>
+<defs>
+  <pattern id="soil" width="24" height="16" patternUnits="userSpaceOnUse"><rect width="24" height="16" fill="#a88762"/><path d="M2 5l5 2m9 5l5-1" stroke="#705b43" stroke-width="2"/></pattern>
+  <pattern id="reeds" width="22" height="42" patternUnits="userSpaceOnUse"><path d="M3 42L8 7m2 35L18 14m-6 28l-2-21" stroke="#63815e" stroke-width="3"/><ellipse cx="8" cy="8" rx="3" ry="6" fill="#8d744d"/></pattern>
+  <style>text{font-family:Arial,Helvetica,sans-serif;fill:#243e43}.eyebrow{font-size:17px;letter-spacing:2px;font-weight:700}.heading{font-size:36px;font-weight:700}.label{font-size:19px;font-weight:700}.small{font-size:16px}.note{font-size:15px;fill:#51666a}.guide{stroke:#6d8582;stroke-width:2;fill:none}.segment{stroke:#425e60;stroke-width:4}.old{stroke:#6a675c;stroke-width:5}</style>
+</defs>
+<rect width="1440" height="900" fill="#f2f0e7"/>
+<text x="52" y="51" class="eyebrow">GLASS BASIN / HF-03 / SUPPORTING SYSTEM EXPLANATION</text>
+<text x="52" y="103" class="heading">Field / working seam / drainage</text>
+<text x="52" y="137" class="small">A qualitative relationship, not a mapped farm or measured section.</text>
+<path d="M52 163H1388" class="guide"/>
+
+<!-- Different ground and water spaces remain visibly separate. -->
+<rect x="52" y="385" width="1320" height="218" fill="url(#soil)"/>
+<path d="M52 385H1100" stroke="#76916b" stroke-width="9"/>
+<path d="M1100 385Q1150 395 1178 416L1210 510H1276L1308 402Q1340 389 1372 389V603H1100Z" fill="#8b795e"/>
+<path d="M1178 416Q1191 478 1210 510H1276L1308 402" fill="none" stroke="#72624e" stroke-width="4"/>
+<path d="M1211 508Q1241 523 1277 508" fill="none" stroke="#678d9a" stroke-width="30"/>
+<path d="M1211 508Q1241 523 1277 508" fill="none" stroke="#a0b9b6" stroke-width="4"/>
+<rect x="1314" y="322" width="58" height="98" fill="url(#reeds)"/>
+<path d="M1313 383H1372" stroke="#698563" stroke-width="9"/>
+
+<!-- Substantial unroofed productive field. -->
+<path d="M58 383q13-39 25 0m18 0q13-39 25 0m18 0q13-39 25 0m18 0q13-39 25 0m18 0q13-39 25 0" fill="none" stroke="#708c56" stroke-width="8"/>
+<path d="M66 445l36 26m36-26l36 26m36-26l36 26" stroke="#826e4e" stroke-width="4"/>
+<text x="55" y="247" class="label">Productive open field</text>
+<text x="55" y="273" class="note">Unroofed cultivation</text>
+<path d="M160 282V360" class="guide"/>
+
+<!-- Translucent selective bay, open service, contained opaque work. -->
+<path d="M279 388V327L348 271H430L477 327V388Z" fill="#c9ded6" fill-opacity=".8" class="segment"/>
+<path d="M279 327H477M348 271V388M430 271V388" class="guide"/>
+<path d="M300 373q12-33 24 0m37 0q12-33 24 0m37 0q12-33 24 0" fill="none" stroke="#648a58" stroke-width="5"/>
+<text x="285" y="221" class="label">Selective propagation</text>
+<text x="285" y="246" class="note">Translucent cultivation bay</text>
+
+<rect x="490" y="333" width="173" height="55" fill="#e5e4d8" stroke="#9a8059" stroke-width="3" stroke-dasharray="9 6"/>
+<path d="M514 370h90l10-25h23" fill="none" stroke="#4e6662" stroke-width="7"/>
+<circle cx="534" cy="384" r="13" fill="#4e6662"/><circle cx="595" cy="384" r="13" fill="#4e6662"/>
+<path d="M633 342v-31m-21 31h42" stroke="#5b6d69" stroke-width="5"/>
+<text x="495" y="200" class="label">Machine berth</text>
+<text x="495" y="225" class="note">Stopped field unit</text>
+<text x="495" y="252" class="note">Human repair</text>
+
+<rect x="680" y="269" width="223" height="119" rx="5" fill="#b9c0b8" class="segment"/>
+<path d="M700 303H883M700 326H883" stroke="#8c9890" stroke-width="6"/>
+<rect x="721" y="344" width="53" height="43" fill="#e1ded0" stroke="#59716f" stroke-width="3"/>
+<rect x="796" y="344" width="80" height="43" fill="#899991" stroke="#59716f" stroke-width="3"/>
+<text x="685" y="206" class="label">Contained work</text>
+<text x="685" y="232" class="note">Processing / qualification</text>
+<text x="685" y="253" class="note">Separate from field + water</text>
+
+<rect x="920" y="308" width="141" height="80" fill="#d4c5ad" stroke="#806f59" stroke-width="4"/>
+<rect x="940" y="332" width="42" height="55" fill="#e6dfd2" stroke="#806f59" stroke-width="2"/>
+<rect x="995" y="332" width="42" height="55" fill="#b9ac99" stroke="#806f59" stroke-width="2"/>
+<text x="920" y="201" class="label">Hold / reject</text>
+<text x="920" y="227" class="note">Outward route</text>
+<path d="M980 239V289" class="guide"/>
+
+<!-- Old water control is maintained, without a treatment outcome. -->
+<rect x="1113" y="351" width="68" height="75" fill="#9c9b8d" class="old"/>
+<path d="M1113 366h68m-60 14h53m-53 14h53" stroke="#5c625c" stroke-width="5"/>
+<path d="M1146 350v-41m-23 0h46" class="old" fill="none"/>
+<circle cx="1100" cy="331" r="11" fill="#b4845b"/>
+<path d="M1100 343v31m0 0l-18 20m18-20l17 14" stroke="#4c655e" stroke-width="7" fill="none"/>
+<text x="1072" y="265" class="label">Old drainage gate</text>
+<text x="1072" y="290" class="note">Sediment / farmer's task</text>
+<text x="1207" y="584" class="label">Ditch water</text>
+<text x="1276" y="283" class="label">Wetland edge</text>
+<text x="1276" y="308" class="note">Distinct reeds</text>
+
+<!-- External and maintenance relations are qualitative, not flow quantities. -->
+<rect x="460" y="621" width="494" height="103" rx="6" fill="#e4e5dc" stroke="#738783" stroke-width="2"/>
+<path d="M489 679h55v-26h71v26h19m-128 0a10 10 0 1 0 20 0m75 0a10 10 0 1 0 20 0" fill="none" stroke="#576c69" stroke-width="5"/>
+<text x="651" y="658" class="label">Conventional external supplies</text>
+<text x="651" y="684" class="note">Receiving / service / outward route</text>
+<rect x="52" y="621" width="374" height="103" rx="6" fill="#e8e6d9" stroke="#9b875f" stroke-width="2"/>
+<text x="75" y="660" class="label">Empty / isolated segment</text>
+<text x="75" y="687" class="note">Interruption and repair shape the seam</text>
+<rect x="982" y="621" width="390" height="103" rx="6" fill="#dfe6df" stroke="#79927f" stroke-width="2"/>
+<text x="1003" y="660" class="label">No environmental result shown</text>
+<text x="1003" y="687" class="note">Water, field and wetland remain distinct</text>
+
+<path d="M52 750H1388" class="guide"/>
+<text x="52" y="791" class="small">Composite Maumee-derived 2075 scenario / K architectural form.</text>
+<text x="52" y="822" class="note">Qualitative adjacency only. Display coordinates are not dimensions; no nutrient, water-treatment, yield, safety or ecological claim.</text>
+<text x="52" y="852" class="note">E: inherited agriculture, drainage, weather and ecology · S: conditional maintained adaptation · K: depicted seam, machinery and arrangement · No new C.</text>
+</svg>

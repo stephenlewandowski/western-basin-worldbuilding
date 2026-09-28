@@ -1,6 +1,6 @@
 # Project Status
 
-Last reviewed: 2026-09-27
+Last reviewed: 2026-09-28
 
 ## Current physical-asset coordinate disposition
 
@@ -47,20 +47,33 @@ image, separate maintenance view, and qualitative canopy section. HF-04
 Industrial Metabolism 2075 adds a distinct old-crane-hall wide image, separate
 maintenance view, and qualitative qualification-cell section. Its staffed
 acceptance, held/rejected material, external flows, and replaceable cell remain
-S/K propositions, without a named plant or asserted process performance. The
-earlier HF-01 procedural study remains development lineage.
+S/K propositions, without a named plant or asserted process performance. HF-03
+Maumee Bio-Ag Landscape 2075 is the third accepted/published Phase 17D hero set,
+with a wide image, separate maintenance view, and qualitative field-seam and
+drainage section. Composition C — Bio-Ag Seam Dominant and light/weather C-L1 —
+Bright Broken Cloud are accepted visual choices, not canon. HF-03 extends the
+Glass Basin visual language beyond brick/steel industrial Toledo into a
+composite agricultural landscape. GBI-03 Adaptive Crop / Propagation Envelope
+is established in the [Glass Basin invention catalog
+v0.1](docs/phase_briefs/phase17d_glass_basin_invention_catalog.md); the Bio-Ag
+Edge Processing Module remains provisional. No yield, nutrient-removal,
+ecological-benefit, containment-success, adoption, or new-C claim is made.
+Phase 17D remains **ACTIVE**; HF-02 and HF-05 remain future work. The earlier
+HF-01 procedural study remains development lineage.
 The [public-site update plan](docs/phase_briefs/phase17d_public_site_update_plan.md)
 guides the site integration. Phase 1–16 scientific baselines remain frozen and
 unchanged.
 The [two-hero visual retrospective](reports/phase17d_two_hero_visual_retrospective.md)
-is accepted as the current visual-learning record; HF-01 and HF-04 are the first
-two accepted/published Phase 17D hero sets. The [Glass Basin invention catalog
-v0.1](docs/phase_briefs/phase17d_glass_basin_invention_catalog.md) is established:
-GBI-01 Optical civic canopy / replaceable leaf system and GBI-02 Qualified
-modular industrial process cell. HF-03 Maumee Bio-Ag Landscape is the next
-approved **VISUAL COMPOSITION EXPERIMENT**. This is a production-order decision,
-not canon or a ranking of futures; HF-03 final production has not begun. HF-02
-remains a strong fallback; HF-05 remains later. No new C is created.
+is accepted as the current visual-learning record; HF-01, HF-04, and HF-03 are
+the three accepted/published Phase 17D hero sets. The [Glass Basin invention
+catalog v0.1](docs/phase_briefs/phase17d_glass_basin_invention_catalog.md) is
+established: GBI-01 Optical civic canopy / replaceable leaf system, GBI-02
+Qualified modular industrial process cell, and GBI-03 Adaptive Crop /
+Propagation Envelope. The Bio-Ag Edge Processing Module remains provisional.
+The accepted HF-03 visual choices are composition C — Bio-Ag Seam Dominant and
+C-L1 — Bright Broken Cloud; these do not create canon or rank futures. HF-03
+demonstrates the Glass Basin style beyond brick/steel industrial Toledo. No new
+C is created. Phase 17D remains **ACTIVE**; HF-02 and HF-05 remain future work.
 The repository storage audit is complete; no Git history rewrite is warranted.
 Earlier phase-specific entries below retain their at-the-time status wording as
 historical continuity records.

@@ -40,16 +40,35 @@ An *invention* here is a reusable visual and architectural proposition, not a pa
 | Plausible settings beyond the original image | Other **synthetic** freight-adjacent production, repair, or materials-receiving interiors with their own qualification and service arrangement. Transferring the motif never assigns a process to a real facility. |
 | Decorative failure test | If a box glows while unlabeled mixed material flows in and useful stock flows out—without hold/reject space, utilities, a human acceptance point, service access, or outside freight—it is decorative automation, not this invention. |
 
+## GBI-03 — Adaptive Crop / Propagation Envelope
+
+**Source:** HF-03 Maumee Bio-Ag Landscape 2075, accepted as a public-facing
+composite S/K hero set. This invention is a maintained agricultural edge, not
+a farm-wide greenhouse or a crop-performance claim.
+
+| Field | Working definition |
+| --- | --- |
+| Need | Selective propagation/cultivation adjacent to open productive fields, with maintainable adaptation at the farm edge. No yield or ecological benefit is claimed. |
+| Function | Selectively shelter or propagate crops; preserve open-field cultivation; provide a serviceable envelope and machine access; keep cultivation separate from contained processing. |
+| Physical form | A long folded/segmented envelope with translucent cultivation bays, opaque service intervals, replaceable/weathered sections, one empty or isolated segment, and grounded machine-service access. |
+| Convergence stack | Adaptive envelope/materials, environmental sensing, bounded controls/compute, machine service, selective cultivation, and human operation and maintenance. |
+| Human interface | Farmer, technician, and delivery/service worker. People retain authority over timing, access, and repair. |
+| Maintenance / failure modes | Weathered, torn, or failed envelope; seals/connections; dirty or damaged panels; machine-service interruption; incompatible or isolated segment; and replacement requiring access and labor. |
+| Visual signature | Long folded agricultural edge; alternating translucent and opaque segments; open productive field on one side; visible drainage/wetland relationship; and an interrupted, maintainable segment. |
+| Recurring materials | Translucent agricultural membrane/glazing, ribbed composite, galvanized/oxidized utility metal, mud, tire wear, old drainage infrastructure, and field crops. |
+| S/K boundary | E: inherited agriculture, drainage, and weather. S: conditional maintained adaptation. K: exact envelope, segmentation, layout, crop, workers, and interfaces. No yield, nutrient-removal, ecological-benefit, containment-success, adoption, or new-C claim. |
+| Plausible settings | Synthetic farm edges, propagation/service margins, field-machine service zones, and other composite agricultural settings with explicit external inputs. |
+| Decorative failure test | If the envelope can be removed without changing selective cultivation, service access, maintenance, or field-edge organization, it is merely a greenhouse aesthetic. |
+
 ## Candidate inventions for later concept tests
 
-These are **unselected K candidates**, not new hero approvals or fully specified designs. A later brief should test need, interfaces, maintenance, authority, and claim boundary before assigning an invention ID.
+The remaining rows are **unselected K candidates**, not new hero approvals or fully specified designs. A later brief should test need, interfaces, maintenance, authority, and claim boundary before assigning an invention ID.
 
 | Candidate | Concept source and reason to test |
 | --- | --- |
 | Lake instrument recovery cradle | HF-02: the shore-side service berth and crew recovery path give autonomous observation a weather-exposed, repairable physical home. No inspection continuity or lake performance claim. |
 | Weather-screened inspection gallery | HF-02: replaceable sacrificial screens and protected instrument access could make corrosion, fouling, and seasonal service visible. Not an asserted real shoreline facility. |
 | Bio-ag edge processing module | HF-03: enclosed processing and segregated recovery beside productive fields could expose qualification and external inputs. No nutrient-removal, containment-success, or environmental-release claim. |
-| Adaptive crop / propagation envelope | HF-03: a folded, replaceable growing cover with field-machine access could alter the farm edge without turning the landscape into a generic greenhouse. No yield or crop-performance claim. |
 | Environmental instrument-room cassette | HF-05: a withdrawn room with distinct optical, power, cooling, and sample interfaces could show that observation has mass and service cycles. No automatic truth or basin-wide coverage claim. |
 | Civic observation / interpretation wall | HF-05: a staffed public threshold could show the separation between measurements, interpretation, privacy, and authorized notice. It must reveal accountability without exposing private records. |
 | Bounded autonomous freight handoff | HF-01/HF-04: a human-accessible transfer threshold could connect public, industrial, and external logistics without suggesting continuous autonomous control. Interfaces and exceptions must remain visible. |
