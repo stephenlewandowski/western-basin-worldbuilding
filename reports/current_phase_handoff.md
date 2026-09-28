@@ -1,45 +1,54 @@
 # Current Phase Handoff
 
-## Phase 17D HF-03 acceptance and local publication QA — 2026-09-28
+## Phase 17D HF-03 publication and integration — 2026-09-28
 
 - Starting baseline: synchronized `main` / `origin/main` at
-  `a5e437e6f910da9f7b959be15c28728663e4d4e1`; active branch is
-  `phase17d-hf03-final-production`.
-- HF-03 Maumee Bio-Ag Landscape is accepted as the third published Phase 17D
-  hero set. Hero wide, maintenance view, explanatory SVG, and public claims
-  **PASS**; publication is authorized. Composition **C — Bio-Ag Seam Dominant**
-  and light/weather **C-L1 — Bright Broken Cloud** are accepted visual choices.
+  `a5e437e6f910da9f7b959be15c28728663e4d4e1`. Feature commit
+  `f509837836f8e275764269df2da1529121b7a2d7` is
+  `feat: publish Phase 17D HF-03 Maumee Bio-Ag hero`. Canonical `main` was
+  fast-forwarded with no merge commit and pushed; at integration readback,
+  local `main`, `origin/main`, and remote `main` matched `f509837…` with
+  `0 0` divergence.
+- GitHub Pages manual workflow `Deploy Atlas Preview to GitHub Pages` completed
+  successfully as run `36396492874`, with head SHA
+  `f509837836f8e275764269df2da1529121b7a2d7`. The live base is
+  `https://stephenlewandowski.github.io/western-basin-worldbuilding/`.
+- HF-03 Maumee Bio-Ag Landscape is the third accepted/published Phase 17D hero
+  set. Hero wide, maintenance view, explanatory SVG, and public claims **PASS**;
+  publication is authorized. Composition **C — Bio-Ag Seam Dominant** and
+  light/weather **C-L1 — Bright Broken Cloud** are accepted visual choices.
   No new canon is created. HF-03 demonstrates the Glass Basin visual language
   outside brick/steel industrial Toledo.
 - **GBI-03 — Adaptive Crop / Propagation Envelope** is established in the
   invention catalog. The Bio-Ag Edge Processing Module remains provisional.
   Phase 17D remains **ACTIVE**; HF-02 and HF-05 remain future work. Neither has
   been started.
-- The public route `/atlas/maumee-bio-ag-2075/` reads hero wide → short
-  premise/question → maintenance view → explanatory SVG → E/S/K boundary →
-  related links. Required caption: “Composite Maumee-derived 2075 scenario / K
-  architectural form.” Home preserves HF-01, HF-04, and the four Phase 17A
-  supporting studies; updates, methods, and roadmap reflect HF-03 publication
-  and GBI-03.
+- Public route order is hero wide → short premise/question → maintenance view →
+  explanatory SVG → E/S/K boundary → related links. Required caption:
+  “Composite Maumee-derived 2075 scenario / K architectural form.” Home
+  preserves HF-01 and HF-04 and all four Phase 17A supporting studies; updates,
+  methods, and roadmap reflect HF-03 and GBI-03.
 - HF-03 assets: hero 2400 × 1350 / 724,488 bytes; maintenance 1600 × 1200 /
-  551,006 bytes; explanatory SVG 1440 × 900 viewBox / 7,514 bytes.
-- Local validation: Markdown links PASS (142); `npm test` PASS (22/22);
-  `npm run build` PASS; `git diff --check` PASS; `git lfs fsck` PASS. Production
-  preview checked required and supporting routes at desktop and 390 px: no
-  horizontal overflow, failed image loads, JavaScript exceptions, or failed
-  network requests. The mobile header stays on one row and its CTA is layered
-  above the decorative circle.
+  551,006 bytes; explanatory SVG 1440 × 900 viewBox / 7,424 bytes in the Git /
+  deployed LF form (7,514 bytes in this Windows CRLF working copy).
+- Local validation passed: Markdown links (142), `npm test` (22/22),
+  `npm run build`, `git diff --check`, and `git lfs fsck`. Local production
+  preview and live browser checks covered the home, updates, HF-01, HF-04,
+  HF-03, methods, roadmap, four supporting Atlas routes, and `/game/` at desktop
+  and 390 px. All returned HTTP 200; no horizontal overflow, failed image
+  decodes, JavaScript exceptions, or failed asset requests were found. The
+  390 px header stays on one row; the CTA is layered above the decorative
+  circle. Required HF-03 caption and reading order passed. All 26 bundle image
+  references returned HTTP 200. Local and deployed public-text scans found no
+  Windows or localhost paths.
 - Protected audit: 37 freeze manifests, 655 entries, 646 unique protected
-  paths; changed-path overlap **ZERO**. Nineteen existing hash mismatches are
-  confined to untouched protected files and remain technical debt.
-- Mutable status, canon, catalog, site, and HF-03 records are updated. All
-  pre-existing HF-03 production assets/builders and accepted visual-direction
-  work remain intact. No unrelated paths are present in this worktree.
-- Current delivery checkpoint: local acceptance and validation are complete;
-  explicit-path staging and the requested commit are next, followed by a
-  fast-forward to `main`, push, manual Pages deployment, and live-route check.
-  Do not reset/discard HF-03 work. Preserve unrelated untracked files in other
-  registered worktrees. No HF-02/HF-05 work or new GBI entry is authorized.
+  paths; changed-path overlap **ZERO**. Nineteen pre-existing hash mismatches
+  remain only in untouched protected validator/builder files; no attempt was
+  made to repair them.
+- The only follow-up after site deployment is this handoff-only documentation
+  update; it changes no public-site source or asset. The delivery is complete.
+  Keep other registered worktrees untouched. No HF-02/HF-05 work or further GBI
+  entry is authorized.
 
 ## Historical checkpoint: two-hero retrospective before HF-03 production — 2026-09-28
 
