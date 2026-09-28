@@ -1,5 +1,32 @@
 # Current Phase Handoff
 
+## Phase 17D HF-01 accepted production set — 2026-09-28
+
+- The accepted **C — Glasspunk Promotional Hero** direction has produced a
+  2400 × 1350 wide WebP, a separately composed 1600 × 1200 maintenance WebP,
+  and a qualitative 1440 × 900 SVG canopy section. All are in
+  `assets/phase17d/hf01/`; provenance and limitations are in
+  `reports/phase17d_hf01_final_production_notes.md`.
+- The Vite Atlas build includes `/atlas/glass-city-2075/`, a home futurescape
+  feature, and an `/updates/` milestone. The follow-on HF-04 instruction
+  establishes this HF-01 set as accepted style and production calibration.
+  GitHub Pages deployment remains a separate manual workflow.
+- The composite street, canopy, repair, and depicted activities remain S/K;
+  no new C or measured performance claim is created. The public caption reads
+  “Composite Toledo-derived 2075 scenario / K architectural form.”
+- HF-04 has no produced image or route. Phase 1–16 frozen artifacts and
+  accepted Phase 17A/B products remain outside this edit scope. Phase 17C
+  ordinary-day tests remain separate and provisional.
+- Local QA: both WebPs decoded at target dimensions and remained below their
+  size budgets; the SVG parsed and rendered; full, site-width, and card-width
+  visual inspection passed. The home, HF-01, and updates routes rendered in a
+  local browser. `npm test` passed 22/22, `npm run build` passed, 118 Markdown
+  links passed, `git diff --check` passed, and `git lfs fsck` passed. All three
+  new assets were emitted in the build; no Windows or localhost path leaked
+  into production text assets. Across 37 freeze manifests, 655 entries protect
+  646 unique paths; no changed path intersects them and no protected content
+  mismatch was found (allowing established LF/CRLF equivalence).
+
 ## Phase 17D public-site milestone 1 handoff — 2026-09-27
 
 - Active phase: **Phase 17D**. Its hero futurescape concept synthesis is

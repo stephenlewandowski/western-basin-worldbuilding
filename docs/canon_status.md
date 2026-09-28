@@ -39,13 +39,15 @@ Phase 17D is **ACTIVE**. Its hero futurescape concept synthesis remains
 S/K, and no new C is created. Public visual style guidance is established in
 the [Phase 17D style guide](phase_briefs/phase17d_public_visual_style_guide.md).
 The [HF-01 / HF-04 production plan](phase_briefs/phase17d_hf01_hf04_production_plan.md)
-starts with HF-01 Glass City 2075. Its current procedural study is useful
-development lineage, not the accepted public hero; HF-01 composition and visual
-acceptance remain pending. HF-04 Industrial Metabolism 2075 is second in the
-production sequence only after HF-01 acceptance. The
+starts with HF-01 Glass City 2075. Its wide image, separately composed
+maintenance view, and qualitative canopy section are accepted in the Atlas
+build as the Phase 17D calibration for HF-04. All depicted architecture and
+activities remain S/K; no new C is created. The procedural study remains
+development lineage. HF-04 Industrial Metabolism 2075 is second and had not
+entered visual production at this HF-01 checkpoint. The
 [public-site update plan](phase_briefs/phase17d_public_site_update_plan.md)
-guides the current text/status milestone; no final hero is accepted or
-published. Phase 1–16 scientific baselines remain frozen and unchanged.
+guides the site integration. Phase 1–16 scientific baselines remain frozen and
+unchanged.
 Active phase is **Phase 17D**. The Phase 17D concepts do not create canon.
 Earlier phase-boundary entries below retain their at-the-time status wording as
 historical continuity records.

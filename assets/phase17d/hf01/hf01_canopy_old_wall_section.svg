@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+<title id="title">HF-01 Glass City canopy and old-wall section</title>
+<desc id="desc">Qualitative section through retained industrial masonry and a proposed optical canopy. A replaceable cassette lifts from an open berth above a walkable service rib. Mechanical shoes, optical data, and electrical services are distinct. Maintenance access sits over the public route, and the canopy stops before an unconnected adjacent property. This composite Toledo-derived 2075 architectural form is K; no dimensions or validated performance are implied.</desc>
+<defs>
+ <pattern id="brick" width="48" height="24" patternUnits="userSpaceOnUse"><rect width="48" height="24" fill="#855d49"/><path d="M0 0H48M0 12H48M0 0V12M24 12V24" stroke="#bb9b82" stroke-width="1.5"/></pattern>
+ <pattern id="glass" width="12" height="12" patternUnits="userSpaceOnUse"><rect width="12" height="12" fill="#b6cdcb"/><path d="M3 0V12" stroke="#729591" stroke-width="1"/></pattern>
+ <pattern id="clearance" width="16" height="16" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V16" stroke="#93a4a0" stroke-width="1" opacity=".35"/></pattern>
+ <style>text{font-family:Arial,Helvetica,sans-serif;fill:#273f43}.eyebrow{font-size:17px;letter-spacing:2px}.heading{font-size:34px;font-weight:600}.label{font-size:20px;font-weight:600}.small{font-size:17px}.note{font-size:16px;fill:#566a6c}.leader{fill:none;stroke:#6d7e7b;stroke-width:1.5}.datum{fill:none;stroke:#526967;stroke-width:2}.data{fill:none;stroke:#286d7a;stroke-width:3;stroke-dasharray:8 5}.power{fill:none;stroke:#a87536;stroke-width:3;stroke-dasharray:12 4 2 4}</style>
+</defs>
+<rect width="1440" height="900" fill="#f0f0e7"/>
+<text x="52" y="50" class="eyebrow">GLASS BASIN / HF-01 / SUPPORTING SYSTEM EXPLANATION</text>
+<text x="52" y="99" class="heading">Canopy / old-wall section</text>
+<text x="52" y="130" class="small">An inhabited roof needs room to connect, disconnect and be repaired.</text>
+<path d="M52 155H1388" stroke="#879992"/>
+
+<!-- Retained shell and the new structure occupy different material layers. -->
+<rect x="204" y="344" width="78" height="326" fill="url(#brick)"/>
+<rect x="190" y="328" width="110" height="22" fill="#b5b3a6" stroke="#65726d"/>
+<rect x="188" y="648" width="116" height="34" fill="#aaa99a"/>
+<rect x="218" y="489" width="49" height="133" fill="#2e4243"/>
+<path d="M195 682H1300" stroke="#7d8980" stroke-width="7"/>
+<path d="M307 699H1056" stroke="#c0c3b7" stroke-width="15"/>
+<rect x="298" y="405" width="55" height="18" fill="#697f7d"/>
+<path d="M300 415L375 373L566 323L773 300L1000 343" fill="none" stroke="#7b918b" stroke-width="14"/>
+<path d="M299 459L375 427L566 381L773 358L1000 401" fill="none" stroke="#374f53" stroke-width="13"/>
+<path d="M332 431L375 377L424 411L471 350L518 391L566 330L614 375L664 311L713 364L773 306L827 370L880 326L936 389L987 347" fill="none" stroke="#7b918b" stroke-width="5"/>
+<path d="M984 675V493L947 396M984 493L1015 396" fill="none" stroke="#788e88" stroke-width="10"/>
+
+<!-- Three attached cassettes and an open position directly over service access. -->
+<path d="M302 393L506 339L501 316L297 370Z" fill="url(#glass)" stroke="#405e62" stroke-width="3"/>
+<path d="M522 335L722 312L719 288L519 311Z" fill="none" stroke="#526b6c" stroke-width="2" stroke-dasharray="8 6"/>
+<path d="M738 310L989 357L994 333L743 286Z" fill="url(#glass)" stroke="#405e62" stroke-width="3"/>
+<path d="M524 257L724 234L721 210L521 233Z" fill="url(#glass)" stroke="#405e62" stroke-width="3"/>
+<path d="M524 271L524 305M724 248L724 281" class="leader" stroke-dasharray="5 4"/>
+<rect x="513" y="322" width="17" height="18" rx="2" fill="#a87536"/>
+<rect x="712" y="303" width="17" height="18" rx="2" fill="#a87536"/>
+<circle cx="535" cy="347" r="5" fill="#286d7a"/>
+<rect x="548" y="348" width="10" height="10" fill="#a87536"/>
+<path d="M302 467L380 440L567 395L773 372L964 407" class="data"/>
+<path d="M302 481L380 454L567 409L773 386L964 421" class="power"/>
+<path d="M535 347V400" class="data"/>
+<path d="M553 359V412" class="power"/>
+
+<!-- Clearance is a spatial obligation, not a certified safety envelope. -->
+<path d="M390 473L884 422V568H390Z" fill="url(#clearance)" stroke="#839891" stroke-width="1.5" stroke-dasharray="6 5"/>
+<path d="M463 448L435 641M489 444L461 641" stroke="#657c78" stroke-width="4"/>
+<path d="M466 470H484M462 497H480M458 524H476M454 551H472M450 578H468M446 605H464" stroke="#657c78" stroke-width="3"/>
+<circle cx="676" cy="584" r="11" fill="#b78a63"/>
+<path d="M668 583Q676 567 687 583Z" fill="#ae7c3a"/>
+<path d="M676 600V636M676 607L654 622M676 607L694 592M676 636L664 675M676 636L688 675" fill="none" stroke="#495e60" stroke-width="10" stroke-linecap="round"/>
+<path d="M736 676V634H818V676M742 646H812" fill="none" stroke="#a87536" stroke-width="5"/>
+
+<!-- Qualitative daylight / shade cues: no radiant power or cooling result. -->
+<path d="M362 418L332 612M392 410L366 581" stroke="#cab86f" stroke-width="2" opacity=".7"/>
+<path d="M302 678L843 678" stroke="#9ca99c" stroke-width="8" opacity=".6"/>
+<rect x="329" y="622" width="77" height="9" rx="2" fill="#a6835a"/>
+<path d="M339 631V674M394 631V674" stroke="#526967" stroke-width="5"/>
+
+<!-- The proposed canopy ends; no connection to the neighboring owner is assumed. -->
+<path d="M1100 343V699" stroke="#ad7861" stroke-width="2" stroke-dasharray="6 6"/>
+<rect x="1190" y="468" width="99" height="206" fill="#c5c4b6" stroke="#7a8780" stroke-width="2"/>
+<path d="M1174 466H1306" stroke="#7a8780" stroke-width="10"/>
+<rect x="1211" y="520" width="53" height="87" fill="#7f928f"/>
+
+<!-- Labels sit outside the section or in clear spaces. -->
+<text x="60" y="238" class="label">Retained masonry</text>
+<text x="60" y="263" class="small">Old wall and lintel</text>
+<path d="M191 279L223 305V326" class="leader"/>
+<text x="527" y="188" class="label">Replaceable optical glass cassette</text>
+<path d="M687 197V212" class="leader"/>
+<text x="1020" y="222" class="label">Open cassette position</text>
+<text x="1020" y="247" class="small">Mechanical locks + connectors</text>
+<path d="M1008 244L843 244L715 309" class="leader"/>
+<text x="1054" y="294" class="label">Walkable service rib</text>
+<path d="M1044 298L957 375" class="leader"/>
+<text x="510" y="520" class="label">Maintenance access</text>
+<text x="510" y="545" class="small">Clearance remains part of the section</text>
+<text x="56" y="526" class="label">Shade /</text>
+<text x="56" y="551" class="label">daylight</text>
+<text x="56" y="580" class="note">Qualitative roles</text>
+<path d="M189 565H198M290 565H324" class="leader"/>
+<text x="1040" y="718" class="label">Property / interface break</text>
+<text x="1040" y="741" class="note">Access remains conditional</text>
+<text x="1177" y="447" class="note">Unconnected neighbor</text>
+<text x="300" y="730" class="small">Public route: opening and access depend on staffing and agreements</text>
+
+<path d="M52 760H1388" stroke="#879992"/>
+<path d="M56 793H119" class="data"/><circle cx="88" cy="793" r="5" fill="#286d7a"/>
+<text x="134" y="799" class="small">Optical / data path</text>
+<path d="M403 793H467" class="power"/><rect x="430" y="788" width="10" height="10" fill="#a87536"/>
+<text x="482" y="799" class="small">Electrical / service path</text>
+<path d="M815 793H879" stroke="#374f53" stroke-width="6"/>
+<text x="894" y="799" class="small">Structural member</text>
+<text x="56" y="842" class="note">S: maintained adaptation depends on energy, labor and access. K: all new architecture, interfaces and spatial arrangements.</text>
+<text x="56" y="869" class="note">COMPOSITE TOLEDO-DERIVED 2075 SCENARIO / K ARCHITECTURAL FORM · SCHEMATIC · NO DIMENSIONS OR PERFORMANCE CLAIMS</text>
+</svg>
