@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 900" width="1280" height="900" role="img" aria-labelledby="title desc">
+<title id="title">Water, total nitrogen, and total phosphorus accounting dispositions</title>
+<desc id="desc">Three separate constituent panels compare supplied local input with amounts not forwarded under an explicit assumption, amounts unrouted at unresolved links, and boundary export. Each panel has its own scale and unit. These are accounting dispositions, not measured storage, treatment, retention, or removal. Run v01a_unit_pulse_strict; Synthetic diagnostic inputs.</desc>
+<rect width="100%" height="100%" fill="#fcfdfb"/>
+<g font-family="system-ui, Segoe UI, sans-serif" fill="#203342">
+<text x="50.00" y="51.00" font-size="29" font-weight="700" fill="#203342" text-anchor="start">Accounting dispositions</text>
+<text x="50.00" y="83.00" font-size="16" font-weight="400" fill="#536674" text-anchor="start">v01a_unit_pulse_strict · unit_pulse_no_time · Synthetic diagnostic inputs</text>
+<text x="50.00" y="109.00" font-size="15" font-weight="400" fill="#536674" text-anchor="start">Each constituent has its own scale. Bars compare local inputs with recorded dispositions.</text>
+<rect x="48.00" y="146.00" width="1184.00" height="203.00" rx="8" fill="#f2f6f5"/>
+<text x="70.00" y="180.00" font-size="21" font-weight="700" fill="#203342" text-anchor="start">Water · m³/period</text>
+<text x="70.00" y="228.00" font-size="15" font-weight="400" fill="#203342" text-anchor="start">Local input</text>
+<text x="70.00" y="276.00" font-size="15" font-weight="400" fill="#203342" text-anchor="start">Disposition</text>
+<rect x="248.00" y="205.00" width="680.00" height="25.00" rx="3" fill="#e3e9e8"/>
+<rect x="248.00" y="253.00" width="680.00" height="25.00" rx="3" fill="#e3e9e8"/>
+<rect x="248.00" y="205.00" width="680.00" height="25.00" rx="3" fill="#203342"/>
+<rect x="248.00" y="253.00" width="340.00" height="25.00" rx="0" fill="#d48b54"/>
+<rect x="588.00" y="253.00" width="340.00" height="25.00" rx="0" fill="#36799b"/>
+<text x="947.00" y="225.00" font-size="16" font-weight="600" fill="#203342" text-anchor="start">2</text>
+<text x="947.00" y="273.00" font-size="16" font-weight="600" fill="#203342" text-anchor="start">2</text>
+<rect x="72.00" y="308.00" width="14.00" height="14.00" rx="0" fill="#9d759d"/>
+<text x="92.00" y="321.00" font-size="13" font-weight="400" fill="#203342" text-anchor="start">Not forwarded (assumed): 0</text>
+<rect x="359.00" y="308.00" width="14.00" height="14.00" rx="0" fill="#d48b54"/>
+<text x="379.00" y="321.00" font-size="13" font-weight="400" fill="#203342" text-anchor="start">Unrouted at unresolved link: 1</text>
+<rect x="694.00" y="308.00" width="14.00" height="14.00" rx="0" fill="#36799b"/>
+<text x="714.00" y="321.00" font-size="13" font-weight="400" fill="#203342" text-anchor="start">Boundary export: 1</text>
+<text x="947.00" y="321.00" font-size="13" font-weight="400" fill="#536674" text-anchor="start">Residual: 0</text>
+<rect x="48.00" y="372.00" width="1184.00" height="203.00" rx="8" fill="#f2f6f5"/>
+<text x="70.00" y="406.00" font-size="21" font-weight="700" fill="#203342" text-anchor="start">Total nitrogen (TN) · kg/period</text>
+<text x="70.00" y="454.00" font-size="15" font-weight="400" fill="#203342" text-anchor="start">Local input</text>
+<text x="70.00" y="502.00" font-size="15" font-weight="400" fill="#203342" text-anchor="start">Disposition</text>
+<rect x="248.00" y="431.00" width="680.00" height="25.00" rx="3" fill="#e3e9e8"/>
+<rect x="248.00" y="479.00" width="680.00" height="25.00" rx="3" fill="#e3e9e8"/>
+<rect x="248.00" y="431.00" width="680.00" height="25.00" rx="3" fill="#203342"/>
+<rect x="248.00" y="479.00" width="340.00" height="25.00" rx="0" fill="#d48b54"/>
+<rect x="588.00" y="479.00" width="340.00" height="25.00" rx="0" fill="#36799b"/>
+<text x="947.00" y="451.00" font-size="16" font-weight="600" fill="#203342" text-anchor="start">2</text>
+<text x="947.00" y="499.00" font-size="16" font-weight="600" fill="#203342" text-anchor="start">2</text>
+<rect x="72.00" y="534.00" width="14.00" height="14.00" rx="0" fill="#9d759d"/>
+<text x="92.00" y="547.00" font-size="13" font-weight="400" fill="#203342" text-anchor="start">Not forwarded (assumed): 0</text>
+<rect x="359.00" y="534.00" width="14.00" height="14.00" rx="0" fill="#d48b54"/>
+<text x="379.00" y="547.00" font-size="13" font-weight="400" fill="#203342" text-anchor="start">Unrouted at unresolved link: 1</text>
+<rect x="694.00" y="534.00" width="14.00" height="14.00" rx="0" fill="#36799b"/>
+<text x="714.00" y="547.00" font-size="13" font-weight="400" fill="#203342" text-anchor="start">Boundary export: 1</text>
+<text x="947.00" y="547.00" font-size="13" font-weight="400" fill="#536674" text-anchor="start">Residual: 0</text>
+<rect x="48.00" y="598.00" width="1184.00" height="203.00" rx="8" fill="#f2f6f5"/>
+<text x="70.00" y="632.00" font-size="21" font-weight="700" fill="#203342" text-anchor="start">Total phosphorus (TP) · kg/period</text>
+<text x="70.00" y="680.00" font-size="15" font-weight="400" fill="#203342" text-anchor="start">Local input</text>
+<text x="70.00" y="728.00" font-size="15" font-weight="400" fill="#203342" text-anchor="start">Disposition</text>
+<rect x="248.00" y="657.00" width="680.00" height="25.00" rx="3" fill="#e3e9e8"/>
+<rect x="248.00" y="705.00" width="680.00" height="25.00" rx="3" fill="#e3e9e8"/>
+<rect x="248.00" y="657.00" width="680.00" height="25.00" rx="3" fill="#203342"/>
+<rect x="248.00" y="705.00" width="340.00" height="25.00" rx="0" fill="#d48b54"/>
+<rect x="588.00" y="705.00" width="340.00" height="25.00" rx="0" fill="#36799b"/>
+<text x="947.00" y="677.00" font-size="16" font-weight="600" fill="#203342" text-anchor="start">2</text>
+<text x="947.00" y="725.00" font-size="16" font-weight="600" fill="#203342" text-anchor="start">2</text>
+<rect x="72.00" y="760.00" width="14.00" height="14.00" rx="0" fill="#9d759d"/>
+<text x="92.00" y="773.00" font-size="13" font-weight="400" fill="#203342" text-anchor="start">Not forwarded (assumed): 0</text>
+<rect x="359.00" y="760.00" width="14.00" height="14.00" rx="0" fill="#d48b54"/>
+<text x="379.00" y="773.00" font-size="13" font-weight="400" fill="#203342" text-anchor="start">Unrouted at unresolved link: 1</text>
+<rect x="694.00" y="760.00" width="14.00" height="14.00" rx="0" fill="#36799b"/>
+<text x="714.00" y="773.00" font-size="13" font-weight="400" fill="#203342" text-anchor="start">Boundary export: 1</text>
+<text x="947.00" y="773.00" font-size="13" font-weight="400" fill="#536674" text-anchor="start">Residual: 0</text>
+<text x="51.00" y="843.00" font-size="14" font-weight="400" fill="#536674" text-anchor="start">Unrouted or not forwarded means a bookkeeping disposition, not storage, treatment, retention, or removal.</text>
+<text x="51.00" y="868.00" font-size="14" font-weight="400" fill="#536674" text-anchor="start">An arithmetic balance does not establish an observed basin water or nutrient budget.</text>
+</g>
+</svg>

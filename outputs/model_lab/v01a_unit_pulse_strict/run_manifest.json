@@ -1,0 +1,53 @@
+{
+  "assumption_status": "default_unit_pass_through_reference",
+  "input_status": "synthetic_diagnostic",
+  "interpretation": [
+    "HUC-12 is an accounting unit, not a homogeneous catchment or mapped stream.",
+    "Default pass-through is one; quantities not forwarded under explicit assumptions are hypothetical accounting dispositions, not observed retention.",
+    "Strict unresolved routes leave quantities unrouted in this ledger, not physically stored, treated, or ecologically retained.",
+    "Within-period transfer has no travel time or storage dynamics.",
+    "Boundary export is a model edge, not a measured Maumee or Lake Erie load.",
+    "Unresolved-route pass-through is an explicit WBD sensitivity assumption."
+  ],
+  "model": "Western Basin Model Lab HUC-12 accounting",
+  "model_version": "0.1A",
+  "period": "unit_pulse_no_time",
+  "purpose": "conditional mass accounting / synthetic diagnostic, not observed loading",
+  "run_id": "v01a_unit_pulse_strict",
+  "source_files": {
+    "assumptions": null,
+    "engine_sha256": "0bc7e92dd43278c9b0a8e570fbe4dfe16b94feeea2c4ccfc58bfa8ccfcc62893",
+    "input": {
+      "path": "data/model_lab/v01a_unit_pulse_inputs.csv",
+      "sha256": "097c093ad2eee4474ea4e4b537de18ce9477a6107c24c84c0f8322d5695ceed3"
+    },
+    "qualified_routing": {
+      "path": "data/processed/networks/huc12_routing_current.csv",
+      "sha256": "e16d681086eedba13ee752672e832df469965e639fba6f2afecf5057c33e7878"
+    },
+    "wbd_huc12": {
+      "path": "data/raw/usgs/wbd_huc12_maumee_basin.geojson",
+      "sha256": "433c4c34d89e4708b1571fbf509d497a0fde75d51ef152699dd7dd1399e23292"
+    }
+  },
+  "topology": {
+    "accepted_baseline": true,
+    "external_wbd_target": "041202000300",
+    "huc_count": 252,
+    "link_count": 251,
+    "routing_qa_counts": {
+      "ALREADY_REDUNDANT": 31,
+      "REPLACED_AUTHORITATIVE_CONNECTOR": 115,
+      "REPLACED_PHYSICAL": 93,
+      "UNRESOLVED": 12
+    },
+    "terminal_huc12": "041000090904",
+    "unresolved_link_count": 12
+  },
+  "units": {
+    "TN": "kg/period",
+    "TP": "kg/period",
+    "water": "m3/period"
+  },
+  "unresolved_policy": "strict"
+}
