@@ -26,6 +26,9 @@ import {
 import { render } from './game/renderer';
 import { reviewTargetAt, reviewTargetKey, reviewTargetLabel, reviewTargets, type ReviewTarget } from './game/review';
 
+// Let publication navigation use native keys without triggering game shortcuts.
+document.querySelector('.atlas-return')?.addEventListener('keydown', (event) => event.stopPropagation());
+
 function requireElement<T extends Element>(selector: string): T {
   const element = document.querySelector<T>(selector);
 
@@ -218,6 +221,8 @@ canvas.addEventListener('click', (event) => {
 document.addEventListener('keydown', (event) => {
   if (event.key.toLowerCase() === 'r') { update(restartGame()); return; }
   if (event.key === 'Tab') {
+    // Allow entry to the page link and a backward route out of game controls.
+    if (event.shiftKey || (state.screen === 'title' && event.target === document.body)) return;
     if (state.screen === 'review') return;
     event.preventDefault();
     if (state.inventory.length) {

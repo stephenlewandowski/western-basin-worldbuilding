@@ -197,3 +197,12 @@ p{line-height:1.7}
 @media(max-width:650px){.header-inner,.footer-inner,.section-shell,.hero-inner{width:min(100% - 36px,1280px)}.header-inner{align-items:start;flex-direction:column;padding-block:20px;gap:20px}.top-nav{gap:15px 22px}.top-nav a{font-size:12px}.hero-inner{min-height:0;padding-block:62px 75px}.hero h1{font-size:clamp(56px,13vw,85px)}.hero-art{padding:0}.hero-art-frame{box-shadow:12px 12px 0 #203a41}.intro-section,.essays-section,.approach-section,.method-block,.roadmap-section,.end-cta{padding-block:68px}.intro-grid h2,.section-head h2,.approach-section h2,.status-band h2,.method-grid h2,.end-cta h2{font-size:42px}.futurescape-section{padding-block:58px}.futurescape-cards,.reading-order-grid,.update-entry{grid-template-columns:1fr}.update-entry{gap:18px;padding-block:28px}.process-line{gap:10px;font-size:9px}.card-grid,.panel-grid,.boundary-section,.footer-inner{grid-template-columns:1fr}.card-content h3{font-size:32px}.status-band{padding-block:65px}.key-grid{gap:14px}.key-grid p{font-size:13px}.footer-links{grid-template-columns:1fr 1fr}.essay-hero{padding-top:32px}.back-link{margin-bottom:35px}.essay-hero h1{font-size:clamp(51px,12vw,78px)}.essay-lead{font-size:18px}.cover-figure{padding:10px}.reading-section{padding-block:68px;gap:10px}.panel-section{padding-bottom:68px}.boundary-section{padding-block:50px 68px}.next-essay{padding:24px 18px;display:block}.next-essay strong{display:block;margin-top:10px}.future-intro{padding-block:45px 65px}.future-intro h1{font-size:clamp(54px,12vw,80px)}.future-opening figcaption{padding:12px 18px}.future-detail,.future-section{padding-block:65px}.future-detail figure,.future-section figure{padding:9px}.future-boundary,.future-related{padding-block:60px}.plain-hero{padding-block:65px}.plain-hero h1{font-size:clamp(54px,12vw,80px)}.plain-hero>p:last-child{font-size:18px}.timeline-item{grid-template-columns:1fr;gap:18px}.timeline-item h2{font-size:31px}}
 @media(max-width:420px){.top-nav{column-gap:12px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+
+/* Compact editorial introduction before each existing lead image. */
+.future-intro{padding-block:38px 42px}
+.future-intro .back-link{margin-bottom:18px}
+.future-intro h1{margin:12px 0 20px}
+.future-intro .future-question{max-width:960px;font-size:clamp(22px,2.2vw,32px)}
+.future-context{padding-block:38px;max-width:900px}
+.future-boundary .boundary-box h2{font-size:clamp(25px,2.6vw,36px);line-height:1.2;margin:0 0 20px}
+.future-boundary .boundary-box p+p{margin-top:18px}

@@ -47,12 +47,12 @@ export const essays: Essay[] = [
     subtitle: 'A watershed is a sequence of places, processes, and boundaries.',
     place: 'Maumee watershed → western Lake Erie', status: 'EVIDENCE / MODEL', cover: fieldMap,
     coverAlt: 'Analytical map of pathways from the Maumee watershed toward western Lake Erie.',
-    lead: 'Follow a constituent from field and drainage system through the river network to a receiving water. The route is grounded in accepted geography; the diagram keeps uncertain processes and lake response distinct.',
+    lead: 'Follow a constituent from field and drainage system through the river network to a receiving water. The route is grounded in sourced geography; the diagram keeps uncertain processes and lake response distinct.',
     question: 'What can we trace, and where does the explanation stop?',
     reading: [
       'The first panel gives the geographic route. It distinguishes mapped waterways from explanatory connections so that a diagrammatic line does not become an invented channel.',
       'The next panels move from location to process: movement, transformation, and the receiving-water boundary. Separate tracks prevent different constituents from being treated as one interchangeable load.',
-      'A pathway to the lake is not a prediction of harmful algal blooms. The accepted model does not turn every upstream change into a deterministic lake outcome.'
+      'A pathway to the lake is not a prediction of harmful algal blooms. The model does not turn every upstream change into a deterministic lake outcome.'
     ],
     panels: [
       { title: 'A · Geographic pathway', image: fieldMap, alt: 'Map panel showing the western basin field-to-lake pathway and the Maumee receiving-water interface.', caption: 'Start with real geography; analytical connectors are marked as such.' },
@@ -60,16 +60,16 @@ export const essays: Essay[] = [
       { title: 'C · Constituents', image: fieldConstituents, alt: 'Comparison panel showing distinct constituent pathways.', caption: 'Different constituents have different paths and limits of inference.' },
       { title: 'D · Boundary', image: fieldBoundary, alt: 'Receiving-water boundary diagram for the Maumee Bay and western Lake Erie interface.', caption: 'The model marks the interface at which further claims need separate evidence.' }
     ],
-    boundary: 'This prototype is an accepted static analytical set. Its animation experiment was not accepted as an Atlas product because it added little beyond the still figures.',
+    boundary: 'Mapped geography and explanatory connections remain distinct. Pathways do not quantify every load or predict the receiving lake’s response.',
     sources: [
-      { label: 'Prototype brief', path: 'docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md' },
+      { label: 'Study scope and source record', path: 'docs/phase_briefs/phase17a_prototype_2_1_from_field_to_lake.md' },
       { label: 'Validation report', path: 'outputs/atlas/prototypes/2_1_from_field_to_lake/2_1_validation_report.md' }
     ]
   },
   {
     key: 'crib', number: '02', slug: 'atlas/toledo-crib/', title: 'The Toledo Intake Crib',
     subtitle: 'How a real asset might persist through an imagined future.',
-    place: 'Lake Erie Energy & Security Coast', status: 'EVIDENCE → SKETCH', cover: cribRetrofit,
+    place: 'Lake Erie Energy & Security Coast', status: 'EXISTING STRUCTURE + FUTURE CONCEPT', cover: cribRetrofit,
     coverAlt: 'Approximate drawing of the Toledo intake crib with clearly marked speculative 2075 additions.',
     lead: 'A verified physical landmark anchors this study. The current structure is drawn approximately; the 2075 retrofit is a concept layered onto it, not a design proposal for the real water works.',
     question: 'What remains recognizable when a utility structure changes?',
@@ -83,16 +83,16 @@ export const essays: Essay[] = [
       { title: 'B · 2075 retrofit concept', image: cribRetrofit, alt: 'Concept drawing showing small sensor, communication, and service additions to the crib.', caption: 'New equipment accumulates around the existing structure.' },
       { title: 'C · Persistence', image: cribPersistence, alt: 'Three-part diagram labeling what persists, what changes, and what is added.', caption: 'Persists / modified / added is the core reading rule for this future.' }
     ],
-    boundary: 'The physical coordinate is verified. The drawing is approximate and non-engineering; the 2075 changes are sketch material. The third-party reference photograph is excluded from this website while its reuse rights remain unconfirmed.',
+    boundary: 'The physical coordinate is verified. The drawing is approximate and non-engineering; the 2075 changes are design concepts. The third-party reference photograph is excluded from this website while its reuse rights remain unconfirmed.',
     sources: [
       { label: 'Coordinate resolution', path: 'reports/toledo_water_intake_crib_coordinate_resolution.md' },
-      { label: 'Prototype validation', path: 'outputs/atlas/prototypes/2_3_toledo_crib/2_3_validation_report.md' }
+      { label: 'Technical validation record', path: 'outputs/atlas/prototypes/2_3_toledo_crib/2_3_validation_report.md' }
     ]
   },
   {
     key: 'farm', number: '03', slug: 'atlas/farm-2075/', title: 'Farm 2075',
     subtitle: 'A working landscape with water, nutrients, labor, and repair in view.',
-    place: 'Maumee River Commons / Black Swamp Country', status: 'SCENARIO / SKETCH', cover: farmUnit,
+    place: 'Maumee River Commons / Black Swamp Country', status: 'SCENARIO AND DESIGN CONCEPT', cover: farmUnit,
     coverAlt: 'Synthetic future farm unit with field blocks, drainage, energy, and habitat elements.',
     lead: 'This is a synthetic Western Basin farm unit, not a real parcel or a forecast. It explores how familiar field agriculture could coexist with water controls, habitat, power equipment, and the access needed to keep them working.',
     question: 'What has to fit together for an adapted farm to keep operating?',
@@ -109,14 +109,14 @@ export const essays: Essay[] = [
     ],
     boundary: 'No real parcel, adoption rate, yield, nutrient-removal efficiency, profitability, or exact future location is claimed. “Black Swamp Country” is an interpretive region; held Great Black Swamp geometry is not used.',
     sources: [
-      { label: 'Prototype validation', path: 'outputs/atlas/prototypes/4_3_farm_2075/4_3_validation_report.md' },
-      { label: 'Phase 17B lived-world packets', path: 'reports/phase17b_lived_world_condition_packets.md' }
+      { label: 'Technical validation record', path: 'outputs/atlas/prototypes/4_3_farm_2075/4_3_validation_report.md' },
+      { label: 'Scenario background', path: 'reports/phase17b_lived_world_condition_packets.md' }
     ]
   },
   {
     key: 'industry', number: '04', slug: 'atlas/industrial-exchange/', title: 'Industrial Exchange',
     subtitle: 'A more connected district still depends on the outside world.',
-    place: 'Great Lakes Industrial Belt', status: 'SCENARIO / SKETCH', cover: industryNetwork,
+    place: 'Great Lakes Industrial Belt', status: 'SCENARIO AND DESIGN CONCEPT', cover: industryNetwork,
     coverAlt: 'Selected qualitative connections among future industrial facilities and external systems.',
     lead: 'A speculative 2075 district tests whether industrial exchange can be shown without turning every residual into a resource or every connection into self-sufficiency.',
     question: 'When does a residual become a usable input?',
@@ -133,8 +133,8 @@ export const essays: Essay[] = [
     ],
     boundary: 'This is a synthetic district. The selected links are qualitative scenarios or sketches, without throughput, capacity, economic viability, compatibility, or continuous-operation claims.',
     sources: [
-      { label: 'Prototype validation', path: 'outputs/atlas/prototypes/5_3_industrial_exchange/5_3_validation_report.md' },
-      { label: 'Phase 17A synthesis', path: 'reports/phase17a_prototype_findings_and_production_pattern.md' }
+      { label: 'Technical validation record', path: 'outputs/atlas/prototypes/5_3_industrial_exchange/5_3_validation_report.md' },
+      { label: 'Study methods and findings', path: 'reports/phase17a_prototype_findings_and_production_pattern.md' }
     ]
   }
 ];

@@ -1,5 +1,21 @@
 # Current Phase Handoff
 
+## Public editorial cleanup candidate — 29 September 2026
+
+Public vocabulary was adopted and the Atlas information architecture cleaned up locally on `public-atlas-language-ia-cleanup`, from `876601e7f7b78988bfd72210464681da2cc67e78`. The four published futurescapes retain their scientific and scenario/design boundaries. All production insets and raster assets are unchanged; inset migration and HF-05 remain future work. No new C. Human review passed and publication was authorized on 2026-09-29.
+
+### Editorial candidate review record
+
+- Reading order now leads with place, four futurescapes, Studies and Methods. Primary navigation is Futurescapes / Studies / Methods / Updates; Roadmap and the game remain secondary. Technical transparency survives through Methods, source links, production reports and status records.
+- Browser review covered all 13 routes at 1440, 900, 560 and 390 px (52 layout observations), with manual screenshots of page openings and representative lower sections. No horizontal overflow, broken navigation, missing image alt text or empty link names was found. This is bounded manual/DOM QA, not a complete accessibility certification.
+- Game keyboard QA found and fixed two integration issues: Enter bubbled from the return link into gameplay, and the global Tab shortcut prevented initial link focus. The link now isolates keydown bubbling without cancelling browser defaults; initial title-screen Tab and Shift+Tab retain native navigation. Forward Tab still cycles inventory during gameplay. Retest: Tab reaches the link, Space leaves the title screen unchanged, Enter navigates to the Atlas, arrows and Enter still select/inspect game hotspots, and Shift+Tab can return from game controls to the link. No save/load state was written.
+- Validation: Markdown links (189), existing tests (22 in 3 files), TypeScript/Vite build, diff whitespace and LFS checks passed. All 13 routes and 52 local asset URLs returned HTTP 200; 23 built raster images decoded and four SVGs parsed. All 17 repository source-link targets exist. The 22 built HTML/JS/CSS/SVG files contain no Windows paths or localhost URLs.
+- Protected-path audit: 37 existing Phase 1–16 manifests, 655 entries / 646 unique paths; changed-path overlap **ZERO**. No historical manifest mismatch was repaired. All 12 futurescape production asset contents match the starting Git baseline after normal Git/LFS normalization.
+- Claim review preserved evidence/scenario/design separation, consequential uncertainty, external dependencies and the distinction between qualitative geometry and measurements. No performance, new infrastructure connection, deployment or canon claim was introduced. Observation/control, technology/protection, available/successful response and contamination/exposure/dose/illness distinctions remain explicit in Methods.
+- Public-string audit: remaining source matches are CSS classes, image-variable names, asset filenames and repository paths. Rendered HTML copy, alt text and metadata contain no accidental production vocabulary. Existing lettering inside unchanged inset/study graphics and historical technical reports is deliberately deferred; those assets were not migrated. E/S/C/K remains explained in Methods and the repository guide.
+- Minor limitation: the long Maumee title wraps at its hyphen on narrow screens but remains readable without overflow. No further correction is recommended for this bounded cleanup.
+- `temp/implement_public_editorial.py` is a one-off, non-idempotent editing helper; it remains ignored under `temp/` and must not enter the proposed commit. The local review screenshot is also ignored. The approved inset migration plan remains future work.
+
 ## Phase 17D HF-02 acceptance, publication, and site integration — 2026-09-28
 
 - Starting baseline and candidate branch base: synchronized `main`, `origin/main`,

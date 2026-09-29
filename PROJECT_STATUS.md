@@ -1,5 +1,9 @@
 # Project Status
 
+## Public editorial cleanup candidate — 29 September 2026
+
+Public vocabulary was adopted and the Atlas information architecture cleaned up locally on `public-atlas-language-ia-cleanup`, from `876601e7f7b78988bfd72210464681da2cc67e78`. The four published futurescapes retain their scientific and scenario/design boundaries. All production insets and raster assets are unchanged; inset migration and HF-05 remain future work. No new C. Human review passed and publication was authorized on 2026-09-29.
+
 Last reviewed: 2026-09-28
 
 ## Current physical-asset coordinate disposition
