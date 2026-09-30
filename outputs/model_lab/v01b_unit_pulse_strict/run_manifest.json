@@ -1,0 +1,142 @@
+{
+  "assumption_status": "default_unit_pass_through_reference",
+  "input_status": "synthetic_diagnostic",
+  "interpretation": [
+    "HUC-12 is an accounting unit, not a homogeneous catchment or mapped stream.",
+    "Default pass-through is one; quantities not forwarded under explicit assumptions are hypothetical accounting dispositions, not observed retention.",
+    "Strict unresolved routes leave quantities unrouted in this ledger, not physically stored, treated, or ecologically retained.",
+    "Within-period transfer has no travel time or storage dynamics.",
+    "Boundary export is a model edge, not a measured Maumee or Lake Erie load.",
+    "Unresolved-route pass-through is an explicit WBD sensitivity assumption."
+  ],
+  "model": "Western Basin Model Lab HUC-12 accounting",
+  "model_version": "0.1B",
+  "output_schema": {
+    "boundary_summary.csv": [
+      "run_id",
+      "period",
+      "constituent",
+      "unit",
+      "total_local_input",
+      "total_not_forwarded_assumed",
+      "total_unrouted_at_unresolved",
+      "boundary_export",
+      "residual",
+      "unresolved_policy"
+    ],
+    "downstream_trace.csv": [
+      "run_id",
+      "period",
+      "unresolved_policy",
+      "focus_huc12",
+      "traced_huc12",
+      "hops",
+      "policy_reachable",
+      "first_unresolved_link_from_huc12"
+    ],
+    "edge_flux.csv": [
+      "run_id",
+      "period",
+      "from_huc12",
+      "to_huc12",
+      "constituent",
+      "unit",
+      "amount",
+      "routing_basis",
+      "qa_status",
+      "assumed_unresolved"
+    ],
+    "huc_balance.csv": [
+      "run_id",
+      "period",
+      "huc12",
+      "constituent",
+      "unit",
+      "local_input",
+      "upstream_in",
+      "available",
+      "pass_through",
+      "not_forwarded_assumed",
+      "unrouted_at_unresolved",
+      "downstream_out",
+      "boundary_export",
+      "residual",
+      "route_to_huc12",
+      "routing_basis",
+      "qa_status",
+      "physical_geometry",
+      "input_status"
+    ],
+    "input_snapshot.csv": [
+      "run_id",
+      "period",
+      "huc12",
+      "constituent",
+      "local_input",
+      "unit",
+      "input_status",
+      "source_id",
+      "method",
+      "uncertainty_note"
+    ],
+    "upstream_trace.csv": [
+      "run_id",
+      "period",
+      "unresolved_policy",
+      "focus_huc12",
+      "traced_huc12",
+      "hops",
+      "policy_reachable",
+      "first_unresolved_link_from_huc12"
+    ]
+  },
+  "period": "unit_pulse_no_time",
+  "purpose": "conditional mass accounting / synthetic diagnostic, not observed loading",
+  "run_id": "v01b_unit_pulse_strict",
+  "schema_version": "0.1B",
+  "sensitivity_case": {
+    "description": "Synthetic unit pulses; stop forwarding at unresolved links; unit pass-through everywhere.",
+    "label": "Strict unresolved-link reference"
+  },
+  "source_files": {
+    "assumptions": null,
+    "engine_sha256": "75fd00dd347ec4672235ce01df70f3d91c998f74d6409dc94e721c53c8102999",
+    "input": {
+      "path": "data/model_lab/v01b_unit_pulse_inputs.csv",
+      "sha256": "80a478e9f0ce842135c04fb4be970e7301b2484b83d9416403d28a314f0d7c44"
+    },
+    "qualified_routing": {
+      "path": "data/processed/networks/huc12_routing_current.csv",
+      "sha256": "e16d681086eedba13ee752672e832df469965e639fba6f2afecf5057c33e7878"
+    },
+    "sensitivity_config": {
+      "path": "data/model_lab/v01b_sensitivity.json",
+      "sha256": "ba1efc3d1223b3b7f1213471c7f9cc77ac7591bbee5dafd2645b7303d2e3b992"
+    },
+    "trace_generator_sha256": "e77aaf872d873a47956545a7005e2a6509c88e4c339eb410abb36343726bfb6b",
+    "wbd_huc12": {
+      "path": "data/raw/usgs/wbd_huc12_maumee_basin.geojson",
+      "sha256": "433c4c34d89e4708b1571fbf509d497a0fde75d51ef152699dd7dd1399e23292"
+    }
+  },
+  "topology": {
+    "accepted_baseline": true,
+    "external_wbd_target": "041202000300",
+    "huc_count": 252,
+    "link_count": 251,
+    "routing_qa_counts": {
+      "ALREADY_REDUNDANT": 31,
+      "REPLACED_AUTHORITATIVE_CONNECTOR": 115,
+      "REPLACED_PHYSICAL": 93,
+      "UNRESOLVED": 12
+    },
+    "terminal_huc12": "041000090904",
+    "unresolved_link_count": 12
+  },
+  "units": {
+    "TN": "kg/period",
+    "TP": "kg/period",
+    "water": "m3/period"
+  },
+  "unresolved_policy": "strict"
+}

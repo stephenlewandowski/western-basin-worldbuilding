@@ -1,0 +1,7 @@
+run_id,period,huc12,constituent,local_input,unit,input_status,source_id,method,uncertainty_note
+v01b_unit_pulse_tn_half_pass,unit_pulse_no_time,041000030101,water,1,m3/period,synthetic_diagnostic,MODEL-LAB-V01B-UNIT,single_unit_pulse,Synthetic bookkeeping value; not runoff or measured discharge.
+v01b_unit_pulse_tn_half_pass,unit_pulse_no_time,041000030101,TN,1,kg/period,synthetic_diagnostic,MODEL-LAB-V01B-UNIT,single_unit_pulse,Synthetic bookkeeping value; not observed nitrogen loading.
+v01b_unit_pulse_tn_half_pass,unit_pulse_no_time,041000030101,TP,1,kg/period,synthetic_diagnostic,MODEL-LAB-V01B-UNIT,single_unit_pulse,Synthetic bookkeeping value; not observed phosphorus loading.
+v01b_unit_pulse_tn_half_pass,unit_pulse_no_time,041000090402,water,1,m3/period,synthetic_diagnostic,MODEL-LAB-V01B-UNIT,single_unit_pulse,Synthetic bookkeeping value at an unresolved HUC route.
+v01b_unit_pulse_tn_half_pass,unit_pulse_no_time,041000090402,TN,1,kg/period,synthetic_diagnostic,MODEL-LAB-V01B-UNIT,single_unit_pulse,Synthetic bookkeeping value at an unresolved HUC route.
+v01b_unit_pulse_tn_half_pass,unit_pulse_no_time,041000090402,TP,1,kg/period,synthetic_diagnostic,MODEL-LAB-V01B-UNIT,single_unit_pulse,Synthetic bookkeeping value at an unresolved HUC route.

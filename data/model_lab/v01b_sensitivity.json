@@ -1,0 +1,33 @@
+{
+  "config_version": "0.1B",
+  "period": "unit_pulse_no_time",
+  "inputs": "data/model_lab/v01b_unit_pulse_inputs.csv",
+  "wbd": "data/raw/usgs/wbd_huc12_maumee_basin.geojson",
+  "routing": "data/processed/networks/huc12_routing_current.csv",
+  "runs": [
+    {
+      "run_id": "v01b_unit_pulse_strict",
+      "label": "Strict unresolved-link reference",
+      "description": "Synthetic unit pulses; stop forwarding at unresolved links; unit pass-through everywhere.",
+      "unresolved_policy": "strict",
+      "assumptions": null,
+      "out_dir": "outputs/model_lab/v01b_unit_pulse_strict"
+    },
+    {
+      "run_id": "v01b_unit_pulse_assume_wbd",
+      "label": "WBD-successor routing sensitivity",
+      "description": "Synthetic unit pulses; hypothetically forward through unresolved links using WBD successors; unit pass-through everywhere.",
+      "unresolved_policy": "assume_wbd",
+      "assumptions": null,
+      "out_dir": "outputs/model_lab/v01b_unit_pulse_assume_wbd"
+    },
+    {
+      "run_id": "v01b_unit_pulse_tn_half_pass",
+      "label": "TN pass-through arithmetic sensitivity",
+      "description": "Synthetic unit pulses; strict unresolved links; hypothetical TN pass-through of 0.5 at one HUC, with no physical retention claim.",
+      "unresolved_policy": "strict",
+      "assumptions": "data/model_lab/v01b_tn_half_pass_assumptions.csv",
+      "out_dir": "outputs/model_lab/v01b_unit_pulse_tn_half_pass"
+    }
+  ]
+}

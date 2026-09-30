@@ -1,0 +1,4 @@
+run_id,period,constituent,unit,total_local_input,total_not_forwarded_assumed,total_unrouted_at_unresolved,boundary_export,residual,unresolved_policy
+v01b_unit_pulse_strict,unit_pulse_no_time,water,m3/period,2,0,1,1,0,strict
+v01b_unit_pulse_strict,unit_pulse_no_time,TN,kg/period,2,0,1,1,0,strict
+v01b_unit_pulse_strict,unit_pulse_no_time,TP,kg/period,2,0,1,1,0,strict

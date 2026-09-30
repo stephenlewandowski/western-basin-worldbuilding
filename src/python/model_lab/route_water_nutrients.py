@@ -1,4 +1,4 @@
-"""Model Lab v0.1A: conditional HUC-12 water/TN/TP accounting.
+"""Model Lab v0.1B: conditional HUC-12 water/TN/TP accounting.
 
 This deliberately has no empirical load estimator, hydrologic calibration,
 travel times, or ecological effects. Inputs and unresolved-route policy govern
@@ -56,6 +56,23 @@ ASSUMPTION_FIELDS = (
     "huc12", "constituent", "pass_through", "assumption_status",
     "source_id", "notes",
 )
+TRACE_FIELDS = (
+    "run_id", "period", "unresolved_policy", "focus_huc12", "traced_huc12",
+    "hops", "policy_reachable", "first_unresolved_link_from_huc12",
+)
+SCHEMA_VERSION = "0.1B"
+OUTPUT_SCHEMA = {
+    "huc_balance.csv": BALANCE_FIELDS,
+    "edge_flux.csv": EDGE_FIELDS,
+    "boundary_summary.csv": SUMMARY_FIELDS,
+    "input_snapshot.csv": INPUT_FIELDS,
+    "downstream_trace.csv": TRACE_FIELDS,
+    "upstream_trace.csv": TRACE_FIELDS,
+}
+CONFIG_FIELDS = frozenset({"config_version", "period", "inputs", "wbd", "routing", "runs"})
+CASE_FIELDS = frozenset({
+    "run_id", "label", "description", "unresolved_policy", "assumptions", "out_dir",
+})
 
 
 @dataclass(frozen=True)
@@ -125,6 +142,88 @@ def _source_path(path: Path) -> str:
         return resolved.relative_to(ROOT.resolve()).as_posix()
     except ValueError:
         return str(resolved)
+
+
+def _unique_json_pairs(pairs: list[tuple[str, object]]) -> dict:
+    result: dict = {}
+    for key, value in pairs:
+        if key in result:
+            raise ValueError(f"Duplicate JSON key: {key}")
+        result[key] = value
+    return result
+
+
+def _config_path(value: str, label: str) -> Path:
+    if not isinstance(value, str) or not value.strip():
+        raise ValueError(f"Sensitivity config {label} must be a nonempty path")
+    path = Path(value)
+    return path if path.is_absolute() else ROOT / path
+
+
+def _assert_safe_output_dir(out_dir: Path, run_id: str) -> None:
+    """Allow a new run or a same-ID v0.1B rerun, never replace older products."""
+    out_dir = Path(out_dir)
+    if not out_dir.exists():
+        return
+    if not out_dir.is_dir():
+        raise ValueError(f"Run output path is not a directory: {out_dir}")
+    if not any(out_dir.iterdir()):
+        return
+    manifest_path = out_dir / "run_manifest.json"
+    try:
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+        raise ValueError(f"Refusing to replace nonempty output directory without a valid run manifest: {out_dir}") from exc
+    if not isinstance(manifest, dict) or (
+        manifest.get("run_id") != run_id or manifest.get("schema_version") != SCHEMA_VERSION
+    ):
+        raise ValueError(f"Refusing to replace a different or historical run at {out_dir}")
+
+
+def load_sensitivity_config(path: Path) -> dict:
+    """Read a bounded, explicit set of routing sensitivity cases.
+
+    Paths in the JSON file are repository-relative unless absolute. The
+    configuration is declarative; it cannot change the routing equations.
+    """
+    path = Path(path)
+    checked_in_config = path.resolve().is_relative_to(ROOT.resolve())
+    try:
+        config = json.loads(path.read_text(encoding="utf-8"), object_pairs_hook=_unique_json_pairs)
+    except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+        raise ValueError(f"Cannot read sensitivity config {path}: {exc}") from exc
+    if not isinstance(config, dict) or set(config) != CONFIG_FIELDS:
+        raise ValueError(f"Sensitivity config must have exactly {sorted(CONFIG_FIELDS)}")
+    if config["config_version"] != SCHEMA_VERSION:
+        raise ValueError(f"Sensitivity config_version must be {SCHEMA_VERSION}")
+    if not isinstance(config["period"], str) or not config["period"].strip():
+        raise ValueError("Sensitivity config period must be nonempty")
+    for field in ("inputs", "wbd", "routing"):
+        _config_path(config[field], field)
+    runs = config["runs"]
+    if not isinstance(runs, list) or not runs:
+        raise ValueError("Sensitivity config runs must be a nonempty list")
+    seen_ids: set[str] = set()
+    seen_outputs: set[Path] = set()
+    for index, case in enumerate(runs):
+        if not isinstance(case, dict) or set(case) != CASE_FIELDS:
+            raise ValueError(f"Sensitivity case {index} must have exactly {sorted(CASE_FIELDS)}")
+        for field in ("run_id", "label", "description"):
+            if not isinstance(case[field], str) or not case[field].strip():
+                raise ValueError(f"Sensitivity case {index} {field} must be nonempty")
+        if case["unresolved_policy"] not in ("strict", "assume_wbd"):
+            raise ValueError(f"Sensitivity case {index} has unknown unresolved policy")
+        if case["assumptions"] is not None:
+            _config_path(case["assumptions"], f"case {index} assumptions")
+        out_dir = _config_path(case["out_dir"], f"case {index} out_dir").resolve()
+        if checked_in_config and not out_dir.is_relative_to((ROOT / "outputs/model_lab").resolve()):
+            raise ValueError(f"Repository sensitivity config output must stay under outputs/model_lab: {out_dir}")
+        _assert_safe_output_dir(out_dir, case["run_id"])
+        if case["run_id"] in seen_ids or out_dir in seen_outputs:
+            raise ValueError("Sensitivity cases need distinct run IDs and output directories")
+        seen_ids.add(case["run_id"])
+        seen_outputs.add(out_dir)
+    return config
 
 
 def load_network(wbd_path: Path, routing_path: Path) -> Network:
@@ -256,11 +355,21 @@ def _load_assumptions(path: Path | None, network: Network) -> tuple[dict[tuple[s
 def run_model(
     run_id: str, period: str, inputs_path: Path, network: Network,
     policy: str = "strict", assumptions_path: Path | None = None,
+    sensitivity_config_path: Path | None = None,
+    sensitivity_case: dict[str, str] | None = None,
 ) -> RunResult:
     if not run_id or not period or policy not in ("strict", "assume_wbd"):
         raise ValueError("Supply run_id, period, and strict or assume_wbd policy")
     inputs_path = Path(inputs_path)
     assumptions_path = Path(assumptions_path) if assumptions_path is not None else None
+    sensitivity_config_path = Path(sensitivity_config_path) if sensitivity_config_path is not None else None
+    if (sensitivity_config_path is None) != (sensitivity_case is None):
+        raise ValueError("Sensitivity config path and case metadata must be supplied together")
+    if sensitivity_case is not None and (
+        not isinstance(sensitivity_case.get("label"), str)
+        or not isinstance(sensitivity_case.get("description"), str)
+    ):
+        raise ValueError("Sensitivity case needs a label and description")
     local, statuses, selected, run_status = _load_inputs(inputs_path, run_id, period, network)
     fractions, assumption_status = _load_assumptions(assumptions_path, network)
     upstream = {(h, c): ZERO for h in network.hucs for c in CONSTITUENTS}
@@ -332,11 +441,18 @@ def run_model(
     counts = Counter(row["qa_status"] for row in network.routing.values())
     manifest = {
         "model": "Western Basin Model Lab HUC-12 accounting",
-        "model_version": "0.1A",
-        "purpose": "conditional mass accounting / synthetic diagnostic, not observed loading",
+        "model_version": SCHEMA_VERSION,
+        "schema_version": SCHEMA_VERSION,
+        "output_schema": {name: list(fields) for name, fields in OUTPUT_SCHEMA.items()},
+        "purpose": (
+            "conditional mass accounting / synthetic diagnostic, not observed loading"
+            if run_status == "synthetic_diagnostic"
+            else f"conditional mass accounting / {run_status} inputs; not calibrated or an observed basin balance"
+        ),
         "run_id": run_id, "period": period, "input_status": run_status,
         "assumption_status": assumption_status,
         "unresolved_policy": policy,
+        "sensitivity_case": sensitivity_case,
         "topology": {
             "huc_count": len(network.hucs), "link_count": len(network.routing),
             "unresolved_link_count": counts["UNRESOLVED"],
@@ -351,7 +467,9 @@ def run_model(
             "qualified_routing": {"path": _source_path(network.routing_path), "sha256": _sha256(network.routing_path)},
             "input": {"path": _source_path(inputs_path), "sha256": _sha256(inputs_path)},
             "assumptions": {"path": _source_path(assumptions_path), "sha256": _sha256(assumptions_path)} if assumptions_path else None,
+            "sensitivity_config": {"path": _source_path(sensitivity_config_path), "sha256": _sha256(sensitivity_config_path)} if sensitivity_config_path else None,
             "engine_sha256": _sha256(Path(__file__)),
+            "trace_generator_sha256": _sha256(Path(__file__).with_name("trace_huc_paths.py")),
         },
         "interpretation": [
             "HUC-12 is an accounting unit, not a homogeneous catchment or mapped stream.",
@@ -367,6 +485,7 @@ def run_model(
 
 def write_run(result: RunResult, out_dir: Path) -> None:
     out_dir = Path(out_dir)
+    _assert_safe_output_dir(out_dir, result.manifest["run_id"])
     out_dir.mkdir(parents=True, exist_ok=True)
     for name, fields, rows in (
         ("huc_balance.csv", BALANCE_FIELDS, result.balances),
@@ -381,25 +500,65 @@ def write_run(result: RunResult, out_dir: Path) -> None:
     (out_dir / "run_manifest.json").write_text(
         json.dumps(result.manifest, indent=2, sort_keys=True) + "\n", encoding="utf-8"
     )
+    # Traces are topology/policy views of the written ledger, not routed-load
+    # attribution. Keep the writer independent of the arithmetic engine.
+    from trace_huc_paths import write_traces
+    write_traces(out_dir)
+
+
+def run_sensitivity_config(path: Path) -> list[tuple[Path, RunResult]]:
+    """Execute each explicitly declared case without changing ledger math."""
+    path = Path(path)
+    config = load_sensitivity_config(path)
+    network = load_network(_config_path(config["wbd"], "wbd"), _config_path(config["routing"], "routing"))
+    inputs = _config_path(config["inputs"], "inputs")
+    prepared: list[tuple[Path, RunResult]] = []
+    for case in config["runs"]:
+        assumptions = _config_path(case["assumptions"], "assumptions") if case["assumptions"] is not None else None
+        result = run_model(
+            case["run_id"], config["period"], inputs, network,
+            policy=case["unresolved_policy"], assumptions_path=assumptions,
+            sensitivity_config_path=path,
+            sensitivity_case={"label": case["label"], "description": case["description"]},
+        )
+        out_dir = _config_path(case["out_dir"], "out_dir")
+        prepared.append((out_dir, result))
+    # Validate every case before replacing any run product.
+    for out_dir, result in prepared:
+        write_run(result, out_dir)
+    return prepared
 
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--run-id", required=True)
-    parser.add_argument("--period", required=True)
-    parser.add_argument("--inputs", type=Path, required=True)
-    parser.add_argument("--policy", choices=("strict", "assume_wbd"), default="strict")
+    parser.add_argument("--config", type=Path, help="Explicit v0.1B sensitivity configuration JSON")
+    parser.add_argument("--run-id")
+    parser.add_argument("--period")
+    parser.add_argument("--inputs", type=Path)
+    parser.add_argument("--policy", choices=("strict", "assume_wbd"))
     parser.add_argument("--assumptions", type=Path)
-    parser.add_argument("--wbd", type=Path, default=DEFAULT_WBD)
-    parser.add_argument("--routing", type=Path, default=DEFAULT_ROUTING)
-    parser.add_argument("--out-dir", type=Path, required=True)
+    parser.add_argument("--wbd", type=Path)
+    parser.add_argument("--routing", type=Path)
+    parser.add_argument("--out-dir", type=Path)
     args = parser.parse_args()
-    network = load_network(args.wbd, args.routing)
-    result = run_model(args.run_id, args.period, args.inputs, network, args.policy, args.assumptions)
-    write_run(result, args.out_dir)
-    print(f"Wrote {len(result.balances)} HUC balances and {len(result.edges)} transfers to {args.out_dir}")
-    for row in result.summary:
-        print(f"{row['constituent']}: input={row['total_local_input']}, unrouted_at_unresolved={row['total_unrouted_at_unresolved']}, boundary={row['boundary_export']} {row['unit']}")
+    if args.config is not None:
+        if any(value is not None for value in (
+            args.run_id, args.period, args.inputs, args.policy, args.assumptions,
+            args.wbd, args.routing, args.out_dir,
+        )):
+            parser.error("--config cannot be combined with single-run arguments")
+        completed = run_sensitivity_config(args.config)
+    else:
+        if not all((args.run_id, args.period, args.inputs, args.out_dir)):
+            parser.error("single-run mode requires --run-id, --period, --inputs, and --out-dir")
+        network = load_network(args.wbd or DEFAULT_WBD, args.routing or DEFAULT_ROUTING)
+        result = run_model(args.run_id, args.period, args.inputs, network, args.policy or "strict", args.assumptions)
+        write_run(result, args.out_dir)
+        completed = [(args.out_dir, result)]
+    for out_dir, result in completed:
+        print(f"Wrote {len(result.balances)} HUC balances and {len(result.edges)} transfers to {out_dir}")
+        for row in result.summary:
+            print(f"{row['constituent']}: input={row['total_local_input']}, unrouted_at_unresolved={row['total_unrouted_at_unresolved']}, boundary={row['boundary_export']} {row['unit']}")
 
 
 if __name__ == "__main__":
