@@ -43,3 +43,8 @@ The scientific track remains separate: [empirical input assessment](model_lab_em
 
 Current validation/publication is in the corrected assessment. The older strip
 publication from `6bd1de1` / Pages run `37116017148` is historical, not current disposition.
+
+Current source `6fa1b5d` is pushed; Pages run `37118007574` succeeded for that exact
+source. The old comic URL returns HTTP 404. Live active pages have no comic
+promotions/images; original encounter, sequel/end-lock/restart and observed-flow
+checks pass. The following documentation checkpoint records verified publication.

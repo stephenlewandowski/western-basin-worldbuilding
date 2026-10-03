@@ -283,8 +283,14 @@ spatial/branch traps; that is not human-author acceptance or audience validation
 These checks establish implementation and preservation only. The new interactive
 scene remains a prototype awaiting human-author response.
 
-Publication: ready for normal main integration and replacement Pages deployment.
-Live withdrawal and sequel checks will be recorded after deployment.
+Publication: `6fa1b5d3a82d4cfaaaebe3dab8fc4d019d15eb29` is pushed to main and
+deployed successfully in [Pages run 37118007574](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37118007574).
+The former comic URL returns **HTTP 404**. Live homepage, Hall, Methods, Updates and
+Roadmap return HTTP 200 and have no comic route links or comic images. Original
+encounter controls/continuation, sequel conversations/endings/lock/restart and
+Waterville display pass, with no mobile overflow or page errors. The documentation
+checkpoint records this verified publication without changing the deployed build.
+Main is clean and synchronized after that checkpoint is committed and pushed.
 
 ### Withdrawal/sequel changed paths
 

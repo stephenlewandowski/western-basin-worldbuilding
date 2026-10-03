@@ -50,3 +50,10 @@ Pages successfully deployed creative commit `351f391` in
 The strip was deployed from `6bd1de1` and its publication recorded in `3abaefa`.
 That deployment is superseded by the human-author withdrawal. The corrected
 assessment records current withdrawal/interactive-sequel validation and publication.
+
+Withdrawal/sequel source `6fa1b5d` is pushed and deployed successfully in
+[Pages run 37118007574](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37118007574).
+The former comic route returns HTTP 404. Live active pages contain no comic links
+or images; both interactive encounters and Waterville Methods checks pass.
+The new sequel remains a prototype awaiting human-author response. The following
+documentation checkpoint records publication without changing the deployed build.
