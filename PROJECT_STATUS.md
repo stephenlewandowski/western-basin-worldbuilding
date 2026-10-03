@@ -47,5 +47,8 @@ for current state. A local build alone is not publication.
 
 Pages successfully deployed creative commit `351f391` in
 [run 37110062438](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37110062438).
-That preceding build passed live checks. Current comic publication is recorded in
-the checkpoint above; it supersedes the earlier creative build when deployed.
+The comic source `6bd1de1` is now pushed and deployed successfully in
+[Pages run 37116017148](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37116017148).
+Live homepage, comic artwork/transcript, Hall interactions and Methods checks pass.
+It supersedes the earlier creative build. The following documentation checkpoint
+records publication without changing the deployed build.

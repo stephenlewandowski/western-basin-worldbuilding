@@ -45,5 +45,7 @@ Phase 2A commit over the later selectively integrated science.
 Final checks and publication are recorded in the comic checkpoint; inspect the
 actual Git/Pages state before acting on a publication claim.
 
-The preceding creative source `351f391` and Pages run `37110062438` remain in the
-historical checkpoint. Inspect the current comic report for the newer deployment.
+Current comic source `6bd1de1` is pushed; Pages run `37116017148` succeeded for that
+exact source. Live homepage, comic/image hash/transcript, Hall choice/restart and
+Waterville Methods checks pass. The following documentation checkpoint records
+that result. The earlier `351f391` publication remains in its historical report.

@@ -4,7 +4,7 @@
 unchanged. Current development is Phase 17D; four futurescapes are published and
 HF-05 has a selected Basin Reading Hall direction with an
 [active production brief](phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md),
-with three composition studies and a provisional story workshop. Composition A
+with three composition studies, a six-panel comic and a playable companion. Composition A
 now fixes visual continuity by user selection; complete architecture, institutions
 and character canon remain unsettled. Local synthetic Model Lab
 diagnostics do not create E/S/C claims. Use [Project Status](../PROJECT_STATUS.md)

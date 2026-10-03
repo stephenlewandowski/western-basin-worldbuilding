@@ -182,8 +182,14 @@ Remaining work: human response, genuinely consequential play, stronger explanati
 of future devices through action, final architectural detail and empirical nutrient
 input maturity. These are development priorities, not reasons to withhold this comic.
 
-Publication: source ready for a normal main commit/push and manual Pages deployment.
-The live result will be recorded after deployment.
+Publication: source commit `6bd1de12516cf5713b4f462971f89cef7d3fc159` is pushed to
+main. [Pages run 37116017148](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37116017148)
+completed successfully for that exact commit. Live homepage, comic, Hall and Methods
+return HTTP 200; images decode at mobile width without overflow or page errors.
+The published full comic matches the local WebP SHA-256. Transcript, privacy
+conversation/private ending/restart and the retained Waterville display pass.
+The following documentation-only commit records publication without changing the
+deployed build. Git status is clean after that checkpoint is committed and pushed.
 
 
 ### Exact changed paths
