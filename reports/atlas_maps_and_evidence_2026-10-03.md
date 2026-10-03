@@ -145,7 +145,17 @@ scientific manifests and products remain unchanged. Model Lab/R regressions
 were not rerun: this changes presentation only, and their code/results are
 verified unchanged.
 
-Normal commit/push and Pages publication results are recorded after deployment.
+Feature commit `349051face5470d211f1862e4395beb2c3bf927e` is pushed normally to
+`main`. [Pages run 37123839201](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37123839201)
+completed successfully, including Linux CI tests/build and deployment.
+
+Live [Maps](https://stephenlewandowski.github.io/western-basin-worldbuilding/maps/),
+homepage, Methods, Updates, Roadmap and Reading Hall all return HTTP 200.
+Public map controls, Waterville low/provisional examples and the geology plate
+work; the original and sequel encounter anchors remain present. Browser checks
+report no page errors. The former comic route still returns HTTP 404. The
+publication-checkpoint commit changes documentation only, without another web
+build or deployment. Final normal push leaves clean `main` matching origin.
 
 ## Exact changed paths
 
