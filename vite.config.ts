@@ -9,6 +9,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         home: page('./index.html'),
+        maps: page('./maps/index.html'),
         field: page('./atlas/field-to-lake/index.html'),
         crib: page('./atlas/toledo-crib/index.html'),
         glassCity: page('./atlas/glass-city-2075/index.html'),

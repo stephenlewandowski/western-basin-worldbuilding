@@ -15,6 +15,7 @@ people, surprising devices and consequential choices make them worth entering.
 
 | Area | What it offers | Start here |
 | --- | --- | --- |
+| Maps & regions | A basin map, eleven real landmarks, five overlapping regional readings and four earlier research plates | [Explore the basin](https://stephenlewandowski.github.io/western-basin-worldbuilding/maps/) |
 | Futurescapes | Four imagined 2075 places, each with a lead image, working detail and system inset | [Atlas futurescapes](https://stephenlewandowski.github.io/western-basin-worldbuilding/#futurescapes) |
 | Studies | Watershed pathways, the Toledo intake crib, a possible farm and industrial exchange | [Studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/#essays) |
 | Model Lab | Synthetic water/nutrient routing diagnostics and a local explorer of saved cases | [Run/data guide](data/model_lab/README.md), [local explorer](src/R/model_lab/explorer/README.md) |
@@ -50,6 +51,10 @@ preserve reproducibility. [Research records](reports/README.md) and the
 Original code/documentation use the repository's MIT license; third-party data and
 imagery retain their own terms. See [licensing notes](docs/references/DATA_AND_ASSET_LICENSING.md).
 
+The map is a primary way into the world: real geography, overlapping regional
+character, then connected systems and possible lives. Composite futures receive
+no exact site pins. [Map sources and reproduction](assets/atlas/region/README.md).
+
 ## In development
 
 **The Basin Reading Hall** is the selected information-ecology futurescape direction:
@@ -67,8 +72,10 @@ communicating that idea better. Agent impressions are not a successful audience 
 [Assessment](reports/reading_hall_comic_reader_simulation_2026-10-03.md) and
 [scene template](docs/templates/scene_card.md). Great Black Swamp candidate geometry remains held/noncanonical.
 
-A separate [observed river record](https://stephenlewandowski.github.io/western-basin-worldbuilding/methods/#observed-flow)
-shows retained 2025 USGS daily flow and quality flags. It does not turn the synthetic
+A separate [observed river explorer](https://stephenlewandowski.github.io/western-basin-worldbuilding/maps/#river-record)
+lets readers select a day in the retained 2025 USGS flow record, convert units and
+inspect its quality flags. A short scientific connection explains why discharge
+alone cannot establish nutrient load or the condition of a picnic channel. It does not turn the synthetic
 Model Lab into an empirical watershed predictor. [Input assessment](reports/model_lab_empirical_inputs_2026-10-03.md).
 
 [Current project status](PROJECT_STATUS.md) distinguishes available work from active

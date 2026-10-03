@@ -1,0 +1,49 @@
+{
+  "product": "Public geographic and observed-flow render derivative",
+  "built_date": "2026-10-03",
+  "source_crs": "EPSG:4326",
+  "drawing_projection": "Local equirectangular; reference latitude 41.2 degrees; qualitative display",
+  "bounds_lon_lat": [
+    -85.45,
+    40.3,
+    -82.6,
+    42.1
+  ],
+  "simplification": "Douglas–Peucker render copies: basins .65, lake .5, rivers .45 drawing units; tiny rings omitted",
+  "counts": {
+    "huc8": 7,
+    "physical_river_features_streamorder_at_least_5": 4270,
+    "landmarks": 11,
+    "daily_observations": 365
+  },
+  "input_hash_basis": "GeoPackage exact bytes; text inputs canonicalized to LF for Git checkout portability",
+  "inputs_sha256": {
+    "data/processed/glasspunk_base.gpkg": "2f082fa400b5390965d8df3a870af51966d3b5169eaa4727ee4d2da19d2e0b7f",
+    "src/atlas/landmarks.json": "55f6f9f14a47a03a4971a12dbf0b70d4a73b2d2eae0b6a6c18427c7e0eaf5af1",
+    "data/processed/analysis/population_settlement_nodes.csv": "0c403c6f8aec0dba49d384dd88c9dcc3cebbe1868b00d5dc08fb829b78dd695f",
+    "data/processed/networks/materials_system_nodes.csv": "94e1115975e0563afe1d6112319831c196deb33ab02e7593ea23c2daa2f89f33",
+    "data/processed/networks/energy_system_nodes.csv": "4036d3443624a47091b094032de7e3438f3ddfc9233a26926511860b085533f2",
+    "reports/toledo_water_intake_crib_coordinate_resolution.md": "53c0e48a64714a98cdd630bbc59c8dd1c0e7062c6be9ea1ee274e9c14aadf04e",
+    "data/raw/climate_hazards/usgs_maumee_waterville_daily_flow_2025_2026.json": "a2b206f85f313368e5bcb743dca6241a4bcbea37676a88176348802f42cd93f6",
+    "outputs/model_lab/observations/waterville_daily_flow_2025.csv": "c942fa4646469a494032d8a90fd37136ad657020abf51d5386a8e17621765a03",
+    "outputs/model_lab/observations/waterville_observation_manifest.json": "270a4f03aadf1df77e45b81a466465547ddcbc0927ea8d0b69e4455ee66d0b80",
+    "src/python/atlas/build_region_explorer.py": "cccb528b1b6740b4aee3d6025594712385d45d7bfb55305d2648cbaf9a7e6fe7"
+  },
+  "outputs_sha256": {
+    "assets/atlas/region/region_explorer.json": "b845875dea2ae40cfd43fe2fb98f2ea2c9322f8fbe7a05a000494974bdfaef5d",
+    "assets/atlas/region/basin_preview.svg": "5b82d870ccb4060f50b6a1ed3cc5398a7b727cf9ab5cc991bc35bc2c61a7e170"
+  },
+  "credits": [
+    "USGS hydrography, WBD and daily discharge",
+    "US Census representative municipality points",
+    "Retained energy/materials source registries",
+    "US Coast Guard physical crib position, corroborated by NOAA/NDBC"
+  ],
+  "limits": [
+    "No analytical connectors, unresolved routing lines, complete tile drainage or held swamp boundary",
+    "Regional cards overlap conceptually; no region polygons or exact future-site pins",
+    "Facility points retain source address/asset precision; no operational boundary",
+    "One gauge, retained 2025 daily means and snapshot flags; no nutrient loads, safety, flood extent or future forecast",
+    "All accepted inputs and older maps remain unchanged"
+  ]
+}

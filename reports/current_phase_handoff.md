@@ -1,6 +1,12 @@
 # Current handoff
 
-**3 October 2026 · comic withdrawal and interactive Return Visit**
+**3 October 2026 · map-led Atlas and observed-flow interface**
+
+Latest addition: [Maps and evidence](atlas_maps_and_evidence_2026-10-03.md). Maps
+now lead from the homepage/navigation, with a sourced geographic derivative,
+five regional readings, eleven landmarks, four earlier research plates and a
+retained Waterville day explorer. No accepted scientific product or Model Lab
+mathematics changed. Publication and validation are recorded in that report.
 
 Inspect `git status`, [current status](../PROJECT_STATUS.md) and the
 [corrected assessment](reading_hall_comic_reader_simulation_2026-10-03.md).
@@ -36,7 +42,8 @@ Withdraw the comic until its narrative continuity is rebuilt.
 
 ## Next work
 
-Get human-author response to the interactive sequel, then refine it. Do not call
+Evaluate the map → place → story and real gauge → day journeys with human
+readers. Get human-author response to the interactive sequel, then refine it. Do not call
 mechanical checks or agent impressions a successful narrative/audience test.
 Do not produce another comic from the failed strip as though continuity were accepted.
 The scientific track remains separate: [empirical input assessment](model_lab_empirical_inputs_2026-10-03.md).

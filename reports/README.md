@@ -48,6 +48,8 @@ or calibrated environmental performance.
 
 ## Atlas, illustrated futures and narrative
 
+- [Maps, regional character and measured-flow interface](atlas_maps_and_evidence_2026-10-03.md): public geographic derivative, earlier-map collection, observation limits and reproduction.
+
 - [Study synthesis and production pattern](phase17a_prototype_findings_and_production_pattern.md).
 - [Lived-world condition packets](phase17b_lived_world_condition_packets.md) and [role/story seeds](phase17c_role_and_story_seed_matrix.md): conditional/provisional material.
 - [Futurescape concepts](phase17d_hero_futurescape_concepts.md) and [visual retrospective](phase17d_three_hero_visual_retrospective.md).

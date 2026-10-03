@@ -8,7 +8,8 @@
 | Area | Current state | Start here |
 | --- | --- | --- |
 | Research foundation | Frozen Phase 1–16 products and provenance preserved. | [Research by subject](reports/README.md) |
-| Atlas | Four finished 2075 futurescapes and four studies; Methods, Updates and Roadmap. | [Atlas](https://stephenlewandowski.github.io/western-basin-worldbuilding/) |
+| Atlas | Four finished 2075 futurescapes and four studies; map-led regional explorer, earlier-map collection, Methods, Updates and Roadmap. | [Atlas](https://stephenlewandowski.github.io/western-basin-worldbuilding/) |
+| Maps and observations | Eleven sourced landmarks, five overlapping regional readings, four preserved research plates and a day-by-day Waterville 2025 flow explorer. No new empirical routed model. | [Map derivative](assets/atlas/region/README.md), [development record](reports/atlas_maps_and_evidence_2026-10-03.md) |
 | Basin Reading Hall | Composition A is the user-selected canonical visual orientation, with qualitative counter/spine/return/service relationships locked. Architectural detail remains in development. | [Workshop](atlas/basin-reading-hall/index.html), [continuity plan](docs/phase_briefs/hf05_reading_hall_continuity_lock.md) |
 | Stories | Before the Last Bus interactive encounter retained; The Return Visit adds a completed public correction and stay/leave consequences. The strip failed human-author continuity review and is withdrawn. | [Encounters](atlas/basin-reading-hall/index.html), [corrected assessment](reports/reading_hall_comic_reader_simulation_2026-10-03.md), [story workshop](stories/README.md) |
 | Model Lab | Three saved synthetic routing cases and local read-only Shiny explorer. Separate observed Waterville flow display adds no empirical routed case. | [Model guides](data/model_lab/README.md), [input assessment](reports/model_lab_empirical_inputs_2026-10-03.md) |
@@ -18,16 +19,19 @@
 
 ## Next development
 
-1. Review/play [The Return Visit](stories/the_return_visit.md): it is a new interactive
-   prototype, not a claim of successful human review. Refine action, voice and payoff.
-2. Observe a few human readers/players before expanding production. The withdrawn
-   strip failed human-author continuity review; agent impressions do not override that.
-3. Carry a person/device into the upstream farm or crane hall after these scenes
-   work. Rebuild narrative continuity before reconsidering a comic adaptation.
-4. Keep Waterville observations as the parallel scientific track. Mature nutrient
-   inputs and their date/unit/quality/geographic crosswalk separately from creative work.
+1. Observe human readers using the map → place → encounter and gauge → day
+   journeys. Refine presentation before increasing production volume.
+2. Review/play [The Return Visit](stories/the_return_visit.md), then carry a
+   person/device into an upstream farm or crane hall. The withdrawn comic failed
+   human-author continuity review; its agent impressions are not audience success.
+3. Mature compatible measured nutrient inputs, dates, units, quality flags and
+   geographic crosswalk as the parallel scientific track. Keep observation,
+   synthetic accounting and future design distinct.
+4. Add a small conservation view from saved Model Lab ledgers if readers want to
+   inspect assumptions in the browser; preserve the existing mathematics.
 
-[Current assessment](reports/reading_hall_comic_reader_simulation_2026-10-03.md).
+[Map development assessment](reports/atlas_maps_and_evidence_2026-10-03.md) and
+[Reading Hall assessment](reports/reading_hall_comic_reader_simulation_2026-10-03.md).
 
 ## Boundaries and history
 

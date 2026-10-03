@@ -12,6 +12,7 @@ project from old phase milestones.
 | --- | --- |
 | Findings and scientific limits | [Subject index](../reports/README.md); each package retains findings, assumptions, sources, QA and manifests |
 | Sources and rights | [Source registry](../metadata/sources.yml), [licensing notes](references/DATA_AND_ASSET_LICENSING.md) |
+| Maps, regional identity and observations | [Public map derivative](../assets/atlas/region/README.md), [original regional intent](worldbuilding/Glasspunk_Regional_and_Systems_Atlas_v0.1.md), [development record](../reports/atlas_maps_and_evidence_2026-10-03.md) |
 | Quantitative diagnostic examples | [Model Lab run/data guide](../data/model_lab/README.md), [local explorer guide](../src/R/model_lab/explorer/README.md) |
 | Current visual development | [Reading Hall continuity lock and plan](phase_briefs/hf05_reading_hall_continuity_lock.md), [original brief](phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md), [house style](phase_briefs/phase17d_public_visual_style_guide.md) |
 | Stories, comics and game scenes | [Story workshop](../stories/README.md), [small scene template](templates/scene_card.md), [corrected strip disposition and reader simulation](../reports/reading_hall_comic_reader_simulation_2026-10-03.md) |
