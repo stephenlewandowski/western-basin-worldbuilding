@@ -1,48 +1,63 @@
 # The Return Visit
 
-**Next creative investment · production seed, not a published sequel.**
-Format: one short playable encounter with a comic adaptation, using the existing
-scene renderer rather than a new game framework. Provisional Renata/Hannah cast.
+**Format:** short interactive encounter; provisional fiction.
+**Play:** [Reading Hall sequel](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#return-visit).
+**Text and interaction:** [scene module](../src/atlas/return-visit.ts).
 
-Renata returns with the folded slip. Her daughter has repaired the paper sun with
-two mismatched yellow rays. A buyer is expecting one of Renata's resale shirts at
-the bus stop. The steward has a revised public scope card, not a verdict about the water.
+This follows the retained [Before the Last Bus interactive encounter](before_the_last_bus.md),
+not the withdrawn comic. Renata eventually brought her slip back. That small
+bridge allows the sequel after a first visit in which no request was filed,
+without pretending the earlier bus ending filed one.
 
-The card now visibly leaves the little channel outside the visits. The previous
-edition stays in the cabinet. Hannah can check the place Renata marked against
-her route notes, but the case and notes are still at the separate receiving hatch.
+On another afternoon, Renata returns to collect a revised public card. Her
+daughter has repaired the paper sun with mismatched rays and too much tape.
+A blue resale shirt is in her bag; its buyer is waiting at the next bus stop.
 
-**Visible change:** the office has answered her request with a corrected public
-card. Other neighbors can now see the unvisited branch instead of treating the
-broader label as a promise. Show the dated correction beside the old edition;
-this completes one piece of work from the first visit rather than repeating it.
+## Completed work
 
-**Consequential choice:** leave with the clarified scope card and keep the shirt
-handoff, or stay for Hannah's location check and miss that bus and buyer. The
-second path makes the missed errand visible; it does not merely unlock extra text.
-Neither path becomes the objectively correct one. No real-time countdown is needed.
+The old sheet stays beside the revised card. The newer wording names the visited
+reach and visibly marks the side channel “not visited.” Visit dates and the
+underlying finding remain unchanged. Her request has changed what other readers
+can see; it has not produced a new measurement or a verdict about picnic safety.
+Her exact home address stays off the public card.
 
-**Payoff:** both paths settle what the revised card covers. Staying also settles
-which place the request names and ends with Hannah and a specific next action:
-annotating that place on the next visit's route request. This is a request, not a
-guaranteed visit or measurement. Leaving preserves the errand and provides a dated
-scope card she can explain at home. Do not end both paths with another pending slip.
+## Playable choice
 
-**Three image beats:** two editions and the repaired sun at the counter; Hannah's
-boot, closed cooler and folded location map at the hatch; either a shirt exchanged
-at the bus stop or Renata watching that bus leave through the hall's glazing.
+Two optional conversations compare the cards and explain what Hannah's location
+check would require. Neither performs that check before the decision.
 
-Keep the [orientation A continuity lock](../docs/phase_briefs/hf05_reading_hall_continuity_lock.md):
+- **Leave:** Renata takes the dated clarification, catches the bus and exchanges
+  the shirt. The public correction is complete; the exact location check waits.
+- **Stay:** after the closed cooler/custody handoff, Hannah joins Renata at a public
+  reading table. They match her marked branch against the route notes with the
+  address corner folded under. Hannah adds the place to a route request, which
+  books no visit and supplies no water measurement. Renata misses the bus; the
+  buyer can rearrange only for Saturday, so the shirt goes back into the bag.
+
+Choosing either ending disables the visit's other actions until restart. One
+visit cannot both catch and miss that bus. Reading has no real-time countdown,
+score, saved state or network request. The first encounter keeps its existing
+conversations and endings; only a sequel link was added.
+
+## Spatial and narrative grounding
+
+[Orientation A continuity](../docs/phase_briefs/hf05_reading_hall_continuity_lock.md):
 counter front-left, field return left-rear, instrument spine right, maintenance
-behind the staff boundary. Renata remains on the public side of the hatch.
+behind the staff boundary. Renata stays on the public floor. The cooler crosses
+custody with receiving staff; the private sketch never becomes a sample-handling
+operation or a new public address record.
 
-The [first comic](before_the_last_bus.md), preserved ordinary-day drafts and
-[reader responses](../reports/reading_hall_comic_reader_simulation_2026-10-03.md)
-supply the characters and stakes. Model Lab's versioned records inspire the scope
-card. Report wording, route notes, the channel, privacy handoff and institutions
-are fiction; they make no claim about real water quality or picnic safety.
+The cast prototypes, preserved ordinary-day drafts and retained interactive
+encounter supply the people, shirts, paper sun and wheel. Model Lab's versioned
+records inspire visible old/new wording and bounded knowledge. Channel, route
+request, privacy arrangements, payment and civic office remain fiction.
 
-Make this one encounter before producing another futurescape or a large game.
-Then observe a few human readers/players: what place did they infer, what choice
-did they feel, what changed, and what did they want to follow? Continue if they
-want the people or places back; fix the opening/payoff if they cannot name either.
+**Project takeaway:** Ordinary people in distinctive working places remain promising,
+but the interactive encounter currently communicates that idea better than the
+six-panel comic. The comic failed human-author continuity review and is withdrawn
+until its narrative continuity is rebuilt. It is not a successful audience test
+or an accepted baseline for this scene.
+
+[Corrected assessment](../reports/reading_hall_comic_reader_simulation_2026-10-03.md).
+This sequel is a playable prototype, not a claim that human narrative review has
+passed. Use actual author/reader response to guide its next revision.

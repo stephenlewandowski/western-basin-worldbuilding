@@ -1,0 +1,17 @@
+{
+  "disposition": "failed human-author continuity review; withdrawn; preserved source only",
+  "archive": "comic_source_pngs.zip",
+  "archive_sha256": "e2da91f31a7f6abb74e948dfc18ddce0b0122c0d44c9b59b1e8e3ecebe4573f9",
+  "sources": [
+    {
+      "file": "exec-fc6f6058-854b-45e7-afc6-dbca51becdae.png",
+      "sha256": "efd952738cf07fe8fda79ff348df67c0c6e63deb373dc87fae52df502b560d7e",
+      "bytes": 3083277
+    },
+    {
+      "file": "exec-791b04b8-1f34-4119-9a0d-1b7a6bfbab95.png",
+      "sha256": "4a46903338ffd5c6e1987ab49994565e46095b1be859be26c937a3ac7826605d",
+      "bytes": 2808188
+    }
+  ]
+}

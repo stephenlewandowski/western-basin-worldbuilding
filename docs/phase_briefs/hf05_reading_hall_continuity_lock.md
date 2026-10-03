@@ -49,15 +49,15 @@ it is not the compute/preservation wing. A’s front-facing upper landings are s
 access, not the rear service gallery and not public walkways. B and C remain
 camera studies, not alternate floor plans.
 
-## Comic use
+## Scene continuity and withdrawn comic intent
 
-Panels 1, 2 and 5 keep the public encounter on the same side of the counter.
-Panel 3 looks toward the left field-return hatch from the public side, with a
-clerk receiving Hannah’s closed case. Panel 4 shows the right ground berth through
-the staff boundary. Panel 6 leaves by the public route. Detail crops may change
-camera angle without mirroring the hall or moving its zones.
+The strip failed human-author continuity review and is withdrawn. Its intended
+panel blocking is not accepted narrative continuity. Subsequent scenes must keep
+the public encounter at the same counter, approach the left return hatch from the
+public floor, and leave the ground berth behind the staff boundary. Detail crops
+may change camera angle without mirroring the hall or moving its zones.
 
-Character appearance is consistent within the comic, but the generated figures in
-A are not Renata/Hannah portrait references. Institutional rules, biographies and
+The generated figures in A are not Renata/Hannah portrait references. The withdrawn
+strip does not establish character or event continuity. Institutional rules, biographies and
 technology performance remain provisional fiction/design. The only canon decision
 here is the user-selected visual orientation and its qualitative continuity relations.

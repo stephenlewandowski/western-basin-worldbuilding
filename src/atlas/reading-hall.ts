@@ -54,7 +54,7 @@ export function mountReadingHallScene(): void {
         bus: ['A question kept', `<p>Renata copies the edition date into her phone. No request is filed. The question will travel home with her, unfinished.</p><p>The steward gives her a blank slip anyway. “For when you come back.”</p><p>She catches the bus, photographs one shirt in the window light, and sends her daughter a picture of the paper sun visiting the river. For once, a small patch of open time stays open.</p>`],
       };
       const [title, text] = endings[button.dataset.ending!];
-      outcome.innerHTML = `<p class="eyebrow">RENATA LEAVES THE HALL</p><h3>${title}</h3>${text}`;
+      outcome.innerHTML = `<p class="eyebrow">RENATA LEAVES THE HALL</p><h3>${title}</h3>${text}<p><a class="text-link" href="#return-visit">Continue with The Return Visit →</a></p>`;
       outcome.hidden = false;
       restart.hidden = false;
       outcome.focus({ preventScroll: true });

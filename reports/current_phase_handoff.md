@@ -1,51 +1,45 @@
 # Current handoff
 
-**3 October 2026 · Reading Hall continuity, comic and reader simulation**
+**3 October 2026 · comic withdrawal and interactive Return Visit**
 
-Inspect `git status`, then read [current status](../PROJECT_STATUS.md) and
-[the comic checkpoint](reading_hall_comic_reader_simulation_2026-10-03.md). The next
-productive step is [The Return Visit](../stories/the_return_visit.md), with an action
-that costs something and a payoff beyond another pending slip.
+Inspect `git status`, [current status](../PROJECT_STATUS.md) and the
+[corrected assessment](reading_hall_comic_reader_simulation_2026-10-03.md).
 
-## What changed
+## Current disposition
 
-- Cleanup/history preservation and the pre-existing HF-05 brief/spatial study are integrated as `6c6ed91`.
-- Composition A is now the user-selected canonical visual orientation. A qualitative continuity plan fixes the counter, spine, separate field return/custody and service zones. The ground berth explicitly refines the older low/middle sketch to match A's tall end.
-- Before the Last Bus has a published six-panel comic, mobile panel order, transcript and a playable companion. Prompts, original/revised hashes and the exact reader baseline are retained.
-- Three fresh agent readers wanted Renata's return visit; two preferred the comic, one play. All questioned privacy, now clarified as keeping her home address off the public copy. This is simulated feedback, with text-only Atlas exposure, not human audience validation.
-- Three older insets use annotation-only derivatives and responsive descriptions; originals/builders retained.
-- Twenty valuable worktree files are hash-preserved; worktrees, approved reference PNGs and accepted animation remain in place.
-- A separate complete-2025 observed Waterville flow card retains A/P/e flags; synthetic Model Lab engine/explorer guarantees remain unchanged.
-- README, guides and a small scene template now lead toward stories, comics and games with linked grounding.
+The six-panel strip **failed human-author continuity review**. It is withdrawn
+from prominent Atlas/story entry points and its public route has been removed.
+It must not be treated as a successful audience test, accepted narrative baseline
+or evidence that continuity works. Agent impressions are preserved as history;
+the human-author decision takes precedence.
 
-## Resume without redoing work
+Ordinary people in distinctive working places remain promising, but the interactive
+encounter currently communicates that idea better than the six-panel comic.
+Withdraw the comic until its narrative continuity is rebuilt.
 
-Use [the scene card](../stories/before_the_last_bus.md),
-[scene module](../src/atlas/reading-hall.ts),
-[continuity lock](../docs/phase_briefs/hf05_reading_hall_continuity_lock.md),
-[comic prompts](../assets/phase17d/hf05/comic/before_the_last_bus_prompt.json),
-[original production brief](../docs/phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md),
-[image prompts](../assets/phase17d/hf05/hf05_composition_prompts.json),
-[draft inventory](worktree_draft_inventory_2026-10-03.md) and
-[empirical assessment](model_lab_empirical_inputs_2026-10-03.md).
-Local raw composition PNGs are in `temp/hf05_compositions/`; bounded browser proofs
-are in `temp/creative-review/`. Comic PNGs and current browser proofs are in
-`temp/hf05_comic/`. These ignored sources are useful, not cleanup junk.
+## Available and preserved
 
-## Preserve
+- [Before the Last Bus](../stories/before_the_last_bus.md) retains its interactive
+  prose, conversations and endings. An added link continues to the sequel.
+- [The Return Visit](../stories/the_return_visit.md) is a playable prototype at
+  the Hall's `#return-visit` anchor. The correction is completed in both endings;
+  staying performs the location check and misses a shirt handoff. Endings lock
+  until restart, so one visit cannot catch and miss the bus.
+- [Strip archive](../assets/phase17d/hf05/comic/README.md) retains all artwork,
+  baseline, prompts, manifest, renderer, HTML entry, styles and a source-PNG ZIP. Local PNGs and
+  prior browser proofs remain in ignored `temp/hf05_comic/`.
+- Composition A and [qualitative continuity](../docs/phase_briefs/hf05_reading_hall_continuity_lock.md)
+  remain the limited user-selected visual decision. No strip events/portraits are
+  accepted continuity. Original brief/study/A/B/C images remain preserved.
+- Frozen scientific products, accepted Model Lab outputs/mathematics, Waterville
+  observations, older futurescape assets, archives and worktrees remain unchanged.
 
-Frozen Phase 1–16 products, accepted model cases/mathematics, original futurescape
-images/insets and source records remain untouched. Public/staff/sample/service
-routes and dry preservation remain distinct in the selected orientation. Only the
-explicitly selected visual continuity is canonical; no institutional/character
-canon, GBI number or held geometry is promoted. Preserve older worktrees
-until separately requested retirement; do not re-merge the historical external
-Phase 2A commit over the later selectively integrated science.
+## Next work
 
-Final checks and publication are recorded in the comic checkpoint; inspect the
-actual Git/Pages state before acting on a publication claim.
+Get human-author response to the interactive sequel, then refine it. Do not call
+mechanical checks or agent impressions a successful narrative/audience test.
+Do not produce another comic from the failed strip as though continuity were accepted.
+The scientific track remains separate: [empirical input assessment](model_lab_empirical_inputs_2026-10-03.md).
 
-Current comic source `6bd1de1` is pushed; Pages run `37116017148` succeeded for that
-exact source. Live homepage, comic/image hash/transcript, Hall choice/restart and
-Waterville Methods checks pass. The following documentation checkpoint records
-that result. The earlier `351f391` publication remains in its historical report.
+Current validation/publication is in the corrected assessment. The older strip
+publication from `6bd1de1` / Pages run `37116017148` is historical, not current disposition.

@@ -1,7 +1,6 @@
 # Before the Last Bus
 
-**Available:** [six-panel comic](https://stephenlewandowski.github.io/western-basin-worldbuilding/stories/before-the-last-bus/)
-and [playable encounter](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story).
+**Available:** [interactive encounter](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story).
 **Place:** the Basin Reading Hall, composite Toledo/western Lake Erie, 2075.
 **Status:** provisional fiction; selected hall orientation fixed separately.
 
@@ -10,7 +9,7 @@ The river report leaves it out. Five minutes to the bus, and a better question
 might be all Renata can take home. Hannah returns from fieldwork; behind the staff
 rail, a technician's new instrument has a stubborn old trolley wheel.
 
-## Published comic script
+## Withdrawn comic script — retained source
 
 1. **Counter, wide.** Caption: “Toledo, 2075. Five minutes to the bus.” Renata:
    “Is our channel in this water report? My daughter wants a picnic.”
@@ -25,18 +24,18 @@ rail, a technician's new instrument has a stubborn old trolley wheel.
 6. **Bus.** The daughter's paper sun wears the receipt like a hat. Caption:
    “Not an answer yet. Something she can come back for.”
 
-The comic selects one departure for its six-panel sequence; it does not settle
-all playable outcomes as canon. It is designed for a brief reading, without a
-measured claim about human reading speed. The optional web transcript repeats the
-lettered dialogue, and mobile reading keeps the six panels in order.
+The strip failed human-author continuity review. It is withdrawn from the public
+site and must not be treated as a successful audience test or accepted character/
+event continuity. The script, artwork, transcript, renderer and removed HTML entry
+remain in the [source archive](../assets/phase17d/hf05/comic/README.md).
 
-## Playable companion
+## Retained interactive encounter
 
 Three conversations concern an earlier edition, Hannah's visits and an unavailable
 instrument compartment. Renata can request a clearer public scope note, leave her
 exact address privately, or catch the bus with no request filed. None automatically
 changes a finding or provides an answer about the water. These are exploratory
-conversation choices; the next encounter should give action and time stronger consequences.
+conversation choices; the sequel gives action and time stronger consequences.
 The exact playable text is in [the scene module](../src/atlas/reading-hall.ts).
 
 ## Grounding and visual record
@@ -50,8 +49,8 @@ records and visible limits; no real water-quality finding is represented here.
 visual orientation. The [continuity lock](../docs/phase_briefs/hf05_reading_hall_continuity_lock.md)
 fixes counter/spine/return/service relations and explicitly refines the earlier
 berth position. The original [brief](../docs/phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md)
-and spatial study remain preserved. Portraits are consistent within this comic;
-A's figures were only building/material references. The bus-window city is an
+and spatial study remain preserved. A's figures were only building/material references;
+the strip does not establish portrait or narrative continuity. The bus-window city is an
 imagined composite, not a surveyed Toledo skyline or identified real parcel.
 
 [Full comic](../assets/phase17d/hf05/comic/before_the_last_bus.webp),
@@ -59,9 +58,11 @@ imagined composite, not a surveyed Toledo skyline or identified real parcel.
 [hash/crop manifest](../assets/phase17d/hf05/comic/before_the_last_bus_manifest.json).
 Built-in image generation created the artwork. WebP encoding/panel extraction did
 not repaint it. The original and revised source PNGs remain in ignored
-`temp/hf05_comic/`; the baseline viewed by simulated readers is preserved separately.
+`temp/hf05_comic/` and the durable source ZIP linked by the archive guide; the
+baseline viewed by simulated readers is preserved separately.
 
 The paper sun, edition cabinet, comparison dock, service berth and channel question
 can recur. [Reader responses and investment decision](../reports/reading_hall_comic_reader_simulation_2026-10-03.md)
-point toward [The Return Visit](the_return_visit.md), with a resolved coverage
-question and a visible cost to staying. No new invention catalogue number is assigned.
+are superseded by the human-author withdrawal. [The Return Visit](the_return_visit.md)
+continues the interactive encounter, with completed clarification and a visible
+cost to staying; it does not adapt the failed strip. No new invention catalogue number is assigned.

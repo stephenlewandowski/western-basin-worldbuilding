@@ -14,7 +14,7 @@ project from old phase milestones.
 | Sources and rights | [Source registry](../metadata/sources.yml), [licensing notes](references/DATA_AND_ASSET_LICENSING.md) |
 | Quantitative diagnostic examples | [Model Lab run/data guide](../data/model_lab/README.md), [local explorer guide](../src/R/model_lab/explorer/README.md) |
 | Current visual development | [Reading Hall continuity lock and plan](phase_briefs/hf05_reading_hall_continuity_lock.md), [original brief](phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md), [house style](phase_briefs/phase17d_public_visual_style_guide.md) |
-| Stories, comics and game scenes | [Story workshop](../stories/README.md), [small scene template](templates/scene_card.md), [comic and reader simulation](../reports/reading_hall_comic_reader_simulation_2026-10-03.md) |
+| Stories, comics and game scenes | [Story workshop](../stories/README.md), [small scene template](templates/scene_card.md), [corrected strip disposition and reader simulation](../reports/reading_hall_comic_reader_simulation_2026-10-03.md) |
 | Preserved worktree drafts | [Archive guide](archive/README.md), [inventory](../reports/worktree_draft_inventory_2026-10-03.md) |
 | Setting choices and holds | [Canon register](canon_status.md); provisional design material is not canon |
 | How to resume work | [Current handoff](../reports/current_phase_handoff.md), [workflow](agent_workflow.md) |

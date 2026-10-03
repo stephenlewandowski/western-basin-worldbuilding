@@ -10,7 +10,7 @@
 | Research foundation | Frozen Phase 1–16 products and provenance preserved. | [Research by subject](reports/README.md) |
 | Atlas | Four finished 2075 futurescapes and four studies; Methods, Updates and Roadmap. | [Atlas](https://stephenlewandowski.github.io/western-basin-worldbuilding/) |
 | Basin Reading Hall | Composition A is the user-selected canonical visual orientation, with qualitative counter/spine/return/service relationships locked. Architectural detail remains in development. | [Workshop](atlas/basin-reading-hall/index.html), [continuity plan](docs/phase_briefs/hf05_reading_hall_continuity_lock.md) |
-| Stories | Before the Last Bus is a six-panel comic with a playable companion. Provisional Renata/Hannah viewpoints; six ordinary-day originals preserved. Three agent reader responses favor a consequential return visit. | [Comic](stories/before-the-last-bus/index.html), [reader assessment](reports/reading_hall_comic_reader_simulation_2026-10-03.md), [story workshop](stories/README.md) |
+| Stories | Before the Last Bus interactive encounter retained; The Return Visit adds a completed public correction and stay/leave consequences. The strip failed human-author continuity review and is withdrawn. | [Encounters](atlas/basin-reading-hall/index.html), [corrected assessment](reports/reading_hall_comic_reader_simulation_2026-10-03.md), [story workshop](stories/README.md) |
 | Model Lab | Three saved synthetic routing cases and local read-only Shiny explorer. Separate observed Waterville flow display adds no empirical routed case. | [Model guides](data/model_lab/README.md), [input assessment](reports/model_lab_empirical_inputs_2026-10-03.md) |
 | Reader insets | Three annotation-only derivatives now use six numbered groups and responsive descriptions; original diagrams/builders retained. | [Lineage](assets/phase17d/public_inset_derivatives.json) |
 | Worktree history | Twenty previously untracked/ignored creative files preserved with exact hashes; seven worktrees remain untouched. | [Inventory](reports/worktree_draft_inventory_2026-10-03.md) |
@@ -18,12 +18,12 @@
 
 ## Next development
 
-1. Make [The Return Visit](stories/the_return_visit.md): one consequential choice,
-   a resolved coverage question and a visible cost, using the existing scene renderer.
-2. Observe a few actual human comic readers/players before expanding production.
-   Agent responses identify confusion and a promising hook; they do not validate demand.
-3. Carry one character/device into the upstream farm or crane hall. Clarify what a
-   future device changes in an ordinary action; avoid another catalogue entry alone.
+1. Review/play [The Return Visit](stories/the_return_visit.md): it is a new interactive
+   prototype, not a claim of successful human review. Refine action, voice and payoff.
+2. Observe a few human readers/players before expanding production. The withdrawn
+   strip failed human-author continuity review; agent impressions do not override that.
+3. Carry a person/device into the upstream farm or crane hall after these scenes
+   work. Rebuild narrative continuity before reconsidering a comic adaptation.
 4. Keep Waterville observations as the parallel scientific track. Mature nutrient
    inputs and their date/unit/quality/geographic crosswalk separately from creative work.
 
@@ -47,8 +47,6 @@ for current state. A local build alone is not publication.
 
 Pages successfully deployed creative commit `351f391` in
 [run 37110062438](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37110062438).
-The comic source `6bd1de1` is now pushed and deployed successfully in
-[Pages run 37116017148](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37116017148).
-Live homepage, comic artwork/transcript, Hall interactions and Methods checks pass.
-It supersedes the earlier creative build. The following documentation checkpoint
-records publication without changing the deployed build.
+The strip was deployed from `6bd1de1` and its publication recorded in `3abaefa`.
+That deployment is superseded by the human-author withdrawal. The corrected
+assessment records current withdrawal/interactive-sequel validation and publication.
