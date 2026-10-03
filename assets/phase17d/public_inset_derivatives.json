@@ -1,0 +1,29 @@
+[
+  {
+    "original": "assets/phase17d/hf01/hf01_canopy_old_wall_section.svg",
+    "original_sha256": "e7c4f08a9ec4dda3c1ec2aa2833ac2d97790bd60cd96c9fa2df2ef080b77e99d",
+    "original_sha256_lf": "e7c4f08a9ec4dda3c1ec2aa2833ac2d97790bd60cd96c9fa2df2ef080b77e99d",
+    "derivative": "assets/phase17d/hf01/hf01_canopy_old_wall_section_public.svg",
+    "derivative_sha256": "2b20c5981129f16a6584e971ce1f758917f2452e40766a9d1e2f66e97397e753",
+    "retained_shapes": 57,
+    "marker_count": 6
+  },
+  {
+    "original": "assets/phase17d/hf03/hf03_field_seam_drainage_section.svg",
+    "original_sha256": "c7a63048918062abb8964a212e6aeba4158cb5e801cd5c6bddaca01a2f2c474e",
+    "original_sha256_lf": "5212468de90b0a8ae95826c6169e2fe1f723003c6eba41d452f8d2b14f378c5b",
+    "derivative": "assets/phase17d/hf03/hf03_field_seam_drainage_section_public.svg",
+    "derivative_sha256": "6958270452bbd6b50cd8377d71e37c02cb1dba16211d1c2c584be44ec92090ef",
+    "retained_shapes": 43,
+    "marker_count": 6
+  },
+  {
+    "original": "assets/phase17d/hf04/hf04_qualification_cell_section.svg",
+    "original_sha256": "4ff46aa486c58208c5a817c32b2c9f99bf62383355a57bde770beb0b553fdfc8",
+    "original_sha256_lf": "d08262ebf2a8bbcf597281aa9bcfd1c10d35eba68840758ab78ce7844a6f66e0",
+    "derivative": "assets/phase17d/hf04/hf04_qualification_cell_section_public.svg",
+    "derivative_sha256": "90f3b8f78ef9f08aba106477db5be52927cf289ba6bcd96861505597222a0786",
+    "retained_shapes": 66,
+    "marker_count": 6
+  }
+]

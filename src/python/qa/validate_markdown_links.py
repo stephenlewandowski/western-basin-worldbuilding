@@ -18,7 +18,7 @@ def main() -> None:
     markdown_files = list(ROOT.glob("*.md"))
     # Durable documentation includes Model Lab guides and output/source records.
     # Exclude ignored caches, dependency trees and temporary Git worktrees.
-    for directory in ("docs", "reports", "data", "outputs", "assets", "skills", "src"):
+    for directory in ("docs", "reports", "data", "outputs", "assets", "skills", "src", "stories"):
         markdown_files.extend((ROOT / directory).rglob("*.md"))
 
     for document in sorted(set(markdown_files)):

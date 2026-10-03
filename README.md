@@ -5,6 +5,10 @@ western Lake Erie and their connected systems. The project combines sourced stud
 explicit models and imagined places in 2075. This repository preserves the work behind
 the **Western Basin Atlas**.
 
+The aim is a regional future setting people can enjoy exploring and use for stories,
+graphic novels and games. Research gives the places their constraints; ordinary
+people, surprising devices and consequential choices make them worth entering.
+
 **[Explore the Atlas](https://stephenlewandowski.github.io/western-basin-worldbuilding/).**
 
 ## What you can explore now
@@ -15,6 +19,7 @@ the **Western Basin Atlas**.
 | Studies | Watershed pathways, the Toledo intake crib, a possible farm and industrial exchange | [Studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/#essays) |
 | Model Lab | Synthetic water/nutrient routing diagnostics and a local explorer of saved cases | [Run/data guide](data/model_lab/README.md), [local explorer](src/R/model_lab/explorer/README.md) |
 | Methods | Evidence, uncertainty, image provenance, sources and rights | [Methods](https://stephenlewandowski.github.io/western-basin-worldbuilding/methods/), [research by subject](reports/README.md) |
+| Stories | A short interactive Reading Hall scene and preserved ordinary-day fiction drafts | [Before the Last Bus](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story), [story workshop](stories/README.md) |
 | Companion game | Vesper Station, an experimental browser mystery | [Play](https://stephenlewandowski.github.io/western-basin-worldbuilding/game/), [game design](DESIGN.md) |
 
 The four futurescapes are [Glass City 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/glass-city-2075/),
@@ -50,9 +55,15 @@ imagery retain their own terms. See [licensing notes](docs/references/DATA_AND_A
 **The Basin Reading Hall** is the selected information-ecology futurescape direction:
 a civic place to inspect published findings and request clarification. Its
 [production brief](docs/phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md)
-and [spatial study](assets/phase17d/hf05/hf05_basin_reading_hall_spatial_study.svg) are
-development material; finished imagery remains pending. Narrative roles and stories
-also remain provisional. Great Black Swamp candidate geometry remains held/noncanonical.
+and [spatial study](assets/phase17d/hf05/hf05_basin_reading_hall_spatial_study.svg) now
+have [three composition studies and a playable encounter](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/).
+The design and cast remain provisional; the images are studies rather than a final
+building package. [A lighter scene template](docs/templates/scene_card.md) supports
+the next story or game scene. Great Black Swamp candidate geometry remains held/noncanonical.
+
+A separate [observed river record](https://stephenlewandowski.github.io/western-basin-worldbuilding/methods/#observed-flow)
+shows retained 2025 USGS daily flow and quality flags. It does not turn the synthetic
+Model Lab into an empirical watershed predictor. [Input assessment](reports/model_lab_empirical_inputs_2026-10-03.md).
 
 [Current project status](PROJECT_STATUS.md) distinguishes available work from active
 development. [Updates](https://stephenlewandowski.github.io/western-basin-worldbuilding/updates/)

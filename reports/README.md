@@ -32,10 +32,18 @@ An old or failed review is not disposable: it may explain the accepted result.
 - [Saved diagnostic inputs, schemas, reproduction and validators](../data/model_lab/README.md).
 - [Local Shiny explorer launch and checks](../src/R/model_lab/explorer/README.md).
 - [Explorer integration review](model_lab_v02a_explorer_review.md).
+- [Empirical input assessment and observed-flow display](model_lab_empirical_inputs_2026-10-03.md).
 
 The saved cases are synthetic routing/accounting diagnostics. Source publication
 does not host the R app on Pages, and the cases do not establish measured loads
 or calibrated environmental performance.
+
+## Creative workshop
+
+- [Reading Hall composition studies, story prototype and development assessment](creative_development_2026-10-03.md).
+- [Story workshop](../stories/README.md) and [small scene template](../docs/templates/scene_card.md).
+- [Worktree draft inventory](worktree_draft_inventory_2026-10-03.md), with a hash-verified preservation archive.
+- [Reader inset derivatives](../assets/phase17d/public_inset_derivatives.json); retained originals and original builders remain authoritative source diagrams.
 
 ## Atlas, illustrated futures and narrative
 

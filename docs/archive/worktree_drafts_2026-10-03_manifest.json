@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-03",
+  "archive_sha256": "34505739c96808f7456360c92cf247441fd034038e7976707ade413192d4aa8a",
+  "preservation": "Original bytes: 14 untracked drafts and six ignored inset studies; worktrees untouched; provisional/superseded material",
+  "files": [
+    {
+      "worktree": "phase17c-ordinary-day-tests",
+      "path": "drafts/phase17c/ordinary_day_tests/01_nadine.md",
+      "bytes": 5545,
+      "sha256": "b61d3a71a4d1d7daad47cfd67d487aace9b4a7041bdca5baa597e1f35945c864",
+      "archive_entry": "phase17c-ordinary-day-tests/drafts/phase17c/ordinary_day_tests/01_nadine.md"
+    },
+    {
+      "worktree": "phase17c-ordinary-day-tests",
+      "path": "drafts/phase17c/ordinary_day_tests/02_dale.md",
+      "bytes": 6336,
+      "sha256": "237491fa61447e90ef0f14be39817d282fe9a4672f7de04f6890df9cb0ed8ad2",
+      "archive_entry": "phase17c-ordinary-day-tests/drafts/phase17c/ordinary_day_tests/02_dale.md"
+    },
+    {
+      "worktree": "phase17c-ordinary-day-tests",
+      "path": "drafts/phase17c/ordinary_day_tests/03_adam.md",
+      "bytes": 6627,
+      "sha256": "549fb80ee88b344f4bf0bf72c6f4e18b7ea287bcb92673250770a5c21a2b0b10",
+      "archive_entry": "phase17c-ordinary-day-tests/drafts/phase17c/ordinary_day_tests/03_adam.md"
+    },
+    {
+      "worktree": "phase17c-ordinary-day-tests",
+      "path": "drafts/phase17c/ordinary_day_tests/04_renata.md",
+      "bytes": 5070,
+      "sha256": "f325df361f80bcb6ae1ae27e5881bb8e45b6a972251d3299e3e8a61936463380",
+      "archive_entry": "phase17c-ordinary-day-tests/drafts/phase17c/ordinary_day_tests/04_renata.md"
+    },
+    {
+      "worktree": "phase17c-ordinary-day-tests",
+      "path": "drafts/phase17c/ordinary_day_tests/05_hannah.md",
+      "bytes": 6291,
+      "sha256": "7e85c5e4c8d79308b675ee2117ecc5028b31bb4c51275388ea32c49ca3d2f314",
+      "archive_entry": "phase17c-ordinary-day-tests/drafts/phase17c/ordinary_day_tests/05_hannah.md"
+    },
+    {
+      "worktree": "phase17c-ordinary-day-tests",
+      "path": "drafts/phase17c/ordinary_day_tests/06_wendell.md",
+      "bytes": 6429,
+      "sha256": "b047e27ef49d390ff77720086145f3ad020324735bee5462764bfacccde6d0d1",
+      "archive_entry": "phase17c-ordinary-day-tests/drafts/phase17c/ordinary_day_tests/06_wendell.md"
+    },
+    {
+      "worktree": "phase17c-ordinary-day-tests",
+      "path": "drafts/phase17c/ordinary_day_tests/REVIEW.md",
+      "bytes": 3521,
+      "sha256": "409b181d6819ac81ce6ce856c4f159ef1e7cdebaea0e8e92c2d68717a10394ee",
+      "archive_entry": "phase17c-ordinary-day-tests/drafts/phase17c/ordinary_day_tests/REVIEW.md"
+    },
+    {
+      "worktree": "phase17d-hf01-art-direction",
+      "path": "reports/phase17d_hf01_art_direction_studies.md",
+      "bytes": 21333,
+      "sha256": "938cfdc2a0cc94b92347ddf3d5961fda4ec9886a0605c6c1265ca6283e0ebd93",
+      "archive_entry": "phase17d-hf01-art-direction/reports/phase17d_hf01_art_direction_studies.md"
+    },
+    {
+      "worktree": "phase17d-hf01-art-direction",
+      "path": "reports/phase17d_hf01_image_generation_handoff.md",
+      "bytes": 8564,
+      "sha256": "a39234f3cb0c6a16db9374628475e4d1e379f3429b2c18f55fc15d82cd246ef1",
+      "archive_entry": "phase17d-hf01-art-direction/reports/phase17d_hf01_image_generation_handoff.md"
+    },
+    {
+      "worktree": "phase17d-hf01-glass-city",
+      "path": "assets/phase17d/hf01/hf01_canopy_section.svg",
+      "bytes": 7771,
+      "sha256": "62b75d4392f01e670a60dd4903cbeaa5b721849f699c80f44c0ea509ee11882a",
+      "archive_entry": "phase17d-hf01-glass-city/assets/phase17d/hf01/hf01_canopy_section.svg"
+    },
+    {
+      "worktree": "phase17d-hf01-glass-city",
+      "path": "assets/phase17d/hf01/hf01_glass_city_2075.webp",
+      "bytes": 181096,
+      "sha256": "6d95a701a09b4e6db11647c34e503ef7b181d8230462dd8a007c9b857bc40870",
+      "archive_entry": "phase17d-hf01-glass-city/assets/phase17d/hf01/hf01_glass_city_2075.webp"
+    },
+    {
+      "worktree": "phase17d-hf01-glass-city",
+      "path": "reports/phase17d_hf01_prototype_notes.md",
+      "bytes": 7803,
+      "sha256": "92991d59cd251a678179fde24e3e7edfef2e28132bf4152783e5c3175c3e5af6",
+      "archive_entry": "phase17d-hf01-glass-city/reports/phase17d_hf01_prototype_notes.md"
+    },
+    {
+      "worktree": "phase17d-hf01-glass-city",
+      "path": "src/python/phase17d/build_hf01_canopy_section.py",
+      "bytes": 8441,
+      "sha256": "a3ef01eb3651cffc1be1be6403d3c37153b053ea1f8a7f04aab508ae57d01f4f",
+      "archive_entry": "phase17d-hf01-glass-city/src/python/phase17d/build_hf01_canopy_section.py"
+    },
+    {
+      "worktree": "phase17d-hf01-glass-city",
+      "path": "src/python/phase17d/build_hf01_glass_city.py",
+      "bytes": 23634,
+      "sha256": "f8b1c37359ef97666f1568ca32f3771db395a2b7962e72747b1b4c188da8ffb9",
+      "archive_entry": "phase17d-hf01-glass-city/src/python/phase17d/build_hf01_glass_city.py"
+    },
+    {
+      "worktree": "phase17d-hf02-final-production",
+      "path": "temp/phase17d-hf02-inset-style/hf02_inset_style_a_editorial_section.svg",
+      "bytes": 10846,
+      "sha256": "0dea02d18e500dc58a74c9a347205b4b375f4574ec51a0ac7324d054644efe6f",
+      "archive_entry": "phase17d-hf02-final-production/temp/phase17d-hf02-inset-style/hf02_inset_style_a_editorial_section.svg",
+      "status": "ignored visual study"
+    },
+    {
+      "worktree": "phase17d-hf02-final-production",
+      "path": "temp/phase17d-hf02-inset-style/hf02_inset_style_a_preview.png",
+      "bytes": 106441,
+      "sha256": "5256d92c3d33287ee8b874e483d6b4abb1ee1c4a52cd826942cb4e7ef1308284",
+      "archive_entry": "phase17d-hf02-final-production/temp/phase17d-hf02-inset-style/hf02_inset_style_a_preview.png",
+      "status": "ignored visual study"
+    },
+    {
+      "worktree": "phase17d-hf02-final-production",
+      "path": "temp/phase17d-hf02-inset-style/hf02_inset_style_b_margin_annotations.svg",
+      "bytes": 10809,
+      "sha256": "f0833350e4ccbdd6918f9a9f44cc9e4c82c7c89b12ca4718321a12a2a7a39b54",
+      "archive_entry": "phase17d-hf02-final-production/temp/phase17d-hf02-inset-style/hf02_inset_style_b_margin_annotations.svg",
+      "status": "ignored visual study"
+    },
+    {
+      "worktree": "phase17d-hf02-final-production",
+      "path": "temp/phase17d-hf02-inset-style/hf02_inset_style_b_preview.png",
+      "bytes": 115034,
+      "sha256": "7b7b081ace313d26baa573c24240d057e0f696160044cc46b1bf1838defb73f8",
+      "archive_entry": "phase17d-hf02-final-production/temp/phase17d-hf02-inset-style/hf02_inset_style_b_preview.png",
+      "status": "ignored visual study"
+    },
+    {
+      "worktree": "phase17d-hf02-final-production",
+      "path": "temp/phase17d-hf02-inset-style/hf02_inset_style_c_key_strip.svg",
+      "bytes": 10445,
+      "sha256": "5657367fa44fc59153a7ae6887e0beb7ac263588428692ffac9ff9d4220b25fc",
+      "archive_entry": "phase17d-hf02-final-production/temp/phase17d-hf02-inset-style/hf02_inset_style_c_key_strip.svg",
+      "status": "ignored visual study"
+    },
+    {
+      "worktree": "phase17d-hf02-final-production",
+      "path": "temp/phase17d-hf02-inset-style/hf02_inset_style_c_preview.png",
+      "bytes": 83581,
+      "sha256": "b6a9c182d4bbb8c25739eed31db1e46b067167e14dafaa2cf01e33e162cc867c",
+      "archive_entry": "phase17d-hf02-final-production/temp/phase17d-hf02-inset-style/hf02_inset_style_c_preview.png",
+      "status": "ignored visual study"
+    }
+  ]
+}

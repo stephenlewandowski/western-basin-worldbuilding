@@ -1,0 +1,27 @@
+{
+  "product": "Observed-flow display; not a routed Model Lab case",
+  "source": "data/raw/climate_hazards/usgs_maumee_waterville_daily_flow_2025_2026.json",
+  "source_sha256": "a2b206f85f313368e5bcb743dca6241a4bcbea37676a88176348802f42cd93f6",
+  "source_sha256_lf": "a2b206f85f313368e5bcb743dca6241a4bcbea37676a88176348802f42cd93f6",
+  "source_url": "https://waterdata.usgs.gov/monitoring-location/04193500/",
+  "retrieved_at": "2026-09-03T08:24:06Z",
+  "station": "04193500",
+  "parameter": "00060",
+  "statistic": "00003",
+  "units": "ft3/s",
+  "period": [
+    "2025-01-01",
+    "2025-12-31"
+  ],
+  "days": 365,
+  "flags_in_snapshot": {
+    "A": 322,
+    "P": 43,
+    "e": 13
+  },
+  "estimated_overlaps_approval": true,
+  "csv_sha256": "c942fa4646469a494032d8a90fd37136ad657020abf51d5386a8e17621765a03",
+  "operations": "Calendar-day selection, sorting and flag extraction only",
+  "limits": "One gauge; no HUC-local inputs, nutrient loads, flood extent or prediction",
+  "credit": "U.S. Geological Survey; source terms apply"
+}

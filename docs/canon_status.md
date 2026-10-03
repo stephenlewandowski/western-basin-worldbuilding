@@ -4,7 +4,8 @@
 unchanged. Current development is Phase 17D; four futurescapes are published and
 HF-05 has a selected Basin Reading Hall direction with an
 [active production brief](phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md),
-without finished-image acceptance or new canon. Local synthetic Model Lab
+with three composition studies and a provisional story workshop, without
+finished-image acceptance or new canon. Local synthetic Model Lab
 diagnostics do not create E/S/C claims. Use [Project Status](../PROJECT_STATUS.md)
 for the current work schedule; earlier phase-status wording below is historical.
 

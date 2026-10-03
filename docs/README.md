@@ -14,6 +14,8 @@ project from old phase milestones.
 | Sources and rights | [Source registry](../metadata/sources.yml), [licensing notes](references/DATA_AND_ASSET_LICENSING.md) |
 | Quantitative diagnostic examples | [Model Lab run/data guide](../data/model_lab/README.md), [local explorer guide](../src/R/model_lab/explorer/README.md) |
 | Current visual development | [Basin Reading Hall brief](phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md), [house style](phase_briefs/phase17d_public_visual_style_guide.md), [public language](public_atlas_language_guide.md) |
+| Stories, comics and game scenes | [Story workshop](../stories/README.md), [small scene template](templates/scene_card.md), [creative checkpoint](../reports/creative_development_2026-10-03.md) |
+| Preserved worktree drafts | [Archive guide](archive/README.md), [inventory](../reports/worktree_draft_inventory_2026-10-03.md) |
 | Setting choices and holds | [Canon register](canon_status.md); provisional design material is not canon |
 | How to resume work | [Current handoff](../reports/current_phase_handoff.md), [workflow](agent_workflow.md) |
 | Earlier decisions | [Status history](../reports/project_status_history_2026-10-03.md), [handoff history](../reports/handoff_history_2026-10-03.md), [changelog](../CHANGELOG.md) |
@@ -31,13 +33,14 @@ metadata/               source registries and evidence/system/scenario vocabular
 outputs/maps/systems/   analytical map pairs
 outputs/figures/        system diagrams and matrices
 outputs/atlas/          study outputs, manifests and review lineage
-outputs/model_lab/      saved synthetic runs, ledgers, traces and manifests
+outputs/model_lab/      saved synthetic runs; observations/ is a separate source-record display
 outputs/qa/             source/geography review artifacts
 reports/                findings, sources, checks, freezes and decision history
 docs/                   briefs, reference material, editorial and workflow guidance
 src/python/, src/R/     acquisition, builders, rendering and independent validation
 src/atlas/              public content, rendering and styles
 src/game/               companion game data, logic and rendering
+stories/                provisional fiction workshop and adaptation cards
 tests/                  Model Lab regression tests; web tests also live under src/
 ```
 

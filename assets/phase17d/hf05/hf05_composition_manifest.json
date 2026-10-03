@@ -1,0 +1,37 @@
+{
+  "tool": "built-in image_gen",
+  "derivative": "WebP encoding only; no crop or repaint",
+  "date": "2026-10-03",
+  "images": [
+    {
+      "study": "A",
+      "source_basename": "exec-35094702-1738-4442-a89a-17b3a5671ffc.png",
+      "source_sha256": "a85cf42e1692a05a95aabbabd4d5b5be1fb583f7f7f6c45065868476d39bebce",
+      "output": "assets/phase17d/hf05/hf05_composition_a.webp",
+      "sha256": "d39f42ceef62ddb989fed59beb753cc45c5b1e56c9e998acbee79abe93f638f5",
+      "width": 1672,
+      "height": 941,
+      "bytes": 439180
+    },
+    {
+      "study": "B",
+      "source_basename": "exec-eae08ec5-e5ca-493b-8b67-a27644b4786e.png",
+      "source_sha256": "0e0c79f44361cef7a3aac45c5cf985b4d922a4bc62bec4e1e10c706e836fc391",
+      "output": "assets/phase17d/hf05/hf05_composition_b.webp",
+      "sha256": "e6bdba9a2796023562a6cde470db1073255f49347cca7ba08ee49510e0c61edf",
+      "width": 1672,
+      "height": 941,
+      "bytes": 388606
+    },
+    {
+      "study": "C",
+      "source_basename": "exec-01401f3d-7479-4dec-91c3-47a5f090eb66.png",
+      "source_sha256": "872ac62fe1238292fdf30310773f9bd51808e00ef3790ead2842bb4600db4411",
+      "output": "assets/phase17d/hf05/hf05_composition_c.webp",
+      "sha256": "044041178545fb90f7dbe4a3d461b488ca7b6a35aeb301fb7043a957aae083d0",
+      "width": 1672,
+      "height": 941,
+      "bytes": 409512
+    }
+  ]
+}

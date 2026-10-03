@@ -42,6 +42,16 @@ At the beginning of every run, inspect actual state in this order:
 An interrupted action must not be assumed to have failed. Repository state
 overrides stale chat history.
 
+## Creative prototypes
+
+For explicitly requested creative development, use the
+[small scene card](templates/scene_card.md) and produce a readable, visible or
+playable result. A reversible story/visual prototype needs a bounded continuity,
+legibility, interaction and link check; it does not require a new phase brief or
+repeated approval cycle. Keep scientific claims and frozen products under the
+existing evidence rules. The user's current scope and publication instructions
+take precedence over historical handoff restrictions.
+
 ## One active writing agent
 
 Only one agent may actively modify a given phase branch/worktree at a time.

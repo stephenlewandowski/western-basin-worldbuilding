@@ -1,6 +1,6 @@
-# Phase 17D — public visual house style v1.0
+# Public visual house style
 
-**Consolidated from the three published 2075 heroes · Phase 17D active · S/K material · no new canon**
+**Living guide · four published futurescapes and the Reading Hall workshop · S/K material · no new canon**
 
 The public Atlas leads with an inhabited future place. An opening image shows how technology changes its *section and use*; a distinct maintenance view and a qualitative inset then make the proposition inspectable. Phase 17A protocol sheets remain supporting evidence and systems graphics. This guide governs presentation, not feasibility, deployment or final setting design.
 
@@ -13,6 +13,20 @@ The public Atlas leads with an inhabited future place. An opening image shows ho
 - **Materials accumulate time.** Use locally meaningful wear: weathered glazing, fouled screens, old masonry or concrete, oxidized steel, seals, wet clay, sediment, patched ground or mismatched generations as the scene warrants. Translucency admits, filters or protects only where function calls for it; opaque service and isolation are equally important. Avoid uniform mirror surfaces and decorative glow.
 - **Ordinary people and bounded authority.** Routes, waiting, deliveries, gate clearing, calibration, quality holds and supervised repair show use and judgment. Separate public, work and restricted access without implying universal permission. A worker's visible action does not by itself prove institutional approval or system performance.
 - **Hero → maintenance → inset.** The wide establishes place and a strong form; a separately composed closer view makes a task inspectable; a small labeled inset distinguishes interfaces, dependencies and limits. Keep clear alt text, a visible place-specific **composite 2075 scenario / K architectural form** caption, and E/S/K copy. Display coordinates are not measured geometry. No performance, deployment or benefit claim without a source.
+
+## Scenes, comics and play
+
+Use the [small scene card](../templates/scene_card.md) to give a person an immediate
+want and a choice. Lead with the encounter; a future device earns its place by
+changing what someone can do. Leave room for a joke, a meal, a hobby, a domestic
+object or an interesting view beyond the work. Technical grounding can sit behind
+a Methods link rather than occupy every caption or line of dialogue.
+
+Three camera studies can serve a workshop without becoming a finished hero package.
+An interactive scene can use them as environments while character portraits remain
+unsettled. Public insets use sparse numbered markers and responsive descriptions;
+preserve their original diagrams/builders and record derivative lineage. A single
+continuity/legibility review is enough for annotation-only migration.
 
 ## Not required; avoid as formula
 
