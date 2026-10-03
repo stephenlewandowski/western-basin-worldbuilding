@@ -1,0 +1,111 @@
+{
+  "tool": "built-in image_gen",
+  "date": "2026-10-03",
+  "status": "six-panel fictional encounter; orientation A locked separately",
+  "reference": "assets/phase17d/hf05/hf05_composition_a.webp",
+  "reference_sha256": "d39f42ceef62ddb989fed59beb753cc45c5b1e56c9e998acbee79abe93f638f5",
+  "source": {
+    "source_basename": "exec-791b04b8-1f34-4119-9a0d-1b7a6bfbab95.png",
+    "source_sha256": "4a46903338ffd5c6e1987ab49994565e46095b1be859be26c937a3ac7826605d",
+    "width": 1024,
+    "height": 1536,
+    "output": "assets/phase17d/hf05/comic/before_the_last_bus.webp",
+    "sha256": "73570be7943621e2bc5462d0800631c1afbf7172a20821601d6f49641172677d"
+  },
+  "packaging": "WebP quality 92; panel extraction only, no repaint or content alteration",
+  "panels": [
+    {
+      "panel": 1,
+      "source_rectangle": {
+        "left": 12,
+        "top": 78,
+        "width": 498,
+        "height": 480
+      },
+      "output": "assets/phase17d/hf05/comic/panel_1.webp",
+      "sha256": "7106214d0ec1bfa2dadb8fc1e38fa410611bc9f893b2ecdd3a1a061cf99b62e3",
+      "width": 498,
+      "height": 480,
+      "bytes": 102918
+    },
+    {
+      "panel": 2,
+      "source_rectangle": {
+        "left": 518,
+        "top": 78,
+        "width": 496,
+        "height": 480
+      },
+      "output": "assets/phase17d/hf05/comic/panel_2.webp",
+      "sha256": "98479fa5997c9f4fc2b5a5551cfecd14525f86658236b1b079408b4e711ff578",
+      "width": 496,
+      "height": 480,
+      "bytes": 95904
+    },
+    {
+      "panel": 3,
+      "source_rectangle": {
+        "left": 12,
+        "top": 563,
+        "width": 498,
+        "height": 441
+      },
+      "output": "assets/phase17d/hf05/comic/panel_3.webp",
+      "sha256": "d58cbdad24a669ed3306fcef377800b7a51c5ec6c15ef0805cd23810f2bc8eb7",
+      "width": 498,
+      "height": 441,
+      "bytes": 77086
+    },
+    {
+      "panel": 4,
+      "source_rectangle": {
+        "left": 518,
+        "top": 563,
+        "width": 496,
+        "height": 441
+      },
+      "output": "assets/phase17d/hf05/comic/panel_4.webp",
+      "sha256": "7249bfc6f6fc0aefb666afdf7b01867c4b41312c53061455727762280ce105ad",
+      "width": 496,
+      "height": 441,
+      "bytes": 73024
+    },
+    {
+      "panel": 5,
+      "source_rectangle": {
+        "left": 12,
+        "top": 1011,
+        "width": 498,
+        "height": 513
+      },
+      "output": "assets/phase17d/hf05/comic/panel_5.webp",
+      "sha256": "4a1a2ceaaf74676253503ed6ee0bb24dd2719c6b720b8799ce9b19b14892c3b5",
+      "width": 498,
+      "height": 513,
+      "bytes": 98598
+    },
+    {
+      "panel": 6,
+      "source_rectangle": {
+        "left": 518,
+        "top": 1011,
+        "width": 496,
+        "height": 513
+      },
+      "output": "assets/phase17d/hf05/comic/panel_6.webp",
+      "sha256": "29e8f5ee7e281488777f9c44af42d6ecd23260b6cbcfc1e7ab68d18311dec391",
+      "width": 496,
+      "height": 513,
+      "bytes": 85450
+    }
+  ],
+  "reader_baseline": {
+    "source_basename": "exec-fc6f6058-854b-45e7-afc6-dbca51becdae.png",
+    "source_sha256": "efd952738cf07fe8fda79ff348df67c0c6e63deb373dc87fae52df502b560d7e",
+    "width": 1024,
+    "height": 1536,
+    "output": "assets/phase17d/hf05/comic/before_the_last_bus_reader_baseline.webp",
+    "sha256": "a78635af2efe936746a91fa3493175a0a9e15b1a723d13b0eada8a82bd2cd69b",
+    "role": "Exact WebP exposed to all three simulated readers, before lettering clarification"
+  }
+}

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920" role="img" aria-labelledby="title desc">
+<title id="title">Reading Hall orientation A — continuity relationships</title>
+<desc id="desc">Qualitative plan for visual continuity, with left arrival and right instrument spine. The public counter faces the open reading floor. A separate left field-return vestibule splits closed sample custody from dry recorder checking. The ground exchange berth lies under the tall right tier and connects to a rear service gallery. Beyond the tall end, opaque compute and plant remain separate from dry preservation. Arrows indicate human routes, not scientific flows or measured clearance.</desc>
+<defs><style>text{font-family:Arial,sans-serif;fill:#254b53}.title{font-family:Georgia,serif;font-size:36px}.label{font-size:23px;font-weight:700}.note{font-size:20px}.small{font-size:18px}.wall{stroke:#657d79;stroke-width:3}.route{fill:none;stroke-width:5;stroke-linecap:round;stroke-linejoin:round}</style>
+<marker id="public" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L9 5L0 10Z" fill="#286d7a"/></marker>
+<marker id="field" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L9 5L0 10Z" fill="#b5763f"/></marker>
+<marker id="service" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L9 5L0 10Z" fill="#725c80"/></marker></defs>
+<rect width="1600" height="920" fill="#f4f1e9"/>
+<text x="45" y="55" class="title">The Basin Reading Hall · orientation A</text>
+<text x="45" y="86" class="note">Continuity relationships only. Left / right are design directions; no geographic bearings or measured dimensions.</text>
+<rect x="490" y="140" width="1040" height="72" rx="5" fill="#dedce3" class="wall"/>
+<text x="660" y="184" class="label">Rear service gallery · tools / staff / compartment trolley</text>
+<path d="M420 152H580H1125V315" class="route" stroke="#725c80" marker-end="url(#service)"/>
+<text x="250" y="160" class="small">Maintenance access</text>
+<rect x="490" y="235" width="205" height="190" fill="#d1e0db" class="wall"/>
+<rect x="720" y="235" width="205" height="190" fill="#c2d4ce" class="wall"/>
+<rect x="950" y="235" width="265" height="190" fill="#b3c9c2" class="wall"/>
+<text x="530" y="278" class="label">Low tier</text><text x="751" y="278" class="label">Middle tier</text><text x="991" y="278" class="label">Tall tier</text>
+<text x="510" y="308" class="small">Fixed rooms</text><text x="741" y="308" class="small">Method workspace</text>
+<rect x="976" y="337" width="213" height="64" fill="#ece2ce" stroke="#a78651" stroke-width="3" stroke-dasharray="8 5"/>
+<text x="990" y="362" class="small">GROUND EXCHANGE</text><text x="990" y="387" class="small">Compact trolley / berth</text>
+<rect x="1250" y="235" width="280" height="85" fill="#bfc1b7" class="wall"/>
+<rect x="1250" y="342" width="280" height="83" fill="#e1dbcc" class="wall"/>
+<text x="1270" y="273" class="label">Compute / plant</text><text x="1270" y="303" class="small">Opaque · tall-end service</text>
+<text x="1270" y="377" class="label">Dry preservation</text><text x="1270" y="407" class="small">Separate protected store</text>
+<path d="M470 457H1530" stroke="#5c7772" stroke-width="8"/>
+<text x="730" y="492" class="small">Staff edge / front landings above · public stays on reading floor</text>
+<rect x="55" y="235" width="365" height="192" fill="#e9ddc9" class="wall"/>
+<text x="77" y="270" class="label">Separate field return</text><text x="77" y="300" class="small">Covered apron / receiving vestibule</text>
+<path d="M55 327H420M242 327V427" class="wall"/>
+<text x="74" y="363" class="small">Closed cooler</text><text x="74" y="390" class="small">Staffed custody hatch</text>
+<text x="258" y="363" class="small">Dry recorder</text><text x="258" y="390" class="small">Partition / check bench</text>
+<path d="M15 345H65" class="route" stroke="#b5763f" marker-end="url(#field)"/>
+<rect x="55" y="533" width="1475" height="255" fill="#e8e9dd" stroke="#bac6b8" stroke-width="2"/>
+<text x="858" y="567" class="label">Open public reading floor</text>
+<rect x="175" y="594" width="400" height="60" fill="#b98c61" class="wall"/>
+<text x="218" y="631" class="label">Public timber counter</text>
+<text x="175" y="584" class="small">Steward / public edition cabinet nearby</text>
+<text x="219" y="687" class="small">Visitor side · two folders / one question</text>
+<path d="M70 738H140H335V699" class="route" stroke="#286d7a" marker-end="url(#public)"/>
+<text x="79" y="769" class="small">Public entry at arrival end</text>
+<rect x="850" y="616" width="170" height="60" rx="8" fill="#d1c2a6" class="wall"/>
+<rect x="1110" y="616" width="170" height="60" rx="8" fill="#d1c2a6" class="wall"/>
+<text x="856" y="710" class="small">Reading tables / level passage</text>
+<text x="55" y="835" class="note">A camera: foreground counter → open floor → right-hand spine. Low arrival end → tall right end.</text>
+<text x="55" y="867" class="small">Refinement: the one ground berth moves from the earlier low/middle sketch to the tall-end ground floor, matching A.</text>
+<text x="55" y="898" class="small">Route arrows describe people and access; no sample-to-publication shortcut, capacity, egress or performance claim.</text>
+</svg>

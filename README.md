@@ -19,7 +19,7 @@ people, surprising devices and consequential choices make them worth entering.
 | Studies | Watershed pathways, the Toledo intake crib, a possible farm and industrial exchange | [Studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/#essays) |
 | Model Lab | Synthetic water/nutrient routing diagnostics and a local explorer of saved cases | [Run/data guide](data/model_lab/README.md), [local explorer](src/R/model_lab/explorer/README.md) |
 | Methods | Evidence, uncertainty, image provenance, sources and rights | [Methods](https://stephenlewandowski.github.io/western-basin-worldbuilding/methods/), [research by subject](reports/README.md) |
-| Stories | A short interactive Reading Hall scene and preserved ordinary-day fiction drafts | [Before the Last Bus](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story), [story workshop](stories/README.md) |
+| Stories | A six-panel comic, a playable Reading Hall encounter and preserved ordinary-day drafts | [Before the Last Bus — comic](https://stephenlewandowski.github.io/western-basin-worldbuilding/stories/before-the-last-bus/), [play](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story), [story workshop](stories/README.md) |
 | Companion game | Vesper Station, an experimental browser mystery | [Play](https://stephenlewandowski.github.io/western-basin-worldbuilding/game/), [game design](DESIGN.md) |
 
 The four futurescapes are [Glass City 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/glass-city-2075/),
@@ -56,10 +56,15 @@ imagery retain their own terms. See [licensing notes](docs/references/DATA_AND_A
 a civic place to inspect published findings and request clarification. Its
 [production brief](docs/phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md)
 and [spatial study](assets/phase17d/hf05/hf05_basin_reading_hall_spatial_study.svg) now
-have [three composition studies and a playable encounter](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/).
-The design and cast remain provisional; the images are studies rather than a final
-building package. [A lighter scene template](docs/templates/scene_card.md) supports
-the next story or game scene. Great Black Swamp candidate geometry remains held/noncanonical.
+have [three composition studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/)
+and a [six-panel comic](https://stephenlewandowski.github.io/western-basin-worldbuilding/stories/before-the-last-bus/)
+with a playable companion. Composition A fixes the hall's visual orientation;
+[a small continuity plan](docs/phase_briefs/hf05_reading_hall_continuity_lock.md)
+keeps subsequent scenes in the same building. Architectural detail and cast remain
+provisional. A small agent reader simulation pointed toward Renata's return visit
+as the next creative investment, with a consequence beyond another pending slip.
+[Assessment](reports/reading_hall_comic_reader_simulation_2026-10-03.md) and
+[scene template](docs/templates/scene_card.md). Great Black Swamp candidate geometry remains held/noncanonical.
 
 A separate [observed river record](https://stephenlewandowski.github.io/western-basin-worldbuilding/methods/#observed-flow)
 shows retained 2025 USGS daily flow and quality flags. It does not turn the synthetic

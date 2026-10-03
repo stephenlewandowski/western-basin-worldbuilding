@@ -4,10 +4,17 @@ The Atlas supplies places; stories let people live in them. These are provisiona
 fiction rooted in the basin’s geography and the project’s existing systems work.
 Science belongs in the grounding records; a scene needs a person with somewhere to go.
 
-Start with **[Before the Last Bus](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story)**,
-a short interactive scene in the Basin Reading Hall. Renata has a question, a transit
-card and her daughter’s paper sun. Three conversations lead to different ways of
-carrying the question home. [Scene card and comic beats](before_the_last_bus.md).
+Start with **[Before the Last Bus — six-panel comic](https://stephenlewandowski.github.io/western-basin-worldbuilding/stories/before-the-last-bus/)**.
+Renata wants a picnic with her daughter, has a water report that leaves their channel
+out, and five minutes to catch the bus. The
+[playable companion](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story)
+lets you ask around and choose what she takes home. [Script and image record](before_the_last_bus.md).
+
+Next investment: **[The Return Visit](the_return_visit.md)**, a small encounter
+with a cost to staying, a benefit to following up, and an answer to at least one
+question. This is a production seed, not a published sequel. The
+[agent reader simulation](../reports/reading_hall_comic_reader_simulation_2026-10-03.md)
+explains the choice; human audience response is still untested.
 
 Six older ordinary-day scenes are preserved in the
 [worktree draft archive](../docs/archive/README.md):

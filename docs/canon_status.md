@@ -4,10 +4,21 @@
 unchanged. Current development is Phase 17D; four futurescapes are published and
 HF-05 has a selected Basin Reading Hall direction with an
 [active production brief](phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md),
-with three composition studies and a provisional story workshop, without
-finished-image acceptance or new canon. Local synthetic Model Lab
+with three composition studies and a provisional story workshop. Composition A
+now fixes visual continuity by user selection; complete architecture, institutions
+and character canon remain unsettled. Local synthetic Model Lab
 diagnostics do not create E/S/C claims. Use [Project Status](../PROJECT_STATUS.md)
 for the current work schedule; earlier phase-status wording below is historical.
+
+## Reading Hall visual continuity
+
+**User-selected 3 October 2026:** Composition A is the canonical visual orientation
+for the Basin Reading Hall. The [continuity lock](phase_briefs/hf05_reading_hall_continuity_lock.md)
+fixes the foreground counter, middle public floor, right-hand ascending instrument
+spine, left field-return/custody threshold and separate rear/tall-end service zones.
+This is a limited fictional visual decision. It establishes no real-world geometry,
+engineering performance or complete institutional/character canon. Earlier B/C
+studies remain alternatives for cameras, not alternate floor plans.
 
 ## Current physical-asset coordinate disposition
 
@@ -44,8 +55,9 @@ role seeds, nine relationships, six narrative-thread seeds, and [six
 recurring-cast prototypes](../reports/phase17c_recurring_cast_prototypes.md)
 remain K; the prototypes are under review and their names remain provisional.
 Phase 17D is **ACTIVE**. Its hero futurescape concept synthesis remains
-**ACCEPTED FOR DEVELOPMENT**; the five concepts, HF-01 through HF-05, remain
-S/K, and no new C is created. Public visual style guidance is established in
+**ACCEPTED FOR DEVELOPMENT**; the five concepts, HF-01 through HF-05, originated
+as S/K. The limited Reading Hall visual-continuity choice above is now canonical;
+their remaining design/institutional details remain S/K. Public visual style guidance is established in
 the [Phase 17D style guide](phase_briefs/phase17d_public_visual_style_guide.md).
 The [HF-01 / HF-04 production plan](phase_briefs/phase17d_hf01_hf04_production_plan.md)
 has produced HF-01 Glass City 2075 and HF-04 Industrial Metabolism 2075 hero

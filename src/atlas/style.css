@@ -210,7 +210,8 @@ p{line-height:1.7}
 /* Human-scale workshop and interactive story. */
 .story-teaser{display:grid;grid-template-columns:1fr 1fr;gap:6%;padding-block:85px;border-top:1px solid #c9cabf;align-items:center}
 .story-teaser h2{font-size:clamp(42px,5vw,72px);margin:18px 0 25px}.story-teaser p{color:#42595d;line-height:1.65}
-.story-teaser-art{text-decoration:none;background:#e5e1d4;display:block}.story-teaser-art img{aspect-ratio:16/9;object-fit:cover}.story-teaser-art span{display:block;padding:15px;font-size:11px;letter-spacing:.08em;color:#254b53}
+.story-teaser .text-link,.reading-hall-page .future-intro .text-link{display:inline-block;margin-top:15px}
+.story-teaser-art{text-decoration:none;background:#e5e1d4;display:block}.story-teaser-art img{aspect-ratio:496/480;object-fit:contain}.story-teaser-art span{display:block;padding:15px;font-size:11px;letter-spacing:.08em;color:#254b53}
 .hall-scene,.hall-inventions{padding-block:80px;border-top:1px solid #c9cabf}.scene-layout{display:grid;grid-template-columns:1fr 1.15fr;gap:8%;align-items:start}
 .scene-prose p,.scene-detail p,.scene-outcome p{font-size:17px;line-height:1.7;color:#354c51}.scene-prose .scene-note{font-size:13px;color:#697570;border-top:1px solid #c9cabf;padding-top:18px}
 .scene-play{background:#ece9df;border:1px solid #c1c9be;padding:28px}.scene-options{display:flex;flex-direction:column;gap:8px}.scene-choice,.scene-ending button,.scene-restart{font:inherit;font-size:15px;line-height:1.4;cursor:pointer;text-align:left}
@@ -222,3 +223,7 @@ p{line-height:1.7}
 .observed-record figure{margin-inline:0}.observed-record figcaption{font-size:14px;color:#526167;margin-top:18px;line-height:1.6}.flow-legend{display:flex;flex-wrap:wrap;gap:12px 28px;list-style:none;margin:20px 0;padding:0;font-size:14px;color:#42595d}.flow-legend span{font-weight:700;color:#254b53}.flow-legend li:nth-child(2) span{color:#ad603f}.observed-record>p{max-width:950px;color:#42595d;line-height:1.65}
 @media(max-width:800px){.story-teaser,.scene-layout,.composition-grid{grid-template-columns:1fr;gap:30px}.story-teaser,.hall-scene,.hall-inventions{padding-block:50px}.scene-play{padding:20px}.composition-grid{gap:30px}.scene-prose p,.scene-detail p,.scene-outcome p{font-size:16px}}
 @media(prefers-reduced-motion:reduce){:root{scroll-behavior:auto}}
+
+/* A readable comic page, with single-column panel order on small screens. */
+.comic-page{max-width:1080px;padding-block:48px 70px}.comic-page h1{font-size:clamp(43px,6vw,80px);margin:28px 0 38px}.comic-panels{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;list-style:none;padding:0;margin:0}.comic-panels li{min-width:0}.comic-panels img{width:100%;height:auto}.comic-after{display:flex;justify-content:space-between;gap:20px;margin-top:26px;align-items:baseline}.comic-after p{color:#526167;font-size:14px}.comic-after>div{display:flex;gap:15px;flex-wrap:wrap}.comic-after a,.comic-transcript summary{color:#93573f;font-size:14px;text-underline-offset:4px}.comic-transcript{margin-top:12px}.comic-transcript summary{cursor:pointer}.comic-transcript p{max-width:800px;color:#42595d;font-size:15px;margin-top:20px}
+@media(max-width:650px){.comic-panels{grid-template-columns:1fr;gap:16px}.comic-page{padding-top:30px}.comic-page h1{margin-bottom:28px}.comic-after{display:block}.comic-after>div{flex-direction:column;gap:12px}}
