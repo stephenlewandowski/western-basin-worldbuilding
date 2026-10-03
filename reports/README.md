@@ -1,4 +1,71 @@
+# Research and project records
+
+Use [current project status](../PROJECT_STATUS.md) for what is available and active;
+the [current handoff](current_phase_handoff.md) is the resumption note. This directory
+preserves findings, assumptions, QA, source manifests, freezes and review lineage.
+An old or failed review is not disposable: it may explain the accepted result.
+
+## Start by subject
+
+| Subject | Findings / context |
+| --- | --- |
+| Water and hydrography | [Water assumptions](water_system_assumptions.md), [physical hydrography reconciliation](physical_hydrography_reconciliation.md) |
+| Geology and materials | [Materials assumptions](materials_system_assumptions.md), [source record](materials_system_sources.md) |
+| Energy, grids and compute | [Energy assumptions](energy_system_assumptions.md), [cross-system dependencies](energy_cross_system_findings.md) |
+| Observation and information | [Governance and information limits](information_governance_findings.md) |
+| Freight and industry | [Freight evidence](freight_evidence_findings.md), [dependencies](freight_dependency_findings.md) |
+| Ecology | [Ecology](ecology_system_findings.md), [dependencies](ecological_dependency_findings.md) |
+| Exposure and health | [Environmental health](environmental_health_findings.md), [dependencies and controls](exposure_dependency_findings.md) |
+| Nutrients and biogeochemistry | [Findings](biogeochemical_findings.md) |
+| Climate and hazards | [Findings](climate_hazard_findings.md) |
+| Governance and jurisdiction | [Baseline](governance_baseline_findings.md) |
+| Population and settlement | [Findings](population_settlement_findings.md) |
+| Vector ecology | [Findings](vector_ecology_findings.md) |
+| Infectious disease | [Baseline](infectious_disease_findings.md) |
+| Integrated systems | [Ontology](phase14a_systems_ontology.md), [layer registry](phase14b_atlas_layer_registry.md) |
+| Technology and futures | [Technology baseline](phase15a_technology_systems_baseline.md), [conditional futures](phase15b_technology_convergence_futures.md) |
+| Bounded cross-system stresses | [Framework](phase16a_integrated_basin_dynamics.md), [stress tests](phase16b_compound_cross_system_stress_tests.md) |
+
+## Model Lab
+
+- [Water/nutrient readiness and design boundary](model_lab_v01_water_nutrient_readiness.md).
+- [Saved diagnostic inputs, schemas, reproduction and validators](../data/model_lab/README.md).
+- [Local Shiny explorer launch and checks](../src/R/model_lab/explorer/README.md).
+- [Explorer integration review](model_lab_v02a_explorer_review.md).
+
+The saved cases are synthetic routing/accounting diagnostics. Source publication
+does not host the R app on Pages, and the cases do not establish measured loads
+or calibrated environmental performance.
+
+## Atlas, illustrated futures and narrative
+
+- [Study synthesis and production pattern](phase17a_prototype_findings_and_production_pattern.md).
+- [Lived-world condition packets](phase17b_lived_world_condition_packets.md) and [role/story seeds](phase17c_role_and_story_seed_matrix.md): conditional/provisional material.
+- [Futurescape concepts](phase17d_hero_futurescape_concepts.md) and [visual retrospective](phase17d_three_hero_visual_retrospective.md).
+- Production/source records: [Glass City](phase17d_hf01_final_production_notes.md), [Maumee Bio-Ag](phase17d_hf03_final_production_notes.md), [Industrial Metabolism](phase17d_hf04_final_production_notes.md), [Lake Erie Coast](phase17d_hf02_final_production_notes.md).
+- Basin Reading Hall: [active production brief](../docs/phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md), [internal spatial study](../assets/phase17d/hf05/hf05_basin_reading_hall_spatial_study.svg). Finished imagery remains pending.
+- [Toledo intake crib coordinate resolution](toledo_water_intake_crib_coordinate_resolution.md).
+
+## Cleanup and history
+
+- [Repository cleanup / status report — 3 October 2026](repository_cleanup_2026-10-03.md).
+- [Project status history](project_status_history_2026-10-03.md) and [handoff history](handoff_history_2026-10-03.md) preserve the pre-cleanup accumulated records.
+- [Project changelog](../CHANGELOG.md) preserves dated milestones.
+
+<details>
+<summary>Historical package index, including validation and freeze records</summary>
+
+The complete previous index is retained below. Status phrases refer to their
+at-the-time package boundaries and can be superseded by later records. Use the
+current status page above for today's project state. Existing heading anchors
+remain available; no scientific package or failed-review lineage was removed.
+
 # Glasspunk Systems Atlas
+
+## HF-05 — Basin Reading Hall
+
+- [Visual/spatial production brief](../docs/phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md): selected direction, eight device/form decisions, separate access routes, lead/working-detail/inset production intent and review criteria.
+- [Internal qualitative plan/elevation study](../assets/phase17d/hf05/hf05_basin_reading_hall_spatial_study.svg): editable blockout aid, not accepted finished imagery or a public system inset. All new forms and institutional arrangements remain S/K; no new C or GBI number.
 
 ## Model Lab
 
@@ -562,3 +629,5 @@ Phase 14A is **ACCEPTED / FROZEN** under `reports/phase14a_common_systems_ontolo
 - `../src/python/systems/validate_phase14a_freeze.py` and `../src/R/systems/validate_phase14a_freeze.R` — independent final freeze validators
 
 Phase 14B is **ACCEPTED / FROZEN** under `phase14b_atlas_layer_registry_cross_system_dependency_normalization_freeze_manifest.json` (23 protected artifacts). The package is indexed by `phase14b_atlas_layer_registry.md`, `phase14b_relationship_normalization.md`, `phase14b_dependency_integration.md`, `phase14b_integration_qa.md`, and `phase14b_manifest.json`; its counts are 213 registry entries, 367 relationship-normalization rows, 36 endpoint-role rows, 761 dependency rows, and 78 joinability rows. The initial failed review and final passed review remain preserved, as do Phase 14A and all prior freeze protections. Phase 14 overall is **COMPLETE / ACCEPTED / FROZEN**; Phase 15 is **NOT IMPLEMENTED** and is the next planning target. Accepted/frozen artifacts, local identifiers, the Great Black Swamp hold, the unresolved Toledo intake-coordinate discrepancy, and deferred Phase 6B/3A/2A maintenance remain unchanged. No release or tag was created.
+
+</details>

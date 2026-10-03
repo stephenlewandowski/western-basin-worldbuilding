@@ -1,5 +1,13 @@
 # Current Canon Status
 
+**Register check — 3 October 2026.** Setting/evidence boundaries below remain
+unchanged. Current development is Phase 17D; four futurescapes are published and
+HF-05 has a selected Basin Reading Hall direction with an
+[active production brief](phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md),
+without finished-image acceptance or new canon. Local synthetic Model Lab
+diagnostics do not create E/S/C claims. Use [Project Status](../PROJECT_STATUS.md)
+for the current work schedule; earlier phase-status wording below is historical.
+
 ## Current physical-asset coordinate disposition
 
 The current physical Toledo Water Works Intake Crib is **RESOLVED / VERIFIED**
@@ -80,7 +88,7 @@ work.
 The Lake instrument recovery cradle and Weather-screened inspection gallery
 survived HF-02 visual production but remain provisional K invention candidates
 pending later cross-scene/reuse evaluation. No GBI number is assigned, no new C
-is created, Phase 17D remains **ACTIVE**, and HF-05 remains future work.
+is created, Phase 17D remains **ACTIVE**, and finished HF-05 imagery remains future work.
 Active phase is **Phase 17D**. The Phase 17D concepts do not create canon.
 Earlier phase-boundary entries below retain their at-the-time status wording as
 historical continuity records.

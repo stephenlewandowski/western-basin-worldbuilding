@@ -117,7 +117,12 @@ On resumption:
 The handoff is an operational continuity record, not a duplicate project
 history. `PROJECT_STATUS.md` remains authoritative for detailed status.
 
-## Current boundary
+## Historical boundary summaries
+
+These at-the-time phase summaries are retained for continuity. For the current
+phase and worktree, use [Project Status](../PROJECT_STATUS.md) and the
+[current handoff](../reports/current_phase_handoff.md). The workflow and
+permission rules above remain applicable.
 
 Phase 1 and Phase 2A–2C are complete/validated factual baselines. Phase 3A and
 Phase 3B factual baselines remain accepted/validated/frozen. Phase 2D and

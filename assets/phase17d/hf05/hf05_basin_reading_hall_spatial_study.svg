@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1180" viewBox="0 0 1600 1180" role="img" aria-labelledby="title desc">
+  <title id="title">Basin Reading Hall — internal spatial study</title>
+  <desc id="desc">Qualitative plan above a longitudinal elevation from the public reading floor. A low to tall instrument spine separates the reading room from a rear service gallery. Public entry, sample and recorder reception, staff corridor, ground replacement widening, compute and plant, and separate preservation are distinct. The plan uses named adjacencies, not measured geometry. It depicts neither a real facility nor engineering approval. The unavailable cassette does not imply a loss estimate or replacement by neighboring methods.</desc>
+  <defs>
+    <pattern id="hold" width="14" height="14" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><path d="M0 0V14" stroke="#a78c56" stroke-width="3"/></pattern>
+    <style>
+      text{font-family:Arial,sans-serif;fill:#293e42} .title{font-family:Georgia,serif;font-size:36px} .heading{font-size:25px;font-weight:700} .label{font-size:21px;font-weight:600} .note{font-size:18px} .small{font-size:17px} .edge{stroke:#3e5357;stroke-width:3} .secondary{stroke:#829397;stroke-width:2} .route{fill:none;stroke:#607779;stroke-width:3;stroke-dasharray:10 7}
+    </style>
+  </defs>
+  <rect width="1600" height="1180" fill="#f3f1e9"/>
+  <text x="55" y="58" class="title">The Basin Reading Hall</text>
+  <text x="55" y="91" class="note">Internal blockout aid · composite Toledo-derived 2075 scenario / K design · no measured geometry</text>
+  <text x="55" y="144" class="heading">1  Plan relationships</text>
+  <text x="55" y="171" class="note">Arrival end at left; compute end at right. Front / rear are design directions, not map bearings.</text>
+
+  <!-- Three physical routes, with no automatic sample-to-publication arrow. -->
+  <rect x="65" y="200" width="280" height="75" fill="#e2dfd3" class="edge"/>
+  <text x="85" y="228" class="label">Field-return apron</text>
+  <text x="85" y="253" class="small">sealed cooler + dry recorder</text>
+  <rect x="365" y="200" width="815" height="75" fill="#e2dfd3" class="edge"/>
+  <text x="387" y="229" class="label">Rear service gallery</text>
+  <text x="387" y="254" class="small">tools / equipment access</text>
+  <text x="813" y="254" class="small">separate arrival / public routes</text>
+  <text x="1265" y="221" class="label">Maintenance entry</text>
+  <path d="M1250 238H1180" class="route"/>
+
+  <rect x="65" y="290" width="135" height="125" fill="#d9e7e3" class="edge"/>
+  <text x="80" y="322" class="label">Sample</text><text x="80" y="349" class="label">reception</text>
+  <text x="80" y="382" class="small">staff / hold</text>
+  <rect x="210" y="290" width="135" height="125" fill="#d9e7e3" class="edge"/>
+  <text x="225" y="322" class="label">Recorder</text><text x="225" y="349" class="label">reception</text>
+  <text x="225" y="382" class="small">dry / check</text>
+  <path d="M135 275V290M275 275V290" class="route"/>
+  <rect x="365" y="290" width="245" height="125" fill="#d8e9e6" class="edge"/>
+  <text x="382" y="325" class="label">Method comparison</text><text x="382" y="353" class="small">two positions / staff review</text>
+  <text x="382" y="382" class="small">methods remain distinct</text>
+  <rect x="630" y="290" width="160" height="125" fill="#f3f1e9" class="edge"/>
+  <rect x="638" y="298" width="144" height="109" fill="url(#hold)" opacity="0.45"/>
+  <text x="647" y="329" class="label">Empty berth</text><text x="647" y="355" class="small">closed boundary</text>
+  <text x="647" y="384" class="small">service hold</text>
+  <rect x="810" y="290" width="370" height="125" fill="#d8e9e6" class="edge"/>
+  <text x="831" y="327" class="label">Instrument rooms / fixed berths</text>
+  <text x="831" y="359" class="small">selective glazing + opaque enclosures</text>
+  <text x="831" y="387" class="small">staff work / controlled interfaces</text>
+  <!-- Ground replacement widening is wholly on the service side. -->
+  <rect x="640" y="206" width="150" height="61" fill="#f3f1e9" class="secondary"/>
+  <text x="651" y="230" class="small">Service widening</text><text x="651" y="252" class="small">grounded trolley</text>
+  <path d="M712 275V290" class="route"/>
+
+  <rect x="1200" y="245" width="335" height="170" fill="#c5c9c3" class="edge"/>
+  <path d="M1390 245V415" class="secondary"/>
+  <text x="1220" y="283" class="label">Compute</text><text x="1220" y="310" class="small">staff door</text>
+  <text x="1407" y="283" class="label">Plant</text><text x="1407" y="311" class="small">power / cooling</text>
+  <text x="1220" y="354" class="small">Opaque service wing</text>
+  <text x="1220" y="380" class="small">external dependencies</text>
+  <path d="M1180 238H1438V245" class="route"/>
+
+  <rect x="365" y="430" width="815" height="60" fill="#e2e5df" class="edge"/>
+  <text x="387" y="466" class="label">Controlled staff corridor · counter / comparison / analysis access</text>
+  <path d="M345 395H365M489 415V430M997 275V290M997 415V430M1180 460H1200M1180 460H1190V395H1200" class="route"/>
+  <rect x="1200" y="430" width="335" height="165" fill="#d4d1c6" class="edge"/>
+  <text x="1220" y="463" class="label">Protected preservation</text>
+  <text x="1220" y="491" class="small">retained editions / staff retrieval</text>
+  <text x="1220" y="522" class="small">separate from compute and wet intake</text>
+  <text x="1220" y="556" class="small">No public shortcut through this store</text>
+
+  <rect x="65" y="430" width="280" height="165" fill="#ebe8db" class="edge"/>
+  <text x="83" y="465" class="label">Public entry / waiting</text>
+  <text x="83" y="493" class="small">level approach to the reading floor</text>
+  <rect x="65" y="615" width="280" height="72" fill="#ebe8db" class="edge"/>
+  <text x="83" y="644" class="label">Private conversation</text><text x="83" y="668" class="small">public alcove; no lab access</text>
+  <rect x="365" y="510" width="815" height="177" fill="#f9f7ef" class="edge"/>
+  <rect x="440" y="519" width="245" height="54" rx="4" fill="#bca27d" class="edge"/>
+  <text x="456" y="553" class="label" style="font-size:19px">Staffed public counter</text>
+  <path d="M562 490V519" class="route"/>
+  <text x="750" y="552" class="label">Reading floor / seating</text>
+  <text x="750" y="580" class="small">filtered sightlines to the spine</text>
+  <path d="M345 560H405V623H1080" class="route"/>
+  <text x="445" y="611" class="small">Visitor + steward: two dated records / pending request</text>
+  <rect x="435" y="640" width="625" height="35" fill="#ddd4c2" class="secondary"/>
+  <text x="450" y="664" class="small">Public edition cabinet · current / prior / available local subset</text>
+  <text x="1200" y="634" class="small">Dashed lines = physical access links.</text>
+  <text x="1200" y="660" class="small">They do not encode record or sample flow.</text>
+
+  <text x="55" y="744" class="heading">2  Longitudinal elevation from the public floor</text>
+  <text x="55" y="774" class="note">Three uneven height groups; staff upper landings. Ground exchange only; rear gallery is in the plan.</text>
+  <!-- Retained shell and independent instrument frame. -->
+  <path d="M65 1040V801H1535V1040" fill="none" stroke="#a9a498" stroke-width="5"/>
+  <path d="M65 1040H1535" stroke="#3e5357" stroke-width="6"/>
+  <rect x="285" y="945" width="265" height="95" fill="#d8e9e6" class="edge"/>
+  <rect x="565" y="855" width="310" height="185" fill="#d8e9e6" class="edge"/>
+  <path d="M565 947H875" class="edge"/>
+  <rect x="890" y="815" width="310" height="225" fill="#d8e9e6" class="edge"/>
+  <path d="M890 890H1200M890 965H1200" class="edge"/>
+  <rect x="1220" y="835" width="315" height="205" fill="#c5c9c3" class="edge"/>
+  <text x="1239" y="913" class="label">Opaque end wing</text>
+  <text x="1239" y="944" class="small">compute / plant / preservation</text>
+  <text x="1239" y="974" class="small">separate compartments in plan</text>
+  <rect x="590" y="955" width="122" height="79" fill="#f3f1e9" class="edge"/>
+  <rect x="596" y="961" width="110" height="67" fill="url(#hold)" opacity="0.45"/>
+  <text x="595" y="927" class="small">unavailable ground berth</text>
+  <path d="M649 934V952" class="secondary"/>
+  <rect x="918" y="830" width="116" height="45" fill="#d4d1c6" class="secondary"/>
+  <rect x="1050" y="907" width="126" height="40" fill="#d4d1c6" class="secondary"/>
+  <text x="917" y="997" class="small">fixed berths / selective opacity</text>
+  <!-- Two people at an ordinary shared surface, foreground public scale. -->
+  <rect x="104" y="1000" width="125" height="12" fill="#bca27d" class="edge"/>
+  <path d="M117 1012V1040M215 1012V1040" class="edge"/>
+  <circle cx="92" cy="955" r="10" fill="#3e5357"/><path d="M85 967H98L106 1007H76Z" fill="#3e5357"/>
+  <path d="M85 1003L82 1040M98 1003L102 1040M98 979L129 999" class="edge"/>
+  <circle cx="243" cy="955" r="10" fill="#3e5357"/><path d="M236 967H249L258 1007H229Z" fill="#3e5357"/>
+  <path d="M236 1003L232 1040M249 1003L254 1040M237 979L205 999" class="edge"/>
+  <path d="M141 993H165M172 993H195" stroke="#f9f7ef" stroke-width="5"/>
+  <text x="76" y="872" class="label">Public encounter</text><text x="76" y="901" class="small">foreground action in lead</text>
+  <text x="285" y="1074" class="small">low arrival end</text><text x="665" y="1074" class="small">middle tier</text><text x="940" y="1074" class="small">tall compute end</text>
+  <text x="55" y="1121" class="note">Design relationships only · no surveyed site, structural solution, capacity, guaranteed continuity or new canon.</text>
+  <text x="55" y="1151" class="small">The production brief governs custody, record/review handoffs and human authorization; physical adjacency does not grant authority.</text>
+</svg>

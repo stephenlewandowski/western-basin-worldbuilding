@@ -1,112 +1,79 @@
-# Western Basin Worldbuilding / Western Basin Atlas
+# Western Basin Worldbuilding
 
-An illustrated, scientifically grounded futures atlas rooted in Toledo, the Maumee watershed, western Lake Erie and the region's connected systems. Real geography and systems constrain the work, which includes sourced studies and clearly marked imagined futures. This repository preserves the sources, models, scripts, provenance and development records behind the Atlas.
+An illustrated futures atlas informed by research into Toledo, the Maumee watershed,
+western Lake Erie and their connected systems. The project combines sourced studies,
+explicit models and imagined places in 2075. This repository preserves the work behind
+the **Western Basin Atlas**.
 
-**Real geography first; fictional interpretation second.**
+**[Explore the Atlas](https://stephenlewandowski.github.io/western-basin-worldbuilding/).**
 
-## Explore the Atlas
+## What you can explore now
 
-**[Open the Western Basin Atlas](https://stephenlewandowski.github.io/western-basin-worldbuilding/).** The Atlas is the public publication; this GitHub repository is its research and development record.
+| Area | What it offers | Start here |
+| --- | --- | --- |
+| Futurescapes | Four imagined 2075 places, each with a lead image, working detail and system inset | [Atlas futurescapes](https://stephenlewandowski.github.io/western-basin-worldbuilding/#futurescapes) |
+| Studies | Watershed pathways, the Toledo intake crib, a possible farm and industrial exchange | [Studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/#essays) |
+| Model Lab | Synthetic water/nutrient routing diagnostics and a local explorer of saved cases | [Run/data guide](data/model_lab/README.md), [local explorer](src/R/model_lab/explorer/README.md) |
+| Methods | Evidence, uncertainty, image provenance, sources and rights | [Methods](https://stephenlewandowski.github.io/western-basin-worldbuilding/methods/), [research by subject](reports/README.md) |
+| Companion game | Vesper Station, an experimental browser mystery | [Play](https://stephenlewandowski.github.io/western-basin-worldbuilding/game/), [game design](DESIGN.md) |
 
-Begin with an illustrated place, follow a system through a study, or read [Methods and credits](https://stephenlewandowski.github.io/western-basin-worldbuilding/methods/) to understand the evidence and uncertainty. [Updates](https://stephenlewandowski.github.io/western-basin-worldbuilding/updates/) record additions; the [Roadmap](https://stephenlewandowski.github.io/western-basin-worldbuilding/roadmap/) describes areas of ongoing work.
+The four futurescapes are [Glass City 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/glass-city-2075/),
+[Maumee Bio-Ag Landscape 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/maumee-bio-ag-2075/),
+[Industrial Metabolism 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/industrial-metabolism-2075/),
+and [Lake Erie Energy & Security Coast 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/lake-erie-energy-security-coast-2075/).
+They are composite **scenarios and design concepts**, without forecasts, surveyed
+sites or demonstrated technology performance.
 
-## 2075 Futurescapes
+## Evidence, models and imagined futures
 
-These composite places are **scenarios and design concepts**, not forecasts, measured sites or validated technologies. Each combines a lead image, working detail and qualitative system inset.
+Sourced observations and reproducibly derived models have stated limits. Scenarios
+explore conditional futures; proposed architecture and stories remain design/sketch
+material unless deliberately established as fictional canon. Technical records use
+E, S, K and C for those distinctions. An illustration supplies no measurement or
+performance evidence, and the game does not establish Atlas canon.
 
-- [Glass City 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/glass-city-2075/) — an optical canopy, cassette replacement and public passage through an inherited Toledo-derived street.
-- [Maumee Bio-Ag Landscape 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/maumee-bio-ag-2075/) — open fields, selective cultivation, machine service and maintained drainage beside a distinct wetland edge.
-- [Industrial Metabolism 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/industrial-metabolism-2075/) — removable process cells, human qualification and external exchange inside an older crane hall.
-- [Lake Erie Energy & Security Coast 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/lake-erie-energy-security-coast-2075/) — weather-screen work, civilian survey recovery, utility spaces and an exposed working quay.
+Model Lab adds quantitative **accounting tests**, not calibrated watershed prediction.
+Its committed cases use synthetic unit pulses to compare qualified routing and
+explicit assumptions. They do not estimate measured loads, concentrations, travel
+time or nutrient removal. The local read-only Shiny explorer displays those saved
+cases; GitHub Pages does not host the R app. Setup, schemas, validators and limitations
+are in the guides linked above.
 
-## Studies
+Source registries, Python builders, independent R checks, manifests and review records
+preserve reproducibility. [Research records](reports/README.md) and the
+[technical reader guide](docs/README.md) provide subject-based routes into that material.
+Original code/documentation use the repository's MIT license; third-party data and
+imagery retain their own terms. See [licensing notes](docs/references/DATA_AND_ASSET_LICENSING.md).
 
-The collection includes different kinds of explanation. Scenario studies offer context without proving the performance of a futurescape's proposed technology.
+## In development
 
-| Study | What it presents |
-| --- | --- |
-| [From Field to Lake](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/field-to-lake/) | Evidence/model-oriented watershed geography and qualitative process explanation, with explicit limits at the receiving lake |
-| [The Toledo Intake Crib](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/toledo-crib/) | A real structure and verified location, an approximate representation, and a separately identified future retrofit concept |
-| [Farm 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/farm-2075/) | A synthetic agricultural scenario/design study, with drainage, labor and outside dependencies |
-| [Industrial Exchange](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/industrial-exchange/) | A scenario/design study of conditional material exchange, qualification and an open district boundary |
+**The Basin Reading Hall** is the selected information-ecology futurescape direction:
+a civic place to inspect published findings and request clarification. Its
+[production brief](docs/phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md)
+and [spatial study](assets/phase17d/hf05/hf05_basin_reading_hall_spatial_study.svg) are
+development material; finished imagery remains pending. Narrative roles and stories
+also remain provisional. Great Black Swamp candidate geometry remains held/noncanonical.
 
-## Methods and reproducibility
+[Current project status](PROJECT_STATUS.md) distinguishes available work from active
+development. [Updates](https://stephenlewandowski.github.io/western-basin-worldbuilding/updates/)
+record public additions; [Roadmap](https://stephenlewandowski.github.io/western-basin-worldbuilding/roadmap/)
+describes ongoing questions. Historical decisions remain in the report index and changelog.
 
-The Atlas distinguishes **evidence/model** (sourced or reproducibly derived current-system information), **scenario** (conditional future exploration), **fictional canon** (deliberate choices for the imagined setting), and **provisional sketch** (proposed design or narrative material). Technical records use E, S, C and K respectively. A polished picture does not change those statuses.
-
-Source registries, Python builders and validators, independent R checks, figure manifests and review records preserve the chain from inputs to interpretation. Geometry may be qualitative or approximate where measurements are unavailable. Generated futurescape illustrations and authored system insets do not supply measurements or performance evidence. Full definitions, image provenance and rights are explained in [Methods](https://stephenlewandowski.github.io/western-basin-worldbuilding/methods/).
-
-- [Source registry](metadata/sources.yml)
-- [Research, validation and report index](reports/README.md)
-- [Data and asset licensing](docs/references/DATA_AND_ASSET_LICENSING.md)
-
-### Local development
+## Local checks
 
 ```sh
 npm ci
 npm run dev
 npm test
 npm run build
+python src/python/qa/validate_markdown_links.py
 ```
 
-Open the URL printed by Vite. The static build is written to `dist/` and uses the GitHub Pages project path `/western-basin-worldbuilding/`. Publication uses the manual [Pages workflow](.github/workflows/deploy-pages.yml); a local build does not publish the site.
+Use the Vite URL printed by the development server. The static build goes to ignored
+`dist/` under `/western-basin-worldbuilding/`; the manual [Pages workflow](.github/workflows/deploy-pages.yml)
+publishes it. A local build does not publish. Model Lab launch/check commands are in
+its separate guides, including R/Shiny setup.
 
-### Local Model Lab explorer
-
-The [Model Lab v0.2A explorer](src/R/model_lab/explorer/README.md) is a local Shiny viewer for the three committed **synthetic** v0.1B routing diagnostics. It displays HUC accounting polygons, policy-aware upstream/downstream traces, ledgers, case comparisons, and source provenance. These unit pulses are not measured water or nutrient loads. See the [run documentation](data/model_lab/README.md) and [integration review](reports/model_lab_v02a_explorer_review.md) for setup, checks, and interpretation limits. The explorer runs separately from the static Atlas site.
-
-The repository's MIT license covers original code and documentation; third-party data and imagery retain their own terms. The public site excludes the third-party crib reference photograph with unconfirmed reuse rights and the held Great Black Swamp reference imagery.
-
-## Game / experimental narrative
-
-[Vesper Station](https://stephenlewandowski.github.io/western-basin-worldbuilding/game/) is a companion experimental browser game. Its narrative does not establish Atlas canon. The game remains separate from the research and study collections.
-
-## Repository guide
-
-```text
-assets/                 concept illustrations and system insets
-atlas/                  study and futurescape page entries
-data/raw/               cached public-source material and reproducible inputs
-data/processed/         scientific, network, scenario and integration products
-docs/                   research, references, phase briefs and editorial guidance
-metadata/               source registries and system/evidence/scenario vocabularies
-outputs/maps/systems/   analytical map pairs
-outputs/figures/        system diagrams, matrices and conceptual figures
-outputs/atlas/          supporting study figures and validation records
-outputs/qa/             review graphics
-reports/                findings, assumptions, validation, manifests and handoffs
-src/python/             acquisition, construction, rendering and validation
-src/R/                  independent validation and rendering
-src/atlas/              public Atlas content, rendering and styles
-src/main.ts             game entry and interaction wiring
-src/game/               game data, logic and rendering
-game/                   browser-game page entry
-methods/, roadmap/,
-updates/                public explanatory and project-history pages
-```
-
-## Development details
-
-For current state, use [Project Status](PROJECT_STATUS.md), the [canon register](docs/canon_status.md) and the [current handoff](reports/current_phase_handoff.md). Public language follows the [working editorial guide](docs/public_atlas_language_guide.md). Historical filenames, identifiers and phase records remain stable.
-
-### Research architecture and limits
-
-The research spans water and hydrology; geology and strategic materials; energy and grids; compute, communications and sensing; cybersecurity and privacy; freight and industry; ecology and biodiversity; environmental health; nutrient cycling; climate and hazards; governance; population; vector ecology; infectious disease; emerging technology; and cross-system dynamics.
-
-Phases 1–13 establish the underlying system studies. Phase 14 organizes them into 13 integrated system families with common evidence and dependency vocabularies. Phase 15 explores eight technology families and three qualitative futures at 2050 and 2075: coordinated technological adaptation, uneven networked modernization, and high capability/high friction. These are alternative scenario structures, not probabilities or forecasts. Technology capability does not establish deployment, adoption, benefit, authority or resilience.
-
-Phase 16 examines bounded compound stresses: heat/low flow/grid stress; water-quality pressure/water-treatment disruption; freight/material disruption/industrial-energy constraint; and infectious-disease pressure/surveillance/data-governance friction. These qualitative pathways assign no event probabilities, risk or resilience scores, economic losses or predicted health outcomes. Propagation stops when no defensible next step is available.
-
-Reviewed scientific packages are preserved using versioned freeze manifests. “Frozen” means the recorded research is protected from silent changes during subsequent worldbuilding, not that knowledge of the basin is complete. The report index retains the full validation and review history.
-
-### Place and interpretation
-
-Five overlapping interpretive identities organize the setting: Glass City Core, Maumee River Commons, Lake Erie Energy & Security Coast, Black Swamp Country and Great Lakes Industrial Belt. They are not jurisdictions or mutually exclusive GIS polygons. Physical, administrative, historical and fictional geographies remain distinct.
-
-The current physical Toledo intake crib location is resolved at **41.699444, -83.259167**, using the U.S. Coast Guard Light List with NOAA/NDBC and aerial corroboration. Monitoring-station coordinates remain separate records; approximate or future architectural drawings do not inherit surveyed geometry. See the [coordinate-resolution report](reports/toledo_water_intake_crib_coordinate_resolution.md). Great Black Swamp candidate geometry remains held and noncanonical.
-
-### Atlas and narrative development
-
-Phase 17 connects research with illustrated explanation and possible lived worlds: the earlier study-production pattern, scenario packets, developing roles and stories, and current futurescapes. The [study synthesis](reports/phase17a_prototype_findings_and_production_pattern.md), [lived-world packets](reports/phase17b_lived_world_condition_packets.md) and [role/story seeds](reports/phase17c_role_and_story_seed_matrix.md) preserve that lineage. Developing narrative hooks remain provisional unless explicitly established in the canon register.
-
-Glasspunk remains working visual/setting terminology; the separate Glass Basin naming question remains open. Western Basin Atlas identifies the publication, while Western Basin Worldbuilding identifies the project and repository.
+For contribution and recovery, read the [technical guide](docs/README.md),
+[workflow](docs/agent_workflow.md) and [current handoff](reports/current_phase_handoff.md).
+Preserve frozen research, source records and active work before changing structure.

@@ -1,4 +1,4 @@
-name: Deploy Atlas Preview to GitHub Pages
+name: Deploy Western Basin Atlas to GitHub Pages
 
 on:
   workflow_dispatch:
@@ -30,7 +30,7 @@ jobs:
         run: npm ci
       - name: Test
         run: npm test
-      - name: Build Atlas Preview
+      - name: Build Western Basin Atlas
         run: npm run build
       - name: Configure Pages
         uses: actions/configure-pages@v5

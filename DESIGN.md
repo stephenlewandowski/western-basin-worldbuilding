@@ -1,5 +1,9 @@
 # Glasspunk: Blackout at Vesper Station — slice design
 
+This document describes the separate experimental [Vesper Station game](game/index.html),
+not the Atlas research architecture. See the [project guide](README.md) for the
+publication, studies and Model Lab. The game does not establish Atlas canon.
+
 ## Tone and presentation
 
 The first slice is a compact, readable mystery in a four-color CGA palette: black, cyan, magenta, and white. Canvas primitives suggest machinery, paper, pipes, and a lone station technician; no external art assets are required. The canvas always draws at 320×200, then CSS scales it with pixelated rendering.

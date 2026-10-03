@@ -45,7 +45,7 @@ export const essays: Essay[] = [
   {
     key: 'field', number: '01', slug: 'atlas/field-to-lake/', title: 'From Field to Lake',
     subtitle: 'A watershed is a sequence of places, processes, and boundaries.',
-    place: 'Maumee watershed → western Lake Erie', status: 'EVIDENCE / MODEL', cover: fieldMap,
+    place: 'Maumee watershed → western Lake Erie', status: 'SOURCED GEOGRAPHY / QUALITATIVE PATHWAYS', cover: fieldMap,
     coverAlt: 'Analytical map of pathways from the Maumee watershed toward western Lake Erie.',
     lead: 'Follow a constituent from field and drainage system through the river network to a receiving water. The route is grounded in sourced geography; the diagram keeps uncertain processes and lake response distinct.',
     question: 'What can we trace, and where does the explanation stop?',

@@ -1,5 +1,9 @@
 # Phase 17D — HF-01 / HF-04 production plan
 
+**Completed-plan lineage.** Both sets are published; the sequence below records
+their original production requirements. Current HF-05 work uses the
+[Basin Reading Hall brief](phase17d_hf05_basin_reading_hall_production_brief.md).
+
 **Scope:** revise HF-01 Glass City into a public hero set, then produce HF-04 Industrial Metabolism as the approved second hero **after HF-01 human review**. Both remain composite 2075 S/K proposals with no new C. The current HF-01 prototype is a useful spatial and maintenance blockout; its elevated camera, silver/opaque glass, uniform materials, simplified people, and weak river light do not yet carry public promotion.
 
 ## Exact delivery set

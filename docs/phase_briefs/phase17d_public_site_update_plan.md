@@ -1,5 +1,11 @@
 # Phase 17D — public site update plan
 
+**Historical implementation plan.** Its starting route list and proposed
+publication sequence predate the four published futurescapes. Retained as
+implementation lineage; use the [current status](../../PROJECT_STATUS.md),
+[site source](../../src/atlas/main.ts) and
+[public language guide](../public_atlas_language_guide.md) for current work.
+
 **Basis:** the checked-in Atlas Preview is a Vite multi-page site under `/western-basin-worldbuilding/`. It currently serves `/`, four `/atlas/.../` studies, `/methods/`, `/roadmap/`, and `/game/`. Page entries are in `vite.config.ts`; the shared layout and home/roadmap copy are in `src/atlas/main.ts`; study data are in `src/atlas/content.ts`. This plan extends those routes. The public Pages workflow is manually deployed; this document does not authorize a deployment.
 
 ## Proposed information architecture
