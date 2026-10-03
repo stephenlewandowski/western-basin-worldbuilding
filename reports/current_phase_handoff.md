@@ -1,5 +1,37 @@
 # Current Phase Handoff
 
+## Model Lab v0.2A explorer integration — 3 October 2026
+
+- Starting `main`, `origin/main`, and GitHub `main` matched
+  `bd446883102c06933c853637083299d84b8a3b79`. The untracked explorer and R test
+  were reviewed against that committed v0.1B package.
+- The [integration review](model_lab_v02a_explorer_review.md) records fixes:
+  source/code SHA-256 binding, configured path/policy checks, run-ID-based
+  case matching, synthetic status and units, unique row keys, HUC joins,
+  trace self rows, malformed scratch-fixture coverage, portable launch
+  instructions, UI version/title, and repository discovery/status links.
+  Source hash checks tolerate Git's LF/CRLF checkout conversion; both newline
+  fixture variants pass without changing committed manifests or source files.
+- Validation passed: 30 Python Model Lab tests; Python and independent R
+  validation of all three saved v0.1B runs; explorer data/error/display checks
+  including direct invocation outside the root; bounded live desktop/mobile
+  browser review; 22 npm tests; TypeScript/Vite build; diff whitespace; LFS
+  integrity. Optional R dependencies and local review artifacts remain ignored
+  under `temp/`.
+- Protected-path audit read 37 freeze manifests and 665 hashed references
+  covering 654 unique paths. Changed-path overlap is zero; all hashes match
+  with LF normalization for existing Windows CRLF text (190 raw-byte
+  differences). The Model Lab baseline is unchanged. All 56 local Markdown
+  links in the touched guides/status/review records resolve. The largest
+  committed blobs remain existing system-map SVGs (about 17.5 MB); this
+  transaction adds only small R and Markdown files.
+- Publication scope is the source commit/push to GitHub. The explorer is a
+  [local Shiny app](../src/R/model_lab/explorer/README.md), separate from the
+  static Atlas/GitHub Pages site. No Pages workflow dispatch, external Shiny
+  hosting, release, or tag is part of this transaction.
+- v0.1A/v0.1B outputs and source science are unchanged; no new E/S/C claim.
+  Phase 17D remains active; HF-05 and inset migration remain future work.
+
 ## Public editorial cleanup candidate — 29 September 2026
 
 Public vocabulary was adopted and the Atlas information architecture cleaned up locally on `public-atlas-language-ia-cleanup`, from `876601e7f7b78988bfd72210464681da2cc67e78`. The four published futurescapes retain their scientific and scenario/design boundaries. All production insets and raster assets are unchanged; inset migration and HF-05 remain future work. No new C. Human review passed and publication was authorized on 2026-09-29.

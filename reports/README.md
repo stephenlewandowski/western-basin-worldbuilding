@@ -1,5 +1,12 @@
 # Glasspunk Systems Atlas
 
+## Model Lab
+
+- [v0.1 water/nutrient readiness and design boundary](model_lab_v01_water_nutrient_readiness.md).
+- [v0.1A/v0.1B diagnostic inputs, schemas, reproduction and validators](../data/model_lab/README.md).
+- [v0.2A local Shiny explorer launch and checks](../src/R/model_lab/explorer/README.md).
+- [v0.2A integration review](model_lab_v02a_explorer_review.md): saved-product compatibility, source/hash checks, regression tests, and publication scope. Synthetic diagnostics do not establish measured loads, calibrated performance, or new canon.
+
 ## Phase 17A — Atlas Synthesis / Model-to-World Bridge
 
 - Phase 17A Prototype 2.1 “From Field to Lake” **static analytical set is

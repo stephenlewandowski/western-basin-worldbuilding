@@ -1,5 +1,9 @@
 # Project Status
 
+## Model Lab v0.2A explorer — 3 October 2026
+
+Model Lab v0.2A is **IMPLEMENTED / REVIEWED / VALIDATED** as a local, read-only Shiny explorer for the committed v0.1B synthetic diagnostics. It adds HUC accounting polygons, policy-aware traces, constituent ledgers, three-case mass comparison, and checked source/code provenance. The [launch guide](src/R/model_lab/explorer/README.md), [run documentation](data/model_lab/README.md), and [integration review](reports/model_lab_v02a_explorer_review.md) describe setup, validation, and scientific limits. Source publication is to GitHub; this app is separate from the static Atlas/GitHub Pages site. v0.1A/v0.1B products and Phase 1–16 baselines are unchanged. No new E/S/C claim, release, or tag is created; Phase 17D remains active.
+
 ## Public editorial cleanup candidate — 29 September 2026
 
 Public vocabulary was adopted and the Atlas information architecture cleaned up locally on `public-atlas-language-ia-cleanup`, from `876601e7f7b78988bfd72210464681da2cc67e78`. The four published futurescapes retain their scientific and scenario/design boundaries. All production insets and raster assets are unchanged; inset migration and HF-05 remain future work. No new C. Human review passed and publication was authorized on 2026-09-29.

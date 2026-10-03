@@ -51,6 +51,10 @@ npm run build
 
 Open the URL printed by Vite. The static build is written to `dist/` and uses the GitHub Pages project path `/western-basin-worldbuilding/`. Publication uses the manual [Pages workflow](.github/workflows/deploy-pages.yml); a local build does not publish the site.
 
+### Local Model Lab explorer
+
+The [Model Lab v0.2A explorer](src/R/model_lab/explorer/README.md) is a local Shiny viewer for the three committed **synthetic** v0.1B routing diagnostics. It displays HUC accounting polygons, policy-aware upstream/downstream traces, ledgers, case comparisons, and source provenance. These unit pulses are not measured water or nutrient loads. See the [run documentation](data/model_lab/README.md) and [integration review](reports/model_lab_v02a_explorer_review.md) for setup, checks, and interpretation limits. The explorer runs separately from the static Atlas site.
+
 The repository's MIT license covers original code and documentation; third-party data and imagery retain their own terms. The public site excludes the third-party crib reference photograph with unconfirmed reuse rights and the held Great Black Swamp reference imagery.
 
 ## Game / experimental narrative
