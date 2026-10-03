@@ -135,6 +135,17 @@ Source integration and Pages publication follow these checks. See Git history an
 workflow outcome for their actual disposition. The cleanup was already integrated as
 `6c6ed91` (`docs: integrate repository cleanup and Reading Hall brief`).
 
+**Published:** creative source commit
+`351f391e7b93f6ac5d3684cea76d98914ff72b91` was pushed normally to `main`.
+The [Pages workflow](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37110062438)
+completed successfully, including CI tests/build/deployment. A live mobile browser
+check confirms homepage, Reading Hall and Methods HTTP 200, decoded images, no
+overflow or JavaScript exceptions, and working story choice/restart. The live
+[Reading Hall](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/)
+and [observed record](https://stephenlewandowski.github.io/western-basin-worldbuilding/methods/#observed-flow)
+are available. A documentation-only follow-up records this outcome; it does not
+change the deployed site. Working-tree status is clean after integration.
+
 ## Exact source paths in this cleanup/development integration
 
 49 paths relative to the repository root, against starting `ededbb5`.

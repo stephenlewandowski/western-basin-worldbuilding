@@ -38,3 +38,8 @@ Starting main was `ededbb5eee7f9cad70517a6e1a1e3449a4eac928`.
 Cleanup and the original Reading Hall brief/spatial study are integrated in `6c6ed91`.
 The creative checkpoint records validation and publication disposition; use actual
 Git status and the Pages workflow for current state. A local build alone is not publication.
+
+Pages successfully deployed creative commit `351f391` in
+[run 37110062438](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37110062438).
+Live homepage, Reading Hall story and observed-flow Methods checks pass. The
+documentation-only publication checkpoint does not alter that deployed build.

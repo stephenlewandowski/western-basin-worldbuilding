@@ -39,3 +39,7 @@ Phase 2A commit over the later selectively integrated science.
 
 Final checks and publication are recorded in the creative checkpoint; inspect the
 actual Git/Pages state before acting on a publication claim.
+
+Creative source `351f391` is pushed and Pages run `37110062438` succeeded. Live
+homepage, Reading Hall, Methods and story choice/restart checks pass. The following
+documentation-only checkpoint records publication without requiring another deployment.
