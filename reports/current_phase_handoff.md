@@ -10,6 +10,11 @@ and save validation were addressed. Game fiction remains separate from Atlas
 canon and science. See [game design](../DESIGN.md) for the scene card and route.
 Publication and exact checks are recorded in the game report. Next: first-time
 human play, then polish the existing chapter before enlarging it.
+Game source `b5e66cb` is integrated/pushed; successful
+[Pages run 37185856049](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37185856049)
+built that exact source. Complete live 1440px/390px playthroughs pass both dispatch
+branches, report/withhold, save/load, ending preservation, native focus and replay.
+A documentation-only checkpoint follows; frozen products and Model Lab are unchanged.
 
 Earlier addition: [Coast grounding and development](lake_erie_coast_context_2026-10-04.md).
 The user requested present/future nuclear impacts, compute, waste, regional

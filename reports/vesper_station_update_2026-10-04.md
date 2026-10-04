@@ -69,8 +69,16 @@ adding locations, combat, resource systems or another case. Audio remains absent
   `6367c32` bytes, allowing only Git checkout CRLF/LF conversion for text.
   Changed paths do not overlap scientific/model/output/art paths.
 
-Integration/publication is pending at this source checkpoint. Verified source
-commit, Pages run and live checks follow in the publication checkpoint.
+Integrated and pushed by normal fast-forward:
+`b5e66cb10ea1e1d349ab2bc5ece115a1a4c9975d`.
+[Pages run 37185856049](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37185856049)
+succeeded for that exact source. The
+[live game](https://stephenlewandowski.github.io/western-basin-worldbuilding/game/)
+passed complete desktop/mobile playthroughs, both dispatch orders, report and
+withhold outcomes, save/load, ending preservation, replay and native Tab/Enter.
+Related Atlas routes resolve, with no page errors or document overflow. Live
+scene screenshots were retained alongside local proofs. A documentation-only
+checkpoint records this verified publication; no further game source changed.
 Temporary browser scripts, screenshots and hash results remain in ignored
 `temp/vesper-update/`; no generated build or new binary asset is tracked.
 

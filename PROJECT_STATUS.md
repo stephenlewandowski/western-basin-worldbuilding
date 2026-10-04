@@ -56,7 +56,12 @@ are unchanged. [Grounding and validation](reports/lake_erie_coast_context_2026-1
 
 ## Integration and publication
 
-The wider coast source `f1890bc` is pushed and deployed in
+Vesper Station source `b5e66cb` is pushed and deployed in
+[Pages run 37185856049](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37185856049).
+Full live desktop/mobile routes, both dispatch outcomes, keyboard/touch controls,
+save/load and replay pass. [Game record](reports/vesper_station_update_2026-10-04.md).
+
+The earlier wider coast source `f1890bc` is pushed and deployed in
 [Pages run 37178016034](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37178016034).
 Live desktop/mobile checks confirm coast chapters, chart and map reading.
 The [coast record](reports/lake_erie_coast_context_2026-10-04.md) documents sources,
