@@ -49,10 +49,16 @@ mechanical checks or agent impressions a successful narrative/audience test.
 Do not produce another comic from the failed strip as though continuity were accepted.
 The scientific track remains separate: [empirical input assessment](model_lab_empirical_inputs_2026-10-03.md).
 
-Current validation/publication is in the corrected assessment. The older strip
+Current validation/publication is in the visual refresh report. The older strip
 publication from `6bd1de1` / Pages run `37116017148` is historical, not current disposition.
 
 Earlier withdrawal/sequel source `6fa1b5d` was pushed; Pages run `37118007574` succeeded for that exact
 source. The old comic URL returns HTTP 404. Live active pages have no comic
 promotions/images; original encounter, sequel/end-lock/restart and observed-flow
 checks pass. The current visual refresh report records the latest validation and publication.
+
+Latest deployed site source: `82fce91`, successful
+[Pages run 37167030241](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37167030241).
+Live checks confirm both map modes, all 15 routes, new equipment art, four readable
+studies, daily-flow controls/curve and retained encounters. Comic remains HTTP 404.
+The following documentation-only checkpoint records verified publication.

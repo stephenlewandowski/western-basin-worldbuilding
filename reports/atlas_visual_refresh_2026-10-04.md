@@ -94,4 +94,11 @@ diagrams or fake precision. Source plots and maps can remain technical where use
   source hashes. The PNG ZIP is absent from `dist`; original equipment SVGs and
   dense flowchart images are absent from the public build.
 
-Publication checkpoint follows after deployment.
+Source commit `82fce91e255557d8eba7904f8fc81d5c58238b07` is pushed to main.
+[Pages run 37167030241](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37167030241)
+succeeded for that exact commit. Live checks confirm all 15 public routes return
+HTTP 200, illustrated/real modes work, all four equipment images decode, the four
+study interfaces are present, the measured flow controls/curve work and both
+encounters remain. No page errors occurred; the withdrawn comic route returns
+HTTP 404. A following documentation-only checkpoint records this result without
+changing the deployed build.

@@ -67,3 +67,9 @@ Maps/observation feature `349051f` is pushed and deployed successfully in
 The map route, its flow controls and earlier-map collection pass live checks;
 the comic route remains HTTP 404. The [map development record](reports/atlas_maps_and_evidence_2026-10-03.md)
 records exact changed paths, preservation, validation and recommended priorities.
+
+Illustrated-map / architectural-sketch source `82fce91` is pushed and deployed in
+[Pages run 37167030241](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37167030241).
+All 15 live routes, both map modes, equipment images, study navigation and retained
+flow controls pass. Source figures and scientific products remain unchanged;
+the comic route remains HTTP 404. [Refresh record](reports/atlas_visual_refresh_2026-10-04.md).
