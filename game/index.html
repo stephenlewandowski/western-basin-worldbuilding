@@ -10,10 +10,16 @@
     <main id="app" aria-label="Glasspunk: Blackout at Vesper Station">
       <a class="atlas-return" href="../">← Back to Atlas</a>
       <section class="game-shell">
-        <div class="screen-wrap">
-          <canvas id="game" width="640" height="400" aria-label="Game screen"></canvas>
+        <div class="scene-column">
+          <div class="screen-wrap">
+            <canvas id="game" width="640" height="400" tabindex="0" aria-label="Vesper Station scene. Arrow keys select an object; Enter inspects it." aria-describedby="game-help"></canvas>
+          </div>
+          <section class="transcript" aria-label="Dialogue and observations" aria-live="polite"><h2>SHIFT NOTES</h2><div id="transcript"></div></section>
         </div>
         <aside class="hud" aria-label="Game controls and notes">
+          <div class="hud-block"><h2>NIGHT SHIFT · 2075</h2><p id="objective"></p><button id="hint" type="button">MARA’S HINT</button></div>
+          <div class="hud-block"><h2 id="scene-heading">SCENE ACTIONS</h2><div id="scene-actions" class="item-list"></div><div id="choices" class="item-list"></div></div>
+          <div id="mobile-feedback" class="mobile-feedback"></div>
           <div class="hud-block">
             <h2>INVENTORY</h2>
             <div id="inventory" class="item-list" aria-live="polite"></div>
@@ -23,15 +29,17 @@
             <div id="evidence" class="evidence-list" aria-live="polite"></div>
           </div>
           <div id="case-review" class="hud-block case-review" aria-live="polite" hidden></div>
+          <div class="hud-block"><h2>SERVICE NOTES</h2><div id="service-notes" class="evidence-list"></div></div>
           <div class="hud-block controls">
             <button id="save" type="button">SAVE</button>
             <button id="load" type="button">LOAD</button>
             <button id="restart" type="button">RESTART</button>
-            <button id="mute" type="button">MUTE</button>
           </div>
-          <p class="help">Arrows / WASD: choose hotspot<br />Enter / Space: inspect<br />Tab: cycle items<br />Y / N: answer Niko<br />F: open Case Review after repair</p>
+          <p id="storage-feedback" class="help"></p>
+          <p class="help" id="game-help">Click objects or use scene buttons. On the canvas: arrows/WASD choose, Enter/Space inspect, I cycles items, H gives a hint, F opens Case Review. Tab moves through page controls. No timer.</p>
         </aside>
       </section>
+      <p class="game-context">A fictional district service station at Toledo’s river edge in 2075. Five rooms, two repairs, one morning handoff. CGA style; imagined controls.<br>Explore its world: <a href="../maps/">Maps & regions</a> · <a href="../atlas/industrial-metabolism-2075/">Industrial Metabolism</a> · <a href="../atlas/basin-reading-hall/">Basin Reading Hall</a>. Game events remain experimental fiction.</p>
       <p id="status" class="sr-only" aria-live="polite"></p>
     </main>
     <script type="module" src="/src/main.ts"></script>

@@ -1,178 +1,132 @@
 import './style.css';
-import { caseEvidenceDefinitions, clues, items, theories, type Hotspot } from './game/data';
+import { caseEvidenceDefinitions, clues, items, serviceNotes, theories, type Hotspot } from './game/data';
 import { BACKING_HEIGHT, BACKING_WIDTH, toLogicalPoint } from './game/canvas';
 import {
-  beginGame,
-  concealFindings,
-  currentRoom,
-  decideWorker,
-  inspectHotspot,
-  itemLabel,
-  loadGame,
-  newGame,
-  openCaseReview,
-  postponeCaseReview,
-  restartGame,
-  saveGame,
-  selectCaseTheory,
-  selectItem,
-  submitCaseReview,
-  toggleCaseEvidence,
-  toggleMute,
-  talkToMara,
-  useSelectedItem,
-  type GameState,
+  beginGame, concealFindings, continueShift, currentGoal, currentRoom, decideDispatch,
+  decideWorker, inspectHotspot, loadGame, newGame, openCaseReview, postponeCaseReview,
+  requestHint, restartGame, saveGame, selectCaseTheory, selectItem, submitCaseReview,
+  toggleCaseEvidence, type GameState,
 } from './game/engine';
 import { render } from './game/renderer';
 import { reviewTargetAt, reviewTargetKey, reviewTargetLabel, reviewTargets, type ReviewTarget } from './game/review';
 
-// Let publication navigation use native keys without triggering game shortcuts.
-document.querySelector('.atlas-return')?.addEventListener('keydown', (event) => event.stopPropagation());
-
-function requireElement<T extends Element>(selector: string): T {
+function required<T extends Element>(selector: string): T {
   const element = document.querySelector<T>(selector);
-
-  if (!element) {
-    throw new Error(`Required element not found: ${selector}`);
-  }
-
+  if (!element) throw new Error(`Missing game element: ${selector}`);
   return element;
 }
 
-function requireContext(canvas: HTMLCanvasElement): CanvasRenderingContext2D {
-  const context = canvas.getContext('2d');
-
-  if (!context) {
-    throw new Error('Canvas 2D rendering is not supported.');
-  }
-
-  return context;
-}
-
-const canvas = requireElement<HTMLCanvasElement>('#game');
-const statusEl = requireElement<HTMLElement>('#status');
-const muteButton = requireElement<HTMLButtonElement>('#mute');
-const inventoryEl = requireElement<HTMLElement>('#inventory');
-const evidenceEl = requireElement<HTMLElement>('#evidence');
-const caseReviewEl = requireElement<HTMLElement>('#case-review');
-const saveButton = requireElement<HTMLButtonElement>('#save');
-const loadButton = requireElement<HTMLButtonElement>('#load');
-const restartButton = requireElement<HTMLButtonElement>('#restart');
+const canvas = required<HTMLCanvasElement>('#game');
 canvas.width = BACKING_WIDTH;
 canvas.height = BACKING_HEIGHT;
-const ctx = requireContext(canvas);
-
-let state: GameState = newGame();
+const context = canvas.getContext('2d');
+if (!context) throw new Error('Canvas 2D rendering is not supported.');
+const ctx: CanvasRenderingContext2D = context;
+const statusEl = required<HTMLElement>('#status');
+const inventoryEl = required<HTMLElement>('#inventory');
+const evidenceEl = required<HTMLElement>('#evidence');
+const notesEl = required<HTMLElement>('#service-notes');
+const caseReviewEl = required<HTMLElement>('#case-review');
+const actionsEl = required<HTMLElement>('#scene-actions');
+const choicesEl = required<HTMLElement>('#choices');
+const transcriptEl = required<HTMLElement>('#transcript');
+const objectiveEl = required<HTMLElement>('#objective');
+const hintButton = required<HTMLButtonElement>('#hint');
+let state = newGame();
 let hovered: string | null = null;
-let focusIndex = 0;
+let focusIndex = -1;
 
-function announce(message: string): void { statusEl.textContent = message; }
+function button(parent: HTMLElement, key: string, label: string, action: () => void, selected = false, description?: string): void {
+  const element = document.createElement('button');
+  element.type = 'button';
+  element.dataset.key = key;
+  element.textContent = label;
+  element.classList.toggle('selected', selected);
+  if (state.screen === 'ending' && (key.startsWith('clue:') || key.startsWith('note:'))) element.disabled = true;
+  if (selected || key.startsWith('item:') || key.startsWith('review:')) element.setAttribute('aria-pressed', String(selected));
+  if (description) element.title = description;
+  element.addEventListener('click', action);
+  parent.append(element);
+}
 
-function update(next: GameState, announcement = next.message): void {
+function update(next: GameState, announcement?: string): void {
+  const focusedKey = (document.activeElement as HTMLElement | null)?.dataset.key;
+  if (state.room !== next.room || state.screen !== next.screen) { hovered = null; focusIndex = -1; }
   state = next;
+  required<HTMLElement>('#storage-feedback').textContent = '';
   render(ctx, state, hovered);
+  objectiveEl.textContent = currentGoal(state);
+  hintButton.disabled = state.screen !== 'play';
+  renderActions();
   renderInventory();
-  renderEvidence();
+  renderNotes();
   renderCaseReview();
-  muteButton.textContent = state.muted ? 'UNMUTE' : 'MUTE';
-  announce(announcement);
+  transcriptEl.replaceChildren();
+  [state.message, ...state.dialogue].forEach((line) => {
+    const p = document.createElement('p'); p.textContent = line; transcriptEl.append(p);
+  });
+  required<HTMLElement>('#mobile-feedback').textContent = [state.message, ...state.dialogue].join(' ');
+  if (announcement) statusEl.textContent = announcement;
+  if (focusedKey !== undefined) {
+    const replacement = [...document.querySelectorAll<HTMLButtonElement>('button[data-key]')].find((entry) => entry.dataset.key === focusedKey);
+    (replacement ?? canvas).focus({ preventScroll: true });
+  }
+}
+
+function renderActions(): void {
+  actionsEl.replaceChildren(); choicesEl.replaceChildren();
+  required<HTMLElement>('#scene-heading').textContent = state.screen === 'play' ? currentRoom(state).name : 'SCENE ACTIONS';
+  if (state.screen === 'title') button(actionsEl, 'begin', 'BEGIN NIGHT SHIFT', () => update(beginGame(state)));
+  if (state.screen === 'ending') button(actionsEl, 'continue', 'REPLAY HANDOFF', () => update(continueShift(state)));
+  if (state.screen !== 'play') return;
+  currentRoom(state).hotspots.forEach((hotspot) => {
+    button(actionsEl, `hotspot:${hotspot.id}`, `${hotspot.action === 'move' ? '→ ' : ''}${hotspot.label}`, () => activateHotspot(hotspot));
+  });
+  if (state.room === 'furnace' && state.workerMet && !state.workerChoice) {
+    button(choicesEl, 'worker:report', 'TELL MARA ABOUT THE ALTERATION', () => update(decideWorker(state, 'report')));
+    button(choicesEl, 'worker:quiet', 'KEEP IT BETWEEN US', () => update(decideWorker(state, 'keep-quiet')));
+  }
+  if (state.dispatchOpen && state.room === 'terrace') {
+    button(choicesEl, 'dispatch:record', 'SEND RECORD · DELAY ROOF RENDER', () => update(decideDispatch(state, 'record-first')));
+    button(choicesEl, 'dispatch:render', 'FINISH RENDER · QUEUE RECORD', () => update(decideDispatch(state, 'render-first')));
+  }
 }
 
 function renderInventory(): void {
   inventoryEl.replaceChildren();
-  if (!state.inventory.length) {
-    const empty = document.createElement('p'); empty.textContent = 'EMPTY'; inventoryEl.append(empty); return;
-  }
-  state.inventory.forEach((id) => {
-    const button = document.createElement('button');
-    button.type = 'button'; button.textContent = state.selectedItem === id ? `> ${itemLabel(id)}` : itemLabel(id);
-    button.classList.toggle('selected', state.selectedItem === id);
-    button.title = items[id].description;
-    button.addEventListener('click', () => update(selectItem(state, id), `${items[id].label} selected.`));
-    inventoryEl.append(button);
-  });
+  if (!state.inventory.length) { inventoryEl.textContent = 'EMPTY'; return; }
+  state.inventory.forEach((id) => button(inventoryEl, `item:${id}`, items[id].label, () => update(selectItem(state, id)), state.selectedItem === id, items[id].description));
 }
 
-function renderEvidence(): void {
-  evidenceEl.replaceChildren();
-  if (!state.evidence.length) {
-    const empty = document.createElement('p'); empty.textContent = 'NO CLUES LOGGED'; evidenceEl.append(empty); return;
-  }
-  state.evidence.forEach((id) => {
-    const button = document.createElement('button');
-    button.type = 'button'; button.textContent = clues[id].title; button.title = clues[id].text;
-    button.addEventListener('click', () => update({ ...state, message: clues[id].text, dialogue: [] }));
-    evidenceEl.append(button);
-  });
+function renderNotes(): void {
+  evidenceEl.replaceChildren(); notesEl.replaceChildren();
+  if (!state.evidence.length) evidenceEl.textContent = 'NO CLUES LOGGED';
+  if (!state.serviceNotes.length) notesEl.textContent = 'NO SERVICE NOTES';
+  state.evidence.forEach((id) => button(evidenceEl, `clue:${id}`, clues[id].title, () => update({ ...state, message: clues[id].text, dialogue: [], dispatchOpen: false })));
+  state.serviceNotes.forEach((id) => button(notesEl, `note:${id}`, serviceNotes[id].title, () => update({ ...state, message: serviceNotes[id].text, dialogue: [], dispatchOpen: false })));
 }
 
 function renderCaseReview(): void {
-  caseReviewEl.replaceChildren();
-  caseReviewEl.hidden = state.screen !== 'review';
+  caseReviewEl.replaceChildren(); caseReviewEl.hidden = state.screen !== 'review';
   if (state.screen !== 'review') return;
-
-  const heading = document.createElement('h2');
-  heading.textContent = 'CASE REVIEW';
-  caseReviewEl.append(heading);
-
-  const theoryLabel = document.createElement('p');
-  theoryLabel.textContent = 'EXPLANATION';
-  caseReviewEl.append(theoryLabel);
-  Object.values(theories).forEach((theory) => {
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.textContent = state.caseReview.theory === theory.id ? `> ${theory.label}` : theory.label;
-    button.classList.toggle('selected', state.caseReview.theory === theory.id);
-    button.addEventListener('click', () => update(selectCaseTheory(state, theory.id)));
-    caseReviewEl.append(button);
+  const heading = document.createElement('h2'); heading.textContent = 'CASE REVIEW'; caseReviewEl.append(heading);
+  const help = document.createElement('p'); help.textContent = 'Choose an explanation, then cite at least two supporting items. Select a citation to read it in Shift Notes. The assessment covers cited items only; other clues may disagree. This is a fictional case, not a scientific model.'; caseReviewEl.append(help);
+  reviewTargets(state).forEach((target) => {
+    const selected = target.kind === 'theory' ? state.caseReview.theory === target.id : target.kind === 'evidence' && state.caseReview.selectedEvidence.includes(target.id);
+    button(caseReviewEl, reviewTargetKey(target), reviewTargetLabel(target), () => activateReviewTarget(target), selected, target.kind === 'evidence' ? caseEvidenceDefinitions[target.id].text : undefined);
   });
-
-  const evidenceLabel = document.createElement('p');
-  evidenceLabel.textContent = 'CITE AT LEAST TWO SUPPORTING ITEMS';
-  caseReviewEl.append(evidenceLabel);
-  const available = reviewTargets(state).filter((target): target is Extract<ReviewTarget, { kind: 'evidence' }> => target.kind === 'evidence');
-  available.forEach((target) => {
-    const button = document.createElement('button');
-    button.type = 'button';
-    button.textContent = state.caseReview.selectedEvidence.includes(target.id) ? `> ${caseEvidenceDefinitions[target.id].title}` : caseEvidenceDefinitions[target.id].title;
-    button.classList.toggle('selected', state.caseReview.selectedEvidence.includes(target.id));
-    button.title = caseEvidenceDefinitions[target.id].text;
-    button.addEventListener('click', () => update(toggleCaseEvidence(state, target.id)));
-    caseReviewEl.append(button);
-  });
-
-  const actions = document.createElement('div');
-  actions.className = 'case-review-actions';
-  const reportButton = document.createElement('button');
-  reportButton.type = 'button'; reportButton.textContent = 'SUBMIT REPORT';
-  reportButton.addEventListener('click', () => update(submitCaseReview(state)));
-  const concealButton = document.createElement('button');
-  concealButton.type = 'button'; concealButton.textContent = 'CONCEAL FINDINGS';
-  concealButton.addEventListener('click', () => update(concealFindings(state)));
-  const postponeButton = document.createElement('button');
-  postponeButton.type = 'button'; postponeButton.textContent = 'POSTPONE';
-  postponeButton.addEventListener('click', () => update(postponeCaseReview(state)));
-  actions.append(reportButton, concealButton, postponeButton);
-  caseReviewEl.append(actions);
 }
 
 function hotspotAt(x: number, y: number): Hotspot | undefined {
-  return currentRoom(state).hotspots.find((hotspot) => x >= hotspot.rect.x && x <= hotspot.rect.x + hotspot.rect.width && y >= hotspot.rect.y && y <= hotspot.rect.y + hotspot.rect.height);
+  return currentRoom(state).hotspots.find(({ rect }) => x >= rect.x && x <= rect.x + rect.width && y >= rect.y && y <= rect.y + rect.height);
 }
 
-function canvasPoint(event: MouseEvent): { x: number; y: number } {
-  const box = canvas.getBoundingClientRect();
-  return toLogicalPoint(event.clientX, event.clientY, box);
-}
-
-function activateHotspot(hotspot: Hotspot | undefined): void {
+function activateHotspot(hotspot?: Hotspot): void {
   if (state.screen === 'title') { update(beginGame(state)); return; }
-  if (state.screen === 'review') return;
-  if (!hotspot) return;
-  update(inspectHotspot(state, hotspot));
+  if (hotspot && state.screen === 'play') update(inspectHotspot(state, hotspot));
 }
 
-function activateReviewTarget(target: ReviewTarget | undefined): void {
+function activateReviewTarget(target?: ReviewTarget): void {
   if (!target || state.screen !== 'review') return;
   if (target.kind === 'theory') update(selectCaseTheory(state, target.id));
   else if (target.kind === 'evidence') update(toggleCaseEvidence(state, target.id));
@@ -181,116 +135,76 @@ function activateReviewTarget(target: ReviewTarget | undefined): void {
   else update(postponeCaseReview(state));
 }
 
-function focusHotspot(direction: 1 | -1): void {
-  const available = currentRoom(state).hotspots;
-  focusIndex = (focusIndex + direction + available.length) % available.length;
-  hovered = available[focusIndex].id;
+function focusTarget(direction: 1 | -1): void {
+  const targets = state.screen === 'review' ? reviewTargets(state) : currentRoom(state).hotspots;
+  focusIndex = (focusIndex + direction + targets.length) % targets.length;
+  const target = targets[focusIndex];
+  hovered = 'kind' in target ? reviewTargetKey(target) : target.id;
   render(ctx, state, hovered);
-  announce(`${available[focusIndex].label}. Press Enter to inspect.`);
-}
-
-function focusReview(direction: 1 | -1): void {
-  const available = reviewTargets(state);
-  if (!available.length) return;
-  focusIndex = (focusIndex + direction + available.length) % available.length;
-  const target = available[focusIndex];
-  hovered = reviewTargetKey(target);
-  render(ctx, state, hovered);
-  announce(`${reviewTargetLabel(target)}. Press Enter to choose.`);
+  statusEl.textContent = `${'kind' in target ? reviewTargetLabel(target) : target.label}. Press Enter to inspect.`;
 }
 
 canvas.addEventListener('mousemove', (event) => {
   if (state.screen !== 'play' && state.screen !== 'review') return;
-  const point = canvasPoint(event);
-  const next = state.screen === 'review'
-    ? (reviewTargetAt(point.x, point.y, state) ? reviewTargetKey(reviewTargetAt(point.x, point.y, state)!) : null)
-    : hotspotAt(point.x, point.y)?.id ?? null;
+  const { x, y } = toLogicalPoint(event.clientX, event.clientY, canvas.getBoundingClientRect());
+  const target = state.screen === 'review' ? reviewTargetAt(x, y, state) : hotspotAt(x, y);
+  const next = target ? ('kind' in target ? reviewTargetKey(target) : target.id) : null;
   if (next !== hovered) { hovered = next; render(ctx, state, hovered); }
 });
-
 canvas.addEventListener('mouseleave', () => { hovered = null; render(ctx, state, hovered); });
 canvas.addEventListener('click', (event) => {
-  const point = canvasPoint(event);
-  if (state.screen === 'review') {
-    activateReviewTarget(reviewTargetAt(point.x, point.y, state));
-    return;
-  }
-  activateHotspot(hotspotAt(point.x, point.y));
+  canvas.focus({ preventScroll: true });
+  const { x, y } = toLogicalPoint(event.clientX, event.clientY, canvas.getBoundingClientRect());
+  if (state.screen === 'review') activateReviewTarget(reviewTargetAt(x, y, state));
+  else activateHotspot(hotspotAt(x, y));
 });
 
 document.addEventListener('keydown', (event) => {
-  if (event.key.toLowerCase() === 'r') { update(restartGame()); return; }
-  if (event.key === 'Tab') {
-    // Allow entry to the page link and a backward route out of game controls.
-    if (event.shiftKey || (state.screen === 'title' && event.target === document.body)) return;
-    if (state.screen === 'review') return;
+  // Native buttons/links and Tab keep their normal behavior.
+  if (event.target !== canvas && event.target !== document.body) return;
+  if (event.altKey || event.ctrlKey || event.metaKey || event.key === 'Tab') return;
+  const key = event.key.toLowerCase();
+  if (key === 'r') { update(restartGame()); return; }
+  if (state.screen === 'title') {
+    if (key === 'enter' || key === ' ') { event.preventDefault(); update(beginGame(state)); }
+    return;
+  }
+  if (state.screen === 'ending') return;
+  if (key === 'arrowright' || key === 'arrowdown' || key === 'd' || key === 's') { event.preventDefault(); focusTarget(1); return; }
+  if (key === 'arrowleft' || key === 'arrowup' || key === 'a' || key === 'w') { event.preventDefault(); focusTarget(-1); return; }
+  if (key === 'enter' || key === ' ') {
     event.preventDefault();
-    if (state.inventory.length) {
-      const index = state.selectedItem ? state.inventory.indexOf(state.selectedItem) : -1;
-      const next = state.inventory[(index + 1) % state.inventory.length];
-      update(selectItem(state, next), `${itemLabel(next)} selected.`);
-    }
+    if (state.screen === 'review') activateReviewTarget(reviewTargets(state).find((target) => reviewTargetKey(target) === hovered) ?? reviewTargets(state)[0]);
+    else activateHotspot(currentRoom(state).hotspots.find((target) => target.id === hovered) ?? currentRoom(state).hotspots[0]);
     return;
   }
   if (state.screen === 'review') {
-    if (event.key === '1' || event.key === '2' || event.key === '3') {
-      const theory = Object.values(theories)[Number(event.key) - 1];
-      if (theory) update(selectCaseTheory(state, theory.id));
-      return;
-    }
-    if (event.key === 'ArrowRight' || event.key === 'ArrowDown' || event.key.toLowerCase() === 'd' || event.key.toLowerCase() === 's') {
-      event.preventDefault(); focusReview(1); return;
-    }
-    if (event.key === 'ArrowLeft' || event.key === 'ArrowUp' || event.key.toLowerCase() === 'a' || event.key.toLowerCase() === 'w') {
-      event.preventDefault(); focusReview(-1); return;
-    }
-    if (event.key === 'Enter' || event.key === ' ') {
-      event.preventDefault();
-      const target = reviewTargets(state).find((entry) => reviewTargetKey(entry) === hovered) ?? reviewTargets(state)[0];
-      activateReviewTarget(target);
-      return;
-    }
-    if (event.key === 'Escape') { update(postponeCaseReview(state)); return; }
+    if (['1', '2', '3'].includes(key)) update(selectCaseTheory(state, Object.values(theories)[Number(key) - 1].id));
+    if (key === 'escape') update(postponeCaseReview(state));
     return;
   }
-  if (event.key.toLowerCase() === 'y' && state.screen === 'play' && state.room === 'furnace' && state.workerMet && !state.workerChoice) {
-    update(decideWorker(state, 'report'));
-    return;
+  if (key === 'i' && state.inventory.length) {
+    const index = state.selectedItem ? state.inventory.indexOf(state.selectedItem) : -1;
+    update(selectItem(state, state.inventory[(index + 1) % state.inventory.length]));
   }
-  if (event.key.toLowerCase() === 'n' && state.screen === 'play' && state.room === 'furnace' && state.workerMet && !state.workerChoice) {
-    update(decideWorker(state, 'keep-quiet'));
-    return;
-  }
-  if (event.key === 'ArrowRight' || event.key === 'ArrowDown' || event.key.toLowerCase() === 'd' || event.key.toLowerCase() === 's') { event.preventDefault(); focusHotspot(1); return; }
-  if (event.key === 'ArrowLeft' || event.key === 'ArrowUp' || event.key.toLowerCase() === 'a' || event.key.toLowerCase() === 'w') { event.preventDefault(); focusHotspot(-1); return; }
-  if (event.key === 'Enter' || event.key === ' ') {
-    event.preventDefault();
-    if (state.screen === 'title') { update(beginGame(state)); return; }
-    if (state.screen === 'ending') return;
-    activateHotspot(currentRoom(state).hotspots.find((hotspot) => hotspot.id === hovered));
-    return;
-  }
-  if (event.key === 'Escape') { update({ ...state, selectedItem: null, dialogue: [] }, 'Selection cleared.'); }
+  if (key === 'h') update(requestHint(state));
+  if (key === 'y') update(decideWorker(state, 'report'));
+  if (key === 'n') update(decideWorker(state, 'keep-quiet'));
+  if (key === 'f') update(state.room === 'control' ? openCaseReview(state) : { ...state, message: 'The Case Review terminal is in the control room.', dialogue: [] });
+  if (key === 'escape') update({ ...state, selectedItem: null, dialogue: [], dispatchOpen: false });
 });
 
-saveButton.addEventListener('click', () => { saveGame(state); announce('Game saved locally.'); });
-loadButton.addEventListener('click', () => { const loaded = loadGame(); update(loaded ?? state, loaded ? 'Saved game loaded.' : 'No saved game found.'); });
-restartButton.addEventListener('click', () => update(restartGame()));
-muteButton.addEventListener('click', () => update(toggleMute(state), state.muted ? 'Sound muted.' : 'Sound on.'));
-
+hintButton.addEventListener('click', () => update(requestHint(state)));
+required<HTMLButtonElement>('#save').addEventListener('click', () => {
+  const saved = saveGame(state);
+  required<HTMLElement>('#storage-feedback').textContent = saved ? 'Shift saved on this device.' : 'Save unavailable. Keep playing in this tab.';
+  statusEl.textContent = required<HTMLElement>('#storage-feedback').textContent;
+});
+required<HTMLButtonElement>('#load').addEventListener('click', () => {
+  const saved = loadGame();
+  if (saved) update(saved);
+  required<HTMLElement>('#storage-feedback').textContent = saved ? 'Saved shift loaded.' : 'No usable save. Your shift is unchanged.';
+  statusEl.textContent = required<HTMLElement>('#storage-feedback').textContent;
+});
+required<HTMLButtonElement>('#restart').addEventListener('click', () => update(restartGame()));
 update(state);
-
-// Keep the repaired console double-click as a direct path to the unlocked terminal.
-canvas.addEventListener('dblclick', () => {
-  if (state.screen === 'play' && state.panelSolved && state.room === 'control') update(openCaseReview(state));
-});
-
-// NPC dialogue remains keyboard reachable even when the pointer is not over her.
-window.addEventListener('keydown', (event) => {
-  if (event.key.toLowerCase() === 'm' && state.screen === 'play' && state.room === 'control') update(talkToMara(state));
-  if (event.key.toLowerCase() === 'u' && state.screen === 'play' && state.room === 'control') update(useSelectedItem(state));
-  if (event.key.toLowerCase() === 'f' && state.screen === 'play' && state.panelSolved) {
-    if (state.room === 'control') update(openCaseReview(state));
-    else update({ ...state, message: 'Return to the Control Room to open Case Review.', dialogue: [] });
-  }
-});

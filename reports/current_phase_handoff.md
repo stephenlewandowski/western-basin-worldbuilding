@@ -1,8 +1,17 @@
 # Current handoff
 
-**4 October 2026 · wider Lake Erie coast**
+**4 October 2026 · Vesper Station night shift**
 
-Latest addition: [Coast grounding and development](lake_erie_coast_context_2026-10-04.md).
+Latest addition: [Vesper Station update](vesper_station_update_2026-10-04.md).
+The requested controlled game expansion adds a pump house and river terrace,
+one circulation repair and a Reading Hall / roof-render queue choice. All five
+rooms remain CGA; corridor stripes, dialogue clipping, native focus/touch gaps
+and save validation were addressed. Game fiction remains separate from Atlas
+canon and science. See [game design](../DESIGN.md) for the scene card and route.
+Publication and exact checks are recorded in the game report. Next: first-time
+human play, then polish the existing chapter before enlarging it.
+
+Earlier addition: [Coast grounding and development](lake_erie_coast_context_2026-10-04.md).
 The user requested present/future nuclear impacts, compute, waste, regional
 security, fisheries/migration and Cedar Point. The public coast page and map
 reading now develop these relationships, with one additional interactive chart.

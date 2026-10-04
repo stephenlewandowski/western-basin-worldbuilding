@@ -40,6 +40,8 @@ or calibrated environmental performance.
 
 ## Creative workshop
 
+- [Vesper Station: five-room night shift, game design and publication](vesper_station_update_2026-10-04.md).
+
 - [Readable web networks and flowcharts](atlas_connection_charts_2026-10-04.md).
 
 - [Illustrated regions, architectural sketches and readable study interfaces](atlas_visual_refresh_2026-10-04.md).

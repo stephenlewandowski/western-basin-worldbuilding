@@ -14,6 +14,10 @@ import {
   submitCaseReview,
   toggleCaseEvidence,
   concealFindings,
+  decideDispatch,
+  continueShift,
+  requestHint,
+  SAVE_KEY,
 } from './engine';
 
 function inspect(state: ReturnType<typeof newGame>, room: RoomId, id: string) {
@@ -49,7 +53,25 @@ function repairPanel() {
 }
 
 function openReview() {
-  return inspect(repairPanel(), 'control', 'case-review');
+  return inspect(finishService(), 'control', 'case-review');
+}
+
+function finishService(choice: 'record-first' | 'render-first' = 'record-first') {
+  let state = repairPanel();
+  state = inspect(state, 'control', 'to-corridor');
+  state = inspect(state, 'corridor', 'to-pump');
+  state = inspect(state, 'pump', 'pump-card');
+  state = selectItem(state, 'heat-glove');
+  state = inspect(state, 'pump', 'return-wheel');
+  state = inspect(state, 'pump', 'pump-starter');
+  state = inspect(state, 'pump', 'to-terrace');
+  state = inspect(state, 'terrace', 'route-board');
+  state = inspect(state, 'terrace', 'dispatch-card');
+  state = inspect(state, 'terrace', 'dispatch');
+  state = decideDispatch(state, choice);
+  state = inspect(state, 'terrace', 'to-pump');
+  state = inspect(state, 'pump', 'to-corridor');
+  return inspect(state, 'corridor', 'to-control');
 }
 
 const storage = new Map<string, string>();
@@ -79,18 +101,21 @@ describe('Glasspunk state transitions', () => {
     expect(endFromPanel(state).ending).toBe('success');
   });
 
-  it('reaches the failure ending when the maintenance key is used at the console', () => {
+  it('makes the wrong tool recoverable without losing collected progress', () => {
     let state = beginGame(newGame());
     state = inspect(state, 'control', 'shift-log');
     state = inspect(state, 'control', 'mara');
     state = selectItem(state, 'maintenance-key');
     state = inspect(state, 'control', 'console');
 
-    expect(state.screen).toBe('ending');
-    expect(state.ending).toBe('failure');
+    expect(state.screen).toBe('play');
+    expect(state.ending).toBeNull();
+    expect(state.inventory).toContain('maintenance-key');
+    expect(state.evidence).toContain('shift-log');
+    expect(state.message).toContain('Nothing damaged');
   });
 
-  it('unlocks the Case Review terminal only after the control console is repaired', () => {
+  it('requires lights, circulation and a dispatch choice before the final handoff', () => {
     const beforeRepair = beginGame(newGame());
     const locked = inspect(beforeRepair, 'control', 'case-review');
     expect(locked.screen).toBe('play');
@@ -99,7 +124,96 @@ describe('Glasspunk state transitions', () => {
     const repaired = repairPanel();
     expect(repaired.panelSolved).toBe(true);
     expect(repaired.caseReviewUnlocked).toBe(true);
-    expect(inspect(repaired, 'control', 'case-review').screen).toBe('review');
+    expect(inspect(repaired, 'control', 'case-review').screen).toBe('play');
+    expect(openReview().screen).toBe('review');
+  });
+
+  it('keeps the pump door and interlock gated, with no guessed tool or remote action bypass', () => {
+    let state = beginGame(newGame());
+    state = inspect(state, 'control', 'to-corridor');
+    expect(inspect(state, 'corridor', 'to-pump').room).toBe('corridor');
+    state = inspect(repairPanel(), 'control', 'to-corridor');
+    state = inspect(state, 'corridor', 'to-pump');
+    expect(inspect(state, 'pump', 'pump-starter').pumpRunning).toBe(false);
+    state = selectItem(state, 'heat-glove');
+    expect(inspect(state, 'pump', 'return-wheel').returnOpen).toBe(false);
+    state = inspect(state, 'pump', 'pump-card');
+    state = selectItem(state, null);
+    expect(inspect(state, 'pump', 'return-wheel').returnOpen).toBe(false);
+    expect(inspect(state, 'terrace', 'dispatch').dispatchOpen).toBe(false);
+    expect(decideDispatch(state, 'record-first').dispatchChoice).toBeNull();
+    expect(selectItem(beginGame(newGame()), 'heat-glove').selectedItem).toBeNull();
+  });
+
+  it('completes both dispatch branches with protected circulation and different payoffs', () => {
+    for (const choice of ['record-first', 'render-first'] as const) {
+      let state = finishService(choice);
+      expect(state.pumpRunning).toBe(true);
+      expect(state.returnOpen).toBe(true);
+      expect(state.dispatchChoice).toBe(choice);
+      expect(state.evidence).not.toContain('pump-card');
+      state = inspect(state, 'control', 'case-review');
+      state = selectCaseTheory(state, 'industrial-accident');
+      state = toggleCaseEvidence(state, 'furnace-scar');
+      state = toggleCaseEvidence(state, 'repair-outcome');
+      state = submitCaseReview(state);
+      expect(state.ending).toBe('strong');
+      expect(state.message).toContain(choice === 'record-first' ? 'roof render waits' : 'morning queue');
+      expect(state.message).toContain('good mug');
+      const resumed = continueShift(state);
+      expect(resumed.screen).toBe('play');
+      expect(resumed.pumpRunning).toBe(true);
+      expect(resumed.caseReview.selectedEvidence).toEqual(['furnace-scar', 'repair-outcome']);
+    }
+  });
+
+  it('hints orient the player without manufacturing progress, and notes can be reread', () => {
+    const state = beginGame(newGame());
+    const hinted = requestHint(state);
+    expect(hinted.evidence).toEqual([]);
+    expect(hinted.inventory).toEqual([]);
+    expect(hinted.message).toContain('shift log');
+    const logged = inspect(state, 'control', 'shift-log');
+    expect(inspect(logged, 'control', 'shift-log').message).toContain('newer ink');
+  });
+
+  it('round-trips new service progress and dispatch choices', () => {
+    const state = finishService('render-first');
+    expect(saveGame(state)).toBe(true);
+    expect(loadGame()).toEqual(state);
+  });
+
+  it('rejects broken saves and sanitizes unknown, duplicate and unavailable entries', () => {
+    for (const raw of ['{broken', 'null', JSON.stringify({ ...newGame(), room: 'missing' }), JSON.stringify({ ...newGame(), screen: 'missing' })]) {
+      storage.set(SAVE_KEY, raw); expect(loadGame()).toBeNull();
+    }
+    storage.set(SAVE_KEY, JSON.stringify({ ...newGame(), screen: 'play', inventory: ['fuse', 'fuse', '__proto__', 'missing'], evidence: ['shift-log', 'shift-log', 'missing'], selectedItem: 'missing', serviceNotes: ['pump-card', 'pump-card', 'missing'], returnOpen: true, pumpRunning: true, dispatchChoice: 'render-first', caseReview: { theory: 'worker-sabotage', selectedEvidence: ['shift-log', 'shift-log', 'furnace-scar', 'missing'] } }));
+    const loaded = loadGame()!;
+    expect(loaded.inventory).toEqual(['fuse']);
+    expect(loaded.evidence).toEqual(['shift-log']);
+    expect(loaded.serviceNotes).toEqual(['pump-card']);
+    expect(loaded.caseReview.selectedEvidence).toEqual(['shift-log']);
+    expect(loaded.selectedItem).toBeNull();
+    expect(loaded.pumpRunning).toBe(false);
+    expect(loaded.dispatchChoice).toBeNull();
+  });
+
+  it('handles browser storage denial without interrupting play', () => {
+    vi.stubGlobal('localStorage', { getItem: () => { throw new Error('blocked'); }, setItem: () => { throw new Error('blocked'); } });
+    expect(loadGame()).toBeNull();
+    expect(saveGame(beginGame(newGame()))).toBe(false);
+  });
+
+  it('migrates an old review save to the unfinished handoff without losing case notes', () => {
+    storage.set(SAVE_KEY, JSON.stringify({ ...repairPanel(), screen: 'review', caseReview: { theory: 'industrial-accident', selectedEvidence: ['maintenance-memo', 'repair-outcome'], submittedOutcome: null, evaluation: null } }));
+    const state = loadGame()!;
+    expect(state.screen).toBe('play');
+    expect(state.room).toBe('control');
+    expect(state.caseReview.selectedEvidence).toEqual(['maintenance-memo', 'repair-outcome']);
+    expect(state.message).toContain('saved case notes');
+    const bypass = { ...state, screen: 'review' as const };
+    expect(submitCaseReview(bypass).screen).toBe('play');
+    expect(concealFindings(bypass).screen).toBe('play');
   });
 
   it('requires a theory and two supporting selections before submitting', () => {

@@ -1,6 +1,6 @@
 # Project status
 
-**4 October 2026 · wider Lake Erie coast, illustrated Atlas and connection charts.**
+**4 October 2026 · Vesper Station night shift, wider Lake Erie coast and illustrated Atlas.**
 [Earlier status records](reports/project_status_history_2026-10-03.md) retain prior decisions.
 
 ## Available products
@@ -15,9 +15,16 @@
 | Model Lab | Three saved synthetic routing cases and local read-only Shiny explorer. Separate observed Waterville flow display adds no empirical routed case. | [Model guides](data/model_lab/README.md), [input assessment](reports/model_lab_empirical_inputs_2026-10-03.md) |
 | Reader figures | Four architectural ink sketches and a paired crib sketch replace prominent equipment diagrams; interactive web charts carry network/flowchart meaning alongside linked reading sections. Originals/builders retained. | [Current artwork lineage](assets/atlas/visual-refresh/README.md), [earlier derivative lineage](assets/phase17d/public_inset_derivatives.json) |
 | Worktree history | Twenty previously untracked/ignored creative files preserved with exact hashes; seven worktrees remain untouched. | [Inventory](reports/worktree_draft_inventory_2026-10-03.md) |
-| Companion game | Vesper Station remains a separate experimental browser mystery. | [Game](game/index.html), [design](DESIGN.md) |
+| Companion game | Vesper Station: five rooms, two repairs, a terrace dispatch choice, regional CGA scenery and native controls. Separate experimental fiction. | [Game](game/index.html), [design](DESIGN.md), [development record](reports/vesper_station_update_2026-10-04.md) |
 
 ## Next development
+
+Latest game addition: Vesper connects a Toledo-derived service station to the
+Reading Hall and Glass City through one completed night shift. A pump-house
+task gives the existing glove a use; a river terrace adds a queue choice and
+regional silhouettes. Wrong tools are recoverable, full text is readable, and
+older saves are migrated. Seek first-time human play before adding another act.
+[Design and boundaries](DESIGN.md), [checks and publication](reports/vesper_station_update_2026-10-04.md).
 
 Latest focused addition: the coast now connects nuclear power and compute,
 fission/fusion alternatives and waste stewardship with security, fisheries,

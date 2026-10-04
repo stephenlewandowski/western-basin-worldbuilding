@@ -1,8 +1,9 @@
-export type RoomId = 'control' | 'corridor' | 'furnace';
+export type RoomId = 'control' | 'corridor' | 'furnace' | 'pump' | 'terrace';
 export type ItemId = 'maintenance-key' | 'fuse' | 'heat-glove';
 export type ClueId = 'shift-log' | 'breaker-note' | 'station-map' | 'furnace-tag' | 'maintenance-memo' | 'furnace-scar';
 export type NpcId = 'mara' | 'niko';
-export type HotspotAction = 'move' | 'clue' | 'npc' | 'locker' | 'console' | 'case-review' | 'plain';
+export type HotspotAction = 'move' | 'clue' | 'npc' | 'locker' | 'console' | 'case-review' | 'plain' | 'service-note' | 'valve' | 'pump' | 'dispatch' | 'view';
+export type ServiceNoteId = 'pump-card' | 'route-board' | 'dispatch-card';
 export type TheoryId = 'industrial-accident' | 'worker-sabotage' | 'management-cover-up';
 export type CaseEvidenceId = ClueId | 'mara-testimony' | 'niko-report' | 'niko-silence' | 'repair-outcome';
 export type CaseDecision = 'report' | 'conceal' | 'postpone';
@@ -18,6 +19,7 @@ export interface Hotspot {
   clueId?: ClueId;
   itemId?: ItemId;
   npcId?: NpcId;
+  noteId?: ServiceNoteId;
 }
 
 export interface Room {
@@ -51,7 +53,7 @@ export const rooms: Record<RoomId, Room> = {
   control: {
     id: 'control',
     name: 'CONTROL ROOM',
-    description: 'Dead monitors stare through the blackout. The console waits.',
+    description: 'Mara needs the lights back before the morning handoff. Start with the shift log.',
     hotspots: [
       { id: 'console', label: 'CONTROL CONSOLE', rect: { x: 28, y: 66, width: 93, height: 64 }, action: 'console' },
       { id: 'shift-log', label: 'SHIFT LOG', rect: { x: 146, y: 71, width: 38, height: 38 }, action: 'clue', clueId: 'shift-log' },
@@ -71,6 +73,7 @@ export const rooms: Record<RoomId, Room> = {
       { id: 'map', label: 'MAINTENANCE MAP', rect: { x: 207, y: 60, width: 62, height: 51 }, action: 'clue', clueId: 'station-map' },
       { id: 'to-furnace-gallery', label: 'FURNACE GALLERY', rect: { x: 278, y: 35, width: 31, height: 99 }, action: 'move', target: 'furnace' },
       { id: 'to-control', label: 'CONTROL ROOM', rect: { x: 4, y: 35, width: 25, height: 99 }, action: 'move', target: 'control' },
+      { id: 'to-pump', label: 'PUMP HOUSE', rect: { x: 120, y: 104, width: 59, height: 28 }, action: 'move', target: 'pump' },
     ],
   },
   furnace: {
@@ -84,6 +87,35 @@ export const rooms: Record<RoomId, Room> = {
       { id: 'to-corridor', label: 'MAINTENANCE CORRIDOR', rect: { x: 278, y: 35, width: 31, height: 99 }, action: 'move', target: 'corridor' },
     ],
   },
+  pump: {
+    id: 'pump', name: 'PUMP HOUSE',
+    description: 'The lights work. The return pump does not. A tagged wheel sits above a silent heat exchanger.',
+    hotspots: [
+      { id: 'pump-card', label: 'LOOP CARD', rect: { x: 41, y: 32, width: 59, height: 32 }, action: 'service-note', noteId: 'pump-card' },
+      { id: 'return-wheel', label: 'RETURN WHEEL', rect: { x: 114, y: 47, width: 39, height: 35 }, action: 'valve' },
+      { id: 'pump-starter', label: 'PUMP STARTER', rect: { x: 202, y: 56, width: 51, height: 57 }, action: 'pump' },
+      { id: 'to-corridor', label: 'CORRIDOR', rect: { x: 4, y: 35, width: 25, height: 99 }, action: 'move', target: 'corridor' },
+      { id: 'to-terrace', label: 'RIVER TERRACE', rect: { x: 278, y: 35, width: 31, height: 99 }, action: 'move', target: 'terrace' },
+    ],
+  },
+  terrace: {
+    id: 'terrace', name: 'RIVER TERRACE',
+    description: 'Maumee water catches the first light. A dispatch terminal waits beside the route board.',
+    hotspots: [
+      { id: 'route-board', label: 'BASIN ROUTES', rect: { x: 40, y: 63, width: 76, height: 62 }, action: 'service-note', noteId: 'route-board' },
+      { id: 'dispatch-card', label: 'DISPATCH SLIP', rect: { x: 170, y: 102, width: 39, height: 28 }, action: 'service-note', noteId: 'dispatch-card' },
+      { id: 'dispatch', label: 'DISPATCH TERMINAL', rect: { x: 214, y: 75, width: 57, height: 56 }, action: 'dispatch' },
+      { id: 'river-view', label: 'WATCH THE RIVER', rect: { x: 120, y: 28, width: 92, height: 42 }, action: 'view' },
+      { id: 'to-pump', label: 'PUMP HOUSE', rect: { x: 4, y: 35, width: 25, height: 99 }, action: 'move', target: 'pump' },
+    ],
+  },
+};
+
+// Operational notes stay separate from the ten-item blackout case file.
+export const serviceNotes: Record<ServiceNoteId, { title: string; text: string }> = {
+  'pump-card': { title: 'LOOP CARD', text: 'Heat goes somewhere: process hall → exchanger → district loop → return. The standby loop needs the RETURN wheel open before the pump starts. The wheel is warm; use Niko’s glove. The river is not the drain.' },
+  'route-board': { title: 'BASIN ROUTES', text: 'Glass City: roofs and repair yards. River Commons: ferry, reeds and public steps. Industrial Belt: furnaces and borrowed heat. Lake Coast: fish, birds and bright rides. Someone has drawn a tiny roller coaster beside their next day off.' },
+  'dispatch-card': { title: 'DISPATCH SLIP', text: 'One local link, two waiting jobs: a flexible glass-roof render and a maintenance record for the Basin Reading Hall. Send the record now and delay the render, or finish the render and queue the record for morning. Cooling has its own protected supply.' },
 };
 
 export const clues: Record<ClueId, Clue> = {
@@ -93,7 +125,7 @@ export const clues: Record<ClueId, Clue> = {
   },
   'breaker-note': {
     id: 'breaker-note', title: 'BREAKER NOTE',
-    text: 'A grease pencil arrow marks the LEFT socket. The right socket is a trap.',
+    text: 'A grease pencil arrow marks the LEFT socket. Leave the damaged right socket alone.',
   },
   'station-map': {
     id: 'station-map', title: 'MAINTENANCE MAP',
