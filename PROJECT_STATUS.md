@@ -49,6 +49,12 @@ are unchanged. [Grounding and validation](reports/lake_erie_coast_context_2026-1
 
 ## Integration and publication
 
+The wider coast source `f1890bc` is pushed and deployed in
+[Pages run 37178016034](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37178016034).
+Live desktop/mobile checks confirm coast chapters, chart and map reading.
+The [coast record](reports/lake_erie_coast_context_2026-10-04.md) documents sources,
+preservation and validation; earlier publication entries below are history.
+
 Starting main was `ededbb5eee7f9cad70517a6e1a1e3449a4eac928`.
 Cleanup and the original Reading Hall brief/spatial study are integrated in `6c6ed91`.
 The [visual refresh checkpoint](reports/atlas_visual_refresh_2026-10-04.md)

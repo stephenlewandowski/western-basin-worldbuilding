@@ -9,7 +9,7 @@ reading now develop these relationships, with one additional interactive chart.
 Earlier coast art and frozen science remain unchanged. Publication/checks are
 recorded in that report; inspect actual Git state before resuming.
 
-Latest addition: [Web connection charts](atlas_connection_charts_2026-10-04.md).
+Earlier addition: [Web connection charts](atlas_connection_charts_2026-10-04.md).
 The author approved the illustrated maps and architectural sketches but requested
 network views alongside text. Nine scrollable/selectable charts now cover the four
 studies, with related diagrams also available on farm/crane-hall futurescape pages.
@@ -56,7 +56,8 @@ mechanical checks or agent impressions a successful narrative/audience test.
 Do not produce another comic from the failed strip as though continuity were accepted.
 The scientific track remains separate: [empirical input assessment](model_lab_empirical_inputs_2026-10-03.md).
 
-Current validation/publication is in the web connection-chart report. The older strip
+Current validation/publication is in the coast report; earlier chart checks remain
+in the web connection-chart report. The older strip
 publication from `6bd1de1` / Pages run `37116017148` is historical, not current disposition.
 
 Earlier withdrawal/sequel source `6fa1b5d` was pushed; Pages run `37118007574` succeeded for that exact
@@ -70,8 +71,15 @@ Live checks confirm both map modes, all 15 routes, new equipment art, four reada
 studies, daily-flow controls/curve and retained encounters. Comic remains HTTP 404.
 The following documentation-only checkpoint records verified publication.
 
-Latest deployed site source: `28ed2dd`, successful
+Earlier connection-chart site source: `28ed2dd`, successful
 [Pages run 37170758437](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37170758437).
 All nine charts across six routes, switching, edge/endpoint navigation and direct
 crane-hall diagram anchor pass live checks. Both map modes and equipment sketches
 remain; the comic route remains HTTP 404. Documentation checkpoint follows.
+
+Current coast site source: `f1890bc`, successful
+[Pages run 37178016034](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37178016034).
+Eight live desktop/mobile route checks pass across coast, maps, home and Updates;
+all eleven new chart cards, grid edge, future details, filters, zoom and scrolling
+work. Frozen/source art and Model Lab remain unchanged. See the coast report for
+primary references and bounded scenario alternatives.

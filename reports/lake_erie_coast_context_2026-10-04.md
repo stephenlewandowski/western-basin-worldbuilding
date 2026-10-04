@@ -142,4 +142,9 @@ Changed paths: `src/atlas/coast-reading.ts`, `connection-data.ts`,
 `reports/current_phase_handoff.md` and this report. Browser/preservation helpers
 and screenshots remain in ignored `temp/coast-context/`.
 
-Publication is pending integration; local build success alone does not publish.
+Source `f1890bcfcf46dbdd15c9dc44ba4bf21592bc7c2e` is pushed to main.
+[Pages run 37178016034](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37178016034)
+succeeded for that exact source. The same eight desktop/mobile route checks pass
+against the live coast, map, homepage and Updates, including future expansion,
+chart selection/filter/zoom/scroll and both map modes. The following
+documentation-only checkpoint records publication without changing the build.
