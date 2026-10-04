@@ -1,5 +1,11 @@
 # Atlas visual and interface refresh
 
+Follow-up: the author approved the map/sketch treatment but requested connection
+charts alongside the text, rather than complete replacement by tables/lists.
+[Web connection-chart revision](atlas_connection_charts_2026-10-04.md) records
+that clarification and implementation. The account below describes the earlier
+refresh; its artwork and preservation decisions still apply.
+
 4 October 2026. Author-directed revision from starting main
 `e14bb6cec9f14f3092f3ca368ed782b4737ed7d4`.
 

@@ -17,7 +17,7 @@ people, surprising devices and consequential choices make them worth entering.
 | --- | --- | --- |
 | Maps & regions | An illustrated fantasy map beside real geography, eleven landmarks, five regional readings and four research plates | [Explore the basin](https://stephenlewandowski.github.io/western-basin-worldbuilding/maps/) |
 | Futurescapes | Four imagined 2075 places, each with a lead image, working detail and architectural ink sketch | [Atlas futurescapes](https://stephenlewandowski.github.io/western-basin-worldbuilding/#futurescapes) |
-| Studies | Linked, readable studies of watershed pathways, the intake crib, a possible farm and industrial exchange | [Studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/#essays) |
+| Studies | Interactive connection charts and linked readings: watershed pathways, intake crib, farm and industrial exchange | [Studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/#essays) |
 | Model Lab | Synthetic water/nutrient routing diagnostics and a local explorer of saved cases | [Run/data guide](data/model_lab/README.md), [local explorer](src/R/model_lab/explorer/README.md) |
 | Methods | Evidence, uncertainty, image provenance, sources and rights | [Methods](https://stephenlewandowski.github.io/western-basin-worldbuilding/methods/), [research by subject](reports/README.md) |
 | Stories | Two interactive Reading Hall encounters and preserved ordinary-day drafts | [Before the Last Bus](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story), [The Return Visit](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#return-visit), [story workshop](stories/README.md) |

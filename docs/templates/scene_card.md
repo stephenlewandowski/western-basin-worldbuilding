@@ -6,8 +6,8 @@ Existing scientific freezes and source terms still apply.
 
 For Atlas visuals, use the illustrated regional map to introduce character and the
 real-place map to locate evidence. Draw equipment as architectural ink sketches,
-with empty service spaces and brief descriptions outside the image. Explain
-processes through linked headings, steps and tables. Keep quantitative plots
+with empty service spaces and brief descriptions outside the image. Keep networks and flowcharts as readable, scrollable web connection charts. Pair
+them with linked headings, steps and tables for explanations. Keep quantitative plots
 when their axes and units answer a useful question; keep source figures accessible.
 
 **Place and season:** Which part of the basin? What makes it recognizable?

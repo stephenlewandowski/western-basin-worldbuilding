@@ -40,6 +40,8 @@ or calibrated environmental performance.
 
 ## Creative workshop
 
+- [Readable web networks and flowcharts](atlas_connection_charts_2026-10-04.md).
+
 - [Illustrated regions, architectural sketches and readable study interfaces](atlas_visual_refresh_2026-10-04.md).
 
 - [Reading Hall layout, failed-strip disposition, retained agent responses and next investment](reading_hall_comic_reader_simulation_2026-10-03.md).

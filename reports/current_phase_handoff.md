@@ -1,13 +1,13 @@
 # Current handoff
 
-**4 October 2026 · illustrated regions and readable studies**
+**4 October 2026 · interactive connection charts**
 
-Latest addition: [Visual/interface refresh](atlas_visual_refresh_2026-10-04.md).
-The Maps page pairs an illustrated five-region fantasy map with the approved real
-geography. Four equipment sketches and a paired crib sketch replace prominent
-SVG/diagram displays. The four studies use linked sections, steps and tables;
-original source figures remain preserved. Waterville values and flags remain
-unchanged, with the yearly curve available on demand.
+Latest addition: [Web connection charts](atlas_connection_charts_2026-10-04.md).
+The author approved the illustrated maps and architectural sketches but requested
+network views alongside text. Nine scrollable/selectable charts now cover the four
+studies, with related diagrams also available on farm/crane-hall futurescape pages.
+Cards, lines, connection kinds, zoom and native keyboard menus expose connections;
+original diagrams, scientific results and Model Lab mathematics remain unchanged.
 
 Inspect `git status`, [current status](../PROJECT_STATUS.md) and the
 [corrected assessment](reading_hall_comic_reader_simulation_2026-10-03.md).
@@ -49,7 +49,7 @@ mechanical checks or agent impressions a successful narrative/audience test.
 Do not produce another comic from the failed strip as though continuity were accepted.
 The scientific track remains separate: [empirical input assessment](model_lab_empirical_inputs_2026-10-03.md).
 
-Current validation/publication is in the visual refresh report. The older strip
+Current validation/publication is in the web connection-chart report. The older strip
 publication from `6bd1de1` / Pages run `37116017148` is historical, not current disposition.
 
 Earlier withdrawal/sequel source `6fa1b5d` was pushed; Pages run `37118007574` succeeded for that exact
