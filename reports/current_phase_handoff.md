@@ -1,6 +1,13 @@
 # Current handoff
 
-**4 October 2026 · interactive connection charts**
+**4 October 2026 · wider Lake Erie coast**
+
+Latest addition: [Coast grounding and development](lake_erie_coast_context_2026-10-04.md).
+The user requested present/future nuclear impacts, compute, waste, regional
+security, fisheries/migration and Cedar Point. The public coast page and map
+reading now develop these relationships, with one additional interactive chart.
+Earlier coast art and frozen science remain unchanged. Publication/checks are
+recorded in that report; inspect actual Git state before resuming.
 
 Latest addition: [Web connection charts](atlas_connection_charts_2026-10-04.md).
 The author approved the illustrated maps and architectural sketches but requested

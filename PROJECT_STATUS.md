@@ -1,6 +1,6 @@
 # Project status
 
-**4 October 2026 · illustrated Atlas and interactive connection charts.**
+**4 October 2026 · wider Lake Erie coast, illustrated Atlas and connection charts.**
 [Earlier status records](reports/project_status_history_2026-10-03.md) retain prior decisions.
 
 ## Available products
@@ -18,6 +18,12 @@
 | Companion game | Vesper Station remains a separate experimental browser mystery. | [Game](game/index.html), [design](DESIGN.md) |
 
 ## Next development
+
+Latest focused addition: the coast now connects nuclear power and compute,
+fission/fusion alternatives and waste stewardship with security, fisheries,
+migration and future Cedar Point entertainment. Present sources and imagined
+passages remain distinct; original imagery, map coordinates and frozen products
+are unchanged. [Grounding and validation](reports/lake_erie_coast_context_2026-10-04.md).
 
 1. Observe human readers using the map → place → encounter and gauge → day
    journeys. Refine presentation before increasing production volume.

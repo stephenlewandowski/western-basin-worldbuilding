@@ -290,3 +290,24 @@ p{line-height:1.7}
 .connection-filters .kind-possible span,.connection-filters .kind-information span{border-top-style:dashed}.connection-filters .kind-dependency span,.connection-filters .kind-context span{border-top-style:dotted}
 @media(max-width:800px){.connection-reading{grid-template-columns:1fr;gap:25px}.connection-tools label{width:100%;flex-wrap:wrap}.connection-tools select{width:100%}.connection-viewport{height:min(460px,var(--chart-height))}.connection-neighbors{grid-template-columns:1fr}}
 @media(max-width:650px){.essay-page>.connection-explorer{width:min(100% - 36px,1280px)}.connection-explorer{margin-block:25px 40px;padding-block:30px 40px}.connection-reading{padding:20px}.connection-tabs button{flex-grow:1}.connection-viewport{height:min(420px,var(--chart-height))}}
+/* Wider Lake Erie reading: public anchors beside explicitly imagined futures. */
+.coast-reading{padding-block:70px;border-top:1px solid #c9cabf;scroll-margin-top:90px}
+.coast-jumps{display:flex;flex-wrap:wrap;gap:10px;margin:25px 0}
+.coast-jumps a{display:inline-flex;align-items:center;min-height:44px;padding:10px 15px;border:1px solid #adb7ad;font-size:14px;text-decoration:none;background:#f8f4e9}
+.coast-jumps a:hover{border-color:#9b543a;background:#eae3d3}
+.coast-grounding,.coast-record-link{font-size:13px;color:#536163;line-height:1.8}
+.coast-chapter{padding:45px 0;border-top:1px solid #c9cabf;scroll-margin-top:90px}
+.coast-chapter h3{font-size:clamp(29px,3.4vw,43px);margin:12px 0 24px}
+.coast-chapter>p{max-width:950px;font-size:16px;color:#465458;line-height:1.85}
+.coast-chapter a{text-underline-offset:4px}
+.coast-alternatives{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:15px;margin:30px 0}
+.coast-alternatives details{padding:20px;background:#e9e9dc;border:1px solid #c4cabc;align-self:start}
+.coast-alternatives summary,.coast-long-read summary{font-weight:700;cursor:pointer;min-height:44px;line-height:1.6}
+.coast-alternatives p,.coast-long-read p{font-size:14px;line-height:1.8;color:#465458;margin:16px 0 0}
+.coast-long-read{padding:20px;border-block:1px solid #c4cabc;max-width:950px}
+.coast-principle,.coast-scene{max-width:950px;padding:28px;margin:32px 0;background:#eee5d5;border-left:3px solid #a85a3d}
+.coast-principle h4,.coast-scene h4{font-size:28px;margin:12px 0 18px}
+.coast-principle p,.coast-scene p{font-size:15px;line-height:1.85;color:#465458}
+.coast-scene .coast-scene-note{font-size:12px;color:#586668;margin-bottom:0}
+.coast-chapter .connection-explorer{margin-top:40px}
+@media(max-width:800px){.coast-alternatives{grid-template-columns:1fr}.coast-reading{padding-block:45px}.coast-principle,.coast-scene{padding:22px}.coast-jumps a{flex-grow:1}}

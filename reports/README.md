@@ -11,7 +11,7 @@ An old or failed review is not disposable: it may explain the accepted result.
 | --- | --- |
 | Water and hydrography | [Water assumptions](water_system_assumptions.md), [physical hydrography reconciliation](physical_hydrography_reconciliation.md) |
 | Geology and materials | [Materials assumptions](materials_system_assumptions.md), [source record](materials_system_sources.md) |
-| Energy, grids and compute | [Energy assumptions](energy_system_assumptions.md), [cross-system dependencies](energy_cross_system_findings.md) |
+| Energy, grids and compute | [Energy assumptions](energy_system_assumptions.md), [cross-system dependencies](energy_cross_system_findings.md), [Lake Erie coast: current grounding and imagined futures](lake_erie_coast_context_2026-10-04.md) |
 | Observation and information | [Governance and information limits](information_governance_findings.md) |
 | Freight and industry | [Freight evidence](freight_evidence_findings.md), [dependencies](freight_dependency_findings.md) |
 | Ecology | [Ecology](ecology_system_findings.md), [dependencies](ecological_dependency_findings.md) |

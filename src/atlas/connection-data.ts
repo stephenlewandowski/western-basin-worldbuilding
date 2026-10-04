@@ -97,4 +97,38 @@ const crib: ConnectionChart[] = [{ id: 'crib-continuity', title: 'What persists,
   nodes: [node('persists','Persists','Site, crib body and lake setting',40,70),node('modified','Modified','Access, monitoring, operating posture',440,70),node('added','Added / imagined','Data, resilience and service layer',840,70)], edges:[edge('persists','modified','sequence','Interpretation'),edge('modified','added','sequence','Interpretation')]
 }];
 
-export const connectionCharts = { field, farm, industry, crib };
+const coast: ConnectionChart[] = [{
+  id: 'coast-power-custody', title: 'Power, compute & long obligations',
+  intro: 'Follow electricity through the shared grid. Heat and fuel stewardship take separate paths; future supply and reuse remain possibilities.',
+  source: 'reports/lake_erie_coast_context_2026-10-04.md',
+  limit: 'A qualitative regional reading, not a feeder map, current dispatch, cooling budget or waste shipment. Lines give no quantity. Fusion and heat reuse are conditional; the named sites are not shown sharing one circuit.',
+  nodes: [
+    node('fission', 'Fission generation', 'Davis-Besse is a present-day anchor', 50, 60, 'Davis-Besse near Oak Harbor supplies the regional grid. Its current license ends in 2037, rather than establishing the same unit in 2075. New generation would need separate decisions.'),
+    node('grid', 'Shared regional grid', 'Delivery, agreements and other users', 430, 60, 'The 2026 Vistra–Meta announcement provides a commercial relationship. Grid supply is shared; this chart identifies no private line or verified local data-center route.'),
+    node('compute', 'Possible compute halls', 'Electricity becomes work and heat', 810, 60, 'A future load needs an interconnection, reliable service and its own cooling system. Other users still need power; flexible batch work is different from work that cannot wait.'),
+    node('heat', 'Waste heat', 'Most consumed electricity ends here', 1190, 60, 'A hypothetical 10 MW facility drawing continuously for 24 hours uses 240 MWh. Heat quantity alone establishes no useful recovery temperature, local recipient or water demand.'),
+    node('fusion', 'Possible fusion addition', 'A distinct future installation', 50, 430, 'Conditional on dependable commercial generation, licensing, fuel/materials handling and maintenance. A fusion device is not a converted Davis-Besse reactor.'),
+    node('cooling', 'Cooling & water budgets', 'Plant and compute systems differ', 430, 430, 'Davis-Besse already uses a tower with Lake Erie makeup water. Closed-cycle cooling still has water relationships. Compute cooling needs its own budget; no shared loop is established.'),
+    node('habitat', 'Lake & habitat conditions', 'Fish, wetland and migration work', 810, 430, 'Intake/discharge, thermal effects and habitat are separate from radiological monitoring. Records and institutional decisions are needed; energy availability guarantees no ecological improvement.'),
+    node('heat-use', 'Possible heat customer', 'Temperature, distance, timing matter', 1190, 430, 'A compatible heat user might share a future district, but available heat is not automatically usable heat. Buildings and pipes shown as concepts establish no measured benefit.'),
+    node('fuel', 'Spent fission fuel', 'Obligation survives retirement', 50, 800, 'Earlier fission fuel needs continuing management even if a later coast adds fusion. Dry storage is interim custody, not disposal.'),
+    node('custody', 'Licensed custody & records', 'Storage, inspection, responsibility', 430, 800, 'Staff, records and authorized transport remain necessary. Recycling can leave residual radioactive waste. Fusion has its own tritium and activated-material obligations.'),
+    node('destination', 'Authorized disposition', 'A destination and separate decisions', 810, 800, 'A future lawful transfer or disposal pathway needs licensing and community decisions. This is neither a local repository proposal nor a claim that a destination is available.'),
+  ], edges: [
+    edge('fission', 'grid', 'flow', 'Grid electricity', 'A general present-day relationship; no amount, dispatch or future unit lifetime is supplied.'),
+    edge('fusion', 'grid', 'possible', 'Future grid contribution', 'Technology and local deployment must first become dependable; no forecast is implied.'),
+    edge('grid', 'compute', 'possible', 'Future load service', 'An agreement and a physical route are different. No direct generator-to-center edge bypasses the grid.'),
+    edge('compute', 'heat', 'flow', 'Energy dissipates', 'This is a physical principle, not a measured regional heat flow.'),
+    edge('heat', 'heat-use', 'possible', 'Conditional recovery', 'Requires compatible temperature, distance, equipment and demand.'),
+    edge('fission', 'cooling', 'dependency', 'Heat rejection'),
+    edge('fusion', 'cooling', 'dependency', 'Design-specific thermal work', 'Requirements depend on the eventual device; no cooling design is chosen.'),
+    edge('compute', 'cooling', 'dependency', 'Own cooling requirement'),
+    edge('habitat', 'cooling', 'context', 'Ecological conditions matter', 'A relationship to examine, not a measured causal impact or an assurance of protection.'),
+    edge('fission', 'fuel', 'flow', 'Spent-fuel obligation'),
+    edge('fuel', 'custody', 'dependency', 'Continuing stewardship'),
+    edge('fusion', 'custody', 'dependency', 'Separate materials handling', 'Activated materials and tritium do not erase the earlier fission fuel.'),
+    edge('custody', 'destination', 'possible', 'Lawful future transfer', 'No destination, route or disposal performance is established.'),
+  ],
+}];
+
+export const connectionCharts = { field, farm, industry, crib, coast };

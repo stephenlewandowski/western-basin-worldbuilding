@@ -30,6 +30,12 @@ and [Lake Erie Energy & Security Coast 2075](https://stephenlewandowski.github.i
 They are composite **scenarios and design concepts**, without forecasts, surveyed
 sites or demonstrated technology performance.
 
+The [Lake Erie coast](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/lake-erie-energy-security-coast-2075/#coast-field-guide)
+now explores Davis-Besse and nuclear/compute relationships, alternative fission
+and fusion futures, waste stewardship, working security, fish and migratory birds,
+and possible Cedar Point rides. A web chart follows electricity, heat, cooling and
+custody separately. [Dated grounding and boundaries](reports/lake_erie_coast_context_2026-10-04.md).
+
 ## Evidence, models and imagined futures
 
 Sourced observations and reproducibly derived models have stated limits. Scenarios

@@ -53,4 +53,13 @@ describe('source-grounded connection charts', () => {
       expect(chart.edges.some(edge => edge.from === node.id && edge.to === 'exit')).toBe(true);
     }
   });
+
+  it('keeps compute grid-mediated and fusion/heat recovery conditional', () => {
+    const chart = connectionCharts.coast[0];
+    expect(chart.edges.filter(edge => edge.to === 'compute').map(edge => edge.from)).toEqual(['grid']);
+    expect(chart.edges.find(edge => edge.from === 'fusion' && edge.to === 'grid')!.kind).toBe('possible');
+    expect(chart.edges.find(edge => edge.to === 'heat-use')!.kind).toBe('possible');
+    expect(chart.edges.find(edge => edge.to === 'destination')!.kind).toBe('possible');
+    expect(chart.edges.some(edge => edge.from === 'fuel' && edge.to === 'custody')).toBe(true);
+  });
 });
