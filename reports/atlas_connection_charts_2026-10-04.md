@@ -90,4 +90,10 @@ No tracked files removed. Preparation and browser records stay in ignored
   Existing worktrees remain untouched. Model Lab tests need no rerun because
   its code, mathematics, inputs and outputs are unchanged.
 
-Verified live publication will be recorded after deployment.
+Source `28ed2dd7c889b6a23653e2df9b84a3647b9b1d20` is pushed to main.
+[Pages run 37170758437](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37170758437)
+succeeded for that exact source. Live checks verify all nine charts across six
+routes, chart switching, edge and endpoint navigation, the crane-hall diagram
+anchor, retained equipment sketch and both map modes. No script errors occurred;
+the withdrawn comic route remains HTTP 404. The following documentation-only
+checkpoint records publication without changing the deployed build.

@@ -73,3 +73,9 @@ Illustrated-map / architectural-sketch source `82fce91` is pushed and deployed i
 All 15 live routes, both map modes, equipment images, study navigation and retained
 flow controls pass. Source figures and scientific products remain unchanged;
 the comic route remains HTTP 404. [Refresh record](reports/atlas_visual_refresh_2026-10-04.md).
+
+Web connection-chart source `28ed2dd` is deployed successfully in
+[Pages run 37170758437](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37170758437).
+All nine live charts, card/edge/endpoint navigation and the crane-hall diagram
+anchor pass. Maps, sketches and source products remain preserved.
+[Connection-chart record](reports/atlas_connection_charts_2026-10-04.md).

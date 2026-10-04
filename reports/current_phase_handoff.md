@@ -57,8 +57,14 @@ source. The old comic URL returns HTTP 404. Live active pages have no comic
 promotions/images; original encounter, sequel/end-lock/restart and observed-flow
 checks pass. The current visual refresh report records the latest validation and publication.
 
-Latest deployed site source: `82fce91`, successful
+Earlier illustrated-map/sketch site source: `82fce91`, successful
 [Pages run 37167030241](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37167030241).
 Live checks confirm both map modes, all 15 routes, new equipment art, four readable
 studies, daily-flow controls/curve and retained encounters. Comic remains HTTP 404.
 The following documentation-only checkpoint records verified publication.
+
+Latest deployed site source: `28ed2dd`, successful
+[Pages run 37170758437](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37170758437).
+All nine charts across six routes, switching, edge/endpoint navigation and direct
+crane-hall diagram anchor pass live checks. Both map modes and equipment sketches
+remain; the comic route remains HTTP 404. Documentation checkpoint follows.
