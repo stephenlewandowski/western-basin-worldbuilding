@@ -15,9 +15,9 @@ people, surprising devices and consequential choices make them worth entering.
 
 | Area | What it offers | Start here |
 | --- | --- | --- |
-| Maps & regions | A basin map, eleven real landmarks, five overlapping regional readings and four earlier research plates | [Explore the basin](https://stephenlewandowski.github.io/western-basin-worldbuilding/maps/) |
-| Futurescapes | Four imagined 2075 places, each with a lead image, working detail and system inset | [Atlas futurescapes](https://stephenlewandowski.github.io/western-basin-worldbuilding/#futurescapes) |
-| Studies | Watershed pathways, the Toledo intake crib, a possible farm and industrial exchange | [Studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/#essays) |
+| Maps & regions | An illustrated fantasy map beside real geography, eleven landmarks, five regional readings and four research plates | [Explore the basin](https://stephenlewandowski.github.io/western-basin-worldbuilding/maps/) |
+| Futurescapes | Four imagined 2075 places, each with a lead image, working detail and architectural ink sketch | [Atlas futurescapes](https://stephenlewandowski.github.io/western-basin-worldbuilding/#futurescapes) |
+| Studies | Linked, readable studies of watershed pathways, the intake crib, a possible farm and industrial exchange | [Studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/#essays) |
 | Model Lab | Synthetic water/nutrient routing diagnostics and a local explorer of saved cases | [Run/data guide](data/model_lab/README.md), [local explorer](src/R/model_lab/explorer/README.md) |
 | Methods | Evidence, uncertainty, image provenance, sources and rights | [Methods](https://stephenlewandowski.github.io/western-basin-worldbuilding/methods/), [research by subject](reports/README.md) |
 | Stories | Two interactive Reading Hall encounters and preserved ordinary-day drafts | [Before the Last Bus](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story), [The Return Visit](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#return-visit), [story workshop](stories/README.md) |
@@ -51,9 +51,10 @@ preserve reproducibility. [Research records](reports/README.md) and the
 Original code/documentation use the repository's MIT license; third-party data and
 imagery retain their own terms. See [licensing notes](docs/references/DATA_AND_ASSET_LICENSING.md).
 
-The map is a primary way into the world: real geography, overlapping regional
-character, then connected systems and possible lives. Composite futures receive
-no exact site pins. [Map sources and reproduction](assets/atlas/region/README.md).
+Maps are a primary way into the world: illustrated regional character beside real
+geography, then connected systems and possible lives. Switch between the two
+readings on the same page. Composite futures receive
+no exact site pins. [Geographic sources](assets/atlas/region/README.md), [concept-art lineage](assets/atlas/visual-refresh/README.md).
 
 ## In development
 

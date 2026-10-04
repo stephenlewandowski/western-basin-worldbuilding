@@ -1,12 +1,13 @@
 # Current handoff
 
-**3 October 2026 · map-led Atlas and observed-flow interface**
+**4 October 2026 · illustrated regions and readable studies**
 
-Latest addition: [Maps and evidence](atlas_maps_and_evidence_2026-10-03.md). Maps
-now lead from the homepage/navigation, with a sourced geographic derivative,
-five regional readings, eleven landmarks, four earlier research plates and a
-retained Waterville day explorer. No accepted scientific product or Model Lab
-mathematics changed. Publication and validation are recorded in that report.
+Latest addition: [Visual/interface refresh](atlas_visual_refresh_2026-10-04.md).
+The Maps page pairs an illustrated five-region fantasy map with the approved real
+geography. Four equipment sketches and a paired crib sketch replace prominent
+SVG/diagram displays. The four studies use linked sections, steps and tables;
+original source figures remain preserved. Waterville values and flags remain
+unchanged, with the yearly curve available on demand.
 
 Inspect `git status`, [current status](../PROJECT_STATUS.md) and the
 [corrected assessment](reading_hall_comic_reader_simulation_2026-10-03.md).
@@ -51,7 +52,7 @@ The scientific track remains separate: [empirical input assessment](model_lab_em
 Current validation/publication is in the corrected assessment. The older strip
 publication from `6bd1de1` / Pages run `37116017148` is historical, not current disposition.
 
-Current source `6fa1b5d` is pushed; Pages run `37118007574` succeeded for that exact
+Earlier withdrawal/sequel source `6fa1b5d` was pushed; Pages run `37118007574` succeeded for that exact
 source. The old comic URL returns HTTP 404. Live active pages have no comic
 promotions/images; original encounter, sequel/end-lock/restart and observed-flow
-checks pass. The following documentation checkpoint records verified publication.
+checks pass. The current visual refresh report records the latest validation and publication.

@@ -1,6 +1,6 @@
 # Project status
 
-**3 October 2026 · source/product checkpoint.**
+**4 October 2026 · illustrated Atlas and readable studies.**
 [Earlier status records](reports/project_status_history_2026-10-03.md) retain prior decisions.
 
 ## Available products
@@ -9,11 +9,11 @@
 | --- | --- | --- |
 | Research foundation | Frozen Phase 1–16 products and provenance preserved. | [Research by subject](reports/README.md) |
 | Atlas | Four finished 2075 futurescapes and four studies; map-led regional explorer, earlier-map collection, Methods, Updates and Roadmap. | [Atlas](https://stephenlewandowski.github.io/western-basin-worldbuilding/) |
-| Maps and observations | Eleven sourced landmarks, five overlapping regional readings, four preserved research plates and a day-by-day Waterville 2025 flow explorer. No new empirical routed model. | [Map derivative](assets/atlas/region/README.md), [development record](reports/atlas_maps_and_evidence_2026-10-03.md) |
+| Maps and observations | Illustrated five-region fantasy map beside real geography, eleven sourced landmarks, four preserved research plates and a day-by-day Waterville 2025 flow explorer. No new empirical routed model. | [Map derivative](assets/atlas/region/README.md), [development record](reports/atlas_maps_and_evidence_2026-10-03.md) |
 | Basin Reading Hall | Composition A is the user-selected canonical visual orientation, with qualitative counter/spine/return/service relationships locked. Architectural detail remains in development. | [Workshop](atlas/basin-reading-hall/index.html), [continuity plan](docs/phase_briefs/hf05_reading_hall_continuity_lock.md) |
 | Stories | Before the Last Bus interactive encounter retained; The Return Visit adds a completed public correction and stay/leave consequences. The strip failed human-author continuity review and is withdrawn. | [Encounters](atlas/basin-reading-hall/index.html), [corrected assessment](reports/reading_hall_comic_reader_simulation_2026-10-03.md), [story workshop](stories/README.md) |
 | Model Lab | Three saved synthetic routing cases and local read-only Shiny explorer. Separate observed Waterville flow display adds no empirical routed case. | [Model guides](data/model_lab/README.md), [input assessment](reports/model_lab_empirical_inputs_2026-10-03.md) |
-| Reader insets | Three annotation-only derivatives now use six numbered groups and responsive descriptions; original diagrams/builders retained. | [Lineage](assets/phase17d/public_inset_derivatives.json) |
+| Reader figures | Four architectural ink sketches and a paired crib sketch replace prominent equipment diagrams; linked study sections replace dense flowchart plates. Originals/builders retained. | [Current artwork lineage](assets/atlas/visual-refresh/README.md), [earlier derivative lineage](assets/phase17d/public_inset_derivatives.json) |
 | Worktree history | Twenty previously untracked/ignored creative files preserved with exact hashes; seven worktrees remain untouched. | [Inventory](reports/worktree_draft_inventory_2026-10-03.md) |
 | Companion game | Vesper Station remains a separate experimental browser mystery. | [Game](game/index.html), [design](DESIGN.md) |
 
@@ -30,7 +30,7 @@
 4. Add a small conservation view from saved Model Lab ledgers if readers want to
    inspect assumptions in the browser; preserve the existing mathematics.
 
-[Map development assessment](reports/atlas_maps_and_evidence_2026-10-03.md) and
+[Visual/interface refresh](reports/atlas_visual_refresh_2026-10-04.md), [map development assessment](reports/atlas_maps_and_evidence_2026-10-03.md) and
 [Reading Hall assessment](reports/reading_hall_comic_reader_simulation_2026-10-03.md).
 
 ## Boundaries and history
@@ -45,7 +45,7 @@
 
 Starting main was `ededbb5eee7f9cad70517a6e1a1e3449a4eac928`.
 Cleanup and the original Reading Hall brief/spatial study are integrated in `6c6ed91`.
-The [comic checkpoint](reports/reading_hall_comic_reader_simulation_2026-10-03.md)
+The [visual refresh checkpoint](reports/atlas_visual_refresh_2026-10-04.md)
 records current validation/publication; use actual Git status and the Pages workflow
 for current state. A local build alone is not publication.
 

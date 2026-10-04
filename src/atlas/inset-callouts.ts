@@ -3,7 +3,7 @@ const groups = {
     ['Retained wall', 'Older masonry and concrete remain visible beneath the added canopy.'],
     ['Replaceable glass', 'Separate optical cassettes include an open replacement position.'],
     ['Attachment + service rib', 'Mechanical attachment and a service route occupy their own part of the roof.'],
-    ['Data + electrical services', 'Blue dashed optical/data and amber dash-dot electrical paths remain distinct interfaces.'],
+    ['Data + electrical services', 'Data and electrical services remain distinct interfaces, with their own maintenance needs.'],
     ['Passage + maintenance', 'Public passage and maintenance need separate clearance and conditional access.'],
     ['Property break', 'The canopy stops before an unconnected neighboring structure; agreement is not assumed.'],
   ],
@@ -20,11 +20,11 @@ const groups = {
     ['Cell + empty berth', 'A removable opaque cell and isolated berth make replacement and interruption visible.'],
     ['Staffed qualification', 'A protected optical gallery and human desk occupy a distinct workspace.'],
     ['Accessible services', 'Heat and water interfaces include service access and outside dependencies.'],
-    ['Separate material bays', 'Left to right: incoming, held/rejected, conditionally qualified and outgoing residual material. Qualification does not guarantee use.'],
+    ['Separate material bays', 'Incoming, held/rejected, conditionally qualified and outgoing residual material have separate spaces. Qualification does not guarantee use.'],
     ['Outside freight', 'Supplies and residual handling cross the hall’s boundary.'],
   ],
 } as const;
 
 export function insetCallouts(key: keyof typeof groups): string {
-  return `<ol class="inset-callouts" aria-label="Six numbered areas in the section">${groups[key].map(([title, text], i) => `<li><strong>${String(i + 1).padStart(2, '0')} / ${title}</strong><span>${text}</span></li>`).join('')}</ol>`;
+  return `<ol class="inset-callouts" aria-label="Six equipment relationships">${groups[key].map(([title, text], i) => `<li><strong>${String(i + 1).padStart(2, '0')} / ${title}</strong><span>${text}</span></li>`).join('')}</ol>`;
 }

@@ -4,6 +4,12 @@ Use this small card for a new story, comic or game scene. Fill it in once, then
 make the scene. Keep deeper research in linked records rather than in the dialogue.
 Existing scientific freezes and source terms still apply.
 
+For Atlas visuals, use the illustrated regional map to introduce character and the
+real-place map to locate evidence. Draw equipment as architectural ink sketches,
+with empty service spaces and brief descriptions outside the image. Explain
+processes through linked headings, steps and tables. Keep quantitative plots
+when their axes and units answer a useful question; keep source figures accessible.
+
 **Place and season:** Which part of the basin? What makes it recognizable?
 
 **Person and immediate want:** What do they need today, beyond understanding a system?

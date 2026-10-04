@@ -1,0 +1,158 @@
+{
+  "created": "2026-10-04",
+  "generator": "Built-in imagegen",
+  "classification": "K / design concept",
+  "webp": {
+    "quality": 88,
+    "effort": 6,
+    "resize": false
+  },
+  "limits": "Illustrated character and inferred geometry; no measurements, engineering dimensions, performance or new canon. Retained sources and scientific products unchanged.",
+  "assets": [
+    {
+      "file": "illustrated_regions_2075.webp",
+      "sha256": "540dc5834c9e2ae5a6119b85d32386a11a062a6c7ca2efc3a2965e43d1252d8b",
+      "bytes": 693706,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source_png": "world.png",
+      "source_sha256": "1e17289675eff18e45ad37470c940be479a5499cdd8340a97d34285af72df5e8",
+      "references": [
+        {
+          "path": "assets/atlas/region/region_explorer.json",
+          "sha256": "b845875dea2ae40cfd43fe2fb98f2ea2c9322f8fbe7a05a000494974bdfaef5d"
+        },
+        {
+          "path": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_03.png",
+          "sha256": "8a9006578979056a46f095b54c72c6d0a1c58194b6a91c80021a3d1288b115b1"
+        },
+        {
+          "path": "source_pngs.zip!geography_reference.png",
+          "sha256": "19b7943eb226ab77d1af9479f6000936ce2111e9b47f07937aa71f9704d7afcf"
+        },
+        {
+          "path": "source_pngs.zip!geography_reference.svg",
+          "sha256": "5745dc8d6cd06ccd9c487bf4aae1eb353e148da761c87a998c3552113e8f2493"
+        }
+      ],
+      "prompt": "Create a finished Tolkienesque fantasy-atlas map of a real Great Lakes region reimagined for 2075. Use case: stylized-concept. Asset: a beautiful explorable regional world map, landscape 3:2, detailed ink and restrained wash on warm ivory drawing paper. Title exactly \"THE GLASS BASIN\" and small subtitle \"Western Basin · 2075\". Image 1 is GEOGRAPHIC REFERENCE ONLY: preserve the north-up relative shoreline, lake, Toledo river-mouth context, mainland Port Clinton coast and island relationship. Ignore its watershed polygon edges/colors. Image 2 is ART STYLE ONLY: use its fine architectural ink, faded blue wash, natural paper texture and detailed little bridge/roof/boat/reed drawings; DO NOT copy its erroneous map, six regions, text or technologies.\nThe map should feel like an inviting fantasy novel endpaper by an excellent cartographer, with small bird's-eye town silhouettes, glass-canopy roofs, old bridge forms, industrial crane yards, low fields with drainage channels, woodlots and restrained marsh reeds. Flat regional land, no mountains or fantasy castles. Lake Erie across the upper right, the Maumee curving from lower left toward Toledo, mainland working coast extending east/southeast toward Port Clinton. Catawba stays a mainland peninsula. Do not detach it as an island. Only loose fading character areas, no colored territorial polygons, no border walls and no giant blanket swamp.\nPlace FIVE unmistakable hand-lettered regional names across spacious appropriate areas, exactly:\n\"GLASS CITY CORE\" around Toledo near the river mouth;\n\"MAUMEE RIVER COMMONS\" following the river southwest;\n\"LAKE ERIE ENERGY & SECURITY COAST\" along the mainland coast east of Toledo;\n\"BLACK SWAMP COUNTRY\" over the open agricultural lower half, scattered reeds not universal swamp;\n\"GREAT LAKES INDUSTRIAL BELT\" along branching yards/corridors east and south of Toledo.\nKeep these names readable, without overlapping buildings. Small real reference labels only \"Toledo\", \"Waterville\", \"Port Clinton\", \"Lake Erie\", \"Maumee River\". Symbolic future architecture is a vignette, not a exact-site map pin. A small compass rose, cartouche and restrained corner ink ornament. Delicate lake wave marks, occasional faded ochre field wash, muted blue and warm black ink. Atmospheric, crafted, precise enough to recognize this place, not GIS styling or a dashboard. No people, no stick figures, no dragons, no neon, no literal futuristic tower forest, no engineering dimensions, no legend clutter or numeric scale bar. The map is imagined regional character, not a scientific measurement."
+    },
+    {
+      "file": "canopy_blueprint.webp",
+      "sha256": "08b42a8cde9013ec93818e478a108ea680a5479fd06adf5f3568d01183b72082",
+      "bytes": 661314,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source_png": "canopy.png",
+      "source_sha256": "d1f675dc847587f4a3a061c641ff182017a5870ab12c2ba2549aa1207c23e355",
+      "references": [
+        {
+          "path": "assets/phase17d/hf01/hf01_glass_city_2075_hero_wide.webp",
+          "sha256": "88baa48bd8fb2385708300618507b9fcb8129c2cacbd45df79c1508c46503df9"
+        },
+        {
+          "path": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_03.png",
+          "sha256": "8a9006578979056a46f095b54c72c6d0a1c58194b6a91c80021a3d1288b115b1"
+        }
+      ],
+      "prompt": "Use case: scientific-educational / architectural concept sketch. Create a beautiful BLUEPRINT-TYPE SKETCH of the GLASS CITY CANOPY AND RETAINED WALL, landscape 3:2. Image 1 is the accepted visual form reference: preserve older brick wall, triangular/patterned optical glazing cassettes, structural service ribs and an obvious replacement event. Image 2 supplies hand-drawn architectural ink craft ONLY. This is a qualitative speculative 2075 equipment design study, not measured engineering.\nDraw one spacious precise-looking axonometric cutaway of the canopy attachment and a short street segment on warm off-white paper, in fine indigo drafting ink, delicate cross-hatching, pale blue glass wash and faint construction lines. Real architect's sketchbook rather than blocky vector art. Detail bolts, joints, framed glazing and a walkable service rib, with an empty cassette position and one detached cassette offset above it. Retained brick clearly contrasts with the new attached system. Separate optical/data conduit from electrical services; separate clear public passage below from staff access to the service rib. At the right, the canopy STOPS before a distinct unconnected neighboring wall, with a visible property gap. No bridging that gap. Include one small enlarged joint detail in a bottom corner. EMPTY SPACES, NO PEOPLE, NO STICK FIGURES, NO HUMAN SILHOUETTES.\nComposition not a diagram wall: central drawing about 70% of page, white margins, only title \"CANOPY / RETAINED WALL\" and small note \"Concept sketch · not to scale\". NO dimensions, numerical performance, fake engineering stamps or long labels. Number only 01–06 with fine leaders: 01 brick wall;02 cassette/empty position;03 attachment and service rib;04 separate data/electrical services;05 public passage versus staff maintenance;06 unconnected property gap. The six numbers each appear once, clearly separated. Do not exaggerate devices into skyscrapers or enclose the public street. No photorealistic render, no filled vector rectangles, no comic characters, no arrows claiming energy or cooling performance. Visual sophistication like an illustrated architectural monograph."
+    },
+    {
+      "file": "industry_blueprint.webp",
+      "sha256": "5049f028bd6b01cb98a9c3173ecb40d86e953e3a87404e244d8dd3270fe51289",
+      "bytes": 686856,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source_png": "industry.png",
+      "source_sha256": "2353d6ab313f5b35d73f06542ddd292cf246be4522296711be0a9503bfce6953",
+      "references": [
+        {
+          "path": "assets/phase17d/hf04/hf04_industrial_metabolism_2075_hero_wide.webp",
+          "sha256": "507880ef971ddc75c1953478952d64ed4dd4f617d9feb972ddbd662b26f4f317"
+        },
+        {
+          "path": "source_pngs.zip!canopy.png",
+          "sha256": "d1f675dc847587f4a3a061c641ff182017a5870ab12c2ba2549aa1207c23e355"
+        }
+      ],
+      "prompt": "Use case: architectural concept illustration. Landscape 3:2. Fine indigo drafting ink, restrained pale-blue wash, cross-hatched machine details and warm ivory paper. Use the reference canopy sketch only for this visual language, and the scene reference for related material/form. A spacious axonometric cutaway with six legible leaders numbered 01–06, each once, and one small enlarged joint detail. Real drawn machinery and architecture, no vector boxes, no people, no stick figures, no silhouettes, no fake dimensions, no engineering stamps or numerical performance claims. Only specified title plus small \"Concept sketch · not to scale\"; keep all explanatory prose outside image.\nTitle \"QUALIFICATION / CRANE HALL\".\nShow an older brick hall with retained overhead crane frame, a removable opaque enclosed processing cell and adjacent EMPTY ISOLATED service berth. Separate desk/workbench qualification workspace, accessible exposed heat and water services. Four separated material bays: incoming, held/rejected, qualified, outgoing residual; distinguish them spatially without long text. External freight entrance and rail/cart pathway continues beyond hall. Six leaders:01 retained hall/crane;02 cell and empty berth;03 qualification bench;04 accessible services;05 four material bays;06 external freight. The stopped machinery is serviced, not proven to work. No glowing reactors or guaranteed closed-loop reuse."
+    },
+    {
+      "file": "farm_blueprint.webp",
+      "sha256": "fe0605699cdf534dcb0f0fec6a3198d254b6ef528ffc52ef48badc704c0f3722",
+      "bytes": 692158,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source_png": "farm.png",
+      "source_sha256": "014be33398720f7753672cdb9ad6a56d0a16d27584015e421ed3a1f913e9e11d",
+      "references": [
+        {
+          "path": "assets/phase17d/hf03/hf03_maumee_bio_ag_2075_hero_wide.webp",
+          "sha256": "322c3018cbd71da60d0d8b5cfb3e421d54ce149373e3e7482f551a6d2e6fae42"
+        },
+        {
+          "path": "source_pngs.zip!canopy.png",
+          "sha256": "d1f675dc847587f4a3a061c641ff182017a5870ab12c2ba2549aa1207c23e355"
+        }
+      ],
+      "prompt": "Use case: architectural concept illustration. Landscape 3:2. Fine indigo drafting ink, restrained pale-blue wash, cross-hatched machine details and warm ivory paper. Use the reference canopy sketch only for this visual language, and the scene reference for related material/form. A spacious axonometric cutaway with six legible leaders numbered 01–06, each once, and one small enlarged joint detail. Real drawn machinery and architecture, no vector boxes, no people, no stick figures, no silhouettes, no fake dimensions, no engineering stamps or numerical performance claims. Only specified title plus small \"Concept sketch · not to scale\"; keep all explanatory prose outside image.\nTitle \"FIELD / WORKING SEAM\".\nShow a substantial OPEN UNROOFED cultivated field contiguous with a narrow service seam, a SINGLE selective translucent propagation segment, a stopped cultivation machine in a maintenance berth beside unavailable segment, a separate opaque contained processing shed with distinct hold/reject outward route. In foreground an older manually accessible drainage gate, ordinary ditch and a distinct small reed wetland/storage pocket. An external parts/supply lane continues beyond page. Crop ground must dominate, not a greenhouse enclosure. Six leaders:01 open cultivation;02 selective propagation;03 stopped machine/service berth;04 contained processing/held route;05 old gate/ditch/distinct wetland;06 outside supplies/outward access. No claimed nutrient capture, yields, autonomous success or ubiquitous swamp."
+    },
+    {
+      "file": "coast_blueprint.webp",
+      "sha256": "a98068be0f08a67101f91033c3134aae2c6d9dfb312f439dcf694f85ccde4569",
+      "bytes": 677806,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source_png": "coast.png",
+      "source_sha256": "43b10595ad75d5a67d20eff518cbaee72d19c71da3bbbcfe041d89a7b68ab3cc",
+      "references": [
+        {
+          "path": "assets/phase17d/hf02/hf02_lake_erie_energy_security_coast_2075_hero_wide.webp",
+          "sha256": "d59707bdb273deb3c20ffbd70d57ad5e03bec7e9d6198fc9265eaf2a73867a42"
+        },
+        {
+          "path": "source_pngs.zip!canopy.png",
+          "sha256": "d1f675dc847587f4a3a061c641ff182017a5870ab12c2ba2549aa1207c23e355"
+        }
+      ],
+      "prompt": "Use case: architectural concept illustration. Landscape 3:2. Fine indigo drafting ink, restrained pale-blue wash, cross-hatched machine details and warm ivory paper. Use the reference canopy sketch only for this visual language, and the scene reference for related material/form. A spacious axonometric cutaway with six legible leaders numbered 01–06, each once, and one small enlarged joint detail. Real drawn machinery and architecture, no vector boxes, no people, no stick figures, no silhouettes, no fake dimensions, no engineering stamps or numerical performance claims. Only specified title plus small \"Concept sketch · not to scale\"; keep all explanatory prose outside image.\nTitle \"QUAY / RECOVERY TERRACE\".\nShow an exposed mainland working quay beside the open lake. Landward delivery lane enters a clearly separated receiving desk/threshold, then opaque utility rooms and an unavailable empty bay. A removable weather screen protects a comparison workbench. A stopped small CIVILIAN ENVIRONMENTAL SURVEY craft sits in a DRY above-water recovery cradle, with maintenance access and visible hull fouling. Exposed quay masonry also has fouling/weather marks. Open water extends beyond. Six leaders:01 landward approach/receiving threshold;02 separate utility rooms/unavailable bay;03 weather screen/comparison bench;04 stopped survey craft/dry cradle;05 exposed weathered quay;06 open lake. No armed craft, security weapons, submerged cradle, demonstrated calibration or specific energy generator."
+    },
+    {
+      "file": "crib_blueprint.webp",
+      "sha256": "4dd9b529abfdee0bce19d35f5aef7c5851d129683c31e6a7eab09460a6bfe169",
+      "bytes": 516328,
+      "dimensions": [
+        1536,
+        1024
+      ],
+      "source_png": "crib.png",
+      "source_sha256": "528b76e66c538b5ae78b8b36cb882548316c7a0bb41966f6bb0dfdae9ef9de12",
+      "references": [
+        {
+          "path": "outputs/atlas/prototypes/2_3_toledo_crib/2_3b_current_structure.png",
+          "sha256": "2152cbb45b9d2795457ce5617a8860a5bdc432104ef4ff07e45cdc4a9564cc35"
+        },
+        {
+          "path": "source_pngs.zip!canopy.png",
+          "sha256": "d1f675dc847587f4a3a061c641ff182017a5870ab12c2ba2549aa1207c23e355"
+        }
+      ],
+      "prompt": "Use case: architectural concept illustration. Landscape 3:2. Fine indigo drafting ink, restrained pale-blue wash, cross-hatched machine details and warm ivory paper. Use the reference canopy sketch only for this visual language, and the scene reference for related material/form. A spacious axonometric cutaway with six legible leaders numbered 01–06, each once, and one small enlarged joint detail. Real drawn machinery and architecture, no vector boxes, no people, no stick figures, no silhouettes, no fake dimensions, no engineering stamps or numerical performance claims. Only specified title plus small \"Concept sketch · not to scale\"; keep all explanatory prose outside image.\nTitle \"INTAKE CRIB / CONTINUITY\".\nDraw two equally sized side-by-side architectural study views labelled \"Present structure\" and \"Possible 2075\". Use IDENTICAL approximate circular concrete crib bodies and ring railings with the same central low/truncated-pyramid structure from the reference, same angle, same scale and lake waterline. On right add restrained sensing mast, small communications module, service-access/inspection platform and compact enclosed service cabinet. Do not replace the body, make a huge tower, or invent underwater intake engineering. Title and two short panel labels only, no numbered callouts needed for this pair; omit01–06. Faint reference lines align shared base geometry. Location is real but geometry is inferred, not measured. No published engineering proposal, capacity or resilience success."
+    }
+  ],
+  "source_archive": {
+    "file": "source_pngs.zip",
+    "sha256": "3ba05b7b8f3a663c7501707ef2e7efbd1a8d35b8c3daf150bbfe64d6783a4335",
+    "bytes": 23495396
+  }
+}
