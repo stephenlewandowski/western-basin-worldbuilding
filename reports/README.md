@@ -40,6 +40,8 @@ or calibrated environmental performance.
 
 ## Creative workshop
 
+- [The Orange Band: standalone encounter, fictional card and publication record](orange_band_implementation_2026-10-04.md).
+
 - [Vesper Station: five-room night shift, game design and publication](vesper_station_update_2026-10-04.md).
 
 - [Readable web networks and flowcharts](atlas_connection_charts_2026-10-04.md).
@@ -60,7 +62,7 @@ or calibrated environmental performance.
 - [Lived-world condition packets](phase17b_lived_world_condition_packets.md) and [role/story seeds](phase17c_role_and_story_seed_matrix.md): conditional/provisional material.
 - [Futurescape concepts](phase17d_hero_futurescape_concepts.md) and [visual retrospective](phase17d_three_hero_visual_retrospective.md).
 - Production/source records: [Glass City](phase17d_hf01_final_production_notes.md), [Maumee Bio-Ag](phase17d_hf03_final_production_notes.md), [Industrial Metabolism](phase17d_hf04_final_production_notes.md), [Lake Erie Coast](phase17d_hf02_final_production_notes.md).
-- Basin Reading Hall: [continuity lock](../docs/phase_briefs/hf05_reading_hall_continuity_lock.md) and [selected-orientation plan](../assets/phase17d/hf05/hf05_orientation_a_continuity.svg); [original production brief](../docs/phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md) and [preceding spatial study](../assets/phase17d/hf05/hf05_basin_reading_hall_spatial_study.svg) preserved. Two interactive encounters are available. The comic failed human-author continuity review and is withdrawn; its assets/sources are preserved. Complete architectural detail remains in development.
+- Basin Reading Hall: [continuity lock](../docs/phase_briefs/hf05_reading_hall_continuity_lock.md) and [selected-orientation plan](../assets/phase17d/hf05/hf05_orientation_a_continuity.svg); [original production brief](../docs/phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md) and [preceding spatial study](../assets/phase17d/hf05/hf05_basin_reading_hall_spatial_study.svg) preserved. [The Orange Band](../stories/the_orange_band.md) is the standalone encounter approved for publication on 5 October; earlier bus/shirt scenes are archived. The comic failed human-author continuity review and remains withdrawn. Complete architectural detail remains in development.
 - [Toledo intake crib coordinate resolution](toledo_water_intake_crib_coordinate_resolution.md).
 
 ## Cleanup and history

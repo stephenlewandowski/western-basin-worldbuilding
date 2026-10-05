@@ -311,3 +311,57 @@ p{line-height:1.7}
 .coast-scene .coast-scene-note{font-size:12px;color:#586668;margin-bottom:0}
 .coast-chapter .connection-explorer{margin-top:40px}
 @media(max-width:800px){.coast-alternatives{grid-template-columns:1fr}.coast-reading{padding-block:45px}.coast-principle,.coast-scene{padding:22px}.coast-jumps a{flex-grow:1}}
+
+/* The Orange Band: a readable paper artifact, separate from scientific tools. */
+.orange-band-scene .scene-prose,
+.orange-band-scene .scene-play { min-width: 0; }
+.orange-band-scene .scene-message,
+.orange-band-scene .scene-outcome blockquote {
+  margin: 20px 0; border-left: 3px solid #c87959; padding: 8px 0 8px 20px;
+}
+.orange-band-scene blockquote p { margin: 0; }
+.orange-band-scene .scene-prompt { font-size: 14px; line-height: 1.6; margin: 20px 0 16px; color: #4b5e60; }
+.orange-band-scene .scene-choice,
+.orange-band-scene .scene-ending button { min-height: 48px; }
+.water-legend { padding: 18px; background: #faf8f0; border: 1px solid #b9c2b9; }
+.water-legend h3 { font-family: inherit; font-size: 16px; line-height: 1.4; margin: 0 0 14px; }
+.water-legend dl { display: grid; gap: 12px; margin: 0; }
+.water-legend dl > div { display: grid; grid-template-columns: 150px 1fr; gap: 10px; }
+.water-legend dt { display: flex; align-items: center; gap: 9px; font-size: 13px; font-weight: 700; }
+.water-legend dd { margin: 0; font-size: 13px; line-height: 1.5; color: #415759; }
+.card-symbol { flex: 0 0 24px; width: 24px; height: 13px; display: inline-block; }
+.blue-dot { flex-basis: 13px; width: 13px; border-radius: 50%; background: #2675a8; margin-inline: 5.5px; }
+.orange-band { background: #efbb7a; border: 1px solid #965219; }
+.gray-coverage { background: repeating-linear-gradient(135deg, #d3d4d1 0 4px, #a6aaa7 4px 5px); border: 1px solid #6f7876; }
+.card-safety { font-size: 14px; line-height: 1.55; font-weight: 600; padding-top: 14px; margin: 14px 0 0; border-top: 1px solid #c9cfc7; color: #203039; }
+.water-card-open { width: 100%; display: flex; justify-content: space-between; gap: 15px; margin-top: 12px; padding: 14px 16px; font: inherit; font-weight: 600; font-size: 15px; text-align: left; background: #fffdf7; border: 1px solid #254b53; color: #254b53; cursor: pointer; min-height: 48px; }
+.water-card-open:hover { background: #e1e8e0; }
+.water-card-dialog { width: min(760px, calc(100% - 24px)); max-width: none; max-height: calc(100dvh - 32px); margin: auto; padding: 26px; border: 1px solid #87968e; background: #f6f2e9; color: #203039; overflow-y: auto; box-shadow: 0 16px 70px #10212b55; }
+.water-card-dialog::backdrop { background: #10212bbc; }
+.water-card-is-open { overflow: hidden; }
+.water-card-header { display: flex; justify-content: space-between; align-items: start; gap: 16px; }
+.water-card-header .eyebrow { font-size: 10px; color: #665c4e; line-height: 1.6; margin-bottom: 8px; }
+.water-card-header h2 { font-size: clamp(28px, 4vw, 38px); margin-bottom: 16px; line-height: 1.1; }
+.card-close { flex: 0 0 auto; display: flex; gap: 12px; align-items: center; font: inherit; font-size: 14px; color: #254b53; background: #fffdf7; border: 1px solid #87968e; padding: 10px 12px; min-height: 44px; cursor: pointer; }
+.card-fiction { font-size: 13px; line-height: 1.6; padding: 12px 15px; border-left: 3px solid #8c7861; background: #e9e6dc; }
+.card-context { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; font-size: 13px; line-height: 1.6; margin: 18px 0; }
+.card-context dt { font-weight: 700; }
+.card-context dd { margin: 0; }
+.water-card-map { margin: 0 0 20px; }
+.water-card-map svg { display: block; width: 100%; height: auto; border: 1px solid #c9cfc7; }
+.water-card-map text { font: 18px Arial, sans-serif; fill: #203039; }
+.water-card-map .map-small { font-size: 15px; letter-spacing: .07em; }
+.water-card-map figcaption { font-size: 13px; line-height: 1.6; margin-top: 10px; color: #435756; }
+.card-limits { font-size: 14px; margin-top: 18px; }
+.card-limits p { margin-bottom: 10px; }
+.card-source { font-size: 12px; line-height: 1.6; padding-top: 16px; border-top: 1px solid #b9c2b9; margin-bottom: 0; color: #586864; }
+@media (max-width: 500px) {
+  .water-legend { padding: 14px; }
+  .water-legend dl > div { grid-template-columns: 1fr; gap: 3px; }
+  .water-legend dd { padding-left: 33px; }
+  .water-card-dialog { padding: 16px; }
+  .water-card-header { flex-direction: column-reverse; gap: 16px; }
+  .card-close { align-self: flex-end; }
+  .card-context { grid-template-columns: 1fr; gap: 8px; }
+  .water-card-map text { font-size: 20px; }
+}

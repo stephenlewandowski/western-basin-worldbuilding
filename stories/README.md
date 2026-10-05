@@ -4,14 +4,20 @@ The Atlas supplies places; stories let people live in them. These are provisiona
 fiction rooted in the basin’s geography and the project’s existing systems work.
 Science belongs in the grounding records; a scene needs a person with somewhere to go.
 
-Start with **[Before the Last Bus](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story)**,
-an interactive encounter. Renata wants a picnic with her daughter, has a water
-report that leaves their channel out, and five minutes to catch the bus.
-[Scene and grounding](before_the_last_bus.md).
+The active encounter is **[The Orange Band](the_orange_band.md)**.
+Renata’s daughter wants to wade. A fictional Water Conditions Card shows visits,
+modeled interpretation and a gap exactly where Renata needs an answer. Inspect
+the card, ask optional questions and make one decision. There is no score,
+countdown or hidden verdict about the water.
 
-Continue with **[The Return Visit](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#return-visit)**.
-A clearer public card is ready. Catch the bus for a shirt handoff, or stay while
-Hannah checks the place on Renata's map. [Scene record](the_return_visit.md).
+**Publication authorized · 5 October 2026.** [Play The Orange Band](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story).
+[Implementation and publication checks](../reports/orange_band_implementation_2026-10-04.md).
+The story remains provisional fiction; publication establishes no new canon.
+
+The earlier [Before the Last Bus](before_the_last_bus.md) and
+[The Return Visit](the_return_visit.md) are superseded source/history. Their
+[exact scene modules](archive/reading_hall_2026-10-04/README.md) are archived and
+no longer imported or built. Prior story/assessment records remain available.
 
 The six-panel strip **failed human-author continuity review** and is withdrawn
 until narrative continuity is rebuilt. [Assets and source archive](../assets/phase17d/hf05/comic/README.md).

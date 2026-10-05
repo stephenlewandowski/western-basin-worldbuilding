@@ -1,8 +1,10 @@
 # The Return Visit
 
 **Format:** short interactive encounter; provisional fiction.
-**Play:** [Reading Hall sequel](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#return-visit).
-**Text and interaction:** [scene module](../src/atlas/return-visit.ts).
+**Superseded · 4 October 2026:** retired from the active Atlas encounter by
+[The Orange Band](the_orange_band.md). The account below records the earlier
+prototype; it is source/history, not an active public sequel.
+**Text and interaction:** [archived scene module](archive/reading_hall_2026-10-04/return-visit.ts.txt).
 
 This follows the retained [Before the Last Bus interactive encounter](before_the_last_bus.md),
 not the withdrawn comic. Renata eventually brought her slip back. That small

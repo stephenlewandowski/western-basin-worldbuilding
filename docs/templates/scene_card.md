@@ -40,5 +40,5 @@ Finish when someone can read, see or play it. For a reversible creative prototyp
 check continuity, legibility, choices and links once; don’t create a new phase of
 review paperwork. A claim about the real world needs its own appropriate evidence.
 
-Example: [Before the Last Bus](../../stories/before_the_last_bus.md),
+Example: [The Orange Band](../../stories/the_orange_band.md),
 [Reading Hall visual workshop](../../reports/creative_development_2026-10-03.md).

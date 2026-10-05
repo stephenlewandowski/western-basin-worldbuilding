@@ -20,7 +20,7 @@ people, surprising devices and consequential choices make them worth entering.
 | Studies | Interactive connection charts and linked readings: watershed pathways, intake crib, farm and industrial exchange | [Studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/#essays) |
 | Model Lab | Synthetic water/nutrient routing diagnostics and a local explorer of saved cases | [Run/data guide](data/model_lab/README.md), [local explorer](src/R/model_lab/explorer/README.md) |
 | Methods | Evidence, uncertainty, image provenance, sources and rights | [Methods](https://stephenlewandowski.github.io/western-basin-worldbuilding/methods/), [research by subject](reports/README.md) |
-| Stories | Two interactive Reading Hall encounters and preserved ordinary-day drafts | [Before the Last Bus](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story), [The Return Visit](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#return-visit), [story workshop](stories/README.md) |
+| Stories | The Orange Band: a standalone Reading Hall encounter, with earlier sources and ordinary-day drafts preserved | [Play The Orange Band](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story), [encounter record](stories/the_orange_band.md), [story workshop](stories/README.md) |
 | Companion game | Vesper Station: a CGA night shift with five rooms, two repairs and a Reading Hall dispatch choice | [Play](https://stephenlewandowski.github.io/western-basin-worldbuilding/game/), [game design](DESIGN.md) |
 
 The four futurescapes are [Glass City 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/glass-city-2075/),
@@ -69,7 +69,11 @@ a civic place to inspect published findings and request clarification. Its
 [production brief](docs/phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md)
 and [spatial study](assets/phase17d/hf05/hf05_basin_reading_hall_spatial_study.svg) now
 have [three composition studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/)
-and two interactive encounters: *Before the Last Bus* and *The Return Visit*. Composition A fixes the hall's visual orientation;
+and a standalone encounter, *The Orange Band*, approved for publication on
+5 October 2026. The earlier bus/shirt storyline is superseded;
+its [exact sources](stories/archive/reading_hall_2026-10-04/README.md) and narrative
+records remain preserved. [Implementation and publication record](reports/orange_band_implementation_2026-10-04.md).
+Composition A fixes the hall's visual orientation;
 [a small continuity plan](docs/phase_briefs/hf05_reading_hall_continuity_lock.md)
 keeps subsequent scenes in the same building. Architectural detail and cast remain
 provisional. The six-panel strip failed human-author continuity review and is
@@ -82,7 +86,7 @@ communicating that idea better. Agent impressions are not a successful audience 
 A separate [observed river explorer](https://stephenlewandowski.github.io/western-basin-worldbuilding/maps/#river-record)
 lets readers select a day in the retained 2025 USGS flow record, convert units and
 inspect its quality flags. A short scientific connection explains why discharge
-alone cannot establish nutrient load or the condition of a picnic channel. It does not turn the synthetic
+alone cannot establish nutrient load or the condition of a side channel. It does not turn the synthetic
 Model Lab into an empirical watershed predictor. [Input assessment](reports/model_lab_empirical_inputs_2026-10-03.md).
 
 [Current project status](PROJECT_STATUS.md) distinguishes available work from active

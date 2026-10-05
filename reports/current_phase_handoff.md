@@ -1,8 +1,31 @@
 # Current handoff
 
-**4 October 2026 · Vesper Station night shift**
+**5 October 2026 · The Orange Band, publication authorized**
 
-Latest addition: [Vesper Station update](vesper_station_update_2026-10-04.md).
+The user approved publication of the local standalone encounter **The Orange Band** and on
+5 October explicitly instructed: **Commit / push / publish the updated story.**
+They also requested clearer reader-facing headings and Hall descriptions.
+This supersedes the 4 October stop for human narrative review, retained in the
+implementation record as an at-the-time checkpoint.
+
+Starting main was clean at `1f24ad335a7e148ad674032a31150f03b6432a30`.
+The working site now presents The Orange Band at the existing `#story` anchor,
+with an always-visible legend and native-dialog fictional Water Conditions Card.
+The earlier scene modules are preserved with exact local hashes in
+[the source archive](../stories/archive/reading_hall_2026-10-04/README.md).
+The withdrawn comic remains withdrawn. See [scene record](../stories/the_orange_band.md)
+and [implementation/check record](orange_band_implementation_2026-10-04.md).
+
+Publication is authorized; verify actual Git/Pages state before repeating any action.
+Local Vite preview:
+`http://127.0.0.1:4175/western-basin-worldbuilding/atlas/basin-reading-hall/#story`.
+The source is ready for commit and publication; deployment outcome and live
+checks will be recorded in the implementation report. Science, Model Lab and
+canon records remain unchanged.
+
+## Earlier published work
+
+Earlier addition: [Vesper Station update](vesper_station_update_2026-10-04.md).
 The requested controlled game expansion adds a pump house and river terrace,
 one circulation repair and a Reading Hall / roof-render queue choice. All five
 rooms remain CGA; corridor stripes, dialogue clipping, native focus/touch gaps
@@ -47,12 +70,10 @@ Withdraw the comic until its narrative continuity is rebuilt.
 
 ## Available and preserved
 
-- [Before the Last Bus](../stories/before_the_last_bus.md) retains its interactive
-  prose, conversations and endings. An added link continues to the sequel.
-- [The Return Visit](../stories/the_return_visit.md) is a playable prototype at
-  the Hall's `#return-visit` anchor. The correction is completed in both endings;
-  staying performs the location check and misses a shirt handoff. Endings lock
-  until restart, so one visit cannot catch and miss the bus.
+- [Before the Last Bus](../stories/before_the_last_bus.md) and
+  [The Return Visit](../stories/the_return_visit.md) are superseded in the working
+  site. Exact source/prose/history remain archived. Their earlier publication
+  and checks below describe historical deployments, not the replacement encounter.
 - [Strip archive](../assets/phase17d/hf05/comic/README.md) retains all artwork,
   baseline, prompts, manifest, renderer, HTML entry, styles and a source-PNG ZIP. Local PNGs and
   prior browser proofs remain in ignored `temp/hf05_comic/`.
@@ -64,14 +85,15 @@ Withdraw the comic until its narrative continuity is rebuilt.
 
 ## Next work
 
+Publish the approved Orange Band replacement and verify the live deployment.
 Evaluate the map → place → story and real gauge → day journeys with human
-readers. Get human-author response to the interactive sequel, then refine it. Do not call
+readers. Do not call
 mechanical checks or agent impressions a successful narrative/audience test.
 Do not produce another comic from the failed strip as though continuity were accepted.
 The scientific track remains separate: [empirical input assessment](model_lab_empirical_inputs_2026-10-03.md).
 
-Current validation/publication is in the coast report; earlier chart checks remain
-in the web connection-chart report. The older strip
+Current validation/publication is in the Orange Band report; earlier coast and
+chart checks remain in their respective reports. The older strip
 publication from `6bd1de1` / Pages run `37116017148` is historical, not current disposition.
 
 Earlier withdrawal/sequel source `6fa1b5d` was pushed; Pages run `37118007574` succeeded for that exact

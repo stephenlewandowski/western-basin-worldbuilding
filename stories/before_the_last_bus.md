@@ -1,6 +1,8 @@
 # Before the Last Bus
 
-**Available:** [interactive encounter](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story).
+**Superseded · 4 October 2026:** retired from the active Atlas encounter by
+[The Orange Band](the_orange_band.md). Preserved as source/history, not active
+story or accepted narrative canon. [Exact source archive](archive/reading_hall_2026-10-04/README.md).
 **Place:** the Basin Reading Hall, composite Toledo/western Lake Erie, 2075.
 **Status:** provisional fiction; selected hall orientation fixed separately.
 
@@ -29,14 +31,14 @@ site and must not be treated as a successful audience test or accepted character
 event continuity. The script, artwork, transcript, renderer and removed HTML entry
 remain in the [source archive](../assets/phase17d/hf05/comic/README.md).
 
-## Retained interactive encounter
+## Superseded interactive encounter
 
 Three conversations concern an earlier edition, Hannah's visits and an unavailable
 instrument compartment. Renata can request a clearer public scope note, leave her
 exact address privately, or catch the bus with no request filed. None automatically
 changes a finding or provides an answer about the water. These are exploratory
 conversation choices; the sequel gives action and time stronger consequences.
-The exact playable text is in [the scene module](../src/atlas/reading-hall.ts).
+The exact earlier playable text is in [the archived scene module](archive/reading_hall_2026-10-04/reading-hall.ts.txt).
 
 ## Grounding and visual record
 

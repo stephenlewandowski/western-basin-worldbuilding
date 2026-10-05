@@ -19,9 +19,10 @@ These are archival records. They are not imported, built or deployed. The render
 relative imports describe its original `src/atlas/comic.ts` location, not this archive.
 
 The former `/stories/before-the-last-bus/` public route has been removed. The
-[interactive encounter](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story)
-remains available; [The Return Visit](../../../../stories/the_return_visit.md)
-continues that encounter independently of this strip.
+earlier interactive bus/shirt storyline is also superseded
+by The Orange Band, approved for publication on 5 October 2026. Its
+[exact scene sources](../../../../stories/archive/reading_hall_2026-10-04/README.md)
+and narrative records remain preserved. This does not republish the strip.
 
 [Human-author disposition and corrected assessment](../../../../reports/reading_hall_comic_reader_simulation_2026-10-03.md).
 Rebuild narrative continuity before considering another public comic adaptation.
