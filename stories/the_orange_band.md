@@ -29,18 +29,27 @@ a larger native-dialog card: fictional Willow Steps side channel, 12–14 July
 band and a gray/hatched side channel. A ring marks the place Renata means; it is
 a story annotation, outside the public edition, not an observation or a real
 address. **SCHEMATIC / NOT TO SCALE** is visible.
+The gray channel and enlarged location ring are emphasized on opening. Readers
+can tap the blue dots, orange band or gray channel, or use three native buttons,
+to reveal a one-sentence explanation. This changes emphasis, not the record.
 The invented dates, route and interpretation record are story material, not
 monitoring/GIS data or output from the current Model Lab.
 
 ## Questions and choice
 
-- **What does the orange mean?** Renata learns the orange model band is not
-  another field visit, then asks why it looks like a boundary.
+- **What does the orange mean?** The printed edge looks like a clearance boundary;
+  Renata asks what that representation actually says.
 - **Where did the field crew actually go?** After receiving staff take Hannah’s
   closed case, a dry route copy at a public table distinguishes the field route
-  from the model band.
-- **Check the exact channel.** A private comparison confirms that her daughter
-  is at the place she means. It supplies no water answer and publishes no address.
+  from the model band: main channel to the crossing, then back, without entering
+  their side channel.
+- **Check the exact channel.** Renata gives permission to use the photograph’s
+  location attachment to confirm they mean the same bend. This private comparison
+  supplies no water answer and adds nothing to the public card.
+
+Before the choice, her daughter sends another message: “We brought the old towels.
+Mara’s already taken her shoes off.” It adds an ordinary child’s preparation and
+peer pressure without changing the evidence or introducing a real-time timer.
 
 Questions can be reread before deciding; the card can be opened and closed at
 any time without affecting progress. There are three equal, unscored choices:
@@ -61,6 +70,14 @@ to it later. It is never an approved new edition or added observation. The
 precautionary ending says “This card doesn’t cover our channel,” avoiding a
 claim that nobody ever visited it in any period. No ending establishes what
 the water is like or an officially correct decision.
+
+Prior inspection changes Renata’s wording only. Opening the card lets her mention
+gray/no answer; asking Hannah about the physical route lets her mention Hannah’s
+visit, even if another conversation is read afterward. Field-route wording takes
+precedence when both were inspected. Each third-ending message still says “The
+orange band stops before you. Stay on our side,” preserving the misunderstanding.
+No consequence or choice is unlocked by attention. Restart clears both memories;
+card inspection remains separate from the exact-location comparison.
 
 ## Continuity and information boundaries
 

@@ -166,3 +166,40 @@ Ignored `temp/orange-band/live-browser-results.json` and screenshots retain
 the local live-browser proofs. These are interaction/integration checks, not a
 claim of audience success. A documentation-only checkpoint follows without
 changing the deployed build; final Markdown links and whitespace checks pass.
+
+## Encounter refinement · 5 October
+
+Follow-up request: give the daughter more presence, distinguish representation,
+physical fieldwork and private place-matching, make the card inspectable, and let
+attention affect Renata’s wording without changing outcomes.
+
+- The daughter’s extra text appears just before the decision: old towels and
+  Mara already taking off her shoes. No timer or added hazard follows.
+- Orange focuses on what the printed boundary communicates. Hannah traces the
+  physical trip to the crossing and back. The exact-channel conversation asks
+  permission to compare the location, confirms the same bend and publishes nothing.
+- The card initially emphasizes the gray channel and its existing location ring.
+  Blue/orange/gray marks and three native buttons select the same one-sentence
+  explanation. Keyboard controls, Escape/focus return and the safety limitation remain.
+- Card/field-route inspection are remembered only for this playthrough; each
+  changes Renata’s first message. The remainder of each ending is identical.
+  Field-route wording takes precedence over card wording. No ending or evidence
+  changes, and inspecting the card does not perform the private location comparison.
+- Published first-version source `6e3a117` remains in Git history. The original
+  bus/shirt archives, withdrawn comic, Hall lock, science and Model Lab are preserved.
+
+Changed paths for this refinement: `src/atlas/reading-hall.ts`,
+`src/atlas/reading-hall.test.ts`, `src/atlas/style.css`,
+`stories/the_orange_band.md`, this report and `reports/current_phase_handoff.md`.
+The publication checkpoint also updates `PROJECT_STATUS.md`.
+
+Validation passed: 44 tests in 6 files, production build, 555 Markdown links,
+whitespace, LFS and all 636 protected-file comparisons. Development and
+production-preview playthroughs pass at 1440×1000, 390×844 and 320×568: all nine
+message variants, diagram taps and keyboard buttons, gray default on reopening,
+map visible immediately, modal focus/scrolling, separate private comparison,
+exclusive endings and restart. No runtime errors, horizontal overflow, storage
+writes or story-triggered requests. The new tests also verify that stripping
+Renata’s changed message leaves exactly the same ending prose.
+
+Publication verification is pending.

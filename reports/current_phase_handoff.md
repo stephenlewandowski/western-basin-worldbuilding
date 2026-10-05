@@ -1,6 +1,14 @@
 # Current handoff
 
-**5 October 2026 · The Orange Band, published**
+**5 October 2026 · The Orange Band, inspection/character refinement**
+
+Current follow-up adds the daughter’s extra message, sharper representation /
+physical route / private-location investigations, selectable card marks with an
+initial gray-channel focus, and prose-only response to prior inspection.
+Ending consequences, location privacy, Hall continuity and science remain unchanged.
+See the final refinement section of the [implementation report](orange_band_implementation_2026-10-04.md).
+Starting this follow-up: clean main at `cce8f7a6a97d0d837af0c02e94db6870bdbddd15`.
+Changes are currently local; the previous published source below remains live.
 
 The user approved publication of the local standalone encounter **The Orange Band** and on
 5 October explicitly instructed: **Commit / push / publish the updated story.**

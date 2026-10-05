@@ -351,6 +351,25 @@ p{line-height:1.7}
 .water-card-map svg { display: block; width: 100%; height: auto; border: 1px solid #c9cfc7; }
 .water-card-map text { font: 18px Arial, sans-serif; fill: #203039; }
 .water-card-map .map-small { font-size: 15px; letter-spacing: .07em; }
+.water-card-map .map-person { font-weight: 700; font-size: 22px; }
+.water-card-map .map-region { cursor: pointer; }
+.water-card-map .map-gray-channel:hover,
+.water-card-dialog[data-card-selection="gray"] .map-gray-channel { filter: drop-shadow(0 0 3px #20303966); }
+.water-card-map .map-orange-band:hover,
+.water-card-dialog[data-card-selection="orange"] .map-orange-band { filter: drop-shadow(0 0 3px #80461188); }
+.water-card-map .map-blue-points:hover,
+.water-card-dialog[data-card-selection="blue"] .map-blue-points { filter: drop-shadow(0 0 3px #205e86aa); }
+.card-context-line { font-size: 12px; line-height: 1.5; margin: 0 0 12px; color: #435756; }
+.card-focal { font-size: 15px; line-height: 1.5; margin: 0 0 12px; padding-left: 12px; border-left: 3px solid #203039; }
+.card-focal strong { display: block; }
+.water-card-map .card-reading-trail { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 13px; margin-top: 8px; }
+.card-reading-trail strong { color: #203039; }
+.card-inspection { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
+.card-inspection button { min-height: 48px; padding: 10px; border: 1px solid #87968e; font: inherit; font-size: 13px; line-height: 1.4; background: #fffdf7; color: #254b53; text-align: left; cursor: pointer; }
+.card-inspection button:hover { background: #e9ede6; }
+.card-inspection button[aria-pressed="true"] { border: 2px solid #254b53; padding: 9px; background: #e1e8e0; font-weight: 700; }
+.card-explanation { min-height: 3em; font-size: 14px; line-height: 1.5; margin: 12px 0; }
+.card-annotation { font-size: 12px; line-height: 1.5; color: #435756; margin: 14px 0; }
 .water-card-map figcaption { font-size: 13px; line-height: 1.6; margin-top: 10px; color: #435756; }
 .card-limits { font-size: 14px; margin-top: 18px; }
 .card-limits p { margin-bottom: 10px; }
@@ -360,8 +379,11 @@ p{line-height:1.7}
   .water-legend dl > div { grid-template-columns: 1fr; gap: 3px; }
   .water-legend dd { padding-left: 33px; }
   .water-card-dialog { padding: 16px; }
-  .water-card-header { flex-direction: column-reverse; gap: 16px; }
-  .card-close { align-self: flex-end; }
+  .water-card-header { gap: 8px; }
+  .water-card-header h2 { font-size: 26px; }
+  .card-close { padding: 8px; font-size: 12px; }
   .card-context { grid-template-columns: 1fr; gap: 8px; }
+  .card-inspection { grid-template-columns: 1fr; }
+  .water-card-map .card-reading-trail { font-size: 11px; gap: 4px; }
   .water-card-map text { font-size: 20px; }
 }

@@ -1,7 +1,7 @@
 import { createHash } from 'node:crypto';
 import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
-import { askHallQuestion, decideHallEncounter, hallEndingText, newHallEncounter, type HallEnding } from './reading-hall';
+import { askHallQuestion, decideHallEncounter, hallEndingText, inspectHallCard, newHallEncounter, type HallEnding } from './reading-hall';
 
 describe('The Orange Band encounter', () => {
   it('permits all three endings from the same starting record, with optional questions', () => {
@@ -22,8 +22,37 @@ describe('The Orange Band encounter', () => {
     expect(decideHallEncounter(decided, 'the-place')).toBe(decided);
     expect(askHallQuestion(decided, 'location')).toBe(decided);
     const restarted = newHallEncounter();
-    expect(restarted).toEqual({ question: null, locationCompared: false, ending: null });
+    expect(restarted).toEqual({ question: null, locationCompared: false, cardInspected: false, fieldRouteAsked: false, ending: null });
     expect(decideHallEncounter(restarted, 'a-promise').ending).toBe('a-promise');
+  });
+
+  it('remembers inspection and the physical route independently of an exact-location check', () => {
+    const inspected = inspectHallCard(newHallEncounter());
+    expect(inspected.cardInspected).toBe(true);
+    expect(inspected.locationCompared).toBe(false);
+    const routed = askHallQuestion(inspected, 'field');
+    const reread = askHallQuestion(routed, 'orange');
+    expect(reread.fieldRouteAsked).toBe(true);
+    expect(reread.locationCompared).toBe(false);
+    const decided = decideHallEncounter(reread, 'a-promise');
+    expect(inspectHallCard(decided)).toBe(decided);
+    expect(askHallQuestion(decided, 'location')).toBe(decided);
+    expect(newHallEncounter().cardInspected).toBe(false);
+    expect(newHallEncounter().fieldRouteAsked).toBe(false);
+  });
+
+  it('changes only Renata’s message after inspection, never the outcome', () => {
+    for (const ending of ['not-tonight', 'the-place', 'a-promise'] as HallEnding[]) {
+      const states = [newHallEncounter(), inspectHallCard(newHallEncounter()), askHallQuestion(newHallEncounter(), 'field')];
+      const prose = states.map(state => hallEndingText(decideHallEncounter(state, ending))!.text);
+      const message = (text: string) => text.match(/<blockquote><p>(.*?)<\/p><\/blockquote>/)![1];
+      expect(new Set(prose.map(message)).size).toBe(3);
+      const withoutMessage = prose.map(text => text.replace(/<blockquote><p>.*?<\/p><\/blockquote>/, '<message>'));
+      expect(new Set(withoutMessage).size).toBe(1);
+      if (ending === 'a-promise') for (const text of prose) expect(message(text)).toContain('The orange band stops before you. Stay on our side.');
+      const both = askHallQuestion(inspectHallCard(newHallEncounter()), 'field');
+      expect(hallEndingText(decideHallEncounter(both, ending))!.text).toBe(prose[2]);
+    }
   });
 
   it('does not repeat an exact-location discovery or invent a field visit after a check', () => {
