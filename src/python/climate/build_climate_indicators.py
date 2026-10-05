@@ -149,7 +149,9 @@ def build():
         'air': air, 'lake_surface': lake, 'ice': ice,
         'future_scenarios': {
             'target_window': [2061, 2090], 'label': '2075-centered climatological window',
-            'local_projected_values': None, 'readiness': 'Extraction not performed; no exact local 2075 temperature is supplied.',
+            'local_projected_values': {'file':'data/climate/local_projections.json','geography':'Lucas County, Ohio',
+                'status':'Three published CRIS model-series sample; county means, not a full ensemble or exact local 2075 weather'} if (ROOT/'data/climate/local_projections.json').exists() else None,
+            'readiness': 'Small county projection sample is separately available; full model/realization extraction and lake scenarios remain pending.' if (ROOT/'data/climate/local_projections.json').exists() else 'Extraction not performed; no exact local 2075 temperature is supplied.',
             'air_candidate': {'product': 'LOCA2 CMIP6', 'models': 27, 'grid_km': 6, 'paths': ['SSP2-4.5','SSP3-7.0','SSP5-8.5'],
                               'baseline': [1991,2020], 'url': 'https://loca.ucsd.edu/loca-version-2-for-north-america-ca-jan-2023/'},
             'lake_candidate': {'product': 'GLARM-Proj1', 'models': ['GISS','IPSL','MPI'], 'paths': ['RCP4.5','RCP8.5'],

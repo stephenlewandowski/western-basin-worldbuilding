@@ -1153,8 +1153,12 @@
       2090
     ],
     "label": "2075-centered climatological window",
-    "local_projected_values": null,
-    "readiness": "Extraction not performed; no exact local 2075 temperature is supplied.",
+    "local_projected_values": {
+      "file": "data/climate/local_projections.json",
+      "geography": "Lucas County, Ohio",
+      "status": "Three published CRIS model-series sample; county means, not a full ensemble or exact local 2075 weather"
+    },
+    "readiness": "Small county projection sample is separately available; full model/realization extraction and lake scenarios remain pending.",
     "air_candidate": {
       "product": "LOCA2 CMIP6",
       "models": 27,

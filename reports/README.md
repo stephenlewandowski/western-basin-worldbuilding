@@ -19,6 +19,7 @@ An old or failed review is not disposable: it may explain the accepted result.
 | Nutrients and biogeochemistry | [Findings](biogeochemical_findings.md) |
 | Climate and hazards | [Findings](climate_hazard_findings.md) |
 | Climate integration | [Climatology / readiness](climate_integration_2026-10-05.md) · [System matrix](climate_futurescape_matrix_2026-10-05.md) · [Visual audit](climate_visual_audit_2026-10-05.md) |
+| Summer scene / local climate sample | [The Usual Table and Lucas County extraction](glass_city_summer_and_local_climate_2026-10-05.md) |
 | Governance and jurisdiction | [Baseline](governance_baseline_findings.md) |
 | Population and settlement | [Findings](population_settlement_findings.md) |
 | Vector ecology | [Findings](vector_ecology_findings.md) |

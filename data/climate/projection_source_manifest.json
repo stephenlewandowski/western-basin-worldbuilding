@@ -1,0 +1,43 @@
+{
+  "edition": "2026-10-05",
+  "provider": "NOAA Climate Resilience Information System / Esri hosted CRIS county data",
+  "license": "CC BY 4.0; retain NOAA/Esri CRIS attribution and source links",
+  "source_documentation": "https://cris.climate.gov/pages/about-the-data",
+  "sources": [
+    {
+      "file": "data/climate/sources/cris_lucas_historical.json",
+      "url": "https://services3.arcgis.com/0Fs3HcaFfvzXvm7w/arcgis/rest/services/CRIS_County_D/FeatureServer/5/query?where=GEOID%3D%2739095%27+AND+MODEL_SET%3D%27LOCA2%27+AND+MODEL+IN+%28%27IPSL-CM6A-LR%27%2C%27MPI-ESM1-2-HR%27%2C%27MRI-ESM2-0%27%29+AND+YEAR+%3E%3D+1991+AND+YEAR+%3C%3D+2014&outFields=GEOID%2CMODEL_SET%2CMODEL%2CYEAR%2CTAVG%2CTMEANJJA%2CTMAXDAYSGE90F%2CTMINDAYSGE70F%2CCDD&orderByFields=MODEL%2CYEAR&returnGeometry=false&resultRecordCount=500&f=json",
+      "retrieved_utc": "2026-10-05T03:54:30.571282+00:00",
+      "bytes": 15022,
+      "sha256": "cf89265229c45fa31685aec020cf3e3dcfbba160d8e553a48c95804a3f827b95"
+    },
+    {
+      "file": "data/climate/sources/cris_lucas_future.json",
+      "url": "https://services3.arcgis.com/0Fs3HcaFfvzXvm7w/arcgis/rest/services/CRIS_County_D/FeatureServer/6/query?where=GEOID%3D%2739095%27+AND+MODEL_SET%3D%27LOCA2%27+AND+MODEL+IN+%28%27IPSL-CM6A-LR%27%2C%27MPI-ESM1-2-HR%27%2C%27MRI-ESM2-0%27%29+AND+%28%28YEAR+%3E%3D+2015+AND+YEAR+%3C%3D+2020%29+OR+%28YEAR+%3E%3D+2061+AND+YEAR+%3C%3D+2090%29%29&outFields=GEOID%2CMODEL_SET%2CMODEL%2CYEAR%2CTAVG_SSP245%2CTAVG_SSP370%2CTAVG_SSP585%2CTMEANJJA_SSP245%2CTMEANJJA_SSP370%2CTMEANJJA_SSP585%2CTMAXDAYSGE90F_SSP245%2CTMAXDAYSGE90F_SSP370%2CTMAXDAYSGE90F_SSP585%2CTMINDAYSGE70F_SSP245%2CTMINDAYSGE70F_SSP370%2CTMINDAYSGE70F_SSP585%2CCDD_SSP245%2CCDD_SSP370%2CCDD_SSP585&orderByFields=MODEL%2CYEAR&returnGeometry=false&resultRecordCount=500&f=json",
+      "retrieved_utc": "2026-10-05T03:54:31.221642+00:00",
+      "bytes": 56616,
+      "sha256": "197a8e1eaa1832a7f6b420a6c95a38b002e52cebd55d6d9189d8aa4067cd748e"
+    },
+    {
+      "file": "data/climate/sources/cris_county_item.json",
+      "url": "https://www.arcgis.com/sharing/rest/content/items/f5134f46a5a3491f8259145271644eed?f=pjson",
+      "retrieved_utc": "2026-10-05T03:54:31.484410+00:00",
+      "bytes": 6737,
+      "sha256": "16059449bcf0a01c7746d5423e63a19542babd7eaf258e090b914c7017091682"
+    },
+    {
+      "file": "data/climate/sources/cris_historical_schema.json",
+      "url": "https://services3.arcgis.com/0Fs3HcaFfvzXvm7w/arcgis/rest/services/CRIS_County_D/FeatureServer/5?f=pjson",
+      "retrieved_utc": "2026-10-05T03:54:31.554868+00:00",
+      "bytes": 27003,
+      "sha256": "37bccd40e7205ddf03bb9c807da78dfe0794c5b06e2c47f04f64ae4008c720b8"
+    },
+    {
+      "file": "data/climate/sources/cris_future_schema.json",
+      "url": "https://services3.arcgis.com/0Fs3HcaFfvzXvm7w/arcgis/rest/services/CRIS_County_D/FeatureServer/6?f=pjson",
+      "retrieved_utc": "2026-10-05T03:54:31.635622+00:00",
+      "bytes": 65036,
+      "sha256": "9fcb4abcf614217909536b7503dd6bef32d77fa8d4853d15ee003dd9087dd146"
+    }
+  ]
+}

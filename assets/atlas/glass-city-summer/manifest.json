@@ -1,0 +1,40 @@
+{
+  "title": "The Usual Table",
+  "edition": "2026-10-05",
+  "status": "New fictional summer illustration; no new canon, surveyed geometry or thermal performance",
+  "tool": "built-in image_gen",
+  "prompt": "Use case: illustration-story.\nAsset type: one wide narrative illustration for Western Basin Atlas, \u201cThe Usual Table,\u201d a Glass City summer vignette.\nReference image: the existing Glass City image is an ARCHITECTURAL AND RENDERING STYLE reference only; create a NEW camera view and NEW fictional July afternoon, not an edit or remake of the accepted wet/dusk artwork.\nScene: Toledo-derived river-edge brick industrial neighborhood, July 2075, early afternoon, hot hard sunlight, mostly clear pale-blue summer sky, little wind, dry pale concrete and aged brick, green summer foliage. An inhabited possible future, realistic architectural illustration with painterly detail and believable ordinary people.\nArchitecture: broad branching steel optical/glass canopy attached to an old brick workshop, replaceable patterned glass leaves, guarded elevated staff/service rib. One cassette has ALREADY been removed: a visible empty frame makes a crisp bright patch on the adjacent PUBLIC domino table and bench. The repair bay is clearly separately cordoned, a worker in lightweight appropriate protective clothing stays inside it. Public passage skirts the work, no people beneath a suspended load. No dangling huge panel or dramatic lift.\nHuman focus: two adult friends carrying a small worn domino box and a cloth bag with peaches pause at the edge of the sunlit table. One woman in a loose light short-sleeved linen shirt, lightweight trousers and flat shoes carries the fruit; her friend has a summer shirt and an ordinary seat cushion. Their posture shows mild inconvenience and amusement, not distress. A refill bottle is beside the bag. Prioritize coherent anatomy and natural faces.\nSpatial story: public domino table in foreground at sun/shade boundary, roof's missing panel visible above/right, clear safe public route running past. Beyond a modest property gap, an UNCONNECTED old repair shop has a simple striped cloth awning shading its own small table; a shopkeeper is at the doorway. The glass canopy stops before this separate shop. A shaded arcade recedes along the public route. One readable scene, not comic panels, not an infographic. The people and shade boundary are more prominent than machinery.\nFraming: wide 16:9, human eye-height three-quarter view with foreground people, depth along the street and a slice of river-edge freight silhouettes far away. Comfortable everyday future, tactile worn surfaces, quiet cool shade against hard sun. No neon, screens, dashboard wall, labels, signage text, glow, storm clouds, wet pavement, sunset or emergency. Make the canopy silhouette recognizably kin to the reference but the new scene materially summer-like. No performance figures, no water/air safety implication. Entirely fictional scenario illustration.",
+  "reference": {
+    "path": "assets/phase17d/hf01/hf01_glass_city_2075_hero_wide.webp",
+    "role": "architectural and rendering-style reference; accepted asset unchanged",
+    "sha256": "88baa48bd8fb2385708300618507b9fcb8129c2cacbd45df79c1508c46503df9"
+  },
+  "master": "source_png.zip / the_usual_table.png",
+  "derivative": "the_usual_table.webp",
+  "packaging": {
+    "library": "Sharp",
+    "format": "WebP",
+    "quality": 88,
+    "effort": 6,
+    "resize": false,
+    "semantic_edits": false
+  },
+  "scene_conditions": {
+    "season": "July midsummer",
+    "time": "early afternoon",
+    "thermal_condition": "fictional hot sunny day; no assigned numerical temperature",
+    "weather": "hard sun, little breeze, dry pavement; haze is not assigned as a pollutant measurement",
+    "clothing_ppe": "light summer clothing for friends; work crew retains appropriate protective clothing",
+    "ordinary_action": "friends reconsider their domino-table routine as sun enters through an empty cassette",
+    "spatial_limits": "public route outside cordoned work bay; neighboring awning does not establish shared canopy services or surveyed property line"
+  },
+  "projection_relationship": "Not a visualization of a particular model, pathway, 2075 daily temperature or heat warning",
+  "original_png_sha256": "d43c942f77a85d7ebb50a2af8bc05565dad52fe0f37e440eb57cc85bdb81c61c",
+  "webp_sha256": "d51323e153bdb417ddd5992e00b8eeb9d469654cd46de6a027305b14ba5a4143",
+  "archive_sha256": "07b24c5b33a18d14b70fd6a6e8782b38d21e4d60b6f2880ddb0a8e6924913472",
+  "visual_review": {
+    "disposition": "Use as a new fictional scene; accepted older images unchanged",
+    "readable_cues": "empty frame, sunlit table, summer clothing, fruit/bottle/cushion, cordoned repair, public route",
+    "limit": "The awning sits on a continuous brick frontage; service/property separation is not established by this illustration. Story asks permission for the shop table without asserting the roof stops there."
+  }
+}

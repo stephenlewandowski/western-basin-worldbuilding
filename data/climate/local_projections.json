@@ -1,0 +1,827 @@
+{
+  "schema_version": "1.0",
+  "edition": "2026-10-05",
+  "status": "Small published-model-series projection sample; not a full ensemble uncertainty envelope",
+  "geography": {
+    "name": "Lucas County, Ohio",
+    "geoid": "39095",
+    "boundary_product": "US Census TIGER 2023",
+    "scope": "County spatial summary of LOCA2 grids; not an airport, street or entire watershed"
+  },
+  "provenance": {
+    "product": "CRIS annual county summaries; MODEL_SET=LOCA2 only",
+    "downscaling": "CMIP6 LOCA2-derived annual metrics; parent product approximately 6 km, service resampling not asserted",
+    "provider": "NOAA / Esri Climate Resilience Information System",
+    "source_manifest": "data/climate/projection_source_manifest.json",
+    "documentation": "https://cris.climate.gov/pages/about-the-data",
+    "service": "https://services3.arcgis.com/0Fs3HcaFfvzXvm7w/arcgis/rest/services/CRIS_County_D/FeatureServer",
+    "model_member_identity": "Variant IDs/within-model aggregation not exposed by this county service; not claimed as individual CMIP6 members",
+    "upstream_release": "Exact upstream release not exposed by county service; retained query/schema/item snapshots are identified by retrieval time and SHA256",
+    "spatial_method": "County zonal mean, TIGER2023 boundaries. Documentation/example code disagree about resampling direction; unchanged native grid not claimed.",
+    "source_calendar": "Annual statistics supplied by provider; source daily calendar handling not reconstructed here"
+  },
+  "windows": {
+    "baseline": [
+      1991,
+      2020
+    ],
+    "future": [
+      2061,
+      2090
+    ],
+    "baseline_join": "1991\u20132014 historical plus 2015\u20132020 from the same SSP as the future; modeled baseline, not observed normals"
+  },
+  "selection": {
+    "models": [
+      "IPSL-CM6A-LR",
+      "MPI-ESM1-2-HR",
+      "MRI-ESM2-0"
+    ],
+    "paths": [
+      "SSP245",
+      "SSP370",
+      "SSP585"
+    ],
+    "weight_per_model": 0.3333333333333333,
+    "reason": "Three distinct GCM families available for all selected metrics and pathways; small availability-based sample",
+    "limits": "Equal weight across these three published model series only. Not member-balanced, representative of all 27 LOCA2 models, probabilistic or an upper/lower bound."
+  },
+  "definitions": {
+    "temperature": "Provider annual/summer mean daily midpoint in Fahrenheit; temperature changes also converted to Celsius",
+    "hot_days": "County-average annual count of daily maxima >=90 F; fractional days arise from spatial averaging",
+    "warm_nights": "County-average annual count of daily minima >=70 F; daily minimum proxy, not hourly night exposure",
+    "cooling_degree_days": "Annual cooling degree-days in Fahrenheit-degree-days, base65 F; not electrical load",
+    "aggregation": "Arithmetic mean of each annual metric over 30 years; changes within the same model/product/path; then equal-weight mean and min/max of three model-series climatologies",
+    "spread": "Three-series min/max, not annual variability, percentile, confidence interval, full-model range or 2075 weather"
+  },
+  "scenarios": [
+    {
+      "path": "SSP245",
+      "series": [
+        {
+          "model": "IPSL-CM6A-LR",
+          "baseline_years": 30,
+          "future_years": 30,
+          "metrics": {
+            "annual_temperature": {
+              "unit": "degF",
+              "baseline": 51.7741,
+              "future": 57.0492,
+              "change": 5.2752,
+              "baseline_c": 10.9856,
+              "future_c": 13.9162,
+              "change_c": 2.9306
+            },
+            "summer_temperature": {
+              "unit": "degF",
+              "baseline": 73.764,
+              "future": 78.7715,
+              "change": 5.0075,
+              "baseline_c": 23.2022,
+              "future_c": 25.9842,
+              "change_c": 2.7819
+            },
+            "hot_days": {
+              "unit": "days/year",
+              "baseline": 21.1848,
+              "future": 59.0714,
+              "change": 37.8867
+            },
+            "warm_nights": {
+              "unit": "days/year",
+              "baseline": 12.0076,
+              "future": 46.2105,
+              "change": 34.2029
+            },
+            "cooling_degree_days": {
+              "unit": "degF-days; base 65 degF",
+              "baseline": 1024.1461,
+              "future": 1780.0755,
+              "change": 755.9295
+            }
+          }
+        },
+        {
+          "model": "MPI-ESM1-2-HR",
+          "baseline_years": 30,
+          "future_years": 30,
+          "metrics": {
+            "annual_temperature": {
+              "unit": "degF",
+              "baseline": 50.9369,
+              "future": 54.668,
+              "change": 3.7311,
+              "baseline_c": 10.5205,
+              "future_c": 12.5933,
+              "change_c": 2.0728
+            },
+            "summer_temperature": {
+              "unit": "degF",
+              "baseline": 72.6659,
+              "future": 75.1518,
+              "change": 2.4859,
+              "baseline_c": 22.5922,
+              "future_c": 23.9732,
+              "change_c": 1.3811
+            },
+            "hot_days": {
+              "unit": "days/year",
+              "baseline": 16.7819,
+              "future": 30.0429,
+              "change": 13.261
+            },
+            "warm_nights": {
+              "unit": "days/year",
+              "baseline": 12.9019,
+              "future": 25.2971,
+              "change": 12.3952
+            },
+            "cooling_degree_days": {
+              "unit": "degF-days; base 65 degF",
+              "baseline": 938.0565,
+              "future": 1283.3183,
+              "change": 345.2618
+            }
+          }
+        },
+        {
+          "model": "MRI-ESM2-0",
+          "baseline_years": 30,
+          "future_years": 30,
+          "metrics": {
+            "annual_temperature": {
+              "unit": "degF",
+              "baseline": 51.2669,
+              "future": 56.1991,
+              "change": 4.9323,
+              "baseline_c": 10.7038,
+              "future_c": 13.444,
+              "change_c": 2.7401
+            },
+            "summer_temperature": {
+              "unit": "degF",
+              "baseline": 72.8027,
+              "future": 76.9758,
+              "change": 4.1731,
+              "baseline_c": 22.6681,
+              "future_c": 24.9865,
+              "change_c": 2.3184
+            },
+            "hot_days": {
+              "unit": "days/year",
+              "baseline": 17.4762,
+              "future": 40.8552,
+              "change": 23.379
+            },
+            "warm_nights": {
+              "unit": "days/year",
+              "baseline": 13.2448,
+              "future": 34.1762,
+              "change": 20.9314
+            },
+            "cooling_degree_days": {
+              "unit": "degF-days; base 65 degF",
+              "baseline": 951.2132,
+              "future": 1512.9637,
+              "change": 561.7505
+            }
+          }
+        }
+      ],
+      "summary": {
+        "annual_temperature": {
+          "unit": "degF",
+          "baseline": {
+            "mean": 51.326,
+            "sample_min": 50.9369,
+            "sample_max": 51.7741
+          },
+          "future": {
+            "mean": 55.9721,
+            "sample_min": 54.668,
+            "sample_max": 57.0492
+          },
+          "change": {
+            "mean": 4.6462,
+            "sample_min": 3.7311,
+            "sample_max": 5.2752
+          },
+          "baseline_c": {
+            "mean": 10.7366,
+            "sample_min": 10.5205,
+            "sample_max": 10.9856
+          },
+          "future_c": {
+            "mean": 13.3178,
+            "sample_min": 12.5933,
+            "sample_max": 13.9162
+          },
+          "change_c": {
+            "mean": 2.5812,
+            "sample_min": 2.0728,
+            "sample_max": 2.9306
+          }
+        },
+        "summer_temperature": {
+          "unit": "degF",
+          "baseline": {
+            "mean": 73.0775,
+            "sample_min": 72.6659,
+            "sample_max": 73.764
+          },
+          "future": {
+            "mean": 76.9664,
+            "sample_min": 75.1518,
+            "sample_max": 78.7715
+          },
+          "change": {
+            "mean": 3.8888,
+            "sample_min": 2.4859,
+            "sample_max": 5.0075
+          },
+          "baseline_c": {
+            "mean": 22.8208,
+            "sample_min": 22.5922,
+            "sample_max": 23.2022
+          },
+          "future_c": {
+            "mean": 24.9813,
+            "sample_min": 23.9732,
+            "sample_max": 25.9842
+          },
+          "change_c": {
+            "mean": 2.1605,
+            "sample_min": 1.3811,
+            "sample_max": 2.7819
+          }
+        },
+        "hot_days": {
+          "unit": "days/year",
+          "baseline": {
+            "mean": 18.481,
+            "sample_min": 16.7819,
+            "sample_max": 21.1848
+          },
+          "future": {
+            "mean": 43.3232,
+            "sample_min": 30.0429,
+            "sample_max": 59.0714
+          },
+          "change": {
+            "mean": 24.8422,
+            "sample_min": 13.261,
+            "sample_max": 37.8867
+          }
+        },
+        "warm_nights": {
+          "unit": "days/year",
+          "baseline": {
+            "mean": 12.7181,
+            "sample_min": 12.0076,
+            "sample_max": 13.2448
+          },
+          "future": {
+            "mean": 35.2279,
+            "sample_min": 25.2971,
+            "sample_max": 46.2105
+          },
+          "change": {
+            "mean": 22.5098,
+            "sample_min": 12.3952,
+            "sample_max": 34.2029
+          }
+        },
+        "cooling_degree_days": {
+          "unit": "degF-days; base 65 degF",
+          "baseline": {
+            "mean": 971.1386,
+            "sample_min": 938.0565,
+            "sample_max": 1024.1461
+          },
+          "future": {
+            "mean": 1525.4525,
+            "sample_min": 1283.3183,
+            "sample_max": 1780.0755
+          },
+          "change": {
+            "mean": 554.3139,
+            "sample_min": 345.2618,
+            "sample_max": 755.9295
+          }
+        }
+      }
+    },
+    {
+      "path": "SSP370",
+      "series": [
+        {
+          "model": "IPSL-CM6A-LR",
+          "baseline_years": 30,
+          "future_years": 30,
+          "metrics": {
+            "annual_temperature": {
+              "unit": "degF",
+              "baseline": 51.8714,
+              "future": 58.5944,
+              "change": 6.7231,
+              "baseline_c": 11.0396,
+              "future_c": 14.7747,
+              "change_c": 3.735
+            },
+            "summer_temperature": {
+              "unit": "degF",
+              "baseline": 73.6462,
+              "future": 81.1275,
+              "change": 7.4813,
+              "baseline_c": 23.1368,
+              "future_c": 27.293,
+              "change_c": 4.1563
+            },
+            "hot_days": {
+              "unit": "days/year",
+              "baseline": 23.0181,
+              "future": 73.4238,
+              "change": 50.4057
+            },
+            "warm_nights": {
+              "unit": "days/year",
+              "baseline": 12.1,
+              "future": 66.4733,
+              "change": 54.3733
+            },
+            "cooling_degree_days": {
+              "unit": "degF-days; base 65 degF",
+              "baseline": 1030.5932,
+              "future": 2122.0403,
+              "change": 1091.4471
+            }
+          }
+        },
+        {
+          "model": "MPI-ESM1-2-HR",
+          "baseline_years": 30,
+          "future_years": 30,
+          "metrics": {
+            "annual_temperature": {
+              "unit": "degF",
+              "baseline": 50.9718,
+              "future": 56.4936,
+              "change": 5.5218,
+              "baseline_c": 10.5399,
+              "future_c": 13.6076,
+              "change_c": 3.0677
+            },
+            "summer_temperature": {
+              "unit": "degF",
+              "baseline": 72.6805,
+              "future": 77.7494,
+              "change": 5.0689,
+              "baseline_c": 22.6003,
+              "future_c": 25.4163,
+              "change_c": 2.816
+            },
+            "hot_days": {
+              "unit": "days/year",
+              "baseline": 17.039,
+              "future": 49.4705,
+              "change": 32.4314
+            },
+            "warm_nights": {
+              "unit": "days/year",
+              "baseline": 13.5695,
+              "future": 40.8038,
+              "change": 27.2343
+            },
+            "cooling_degree_days": {
+              "unit": "degF-days; base 65 degF",
+              "baseline": 954.4053,
+              "future": 1608.1853,
+              "change": 653.78
+            }
+          }
+        },
+        {
+          "model": "MRI-ESM2-0",
+          "baseline_years": 30,
+          "future_years": 30,
+          "metrics": {
+            "annual_temperature": {
+              "unit": "degF",
+              "baseline": 51.3904,
+              "future": 56.6128,
+              "change": 5.2224,
+              "baseline_c": 10.7725,
+              "future_c": 13.6738,
+              "change_c": 2.9013
+            },
+            "summer_temperature": {
+              "unit": "degF",
+              "baseline": 72.783,
+              "future": 77.7666,
+              "change": 4.9835,
+              "baseline_c": 22.6572,
+              "future_c": 25.4259,
+              "change_c": 2.7686
+            },
+            "hot_days": {
+              "unit": "days/year",
+              "baseline": 17.3086,
+              "future": 47.9552,
+              "change": 30.6467
+            },
+            "warm_nights": {
+              "unit": "days/year",
+              "baseline": 13.8848,
+              "future": 39.8295,
+              "change": 25.9448
+            },
+            "cooling_degree_days": {
+              "unit": "degF-days; base 65 degF",
+              "baseline": 945.5532,
+              "future": 1598.6968,
+              "change": 653.1436
+            }
+          }
+        }
+      ],
+      "summary": {
+        "annual_temperature": {
+          "unit": "degF",
+          "baseline": {
+            "mean": 51.4112,
+            "sample_min": 50.9718,
+            "sample_max": 51.8714
+          },
+          "future": {
+            "mean": 57.2336,
+            "sample_min": 56.4936,
+            "sample_max": 58.5944
+          },
+          "change": {
+            "mean": 5.8224,
+            "sample_min": 5.2224,
+            "sample_max": 6.7231
+          },
+          "baseline_c": {
+            "mean": 10.784,
+            "sample_min": 10.5399,
+            "sample_max": 11.0396
+          },
+          "future_c": {
+            "mean": 14.0187,
+            "sample_min": 13.6076,
+            "sample_max": 14.7747
+          },
+          "change_c": {
+            "mean": 3.2347,
+            "sample_min": 2.9013,
+            "sample_max": 3.735
+          }
+        },
+        "summer_temperature": {
+          "unit": "degF",
+          "baseline": {
+            "mean": 73.0366,
+            "sample_min": 72.6805,
+            "sample_max": 73.6462
+          },
+          "future": {
+            "mean": 78.8812,
+            "sample_min": 77.7494,
+            "sample_max": 81.1275
+          },
+          "change": {
+            "mean": 5.8446,
+            "sample_min": 4.9835,
+            "sample_max": 7.4813
+          },
+          "baseline_c": {
+            "mean": 22.7981,
+            "sample_min": 22.6003,
+            "sample_max": 23.1368
+          },
+          "future_c": {
+            "mean": 26.0451,
+            "sample_min": 25.4163,
+            "sample_max": 27.293
+          },
+          "change_c": {
+            "mean": 3.247,
+            "sample_min": 2.7686,
+            "sample_max": 4.1563
+          }
+        },
+        "hot_days": {
+          "unit": "days/year",
+          "baseline": {
+            "mean": 19.1219,
+            "sample_min": 17.039,
+            "sample_max": 23.0181
+          },
+          "future": {
+            "mean": 56.9498,
+            "sample_min": 47.9552,
+            "sample_max": 73.4238
+          },
+          "change": {
+            "mean": 37.8279,
+            "sample_min": 30.6467,
+            "sample_max": 50.4057
+          }
+        },
+        "warm_nights": {
+          "unit": "days/year",
+          "baseline": {
+            "mean": 13.1848,
+            "sample_min": 12.1,
+            "sample_max": 13.8848
+          },
+          "future": {
+            "mean": 49.0355,
+            "sample_min": 39.8295,
+            "sample_max": 66.4733
+          },
+          "change": {
+            "mean": 35.8508,
+            "sample_min": 25.9448,
+            "sample_max": 54.3733
+          }
+        },
+        "cooling_degree_days": {
+          "unit": "degF-days; base 65 degF",
+          "baseline": {
+            "mean": 976.8506,
+            "sample_min": 945.5532,
+            "sample_max": 1030.5932
+          },
+          "future": {
+            "mean": 1776.3075,
+            "sample_min": 1598.6968,
+            "sample_max": 2122.0403
+          },
+          "change": {
+            "mean": 799.4569,
+            "sample_min": 653.1436,
+            "sample_max": 1091.4471
+          }
+        }
+      }
+    },
+    {
+      "path": "SSP585",
+      "series": [
+        {
+          "model": "IPSL-CM6A-LR",
+          "baseline_years": 30,
+          "future_years": 30,
+          "metrics": {
+            "annual_temperature": {
+              "unit": "degF",
+              "baseline": 51.6165,
+              "future": 60.7621,
+              "change": 9.1457,
+              "baseline_c": 10.898,
+              "future_c": 15.979,
+              "change_c": 5.0809
+            },
+            "summer_temperature": {
+              "unit": "degF",
+              "baseline": 73.6676,
+              "future": 83.1102,
+              "change": 9.4426,
+              "baseline_c": 23.1487,
+              "future_c": 28.3945,
+              "change_c": 5.2459
+            },
+            "hot_days": {
+              "unit": "days/year",
+              "baseline": 20.7629,
+              "future": 87.9752,
+              "change": 67.2124
+            },
+            "warm_nights": {
+              "unit": "days/year",
+              "baseline": 11.6638,
+              "future": 81.2371,
+              "change": 69.5733
+            },
+            "cooling_degree_days": {
+              "unit": "degF-days; base 65 degF",
+              "baseline": 1022.6075,
+              "future": 2474.5053,
+              "change": 1451.8978
+            }
+          }
+        },
+        {
+          "model": "MPI-ESM1-2-HR",
+          "baseline_years": 30,
+          "future_years": 30,
+          "metrics": {
+            "annual_temperature": {
+              "unit": "degF",
+              "baseline": 50.9369,
+              "future": 57.8075,
+              "change": 6.8706,
+              "baseline_c": 10.5205,
+              "future_c": 14.3375,
+              "change_c": 3.817
+            },
+            "summer_temperature": {
+              "unit": "degF",
+              "baseline": 72.8059,
+              "future": 79.793,
+              "change": 6.9871,
+              "baseline_c": 22.6699,
+              "future_c": 26.5517,
+              "change_c": 3.8817
+            },
+            "hot_days": {
+              "unit": "days/year",
+              "baseline": 17.719,
+              "future": 63.9562,
+              "change": 46.2371
+            },
+            "warm_nights": {
+              "unit": "days/year",
+              "baseline": 13.879,
+              "future": 53.1714,
+              "change": 39.2924
+            },
+            "cooling_degree_days": {
+              "unit": "degF-days; base 65 degF",
+              "baseline": 955.9996,
+              "future": 1888.4199,
+              "change": 932.4203
+            }
+          }
+        },
+        {
+          "model": "MRI-ESM2-0",
+          "baseline_years": 30,
+          "future_years": 30,
+          "metrics": {
+            "annual_temperature": {
+              "unit": "degF",
+              "baseline": 51.3439,
+              "future": 58.1271,
+              "change": 6.7831,
+              "baseline_c": 10.7466,
+              "future_c": 14.515,
+              "change_c": 3.7684
+            },
+            "summer_temperature": {
+              "unit": "degF",
+              "baseline": 72.6543,
+              "future": 79.2212,
+              "change": 6.5669,
+              "baseline_c": 22.5857,
+              "future_c": 26.234,
+              "change_c": 3.6483
+            },
+            "hot_days": {
+              "unit": "days/year",
+              "baseline": 16.3238,
+              "future": 58.7695,
+              "change": 42.4457
+            },
+            "warm_nights": {
+              "unit": "days/year",
+              "baseline": 12.4305,
+              "future": 49.3667,
+              "change": 36.9362
+            },
+            "cooling_degree_days": {
+              "unit": "degF-days; base 65 degF",
+              "baseline": 937.8552,
+              "future": 1829.4259,
+              "change": 891.5707
+            }
+          }
+        }
+      ],
+      "summary": {
+        "annual_temperature": {
+          "unit": "degF",
+          "baseline": {
+            "mean": 51.2991,
+            "sample_min": 50.9369,
+            "sample_max": 51.6165
+          },
+          "future": {
+            "mean": 58.8989,
+            "sample_min": 57.8075,
+            "sample_max": 60.7621
+          },
+          "change": {
+            "mean": 7.5998,
+            "sample_min": 6.7831,
+            "sample_max": 9.1457
+          },
+          "baseline_c": {
+            "mean": 10.7217,
+            "sample_min": 10.5205,
+            "sample_max": 10.898
+          },
+          "future_c": {
+            "mean": 14.9438,
+            "sample_min": 14.3375,
+            "sample_max": 15.979
+          },
+          "change_c": {
+            "mean": 4.2221,
+            "sample_min": 3.7684,
+            "sample_max": 5.0809
+          }
+        },
+        "summer_temperature": {
+          "unit": "degF",
+          "baseline": {
+            "mean": 73.0426,
+            "sample_min": 72.6543,
+            "sample_max": 73.6676
+          },
+          "future": {
+            "mean": 80.7081,
+            "sample_min": 79.2212,
+            "sample_max": 83.1102
+          },
+          "change": {
+            "mean": 7.6655,
+            "sample_min": 6.5669,
+            "sample_max": 9.4426
+          },
+          "baseline_c": {
+            "mean": 22.8014,
+            "sample_min": 22.5857,
+            "sample_max": 23.1487
+          },
+          "future_c": {
+            "mean": 27.0601,
+            "sample_min": 26.234,
+            "sample_max": 28.3945
+          },
+          "change_c": {
+            "mean": 4.2586,
+            "sample_min": 3.6483,
+            "sample_max": 5.2459
+          }
+        },
+        "hot_days": {
+          "unit": "days/year",
+          "baseline": {
+            "mean": 18.2686,
+            "sample_min": 16.3238,
+            "sample_max": 20.7629
+          },
+          "future": {
+            "mean": 70.2336,
+            "sample_min": 58.7695,
+            "sample_max": 87.9752
+          },
+          "change": {
+            "mean": 51.9651,
+            "sample_min": 42.4457,
+            "sample_max": 67.2124
+          }
+        },
+        "warm_nights": {
+          "unit": "days/year",
+          "baseline": {
+            "mean": 12.6578,
+            "sample_min": 11.6638,
+            "sample_max": 13.879
+          },
+          "future": {
+            "mean": 61.2584,
+            "sample_min": 49.3667,
+            "sample_max": 81.2371
+          },
+          "change": {
+            "mean": 48.6006,
+            "sample_min": 36.9362,
+            "sample_max": 69.5733
+          }
+        },
+        "cooling_degree_days": {
+          "unit": "degF-days; base 65 degF",
+          "baseline": {
+            "mean": 972.1541,
+            "sample_min": 937.8552,
+            "sample_max": 1022.6075
+          },
+          "future": {
+            "mean": 2064.117,
+            "sample_min": 1829.4259,
+            "sample_max": 2474.5053
+          },
+          "change": {
+            "mean": 1091.9629,
+            "sample_min": 891.5707,
+            "sample_max": 1451.8978
+          }
+        }
+      }
+    }
+  ]
+}

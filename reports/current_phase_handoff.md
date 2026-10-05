@@ -1,5 +1,19 @@
 # Current handoff
 
+## Glass City summer and first local projection sample · 5 October 2026
+
+Approved follow-up to source `79b3a6b`, now published successfully by
+[Pages run 37260923798](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37260923798).
+The Usual Table adds one new summer image and a short three-choice encounter;
+the climate Study adds Lucas County 1991–2020/2061–2090 comparisons for three
+published LOCA2-derived model series across three SSPs. Retained queries/hashes
+rebuild offline; variant/upstream-release gaps and county spatial means are
+explicit. Story weather remains fiction. Existing observed arrays, frozen files,
+Model Lab, Waterville, accepted images and Hall lock remain unchanged.
+[Implementation/calculation/publication record](glass_city_summer_and_local_climate_2026-10-05.md).
+User authorized commit/push/publication; verify final deployment before repeating it.
+
+
 ## Climate Integration Pass · 5 October 2026 · publication authorized
 
 Started from clean main `a17ef2086e49e49442437cf21cd3085f6c395561`.

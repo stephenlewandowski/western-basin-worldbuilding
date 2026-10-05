@@ -1,11 +1,14 @@
 # Project status
 
-**5 October 2026 · Climate Integration Pass (publication authorized).**
-Five observed indicator families, a public-facing Climate & Thermal Regime Study,
-three coupling charts, a futurescape matrix and a 21-asset seasonal audit are
-prepared for publication. No local 2075 numerical projection has been extracted;
-existing accepted images and frozen products are preserved. The user has authorized commit/push/publication; the exact deployment result
-will be recorded after verification. [Evidence and checks](reports/climate_integration_2026-10-05.md).
+**5 October 2026 · Climate and a Glass City summer afternoon.**
+The Climate Integration Pass is committed/pushed as `79b3a6b` and successfully
+published by [Pages run 37260923798](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37260923798).
+Approved follow-up adds The Usual Table, a new summer illustration and a modest
+Lucas County comparison from three published LOCA2-derived model series. It is
+implemented and undergoing final checks/publication; source/deployment results
+will be recorded in the [follow-up report](reports/glass_city_summer_and_local_climate_2026-10-05.md).
+Existing observations, accepted artwork, frozen products and Model Lab remain
+unchanged. No new canon or exact 2075 daily forecast is established.
 
 **5 October 2026 · The Orange Band and the Basin Reading Hall.**
 The Orange Band is published with clearer Hall descriptions, a selectable
@@ -20,10 +23,10 @@ Publication verification is recorded in [the implementation report](reports/oran
 | Area | Current state | Start here |
 | --- | --- | --- |
 | Research foundation | Frozen Phase 1–16 products and provenance preserved. | [Research by subject](reports/README.md) |
-| Atlas | Four finished 2075 futurescapes and four published studies; fifth climate Study available as a local prototype; map-led regional explorer, earlier-map collection, Methods, Updates and Roadmap. | [Atlas](https://stephenlewandowski.github.io/western-basin-worldbuilding/) |
+| Atlas | Four finished 2075 futurescapes and five published studies; map-led regional explorer, earlier-map collection, Methods, Updates and Roadmap. | [Atlas](https://stephenlewandowski.github.io/western-basin-worldbuilding/) |
 | Maps and observations | Illustrated five-region fantasy map beside real geography, eleven sourced landmarks, four preserved research plates and a day-by-day Waterville 2025 flow explorer. No new empirical routed model. | [Map derivative](assets/atlas/region/README.md), [development record](reports/atlas_maps_and_evidence_2026-10-03.md) |
 | Basin Reading Hall | Composition A is the user-selected canonical visual orientation, with qualitative counter/spine/return/service relationships locked. Architectural detail remains in development. | [Workshop](atlas/basin-reading-hall/index.html), [continuity plan](docs/phase_briefs/hf05_reading_hall_continuity_lock.md) |
-| Stories | The Orange Band: one published standalone encounter and fictional inspectable Water Conditions Card. Earlier bus/shirt encounters preserved as superseded history. Withdrawn comic remains withdrawn. | [Scene record](stories/the_orange_band.md), [earlier source archive](stories/archive/reading_hall_2026-10-04/README.md), [story workshop](stories/README.md) |
+| Stories | The Orange Band (with its fictional inspectable Water Conditions Card) and the approved Glass City summer vignette The Usual Table. Earlier bus/shirt encounters preserved as superseded history. Withdrawn comic remains withdrawn. | [Scene record](stories/the_orange_band.md), [earlier source archive](stories/archive/reading_hall_2026-10-04/README.md), [story workshop](stories/README.md) |
 | Model Lab | Three saved synthetic routing cases and local read-only Shiny explorer. Separate observed Waterville flow display adds no empirical routed case. | [Model guides](data/model_lab/README.md), [input assessment](reports/model_lab_empirical_inputs_2026-10-03.md) |
 | Reader figures | Four architectural ink sketches and a paired crib sketch replace prominent equipment diagrams; interactive web charts carry network/flowchart meaning alongside linked reading sections. Originals/builders retained. | [Current artwork lineage](assets/atlas/visual-refresh/README.md), [earlier derivative lineage](assets/phase17d/public_inset_derivatives.json) |
 | Worktree history | Twenty previously untracked/ignored creative files preserved with exact hashes; seven worktrees remain untouched. | [Inventory](reports/worktree_draft_inventory_2026-10-03.md) |
@@ -44,9 +47,9 @@ migration and future Cedar Point entertainment. Present sources and imagined
 passages remain distinct; original imagery, map coordinates and frozen products
 are unchanged. [Grounding and validation](reports/lake_erie_coast_context_2026-10-04.md).
 
-1. Review the local climate Study, reconcile GLISA/NOAA station normals and
-   extract a modest, model-balanced LOCA2 2061–2090 envelope before supplying
-   local future numbers. [Climate readiness](reports/climate_integration_2026-10-05.md).
+1. Observe human readers playing The Usual Table alongside The Orange Band;
+   reconcile GLISA/NOAA station normals and mature full-model/member climate
+   extraction beyond the first three-series county sample. [Climate readiness](reports/climate_integration_2026-10-05.md).
 2. Observe human readers using the map → place → encounter and gauge → day
    journeys. Refine presentation before increasing production volume.
 3. Observe first-time readers playing [The Orange Band](stories/the_orange_band.md)

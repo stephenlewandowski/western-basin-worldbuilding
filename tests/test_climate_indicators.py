@@ -7,6 +7,9 @@ import unittest
 spec = importlib.util.spec_from_file_location('climate', Path(__file__).resolve().parents[1]/'src/python/climate/build_climate_indicators.py')
 climate = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(climate)
+projection_spec = importlib.util.spec_from_file_location('projection', Path(__file__).resolve().parents[1]/'src/python/climate/extract_local_projections.py')
+projection = importlib.util.module_from_spec(projection_spec)
+projection_spec.loader.exec_module(projection)
 
 
 class ClimateTests(unittest.TestCase):
@@ -42,6 +45,20 @@ class ClimateTests(unittest.TestCase):
         self.assertEqual(climate.air_year(days, 2020)['expected_days'], 366)
         del days[date(2020, 2, 29)]
         self.assertFalse(climate.air_year(days, 2020)['complete'])
+
+    def test_projection_baseline_joins_the_matching_path_and_converts_delta(self):
+        historical=[{'MODEL':m,'YEAR':y,**{f:50 for f in projection.FIELDS}} for m in projection.MODELS for y in range(1991,2015)]
+        future=[{'MODEL':m,'YEAR':y,**{f'{f}_{p}':(60+i*10 if y<=2020 else 90) for f in projection.FIELDS for i,p in enumerate(projection.PATHS)}} for m in projection.MODELS for y in [*range(2015,2021),*range(2061,2091)]]
+        result=projection.summarize(historical,future)
+        metric=result[0]['series'][0]['metrics']['annual_temperature']
+        self.assertEqual(metric['baseline'],52)
+        self.assertEqual(metric['change'],38)
+        self.assertAlmostEqual(metric['change_c'],38*5/9,places=3)
+        self.assertEqual(result[1]['series'][0]['metrics']['annual_temperature']['baseline'],54)
+
+    def test_projection_rejects_a_missing_year(self):
+        with self.assertRaises(AssertionError):
+            projection.summarize([],[])
 
 
 if __name__ == '__main__':

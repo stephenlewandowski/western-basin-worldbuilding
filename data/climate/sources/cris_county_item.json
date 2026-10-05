@@ -1,0 +1,133 @@
+{
+  "id": "f5134f46a5a3491f8259145271644eed",
+  "owner": "maps_nationalclimate",
+  "ownerId": "00500d0a25224d3daf8822516db27873",
+  "orgId": "0Fs3HcaFfvzXvm7w",
+  "created": 1759352688000,
+  "modified": 1778084865000,
+  "guid": null,
+  "name": "CRIS_County_D",
+  "title": "CRIS Zonal Statistics by County",
+  "type": "Feature Service",
+  "typeKeywords": [
+    "ArcGIS Server",
+    "Data",
+    "Feature Access",
+    "Feature Service",
+    "Metadata",
+    "Service",
+    "Hosted Service"
+  ],
+  "description": "<p>This feature layer contains geographically summarized data for temperature and precipiation thresholds of observed historical climate and modeled projections from the 5th National Climate Assessment. The methodology for generating the summaries can be found at the&nbsp;<a target='_blank' href='https://cris.climate.gov/pages/about-the-data' rel='nofollow ugc noopener noreferrer'>Climate Resilience Information System<\/a>. Layer contents:<br />&nbsp;<\/p><ul><li>49 climate variables<\/li><li>Observed history by gridded climatology (Livneh and nClimGrid)<\/li><li>Modeled history for 16 general circulation models (GCMs) using two downscaling methods (LOCA2 and STAR), plus ensembles<\/li><li>Future projections across three scenarios (shared socioeconomic pathways or SSPs) for 16 GCMs using two downscaling methods (LOCA2 and STAR), plus ensembles<\/li><li>Decadal and annual summaries<\/li><li>Census TIGER/Line county boundaries, 2023 vintage (<a target='_blank' href='https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-geodatabase-file.2023.html#list-tab-1258746043' rel='nofollow ugc noopener noreferrer'>link<\/a>)<\/li><\/ul><div><strong>Known issues and limitations<\/strong><\/div><div><ul><li>There are no SSP370 data for STAR; this affects all associated GCMs and ensembles.<\/li><\/ul><div><strong>Using the Data<\/strong><\/div><\/div><div><ul><li>Decadal and annual averages are served using related tables based on the Geographic Identifier. These layers can be analyzed or subsetted. Visualziation in the Map Viewer is only possible if the fields are joined to the features using the Geographic Identifier.&nbsp;<\/li><li>Additional tools are provided in the&nbsp;<a target='_blank' href='https://cris.climate.gov/pages/developers' rel='nofollow ugc noopener noreferrer'>CRIS Developers Hub<\/a>&nbsp;to assist in subsetting and analyzing these data.&nbsp;<\/li><\/ul><div><strong>Additional Layers<\/strong><\/div><\/div><div>The&nbsp;<a target='_blank' href='https://cris.climate.gov/pages/cris-data' rel='nofollow ugc noopener noreferrer'>CRIS Open Data Hub<\/a>&nbsp;provides a variety of geographically summarized data, including much smaller and performant summaries of climate projections based on the blended ensembles used in the 5th National Climate Assessment.&nbsp;<\/div>",
+  "tags": [
+    "CRIS",
+    "Climate"
+  ],
+  "snippet": "This layer contains historical climate data and downscaled climate projections for counties in the contiguous United States.",
+  "thumbnail": "thumbnail/thumbnail1777557490057.png",
+  "documentation": null,
+  "extent": [
+    [
+      -124.84899006418908,
+      24.39630911621937
+    ],
+    [
+      -66.88543890150368,
+      49.38448464294428
+    ]
+  ],
+  "categories": ["/Categories/Environment/Multiple or All Hazards"],
+  "spatialReference": "102100",
+  "accessInformation": "U.S. Federal Government, 2024: Climate Resilience Information System. [Online] https://cris.climate.gov. Accessed {DATE}.",
+  "classification": null,
+  "licenseInfo": "<p><img style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; height:auto; max-width:100%;' src='https://licensebuttons.net/l/by/3.0/88x31.png' width='88' height='31' /><span style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'> This work is licensed under a Creative Commons by Attribution 4.0 International (CC BY 4.0) license. See Credits and Map for Attribution.<\/span><br />&nbsp;<\/p><div style='font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><a style='color:rgb(0, 97, 155); text-decoration-line:none;' target='_blank' href='https://creativecommons.org/licenses/by/4.0/legalcode' rel='nofollow ugc noopener noreferrer'><strong>View License Deed<\/strong><\/a>&nbsp;|&nbsp;<a style='color:rgb(0, 97, 155); text-decoration-line:none;' target='_blank' href='https://creativecommons.org/licenses/by/4.0/legalcode' rel='nofollow ugc noopener noreferrer'><strong>View Legal Code<\/strong><\/a><\/div>",
+  "culture": "en-us",
+  "properties": {
+    "location": {
+      "type": "custom",
+      "extent": [
+        [
+          -124.84899006418908,
+          24.39630911621937
+        ],
+        [
+          -66.88543890150368,
+          49.38448464294428
+        ]
+      ],
+      "geometries": [{
+        "xmin": -124.84899006418908,
+        "ymin": 24.39630911621937,
+        "xmax": -66.88543890150368,
+        "ymax": 49.38448464294428,
+        "spatialReference": {"wkid": 4326},
+        "type": "extent"
+      }],
+      "spatialReference": {"wkid": 4326}
+    },
+    "downloads": {
+      "flowType": "createReplica",
+      "formats": [
+        {
+          "key": "csv",
+          "hidden": false
+        },
+        {
+          "key": "shapefile",
+          "hidden": false
+        },
+        {
+          "key": "geojson",
+          "hidden": false
+        },
+        {
+          "key": "kml",
+          "hidden": false
+        },
+        {
+          "key": "filegdb",
+          "hidden": false
+        },
+        {
+          "key": "featureCollection",
+          "hidden": false
+        },
+        {
+          "key": "excel",
+          "hidden": false
+        },
+        {
+          "key": "geoPackage",
+          "hidden": false
+        },
+        {
+          "key": "sqlite",
+          "hidden": false
+        }
+      ]
+    }
+  },
+  "advancedSettings": null,
+  "url": "https://services3.arcgis.com/0Fs3HcaFfvzXvm7w/arcgis/rest/services/CRIS_County_D/FeatureServer",
+  "proxyFilter": null,
+  "access": "public",
+  "size": 12050833408,
+  "subInfo": 0,
+  "appCategories": [],
+  "industries": [],
+  "languages": [],
+  "largeThumbnail": null,
+  "banner": null,
+  "screenshots": [],
+  "listed": false,
+  "commentsEnabled": true,
+  "numComments": 0,
+  "numRatings": 0,
+  "avgRating": 0,
+  "numViews": 3531,
+  "scoreCompleteness": 91,
+  "groupDesignations": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "lastViewed": 1791169200000
+}

@@ -432,3 +432,21 @@ p{line-height:1.7}
   .climate-family-buttons button { flex: 1 1 140px; }
   .climate-history text { font-size: 17px; }
 }
+
+.summer-scene { padding-top: 48px; padding-bottom: 48px; border-top: 1px solid #bdc9bd; }
+.summer-scene h2 { font-size: clamp(38px,6vw,70px); }
+.summer-deck { font-size: 21px; max-width: 700px; line-height: 1.5; }
+.summer-scene figure { margin: 30px 0; }
+.summer-scene figure img { width: 100%; height: auto; }
+.summer-scene figcaption { font-size: 13px; line-height: 1.6; padding-top: 12px; max-width: 900px; }
+.summer-opening { max-width: 720px; }
+.summer-scene [data-summer-play], .summer-scene [data-summer-ending] { margin-top: 30px; padding: 24px; background: #e7ece3; }
+.summer-scene [data-summer-ending] .prose { max-width: 720px; }
+.summer-scene [hidden] { display: none; }
+.summer-choices { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 12px; }
+.summer-choices button { font: inherit; text-align: left; color: #203039; background: #fffdf7; border: 1px solid #87968e; padding: 18px; min-height: 100px; cursor: pointer; }
+.summer-choices button:hover { background: #f4e8d7; }
+.summer-choices strong, .summer-choices span { display: block; line-height: 1.5; }
+.summer-choices span { font-size: 13px; margin-top: 8px; }
+.summer-boundary { font-size: 13px; line-height: 1.7; margin-top: 22px; max-width: 900px; }
+@media (max-width: 760px) { .summer-choices { grid-template-columns: 1fr; } .summer-scene [data-summer-play], .summer-scene [data-summer-ending] { padding: 18px; } }

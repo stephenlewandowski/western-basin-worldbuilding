@@ -8,6 +8,13 @@ three inspectable coupling charts, a futurescape matrix and amendments for futur
 art. Accepted illustrations, frozen science, Model Lab mathematics/outputs and
 the Reading Hall continuity lock remain unchanged. Starting main: `a17ef20`.
 
+**Published:** source `79b3a6bc7608c85fd8644fff90853767e79bb18b`, successful
+[Pages run37260923798](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37260923798).
+The original observed-history prototype and its checks below are retained as a
+dated implementation checkpoint. A subsequent approved
+[Glass City summer / first local projection sample](glass_city_summer_and_local_climate_2026-10-05.md)
+adds county-scale results; the original observed air/lake/ice arrays are unchanged.
+
 ## Existing foundation and scope
 
 [Climate/hazard findings](climate_hazard_findings.md) and

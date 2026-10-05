@@ -2,7 +2,7 @@
 
 Small observed-history dataset for the [Climate & Thermal Regime study](../../atlas/climate-thermal-regime/index.html).
 It is separate from the Model Lab, the retained Waterville record and frozen
-Phase 9 products. It supplies no empirical nutrient model, future local temperature,
+Phase 9 products. It supplies no empirical nutrient model, exact future street temperature,
 heat-health warning, intake diagnosis or street-level exposure estimate.
 
 ## Contents and reproducibility
@@ -72,7 +72,22 @@ average or silently merge them. Neighborhood sensors, humidity, solar/radiant
 exposure, building conditions, air quality, cooling access and actual electricity
 peaks need separate datasets.
 
-2075-centered LOCA2/GLARM extraction is planned, not performed. Local numerical
-projection values are `null`. Published GLISA regional ranges use different
-windows and baseline; RCP and SSP products are not pooled. See the
+A [first Lucas County projection sample](local_projections.json) is now available:
+three published CRIS LOCA2-derived model series, all three SSPs, 2061–2090 versus
+modeled 1991–2020. [Query snapshots and hashes](projection_source_manifest.json)
+retain NOAA/Esri CC BY4.0 attribution. Rebuild offline:
+
+```sh
+python src/python/climate/extract_local_projections.py
+```
+
+Add `--fetch` only for a deliberate source refresh. The extractor validates
+coverage and joins each pathway's modeled baseline before calculating change.
+The sample is county-scale, not an individual CMIP6 realization or full ensemble
+uncertainty range. Member IDs/upstream release are not exposed; calendar/grid
+resampling details remain provider-side limitations. Cooling degree-days are not
+electricity demand. [Calculation and boundaries](../../reports/glass_city_summer_and_local_climate_2026-10-05.md).
+
+Full model/member and GLARM lake extraction remain pending. Published GLISA regional
+ranges use different windows and baseline; RCP and SSP products are not pooled. See the
 [evidence/readiness report](../../reports/climate_integration_2026-10-05.md).

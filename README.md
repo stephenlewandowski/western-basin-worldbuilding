@@ -68,11 +68,17 @@ The [Climate & Thermal Regime study](https://stephenlewandowski.github.io/wester
 starts with real Toledo airport, Lake Erie surface-temperature and ice histories,
 then follows heat through shade, electricity peaks, air quality and lake mixing.
 [Five small indicator families](data/climate/README.md) retain units, source hashes
-and coverage. 2075 pathway frames have explicit model provenance; local numerical
-projections remain pending extraction. [Readiness and evidence](reports/climate_integration_2026-10-05.md),
+and coverage. A first Lucas County comparison uses three published climate-model series;
+full ensemble/member extraction and lake projections remain further work. [Readiness and evidence](reports/climate_integration_2026-10-05.md),
 [place/system matrix](reports/climate_futurescape_matrix_2026-10-05.md) and
 [future art direction](docs/climate_art_direction.md). Existing accepted imagery
 remains unchanged. The public study remains a prototype with explicit data boundaries.
+
+A Glass City summer afternoon is now playable in **[The Usual Table](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/glass-city-2075/#summer-scene)**:
+peaches, dominoes and a missing patch of shade change where two friends spend
+their afternoon. [Scene and new illustration](stories/the_usual_table.md),
+[separate local climate calculation](reports/glass_city_summer_and_local_climate_2026-10-05.md).
+The story's weather is fictional; it is not a model prediction for that day.
 
 ## In development
 
