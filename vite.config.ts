@@ -24,6 +24,7 @@ export default defineConfig({
         roadmap: page('./roadmap/index.html'),
         updates: page('./updates/index.html'),
         game: page('./game/index.html'),
+        erieDrift: page('./erie-drift/index.html'),
       },
     },
   },

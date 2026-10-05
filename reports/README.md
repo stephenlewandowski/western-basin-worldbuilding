@@ -42,6 +42,8 @@ or calibrated environmental performance.
 
 ## Creative workshop
 
+- [Erie Drift: fishing-game implementation and checks](erie_drift_implementation_2026-10-05.md).
+
 - [The Orange Band: standalone encounter, fictional card and publication record](orange_band_implementation_2026-10-04.md).
 
 - [Vesper Station: five-room night shift, game design and publication](vesper_station_update_2026-10-04.md).

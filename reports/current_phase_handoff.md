@@ -1,5 +1,26 @@
 # Current handoff
 
+## Erie Drift · 5 October 2026 · browser prototype
+
+The user requested design and implementation of the proposed walleye/perch boat
+game, with Godot optional. A bounded browser version is implemented at
+`/erie-drift/` using TypeScript/Canvas and native controls. Starting source was
+clean `9057b07`, matching origin/main. New art, six real-named fishing grounds, two marinas, seven regular species,
+optional speculative snakehead, battery/solar range, bait/tackle, scoring,
+drift/depth choices and return-to-dock endings are connected to the Atlas. Godot is not required for this version.
+
+[Design and controls](../docs/erie_drift_design.md),
+[implementation/verification](erie_drift_implementation_2026-10-05.md).
+Preview: `http://127.0.0.1:4175/western-basin-worldbuilding/erie-drift/`.
+The user authorized commit, push and GitHub Pages publication on 5 October 2026.
+[Public game route](https://stephenlewandowski.github.io/western-basin-worldbuilding/erie-drift/).
+Deployment evidence belongs in the verification record. Existing scientific
+products, Model Lab, Vesper, Hall continuity and accepted images remain unchanged.
+Check actual Git state and the verification record before continuing.
+
+Expanded-build checks are recorded in the implementation report; earlier
+prototype counts are superseded by that record.
+
 ## Glass City summer and first local projection sample · 5 October 2026
 
 Approved follow-up to source `79b3a6b`, now published successfully by

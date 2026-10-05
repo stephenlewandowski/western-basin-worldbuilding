@@ -1,0 +1,18 @@
+{
+  "title": "Erie Drift — lake morning",
+  "created": "2026-10-05",
+  "tool": "Built-in image_gen",
+  "status": "New provisional fictional game backdrop; no accepted artwork replaced",
+  "prompt": "Use case: stylized-concept. Asset type: wide 16:9 background painting for Erie Drift, a small browser fishing game set on western Lake Erie in a fictional summer of 2075. Make a beautiful hand-painted digital gouache landscape, believable natural forms with crisp brushwork, restrained ink detail, weathered maritime teal and warm honey light. View from low above lake water, no boat or people in foreground. Upper 40 percent: luminous hazy pale blue summer sky, a few soft clouds, very low flat Ohio shore far in the distance, reed-edged shore at far left, small weathered harbor buildings with subtle exterior shade canopies, distant low industrial silhouettes and an unobtrusive round water-intake structure. Lower 60 percent: open freshwater in rich blue-green with small wind ripples, warm broken reflections, several distinct bands of water suggesting gentle drift; leave the central and right foreground open for a game rod and line overlay. Great Lakes scale: flat horizon, no mountains, no tropical plants, no ocean surf. A few tiny gulls. Ordinary warm summer morning, inviting, breathable, sunlit, no dramatic storm. Entire image is a coherent view over the lake; no frames, interface, text, numbers, labels, logos or watermark. Future detail is modest and repairable; no giant megastructures or neon cyberpunk. This is an invented composite setting, not a real navigation chart.",
+  "reference_images": [],
+  "dimensions": [
+    1672,
+    941
+  ],
+  "master_archive": "source_png.zip",
+  "master_member": "lake-morning.png",
+  "master_sha256": "631fd61d2cd3f52d535d530b7762b2c30d380767caa494277ce0ae1a9f363200",
+  "webp_sha256": "409f50c14f0bb94927fca35b8e2f471b9b7a8cf5684e0765657a8fc4565a985b",
+  "derivative": "Sharp WebP quality 88, effort 6; original dimensions; no semantic edits",
+  "review": "Flat Great Lakes horizon, plausible small waves, shaded harbor and low industrial/round intake silhouettes; invented composite, not a real view or navigation product. Warm summer art is reused across authored weather presets; no measured scene temperature."
+}

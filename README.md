@@ -23,6 +23,14 @@ people, surprising devices and consequential choices make them worth entering.
 | Stories | The Orange Band: a standalone Reading Hall encounter, with earlier sources and ordinary-day drafts preserved | [Play The Orange Band](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story), [encounter record](stories/the_orange_band.md), [story workshop](stories/README.md) |
 | Companion game | Vesper Station: a CGA night shift with five rooms, two repairs and a Reading Hall dispatch choice | [Play](https://stephenlewandowski.github.io/western-basin-worldbuilding/game/), [game design](DESIGN.md) |
 
+**[Play Erie Drift](https://stephenlewandowski.github.io/western-basin-worldbuilding/erie-drift/).** Take a small fishing boat onto a
+fictional Lake Erie in 2075. Choose between two marinas and six familiar grounds,
+budget a solar-electric boat’s charge, select bait/tackle and meet a mixed catch,
+then return to supper at the landing. [Design and controls](docs/erie_drift_design.md),
+[implementation and checks](reports/erie_drift_implementation_2026-10-05.md).
+For local development, run `npm run dev` and open
+`/western-basin-worldbuilding/erie-drift/` on the printed server.
+
 The four futurescapes are [Glass City 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/glass-city-2075/),
 [Maumee Bio-Ag Landscape 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/maumee-bio-ag-2075/),
 [Industrial Metabolism 2075](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/industrial-metabolism-2075/),
