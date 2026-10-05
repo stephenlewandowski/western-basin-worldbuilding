@@ -123,8 +123,27 @@ Local verification passes:
 Independent agent reviews checked calculation/provenance and scene/image
 continuity. They prompted clearer annual-count wording and removal of a property
 break claim the image cannot establish. These are continuity/science checks,
-not audience testing. Source commit and live deployment results follow below
-after publication.
+not audience testing.
+
+Source `6f7ce844d926ad931e791c7304cfb775f0424eb1` was committed and pushed to
+main, then successfully published by
+[Pages run 37262740315](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37262740315).
+The run tested and built that exact source. Live 1440/390/320 px checks also pass
+all three endings, mutual exclusion, keyboard/restart focus, homepage discovery,
+three projection cards/nine series, observed controls, coupling charts, same-page
+anchors, five place pointers and all 16 routes. No horizontal page overflow or
+runtime errors. A documentation-only checkpoint records these publication results;
+it does not require a different deployed build.
+
+Public entry points:
+[The Usual Table](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/glass-city-2075/#summer-scene)
+and [local projection comparison](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/climate-thermal-regime/#local-projections).
+
+This bounded addition demonstrates a productive connection: the climate study
+quantifies broad pressure while the scene makes shade, leisure and neighboring
+access matter to people. Whether the characters hold unfamiliar readers' interest
+still needs human play; agent continuity review cannot establish it. Favor that
+small test before adding another scene or enlarging the game.
 
 ## Changed paths
 

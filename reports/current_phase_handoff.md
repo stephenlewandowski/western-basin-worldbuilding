@@ -11,7 +11,15 @@ rebuild offline; variant/upstream-release gaps and county spatial means are
 explicit. Story weather remains fiction. Existing observed arrays, frozen files,
 Model Lab, Waterville, accepted images and Hall lock remain unchanged.
 [Implementation/calculation/publication record](glass_city_summer_and_local_climate_2026-10-05.md).
-User authorized commit/push/publication; verify final deployment before repeating it.
+Follow-up source `6f7ce844d926ad931e791c7304cfb775f0424eb1` is committed, pushed
+and successfully deployed by
+[Pages run 37262740315](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37262740315).
+Live 1440/390/320 px checks pass: all three endings, keyboard and restart focus,
+three projection paths/nine series, observed indicator controls, connection
+charts, discovery links and all 16 routes. No horizontal page overflow or runtime
+errors. The final documentation checkpoint records these results without changing
+the deployed build. Next useful step is human play, alongside wider model/member
+extraction and station-product reconciliation; no audience-success claim is made.
 
 
 ## Climate Integration Pass · 5 October 2026 · publication authorized

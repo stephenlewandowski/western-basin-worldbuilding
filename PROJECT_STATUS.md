@@ -5,8 +5,11 @@ The Climate Integration Pass is committed/pushed as `79b3a6b` and successfully
 published by [Pages run 37260923798](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37260923798).
 Approved follow-up adds The Usual Table, a new summer illustration and a modest
 Lucas County comparison from three published LOCA2-derived model series. It is
-implemented and undergoing final checks/publication; source/deployment results
-will be recorded in the [follow-up report](reports/glass_city_summer_and_local_climate_2026-10-05.md).
+committed/pushed as `6f7ce84` and successfully published by
+[Pages run 37262740315](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37262740315).
+Live desktop/mobile playthroughs, climate controls and all 16 routes pass;
+source, calculation and verification details are in the
+[follow-up report](reports/glass_city_summer_and_local_climate_2026-10-05.md).
 Existing observations, accepted artwork, frozen products and Model Lab remain
 unchanged. No new canon or exact 2075 daily forecast is established.
 
