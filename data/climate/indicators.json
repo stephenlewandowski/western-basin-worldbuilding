@@ -1,0 +1,1220 @@
+{
+  "schema_version": "1.0",
+  "edition": "2026-10-05",
+  "last_calendar_year": 2025,
+  "status": "Observed-history study prototype; not a climate forecast or Model Lab output",
+  "sources_manifest": "data/climate/source_manifest.json",
+  "indicator_metadata": {
+    "air": {
+      "unit": "degC",
+      "statistic": "annual mean daily midpoint",
+      "period": [
+        1991,
+        2025
+      ],
+      "geography": "USW00094830 station",
+      "source_files": [
+        "toledo_express_ghcnd.dly.gz"
+      ],
+      "minimum_paired_coverage": 1.0
+    },
+    "hot_days": {
+      "unit": "days/year",
+      "threshold_native_tenths_c": 322,
+      "operator": ">=",
+      "element": "TMAX",
+      "period": [
+        1991,
+        2025
+      ],
+      "geography": "USW00094830 station",
+      "source_files": [
+        "toledo_express_ghcnd.dly.gz"
+      ]
+    },
+    "warm_nights": {
+      "unit": "days/year",
+      "threshold_native_tenths_c": 211,
+      "operator": ">=",
+      "element": "TMIN",
+      "period": [
+        1991,
+        2025
+      ],
+      "geography": "USW00094830 station",
+      "source_files": [
+        "toledo_express_ghcnd.dly.gz"
+      ]
+    },
+    "hot_spells": {
+      "duration_unit": "days",
+      "intensity_unit": "degC",
+      "minimum_consecutive_days": 3,
+      "threshold_native_tenths_c": 322,
+      "operator": ">=",
+      "element": "TMAX",
+      "period": [
+        1991,
+        2025
+      ],
+      "geography": "USW00094830 station",
+      "source_files": [
+        "toledo_express_ghcnd.dly.gz"
+      ]
+    },
+    "lake_surface": {
+      "unit": "degC",
+      "statistic": "mean of daily lake-average surface analyses",
+      "period": [
+        1995,
+        2025
+      ],
+      "summer_months": [
+        6,
+        7,
+        8
+      ],
+      "geography": "whole Lake Erie",
+      "source_files": [
+        "erie_glsea_daily.csv"
+      ],
+      "minimum_daily_coverage": 1.0
+    },
+    "ice": {
+      "unit": "percent",
+      "statistic": "annual maximum areal coverage",
+      "period": [
+        1973,
+        2025
+      ],
+      "geography": "whole Lake Erie",
+      "source_files": [
+        "great_lakes_annual_max_ice.txt"
+      ]
+    }
+  },
+  "station": {
+    "id": "USW00094830",
+    "name": "TOLEDO EXPRESS AP, OH US",
+    "latitude": 41.5886,
+    "longitude": -83.8014,
+    "scope": "Toledo Express airport station; not urban exposure",
+    "different_from_frozen_station": "KTDZ / Toledo Executive Airport"
+  },
+  "definitions": {
+    "mean_daily_midpoint_c": "Arithmetic annual mean of (TMAX+TMIN)/2; complete paired years only. Not official normal TAVG.",
+    "hot_days": "TMAX >=32.2 C (322 tenths C), the quantized GHCN equivalent of reported 90 F; annual complete years only.",
+    "warm_nights": "TMIN >=21.1 C (211 tenths C), quantized reported 70 F; daily-minimum proxy, not hourly night exposure.",
+    "hot_spells": "At least 3 consecutive calendar days TMAX >=32.2 C; runs split at year boundaries; missing values break runs. Project definition, not a heat-index warning.",
+    "hottest_spell_mean_max_c": "Highest event-average daily TMAX among qualifying hot spells; duration and intensity are separate.",
+    "lake_temperature": "GLSEA satellite-derived, spatially averaged whole-Lake Erie surface analysis; annual and June-August daily means. No depth/oxygen inference.",
+    "ice": "Whole-Lake Erie annual maximum percent coverage. Not seasonal mean, ice duration or western-basin-only extent.",
+    "quality": "GHCN missing -9999 or nonblank QFLAG excluded; no infilling. Incomplete annual indicators are null; coverage counts retained."
+  },
+  "official_normals_1991_2020": {
+    "mean_air_f": {
+      "value": 52.2,
+      "source_field": "ANN-TAVG-NORMAL",
+      "completeness_flag": "S",
+      "years": 30
+    },
+    "hot_days": {
+      "value": 18.7,
+      "source_field": "ANN-TMAX-AVGNDS-GRTH090",
+      "completeness_flag": "S",
+      "years": 30
+    },
+    "cooling_degree_days_f65": {
+      "value": 1018.8,
+      "source_field": "ANN-CLDD-NORMAL",
+      "completeness_flag": "S",
+      "years": 30
+    }
+  },
+  "monthly_mean_normals_f": [
+    {
+      "month": 1,
+      "value": 27.5
+    },
+    {
+      "month": 2,
+      "value": 29.9
+    },
+    {
+      "month": 3,
+      "value": 39.2
+    },
+    {
+      "month": 4,
+      "value": 50.9
+    },
+    {
+      "month": 5,
+      "value": 62.1
+    },
+    {
+      "month": 6,
+      "value": 71.6
+    },
+    {
+      "month": 7,
+      "value": 75.4
+    },
+    {
+      "month": 8,
+      "value": 73.5
+    },
+    {
+      "month": 9,
+      "value": 66.4
+    },
+    {
+      "month": 10,
+      "value": 54.6
+    },
+    {
+      "month": 11,
+      "value": 42.8
+    },
+    {
+      "month": 12,
+      "value": 32.8
+    }
+  ],
+  "derived_baseline_1991_2020": {
+    "hot_days": 18.7333,
+    "warm_nights": 10.1667,
+    "hot_spell_events": 2.5333,
+    "hot_spell_days": 11.1333
+  },
+  "air": [
+    {
+      "year": 1991,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 11.254,
+      "hot_days": 35,
+      "warm_nights": 11,
+      "hot_spell_events": 4,
+      "hot_spell_days": 19,
+      "longest_hot_spell_days": 7,
+      "hottest_spell_mean_max_c": 34.27
+    },
+    {
+      "year": 1992,
+      "expected_days": 366,
+      "valid_tmax_days": 366,
+      "valid_tmin_days": 366,
+      "paired_days": 366,
+      "complete": true,
+      "mean_daily_midpoint_c": 9.552,
+      "hot_days": 3,
+      "warm_nights": 0,
+      "hot_spell_events": 0,
+      "hot_spell_days": 0,
+      "longest_hot_spell_days": 0,
+      "hottest_spell_mean_max_c": null
+    },
+    {
+      "year": 1993,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 9.925,
+      "hot_days": 22,
+      "warm_nights": 13,
+      "hot_spell_events": 4,
+      "hot_spell_days": 14,
+      "longest_hot_spell_days": 5,
+      "hottest_spell_mean_max_c": 35.32
+    },
+    {
+      "year": 1994,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 9.825,
+      "hot_days": 13,
+      "warm_nights": 6,
+      "hot_spell_events": 1,
+      "hot_spell_days": 9,
+      "longest_hot_spell_days": 9,
+      "hottest_spell_mean_max_c": 34.69
+    },
+    {
+      "year": 1995,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 10.501,
+      "hot_days": 34,
+      "warm_nights": 28,
+      "hot_spell_events": 4,
+      "hot_spell_days": 25,
+      "longest_hot_spell_days": 8,
+      "hottest_spell_mean_max_c": 36.38
+    },
+    {
+      "year": 1996,
+      "expected_days": 366,
+      "valid_tmax_days": 366,
+      "valid_tmin_days": 366,
+      "paired_days": 366,
+      "complete": true,
+      "mean_daily_midpoint_c": 9.233,
+      "hot_days": 10,
+      "warm_nights": 4,
+      "hot_spell_events": 1,
+      "hot_spell_days": 3,
+      "longest_hot_spell_days": 3,
+      "hottest_spell_mean_max_c": 34.63
+    },
+    {
+      "year": 1997,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 9.143,
+      "hot_days": 9,
+      "warm_nights": 5,
+      "hot_spell_events": 1,
+      "hot_spell_days": 3,
+      "longest_hot_spell_days": 3,
+      "hottest_spell_mean_max_c": 33.13
+    },
+    {
+      "year": 1998,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 11.878,
+      "hot_days": 18,
+      "warm_nights": 10,
+      "hot_spell_events": 3,
+      "hot_spell_days": 11,
+      "longest_hot_spell_days": 5,
+      "hottest_spell_mean_max_c": 33.9
+    },
+    {
+      "year": 1999,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 10.758,
+      "hot_days": 26,
+      "warm_nights": 10,
+      "hot_spell_events": 5,
+      "hot_spell_days": 19,
+      "longest_hot_spell_days": 5,
+      "hottest_spell_mean_max_c": 33.9
+    },
+    {
+      "year": 2000,
+      "expected_days": 366,
+      "valid_tmax_days": 366,
+      "valid_tmin_days": 366,
+      "paired_days": 366,
+      "complete": true,
+      "mean_daily_midpoint_c": 9.839,
+      "hot_days": 2,
+      "warm_nights": 1,
+      "hot_spell_events": 0,
+      "hot_spell_days": 0,
+      "longest_hot_spell_days": 0,
+      "hottest_spell_mean_max_c": null
+    },
+    {
+      "year": 2001,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 11.045,
+      "hot_days": 19,
+      "warm_nights": 6,
+      "hot_spell_events": 4,
+      "hot_spell_days": 16,
+      "longest_hot_spell_days": 6,
+      "hottest_spell_mean_max_c": 34.0
+    },
+    {
+      "year": 2002,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 11.355,
+      "hot_days": 38,
+      "warm_nights": 25,
+      "hot_spell_events": 6,
+      "hot_spell_days": 32,
+      "longest_hot_spell_days": 8,
+      "hottest_spell_mean_max_c": 35.0
+    },
+    {
+      "year": 2003,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 9.584,
+      "hot_days": 7,
+      "warm_nights": 3,
+      "hot_spell_events": 0,
+      "hot_spell_days": 0,
+      "longest_hot_spell_days": 0,
+      "hottest_spell_mean_max_c": null
+    },
+    {
+      "year": 2004,
+      "expected_days": 366,
+      "valid_tmax_days": 366,
+      "valid_tmin_days": 366,
+      "paired_days": 366,
+      "complete": true,
+      "mean_daily_midpoint_c": 10.046,
+      "hot_days": 6,
+      "warm_nights": 7,
+      "hot_spell_events": 0,
+      "hot_spell_days": 0,
+      "longest_hot_spell_days": 0,
+      "hottest_spell_mean_max_c": null
+    },
+    {
+      "year": 2005,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 10.358,
+      "hot_days": 27,
+      "warm_nights": 15,
+      "hot_spell_events": 5,
+      "hot_spell_days": 17,
+      "longest_hot_spell_days": 4,
+      "hottest_spell_mean_max_c": 35.7
+    },
+    {
+      "year": 2006,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 11.265,
+      "hot_days": 12,
+      "warm_nights": 11,
+      "hot_spell_events": 2,
+      "hot_spell_days": 8,
+      "longest_hot_spell_days": 5,
+      "hottest_spell_mean_max_c": 33.88
+    },
+    {
+      "year": 2007,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 10.514,
+      "hot_days": 24,
+      "warm_nights": 8,
+      "hot_spell_events": 3,
+      "hot_spell_days": 10,
+      "longest_hot_spell_days": 4,
+      "hottest_spell_mean_max_c": 34.07
+    },
+    {
+      "year": 2008,
+      "expected_days": 366,
+      "valid_tmax_days": 366,
+      "valid_tmin_days": 366,
+      "paired_days": 366,
+      "complete": true,
+      "mean_daily_midpoint_c": 9.709,
+      "hot_days": 11,
+      "warm_nights": 6,
+      "hot_spell_events": 1,
+      "hot_spell_days": 3,
+      "longest_hot_spell_days": 3,
+      "hottest_spell_mean_max_c": 32.77
+    },
+    {
+      "year": 2009,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 9.581,
+      "hot_days": 5,
+      "warm_nights": 2,
+      "hot_spell_events": 0,
+      "hot_spell_days": 0,
+      "longest_hot_spell_days": 0,
+      "hottest_spell_mean_max_c": null
+    },
+    {
+      "year": 2010,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 10.909,
+      "hot_days": 25,
+      "warm_nights": 13,
+      "hot_spell_events": 3,
+      "hot_spell_days": 13,
+      "longest_hot_spell_days": 5,
+      "hottest_spell_mean_max_c": 34.52
+    },
+    {
+      "year": 2011,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 10.472,
+      "hot_days": 32,
+      "warm_nights": 18,
+      "hot_spell_events": 5,
+      "hot_spell_days": 23,
+      "longest_hot_spell_days": 9,
+      "hottest_spell_mean_max_c": 34.7
+    },
+    {
+      "year": 2012,
+      "expected_days": 366,
+      "valid_tmax_days": 366,
+      "valid_tmin_days": 366,
+      "paired_days": 366,
+      "complete": true,
+      "mean_daily_midpoint_c": 11.715,
+      "hot_days": 32,
+      "warm_nights": 10,
+      "hot_spell_events": 4,
+      "hot_spell_days": 19,
+      "longest_hot_spell_days": 10,
+      "hottest_spell_mean_max_c": 35.93
+    },
+    {
+      "year": 2013,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 9.652,
+      "hot_days": 11,
+      "warm_nights": 10,
+      "hot_spell_events": 1,
+      "hot_spell_days": 5,
+      "longest_hot_spell_days": 5,
+      "hottest_spell_mean_max_c": 33.54
+    },
+    {
+      "year": 2014,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 8.466,
+      "hot_days": 5,
+      "warm_nights": 5,
+      "hot_spell_events": 0,
+      "hot_spell_days": 0,
+      "longest_hot_spell_days": 0,
+      "hottest_spell_mean_max_c": null
+    },
+    {
+      "year": 2015,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 9.85,
+      "hot_days": 6,
+      "warm_nights": 1,
+      "hot_spell_events": 1,
+      "hot_spell_days": 3,
+      "longest_hot_spell_days": 3,
+      "hottest_spell_mean_max_c": 32.4
+    },
+    {
+      "year": 2016,
+      "expected_days": 366,
+      "valid_tmax_days": 366,
+      "valid_tmin_days": 366,
+      "paired_days": 366,
+      "complete": true,
+      "mean_daily_midpoint_c": 11.155,
+      "hot_days": 23,
+      "warm_nights": 13,
+      "hot_spell_events": 3,
+      "hot_spell_days": 11,
+      "longest_hot_spell_days": 4,
+      "hottest_spell_mean_max_c": 33.45
+    },
+    {
+      "year": 2017,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 11.01,
+      "hot_days": 11,
+      "warm_nights": 4,
+      "hot_spell_events": 2,
+      "hot_spell_days": 9,
+      "longest_hot_spell_days": 6,
+      "hottest_spell_mean_max_c": 33.9
+    },
+    {
+      "year": 2018,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 10.928,
+      "hot_days": 31,
+      "warm_nights": 23,
+      "hot_spell_events": 6,
+      "hot_spell_days": 24,
+      "longest_hot_spell_days": 7,
+      "hottest_spell_mean_max_c": 35.0
+    },
+    {
+      "year": 2019,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 11.174,
+      "hot_days": 30,
+      "warm_nights": 19,
+      "hot_spell_events": 4,
+      "hot_spell_days": 18,
+      "longest_hot_spell_days": 7,
+      "hottest_spell_mean_max_c": 34.3
+    },
+    {
+      "year": 2020,
+      "expected_days": 366,
+      "valid_tmax_days": 366,
+      "valid_tmin_days": 366,
+      "paired_days": 366,
+      "complete": true,
+      "mean_daily_midpoint_c": 11.887,
+      "hot_days": 35,
+      "warm_nights": 18,
+      "hot_spell_events": 3,
+      "hot_spell_days": 20,
+      "longest_hot_spell_days": 9,
+      "hottest_spell_mean_max_c": 35.07
+    },
+    {
+      "year": 2021,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 12.35,
+      "hot_days": 30,
+      "warm_nights": 29,
+      "hot_spell_events": 4,
+      "hot_spell_days": 19,
+      "longest_hot_spell_days": 8,
+      "hottest_spell_mean_max_c": 33.12
+    },
+    {
+      "year": 2022,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 11.574,
+      "hot_days": 23,
+      "warm_nights": 16,
+      "hot_spell_events": 3,
+      "hot_spell_days": 10,
+      "longest_hot_spell_days": 4,
+      "hottest_spell_mean_max_c": 34.8
+    },
+    {
+      "year": 2023,
+      "expected_days": 365,
+      "valid_tmax_days": 365,
+      "valid_tmin_days": 365,
+      "paired_days": 365,
+      "complete": true,
+      "mean_daily_midpoint_c": 12.274,
+      "hot_days": 11,
+      "warm_nights": 6,
+      "hot_spell_events": 1,
+      "hot_spell_days": 3,
+      "longest_hot_spell_days": 3,
+      "hottest_spell_mean_max_c": 32.97
+    },
+    {
+      "year": 2024,
+      "expected_days": 366,
+      "valid_tmax_days": 344,
+      "valid_tmin_days": 343,
+      "paired_days": 343,
+      "complete": false,
+      "mean_daily_midpoint_c": null,
+      "hot_days": null,
+      "warm_nights": null,
+      "hot_spell_events": null,
+      "hot_spell_days": null,
+      "longest_hot_spell_days": null,
+      "hottest_spell_mean_max_c": null
+    },
+    {
+      "year": 2025,
+      "expected_days": 365,
+      "valid_tmax_days": 360,
+      "valid_tmin_days": 361,
+      "paired_days": 360,
+      "complete": false,
+      "mean_daily_midpoint_c": null,
+      "hot_days": null,
+      "warm_nights": null,
+      "hot_spell_events": null,
+      "hot_spell_days": null,
+      "longest_hot_spell_days": null,
+      "hottest_spell_mean_max_c": null
+    }
+  ],
+  "lake_surface": [
+    {
+      "year": 1995,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 10.9484,
+      "summer_mean_c": 22.1264
+    },
+    {
+      "year": 1996,
+      "valid_days": 366,
+      "summer_days": 92,
+      "annual_mean_c": 10.266,
+      "summer_mean_c": 20.6858
+    },
+    {
+      "year": 1997,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 10.2464,
+      "summer_mean_c": 20.0354
+    },
+    {
+      "year": 1998,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 12.3625,
+      "summer_mean_c": 21.851
+    },
+    {
+      "year": 1999,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.6273,
+      "summer_mean_c": 22.3977
+    },
+    {
+      "year": 2000,
+      "valid_days": 366,
+      "summer_days": 92,
+      "annual_mean_c": 11.177,
+      "summer_mean_c": 20.6976
+    },
+    {
+      "year": 2001,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.0342,
+      "summer_mean_c": 21.1691
+    },
+    {
+      "year": 2002,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.3067,
+      "summer_mean_c": 21.7239
+    },
+    {
+      "year": 2003,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 10.4319,
+      "summer_mean_c": 20.2195
+    },
+    {
+      "year": 2004,
+      "valid_days": 366,
+      "summer_days": 92,
+      "annual_mean_c": 11.229,
+      "summer_mean_c": 20.1836
+    },
+    {
+      "year": 2005,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.6554,
+      "summer_mean_c": 23.1285
+    },
+    {
+      "year": 2006,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.4579,
+      "summer_mean_c": 21.9876
+    },
+    {
+      "year": 2007,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.6386,
+      "summer_mean_c": 21.7746
+    },
+    {
+      "year": 2008,
+      "valid_days": 366,
+      "summer_days": 92,
+      "annual_mean_c": 10.7825,
+      "summer_mean_c": 21.1257
+    },
+    {
+      "year": 2009,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 10.9104,
+      "summer_mean_c": 20.7752
+    },
+    {
+      "year": 2010,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.6932,
+      "summer_mean_c": 22.8934
+    },
+    {
+      "year": 2011,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.5067,
+      "summer_mean_c": 22.5476
+    },
+    {
+      "year": 2012,
+      "valid_days": 366,
+      "summer_days": 92,
+      "annual_mean_c": 12.7278,
+      "summer_mean_c": 22.8588
+    },
+    {
+      "year": 2013,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.1945,
+      "summer_mean_c": 21.1448
+    },
+    {
+      "year": 2014,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 10.6017,
+      "summer_mean_c": 21.1061
+    },
+    {
+      "year": 2015,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.3421,
+      "summer_mean_c": 20.6295
+    },
+    {
+      "year": 2016,
+      "valid_days": 366,
+      "summer_days": 92,
+      "annual_mean_c": 12.6539,
+      "summer_mean_c": 22.7235
+    },
+    {
+      "year": 2017,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.9463,
+      "summer_mean_c": 21.3884
+    },
+    {
+      "year": 2018,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.5649,
+      "summer_mean_c": 22.4754
+    },
+    {
+      "year": 2019,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.2276,
+      "summer_mean_c": 21.4739
+    },
+    {
+      "year": 2020,
+      "valid_days": 366,
+      "summer_days": 92,
+      "annual_mean_c": 12.0979,
+      "summer_mean_c": 22.5146
+    },
+    {
+      "year": 2021,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 12.4489,
+      "summer_mean_c": 22.0634
+    },
+    {
+      "year": 2022,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.6248,
+      "summer_mean_c": 22.044
+    },
+    {
+      "year": 2023,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 12.0145,
+      "summer_mean_c": 21.3378
+    },
+    {
+      "year": 2024,
+      "valid_days": 366,
+      "summer_days": 92,
+      "annual_mean_c": 12.9804,
+      "summer_mean_c": 22.4393
+    },
+    {
+      "year": 2025,
+      "valid_days": 365,
+      "summer_days": 92,
+      "annual_mean_c": 11.8076,
+      "summer_mean_c": 22.3789
+    }
+  ],
+  "ice": [
+    {
+      "year": 1973,
+      "maximum_percent": 95.7
+    },
+    {
+      "year": 1974,
+      "maximum_percent": 88.5
+    },
+    {
+      "year": 1975,
+      "maximum_percent": 80.1
+    },
+    {
+      "year": 1976,
+      "maximum_percent": 95.4
+    },
+    {
+      "year": 1977,
+      "maximum_percent": 99.8
+    },
+    {
+      "year": 1978,
+      "maximum_percent": 100.0
+    },
+    {
+      "year": 1979,
+      "maximum_percent": 100.0
+    },
+    {
+      "year": 1980,
+      "maximum_percent": 93.4
+    },
+    {
+      "year": 1981,
+      "maximum_percent": 96.0
+    },
+    {
+      "year": 1982,
+      "maximum_percent": 99.1
+    },
+    {
+      "year": 1983,
+      "maximum_percent": 40.8
+    },
+    {
+      "year": 1984,
+      "maximum_percent": 95.7
+    },
+    {
+      "year": 1985,
+      "maximum_percent": 96.0
+    },
+    {
+      "year": 1986,
+      "maximum_percent": 95.5
+    },
+    {
+      "year": 1987,
+      "maximum_percent": 88.0
+    },
+    {
+      "year": 1988,
+      "maximum_percent": 91.5
+    },
+    {
+      "year": 1989,
+      "maximum_percent": 91.6
+    },
+    {
+      "year": 1990,
+      "maximum_percent": 72.8
+    },
+    {
+      "year": 1991,
+      "maximum_percent": 35.1
+    },
+    {
+      "year": 1992,
+      "maximum_percent": 89.8
+    },
+    {
+      "year": 1993,
+      "maximum_percent": 94.3
+    },
+    {
+      "year": 1994,
+      "maximum_percent": 96.7
+    },
+    {
+      "year": 1995,
+      "maximum_percent": 94.0
+    },
+    {
+      "year": 1996,
+      "maximum_percent": 100.0
+    },
+    {
+      "year": 1997,
+      "maximum_percent": 99.6
+    },
+    {
+      "year": 1998,
+      "maximum_percent": 5.4
+    },
+    {
+      "year": 1999,
+      "maximum_percent": 74.8
+    },
+    {
+      "year": 2000,
+      "maximum_percent": 90.7
+    },
+    {
+      "year": 2001,
+      "maximum_percent": 94.0
+    },
+    {
+      "year": 2002,
+      "maximum_percent": 14.4
+    },
+    {
+      "year": 2003,
+      "maximum_percent": 95.7
+    },
+    {
+      "year": 2004,
+      "maximum_percent": 95.4
+    },
+    {
+      "year": 2005,
+      "maximum_percent": 93.0
+    },
+    {
+      "year": 2006,
+      "maximum_percent": 21.9
+    },
+    {
+      "year": 2007,
+      "maximum_percent": 95.8
+    },
+    {
+      "year": 2008,
+      "maximum_percent": 93.4
+    },
+    {
+      "year": 2009,
+      "maximum_percent": 95.5
+    },
+    {
+      "year": 2010,
+      "maximum_percent": 93.1
+    },
+    {
+      "year": 2011,
+      "maximum_percent": 95.8
+    },
+    {
+      "year": 2012,
+      "maximum_percent": 13.9
+    },
+    {
+      "year": 2013,
+      "maximum_percent": 83.7
+    },
+    {
+      "year": 2014,
+      "maximum_percent": 96.1
+    },
+    {
+      "year": 2015,
+      "maximum_percent": 98.1
+    },
+    {
+      "year": 2016,
+      "maximum_percent": 78.7
+    },
+    {
+      "year": 2017,
+      "maximum_percent": 35.5
+    },
+    {
+      "year": 2018,
+      "maximum_percent": 95.1
+    },
+    {
+      "year": 2019,
+      "maximum_percent": 94.3
+    },
+    {
+      "year": 2020,
+      "maximum_percent": 15.9
+    },
+    {
+      "year": 2021,
+      "maximum_percent": 85.7
+    },
+    {
+      "year": 2022,
+      "maximum_percent": 93.8
+    },
+    {
+      "year": 2023,
+      "maximum_percent": 40.2
+    },
+    {
+      "year": 2024,
+      "maximum_percent": 35.7
+    },
+    {
+      "year": 2025,
+      "maximum_percent": 95.8
+    }
+  ],
+  "future_scenarios": {
+    "target_window": [
+      2061,
+      2090
+    ],
+    "label": "2075-centered climatological window",
+    "local_projected_values": null,
+    "readiness": "Extraction not performed; no exact local 2075 temperature is supplied.",
+    "air_candidate": {
+      "product": "LOCA2 CMIP6",
+      "models": 27,
+      "grid_km": 6,
+      "paths": [
+        "SSP2-4.5",
+        "SSP3-7.0",
+        "SSP5-8.5"
+      ],
+      "baseline": [
+        1991,
+        2020
+      ],
+      "url": "https://loca.ucsd.edu/loca-version-2-for-north-america-ca-jan-2023/"
+    },
+    "lake_candidate": {
+      "product": "GLARM-Proj1",
+      "models": [
+        "GISS",
+        "IPSL",
+        "MPI"
+      ],
+      "paths": [
+        "RCP4.5",
+        "RCP8.5"
+      ],
+      "baseline": [
+        2000,
+        2019
+      ],
+      "url": "https://digitalcommons.mtu.edu/glts/"
+    },
+    "regional_air_context": {
+      "source": "GLISA October 2024 regional synthesis; UW-Madison RegCM4 downscaling",
+      "url": "https://glisa.umich.edu/wp-content/uploads/2025/04/Summary-of-Climate-Change-in-the-Great-Lakes-Region-GLISA-October-2024.pdf",
+      "baseline": [
+        1980,
+        1999
+      ],
+      "midcentury": {
+        "window": [
+          2040,
+          2059
+        ],
+        "warming_f_range": [
+          3,
+          6
+        ]
+      },
+      "latecentury": {
+        "window": [
+          2080,
+          2099
+        ],
+        "warming_f_range": [
+          6,
+          11
+        ]
+      },
+      "limit": "Rounded regional published ranges; not local quantiles, not SSP-specific values, not interpolated to 2075."
+    }
+  }
+}

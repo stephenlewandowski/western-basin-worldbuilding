@@ -387,3 +387,48 @@ p{line-height:1.7}
   .water-card-map .card-reading-trail { font-size: 11px; gap: 4px; }
   .water-card-map text { font-size: 20px; }
 }
+
+/* Observed climate records use quantitative axes; system relationships use the
+   same scrollable connection cards as the other Studies. */
+.climate-section { padding-top: 60px; padding-bottom: 55px; border-bottom: 1px solid var(--line); }
+.climate-jump { display: flex; gap: 12px 24px; flex-wrap: wrap; margin-top: 28px; }
+.climate-family-buttons { display: flex; flex-wrap: wrap; gap: 8px; margin: 24px 0; }
+.climate-family-buttons button { font: inherit; font-size: 14px; padding: 12px 16px; min-height: 44px; cursor: pointer; color: #1f3e46; background: #f8f5ec; border: 1px solid #8c9a91; }
+.climate-family-buttons button[aria-pressed="true"] { background: #254b53; color: white; border-color: #254b53; }
+.climate-controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+.climate-controls select { font: inherit; min-height: 44px; padding: 8px 12px; max-width: 100%; background: #fffdf7; color: #203039; }
+.climate-readout { padding: 24px 0 8px; }
+.climate-readout h3 { font-size: clamp(26px, 4vw, 44px); margin: 4px 0 12px; }
+.climate-readout p { margin: 8px 0; }
+.climate-history { margin: 16px 0 24px; background: #f8f5ec; border: 1px solid #cad1c6; padding: 14px; }
+.climate-history svg { display: block; width: 100%; height: auto; }
+.climate-plot-scroll { max-width: 100%; overflow-x: auto; }
+.climate-plot-scroll svg { min-width: 620px; }
+.climate-history text { font: 14px Arial, sans-serif; fill: #435756; }
+.climate-grid { stroke: #c8cec4; stroke-width: 1; }
+.climate-line { fill: none; stroke: #28687d; stroke-width: 2.5; }
+.climate-point { fill: #b7662c; stroke: #fffdf7; stroke-width: 2; }
+.climate-history figcaption, .climate-small { font-size: 13px; line-height: 1.6; }
+.climate-definition, .climate-boundary { max-width: 900px; line-height: 1.7; }
+.climate-boundary { margin-top: 24px; padding: 18px; background: #e9ede5; border-left: 3px solid #65826b; font-size: 14px; }
+.climate-table-scroll { overflow: auto; max-width: 100%; max-height: 430px; margin-top: 18px; }
+.climate-table-scroll table { border-collapse: collapse; width: 100%; font-size: 14px; }
+.climate-table-scroll th, .climate-table-scroll td { padding: 10px; border-bottom: 1px solid #c8cec4; text-align: left; }
+.climate-table-scroll caption { text-align: left; padding: 10px; font-weight: 700; }
+.climate-page summary { cursor: pointer; min-height: 44px; padding: 12px 0; }
+.climate-scenarios, .climate-place-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 24px; margin-top: 26px; }
+.climate-scenarios article, .climate-place-grid article { padding: 24px; background: #f2efe5; border-top: 3px solid #9b6848; line-height: 1.7; }
+.climate-scenarios h3, .climate-place-grid h3 { font-size: 24px; line-height: 1.2; margin-bottom: 16px; }
+.climate-lake-note { max-width: 900px; border-left: 3px solid #28687d; padding-left: 24px; line-height: 1.7; }
+.climate-place-note { padding-top: 45px; padding-bottom: 45px; border-top: 1px solid #c8cec4; line-height: 1.7; }
+.climate-place-note p { max-width: 850px; }
+.climate-study-card { display: block; color: #203039; background: #e5ebe3; padding: 32px; border-top: 4px solid #28687d; margin: 26px 0 0; text-decoration: none; }
+.climate-study-card h3 { font-size: 30px; margin: 10px 0; }
+.climate-study-card p { max-width: 800px; line-height: 1.6; }
+@media (max-width: 760px) {
+  .climate-scenarios, .climate-place-grid { grid-template-columns: 1fr; }
+  .climate-section { padding-top: 35px; padding-bottom: 35px; }
+  .climate-history { padding: 4px; }
+  .climate-family-buttons button { flex: 1 1 140px; }
+  .climate-history text { font-size: 17px; }
+}

@@ -17,7 +17,7 @@ people, surprising devices and consequential choices make them worth entering.
 | --- | --- | --- |
 | Maps & regions | An illustrated fantasy map beside real geography, eleven landmarks, five regional readings and four research plates | [Explore the basin](https://stephenlewandowski.github.io/western-basin-worldbuilding/maps/) |
 | Futurescapes | Four imagined 2075 places, each with a lead image, working detail and architectural ink sketch | [Atlas futurescapes](https://stephenlewandowski.github.io/western-basin-worldbuilding/#futurescapes) |
-| Studies | Interactive connection charts and linked readings: watershed pathways, intake crib, farm and industrial exchange | [Studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/#essays) |
+| Studies | Interactive connection charts and linked readings: watershed pathways, intake crib, farm, industrial exchange and climate | [Studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/#essays) |
 | Model Lab | Synthetic water/nutrient routing diagnostics and a local explorer of saved cases | [Run/data guide](data/model_lab/README.md), [local explorer](src/R/model_lab/explorer/README.md) |
 | Methods | Evidence, uncertainty, image provenance, sources and rights | [Methods](https://stephenlewandowski.github.io/western-basin-worldbuilding/methods/), [research by subject](reports/README.md) |
 | Stories | The Orange Band: a standalone Reading Hall encounter, with earlier sources and ordinary-day drafts preserved | [Play The Orange Band](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story), [encounter record](stories/the_orange_band.md), [story workshop](stories/README.md) |
@@ -61,6 +61,18 @@ Maps are a primary way into the world: illustrated regional character beside rea
 geography, then connected systems and possible lives. Switch between the two
 readings on the same page. Composite futures receive
 no exact site pins. [Geographic sources](assets/atlas/region/README.md), [concept-art lineage](assets/atlas/visual-refresh/README.md).
+
+## Climate and the working world
+
+The [Climate & Thermal Regime study](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/climate-thermal-regime/)
+starts with real Toledo airport, Lake Erie surface-temperature and ice histories,
+then follows heat through shade, electricity peaks, air quality and lake mixing.
+[Five small indicator families](data/climate/README.md) retain units, source hashes
+and coverage. 2075 pathway frames have explicit model provenance; local numerical
+projections remain pending extraction. [Readiness and evidence](reports/climate_integration_2026-10-05.md),
+[place/system matrix](reports/climate_futurescape_matrix_2026-10-05.md) and
+[future art direction](docs/climate_art_direction.md). Existing accepted imagery
+remains unchanged. The public study remains a prototype with explicit data boundaries.
 
 ## In development
 

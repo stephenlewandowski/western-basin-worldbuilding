@@ -12,6 +12,12 @@ when their axes and units answer a useful question; keep source figures accessib
 
 **Place and season:** Which part of the basin? What makes it recognizable?
 
+**Season and thermal condition:** Name time of day and weather/scenario context.
+What is sunlit or shaded? How do heat, wind, humidity, indoor conditions or poor
+air affect the task? Give people appropriate clothing/PPE and one ordinary
+response. Where lake conditions matter, distinguish surface/depth, wind and ice.
+State what is sourced and imagined; use the [compact climate check](../climate_art_direction.md).
+
 **Person and immediate want:** What do they need today, beyond understanding a system?
 Make this legible in the opening panel or paragraph. Use a specific object or errand.
 

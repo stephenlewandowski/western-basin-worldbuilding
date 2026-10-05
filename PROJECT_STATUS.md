@@ -1,5 +1,12 @@
 # Project status
 
+**5 October 2026 · Climate Integration Pass (publication authorized).**
+Five observed indicator families, a public-facing Climate & Thermal Regime Study,
+three coupling charts, a futurescape matrix and a 21-asset seasonal audit are
+prepared for publication. No local 2075 numerical projection has been extracted;
+existing accepted images and frozen products are preserved. The user has authorized commit/push/publication; the exact deployment result
+will be recorded after verification. [Evidence and checks](reports/climate_integration_2026-10-05.md).
+
 **5 October 2026 · The Orange Band and the Basin Reading Hall.**
 The Orange Band is published with clearer Hall descriptions, a selectable
 fictional card, the daughter’s extra message and inspection-sensitive wording.
@@ -13,7 +20,7 @@ Publication verification is recorded in [the implementation report](reports/oran
 | Area | Current state | Start here |
 | --- | --- | --- |
 | Research foundation | Frozen Phase 1–16 products and provenance preserved. | [Research by subject](reports/README.md) |
-| Atlas | Four finished 2075 futurescapes and four studies; map-led regional explorer, earlier-map collection, Methods, Updates and Roadmap. | [Atlas](https://stephenlewandowski.github.io/western-basin-worldbuilding/) |
+| Atlas | Four finished 2075 futurescapes and four published studies; fifth climate Study available as a local prototype; map-led regional explorer, earlier-map collection, Methods, Updates and Roadmap. | [Atlas](https://stephenlewandowski.github.io/western-basin-worldbuilding/) |
 | Maps and observations | Illustrated five-region fantasy map beside real geography, eleven sourced landmarks, four preserved research plates and a day-by-day Waterville 2025 flow explorer. No new empirical routed model. | [Map derivative](assets/atlas/region/README.md), [development record](reports/atlas_maps_and_evidence_2026-10-03.md) |
 | Basin Reading Hall | Composition A is the user-selected canonical visual orientation, with qualitative counter/spine/return/service relationships locked. Architectural detail remains in development. | [Workshop](atlas/basin-reading-hall/index.html), [continuity plan](docs/phase_briefs/hf05_reading_hall_continuity_lock.md) |
 | Stories | The Orange Band: one published standalone encounter and fictional inspectable Water Conditions Card. Earlier bus/shirt encounters preserved as superseded history. Withdrawn comic remains withdrawn. | [Scene record](stories/the_orange_band.md), [earlier source archive](stories/archive/reading_hall_2026-10-04/README.md), [story workshop](stories/README.md) |
@@ -37,15 +44,18 @@ migration and future Cedar Point entertainment. Present sources and imagined
 passages remain distinct; original imagery, map coordinates and frozen products
 are unchanged. [Grounding and validation](reports/lake_erie_coast_context_2026-10-04.md).
 
-1. Observe human readers using the map → place → encounter and gauge → day
+1. Review the local climate Study, reconcile GLISA/NOAA station normals and
+   extract a modest, model-balanced LOCA2 2061–2090 envelope before supplying
+   local future numbers. [Climate readiness](reports/climate_integration_2026-10-05.md).
+2. Observe human readers using the map → place → encounter and gauge → day
    journeys. Refine presentation before increasing production volume.
-2. Observe first-time readers playing [The Orange Band](stories/the_orange_band.md)
+3. Observe first-time readers playing [The Orange Band](stories/the_orange_band.md)
    before expanding the Hall’s cast or adding another encounter. The withdrawn comic failed
    human-author continuity review; its agent impressions are not audience success.
-3. Mature compatible measured nutrient inputs, dates, units, quality flags and
+4. Mature compatible measured nutrient inputs, dates, units, quality flags and
    geographic crosswalk as the parallel scientific track. Keep observation,
    synthetic accounting and future design distinct.
-4. Add a small conservation view from saved Model Lab ledgers if readers want to
+5. Add a small conservation view from saved Model Lab ledgers if readers want to
    inspect assumptions in the browser; preserve the existing mathematics.
 
 [Web connection charts](reports/atlas_connection_charts_2026-10-04.md), [visual/interface refresh](reports/atlas_visual_refresh_2026-10-04.md), [map development assessment](reports/atlas_maps_and_evidence_2026-10-03.md) and

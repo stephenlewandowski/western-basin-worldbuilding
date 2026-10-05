@@ -1,0 +1,49 @@
+{
+  "sources": [
+    {
+      "file": "data/climate/sources/toledo_express_ghcnd.dly.gz",
+      "url": "https://www.ncei.noaa.gov/pub/data/ghcn/daily/all/USW00094830.dly",
+      "retrieved_utc": "2026-10-05T03:13:45.014519+00:00",
+      "source_bytes": 4517910,
+      "source_sha256": "761ff736b64f44d6e08f4915146d7533e75930e93377912b43d79625ff6e5ae5",
+      "stored_sha256": "761108860b9b9b7936d1cc0c5e4439721599ebbe465fd64195b57c8787a1cc0b",
+      "encoding": "gzip lossless original GHCN daily text"
+    },
+    {
+      "file": "data/climate/sources/toledo_express_normals_annual.csv",
+      "url": "https://www.ncei.noaa.gov/data/normals-annualseasonal/1991-2020/access/USW00094830.csv",
+      "retrieved_utc": "2026-10-05T03:13:46.143297+00:00",
+      "source_bytes": 76963,
+      "source_sha256": "1c1f13cb93eb0875e91483e6cc4283e07332d12f3e748565420e4a58782a66e1",
+      "stored_sha256": "1c1f13cb93eb0875e91483e6cc4283e07332d12f3e748565420e4a58782a66e1",
+      "encoding": "original source bytes"
+    },
+    {
+      "file": "data/climate/sources/toledo_express_normals_monthly.csv",
+      "url": "https://www.ncei.noaa.gov/data/normals-monthly/1991-2020/access/USW00094830.csv",
+      "retrieved_utc": "2026-10-05T03:13:47.054081+00:00",
+      "source_bytes": 41654,
+      "source_sha256": "de921cf79ce9ca9b5286d75a9b33129e54996e266059c4478dbd682e361b548d",
+      "stored_sha256": "de921cf79ce9ca9b5286d75a9b33129e54996e266059c4478dbd682e361b548d",
+      "encoding": "original source bytes"
+    },
+    {
+      "file": "data/climate/sources/erie_glsea_daily.csv",
+      "url": "https://apps.glerl.noaa.gov/coastwatch/webdata/statistic/csv/all_year_glsea_avg_e_C.csv",
+      "retrieved_utc": "2026-10-05T03:13:48.155999+00:00",
+      "source_bytes": 63417,
+      "source_sha256": "a7d65b77287f7050c09ccb42f7d5c13cd62e4d7b20b9d4e7a94a89b129e8e6fc",
+      "stored_sha256": "a7d65b77287f7050c09ccb42f7d5c13cd62e4d7b20b9d4e7a94a89b129e8e6fc",
+      "encoding": "original source bytes"
+    },
+    {
+      "file": "data/climate/sources/great_lakes_annual_max_ice.txt",
+      "url": "https://www.glerl.noaa.gov/data/ice/glicd/AMIC.txt",
+      "retrieved_utc": "2026-10-05T03:13:48.837926+00:00",
+      "source_bytes": 2243,
+      "source_sha256": "ccf02aeec80582356c5c9572f2c0dc593b623a4ff61f367c1c4cddf3d2f43544",
+      "stored_sha256": "ccf02aeec80582356c5c9572f2c0dc593b623a4ff61f367c1c4cddf3d2f43544",
+      "encoding": "original source bytes"
+    }
+  ]
+}

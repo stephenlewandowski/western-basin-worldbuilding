@@ -16,6 +16,13 @@ The public Atlas leads with an inhabited future place. An opening image shows ho
 
 ## Scenes, comics and play
 
+For every future public illustration, use the
+[season/thermal-condition check](../climate_art_direction.md). Assign a season and
+day before a palette; show sun/shade, task-appropriate clothing and one ordinary
+adaptation. Separate heat from air quality and lake surface from depth. Existing
+accepted images remain unchanged; their [visual audit](../../reports/climate_visual_audit_2026-10-05.md)
+does not retroactively label them heat waves or assign temperatures.
+
 Use the [small scene card](../templates/scene_card.md) to give a person an immediate
 want and a choice. Lead with the encounter; a future device earns its place by
 changing what someone can do. Leave room for a joke, a meal, a hobby, a domestic

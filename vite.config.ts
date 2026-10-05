@@ -11,6 +11,7 @@ export default defineConfig({
         home: page('./index.html'),
         maps: page('./maps/index.html'),
         field: page('./atlas/field-to-lake/index.html'),
+        climate: page('./atlas/climate-thermal-regime/index.html'),
         crib: page('./atlas/toledo-crib/index.html'),
         glassCity: page('./atlas/glass-city-2075/index.html'),
         industrialMetabolism: page('./atlas/industrial-metabolism-2075/index.html'),

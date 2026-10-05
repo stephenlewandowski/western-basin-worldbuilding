@@ -1,5 +1,19 @@
 # Current handoff
 
+## Climate Integration Pass · 5 October 2026 · publication authorized
+
+Started from clean main `a17ef2086e49e49442437cf21cd3085f6c395561`.
+New additive observed climate snapshots/indicators, reproducible builder, Study,
+three coupling charts, five futurescape climate pointers, matrix and visual/art
+direction records. Existing art, frozen products, Model Lab and Hall lock remain
+unchanged. No new canon or local numerical 2075 projection. The user explicitly authorized Climate-pass commit, push and publication.
+Next approved work: a Glass City summer shade scene and a modest local projection
+extraction. Verify the deployment result before assuming publication succeeded.
+[Scope, evidence and checks](climate_integration_2026-10-05.md).
+Local route: `http://127.0.0.1:4175/western-basin-worldbuilding/atlas/climate-thermal-regime/`.
+
+## Earlier Orange Band refinement
+
 **5 October 2026 · The Orange Band, inspection/character refinement**
 
 Current follow-up adds the daughter’s extra message, sharper representation /

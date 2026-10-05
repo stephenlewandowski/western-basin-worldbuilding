@@ -131,4 +131,26 @@ const coast: ConnectionChart[] = [{
   ],
 }];
 
-export const connectionCharts = { field, farm, industry, crib, coast };
+const climateSource = 'reports/climate_integration_2026-10-05.md';
+const climate: ConnectionChart[] = [
+  { id: 'heat-cooling-grid', title: 'Heat, cooling and the electricity peak', source: climateSource,
+    intro: 'Follow a thermal condition through energy demand and decisions. Buildings, compute and industry share a regional capacity constraint.',
+    limit: 'Qualitative coupling, not a load forecast. Demand response, storage and refuges depend on capacity, access and task-specific flexibility; no cooling result is guaranteed.',
+    nodes: [node('heat','Hot spell / warm nights','Outdoor conditions and recovery',40,60), node('cooling','Cooling demand','Buildings need more cooling',390,60), node('peak','Regional grid peak','Other loads and supply matter',740,60), node('management','Load management','Buildings / compute / industry',1090,60), node('indoors','Indoor thermal conditions','People still need a usable room',1440,60), node('shade','Shade / building envelope','Reduce solar gain; maintain access',390,350), node('support','Storage / district cooling / refuge','Possible support, not universal provision',1090,350)],
+    edges: [edge('heat','cooling','context','Increases pressure'),edge('cooling','peak','context','Adds electricity demand'),edge('peak','management','context','Capacity constraint'),edge('management','indoors','context','Changes cooling availability'),edge('shade','cooling','context','May reduce demand'),edge('support','management','possible','Capacity and agreements required'),edge('support','indoors','possible','Accessible relief if provided')],
+  },
+  { id: 'heat-air-ventilation', title: 'Hot weather, air quality and the window', source: climateSource,
+    intro: 'An open window and a cooled room can solve different problems. Follow the conditions before choosing ventilation or filtration.',
+    limit: 'Heat is not a pollution measurement. Ozone chemistry, emissions, stagnation and transported smoke matter separately. Filtration and cooling performance are not established by this chart.',
+    nodes: [node('heat','Hot sunny / stagnant weather','Conditions can favor ozone formation',40,60),node('air','Outdoor air quality','Ozone / particulate exposure',390,60),node('decision','Ventilation / filtration','Outdoor air versus indoor heat',740,60),node('room','Indoor thermal conditions','Cooling, air and occupied space',1090,60),node('sources','Emissions / chemistry / transport','Smoke episodes are not caused by local heat alone',40,350),node('records','Air-quality observations / advisories','Separate from an airport thermometer',390,350)],
+    edges: [edge('heat','air','context','Can worsen conditions'),edge('sources','air','context','Other drivers'),edge('air','decision','context','Constrains outdoor-air use'),edge('records','decision','information','Evidence for a decision'),edge('decision','room','context','Task and system dependent')],
+  },
+  { id: 'winter-lake-thermal', title: 'Winter, lake heat and conditions at depth', source: climateSource,
+    intro: 'Winter conditions influence the seasonal starting point. Summer weather and water movement continue to change the lake afterward.',
+    limit: 'Western Lake Erie is shallow and usually polymictic. Stratification can be weak and episodic; low ice does not alone determine hypoxia, blooms or water at an intake. Whole-lake surface temperature is not a depth profile.',
+    nodes: [node('winter','Warm winter / low ice','Variable winter starting conditions',40,60),node('warming','Earlier lake warming','Subsequent weather and heat storage matter',390,60),node('structure','Thermal structure','Mixing / episodic stratification',740,60),node('ecology','Ecology / intake implications','Location, depth and timing matter',1090,60),node('wind','Wind / depth / incoming water','Central-basin advection can matter locally',390,350),node('oxygen','Oxygen demand / nutrients / biology','Separate conditions, not inferred from heat',740,350),node('measure','Surface / depth / oxygen records','Different observations answer different questions',1090,350)],
+    edges: [edge('winter','warming','context','May advance seasonal warming'),edge('warming','structure','context','Changes thermal context'),edge('wind','structure','context','Mixing and water movement'),edge('structure','ecology','context','Conditional consequences'),edge('oxygen','ecology','context','Other interacting controls'),edge('measure','ecology','information','Check actual conditions')],
+  },
+];
+
+export const connectionCharts = { field, farm, industry, crib, coast, climate };

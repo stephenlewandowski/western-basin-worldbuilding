@@ -14,6 +14,7 @@ project from old phase milestones.
 | Sources and rights | [Source registry](../metadata/sources.yml), [licensing notes](references/DATA_AND_ASSET_LICENSING.md) |
 | Maps, regional identity and observations | [Public map derivative](../assets/atlas/region/README.md), [original regional intent](worldbuilding/Glasspunk_Regional_and_Systems_Atlas_v0.1.md), [development record](../reports/atlas_maps_and_evidence_2026-10-03.md) |
 | Quantitative diagnostic examples | [Model Lab run/data guide](../data/model_lab/README.md), [local explorer guide](../src/R/model_lab/explorer/README.md) |
+| Climate, heat and lake conditions | [Observed indicators](../data/climate/README.md), [climatology/readiness](../reports/climate_integration_2026-10-05.md), [system matrix](../reports/climate_futurescape_matrix_2026-10-05.md), [future art direction](climate_art_direction.md) |
 | Current visual development | [Reading Hall continuity lock and plan](phase_briefs/hf05_reading_hall_continuity_lock.md), [original brief](phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md), [house style](phase_briefs/phase17d_public_visual_style_guide.md) |
 | Stories, comics and game scenes | [Story workshop](../stories/README.md), [small scene template](templates/scene_card.md), [corrected strip disposition and reader simulation](../reports/reading_hall_comic_reader_simulation_2026-10-03.md) |
 | Preserved worktree drafts | [Archive guide](archive/README.md), [inventory](../reports/worktree_draft_inventory_2026-10-03.md) |
@@ -30,6 +31,7 @@ atlas/                  study and futurescape HTML entries
 data/raw/               retained source material / reproducible acquisition inputs
 data/processed/         reviewed scientific, network, scenario and integration products
 data/model_lab/         synthetic input cases, assumptions and configuration
+data/climate/           small NOAA snapshots, observed indicators and projection-readiness metadata
 metadata/               source registries and evidence/system/scenario vocabularies
 outputs/maps/systems/   analytical map pairs
 outputs/figures/        system diagrams and matrices
