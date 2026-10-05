@@ -1,6 +1,6 @@
 # Current handoff
 
-## Erie Drift · 5 October 2026 · browser prototype
+## Erie Drift · 5 October 2026 · published browser prototype
 
 The user requested design and implementation of the proposed walleye/perch boat
 game, with Godot optional. A bounded browser version is implemented at
@@ -12,9 +12,10 @@ drift/depth choices and return-to-dock endings are connected to the Atlas. Godot
 [Design and controls](../docs/erie_drift_design.md),
 [implementation/verification](erie_drift_implementation_2026-10-05.md).
 Preview: `http://127.0.0.1:4175/western-basin-worldbuilding/erie-drift/`.
-The user authorized commit, push and GitHub Pages publication on 5 October 2026.
+Committed/pushed as `37b4679` and published successfully by
+[Pages run 37318956387](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37318956387).
 [Public game route](https://stephenlewandowski.github.io/western-basin-worldbuilding/erie-drift/).
-Deployment evidence belongs in the verification record. Existing scientific
+Live-check evidence belongs in the verification record. Existing scientific
 products, Model Lab, Vesper, Hall continuity and accepted images remain unchanged.
 Check actual Git state and the verification record before continuing.
 

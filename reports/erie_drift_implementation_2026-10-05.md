@@ -1,6 +1,6 @@
 # Erie Drift implementation
 
-**5 October 2026 · browser prototype**
+**5 October 2026 · published browser prototype**
 
 The user requested a lightweight walleye/perch fishing game on Lake Erie, with
 Godot available if appropriate. Starting main was clean at
@@ -69,6 +69,25 @@ This addition contains the 20 paths below. GitHub Pages publication uses the
 repository's manually dispatched `deploy-pages.yml` workflow after pushing main.
 The user responded positively to the first build and requested this expansion;
 that is not a substitute for an uncoached playtest of the expanded controls.
+
+## Publication
+
+The user approved commit, push and publication on 5 October 2026. Game source
+and integration are committed/pushed on main as
+`37b4679601a94fd66655b7f6079571322789b6d1`.
+[GitHub Pages run 37318956387](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37318956387)
+completed successfully for that source, including CI tests and build.
+
+[Play Erie Drift](https://stephenlewandowski.github.io/western-basin-worldbuilding/erie-drift/).
+Live browser checks pass: East Harbor departure, Kelleys Island, jig/soft plastic,
+bite, catch, score and return to supper; all 17 routes return 200; homepage,
+coast and Updates link to the game; 1440/390/320 px layouts have no horizontal
+overflow. No missing site assets or browser runtime errors were detected.
+
+This documentation follow-up records successful publication without changing
+the deployed game. Source/protected-path, asset-hash, Markdown, LFS and build
+checks also passed immediately before committing. The working tree was clean
+after the game push.
 
 ## Changed paths
 

@@ -1,6 +1,6 @@
 # Project status
 
-**5 October 2026 · Erie Drift, browser prototype.**
+**5 October 2026 · Erie Drift, published browser prototype.**
 The expanded Lake Erie outing has six named grounds, two marinas, battery/solar
 range, four tackle choices, three baits, seven regular species and best-catch scoring.
 Snakehead is an optional speculative future introduction. Drift/depth choices,
@@ -9,8 +9,9 @@ The existing browser stack supports this bounded game; Godot was optional.
 [Design](docs/erie_drift_design.md) and
 [verification record](reports/erie_drift_implementation_2026-10-05.md).
 [Play Erie Drift](https://stephenlewandowski.github.io/western-basin-worldbuilding/erie-drift/).
-The user authorized commit, push and GitHub Pages publication on 5 October 2026.
-The verification record tracks deployment evidence. Frozen science, data, Vesper
+Committed/pushed as `37b4679` and published successfully by
+[Pages run 37318956387](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37318956387).
+The verification record tracks the live checks. Frozen science, data, Vesper
 and accepted imagery remain intact.
 
 **5 October 2026 · Climate and a Glass City summer afternoon.**
