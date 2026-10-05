@@ -1,7 +1,7 @@
 # The Orange Band
 
-**Status · 5 October 2026:** standalone interactive encounter approved by the user
-for commit, push and publication, with reader-facing Hall copy refined. Provisional
+**Status · 5 October 2026:** published standalone interactive encounter, with
+reader-facing Hall copy refined following user approval. Provisional
 fiction; no new canon is established. This replaces the bus/shirt storyline without
 reviving the withdrawn comic.
 

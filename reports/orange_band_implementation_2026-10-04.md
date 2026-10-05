@@ -148,5 +148,21 @@ Pre-publication checks on 5 October passed: all 42 tests, TypeScript/Vite build,
 including all endings, keyboard dialog/focus, restart and 15 public routes.
 The revised Hall copy is visually checked at those widths without overflow.
 
-Publication and live verification are pending. Record the exact source SHA and
-Pages run here after success, then commit the documentation checkpoint.
+Source `6e3a1178c04a32927fad2972072c3937389f73a1` is committed and pushed to main.
+[Pages run 37252340501](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37252340501)
+completed successfully and deployed that exact source.
+
+Live Chromium checks at 1440/390/320 px pass all three endings, optional
+conversation revisits, checked/unchecked location wording, card inspection and
+keyboard/focus return, exclusive ending guard and complete restart. The card
+record remains unchanged across choices. Story interactions make no network
+requests or storage writes; no runtime errors or horizontal overflow were found.
+All 15 public routes return 200 and contain no retired story promotions or sequel
+anchors. The revised “Inside the Reading Hall” heading and reader copy appear in
+the served bundle. The withdrawn comic route returns HTTP 404.
+
+[Play The Orange Band](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story).
+Ignored `temp/orange-band/live-browser-results.json` and screenshots retain
+the local live-browser proofs. These are interaction/integration checks, not a
+claim of audience success. A documentation-only checkpoint follows without
+changing the deployed build; final Markdown links and whitespace checks pass.

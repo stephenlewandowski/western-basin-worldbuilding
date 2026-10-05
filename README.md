@@ -69,8 +69,8 @@ a civic place to inspect published findings and request clarification. Its
 [production brief](docs/phase_briefs/phase17d_hf05_basin_reading_hall_production_brief.md)
 and [spatial study](assets/phase17d/hf05/hf05_basin_reading_hall_spatial_study.svg) now
 have [three composition studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/)
-and a standalone encounter, *The Orange Band*, approved for publication on
-5 October 2026. The earlier bus/shirt storyline is superseded;
+and the published standalone encounter, *The Orange Band*.
+The earlier bus/shirt storyline is superseded;
 its [exact sources](stories/archive/reading_hall_2026-10-04/README.md) and narrative
 records remain preserved. [Implementation and publication record](reports/orange_band_implementation_2026-10-04.md).
 Composition A fixes the hall's visual orientation;

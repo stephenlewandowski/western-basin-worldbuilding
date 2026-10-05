@@ -20,7 +20,7 @@ relative imports describe its original `src/atlas/comic.ts` location, not this a
 
 The former `/stories/before-the-last-bus/` public route has been removed. The
 earlier interactive bus/shirt storyline is also superseded
-by The Orange Band, approved for publication on 5 October 2026. Its
+by The Orange Band, published on 5 October 2026. Its
 [exact scene sources](../../../../stories/archive/reading_hall_2026-10-04/README.md)
 and narrative records remain preserved. This does not republish the strip.
 

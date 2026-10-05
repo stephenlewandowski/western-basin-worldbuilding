@@ -1,9 +1,10 @@
 # Project status
 
 **5 October 2026 · The Orange Band and the Basin Reading Hall.**
-The user authorized committing, pushing and publishing the replacement encounter
-on 5 October, with reader-facing Hall copy refined. Publication verification is
-recorded in [the implementation report](reports/orange_band_implementation_2026-10-04.md).
+The Orange Band is published with clearer reader-facing Hall descriptions.
+Source `6e3a117` was pushed and deployed successfully in
+[Pages run 37252340501](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37252340501).
+Publication verification is recorded in [the implementation report](reports/orange_band_implementation_2026-10-04.md).
 [Earlier status records](reports/project_status_history_2026-10-03.md) retain prior decisions.
 
 ## Available products
@@ -14,7 +15,7 @@ recorded in [the implementation report](reports/orange_band_implementation_2026-
 | Atlas | Four finished 2075 futurescapes and four studies; map-led regional explorer, earlier-map collection, Methods, Updates and Roadmap. | [Atlas](https://stephenlewandowski.github.io/western-basin-worldbuilding/) |
 | Maps and observations | Illustrated five-region fantasy map beside real geography, eleven sourced landmarks, four preserved research plates and a day-by-day Waterville 2025 flow explorer. No new empirical routed model. | [Map derivative](assets/atlas/region/README.md), [development record](reports/atlas_maps_and_evidence_2026-10-03.md) |
 | Basin Reading Hall | Composition A is the user-selected canonical visual orientation, with qualitative counter/spine/return/service relationships locked. Architectural detail remains in development. | [Workshop](atlas/basin-reading-hall/index.html), [continuity plan](docs/phase_briefs/hf05_reading_hall_continuity_lock.md) |
-| Stories | The Orange Band: one standalone encounter and fictional inspectable Water Conditions Card, approved for publication on 5 October. Earlier bus/shirt encounters preserved as superseded history. Withdrawn comic remains withdrawn. | [New scene record](stories/the_orange_band.md), [earlier source archive](stories/archive/reading_hall_2026-10-04/README.md), [story workshop](stories/README.md) |
+| Stories | The Orange Band: one published standalone encounter and fictional inspectable Water Conditions Card. Earlier bus/shirt encounters preserved as superseded history. Withdrawn comic remains withdrawn. | [Scene record](stories/the_orange_band.md), [earlier source archive](stories/archive/reading_hall_2026-10-04/README.md), [story workshop](stories/README.md) |
 | Model Lab | Three saved synthetic routing cases and local read-only Shiny explorer. Separate observed Waterville flow display adds no empirical routed case. | [Model guides](data/model_lab/README.md), [input assessment](reports/model_lab_empirical_inputs_2026-10-03.md) |
 | Reader figures | Four architectural ink sketches and a paired crib sketch replace prominent equipment diagrams; interactive web charts carry network/flowchart meaning alongside linked reading sections. Originals/builders retained. | [Current artwork lineage](assets/atlas/visual-refresh/README.md), [earlier derivative lineage](assets/phase17d/public_inset_derivatives.json) |
 | Worktree history | Twenty previously untracked/ignored creative files preserved with exact hashes; seven worktrees remain untouched. | [Inventory](reports/worktree_draft_inventory_2026-10-03.md) |

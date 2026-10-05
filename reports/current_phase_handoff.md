@@ -1,6 +1,6 @@
 # Current handoff
 
-**5 October 2026 · The Orange Band, publication authorized**
+**5 October 2026 · The Orange Band, published**
 
 The user approved publication of the local standalone encounter **The Orange Band** and on
 5 October explicitly instructed: **Commit / push / publish the updated story.**
@@ -19,9 +19,13 @@ and [implementation/check record](orange_band_implementation_2026-10-04.md).
 Publication is authorized; verify actual Git/Pages state before repeating any action.
 Local Vite preview:
 `http://127.0.0.1:4175/western-basin-worldbuilding/atlas/basin-reading-hall/#story`.
-The source is ready for commit and publication; deployment outcome and live
-checks will be recorded in the implementation report. Science, Model Lab and
-canon records remain unchanged.
+Source `6e3a1178c04a32927fad2972072c3937389f73a1` is committed and pushed.
+[Pages run 37252340501](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37252340501)
+successfully deployed that exact source. Live 1440/390/320 px playthroughs pass all
+endings, revisits, card keyboard/focus and restart. All 15 public routes pass;
+retired story promotions are absent and the comic URL remains HTTP 404.
+The implementation report records these results. A documentation-only checkpoint
+follows; science, Model Lab and canon records remain unchanged.
 
 ## Earlier published work
 
@@ -85,7 +89,7 @@ Withdraw the comic until its narrative continuity is rebuilt.
 
 ## Next work
 
-Publish the approved Orange Band replacement and verify the live deployment.
+Observe first-time readers using the published Orange Band encounter before expanding it.
 Evaluate the map → place → story and real gauge → day journeys with human
 readers. Do not call
 mechanical checks or agent impressions a successful narrative/audience test.

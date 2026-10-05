@@ -10,7 +10,7 @@ modeled interpretation and a gap exactly where Renata needs an answer. Inspect
 the card, ask optional questions and make one decision. There is no score,
 countdown or hidden verdict about the water.
 
-**Publication authorized · 5 October 2026.** [Play The Orange Band](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story).
+**Published · 5 October 2026.** [Play The Orange Band](https://stephenlewandowski.github.io/western-basin-worldbuilding/atlas/basin-reading-hall/#story).
 [Implementation and publication checks](../reports/orange_band_implementation_2026-10-04.md).
 The story remains provisional fiction; publication establishes no new canon.
 
