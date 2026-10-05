@@ -8,7 +8,18 @@ initial gray-channel focus, and prose-only response to prior inspection.
 Ending consequences, location privacy, Hall continuity and science remain unchanged.
 See the final refinement section of the [implementation report](orange_band_implementation_2026-10-04.md).
 Starting this follow-up: clean main at `cce8f7a6a97d0d837af0c02e94db6870bdbddd15`.
-Changes are currently local; the previous published source below remains live.
+Refinement source `866dccee55923c63ff010438b7b1c99b2d585905` is committed, pushed
+and deployed successfully by
+[Pages run 37254827966](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37254827966).
+All 44 tests, production build, 555 Markdown links, LFS and protected-file checks
+pass. Production-preview tests cover all wording variants and diagram/keyboard
+interaction at 1440/390/320 px. Live checks also pass at those widths: the map is
+visible immediately, native selection/keyboard work, inspection affects the
+message, field-route wording persists and the private comparison remains separate.
+All 15 public routes return 200; the comic remains HTTP 404. A documentation-only
+checkpoint records verification without changing the deployed build.
+
+## First Orange Band publication
 
 The user approved publication of the local standalone encounter **The Orange Band** and on
 5 October explicitly instructed: **Commit / push / publish the updated story.**

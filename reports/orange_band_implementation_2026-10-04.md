@@ -202,4 +202,13 @@ exclusive endings and restart. No runtime errors, horizontal overflow, storage
 writes or story-triggered requests. The new tests also verify that stripping
 Renata’s changed message leaves exactly the same ending prose.
 
-Publication verification is pending.
+Refinement source `866dccee55923c63ff010438b7b1c99b2d585905` is committed and
+pushed. [Pages run 37254827966](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37254827966)
+successfully deployed that exact source. Live Chromium checks at 1440×1000,
+390×844 and 320×568 confirm immediate map visibility, all three native mark
+selectors and keyboard controls, card-sensitive and field-sensitive messages,
+the unchanged third-ending misunderstanding, restart and private location comparison.
+No runtime errors or horizontal overflow were found. All 15 public routes return
+200 and the comic remains HTTP 404. Proofs are in ignored
+`temp/orange-band/live-refinement-smoke.json`; a documentation-only checkpoint
+records verification without changing the deployed build.

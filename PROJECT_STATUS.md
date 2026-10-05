@@ -1,9 +1,10 @@
 # Project status
 
 **5 October 2026 · The Orange Band and the Basin Reading Hall.**
-The Orange Band is published with clearer reader-facing Hall descriptions.
-Source `6e3a117` was pushed and deployed successfully in
-[Pages run 37252340501](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37252340501).
+The Orange Band is published with clearer Hall descriptions, a selectable
+fictional card, the daughter’s extra message and inspection-sensitive wording.
+Refinement source `866dcce` was pushed and deployed successfully in
+[Pages run 37254827966](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37254827966).
 Publication verification is recorded in [the implementation report](reports/orange_band_implementation_2026-10-04.md).
 [Earlier status records](reports/project_status_history_2026-10-03.md) retain prior decisions.
 
