@@ -1,6 +1,6 @@
 # Sketchbook integration and Erie Drift discovery
 
-**6 October 2026 · sketchbook and game discovery**
+**6 October 2026 · published on both sites**
 
 The user approved Erie Drift and requested stronger links on the personal site
 and Atlas, plus reuse of the original concept-art sheets. Both repositories were
@@ -67,8 +67,7 @@ Atlas routes return 200 locally and no runtime errors were found.
 
 Portfolio source check: 21 HTML pages and 30 sitemap URLs pass, with valid local
 assets, anchors and links. The featured map image also decodes at its expected
-1536-pixel width. External new-gallery destinations are prepared for publication together with
-the Atlas. All 670 repository-relative Markdown links,
+1536-pixel width. External gallery and game destinations now resolve on the published Atlas. All 670 repository-relative Markdown links,
 `git diff --check`, LFS integrity, source/derivative hashes and 640 protected/source
 files (645 freeze references) pass. Original sheets and game sources are unchanged.
 
@@ -82,7 +81,30 @@ Preview:
 The user authorized commit, push and publication on 6 October 2026, with a new
 homepage sketchbook heading: **People, places, and things worth knowing.**
 The portfolio uses PR publication; the Atlas uses a manual Pages workflow.
-Deployment and live-check evidence will be recorded below after verification.
+Deployment and live-check evidence follow.
+
+## Publication and live verification
+
+- Atlas source: `36e1c7daf5cb2e160a344d73c78ce45fd0e4c339`.
+  [Pages deployment 37409048862](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37409048862) succeeded.
+- Personal-site changes: `ebe1df5f681405a95e2e30fcb0546fe131c85d1a`, merged through
+  [PR #29](https://github.com/stephenlewandowski/stephenlewandowski.github.io/pull/29) as `16c1b9fb422bf77b06b1ac1173b55c5c882fed17`.
+  [Pages deployment 37409205039](https://github.com/stephenlewandowski/stephenlewandowski.github.io/actions/runs/37409205039) succeeded.
+- Live checks at 1440, 390 and 320 px pass: new heading, Sketchbook filters,
+  keyboard inspection, full-sheet zoom, Escape/focus return, featured-project
+  game buttons on homepage/Projects/overview and no horizontal overflow.
+  All 18 Atlas routes return 200. No missing site assets or runtime errors were
+  found, and retired bus/Return Visit links are absent from the updated pages.
+
+Public routes:
+[Atlas](https://stephenlewandowski.github.io/western-basin-worldbuilding/),
+[Sketchbook](https://stephenlewandowski.github.io/western-basin-worldbuilding/sketchbook/),
+[personal homepage](https://stephenlewandowski.github.io/#western-basin),
+[Projects](https://stephenlewandowski.github.io/projects/).
+
+The final documentation follow-up records publication without changing deployed
+web code. Both source pushes were clean, and protected/scientific products remain
+unchanged.
 
 ## Changed paths
 

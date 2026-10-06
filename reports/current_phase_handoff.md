@@ -1,17 +1,19 @@
 # Current handoff
 
-## Sketchbook and game discovery · 6 October 2026
+## Sketchbook and game discovery · 6 October 2026 · published
 
-The Atlas and personal website have a reviewed local integration at
+The Atlas and personal website have a published integration at
 `/sketchbook/` plus stronger Erie Drift links. The original sheets are unchanged;
 nine crops and three complete WebPs have source/hash/crop records. Legacy
 Frontier Arc and Black Swamp Preserve notes remain historical within the
 current Black Swamp Country interpretation. No character biographies are fixed.
 [Changed paths, previews and checks](sketchbook_and_game_discovery_2026-10-06.md).
-The user authorized commit and publication on 6 October 2026. The homepage
-sketchbook heading is now “People, places, and things worth knowing.” Personal
-site changes are in four HTML/CSS paths in its separate checkout. Deployment
-and live-check evidence belong in the integration report.
+Atlas `36e1c7d` is published by [run 37409048862](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37409048862).
+Personal-site [PR #29](https://github.com/stephenlewandowski/stephenlewandowski.github.io/pull/29) merged as `16c1b9f`;
+[run 37409205039](https://github.com/stephenlewandowski/stephenlewandowski.github.io/actions/runs/37409205039) published it successfully.
+The homepage sketchbook heading is “People, places, and things worth knowing.”
+Live gallery controls, desktop/mobile layout, game discovery and all 18 Atlas
+routes pass. Both checkouts are on main; the integration report retains evidence.
 
 ## Erie Drift · 5 October 2026 · published browser prototype
 

@@ -1,13 +1,14 @@
 # Project status
 
-**6 October 2026 · Sketchbook and game discovery.**
+**6 October 2026 · Sketchbook and game discovery, published.**
 Erie Drift has stronger Atlas and personal-site entry points. Nine early
 concept-art details and three full sheets now form a Sketchbook collection.
 Frontier Arc’s former maker/agricultural themes are read within Black Swamp
 Country; original labels and inconsistent character notes stay historical.
 [Integration, source boundaries and checks](reports/sketchbook_and_game_discovery_2026-10-06.md).
-The user authorized commit and publication on 6 October 2026. Deployment
-evidence is tracked in the integration report. Existing science, games, artwork
+Atlas source `36e1c7d` is published by [Pages run 37409048862](https://github.com/stephenlewandowski/western-basin-worldbuilding/actions/runs/37409048862).
+Personal-site [PR #29](https://github.com/stephenlewandowski/stephenlewandowski.github.io/pull/29) merged as `16c1b9f` and its Pages deployment succeeded.
+Live desktop/mobile gallery, heading, game links and all 18 Atlas routes pass. Existing science, games, artwork
 and character/canon boundaries remain intact.
 
 **5 October 2026 · Erie Drift, published browser prototype.**
