@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-06",
+  "operation": "Crops and WebP compression only; no redraw, annotation edits or new image generation.",
+  "encoding": { "format": "webp", "full_sheet_quality": 86, "crop_quality": 88, "resizing": false },
+  "status": "Early exploratory concept art; not current geography, engineering documentation or established character canon.",
+  "sources": [
+    {
+      "path": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_01.png",
+      "sha256": "91c326251196030d7915606c3cccfbd0a5d06f5d2fb9238ff471a609d5d6d031",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_02.png",
+      "sha256": "ca7537c38c7eee572c149b1d16813d61e1b21fa8d95fc8363dd5af3b37bef349",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "path": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_03.png",
+      "sha256": "8a9006578979056a46f095b54c72c6d0a1c58194b6a91c80021a3d1288b115b1",
+      "width": 1536,
+      "height": 1024
+    }
+  ],
+  "derivatives": [
+    {
+      "path": "assets/atlas/sketchbook/sheet-01.webp",
+      "source": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_01.png",
+      "operation": "Full-sheet WebP derivative",
+      "sha256": "4510cf7e42774d5219a92835efd72ec388026b89df93cc02eb61d4e43cf2f94b"
+    },
+    {
+      "path": "assets/atlas/sketchbook/sheet-02.webp",
+      "source": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_02.png",
+      "operation": "Full-sheet WebP derivative",
+      "sha256": "22a8fa87b41da724d219e306cbe93e9a855bf5cbdcbd5db37f4a8eb5b9d04583"
+    },
+    {
+      "path": "assets/atlas/sketchbook/sheet-03.webp",
+      "source": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_03.png",
+      "operation": "Full-sheet WebP derivative",
+      "sha256": "93915fcf588e3fba8d07cc6141ab1dcb9083cc5c209fbe3708a1bf8c3efaced5"
+    },
+    {
+      "path": "assets/atlas/sketchbook/bridge.webp",
+      "source": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_02.png",
+      "crop": {
+        "left": 864,
+        "top": 26,
+        "width": 502,
+        "height": 290
+      },
+      "sha256": "045bdc42d732facc872d86d02b28d3b8d5052b061dedba2b8e761f5f09511d21"
+    },
+    {
+      "path": "assets/atlas/sketchbook/glass-and-brick.webp",
+      "source": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_03.png",
+      "crop": {
+        "left": 1023,
+        "top": 55,
+        "width": 505,
+        "height": 435
+      },
+      "sha256": "9406afd3001ccdc79bbdd66c29bba813a2b83bc3c172e40caf208b78bda6f3f1"
+    },
+    {
+      "path": "assets/atlas/sketchbook/working-river.webp",
+      "source": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_03.png",
+      "crop": {
+        "left": 8,
+        "top": 552,
+        "width": 483,
+        "height": 280
+      },
+      "sha256": "2494f5604477be0f2ec3ede5c15946f9f1ba630bf8972a1c55f6d822905578c0"
+    },
+    {
+      "path": "assets/atlas/sketchbook/workshop-machines.webp",
+      "source": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_01.png",
+      "crop": {
+        "left": 497,
+        "top": 520,
+        "width": 461,
+        "height": 494
+      },
+      "sha256": "d443687a5c863fcc113eaad8b93ed4d2677dc0137cf3f746e01f1416e9fbbbde"
+    },
+    {
+      "path": "assets/atlas/sketchbook/river-workers.webp",
+      "source": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_03.png",
+      "crop": {
+        "left": 515,
+        "top": 542,
+        "width": 482,
+        "height": 219
+      },
+      "sha256": "34c9500d400247b20a28d374b90e938433e1c7f96d7f6caf3cc3b64d980780c2"
+    },
+    {
+      "path": "assets/atlas/sketchbook/rural-maker.webp",
+      "source": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_02.png",
+      "crop": {
+        "left": 1376,
+        "top": 552,
+        "width": 145,
+        "height": 232
+      },
+      "sha256": "9d7c915b6317bcd17a8276dff642881533144bd1cfe5699b85c71f2d456a2266"
+    },
+    {
+      "path": "assets/atlas/sketchbook/wetland-boardwalk.webp",
+      "source": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_01.png",
+      "crop": {
+        "left": 980,
+        "top": 552,
+        "width": 348,
+        "height": 205
+      },
+      "sha256": "f2374b46ae35b40f6260c6ea717d52e54e847825ce62f1753b71150690bb4ccd"
+    },
+    {
+      "path": "assets/atlas/sketchbook/field-station.webp",
+      "source": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_01.png",
+      "crop": {
+        "left": 1338,
+        "top": 734,
+        "width": 191,
+        "height": 277
+      },
+      "sha256": "dff51c9ca99bf4888d538ad1d6cba0f9fd23966061fbcf935e0bbca93fb2e147"
+    },
+    {
+      "path": "assets/atlas/sketchbook/biological-archive.webp",
+      "source": "assets/concept_art/glasspunk_toledo_sketchbook_sheet_01.png",
+      "crop": {
+        "left": 980,
+        "top": 782,
+        "width": 184,
+        "height": 225
+      },
+      "sha256": "e06aae07a4cde550750a45bc2e6820be641164e9163eeee0866c8b4cbf69f589"
+    }
+  ]
+}

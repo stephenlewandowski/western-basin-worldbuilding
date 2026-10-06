@@ -5,6 +5,8 @@ the [current handoff](current_phase_handoff.md) is the resumption note. This dir
 preserves findings, assumptions, QA, source manifests, freezes and review lineage.
 An old or failed review is not disposable: it may explain the accepted result.
 
+New creative integration: [original sketchbooks and game discovery](sketchbook_and_game_discovery_2026-10-06.md).
+
 ## Start by subject
 
 | Subject | Findings / context |

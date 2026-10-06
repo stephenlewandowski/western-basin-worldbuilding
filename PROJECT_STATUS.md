@@ -1,5 +1,15 @@
 # Project status
 
+**6 October 2026 · Sketchbook and game discovery.**
+Erie Drift has stronger Atlas and personal-site entry points. Nine early
+concept-art details and three full sheets now form a Sketchbook collection.
+Frontier Arc’s former maker/agricultural themes are read within Black Swamp
+Country; original labels and inconsistent character notes stay historical.
+[Integration, source boundaries and checks](reports/sketchbook_and_game_discovery_2026-10-06.md).
+The user authorized commit and publication on 6 October 2026. Deployment
+evidence is tracked in the integration report. Existing science, games, artwork
+and character/canon boundaries remain intact.
+
 **5 October 2026 · Erie Drift, published browser prototype.**
 The expanded Lake Erie outing has six named grounds, two marinas, battery/solar
 range, four tackle choices, three baits, seven regular species and best-catch scoring.

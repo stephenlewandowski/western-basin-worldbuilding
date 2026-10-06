@@ -1,5 +1,18 @@
 # Current handoff
 
+## Sketchbook and game discovery · 6 October 2026
+
+The Atlas and personal website have a reviewed local integration at
+`/sketchbook/` plus stronger Erie Drift links. The original sheets are unchanged;
+nine crops and three complete WebPs have source/hash/crop records. Legacy
+Frontier Arc and Black Swamp Preserve notes remain historical within the
+current Black Swamp Country interpretation. No character biographies are fixed.
+[Changed paths, previews and checks](sketchbook_and_game_discovery_2026-10-06.md).
+The user authorized commit and publication on 6 October 2026. The homepage
+sketchbook heading is now “People, places, and things worth knowing.” Personal
+site changes are in four HTML/CSS paths in its separate checkout. Deployment
+and live-check evidence belong in the integration report.
+
 ## Erie Drift · 5 October 2026 · published browser prototype
 
 The user requested design and implementation of the proposed walleye/perch boat

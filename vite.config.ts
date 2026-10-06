@@ -10,6 +10,7 @@ export default defineConfig({
       input: {
         home: page('./index.html'),
         maps: page('./maps/index.html'),
+        sketchbook: page('./sketchbook/index.html'),
         field: page('./atlas/field-to-lake/index.html'),
         climate: page('./atlas/climate-thermal-regime/index.html'),
         crib: page('./atlas/toledo-crib/index.html'),

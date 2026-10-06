@@ -16,6 +16,7 @@ people, surprising devices and consequential choices make them worth entering.
 | Area | What it offers | Start here |
 | --- | --- | --- |
 | Maps & regions | An illustrated fantasy map beside real geography, eleven landmarks, five regional readings and four research plates | [Explore the basin](https://stephenlewandowski.github.io/western-basin-worldbuilding/maps/) |
+| Original sketchbook | Nine curated drawings of buildings, work machines and people, with three preserved early sheets | [Sketchbook](https://stephenlewandowski.github.io/western-basin-worldbuilding/sketchbook/), [source lineage](assets/atlas/sketchbook/README.md) |
 | Futurescapes | Four imagined 2075 places, each with a lead image, working detail and architectural ink sketch | [Atlas futurescapes](https://stephenlewandowski.github.io/western-basin-worldbuilding/#futurescapes) |
 | Studies | Interactive connection charts and linked readings: watershed pathways, intake crib, farm, industrial exchange and climate | [Studies](https://stephenlewandowski.github.io/western-basin-worldbuilding/#essays) |
 | Model Lab | Synthetic water/nutrient routing diagnostics and a local explorer of saved cases | [Run/data guide](data/model_lab/README.md), [local explorer](src/R/model_lab/explorer/README.md) |
