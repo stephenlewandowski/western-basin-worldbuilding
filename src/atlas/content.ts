@@ -25,7 +25,7 @@ export interface Essay {
 export const essays: Essay[] = [
   {
     key: 'field', number: '01', slug: 'atlas/field-to-lake/', title: 'From Field to Lake',
-    subtitle: 'A watershed is a sequence of places, processes, and boundaries.',
+    subtitle: 'Water and nutrients moving from Maumee fields toward Lake Erie.',
     place: 'Maumee watershed → western Lake Erie', status: 'SOURCED GEOGRAPHY / QUALITATIVE PATHWAYS', cover: fieldMap,
     coverAlt: 'Analytical map of pathways from the Maumee watershed toward western Lake Erie.',
     lead: 'Follow a constituent from field and drainage system through the river network to a receiving water. The route is grounded in sourced geography; the diagram keeps uncertain processes and lake response distinct.',
@@ -44,7 +44,7 @@ export const essays: Essay[] = [
   },
   {
     key: 'crib', number: '02', slug: 'atlas/toledo-crib/', title: 'The Toledo Intake Crib',
-    subtitle: 'How a real asset might persist through an imagined future.',
+    subtitle: 'The offshore intake structure and an imagined 2075 retrofit.',
     place: 'Lake Erie Energy & Security Coast', status: 'EXISTING STRUCTURE + FUTURE CONCEPT', cover: cribSketch,
     coverAlt: 'Ink blueprint study pairing an approximate older intake crib with an imagined equipment layer.',
     lead: 'A verified physical landmark anchors this study. The current structure is drawn approximately; the 2075 retrofit is a concept layered onto it, not a design proposal for the real water works.',
@@ -63,7 +63,7 @@ export const essays: Essay[] = [
   },
   {
     key: 'farm', number: '03', slug: 'atlas/farm-2075/', title: 'Farm 2075',
-    subtitle: 'A working landscape with water, nutrients, labor, and repair in view.',
+    subtitle: 'Water controls, cultivation and maintenance on an imagined farm.',
     place: 'Maumee River Commons / Black Swamp Country', status: 'SCENARIO AND DESIGN CONCEPT', cover: farmScene,
     coverAlt: 'Related composite farm illustration with open fields, a working cultivation seam and an old drainage gate.',
     lead: 'This is a synthetic Western Basin farm unit, not a real parcel or a forecast. It explores how familiar field agriculture could coexist with water controls, habitat, power equipment, and the access needed to keep them working.',
@@ -82,10 +82,10 @@ export const essays: Essay[] = [
   },
   {
     key: 'industry', number: '04', slug: 'atlas/industrial-exchange/', title: 'Industrial Exchange',
-    subtitle: 'A more connected district still depends on the outside world.',
+    subtitle: 'Material reuse and outside supplies in an imagined industrial district.',
     place: 'Great Lakes Industrial Belt', status: 'SCENARIO AND DESIGN CONCEPT', cover: industryScene,
     coverAlt: 'Related composite crane hall with removable equipment, distinct material bays and external freight.',
-    lead: 'A speculative 2075 district tests whether industrial exchange can be shown without turning every residual into a resource or every connection into self-sufficiency.',
+    lead: 'This speculative 2075 district explores the work required to reuse industrial materials. A residual needs checks and a compatible user before it can become an input; outside supplies remain necessary.',
     question: 'When does a residual become a usable input?',
     reading: [
       'The district sketch places legacy and advanced manufacturing, recovery, water, energy, ecology, freight, and maintenance in one working landscape.',

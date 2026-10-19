@@ -29,3 +29,19 @@ Use **Glass City 2075**, **Lake Erie Energy & Security Coast 2075**, **Maumee Bi
 “Published” is useful in a dated announcement. Avoid “accepted,” “hero set,” ordinal release badges and production codes in everyday page copy. Keep physical drainage gates, material acceptance and scientific review where they describe the subject. Do not use global search-and-replace.
 
 Prefer one concrete sentence about what people do to a paragraph about how an image was produced. Keep generated-image provenance available in Methods. Preserve source links, stable routes, filenames and historical records.
+
+## Plain-language preference
+
+**User preference recorded 18 October 2026.** Use natural, specific language in
+public headings, navigation, cards and explanations. Name the place, activity or
+data being shown. Avoid slogan-like headings, forced three-part phrases and
+repeated abstract promises about the future. For example, use “Replacing a canopy
+panel” for a repair detail and “Lucas County climate projections” for that study
+section. A line break or italic word should support the layout, not supply the
+point of the sentence.
+
+Keep expressive place and story names, character dialogue and descriptive scenes
+when they suit the fiction. Plain language does not require every heading to sound
+like a technical report. Preserve evidence labels, scientific limits, source
+attribution and Water Conditions Card wording. Edit the public explanation without
+rewriting frozen research, historical records, narrative choices or game rules.
