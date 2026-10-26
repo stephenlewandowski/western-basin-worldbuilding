@@ -11,6 +11,11 @@ from __future__ import annotations
 import argparse
 import json
 import math
+import os
+import shutil
+import sqlite3
+import tempfile
+from contextlib import closing
 from datetime import date
 from pathlib import Path
 from typing import Any
@@ -24,14 +29,17 @@ from matplotlib.patches import Patch
 import networkx as nx
 import numpy as np
 import pandas as pd
+import pyogrio
 import requests
 import yaml
 from PIL import Image
 from shapely.geometry import LineString, Point, box
+from water_source_provenance import read_cache_provenance, record_retrieval, sidecar_path
 
 
 ROOT = Path(__file__).resolve().parents[3]
 RAW = ROOT / "data" / "raw"
+OUTPUT_RAW = None
 PROCESSED = ROOT / "data" / "processed"
 NETWORKS = PROCESSED / "networks"
 MAPS = ROOT / "outputs" / "maps" / "systems"
@@ -39,7 +47,12 @@ FIGURES = ROOT / "outputs" / "figures"
 TABLES = ROOT / "outputs" / "tables"
 REPORTS = ROOT / "reports"
 GPKG = PROCESSED / "glasspunk_base.gpkg"
-RETRIEVED = date.today().isoformat()
+SOURCE_GPKG = GPKG
+# The fixed conceptual records were reviewed for the original release. They
+# are not downloaded by a rebuild. Spatial caches carry their own dates below.
+SOURCE_REVIEW_DATE = "2026-08-29"
+BUILD_DATE = date.today().isoformat()
+SOURCE_PROVENANCE: dict[str, dict[str, Any]] = {}
 
 USGS_WBD = "https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer"
 USGS_NHD = "https://hydro.nationalmap.gov/arcgis/rest/services/NHDPlus_HR/MapServer"
@@ -65,9 +78,55 @@ COLORS = {
 }
 
 
+def configure_output_root(output_root: Path) -> None:
+    """Place every build output in an empty, isolated destination.
+
+    The Phase 1 reports, maps and networks are historical artifacts.  Never
+    write a rebuild into the project itself, except its ignored temp/tmp area.
+    Resolve links before checking the destination to avoid aliasing a protected
+    source or another checkout.
+    """
+    global OUTPUT_RAW, PROCESSED, NETWORKS, MAPS, FIGURES, TABLES, REPORTS, GPKG
+    root = ROOT.resolve()
+    destination = output_root.expanduser().resolve()
+    if destination == root or root.is_relative_to(destination):
+        raise ValueError("Output root cannot be the project root or its ancestor")
+    if destination.is_relative_to(root):
+        permitted = any(destination.is_relative_to(root / name) and destination != root / name
+                        for name in ("temp", "tmp"))
+        if not permitted:
+            raise ValueError("Output inside the project must be a new directory under temp/ or tmp/")
+    # A linked worktree has a .git file, and a checkout has a .git directory.
+    # Do not use a destination nested in another checkout even if it sits in
+    # an otherwise ignored scratch directory.
+    for ancestor in (destination, *destination.parents):
+        if ancestor == root:
+            break
+        if (ancestor / ".git").exists():
+            raise ValueError(f"Output root is inside another Git checkout: {ancestor}")
+    if destination.exists():
+        if not destination.is_dir() or any(destination.iterdir()):
+            raise ValueError(f"Output root must be a new or empty directory: {destination}")
+
+    OUTPUT_RAW = destination / "data" / "raw"
+    PROCESSED = destination / "data" / "processed"
+    NETWORKS = PROCESSED / "networks"
+    MAPS = destination / "outputs" / "maps" / "systems"
+    FIGURES = destination / "outputs" / "figures"
+    TABLES = destination / "outputs" / "tables"
+    REPORTS = destination / "reports"
+    GPKG = PROCESSED / "glasspunk_base.gpkg"
+
+
 def ensure_dirs() -> None:
-    for p in [RAW / "usgs", RAW / "usfws", PROCESSED, NETWORKS, MAPS, FIGURES, TABLES, REPORTS]:
+    if OUTPUT_RAW is None:
+        raise RuntimeError("Configure an isolated output root before building")
+    for p in [OUTPUT_RAW / "usgs", OUTPUT_RAW / "usfws", PROCESSED, NETWORKS, MAPS, FIGURES, TABLES, REPORTS]:
         p.mkdir(parents=True, exist_ok=True)
+
+
+class ArcGISServiceError(RuntimeError):
+    """A service query failed; unlike cache provenance failures, retryable."""
 
 
 def arcgis_geojson(
@@ -81,8 +140,16 @@ def arcgis_geojson(
     max_allowable_offset: float | None = None,
 ) -> gpd.GeoDataFrame:
     """Download a query as paginated GeoJSON, or reuse the raw cache."""
-    if cache.exists():
-        return gpd.read_file(cache)
+    if OUTPUT_RAW is None:
+        raise RuntimeError("Configure an isolated output root before acquiring sources")
+    query = {"where": where, "out_fields": out_fields, "geometry": geometry,
+             "page_size": page_size, "max_allowable_offset": max_allowable_offset}
+    output_cache = OUTPUT_RAW / cache.relative_to(RAW)
+    selected = cache if cache.exists() else output_cache
+    if selected.exists():
+        provenance = read_cache_provenance(selected, url, query)
+        SOURCE_PROVENANCE[url] = {**provenance, "cache": str(selected)}
+        return gpd.read_file(selected)
 
     all_features: list[dict[str, Any]] = []
     offset = 0
@@ -112,7 +179,7 @@ def arcgis_geojson(
         response.raise_for_status()
         payload = response.json()
         if "error" in payload:
-            raise RuntimeError(f"ArcGIS query failed: {payload['error']}")
+            raise ArcGISServiceError(f"ArcGIS query failed: {payload['error']}")
         features = payload.get("features", [])
         all_features.extend(features)
         if len(features) < page_size:
@@ -121,11 +188,13 @@ def arcgis_geojson(
         if offset > 100_000:
             raise RuntimeError("Query pagination exceeded safety limit")
 
-    cache.parent.mkdir(parents=True, exist_ok=True)
-    cache.write_text(
+    output_cache.parent.mkdir(parents=True, exist_ok=True)
+    output_cache.write_text(
         json.dumps({"type": "FeatureCollection", "features": all_features}),
         encoding="utf-8",
     )
+    provenance = record_retrieval(output_cache, url, query)
+    SOURCE_PROVENANCE[url] = {**provenance, "cache": str(output_cache)}
     if not all_features:
         return gpd.GeoDataFrame(geometry=[], crs=WATER_CRS)
     return gpd.GeoDataFrame.from_features(all_features, crs=WATER_CRS)
@@ -145,6 +214,7 @@ def add_common(
     feature_type: str,
     source_name: str,
     source_url: str,
+    retrieved_date: str | None,
     confidence: str = "high",
     canon_status: str = "verified",
     reality_status: str = "real",
@@ -176,7 +246,7 @@ def add_common(
     frame["redundancy"] = pd.NA
     frame["source_name"] = source_name
     frame["source_url_or_identifier"] = source_url
-    frame["retrieved_date"] = RETRIEVED
+    frame["retrieved_date"] = retrieved_date
     frame["confidence"] = confidence
     frame["notes"] = pd.NA
     return frame
@@ -214,17 +284,32 @@ def acquire_layers() -> dict[str, gpd.GeoDataFrame]:
         out_fields="permanent_identifier,gnis_name,areasqkm,ftype,fcode",
         cache=RAW / "usgs" / "nhd_lake_erie.geojson",
     )
+    wetland_cache = RAW / "usfws" / "nwi_nw_ohio_25ac_generalized.geojson"
+    output_wetland_cache = OUTPUT_RAW / wetland_cache.relative_to(RAW)
+    existing_wetland_cache = wetland_cache if wetland_cache.exists() else output_wetland_cache
+    # The service supports two field spellings. A prior fallback download can
+    # be reused with its recorded query; the provenance reader still validates
+    # the complete sidecar and rejects any mismatch.
+    use_fallback_query = False
+    sidecar = sidecar_path(existing_wetland_cache)
+    if existing_wetland_cache.exists() and sidecar.exists():
+        try:
+            metadata = json.loads(sidecar.read_text(encoding="utf-8"))
+            use_fallback_query = metadata.get("query", {}).get("where") == "ACRES >= 25"
+        except (OSError, UnicodeError, json.JSONDecodeError, AttributeError):
+            pass  # The provenance reader reports the malformed sidecar.
     try:
         wetlands = arcgis_geojson(
             f"{USFWS_NWI}/0/query",
-            where="Wetlands.ACRES >= 25",
-            out_fields="Wetlands.ATTRIBUTE,Wetlands.WETLAND_TYPE,Wetlands.ACRES,Wetlands.GLOBALID",
+            where="ACRES >= 25" if use_fallback_query else "Wetlands.ACRES >= 25",
+            out_fields=("ATTRIBUTE,WETLAND_TYPE,ACRES,GLOBALID" if use_fallback_query else
+                        "Wetlands.ATTRIBUTE,Wetlands.WETLAND_TYPE,Wetlands.ACRES,Wetlands.GLOBALID"),
             geometry=",".join(map(str, NWI_FOCUS)),
             cache=RAW / "usfws" / "nwi_nw_ohio_25ac_generalized.geojson",
             page_size=1000,
             max_allowable_offset=0.00025,
         )
-    except Exception:
+    except (requests.RequestException, ArcGISServiceError):
         wetlands = arcgis_geojson(
             f"{USFWS_NWI}/0/query",
             where="ACRES >= 25",
@@ -260,12 +345,14 @@ def acquire_layers() -> dict[str, gpd.GeoDataFrame]:
     huc8 = add_common(
         huc8, prefix="WTR-HUC8-", name_col="name", feature_type="watershed_stock",
         source_name="USGS Watershed Boundary Dataset", source_url=f"{USGS_WBD}/4",
+        retrieved_date=SOURCE_PROVENANCE[f"{USGS_WBD}/4/query"]["retrieved_date"],
         commodity="water / nitrogen / phosphorus source context",
     )
     huc8["feature_id"] = "WTR-HUC8-" + huc8["huc8"].astype(str)
     huc12 = add_common(
         huc12, prefix="WTR-HUC12-", name_col="name", feature_type="subwatershed_stock",
         source_name="USGS Watershed Boundary Dataset", source_url=f"{USGS_WBD}/6",
+        retrieved_date=SOURCE_PROVENANCE[f"{USGS_WBD}/6/query"]["retrieved_date"],
         commodity="water / nitrogen / phosphorus source context",
     )
     huc12["direction"] = "to_huc12"
@@ -273,6 +360,7 @@ def acquire_layers() -> dict[str, gpd.GeoDataFrame]:
     flow = add_common(
         flow, prefix="WTR-FLOW-", name_col="gnis_name", feature_type="river_flow_edge",
         source_name="USGS NHDPlus High Resolution", source_url=f"{USGS_NHD}/3",
+        retrieved_date=SOURCE_PROVENANCE[f"{USGS_NHD}/3/query"]["retrieved_date"],
         commodity="water / suspended and dissolved nutrients",
     )
     flow["direction"] = "digitized downstream (NHDPlus topology)"
@@ -280,6 +368,7 @@ def acquire_layers() -> dict[str, gpd.GeoDataFrame]:
     connectors = add_common(
         connectors, prefix="WTR-HUC-ROUTE-", name_col="name", feature_type="subwatershed_routing_edge",
         source_name="USGS Watershed Boundary Dataset", source_url=f"{USGS_WBD}/6",
+        retrieved_date=SOURCE_PROVENANCE[f"{USGS_WBD}/6/query"]["retrieved_date"],
         confidence="medium", canon_status="inferred", commodity="water / nutrient routing context",
     )
     connectors["feature_id"] = "WTR-HUC-ROUTE-" + connectors["from_huc12"].astype(str)
@@ -288,11 +377,13 @@ def acquire_layers() -> dict[str, gpd.GeoDataFrame]:
     lake = add_common(
         lake, prefix="WTR-LAKE-", name_col="gnis_name", feature_type="receiving_water_stock",
         source_name="USGS NHDPlus High Resolution", source_url=f"{USGS_NHD}/9",
+        retrieved_date=SOURCE_PROVENANCE[f"{USGS_NHD}/9/query"]["retrieved_date"],
         commodity="water / nutrients / ecological response",
     )
     wetlands = add_common(
         wetlands, prefix="WTR-NWI-", name_col="wetland_type", feature_type="current_wetland_stock",
         source_name="USFWS National Wetlands Inventory", source_url=f"{USFWS_NWI}/0",
+        retrieved_date=SOURCE_PROVENANCE[f"{USFWS_NWI}/0/query"]["retrieved_date"],
         commodity="water storage / nutrient interception / habitat",
     )
     wetlands["notes"] = "Public NWI freshwater emergent and forested/shrub wetland polygons >=25 acres in the Northwest Ohio focus window, generalized by the service at 0.00025 degrees for regional display; Lake/Riverine classes excluded; not a jurisdictional determination."
@@ -313,20 +404,20 @@ def construct_nodes_edges() -> tuple[pd.DataFrame, pd.DataFrame, gpd.GeoDataFram
     ohio_epa = "https://dam.assets.ohio.gov/image/upload/epa.ohio.gov/Portals/27/ams/sites/2019/E1-2019_monitorSite_Descs.pdf"
     epa_hab = "https://www.epa.gov/glwqa/lake-erie-water-quality-data"
     rows = [
-        ["WTR-N-LAND", "SYS-WATER", "Agricultural and urban land", "source_stock", "real", "inferred", 2026, None, None, "precipitation / nitrogen / phosphorus", "to drainage", None, None, "source", "high", "distributed", "US EPA Maumee Watershed Nutrient TMDL", "https://www.epa.gov/tmdl/epas-approval-ohios-maumee-watershed-nutrient-total-maximum-daily-load", RETRIEVED, "medium", None, None, "Basin-scale source context; no parcel load values."],
-        ["WTR-N-DRAINAGE", "SYS-WATER", "Drainage and tributaries", "transport_node", "real", "verified", 2026, None, None, "water / nutrients", "downstream", None, None, "transport", "high", "networked", "USGS NHDPlus HR", f"{USGS_NHD}/3", RETRIEVED, "high", None, None, "Spatial geometry stored in the flowline layer."],
-        ["WTR-N-MAUMEE", "SYS-WATER", "Maumee River", "transport_node", "real", "verified", 2026, "Maumee River Commons", "multiple", "water / nitrogen / phosphorus", "to Maumee Bay", None, None, "transport", "high", "low", "USGS NHDPlus HR", f"{USGS_NHD}/3", RETRIEVED, "high", None, None, None],
-        ["WTR-N-BAY", "SYS-WATER", "Maumee Bay", "receiving_water_node", "real", "verified", 2026, None, None, "water / nutrients", "to western Lake Erie", None, None, "receiving water", "high", "low", "USGS NHDPlus HR", f"{USGS_NHD}/9", RETRIEVED, "high", None, None, "Represented within Lake Erie waterbody geometry."],
-        ["WTR-N-WLE", "SYS-WATER", "Western Lake Erie", "receiving_water_node", "real", "verified", 2026, "Lake Erie Energy & Security Coast", "multiple", "water / nutrients", "lake circulation", None, None, "receiving water", "high", "low", "USGS NHDPlus HR", f"{USGS_NHD}/9", RETRIEVED, "high", None, None, None],
-        ["WTR-N-HAB", "SYS-WATER", "HAB ecological response", "response_node", "real", "inferred", 2026, None, None, "cyanobacterial bloom risk", "may affect intake", None, None, "scientific response", "high", "seasonal", "US EPA Lake Erie Water Quality Data", epa_hab, RETRIEVED, "high", None, None, "Conceptual response node, not a mapped 2026 bloom footprint."],
-        ["WTR-N-INTAKE", "SYS-WATER", "City of Toledo Water Intake Crib monitoring location", "intake_node", "real", "verified", 2026, "Lake Erie Energy & Security Coast", "Lake Erie / Glass City Core", "raw Lake Erie water", "to Collins Park", None, None, "intake", "critical", "location ambiguity", "GLOS / IOOS ERDDAP", glos, RETRIEVED, "medium", -83.3079, 41.67496, "Verified public GLOS station coordinate. Historic crib/light references describe other locations; review before treating as the sole physical intake."],
-        ["WTR-N-COLLINS", "SYS-WATER", "Collins Park Water Treatment Plant", "treatment_node", "real", "verified", 2026, "Glass City Core", "Glass City Core", "treated drinking water", "to consumers", 140.0, "MGD design capacity", "treatment", "critical", "upgraded", "City of Toledo / Ohio EPA monitor-site description", city_water + " | " + ohio_epa, RETRIEVED, "high", -83.47596, 41.663405, "Plant coordinate is the co-located Ohio EPA air monitor site; City reports 140 MGD expanded capacity."],
-        ["WTR-N-CONSUMERS", "SYS-WATER", "Toledo regional consumers", "consumer_stock", "real", "verified", 2026, "Glass City Core", "Lucas/Wood/Fulton/Monroe service area", "potable water", "demand / wastewater return", 500000.0, "people served approx.", "demand", "critical", "regional", "City of Toledo Water Treatment", city_water, RETRIEVED, "high", None, None, "City reports approximately 500,000 people and about 75 MGD average production."],
-        ["WTR-N-WETLAND", "SYS-WATER", "Current wetlands", "interception_stock", "real", "inferred", 2026, "Black Swamp Country", "multiple", "water storage / nutrient interception", "feedback to drainage", None, None, "mitigation feedback", "medium", "distributed", "USFWS National Wetlands Inventory", f"{USFWS_NWI}/0", RETRIEVED, "medium", None, None, "Interception is a scientific inference; performance is site-specific and unquantified here."],
-        ["WTR-N-2050-CELLS", "SYS-WATER", "Restored wetland treatment cells", "scenario_intervention", "fictional", "scenario", 2050, "Black Swamp Country", "multiple", "phosphorus interception / storage", "to drainage", None, None, "scenario mitigation", "medium", "distributed", "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml#water-2050-wetland-cells", RETRIEVED, "scenario", None, None, "No coordinates; deployment success is not assumed."],
-        ["WTR-N-2050-SAMPLERS", "SYS-WATER", "Autonomous sampling fleets", "scenario_sensor", "fictional", "scenario", 2050, None, "watershed / lake", "water-quality observations", "to forecast platform", None, None, "scenario monitoring", "medium", "distributed", "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml#water-2050-samplers", RETRIEVED, "scenario", None, None, "No coordinates; conceptual network node."],
-        ["WTR-N-2050-OPS", "SYS-WATER", "Intake-linked watershed operations", "scenario_control", "fictional", "scenario", 2050, None, "watershed / Glass City Core", "decisions / control", "feedback to retention and treatment", None, None, "scenario control", "critical", "unknown", "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml#water-2050-intake-ops", RETRIEVED, "scenario", None, None, "No coordinates; authority and efficacy unresolved."],
-        ["WTR-N-2050-HEALTH", "SYS-WATER", "Neighborhood public-health warning integration", "scenario_decision", "fictional", "scenario", 2050, "Glass City Core", "service area", "risk warnings", "to consumers", None, None, "scenario public health", "high", "unknown", "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml#water-2050-health-warning", RETRIEVED, "scenario", None, None, "No personal exposure records modeled in v0.1."],
+        ["WTR-N-LAND", "SYS-WATER", "Agricultural and urban land", "source_stock", "real", "inferred", 2026, None, None, "precipitation / nitrogen / phosphorus", "to drainage", None, None, "source", "high", "distributed", "US EPA Maumee Watershed Nutrient TMDL", "https://www.epa.gov/tmdl/epas-approval-ohios-maumee-watershed-nutrient-total-maximum-daily-load", SOURCE_REVIEW_DATE, "medium", None, None, "Basin-scale source context; no parcel load values."],
+        ["WTR-N-DRAINAGE", "SYS-WATER", "Drainage and tributaries", "transport_node", "real", "verified", 2026, None, None, "water / nutrients", "downstream", None, None, "transport", "high", "networked", "USGS NHDPlus HR", f"{USGS_NHD}/3", SOURCE_REVIEW_DATE, "high", None, None, "Spatial geometry stored in the flowline layer."],
+        ["WTR-N-MAUMEE", "SYS-WATER", "Maumee River", "transport_node", "real", "verified", 2026, "Maumee River Commons", "multiple", "water / nitrogen / phosphorus", "to Maumee Bay", None, None, "transport", "high", "low", "USGS NHDPlus HR", f"{USGS_NHD}/3", SOURCE_REVIEW_DATE, "high", None, None, None],
+        ["WTR-N-BAY", "SYS-WATER", "Maumee Bay", "receiving_water_node", "real", "verified", 2026, None, None, "water / nutrients", "to western Lake Erie", None, None, "receiving water", "high", "low", "USGS NHDPlus HR", f"{USGS_NHD}/9", SOURCE_REVIEW_DATE, "high", None, None, "Represented within Lake Erie waterbody geometry."],
+        ["WTR-N-WLE", "SYS-WATER", "Western Lake Erie", "receiving_water_node", "real", "verified", 2026, "Lake Erie Energy & Security Coast", "multiple", "water / nutrients", "lake circulation", None, None, "receiving water", "high", "low", "USGS NHDPlus HR", f"{USGS_NHD}/9", SOURCE_REVIEW_DATE, "high", None, None, None],
+        ["WTR-N-HAB", "SYS-WATER", "HAB ecological response", "response_node", "real", "inferred", 2026, None, None, "cyanobacterial bloom risk", "may affect intake", None, None, "scientific response", "high", "seasonal", "US EPA Lake Erie Water Quality Data", epa_hab, SOURCE_REVIEW_DATE, "high", None, None, "Conceptual response node, not a mapped 2026 bloom footprint."],
+        ["WTR-N-INTAKE", "SYS-WATER", "City of Toledo Water Intake Crib monitoring location", "intake_node", "real", "verified", 2026, "Lake Erie Energy & Security Coast", "Lake Erie / Glass City Core", "raw Lake Erie water", "to Collins Park", None, None, "intake", "critical", "location ambiguity", "GLOS / IOOS ERDDAP", glos, SOURCE_REVIEW_DATE, "medium", -83.3079, 41.67496, "Verified public GLOS station coordinate. Historic crib/light references describe other locations; review before treating as the sole physical intake."],
+        ["WTR-N-COLLINS", "SYS-WATER", "Collins Park Water Treatment Plant", "treatment_node", "real", "verified", 2026, "Glass City Core", "Glass City Core", "treated drinking water", "to consumers", 140.0, "MGD design capacity", "treatment", "critical", "upgraded", "City of Toledo / Ohio EPA monitor-site description", city_water + " | " + ohio_epa, SOURCE_REVIEW_DATE, "high", -83.47596, 41.663405, "Plant coordinate is the co-located Ohio EPA air monitor site; City reports 140 MGD expanded capacity."],
+        ["WTR-N-CONSUMERS", "SYS-WATER", "Toledo regional consumers", "consumer_stock", "real", "verified", 2026, "Glass City Core", "Lucas/Wood/Fulton/Monroe service area", "potable water", "demand / wastewater return", 500000.0, "people served approx.", "demand", "critical", "regional", "City of Toledo Water Treatment", city_water, SOURCE_REVIEW_DATE, "high", None, None, "City reports approximately 500,000 people and about 75 MGD average production."],
+        ["WTR-N-WETLAND", "SYS-WATER", "Current wetlands", "interception_stock", "real", "inferred", 2026, "Black Swamp Country", "multiple", "water storage / nutrient interception", "feedback to drainage", None, None, "mitigation feedback", "medium", "distributed", "USFWS National Wetlands Inventory", f"{USFWS_NWI}/0", SOURCE_REVIEW_DATE, "medium", None, None, "Interception is a scientific inference; performance is site-specific and unquantified here."],
+        ["WTR-N-2050-CELLS", "SYS-WATER", "Restored wetland treatment cells", "scenario_intervention", "fictional", "scenario", 2050, "Black Swamp Country", "multiple", "phosphorus interception / storage", "to drainage", None, None, "scenario mitigation", "medium", "distributed", "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml#water-2050-wetland-cells", SOURCE_REVIEW_DATE, "scenario", None, None, "No coordinates; deployment success is not assumed."],
+        ["WTR-N-2050-SAMPLERS", "SYS-WATER", "Autonomous sampling fleets", "scenario_sensor", "fictional", "scenario", 2050, None, "watershed / lake", "water-quality observations", "to forecast platform", None, None, "scenario monitoring", "medium", "distributed", "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml#water-2050-samplers", SOURCE_REVIEW_DATE, "scenario", None, None, "No coordinates; conceptual network node."],
+        ["WTR-N-2050-OPS", "SYS-WATER", "Intake-linked watershed operations", "scenario_control", "fictional", "scenario", 2050, None, "watershed / Glass City Core", "decisions / control", "feedback to retention and treatment", None, None, "scenario control", "critical", "unknown", "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml#water-2050-intake-ops", SOURCE_REVIEW_DATE, "scenario", None, None, "No coordinates; authority and efficacy unresolved."],
+        ["WTR-N-2050-HEALTH", "SYS-WATER", "Neighborhood public-health warning integration", "scenario_decision", "fictional", "scenario", 2050, "Glass City Core", "service area", "risk warnings", "to consumers", None, None, "scenario public health", "high", "unknown", "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml#water-2050-health-warning", SOURCE_REVIEW_DATE, "scenario", None, None, "No personal exposure records modeled in v0.1."],
     ]
     nodes = pd.DataFrame(rows, columns=NODE_COLUMNS)
 
@@ -337,21 +428,21 @@ def construct_nodes_edges() -> tuple[pd.DataFrame, pd.DataFrame, gpd.GeoDataFram
         "source_url_or_identifier", "retrieved_date", "confidence", "notes",
     ]
     edge_rows = [
-        ["WTR-E-001", "SYS-WATER", "WTR-N-LAND", "WTR-N-DRAINAGE", "runoff / drainage", "downstream", None, None, "storm and seasonal", "source accumulation", None, "scientific_inference", "real", "inferred", 2026, "US EPA Maumee TMDL", "https://www.epa.gov/tmdl/epas-approval-ohios-maumee-watershed-nutrient-total-maximum-daily-load", RETRIEVED, "high", "Quantitative load intentionally null."],
-        ["WTR-E-002", "SYS-WATER", "WTR-N-DRAINAGE", "WTR-N-MAUMEE", "tributary delivery", "downstream", None, None, "variable; spring critical", "reduced/altered delivery", None, "observed", "real", "verified", 2026, "USGS NHDPlus HR", f"{USGS_NHD}/3", RETRIEVED, "high", None],
-        ["WTR-E-003", "SYS-WATER", "WTR-N-MAUMEE", "WTR-N-BAY", "river discharge / nutrients", "downstream", None, None, "spring phosphorus load important", "receiving-water load changes", None, "observed", "real", "verified", 2026, "US EPA Lake Erie Water Quality Data", epa_hab, RETRIEVED, "high", None],
-        ["WTR-E-004", "SYS-WATER", "WTR-N-BAY", "WTR-N-WLE", "bay-lake exchange", "outward / bidirectional circulation", None, None, "wind and flow dependent", "retention/dispersion changes", None, "scientific_inference", "real", "inferred", 2026, "NOAA Lake Erie HAB Forecast", "https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/lake-erie/", RETRIEVED, "high", None],
-        ["WTR-E-005", "SYS-WATER", "WTR-N-WLE", "WTR-N-HAB", "nutrient-driven ecological response", "causal pathway", None, None, "summer bloom response", "ecological/public-health risk", None, "scientific_inference", "real", "inferred", 2026, "US EPA Lake Erie Water Quality Data", epa_hab, RETRIEVED, "high", "Not deterministic; weather, circulation, and biology mediate response."],
-        ["WTR-E-006", "SYS-WATER", "WTR-N-HAB", "WTR-N-INTAKE", "raw-water hazard", "exposure pathway", None, None, "bloom season", "treatment challenge", None, "engineering_dependency", "real", "verified", 2026, "City of Toledo Water Quality", "https://toledo.oh.gov/residents/water/quality", RETRIEVED, "high", None],
-        ["WTR-E-007", "SYS-WATER", "WTR-N-INTAKE", "WTR-N-COLLINS", "raw water", "to treatment", None, "MGD", "continuous", "loss of source supply", None, "engineering_dependency", "real", "verified", 2026, "City of Toledo Water Treatment", city_water, RETRIEVED, "high", None],
-        ["WTR-E-008", "SYS-WATER", "WTR-N-COLLINS", "WTR-N-CONSUMERS", "potable water", "distribution", 75.0, "MGD average", "continuous", "service/public-health failure", None, "engineering_dependency", "real", "verified", 2026, "City of Toledo Water Treatment", city_water, RETRIEVED, "high", "Average production, not edge capacity."],
-        ["WTR-E-009", "SYS-WATER", "WTR-N-WETLAND", "WTR-N-DRAINAGE", "retention / delayed release", "feedback", None, None, "site and storm dependent", "reduced storage/retention", None, "scientific_inference", "real", "inferred", 2026, "USFWS NWI", f"{USFWS_NWI}/0", RETRIEVED, "medium", "No removal efficiency assigned."],
-        ["WTR-E-050", "SYS-WATER", "WTR-N-2050-CELLS", "WTR-N-DRAINAGE", "managed retention", "feedback", None, None, "adaptive", "uneven performance or failure", "2050 delta: added treatment stocks", "scenario_assumption", "fictional", "scenario", 2050, "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml", RETRIEVED, "scenario", None],
-        ["WTR-E-051", "SYS-WATER", "WTR-N-2050-SAMPLERS", "WTR-N-2050-OPS", "observations", "to control", None, None, "continuous / event driven", "blind spots / spoofing", "2050 delta: autonomous monitoring", "scenario_assumption", "fictional", "scenario", 2050, "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml", RETRIEVED, "scenario", None],
-        ["WTR-E-052", "SYS-WATER", "WTR-N-2050-OPS", "WTR-N-2050-CELLS", "control decision", "feedback", None, None, "event driven", "maladaptation / authority conflict", "2050 delta: intake-linked operations", "scenario_assumption", "fictional", "scenario", 2050, "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml", RETRIEVED, "scenario", None],
-        ["WTR-E-053", "SYS-WATER", "WTR-N-2050-OPS", "WTR-N-COLLINS", "forecast / treatment decision", "feedback", None, None, "event driven", "false positive/negative", "2050 delta: linked operations", "scenario_assumption", "fictional", "scenario", 2050, "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml", RETRIEVED, "scenario", None],
-        ["WTR-E-054", "SYS-WATER", "WTR-N-COLLINS", "WTR-N-2050-HEALTH", "water-quality status", "to warning system", None, None, "event driven", "delayed/missed warning", "2050 delta: public-health integration", "scenario_assumption", "fictional", "scenario", 2050, "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml", RETRIEVED, "scenario", None],
-        ["WTR-E-055", "SYS-WATER", "WTR-N-2050-HEALTH", "WTR-N-CONSUMERS", "public-health warning", "to users", None, None, "event driven", "inequitable access / alert fatigue", "2050 delta: neighborhood warning", "scenario_assumption", "fictional", "scenario", 2050, "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml", RETRIEVED, "scenario", None],
+        ["WTR-E-001", "SYS-WATER", "WTR-N-LAND", "WTR-N-DRAINAGE", "runoff / drainage", "downstream", None, None, "storm and seasonal", "source accumulation", None, "scientific_inference", "real", "inferred", 2026, "US EPA Maumee TMDL", "https://www.epa.gov/tmdl/epas-approval-ohios-maumee-watershed-nutrient-total-maximum-daily-load", SOURCE_REVIEW_DATE, "high", "Quantitative load intentionally null."],
+        ["WTR-E-002", "SYS-WATER", "WTR-N-DRAINAGE", "WTR-N-MAUMEE", "tributary delivery", "downstream", None, None, "variable; spring critical", "reduced/altered delivery", None, "observed", "real", "verified", 2026, "USGS NHDPlus HR", f"{USGS_NHD}/3", SOURCE_REVIEW_DATE, "high", None],
+        ["WTR-E-003", "SYS-WATER", "WTR-N-MAUMEE", "WTR-N-BAY", "river discharge / nutrients", "downstream", None, None, "spring phosphorus load important", "receiving-water load changes", None, "observed", "real", "verified", 2026, "US EPA Lake Erie Water Quality Data", epa_hab, SOURCE_REVIEW_DATE, "high", None],
+        ["WTR-E-004", "SYS-WATER", "WTR-N-BAY", "WTR-N-WLE", "bay-lake exchange", "outward / bidirectional circulation", None, None, "wind and flow dependent", "retention/dispersion changes", None, "scientific_inference", "real", "inferred", 2026, "NOAA Lake Erie HAB Forecast", "https://coastalscience.noaa.gov/science-areas/habs/hab-forecasts/lake-erie/", SOURCE_REVIEW_DATE, "high", None],
+        ["WTR-E-005", "SYS-WATER", "WTR-N-WLE", "WTR-N-HAB", "nutrient-driven ecological response", "causal pathway", None, None, "summer bloom response", "ecological/public-health risk", None, "scientific_inference", "real", "inferred", 2026, "US EPA Lake Erie Water Quality Data", epa_hab, SOURCE_REVIEW_DATE, "high", "Not deterministic; weather, circulation, and biology mediate response."],
+        ["WTR-E-006", "SYS-WATER", "WTR-N-HAB", "WTR-N-INTAKE", "raw-water hazard", "exposure pathway", None, None, "bloom season", "treatment challenge", None, "engineering_dependency", "real", "verified", 2026, "City of Toledo Water Quality", "https://toledo.oh.gov/residents/water/quality", SOURCE_REVIEW_DATE, "high", None],
+        ["WTR-E-007", "SYS-WATER", "WTR-N-INTAKE", "WTR-N-COLLINS", "raw water", "to treatment", None, "MGD", "continuous", "loss of source supply", None, "engineering_dependency", "real", "verified", 2026, "City of Toledo Water Treatment", city_water, SOURCE_REVIEW_DATE, "high", None],
+        ["WTR-E-008", "SYS-WATER", "WTR-N-COLLINS", "WTR-N-CONSUMERS", "potable water", "distribution", 75.0, "MGD average", "continuous", "service/public-health failure", None, "engineering_dependency", "real", "verified", 2026, "City of Toledo Water Treatment", city_water, SOURCE_REVIEW_DATE, "high", "Average production, not edge capacity."],
+        ["WTR-E-009", "SYS-WATER", "WTR-N-WETLAND", "WTR-N-DRAINAGE", "retention / delayed release", "feedback", None, None, "site and storm dependent", "reduced storage/retention", None, "scientific_inference", "real", "inferred", 2026, "USFWS NWI", f"{USFWS_NWI}/0", SOURCE_REVIEW_DATE, "medium", "No removal efficiency assigned."],
+        ["WTR-E-050", "SYS-WATER", "WTR-N-2050-CELLS", "WTR-N-DRAINAGE", "managed retention", "feedback", None, None, "adaptive", "uneven performance or failure", "2050 delta: added treatment stocks", "scenario_assumption", "fictional", "scenario", 2050, "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml", SOURCE_REVIEW_DATE, "scenario", None],
+        ["WTR-E-051", "SYS-WATER", "WTR-N-2050-SAMPLERS", "WTR-N-2050-OPS", "observations", "to control", None, None, "continuous / event driven", "blind spots / spoofing", "2050 delta: autonomous monitoring", "scenario_assumption", "fictional", "scenario", 2050, "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml", SOURCE_REVIEW_DATE, "scenario", None],
+        ["WTR-E-052", "SYS-WATER", "WTR-N-2050-OPS", "WTR-N-2050-CELLS", "control decision", "feedback", None, None, "event driven", "maladaptation / authority conflict", "2050 delta: intake-linked operations", "scenario_assumption", "fictional", "scenario", 2050, "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml", SOURCE_REVIEW_DATE, "scenario", None],
+        ["WTR-E-053", "SYS-WATER", "WTR-N-2050-OPS", "WTR-N-COLLINS", "forecast / treatment decision", "feedback", None, None, "event driven", "false positive/negative", "2050 delta: linked operations", "scenario_assumption", "fictional", "scenario", 2050, "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml", SOURCE_REVIEW_DATE, "scenario", None],
+        ["WTR-E-054", "SYS-WATER", "WTR-N-COLLINS", "WTR-N-2050-HEALTH", "water-quality status", "to warning system", None, None, "event driven", "delayed/missed warning", "2050 delta: public-health integration", "scenario_assumption", "fictional", "scenario", 2050, "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml", SOURCE_REVIEW_DATE, "scenario", None],
+        ["WTR-E-055", "SYS-WATER", "WTR-N-2050-HEALTH", "WTR-N-CONSUMERS", "public-health warning", "to users", None, None, "event driven", "inequitable access / alert fatigue", "2050 delta: neighborhood warning", "scenario_assumption", "fictional", "scenario", 2050, "Glasspunk scenario assumption", "metadata/scenario_assumptions.yml", SOURCE_REVIEW_DATE, "scenario", None],
     ]
     edges = pd.DataFrame(edge_rows, columns=edge_cols)
     point_nodes = nodes.dropna(subset=["longitude", "latitude"]).copy()
@@ -363,9 +454,47 @@ def construct_nodes_edges() -> tuple[pd.DataFrame, pd.DataFrame, gpd.GeoDataFram
     return nodes, edges, points
 
 
-def write_gpkg(layers: dict[str, gpd.GeoDataFrame], points: gpd.GeoDataFrame) -> None:
-    if GPKG.exists():
-        GPKG.unlink()
+def _other_layer_inventory(path: Path, owned: set[str]) -> dict[str, tuple]:
+    """Record non-water layer metadata and row counts before and after writing."""
+    with closing(sqlite3.connect(path)) as db:
+        entries = db.execute("SELECT * FROM gpkg_contents").fetchall()
+        result = {}
+        for entry in entries:
+            name = entry[0]
+            if name in owned:
+                continue
+            quoted = '"' + name.replace('"', '""') + '"'
+            result[name] = (entry, db.execute(f"SELECT COUNT(*) FROM {quoted}").fetchone()[0])
+        return result
+
+
+def write_gpkg(
+    layers: dict[str, gpd.GeoDataFrame], points: gpd.GeoDataFrame, *,
+    output_gpkg: Path | None = None, source_gpkg: Path | None = None,
+) -> None:
+    """Update owned layers on a staged copy, preserving every other layer.
+
+    An existing destination is the seed on repeat calls; otherwise the current
+    project GeoPackage is copied.  Only a fully written and checked copy is
+    published, so a write failure cannot destroy either original.
+    """
+    target = Path(output_gpkg if output_gpkg is not None else GPKG).resolve()
+    source = Path(source_gpkg if source_gpkg is not None else SOURCE_GPKG).resolve()
+    root = ROOT.resolve()
+    if target.is_relative_to(root) and not any(
+        target.is_relative_to(root / name) for name in ("temp", "tmp")
+    ):
+        raise ValueError("The output GeoPackage cannot overwrite protected project artifacts")
+    for ancestor in target.parents:
+        if ancestor == root:
+            break
+        if (ancestor / ".git").exists():
+            raise ValueError(f"The output GeoPackage is inside another Git checkout: {ancestor}")
+    if target == source:
+        raise ValueError("The output GeoPackage must not replace its source")
+    seed = target if target.exists() else source
+    if not seed.is_file():
+        raise FileNotFoundError(f"Seed GeoPackage not found: {seed}")
     layer_map = {
         "huc8": "water_watersheds_huc8",
         "huc12": "water_subwatersheds_huc12",
@@ -374,9 +503,24 @@ def write_gpkg(layers: dict[str, gpd.GeoDataFrame], points: gpd.GeoDataFrame) ->
         "lake": "water_lake_erie",
         "wetlands": "water_current_wetlands_25ac",
     }
-    for key, layer_name in layer_map.items():
-        layers[key].to_file(GPKG, layer=layer_name, driver="GPKG", index=False)
-    points.to_file(GPKG, layer="water_verified_facilities", driver="GPKG", index=False)
+    owned = set(layer_map.values()) | {"water_verified_facilities"}
+    target.parent.mkdir(parents=True, exist_ok=True)
+    before = _other_layer_inventory(seed, owned)
+    handle, temp_name = tempfile.mkstemp(prefix=".water-build-", suffix=".gpkg", dir=target.parent)
+    os.close(handle)
+    staged = Path(temp_name)
+    try:
+        shutil.copy2(seed, staged)
+        for key, layer_name in layer_map.items():
+            layers[key].to_file(staged, layer=layer_name, driver="GPKG", index=False)
+        points.to_file(staged, layer="water_verified_facilities", driver="GPKG", index=False)
+        if _other_layer_inventory(staged, owned) != before:
+            raise RuntimeError("GeoPackage update changed an unrelated layer; no output was replaced")
+        if not owned.issubset(set(pyogrio.list_layers(staged)[:, 0])):
+            raise RuntimeError("GeoPackage update did not produce all water layers")
+        os.replace(staged, target)
+    finally:
+        staged.unlink(missing_ok=True)
 
 
 def setup_axis(ax: plt.Axes, title: str, question: str) -> None:
@@ -388,7 +532,7 @@ def setup_axis(ax: plt.Axes, title: str, question: str) -> None:
 
 def source_footer(fig: plt.Figure, text: str) -> None:
     fig.text(0.012, 0.012, text, fontsize=7.2, color="#56666b")
-    fig.text(0.988, 0.012, f"Glasspunk Water System v0.1 | built {RETRIEVED}", fontsize=7.2, ha="right", color="#56666b")
+    fig.text(0.988, 0.012, f"Glasspunk Water System v0.1 | built {BUILD_DATE}", fontsize=7.2, ha="right", color="#56666b")
 
 
 def save_pair(fig: plt.Figure, stem: str) -> None:
@@ -582,9 +726,21 @@ def export_r_render_data(data: dict[str, gpd.GeoDataFrame], points: gpd.GeoDataF
 
 
 def write_reports(data: dict[str, gpd.GeoDataFrame], nodes: pd.DataFrame, edges: pd.DataFrame) -> None:
+    retrieval_rows = "\n".join(
+        f"| {url} | {entry['retrieved_date'] or 'unknown'} | {entry['status']} | `{entry['sha256']}` |"
+        for url, entry in sorted(SOURCE_PROVENANCE.items())
+    )
     sources = f"""# Water System v0.1 — Sources
 
-Retrieved: {RETRIEVED}
+Rebuilt: {BUILD_DATE}. The conceptual records retain their original source-review
+date, {SOURCE_REVIEW_DATE}; those references are not fetched by this rebuild.
+This is a historical-template reproduction, not the current project source review.
+
+| Spatial source query | Source retrieved | Provenance | Cache SHA-256 |
+|---|---|---|---|
+{retrieval_rows}
+
+Query details and cache paths are in the build manifest.
 
 | Layer / claim | Source | Status | Use and limitation |
 |---|---|---|---|
@@ -612,7 +768,7 @@ Retrieved: {RETRIEVED}
 """
     qa = f"""# Water System v0.1 — QA
 
-Built: {RETRIEVED}
+Built: {BUILD_DATE}
 
 ## Automated checks
 
@@ -626,7 +782,7 @@ Built: {RETRIEVED}
 - [x] Nutrient quantities are null except separately sourced City system figures.
 - [x] PNG and SVG pairs exist for Maps 01–05.
 - [x] Python graph render exists in PNG/SVG.
-- [x] Base-R renderer consumes exported geographic line coordinates independently.
+- [ ] Base-R renderer was not run by this rebuild; exported coordinates are available for separate validation.
 
 ## Counts
 
@@ -649,7 +805,7 @@ Detailed Phase 2 modeling should not proceed until items 1–2 are dispositioned
 """
     handoff = f"""# Water System v0.1 — Phase 1 Handoff
 
-Built: {RETRIEVED}
+Built: {BUILD_DATE}
 
 ## Datasets used
 
@@ -664,7 +820,7 @@ Built: {RETRIEVED}
 - Cached bounded public-service responses; retained original source attributes and stable identifiers.
 - Created WBD `tohuc` routing connectors for full-basin topology; these are marked inferred and are not physical waterways.
 - Generalized NWI display geometry at 0.00025 degrees and map-only render copies at documented tolerances.
-- Built the GeoPackage, node/edge CSVs, five PNG/SVG map pairs, Python network diagram, and independent R QA render.
+- Built the GeoPackage, node/edge CSVs, five PNG/SVG map pairs, and Python network diagram. The independent R QA render was not run by this builder.
 
 ## Factual / inferred / fictional separation
 
@@ -683,10 +839,13 @@ Built: {RETRIEVED}
 
 Major QA gates remain, so detailed Phase 2 modeling has not been started.
 """
-    (REPORTS / "water_system_sources.md").write_text(sources, encoding="utf-8")
-    (REPORTS / "water_system_assumptions.md").write_text(assumptions, encoding="utf-8")
-    (REPORTS / "water_system_qa.md").write_text(qa, encoding="utf-8")
-    (REPORTS / "water_system_phase1_handoff.md").write_text(handoff, encoding="utf-8")
+    notice = ("> Historical-template rebuild, not a current review or release. "
+              "Consult the project's current hydrography reconciliation and intake "
+              "coordinate resolution; subsequent decisions are not incorporated here.\n\n")
+    (REPORTS / "water_system_sources.md").write_text(notice + sources, encoding="utf-8")
+    (REPORTS / "water_system_assumptions.md").write_text(notice + assumptions, encoding="utf-8")
+    (REPORTS / "water_system_qa.md").write_text(notice + qa, encoding="utf-8")
+    (REPORTS / "water_system_phase1_handoff.md").write_text(notice + handoff, encoding="utf-8")
 
 
 def validate(nodes: pd.DataFrame, edges: pd.DataFrame, data: dict[str, gpd.GeoDataFrame]) -> None:
@@ -711,16 +870,27 @@ def validate(nodes: pd.DataFrame, edges: pd.DataFrame, data: dict[str, gpd.GeoDa
 
 
 def main() -> None:
+    global RAW
     parser = argparse.ArgumentParser()
     parser.add_argument("--historical-swamp-image", type=Path, default=None)
+    parser.add_argument("--output-root", type=Path, required=True,
+                        help="New or empty build directory; protected project artifacts are not overwritten")
+    parser.add_argument("--source-gpkg", type=Path, default=SOURCE_GPKG,
+                        help="Existing current-development GeoPackage to copy as the build seed")
+    parser.add_argument("--source-raw", type=Path, default=RAW,
+                        help="Read-only raw cache directory (defaults to the project's data/raw)")
     args = parser.parse_args()
+    RAW = args.source_raw.expanduser().resolve()
+    if not args.source_gpkg.is_file():
+        parser.error(f"Seed GeoPackage not found: {args.source_gpkg}")
+    configure_output_root(args.output_root)
     ensure_dirs()
     data = acquire_layers()
     nodes, edges, points = construct_nodes_edges()
     validate(nodes, edges, data)
     nodes.to_csv(NETWORKS / "water_system_nodes.csv", index=False)
     edges.to_csv(NETWORKS / "water_system_edges.csv", index=False)
-    write_gpkg(data, points)
+    write_gpkg(data, points, source_gpkg=args.source_gpkg)
     render_maps(data, points, args.historical_swamp_image)
     render_network(nodes, edges)
     export_r_render_data(data, points)
@@ -728,7 +898,9 @@ def main() -> None:
     manifest = {
         "system": "water",
         "version": "0.1",
-        "built": RETRIEVED,
+        "built": BUILD_DATE,
+        "conceptual_source_review_date": SOURCE_REVIEW_DATE,
+        "spatial_sources": SOURCE_PROVENANCE,
         "layers": {k: len(v) for k, v in data.items()},
         "nodes": len(nodes),
         "edges": len(edges),

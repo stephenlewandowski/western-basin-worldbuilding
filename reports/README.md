@@ -180,12 +180,12 @@ The historical v0.1 release builds the Phase 1 Water System only. Current develo
 Phase 3A adds the factual 2026 energy / grid / compute baseline and Map 11. See `energy_system_sources.md`, `energy_system_assumptions.md`, `energy_system_qa.md`, `energy_system_manifest.json`, and `energy_system_artifact_check.json`.
 
 ```powershell
-.\.venv\Scripts\python.exe src\python\systems\build_water_system.py --historical-swamp-image "C:\Users\slewa\Downloads\Great Black Swamp.jpeg"
-Rscript src\R\systems\validate_water_system.R .
-Rscript src\R\systems\render_water_system.R .
+.\.venv\Scripts\python.exe src\python\systems\build_water_system.py --output-root temp\water-rebuild --historical-swamp-image "C:\Users\slewa\Downloads\Great Black Swamp.jpeg"
+Rscript src\R\systems\validate_water_system.R temp\water-rebuild
+Rscript src\R\systems\render_water_system.R temp\water-rebuild
 ```
 
-Raw public-service responses are cached under `data/raw`. Delete a specific cached response only when intentionally refreshing that source.
+Reruns use a new output directory and leave protected artifacts and source caches untouched. See [water builder rerun instructions](../docs/water_system_builder.md) for source provenance and GeoPackage preservation.
 
 ## Great Black Swamp Phase 1 follow-up QA
 
