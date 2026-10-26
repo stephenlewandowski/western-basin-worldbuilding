@@ -233,6 +233,49 @@ class ModelLabV01ATest(unittest.TestCase):
         _csv(path, fields, rows)
         self.assertTrue(any("edge out" in problem or "edge in" in problem for problem in validate_run(self.out)))
 
+    def test_validator_detects_corrupt_edge_provenance(self) -> None:
+        # The source HUC's balance row records the qualified route. Edge
+        # metadata must agree even when all quantities and endpoints balance.
+        self._run(self._rows(H1))
+        path = self.out / "edge_flux.csv"
+        with path.open(newline="", encoding="utf-8") as stream:
+            reader = csv.DictReader(stream)
+            fields = tuple(reader.fieldnames or ())
+            original = list(reader)
+        self.assertTrue(original)
+        for field, replacement in (
+            ("routing_basis", "project_inference"),
+            ("qa_status", "UNRESOLVED"),
+            ("assumed_unresolved", "True"),
+        ):
+            with self.subTest(field=field):
+                rows = [row.copy() for row in original]
+                rows[0][field] = replacement
+                _csv(path, fields, rows)
+                self.assertTrue(any(field in problem for problem in validate_run(self.out)))
+
+    def test_validator_accepts_correct_assumed_unresolved_edge_provenance(self) -> None:
+        result = self._run(self._rows(H2), policy="assume_wbd")
+        self.assertTrue(any(row["qa_status"] == "UNRESOLVED" and row["assumed_unresolved"] == "True"
+                            for row in result.edges))
+
+    def test_validator_detects_consistent_but_unsourced_route_class(self) -> None:
+        self._run(self._rows(H1))
+        # Corrupt both tables consistently, preserving a recognized routing
+        # class, geometry flag, endpoints, quantities, and source hashes.
+        for filename in ("huc_balance.csv", "edge_flux.csv"):
+            path = self.out / filename
+            with path.open(newline="", encoding="utf-8") as stream:
+                reader = csv.DictReader(stream)
+                fields = tuple(reader.fieldnames or ())
+                rows = list(reader)
+            for row in rows:
+                if row.get("huc12", row.get("from_huc12")) == H1:
+                    row["qa_status"] = "ALREADY_REDUNDANT"
+                    row["routing_basis"] = "physical_nhdplus_hr_existing"
+            _csv(path, fields, rows)
+        self.assertTrue(any("qualified routing source" in problem for problem in validate_run(self.out)))
+
     def test_validator_detects_corrupt_written_summary(self) -> None:
         self._run(self._rows(H1))
         path = self.out / "boundary_summary.csv"
