@@ -432,6 +432,32 @@ def validate_run(run_dir: Path) -> list[str]:
         }
         if len(routes) > 1:
             errors.append(f"{huc}: route metadata differ across constituents")
+
+    # Source hashes establish which routing file was recorded, but do not
+    # establish that the output ledger actually describes that file. Compare
+    # each route and its evidence class with the hashed qualified source.
+    routing_source = manifest["source_files"]["qualified_routing"]
+    source_rows = _read_csv(_resolve_source_path(routing_source["path"]), errors)
+    source_by_huc: dict[str, dict[str, str]] = {}
+    for row in source_rows:
+        source = row.get("from_huc12", "")
+        if not source or source in source_by_huc:
+            errors.append(f"qualified routing source has missing or duplicate from_huc12: {source!r}")
+        else:
+            source_by_huc[source] = row
+    if set(source_by_huc) != hucs - {terminal}:
+        errors.append("qualified routing source HUCs differ from ledger nonterminal HUCs")
+    for huc in hucs - {terminal}:
+        source_row = source_by_huc.get(huc)
+        ledger_row = by_constituent["water"].get(huc)
+        if source_row is None or ledger_row is None:
+            continue
+        for ledger_field, source_field in (
+            ("route_to_huc12", "to_huc12"), ("routing_basis", "routing_basis"),
+            ("qa_status", "qa_status"), ("physical_geometry", "physical_geometry"),
+        ):
+            if ledger_row.get(ledger_field) != source_row.get(source_field):
+                errors.append(f"{huc}: {ledger_field} differs from qualified routing source")
     for constituent, by_huc in by_constituent.items():
         for huc, row in by_huc.items():
             boundary = balance_amount[(constituent, huc)]["boundary_export"]
@@ -463,6 +489,11 @@ def validate_run(run_dir: Path) -> list[str]:
         source_row = by_constituent[constituent].get(source, {})
         if source_row.get("route_to_huc12") != target:
             errors.append(f"{where}: edge contradicts qualified route")
+        for field in ("routing_basis", "qa_status"):
+            if row.get(field) != source_row.get(field):
+                errors.append(f"{where}: {field} differs from source HUC balance")
+        if row.get("assumed_unresolved") != str(source_row.get("qa_status") == "UNRESOLVED"):
+            errors.append(f"{where}: assumed_unresolved differs from source HUC balance")
         if policy == "strict" and source_row.get("qa_status") == "UNRESOLVED":
             errors.append(f"{where}: strict policy routed across unresolved edge")
         amount = _decimal(row, "amount", where, errors)
